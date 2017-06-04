@@ -39,7 +39,7 @@ int rot13_test()
 
 int rot13_test_file(char* filename)
 {
-    BYTE *data, *dataAux, *buf;
+    BYTE *data, *buf;
     int pass = 1;
     int n = strlen(filename);
     int i;
@@ -50,26 +50,30 @@ int rot13_test_file(char* filename)
 
     if (data != NULL && file) {
 
-        char fname_aux[80];
+        char filename_copy[80];
         char ext[5];
 
+        // grava a extensao em ext
         for (i = 0; i < 4; i++) {
             ext[i] = filename[n-4+i];
         }
         ext[4] = '\0';
 
+        // apaga a extensão
         filename[n-4] = '\0';
-        strcpy(fname_aux, filename);
 
+        strcpy(filename_copy, filename);
+
+        // anexa o sufixo _enc."ext"
         strcat(filename, "_enc");
         strcat(filename, ext);
         
-        strcat(fname_aux, "_dec");
-        strcat(fname_aux, ext);
+        strcat(filename_copy, "_dec");
+        strcat(filename_copy, ext);
         
 
         FILE *enc_file = fopen(filename, "wb+");
-        FILE *dec_file = fopen(fname_aux, "wb+");
+        FILE *dec_file = fopen(filename_copy, "wb+");
 
         while ((n = fread(data, sizeof(BYTE), 10, file)) > 0) {
             memcpy(buf, data, n);
@@ -93,13 +97,29 @@ int rot13_test_file(char* filename)
     return pass;
 }
 
+void rot13_test_all_files() {
+    int i;
+    char filenames[8][80] = 
+        {"sample_files/hubble_1.tif", 
+         "sample_files/hubble_2.png",
+         "sample_files/hubble_3.tif",
+         "sample_files/king_james_bible.txt",
+         "sample_files/mercury.png",
+         "sample_files/moby_dick.txt",
+         "sample_files/tale_of_two_cities.txt",
+         "sample_files/ulysses.txt"
+    };
+
+    for (i = 0; i < 8; i++) {
+        printf("ROT-13 test file: %s ==> %s\n", filenames[i], rot13_test_file(filenames[i]) ? "SUCCEEDED" : "FAILED");   
+    }
+}
+
 int main(int argc, char** argv)
 {
-    char filename[80];
-    strcpy(filename, argv[1]);
-
-    printf("ROT-13 test1: %s\n", rot13_test() ? "SUCCEEDED" : "FAILED");
-    printf("ROT-13 test2: %s\n", rot13_test_file(filename) ? "SUCCEEDED" : "FAILED");
+    printf("ROT-13 test step 1: %s\n", rot13_test() ? "SUCCEEDED" : "FAILED");
+    printf("ROT-13 test step 2:\n\n");
+    rot13_test_all_files();
 
     return 0;
 }
