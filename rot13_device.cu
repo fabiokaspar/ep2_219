@@ -11,19 +11,20 @@
 
 /*************************** HEADER FILES ***************************/
 #include <string.h>
+#include <stdio.h>
 #include <cuda_runtime.h>
 #include "rot-13.h"
 
 /*********************** FUNCTION DEFINITIONS ***********************/
-__global__ void rot13(char* str, int len)
+__global__ void rot13(BYTE* str, int len)
 {
    int case_type, idx;
    idx = blockIdx.x * blockDim.x + threadIdx.x;
 
    if (idx < len) {
       // Only process alphabetic characters.
-      if (str[idx] < 'A' || (str[idx] > 'Z' && str[idx] < 'a') || str[idx] > 'z')
-         continue;
+      if (!(str[idx] < 'A' || (str[idx] > 'Z' && str[idx] < 'a') || str[idx] > 'z')){
+
       // Determine if the char is upper or lower case.
       if (str[idx] >= 'a')
          case_type = 'a';
@@ -33,6 +34,7 @@ __global__ void rot13(char* str, int len)
       str[idx] = (str[idx] + 13) % (case_type + 26);
       if (str[idx] < 26)
          str[idx] += case_type;
+      }
    }
 }
 
@@ -51,7 +53,7 @@ int main (int argc, char** argv)
 
     int n = strlen(filename);
 
-    cudaMalloc((void**) &d_data, sizeof(BYTE) * 10, );
+    cudaMalloc((void**) &d_data, sizeof(BYTE) * 10);
     data = (BYTE *) malloc(sizeof(BYTE) * 10);
     buf = (BYTE *) malloc(sizeof(BYTE) * 10);
     FILE *file = fopen(filename, "rb");
@@ -83,13 +85,13 @@ int main (int argc, char** argv)
             memcpy(buf, data, n);
 
             cudaMemcpy(d_data, data, n, cudaMemcpyHostToDevice);
-            rot13 <<<1,1>>>(d_data, n);
+            rot13 <<<4,16>>>(d_data, n);
             cudaMemcpy(data, d_data, n, cudaMemcpyDeviceToHost);
             fwrite(data, sizeof(BYTE), n, enc_file);
 
 
             cudaMemcpy(d_data, data, n, cudaMemcpyHostToDevice);
-            rot13 <<<1,1>>>(d_data, n);
+            rot13 <<<4,16>>>(d_data, n);
             cudaMemcpy(data, d_data, n, cudaMemcpyDeviceToHost);
             fwrite(data, sizeof(BYTE), n, dec_file);
 
