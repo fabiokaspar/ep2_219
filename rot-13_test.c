@@ -39,13 +39,13 @@ int rot13_test1()
 
 int rot13_test2(char* filename)
 {
-    BYTE *data, *buf;
+    BYTE *data, *dataAux, *buf;
     int pass = 1;
     int n = strlen(filename);
     int i;
 
-    data = (BYTE *) malloc(sizeof(BYTE) * 11);
-    buf = (BYTE *) malloc(sizeof(BYTE) * 11);
+    data = (BYTE *) malloc(sizeof(BYTE) * 10);
+    buf = (BYTE *) malloc(sizeof(BYTE) * 10);
     FILE *file = fopen(filename, "rb");
 
     if (data != NULL && file) {
@@ -72,21 +72,16 @@ int rot13_test2(char* filename)
         FILE *dec_file = fopen(fname_aux, "wb+");
 
         while ((n = fread(data, sizeof(BYTE), 10, file)) > 0) {
-            data[n] = '\0';
-            
-            strcpy(buf, data);
+            memcpy(buf, data, n);
 
             rot13(data);
             fwrite(data, sizeof(BYTE), n, enc_file);
 
+            
             rot13(data);
             fwrite(data, sizeof(BYTE), n, dec_file);
 
-//            printf("Oi: %c", data[8]);
-//            data[8] = 'X';
-//            printf("--> %c\n", data[8]);
             pass = pass && !memcmp(buf, data, n);
-            
         }
 
         fclose(enc_file);
@@ -103,8 +98,8 @@ int main(int argc, char** argv)
     char filename[80];
     strcpy(filename, argv[1]);
 
-    //printf("ROT-13 test1: %s\n", rot13_test1() ? "SUCCEEDED" : "FAILED");
+    printf("ROT-13 test1: %s\n", rot13_test1() ? "SUCCEEDED" : "FAILED");
     printf("ROT-13 test2: %s\n", rot13_test2(filename) ? "SUCCEEDED" : "FAILED");
 
-    return(0);
+    return 0;
 }
