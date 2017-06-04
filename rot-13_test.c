@@ -18,7 +18,7 @@
 #include "rot-13.h"
 
 /*********************** FUNCTION DEFINITIONS ***********************/
-int rot13_test1()
+int rot13_test()
 {
     char text[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
     char code[] = {"NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"};
@@ -37,7 +37,7 @@ int rot13_test1()
     return(pass);
 }
 
-int rot13_test2(char* filename)
+int rot13_test_file(char* filename)
 {
     BYTE *data, *dataAux, *buf;
     int pass = 1;
@@ -98,8 +98,8 @@ int main(int argc, char** argv)
     char filename[80];
     strcpy(filename, argv[1]);
 
-    printf("ROT-13 test1: %s\n", rot13_test1() ? "SUCCEEDED" : "FAILED");
-    printf("ROT-13 test2: %s\n", rot13_test2(filename) ? "SUCCEEDED" : "FAILED");
+    printf("ROT-13 test1: %s\n", rot13_test() ? "SUCCEEDED" : "FAILED");
+    printf("ROT-13 test2: %s\n", rot13_test_file(filename) ? "SUCCEEDED" : "FAILED");
 
     return 0;
 }
