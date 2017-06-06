@@ -1,14 +1,3 @@
-/*********************************************************************
-* Filename:   rot-13.c
-* Author:     Brad Conte (brad AT bradconte.com)
-* Copyright:
-* Disclaimer: This code is presented "as is" without any guarantees.
-* Details:    Implementation of the ROT-13 encryption algorithm.
-                  Algorithm specification can be found here:
-                   *
-                  This implementation uses little endian byte order.
-*********************************************************************/
-
 /*************************** HEADER FILES ***************************/
 #include <string.h>
 #include <stdio.h>
@@ -16,8 +5,7 @@
 #include <cuda_runtime.h>
 #include "rot-13.h"
 
-
-/*********************** FUNCTION DEFINITIONS ***********************/
+/*********************** KERNELS (CUDA) ***********************/
 __global__ void rot13_device(BYTE* str, int len)
 {
    int case_type, idx;
@@ -40,6 +28,7 @@ __global__ void rot13_device(BYTE* str, int len)
    }
 }
 
+/*********************** TEST FUNCTIONS ***********************/
 int rot13_device_test(int nblocks, int nthreads)
 {
     BYTE text[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
@@ -156,6 +145,7 @@ void rot13_device_test_all_files() {
 
 }
 
+/*********************** MAIN FUNCTION ***********************/
 int main (int argc, char** argv)
 {
     if (argc != 3) {
