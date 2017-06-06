@@ -131,6 +131,7 @@ int rot13_device_test_file(char* filename, int nblocks, int nthreads) {
 
     fclose(file);
     cudaFree(d_data);
+    free(data);
 
     return pass;
 }
