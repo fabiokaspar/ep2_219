@@ -94,6 +94,8 @@ int des_device_test_file(char* filename, int nblocks, int nthreads)
     cudaMemcpy(d_encrypted_data, encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
     cudaMemcpy(d_decrypted_data, decrypted_data, st.st_size, cudaMemcpyDeviceToHost);
 
+    pass = !memcmp(data, decrypted_data, st.st_size);
+
     FILE *enc_file = fopen(filename, "wb+");
     FILE *dec_file = fopen(filename_copy, "wb+");
 

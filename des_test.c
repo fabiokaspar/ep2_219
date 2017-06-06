@@ -79,30 +79,48 @@ int des_test()
     return(pass);
 }
 
-void enc_dec_file()
+/*********************** TEST FUNCTIONS ***********************/
+int des_test_file(char* filename)
 {
-    BYTE *data;
-    BYTE *encrypted_data;
-    BYTE *decrypted_data;
-    char *filename = "sample_files/hubble_1.tif";
+    BYTE *data, *encrypted_data, *decrypted_data;
+    int i, j, k;
+    int pass = 1;
 
     BYTE key1[DES_BLOCK_SIZE] = {0x01,0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF};
     BYTE schedule[16][6];
 
     struct stat st;
 
-    if (stat(filename, &st) == 0){
+    if (stat(filename, &st) == 0) {
         data = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
     };
 
     FILE *file = fopen(filename, "rb");
 
-    if(data != NULL && file){
+    if (data != NULL && file) {
         int current_byte = 0;
+        char filename_copy[80];
+        char ext[5];
 
+        // le todo o arquivo e armazena no vetor data
         while(fread(&data[current_byte], sizeof(BYTE), 1, file) == 1){
             current_byte += 1;
         };
+
+        // pega o nome do arquivo e acrescenta _enc ou _dec mais a extensao
+        for (i = 0; i < 4; i++) {
+            ext[i] = filename[n-4+i];
+        }
+        ext[4] = '\0';
+
+        filename[n-4] = '\0';
+        strcpy(filename_copy, filename);
+
+        strcat(filename, "_enc");
+        strcat(filename, ext);
+        
+        strcat(filename_copy, "_dec");
+        strcat(filename_copy, ext);
     };
 
     encrypted_data = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
@@ -112,9 +130,9 @@ void enc_dec_file()
     BYTE data_enc[DES_BLOCK_SIZE];
     BYTE data_dec[DES_BLOCK_SIZE];
 
-    for(int i = 0; i < st.st_size; i++){
-        for(int j = 0; j < DES_BLOCK_SIZE; j++){
-            if(i < st.st_size){
+    for (i = 0; i < st.st_size; i++) {
+        for (j = 0; j < DES_BLOCK_SIZE; j++) {
+            if (i < st.st_size){
                 data_buf[j] = data[i];
                 i++;
             };
@@ -127,8 +145,8 @@ void enc_dec_file()
         des_crypt(data_enc, data_dec, schedule);
 
         i -= DES_BLOCK_SIZE;
-        for(int k = 0; k < DES_BLOCK_SIZE; k++){
-            if(i < st.st_size){
+        for (k = 0; k < DES_BLOCK_SIZE; k++){
+            if (i < st.st_size) {
                 encrypted_data[i] = data_enc[k];
                 decrypted_data[i] = data_dec[k];
                 i++;
@@ -136,21 +154,51 @@ void enc_dec_file()
         };
 
         i--;
+
+        pass = pass && !memcmp(data_buf, data_dec, DES_BLOCK_SIZE);
     };
 
-    FILE *enc_file = fopen("hubble_1_enc.tif", "wb+");
-    FILE *dec_file = fopen("hubble_1_dec.tif", "wb+");
+    FILE *enc_file = fopen(filename, "wb+");
+    FILE *dec_file = fopen(filename_copy, "wb+");
 
     fwrite(encrypted_data, sizeof(BYTE) * st.st_size, 1, enc_file);
     fwrite(decrypted_data, sizeof(BYTE) * st.st_size, 1, dec_file);
 
     fclose(enc_file);
     fclose(dec_file);
+
+    free(data); 
+    free(encrypted_data); 
+    free(decrypted_data);
+
+    return pass;
 };
+
+void des_test_all_files() {
+  int i;
+  char filenames[8][80] = 
+      {"sample_files/hubble_1.tif", 
+       "sample_files/hubble_2.png",
+       "sample_files/hubble_3.tif",
+       "sample_files/king_james_bible.txt",
+       "sample_files/mercury.png",
+       "sample_files/moby_dick.txt",
+       "sample_files/tale_of_two_cities.txt",
+       "sample_files/ulysses.txt"
+  };
+
+  for (i = 0; i < 8; i++) {
+    printf("DES test file: %s ==> %s\n", filenames[i], 
+      des_test_file(filenames[i]) ? "SUCCEEDED" : "FAILED");
+  }
+
+}
 
 int main()
 {
-    enc_dec_file();
-    printf("DES test: %s\n", des_test() ? "SUCCEEDED" : "FAILED");
+    printf("DES test 1: %s\n\n", des_test() ? "SUCCEEDED" : "FAILED");
+    printf("DES test 2:\n");
+    des_test_all_files();
+
     return(0);
 }
