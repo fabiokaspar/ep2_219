@@ -85,6 +85,8 @@ int des_test_file(char* filename)
     BYTE *data, *encrypted_data, *decrypted_data;
     int i, j, k;
     int pass = 1;
+    int n = strlen(filename);
+    char filename_copy[80];
 
     BYTE key1[DES_BLOCK_SIZE] = {0x01,0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF};
     BYTE schedule[16][6];
@@ -99,7 +101,6 @@ int des_test_file(char* filename)
 
     if (data != NULL && file) {
         int current_byte = 0;
-        char filename_copy[80];
         char ext[5];
 
         // le todo o arquivo e armazena no vetor data
@@ -196,9 +197,14 @@ void des_test_all_files() {
 
 int main()
 {
-    printf("DES test 1: %s\n\n", des_test() ? "SUCCEEDED" : "FAILED");
-    printf("DES test 2:\n");
-    des_test_all_files();
+	if (argc != 2) {
+        printf("Usage: ./des_test <filename>\n");
+        return -1;
+    }
+
+    printf("DES test 1: %s\n\n", des_test_file(argv[1]) ? "SUCCEEDED" : "FAILED");
+    // printf("DES test 2:\n");
+    // des_test_all_files();
 
     return(0);
 }

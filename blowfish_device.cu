@@ -44,6 +44,8 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
     BYTE *data, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_encrypted_data, *d_decrypted_data;
     int pass = 1;
+    int n = strlen(filename);
+    char filename_copy[80];
 
     struct stat st;
 
@@ -55,7 +57,6 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
 
     if(data != NULL && file){
         int current_byte = 0;
-        char filename_copy[80];
         char ext[5];
 
         // le todo o arquivo e armazena no vetor data
@@ -93,6 +94,8 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
     cudaMemcpy(d_encrypted_data, encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
     cudaMemcpy(d_decrypted_data, decrypted_data, st.st_size, cudaMemcpyDeviceToHost);
 
+    pass = !memcmp(data, decrypted_data, st.st_size);
+    
     FILE *enc_file = fopen(filename, "wb+");
     FILE *dec_file = fopen(filename_copy, "wb+");
 
@@ -101,11 +104,11 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
 
     fclose(enc_file);
     fclose(dec_file);
-
+    
     cudaFree(d_data); cudaFree(d_encrypted_data); cudaFree(d_decrypted_data);
     free(data); free(encrypted_data); free(decrypted_data);
 
-    return 1;  //TODO: fazer o teste
+    return pass;
 };
 
 void blowfish_device_test_all_files() {
@@ -131,15 +134,15 @@ void blowfish_device_test_all_files() {
 /*********************** MAIN FUNCTION ***********************/
 int main (int argc, char** argv)
 {
-    if (argc != 3) {
-        printf("Usage: ./blowfish_device #blocks/grid  #threads/block\n");
+    if (argc != 4) {
+        printf("Usage: ./blowfish_device #blocks/grid  #threads/block  <filename>\n");
         return -1;
     }
 
     int nblocks = atoi(argv[1]);
     int nthreads = atoi(argv[2]);
 
-    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file("sample_files/ulysses.txt", nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
     //blowfish_device_test_all_files();
 
     return 0;

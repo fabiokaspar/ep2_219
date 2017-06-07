@@ -117,9 +117,14 @@ void rot13_test_all_files() {
 
 int main(int argc, char** argv)
 {
-    printf("ROT-13 test step 1: %s\n", rot13_test() ? "SUCCEEDED" : "FAILED");
-    printf("ROT-13 test step 2:\n\n");
-    rot13_test_all_files();
+    if (argc != 2) {
+        printf("Usage: ./rot-13_test <filename>\n");
+        return -1;
+    }
+
+    printf("ROT-13 test step 1: %s\n", rot13_test_file(argv[1]) ? "SUCCEEDED" : "FAILED");
+    // printf("ROT-13 test step 2:\n\n");
+    // rot13_test_all_files();
 
     return 0;
 }
