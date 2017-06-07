@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/stat.h>
 #include <cuda_runtime.h>
 #include "des.h"
 
@@ -45,7 +46,7 @@ int des_device_test_file(char* filename, int nblocks, int nthreads)
     BYTE *data, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_encrypted_data, *d_decrypted_data;
     int pass = 1;
-    int n = strlen(filename);
+    int i, n = strlen(filename);
     char filename_copy[80];
 
     struct stat st;

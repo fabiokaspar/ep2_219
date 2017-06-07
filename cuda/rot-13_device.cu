@@ -148,15 +148,15 @@ void rot13_device_test_all_files() {
 /*********************** MAIN FUNCTION ***********************/
 int main (int argc, char** argv)
 {
-    if (argc != 3) {
-        printf("Usage: ./rot13_device #blocks/grid  #threads/block\n");
+    if (argc != 4) {
+        printf("Usage: ./rot13_device #blocks/grid  #threads/block <filename>\n");
         return -1;
     }
 
     int nblocks = atoi(argv[1]);
     int nthreads = atoi(argv[2]);
 
-    printf("ROT-13 device test step 1: %s\n", rot13_device_test(nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    printf("ROT-13 device test step 1: %s\n", rot13_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
     //rot13_device_test_all_files();
 
     return 0;

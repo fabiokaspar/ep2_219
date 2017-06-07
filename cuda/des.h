@@ -31,7 +31,4 @@ typedef enum {
 __device__ void des_key_setup(const BYTE key[], BYTE schedule[][6], DES_MODE mode);
 __device__ void des_crypt(const BYTE in[], BYTE out[], const BYTE key[][6]);
 
-void three_des_key_setup(const BYTE key[], BYTE schedule[][16][6], DES_MODE mode);
-void three_des_crypt(const BYTE in[], BYTE out[], const BYTE key[][16][6]);
-
 #endif   // DES_H

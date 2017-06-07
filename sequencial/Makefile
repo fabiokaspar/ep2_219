@@ -19,4 +19,4 @@ $(BLOWFISH): $(BLOWFISH)_test.c $(BLOWFISH).c $(BLOWFISH).h
 
 .PHONY: clean
 clean:
-	rm $(ROT13) $(DES) $(BLOWFISH) sample_files/*_enc* sample_files/*_dec*
+	rm $(ROT13) $(DES) $(BLOWFISH) ../sample_files/*_enc* ../sample_files/*_dec*

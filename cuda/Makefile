@@ -33,4 +33,4 @@ $(ROT13): $(ROT13)_device.cu
 
 .PHONY: clean
 clean:
-	rm $(ROT13) $(DES) $(BLOWFISH) *.o sample_files/*_enc* sample_files/*_dec* 
+	rm $(ROT13) $(DES) $(BLOWFISH) *.o ../sample_files/*_enc* ../sample_files/*_dec* 
