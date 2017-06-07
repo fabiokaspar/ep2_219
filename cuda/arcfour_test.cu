@@ -26,7 +26,8 @@ __global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, BYTE *buf, int T
   int idx = threadIdx.x * TAM_BLOCK;
   BYTE *input = &data[idx];
   BYTE *output = &encrypted_data[idx];
-  int leng = TAM_BLOCK;
+  int i, leng = TAM_BLOCK;
+  
   if ((idx + TAM_BLOCK) > n)
     leng = n - idx;
 
@@ -34,7 +35,7 @@ __global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, BYTE *buf, int T
     output[i] = input[i] ^ buf[i];
 }
 
-int rc4_test_file(char* filename, BYTE* key)
+int rc4_test_file(char* filename, char* key)
 {
     BYTE *data, *buf, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_buf, *d_encrypted_data, *d_decrypted_data;
@@ -91,7 +92,7 @@ int rc4_test_file(char* filename, BYTE* key)
         err = cudaMalloc((void**) &d_encrypted_data, sizeof(BYTE) * st.st_size);
         err = cudaMalloc((void**) &d_decrypted_data, sizeof(BYTE) * st.st_size);
 
-        arcfour_key_setup(state, key, strlen(key));    
+        arcfour_key_setup(state, (BYTE *)key, strlen(key));    
         arcfour_generate_stream(state, buf, TAM_BLOCK);
 
         err = cudaMemcpy(d_buf, buf, TAM_BLOCK, cudaMemcpyHostToDevice);
@@ -103,9 +104,9 @@ int rc4_test_file(char* filename, BYTE* key)
           block_arcfour(&data[i], &encrypted_data[i], buf, leng);
         }*/
 
-        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(BYTE *d_data, BYTE *d_encrypted_data, BYTE *d_buf, int TAM_BLOCK, int n);
+        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_data, d_encrypted_data, d_buf, TAM_BLOCK, n);
         err = cudaGetLastError();
-        err = cudaDeviceSynchronize()
+        err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
           printf("Failed (error code %s)!\n", cudaGetErrorString(err));
           exit(EXIT_FAILURE);
@@ -114,7 +115,7 @@ int rc4_test_file(char* filename, BYTE* key)
         fwrite(encrypted_data, sizeof(BYTE), n, enc_file);
         
         err = cudaGetLastError();
-        err = cudaDeviceSynchronize()
+        err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
           printf("Failed (error code %s)!\n", cudaGetErrorString(err));
           exit(EXIT_FAILURE);
@@ -137,30 +138,6 @@ int rc4_test_file(char* filename, BYTE* key)
     fclose(file);
 
     return pass;
-}
-
-
-
-int rc4_test()
-{
-    BYTE state[256];
-    BYTE key[3][10] = {{"Key"}, {"Wiki"}, {"Secret"}};
-    BYTE stream[3][10] = {{0xEB,0x9F,0x77,0x81,0xB7,0x34,0xCA,0x72,0xA7,0x19},
-                          {0x60,0x44,0xdb,0x6d,0x41,0xb7},
-                          {0x04,0xd4,0x6b,0x05,0x3c,0xa8,0x7b,0x59}};
-    int stream_len[3] = {10,6,8};
-    BYTE buf[1024];
-    int idx;
-    int pass = 1;
-
-    // Only test the output stream. Note that the state can be reused.
-    for (idx = 0; idx < 3; idx++) {
-        arcfour_key_setup(state, key[idx], strlen(key[idx]));
-        arcfour_generate_stream(state, buf, stream_len[idx]);
-        pass = pass && !memcmp(stream[idx], buf, stream_len[idx]);
-    }
-
-    return(pass);
 }
 
 int main()

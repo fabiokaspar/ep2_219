@@ -1,12 +1,14 @@
 ROT13=rot-13
 DES=des
 BLOWFISH=blowfish
+ARCFOUR=arcfour
 
 CC=nvcc
 CC_OPT=--gpu-architecture=sm_32
 
 .PHONY: all
-all: $(ROT13) $(DES) $(BLOWFISH)
+all: $(ROT13) $(DES) $(BLOWFISH) $(ARCFOUR)
+
 
 $(BLOWFISH): $(BLOWFISH)_device.o $(BLOWFISH).o
 	$(CC) --gpu-architecture=sm_32 -o $(BLOWFISH) $(BLOWFISH)_device.o $(BLOWFISH).o
@@ -16,6 +18,7 @@ $(BLOWFISH)_device.o: $(BLOWFISH)_device.cu
 
 $(BLOWFISH).o: $(BLOWFISH).cu
 	$(CC) --gpu-architecture=sm_32 --device-c $(BLOWFISH).cu
+
 
 
 $(DES): $(DES)_device.o $(DES).o
@@ -28,9 +31,21 @@ $(DES).o: $(DES).cu
 	$(CC) --gpu-architecture=sm_32 --device-c $(DES).cu
 
 
+$(ARCFOUR): $(ARCFOUR)_test.o $(ARCFOUR).o
+	$(CC) --gpu-architecture=sm_32 -o $(ARCFOUR) $(ARCFOUR)_device.o $(ARCFOUR).o
+
+$(ARCFOUR)_test.o: $(ARCFOUR)_test.cu
+	$(CC) --gpu-architecture=sm_32 --device-c $(ARCFOUR)_device.cu
+
+$(ARCFOUR).o: $(ARCFOUR).cu
+	$(CC) --gpu-architecture=sm_32 --device-c $(ARCFOUR).cu
+
+
+
 $(ROT13): $(ROT13)_device.cu
 	$(CC) --gpu-architecture=sm_32 -o $(ROT13) $(ROT13)_device.cu
 
+
 .PHONY: clean
 clean:
-	rm $(ROT13) $(DES) $(BLOWFISH) *.o ../sample_files/*_enc* ../sample_files/*_dec* 
+	rm $(ROT13) $(DES) $(BLOWFISH) $(ARCFOUR) *.o ../sample_files/*_enc* ../sample_files/*_dec* 
