@@ -14,6 +14,8 @@
 /*************************** HEADER FILES ***************************/
 #include <stdio.h>
 #include <memory.h>
+#include <sys/stat.h>
+#include <stdlib.h>
 #include "blowfish.h"
 
 /*********************** FUNCTION DEFINITIONS ***********************/
@@ -181,7 +183,7 @@ void blowfish_test_all_files() {
 }
 
 
-int main()
+int main(int argc, char** argv)
 {
     if (argc != 2) {
         printf("Usage: ./blowfish_test <filename>\n");

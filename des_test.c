@@ -195,7 +195,7 @@ void des_test_all_files() {
 
 }
 
-int main()
+int main(int argc, char** argv)
 {
 	if (argc != 2) {
         printf("Usage: ./des_test <filename>\n");
