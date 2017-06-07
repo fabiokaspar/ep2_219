@@ -32,10 +32,10 @@ $(DES).o: $(DES).cu
 
 
 $(ARCFOUR): $(ARCFOUR)_test.o $(ARCFOUR).o
-	$(CC) --gpu-architecture=sm_32 -o $(ARCFOUR) $(ARCFOUR)_device.o $(ARCFOUR).o
+	$(CC) --gpu-architecture=sm_32 -o $(ARCFOUR) $(ARCFOUR)_test.o $(ARCFOUR).o
 
 $(ARCFOUR)_test.o: $(ARCFOUR)_test.cu
-	$(CC) --gpu-architecture=sm_32 --device-c $(ARCFOUR)_device.cu
+	$(CC) --gpu-architecture=sm_32 --device-c $(ARCFOUR)_test.cu
 
 $(ARCFOUR).o: $(ARCFOUR).cu
 	$(CC) --gpu-architecture=sm_32 --device-c $(ARCFOUR).cu

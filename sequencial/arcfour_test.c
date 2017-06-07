@@ -122,7 +122,7 @@ int rc4_test()
 
 int main()
 {
-    printf("ARCFOUR tests: %s\n", rc4_test_file("sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
+    printf("ARCFOUR tests: %s\n", rc4_test_file("../sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
 
     return(0);
 }
