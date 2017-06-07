@@ -3,36 +3,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <cuda_runtime.h>
-#include "des.h"
+#include "blowfish.h"
 
 /*********************** KERNELS (CUDA) ***********************/
-__global__ void des_device (BYTE *data, BYTE *encrypted_data, 
-    BYTE *decrypted_data, int st.st_size) {
+__global__ void blowfish_device (BYTE *data, BYTE *encrypted_data, 
+    BYTE *decrypted_data, int len) {
 
-    int idx = (threadIdx.x + blockDim.x * blockIdx.x) * DES_BLOCK_SIZE;
+    int idx = (threadIdx.x + blockDim.x * blockIdx.x) * BLOWFISH_BLOCK_SIZE;
     int j, k;
 
-    BYTE data_buf[DES_BLOCK_SIZE];
-    BYTE data_enc[DES_BLOCK_SIZE];
-    BYTE data_dec[DES_BLOCK_SIZE];
+    BYTE key2[8]  = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+    BLOWFISH_KEY key;
 
-    BYTE key1[DES_BLOCK_SIZE] = {0x01,0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF};
-    BYTE schedule[16][6];
+    BYTE data_buf[BLOWFISH_BLOCK_SIZE];
+    BYTE data_enc[BLOWFISH_BLOCK_SIZE];
+    BYTE data_dec[BLOWFISH_BLOCK_SIZE];
 
-    for(j = 0; j < DES_BLOCK_SIZE; j++){
-        if( (idx+j) < st.st_size){
+    for(j = 0; j < BLOWFISH_BLOCK_SIZE; j++){
+        if( (idx+j) < len){
             data_buf[j] = data[idx+j];
         };
     };
 
-    des_key_setup(key1, schedule, DES_ENCRYPT);
-    des_crypt(data_buf, data_enc, schedule);
+    blowfish_key_setup(key2, &key, BLOWFISH_BLOCK_SIZE);
+    blowfish_encrypt(data_buf, data_enc, &key);
 
-    des_key_setup(key1, schedule, DES_DECRYPT);
-    des_crypt(data_enc, data_dec, schedule);
+    blowfish_decrypt(data_enc, data_dec, &key);
 
-    for(k = 0; k < DES_BLOCK_SIZE; k++){
-        if((idx+k) < st.st_size){
+    for(k = 0; k < BLOWFISH_BLOCK_SIZE; k++){
+        if((idx+k) < len){
             encrypted_data[idx+k] = data_enc[k];
             decrypted_data[idx+k] = data_dec[k];
         };
@@ -40,7 +39,7 @@ __global__ void des_device (BYTE *data, BYTE *encrypted_data,
 }
 
 /*********************** TEST FUNCTIONS ***********************/
-int des_device_test_file(char* filename, int nblocks, int nthreads)
+int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
 {
     BYTE *data, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_encrypted_data, *d_decrypted_data;
@@ -90,13 +89,13 @@ int des_device_test_file(char* filename, int nblocks, int nthreads)
 
     cudaMemcpy(d_data, data, st.st_size, cudaMemcpyHostToDevice);
 
-    des_device <<<nblocks, nthreads>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
+    blowfish_device <<<nblocks, nthreads>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
 
     cudaMemcpy(d_encrypted_data, encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
     cudaMemcpy(d_decrypted_data, decrypted_data, st.st_size, cudaMemcpyDeviceToHost);
 
     pass = !memcmp(data, decrypted_data, st.st_size);
-
+    
     FILE *enc_file = fopen(filename, "wb+");
     FILE *dec_file = fopen(filename_copy, "wb+");
 
@@ -105,14 +104,14 @@ int des_device_test_file(char* filename, int nblocks, int nthreads)
 
     fclose(enc_file);
     fclose(dec_file);
-
+    
     cudaFree(d_data); cudaFree(d_encrypted_data); cudaFree(d_decrypted_data);
     free(data); free(encrypted_data); free(decrypted_data);
 
     return pass;
 };
 
-void des_device_test_all_files() {
+void blowfish_device_test_all_files() {
   int i;
   char filenames[8][80] = 
       {"sample_files/hubble_1.tif", 
@@ -126,8 +125,8 @@ void des_device_test_all_files() {
   };
 
   for (i = 0; i < 8; i++) {
-    printf("DES DEVICE test file: %s ==> %s\n", filenames[i], 
-      des_device_test_file(filenames[i], 4, 16) ? "SUCCEEDED" : "FAILED");
+    printf("BLOWFISH DEVICE test file: %s ==> %s\n", filenames[i], 
+      blowfish_device_test_file(filenames[i], 4, 16) ? "SUCCEEDED" : "FAILED");
   }
 
 }
@@ -136,15 +135,15 @@ void des_device_test_all_files() {
 int main (int argc, char** argv)
 {
     if (argc != 4) {
-        printf("Usage: ./des_device #blocks/grid  #threads/block  <filename>\n");
+        printf("Usage: ./blowfish_device #blocks/grid  #threads/block  <filename>\n");
         return -1;
     }
 
     int nblocks = atoi(argv[1]);
     int nthreads = atoi(argv[2]);
 
-    printf("DES device test step 1: %s\n", des_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
-    //des_device_test_all_files();
+    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    //blowfish_device_test_all_files();
 
     return 0;
 }
