@@ -92,8 +92,8 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
 
     blowfish_device <<<nblocks, nthreads>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
 
-    cudaMemcpy(d_encrypted_data, encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
-    cudaMemcpy(d_decrypted_data, decrypted_data, st.st_size, cudaMemcpyDeviceToHost);
+    cudaMemcpy(encrypted_data, d_encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
+    cudaMemcpy(decrypted_data, d_decrypted_data, st.st_size, cudaMemcpyDeviceToHost);
 
     pass = !memcmp(data, decrypted_data, st.st_size);
     
