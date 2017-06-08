@@ -130,7 +130,7 @@ void blowfish_device_test_all_files() {
 
   for (i = 0; i < 8; i++) {
     printf("BLOWFISH DEVICE test file: %s ==> %s\n", filenames[i], 
-      blowfish_device_test_file(filenames[i], 4, 16) ? "SUCCEEDED" : "FAILED");
+      blowfish_device_test_file(filenames[i], 16) ? "SUCCEEDED" : "FAILED");
   }
 
 }
@@ -138,15 +138,14 @@ void blowfish_device_test_all_files() {
 /*********************** MAIN FUNCTION ***********************/
 int main (int argc, char** argv)
 {
-    if (argc != 4) {
+    if (argc != 3) {
         printf("Usage: ./blowfish_device #blocks/grid  #threads/block  <filename>\n");
         return -1;
     }
 
-    int nblocks = atoi(argv[1]);
-    int nthreads = atoi(argv[2]);
+    int nthreads = atoi(argv[1]);
 
-    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file(argv[2], nthreads) ? "SUCCEEDED" : "FAILED");
     //blowfish_device_test_all_files();
 
     return 0;
