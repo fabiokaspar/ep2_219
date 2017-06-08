@@ -28,7 +28,7 @@ void block_arcfour(BYTE *input, BYTE *output, BYTE *buf, int TAM_BLOCK)
     output[i] = input[i] ^ buf[i];
 }
 
-int rc4_test_file(char* filename, BYTE* key)
+int rc4_test_file(char* filename, char* key)
 {
     BYTE *data, *buf, *encrypted_data, *decrypted_data;
     BYTE state[256];
@@ -53,6 +53,7 @@ int rc4_test_file(char* filename, BYTE* key)
         char filename_enc[80], filename_dec[80];
       
         strncpy(filename_enc, filename, n-4);
+        filename_enc[n-4] = '\0';
         strcpy(filename_dec, filename_enc);        
         strcat(filename_enc, "_enc");
         strcat(filename_dec, "_dec");
@@ -74,7 +75,7 @@ int rc4_test_file(char* filename, BYTE* key)
         encrypted_data = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
         decrypted_data = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
 
-        arcfour_key_setup(state, key, strlen(key));    
+        arcfour_key_setup(state, (BYTE *)key, strlen(key));    
         arcfour_generate_stream(state, buf, TAM_BLOCK);
 
         
@@ -122,7 +123,7 @@ int rc4_test()
 
     // Only test the output stream. Note that the state can be reused.
     for (idx = 0; idx < 3; idx++) {
-        arcfour_key_setup(state, key[idx], strlen(key[idx]));
+        arcfour_key_setup(state, (BYTE *)key[idx], strlen(key[idx]));
         arcfour_generate_stream(state, buf, stream_len[idx]);
         pass = pass && !memcmp(stream[idx], buf, stream_len[idx]);
     }
@@ -130,9 +131,33 @@ int rc4_test()
     return(pass);
 }
 
-int main()
+void arcfour_test_all_files() {
+  int i;
+  char filenames[8][80] = 
+      {"sample_files/hubble_1.tif", 
+       "sample_files/hubble_2.png",
+       "sample_files/hubble_3.tif",
+       "sample_files/king_james_bible.txt",
+       "sample_files/mercury.png",
+       "sample_files/moby_dick.txt",
+       "sample_files/tale_of_two_cities.txt",
+       "sample_files/ulysses.txt"
+  };
+
+  for (i = 0; i < 8; i++) {
+      printf("ARCFOUR test file: %s ==> %s\n", filenames[i], rc4_test_file(filenames[i], "Secret") ? "SUCCEEDED" : "FAILED");
+  }
+}
+
+/*int main()
 {
-    printf("ARCFOUR tests: %s\n", rc4_test_file("../sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
+    printf("ARCFOUR tests: %s\n", rc4_test_file("sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
 
     return(0);
+}*/
+
+int main ()
+{
+    arcfour_test_all_files();
+    return 0;
 }

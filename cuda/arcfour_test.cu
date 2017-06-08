@@ -23,19 +23,19 @@
 /*********************** FUNCTION DEFINITIONS ***********************/
 __global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, BYTE *buf, int TAM_BLOCK, int n)
 {
-  int idx = threadIdx.x * TAM_BLOCK;
-  BYTE *input = &data[idx];
-  BYTE *output = &encrypted_data[idx];
-  int i, leng = TAM_BLOCK;
-  
-  if ((idx + TAM_BLOCK) > n)
-    leng = n - idx;
+	int i;
+    int idx = (blockDim.x * blockIdx.x + threadIdx.x)) * TAM_BLOCK;
+    BYTE *input = &data[idx];
+    BYTE *output = &encrypted_data[idx];
+    int leng = TAM_BLOCK;
+    if ((idx + TAM_BLOCK) > n)
+    	leng = n - idx;
 
-  for (i = 0; i < leng; i++)
-    output[i] = input[i] ^ buf[i];
+   for (i = 0; i < leng; i++)
+   	output[i] = input[i] ^ buf[i];
 }
 
-int rc4_test_file(char* filename, char* key)
+int rc4_device_test_file(char* filename, int nthreads, char* key)
 {
     BYTE *data, *buf, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_buf, *d_encrypted_data, *d_decrypted_data;
@@ -45,7 +45,7 @@ int rc4_test_file(char* filename, char* key)
     int i;
     int TAM_BLOCK = 1024;
 
-    int threadsPerBlock = 256;
+    int threadsPerBlock = nthreads;
     int blocksPerGrid;
 
     struct stat st;
@@ -65,6 +65,7 @@ int rc4_test_file(char* filename, char* key)
         char filename_enc[80], filename_dec[80];
       
         strncpy(filename_enc, filename, n-4);
+        filename_enc[n-4] = '\0';
         strcpy(filename_dec, filename_enc);        
         strcat(filename_enc, "_enc");
         strcat(filename_dec, "_dec");
@@ -111,9 +112,11 @@ int rc4_test_file(char* filename, char* key)
           printf("Failed (error code %s)!\n", cudaGetErrorString(err));
           exit(EXIT_FAILURE);
         }
+        
         err = cudaMemcpy(encrypted_data, d_encrypted_data, n, cudaMemcpyDeviceToHost);
         fwrite(encrypted_data, sizeof(BYTE), n, enc_file);
         
+        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_encrypted_data, d_decrypted_data, d_buf, TAM_BLOCK, n);
         err = cudaGetLastError();
         err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
@@ -140,9 +143,65 @@ int rc4_test_file(char* filename, char* key)
     return pass;
 }
 
-int main()
+
+
+int rc4_test()
 {
-    printf("ARCFOUR tests: %s\n", rc4_test_file("../sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
+    BYTE state[256];
+    BYTE key[3][10] = {{"Key"}, {"Wiki"}, {"Secret"}};
+    BYTE stream[3][10] = {{0xEB,0x9F,0x77,0x81,0xB7,0x34,0xCA,0x72,0xA7,0x19},
+                          {0x60,0x44,0xdb,0x6d,0x41,0xb7},
+                          {0x04,0xd4,0x6b,0x05,0x3c,0xa8,0x7b,0x59}};
+    int stream_len[3] = {10,6,8};
+    BYTE buf[1024];
+    int idx;
+    int pass = 1;
+
+    // Only test the output stream. Note that the state can be reused.
+    for (idx = 0; idx < 3; idx++) {
+        arcfour_key_setup(state, (BYTE *)key[idx], strlen(key[idx]));
+        arcfour_generate_stream(state, buf, stream_len[idx]);
+        pass = pass && !memcmp(stream[idx], buf, stream_len[idx]);
+    }
+
+    return(pass);
+}
+
+void arcfour_device_test_all_files(int nthreads) {
+  int i;
+  char filenames[8][80] = 
+      {"sample_files/hubble_1.tif", 
+       "sample_files/hubble_2.png",
+       "sample_files/hubble_3.tif",
+       "sample_files/king_james_bible.txt",
+       "sample_files/mercury.png",
+       "sample_files/moby_dick.txt",
+       "sample_files/tale_of_two_cities.txt",
+       "sample_files/ulysses.txt"
+  };
+
+  for (i = 0; i < 8; i++)
+    printf("ARCFOUR DEVICE test file: %s ==> %s\n", filenames[i], rc4_device_test_file(filenames[i], nthreads, "Secret") ? "SUCCEEDED" : "FAILED");
+}
+
+/*int main()
+{
+    printf("ARCFOUR tests: %s\n", rc4_test_file("sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
 
     return(0);
+}*/
+
+int main (int argc, char** argv)
+{
+    if (argc != 3) {
+        printf("Usage: ./arcfour_device #threads/block\n");
+        return -1;
+    }
+
+    int nthreads = atoi(argv[1]);
+
+    arcfour_device_test_all_files(nthreads);
+    
+
+    return 0;
 }

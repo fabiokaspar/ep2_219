@@ -21,15 +21,15 @@
 #include "arcfour.h"
 
 /*********************** FUNCTION DEFINITIONS ***********************/
-__global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, BYTE *buf, int n)
+__global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, char *buf, int n)
 {
-  int idx = threadIdx.x * TAM_BLOCK;
+  int idx = blockDim.x * blockIdx.x + threadIdx.x;;
   
   if (idx < n)
     encrypted_data[idx] = data[idx] ^ buf[idx];
 }
 
-int rc4_test_file(char* filename, BYTE* key)
+int rc4_device_test_file(char* filename, int nthreads, char* key)
 {
     BYTE *data, *buf, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_buf, *d_encrypted_data, *d_decrypted_data;
@@ -39,7 +39,7 @@ int rc4_test_file(char* filename, BYTE* key)
     int i;
     //int TAM_BLOCK = 1024;
 
-    int threadsPerBlock = 256;
+    int threadsPerBlock = nthreads;
     int blocksPerGrid;
 
     struct stat st;
@@ -59,6 +59,7 @@ int rc4_test_file(char* filename, BYTE* key)
         char filename_enc[80], filename_dec[80];
       
         strncpy(filename_enc, filename, n-4);
+        filename_enc[n-4] = '\0';
         strcpy(filename_dec, filename_enc);        
         strcat(filename_enc, "_enc");
         strcat(filename_dec, "_dec");
@@ -86,7 +87,7 @@ int rc4_test_file(char* filename, BYTE* key)
         err = cudaMalloc((void**) &d_encrypted_data, sizeof(BYTE) * st.st_size);
         err = cudaMalloc((void**) &d_decrypted_data, sizeof(BYTE) * st.st_size);
 
-        arcfour_key_setup(state, key, strlen(key));    
+        arcfour_key_setup(state, (BYTE *)key, strlen(key));    
         arcfour_generate_stream(state, buf, n);
 
         err = cudaMemcpy(d_buf, buf, n, cudaMemcpyHostToDevice);
@@ -98,9 +99,9 @@ int rc4_test_file(char* filename, BYTE* key)
           block_arcfour(&data[i], &encrypted_data[i], buf, leng);
         }*/
 
-        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(BYTE *d_data, BYTE *d_encrypted_data, BYTE *d_buf, int n);
+        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_data, d_encrypted_data, d_buf, n);
         err = cudaGetLastError();
-        err = cudaDeviceSynchronize()
+        err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
           printf("Failed (error code %s)!\n", cudaGetErrorString(err));
           exit(EXIT_FAILURE);
@@ -108,8 +109,9 @@ int rc4_test_file(char* filename, BYTE* key)
         err = cudaMemcpy(encrypted_data, d_encrypted_data, n, cudaMemcpyDeviceToHost);
         fwrite(encrypted_data, sizeof(BYTE), n, enc_file);
         
+        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_encrypted_data, d_decrypted_data, d_buf, n);
         err = cudaGetLastError();
-        err = cudaDeviceSynchronize()
+        err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
           printf("Failed (error code %s)!\n", cudaGetErrorString(err));
           exit(EXIT_FAILURE);
@@ -150,7 +152,7 @@ int rc4_test()
 
     // Only test the output stream. Note that the state can be reused.
     for (idx = 0; idx < 3; idx++) {
-        arcfour_key_setup(state, key[idx], strlen(key[idx]));
+        arcfour_key_setup(state, (BYTE *)key[idx], strlen(key[idx]));
         arcfour_generate_stream(state, buf, stream_len[idx]);
         pass = pass && !memcmp(stream[idx], buf, stream_len[idx]);
     }
@@ -158,9 +160,40 @@ int rc4_test()
     return(pass);
 }
 
-int main()
+void arcfour_device_test_all_files(int nthreads) {
+  int i;
+  char filenames[8][80] = 
+      {"sample_files/hubble_1.tif", 
+       "sample_files/hubble_2.png",
+       "sample_files/hubble_3.tif",
+       "sample_files/king_james_bible.txt",
+       "sample_files/mercury.png",
+       "sample_files/moby_dick.txt",
+       "sample_files/tale_of_two_cities.txt",
+       "sample_files/ulysses.txt"
+  };
+
+  for (i = 0; i < 8; i++)
+    printf("ARCFOUR DEVICE test file: %s ==> %s\n", filenames[i], rc4_device_test_file(filenames[i], nthreads, "Secret") ? "SUCCEEDED" : "FAILED");
+}
+
+/*int main()
 {
-    printf("ARCFOUR tests: %s\n", rc4_test_file("../sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
+    printf("ARCFOUR tests: %s\n", rc4_test_file("sample_files/hubble_1.tif", "Secret") ? "SUCCEEDED" : "FAILED");
 
     return(0);
+}*/
+
+int main (int argc, char** argv)
+{
+    if (argc != 3) {
+        printf("Usage: ./arcfour_device #threads/block\n");
+        return -1;
+    }
+
+    int nthreads = atoi(argv[1]);
+
+    arcfour_device_test_all_files(nthreads);
+
+    return 0;
 }
