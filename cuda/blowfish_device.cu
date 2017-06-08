@@ -40,11 +40,11 @@ __global__ void blowfish_device (BYTE *data, BYTE *encrypted_data,
 }
 
 /*********************** TEST FUNCTIONS ***********************/
-int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
+int blowfish_device_test_file(char* filename, int threadsPerBlock)
 {
     BYTE *data, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_encrypted_data, *d_decrypted_data;
-    int i, pass = 1;
+    int blocksPerGrid, blocoBlowfish, i, pass = 1;
     int n = strlen(filename);
     char filename_copy[80];
 
@@ -53,6 +53,9 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
     if (stat(filename, &st) == 0){
         data = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
     };
+
+    blocoBlowfish = (st.st_size + BLOWFISH_BLOCK_SIZE - 1) / BLOWFISH_BLOCK_SIZE;     
+    blocksPerGrid = (blocoBlowfish + threadsPerBlock - 1) / threadsPerBlock;
 
     FILE *file = fopen(filename, "rb");
 
@@ -90,7 +93,7 @@ int blowfish_device_test_file(char* filename, int nblocks, int nthreads)
 
     cudaMemcpy(d_data, data, st.st_size, cudaMemcpyHostToDevice);
 
-    blowfish_device <<<nblocks, nthreads>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
+    blowfish_device <<<blocksPerGrid, threadsPerBlock>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
 
     cudaMemcpy(encrypted_data, d_encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
     cudaMemcpy(decrypted_data, d_decrypted_data, st.st_size, cudaMemcpyDeviceToHost);

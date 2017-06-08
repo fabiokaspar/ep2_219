@@ -18,7 +18,7 @@ __global__ void des_device (BYTE *data, BYTE *encrypted_data,
     BYTE data_dec[DES_BLOCK_SIZE];
 
     BYTE key1[DES_BLOCK_SIZE] = {0x01,0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF};
-    BYTE schedule[16][6];
+    BYTE schedule[16][6];   
 
     for(j = 0; j < DES_BLOCK_SIZE; j++){
         if( (idx+j) < len){
@@ -41,12 +41,12 @@ __global__ void des_device (BYTE *data, BYTE *encrypted_data,
 }
 
 /*********************** TEST FUNCTIONS ***********************/
-int des_device_test_file(char* filename, int nblocks, int nthreads)
+int des_device_test_file(char* filename, int threadsPerBlock)
 {
     BYTE *data, *encrypted_data, *decrypted_data;
     BYTE *d_data, *d_encrypted_data, *d_decrypted_data;
     int pass = 1;
-    int i, n = strlen(filename);
+    int blocoDes, blocksPerGrid, i, n = strlen(filename);
     char filename_copy[80];
 
     struct stat st;
@@ -54,6 +54,9 @@ int des_device_test_file(char* filename, int nblocks, int nthreads)
     if (stat(filename, &st) == 0){
         data = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
     };
+
+    blocoDes = (st.st_size + DES_BLOCK_SIZE - 1) / DES_BLOCK_SIZE;     
+    blocksPerGrid = (blocoDes + threadsPerBlock - 1) / threadsPerBlock; 
 
     FILE *file = fopen(filename, "rb");
 
@@ -91,7 +94,7 @@ int des_device_test_file(char* filename, int nblocks, int nthreads)
 
     cudaMemcpy(d_data, data, st.st_size, cudaMemcpyHostToDevice);
 
-    des_device <<<nblocks, nthreads>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
+    des_device <<<blocksPerGrid, threadsPerBlock>>>(d_data, d_encrypted_data, d_decrypted_data, st.st_size);
 
     cudaMemcpy(encrypted_data, d_encrypted_data, st.st_size, cudaMemcpyDeviceToHost);
     cudaMemcpy(decrypted_data, d_decrypted_data, st.st_size, cudaMemcpyDeviceToHost);
@@ -136,13 +139,12 @@ void des_device_test_all_files() {
 /*********************** MAIN FUNCTION ***********************/
 int main (int argc, char** argv)
 {
-    if (argc != 4) {
-        printf("Usage: ./des_device #blocks/grid  #threads/block  <filename>\n");
+    if (argc != 3) {
+        printf("Usage: ./des_device  #threads/block  <filename>\n");
         return -1;
     }
 
-    int nblocks = atoi(argv[1]);
-    int nthreads = atoi(argv[2]);
+    int nthreads = atoi(argv[1]);
 
     printf("DES device test step 1: %s\n", des_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
     //des_device_test_all_files();
