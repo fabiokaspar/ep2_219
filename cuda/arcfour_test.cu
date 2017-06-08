@@ -21,18 +21,12 @@
 #include "arcfour.h"
 
 /*********************** FUNCTION DEFINITIONS ***********************/
-__global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, BYTE *buf, int TAM_BLOCK, int n)
+__global__ void block_arcfour(BYTE *data, BYTE *encrypted_data, BYTE *buf, int n)
 {
-	int i;
-    int idx = (blockDim.x * blockIdx.x + threadIdx.x)) * TAM_BLOCK;
-    BYTE *input = &data[idx];
-    BYTE *output = &encrypted_data[idx];
-    int leng = TAM_BLOCK;
-    if ((idx + TAM_BLOCK) > n)
-    	leng = n - idx;
-
-   for (i = 0; i < leng; i++)
-   	output[i] = input[i] ^ buf[i];
+  int idx = blockDim.x * blockIdx.x + threadIdx.x;;
+  
+  if (idx < n)
+    encrypted_data[idx] = data[idx] ^ buf[idx];
 }
 
 int rc4_device_test_file(char* filename, int nthreads, char* key)
@@ -43,7 +37,7 @@ int rc4_device_test_file(char* filename, int nthreads, char* key)
     int pass = 1;
     int n = strlen(filename);
     int i;
-    int TAM_BLOCK = 1024;
+    //int TAM_BLOCK = 1024;
 
     int threadsPerBlock = nthreads;
     int blocksPerGrid;
@@ -56,8 +50,8 @@ int rc4_device_test_file(char* filename, int nthreads, char* key)
       err = cudaMalloc((void**) &d_data, sizeof(BYTE) * st.st_size);
     };
 
-    buf = (BYTE *) malloc(sizeof(BYTE) * TAM_BLOCK);
-    err = cudaMalloc((void**) &d_buf, sizeof(BYTE) * TAM_BLOCK);
+    buf = (BYTE *) malloc(sizeof(BYTE) * st.st_size);
+    err = cudaMalloc((void**) &d_buf, sizeof(BYTE) * st.st_size);
     FILE *file = fopen(filename, "rb");
     
     if (data != NULL && file) {
@@ -94,9 +88,9 @@ int rc4_device_test_file(char* filename, int nthreads, char* key)
         err = cudaMalloc((void**) &d_decrypted_data, sizeof(BYTE) * st.st_size);
 
         arcfour_key_setup(state, (BYTE *)key, strlen(key));    
-        arcfour_generate_stream(state, buf, TAM_BLOCK);
+        arcfour_generate_stream(state, buf, n);
 
-        err = cudaMemcpy(d_buf, buf, TAM_BLOCK, cudaMemcpyHostToDevice);
+        err = cudaMemcpy(d_buf, buf, n, cudaMemcpyHostToDevice);
         
         /*for (i = 0; i < n; i += TAM_BLOCK) {
           int leng = TAM_BLOCK;
@@ -105,18 +99,17 @@ int rc4_device_test_file(char* filename, int nthreads, char* key)
           block_arcfour(&data[i], &encrypted_data[i], buf, leng);
         }*/
 
-        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_data, d_encrypted_data, d_buf, TAM_BLOCK, n);
+        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_data, d_encrypted_data, d_buf, n);
         err = cudaGetLastError();
         err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
           printf("Failed (error code %s)!\n", cudaGetErrorString(err));
           exit(EXIT_FAILURE);
         }
-        
         err = cudaMemcpy(encrypted_data, d_encrypted_data, n, cudaMemcpyDeviceToHost);
         fwrite(encrypted_data, sizeof(BYTE), n, enc_file);
         
-        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_encrypted_data, d_decrypted_data, d_buf, TAM_BLOCK, n);
+        block_arcfour<<<blocksPerGrid, threadsPerBlock>>>(d_encrypted_data, d_decrypted_data, d_buf, n);
         err = cudaGetLastError();
         err = cudaDeviceSynchronize();
         if (err != cudaSuccess) {
@@ -144,7 +137,7 @@ int rc4_device_test_file(char* filename, int nthreads, char* key)
 }
 
 
-
+/*
 int rc4_test()
 {
     BYTE state[256];
@@ -165,7 +158,7 @@ int rc4_test()
     }
 
     return(pass);
-}
+}*/
 
 void arcfour_device_test_all_files(int nthreads) {
   int i;
@@ -193,7 +186,7 @@ void arcfour_device_test_all_files(int nthreads) {
 
 int main (int argc, char** argv)
 {
-    if (argc != 3) {
+    if (argc != 2) {
         printf("Usage: ./arcfour_device #threads/block\n");
         return -1;
     }
@@ -201,7 +194,6 @@ int main (int argc, char** argv)
     int nthreads = atoi(argv[1]);
 
     arcfour_device_test_all_files(nthreads);
-    
 
     return 0;
 }
