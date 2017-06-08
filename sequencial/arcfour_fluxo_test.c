@@ -133,15 +133,15 @@ int rc4_test()
 
 void arcfour_test_all_files() {
   int i;
-  char filenames[8][80] = 
-      {"sample_files/hubble_1.tif", 
-       "sample_files/hubble_2.png",
-       "sample_files/hubble_3.tif",
-       "sample_files/king_james_bible.txt",
-       "sample_files/mercury.png",
-       "sample_files/moby_dick.txt",
-       "sample_files/tale_of_two_cities.txt",
-       "sample_files/ulysses.txt"
+  char filenames[8][80] = {
+       "../sample_files/hubble_1.tif", 
+       "../sample_files/hubble_2.png",
+       "../sample_files/hubble_3.tif",
+       "../sample_files/king_james_bible.txt",
+       "../sample_files/mercury.png",
+       "../sample_files/moby_dick.txt",
+       "../sample_files/tale_of_two_cities.txt",
+       "../sample_files/ulysses.txt"
   };
 
   for (i = 0; i < 8; i++) {
