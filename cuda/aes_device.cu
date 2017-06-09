@@ -133,7 +133,7 @@ void aes_device_test_all_files() {
 
   for (i = 0; i < 8; i++) {
     printf("AES DEVICE test file: %s ==> %s\n", filenames[i], 
-      aes_device_test_file(filenames[i], 4, 16) ? "SUCCEEDED" : "FAILED");
+      aes_device_test_file(filenames[i], 16) ? "SUCCEEDED" : "FAILED");
   }
 
 }
@@ -141,14 +141,14 @@ void aes_device_test_all_files() {
 /*********************** MAIN FUNCTION ***********************/
 int main (int argc, char** argv)
 {
-    if (argc != 2) {
-        printf("Usage: ./aes_device  <filename>\n");
+    if (argc != 3) {
+        printf("Usage: ./aes_device #threads/block <filename>\n");
         return -1;
     }
 
     int nthreads = atoi(argv[1]);
 
-    printf("AES device test step 1: %s\n", aes_device_test_file(argv[2], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    printf("AES device test step 1: %s\n", aes_device_test_file(argv[2], nthreads) ? "SUCCEEDED" : "FAILED");
     //aes_device_test_all_files();
 
     return 0;

@@ -31,11 +31,11 @@ $(DES).o: $(DES).cu
 	$(CC) --gpu-architecture=sm_32 --device-c $(DES).cu
 
 
-$(AES): $(AES)_test.o $(AES).o
-	$(CC) --gpu-architecture=sm_32 -o $(AES) $(AES)_test.o $(AES).o
+$(AES): $(AES)_device.o $(AES).o
+	$(CC) --gpu-architecture=sm_32 -o $(AES) $(AES)_device.o $(AES).o
 
-$(AES)_test.o: $(AES)_test.cu
-	$(CC) --gpu-architecture=sm_32 --device-c $(AES)_test.cu
+$(AES)_device.o: $(AES)_device.cu
+	$(CC) --gpu-architecture=sm_32 --device-c $(AES)_device.cu
 
 $(AES).o: $(AES).cu
 	$(CC) --gpu-architecture=sm_32 --device-c $(AES).cu
