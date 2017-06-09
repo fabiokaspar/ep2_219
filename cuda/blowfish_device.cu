@@ -145,7 +145,7 @@ int main (int argc, char** argv)
 
     int nthreads = atoi(argv[1]);
 
-    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file(argv[2], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    printf("BLOWFISH device test step 1: %s\n", blowfish_device_test_file(argv[2], nthreads) ? "SUCCEEDED" : "FAILED");
     //blowfish_device_test_all_files();
 
     return 0;

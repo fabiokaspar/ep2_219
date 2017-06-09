@@ -131,7 +131,7 @@ void des_device_test_all_files() {
 
   for (i = 0; i < 8; i++) {
     printf("DES DEVICE test file: %s ==> %s\n", filenames[i], 
-      des_device_test_file(filenames[i], 4, 16) ? "SUCCEEDED" : "FAILED");
+      des_device_test_file(filenames[i], 16) ? "SUCCEEDED" : "FAILED");
   }
 
 }
@@ -146,7 +146,7 @@ int main (int argc, char** argv)
 
     int nthreads = atoi(argv[1]);
 
-    printf("DES device test step 1: %s\n", des_device_test_file(argv[3], nblocks, nthreads) ? "SUCCEEDED" : "FAILED");
+    printf("DES device test step 1: %s\n", des_device_test_file(argv[2], nthreads) ? "SUCCEEDED" : "FAILED");
     //des_device_test_all_files();
 
     return 0;
