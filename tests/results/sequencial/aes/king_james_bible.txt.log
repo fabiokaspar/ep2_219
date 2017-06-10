@@ -1,0 +1,190 @@
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1605,416145      task-clock (msec)         #    0,676 CPUs utilized          
+               242      context-switches          #    0,151 K/sec                  
+                 4      cpu-migrations            #    0,002 K/sec                  
+             1.654      page-faults               #    0,001 M/sec                  
+     5.851.137.003      cycles                    #    3,645 GHz                      (83,23%)
+        87.720.392      stalled-cycles-frontend   #    1,50% frontend cycles idle     (83,34%)
+     2.322.826.752      stalled-cycles-backend    #   39,70% backend  cycles idle     (33,62%)
+    11.992.603.171      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,45%)
+       232.770.551      branches                  #  144,991 M/sec                    (66,89%)
+            52.648      branch-misses             #    0,02% of all branches          (83,31%)
+
+       2,376356473 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1600,467021      task-clock (msec)         #    0,675 CPUs utilized          
+               240      context-switches          #    0,150 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             2.162      page-faults               #    0,001 M/sec                  
+     5.851.195.672      cycles                    #    3,656 GHz                      (83,23%)
+        91.566.335      stalled-cycles-frontend   #    1,56% frontend cycles idle     (83,44%)
+     2.320.441.083      stalled-cycles-backend    #   39,66% backend  cycles idle     (33,81%)
+    12.045.659.806      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,30%)
+       236.699.966      branches                  #  147,894 M/sec                    (66,80%)
+            49.869      branch-misses             #    0,02% of all branches          (83,27%)
+
+       2,369626987 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1596,310291      task-clock (msec)         #    0,675 CPUs utilized          
+               261      context-switches          #    0,164 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.651      page-faults               #    0,001 M/sec                  
+     5.836.132.712      cycles                    #    3,656 GHz                      (83,25%)
+       101.186.247      stalled-cycles-frontend   #    1,73% frontend cycles idle     (83,34%)
+     2.321.639.968      stalled-cycles-backend    #   39,78% backend  cycles idle     (33,41%)
+    12.029.248.064      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,23%)
+       233.233.720      branches                  #  146,108 M/sec                    (66,79%)
+            43.032      branch-misses             #    0,02% of all branches          (83,36%)
+
+       2,363690178 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1601,075025      task-clock (msec)         #    0,676 CPUs utilized          
+               242      context-switches          #    0,151 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.654      page-faults               #    0,001 M/sec                  
+     5.855.138.319      cycles                    #    3,657 GHz                      (83,27%)
+        92.404.068      stalled-cycles-frontend   #    1,58% frontend cycles idle     (83,31%)
+     2.333.061.873      stalled-cycles-backend    #   39,85% backend  cycles idle     (33,42%)
+    12.039.761.246      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,18%)
+       233.648.194      branches                  #  145,932 M/sec                    (66,80%)
+            50.297      branch-misses             #    0,02% of all branches          (83,30%)
+
+       2,368850214 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1596,786058      task-clock (msec)         #    0,676 CPUs utilized          
+               249      context-switches          #    0,156 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.654      page-faults               #    0,001 M/sec                  
+     5.834.269.154      cycles                    #    3,654 GHz                      (83,21%)
+        94.827.263      stalled-cycles-frontend   #    1,63% frontend cycles idle     (83,41%)
+     2.326.778.535      stalled-cycles-backend    #   39,88% backend  cycles idle     (33,38%)
+    12.034.888.036      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,27%)
+       232.088.738      branches                  #  145,347 M/sec                    (66,84%)
+            48.726      branch-misses             #    0,02% of all branches          (83,35%)
+
+       2,363235422 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1599,551062      task-clock (msec)         #    0,676 CPUs utilized          
+               232      context-switches          #    0,145 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             2.165      page-faults               #    0,001 M/sec                  
+     5.847.836.888      cycles                    #    3,656 GHz                      (83,27%)
+        90.424.286      stalled-cycles-frontend   #    1,55% frontend cycles idle     (82,92%)
+     2.321.828.780      stalled-cycles-backend    #   39,70% backend  cycles idle     (33,82%)
+    12.042.420.838      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,34%)
+       235.642.120      branches                  #  147,318 M/sec                    (66,82%)
+            50.771      branch-misses             #    0,02% of all branches          (83,33%)
+
+       2,367384510 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1583,968477      task-clock (msec)         #    0,673 CPUs utilized          
+               239      context-switches          #    0,151 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.654      page-faults               #    0,001 M/sec                  
+     5.839.182.068      cycles                    #    3,686 GHz                      (83,22%)
+       111.800.897      stalled-cycles-frontend   #    1,91% frontend cycles idle     (83,32%)
+     2.326.390.778      stalled-cycles-backend    #   39,84% backend  cycles idle     (33,61%)
+    12.076.252.932      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,29%)
+       235.627.501      branches                  #  148,758 M/sec                    (66,94%)
+            58.644      branch-misses             #    0,02% of all branches          (83,50%)
+
+       2,352868124 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1597,553882      task-clock (msec)         #    0,675 CPUs utilized          
+               253      context-switches          #    0,158 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             2.161      page-faults               #    0,001 M/sec                  
+     5.837.650.246      cycles                    #    3,654 GHz                      (83,19%)
+        93.597.130      stalled-cycles-frontend   #    1,60% frontend cycles idle     (83,25%)
+     2.316.094.215      stalled-cycles-backend    #   39,68% backend  cycles idle     (33,73%)
+    11.976.278.896      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,60%)
+       233.192.140      branches                  #  145,968 M/sec                    (67,11%)
+            54.213      branch-misses             #    0,02% of all branches          (83,63%)
+
+       2,365711135 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1599,079980      task-clock (msec)         #    0,675 CPUs utilized          
+               242      context-switches          #    0,151 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.651      page-faults               #    0,001 M/sec                  
+     5.852.639.437      cycles                    #    3,660 GHz                      (83,27%)
+        92.329.122      stalled-cycles-frontend   #    1,58% frontend cycles idle     (83,31%)
+     2.316.912.459      stalled-cycles-backend    #   39,59% backend  cycles idle     (33,43%)
+    12.037.514.119      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,24%)
+       235.941.105      branches                  #  147,548 M/sec                    (66,85%)
+            54.257      branch-misses             #    0,02% of all branches          (83,38%)
+
+       2,367301014 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/king_james_bible.txt':
+
+       1596,498580      task-clock (msec)         #    0,675 CPUs utilized          
+               237      context-switches          #    0,148 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             2.164      page-faults               #    0,001 M/sec                  
+     5.827.123.551      cycles                    #    3,650 GHz                      (83,36%)
+        95.046.619      stalled-cycles-frontend   #    1,63% frontend cycles idle     (83,50%)
+     2.322.694.511      stalled-cycles-backend    #   39,86% backend  cycles idle     (33,60%)
+    12.085.766.448      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,14%)
+       231.994.085      branches                  #  145,314 M/sec                    (66,67%)
+            47.667      branch-misses             #    0,02% of all branches          (83,23%)
+
+       2,365190494 seconds time elapsed
+

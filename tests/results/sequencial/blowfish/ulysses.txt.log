@@ -1,0 +1,190 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      28908,634334      task-clock (msec)         #    0,990 CPUs utilized          
+             2.473      context-switches          #    0,086 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.730      page-faults               #    0,060 K/sec                  
+   107.648.877.298      cycles                    #    3,724 GHz                      (83,32%)
+     1.212.743.073      stalled-cycles-frontend   #    1,13% frontend cycles idle     (83,33%)
+    82.389.866.717      stalled-cycles-backend    #   76,54% backend  cycles idle     (33,35%)
+    85.872.467.069      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       396.311.329      branches                  #   13,709 M/sec                    (66,68%)
+         2.093.304      branch-misses             #    0,53% of all branches          (83,34%)
+
+      29,202875438 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29227,553493      task-clock (msec)         #    0,990 CPUs utilized          
+             2.654      context-switches          #    0,091 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.730      page-faults               #    0,059 K/sec                  
+   107.246.733.653      cycles                    #    3,669 GHz                      (83,34%)
+       617.988.956      stalled-cycles-frontend   #    0,58% frontend cycles idle     (83,33%)
+    82.333.871.384      stalled-cycles-backend    #   76,77% backend  cycles idle     (33,34%)
+    85.911.117.393      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       404.544.657      branches                  #   13,841 M/sec                    (66,66%)
+         2.291.632      branch-misses             #    0,57% of all branches          (83,33%)
+
+      29,530525677 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29245,751248      task-clock (msec)         #    0,990 CPUs utilized          
+             2.508      context-switches          #    0,086 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             1.724      page-faults               #    0,059 K/sec                  
+   107.297.526.557      cycles                    #    3,669 GHz                      (83,32%)
+       631.444.632      stalled-cycles-frontend   #    0,59% frontend cycles idle     (83,32%)
+    82.401.113.760      stalled-cycles-backend    #   76,80% backend  cycles idle     (33,35%)
+    85.874.344.930      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       398.039.173      branches                  #   13,610 M/sec                    (66,68%)
+         2.090.803      branch-misses             #    0,53% of all branches          (83,35%)
+
+      29,537176823 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29264,821344      task-clock (msec)         #    0,990 CPUs utilized          
+             2.509      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.730      page-faults               #    0,059 K/sec                  
+   107.326.759.925      cycles                    #    3,667 GHz                      (83,35%)
+       641.477.773      stalled-cycles-frontend   #    0,60% frontend cycles idle     (83,33%)
+    82.366.826.587      stalled-cycles-backend    #   76,74% backend  cycles idle     (33,33%)
+    85.908.857.589      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       404.896.342      branches                  #   13,836 M/sec                    (66,67%)
+         2.187.317      branch-misses             #    0,54% of all branches          (83,33%)
+
+      29,560366409 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      28945,535324      task-clock (msec)         #    0,990 CPUs utilized          
+             2.471      context-switches          #    0,085 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.730      page-faults               #    0,060 K/sec                  
+   107.648.454.222      cycles                    #    3,719 GHz                      (83,32%)
+     1.187.557.961      stalled-cycles-frontend   #    1,10% frontend cycles idle     (83,35%)
+    82.336.844.045      stalled-cycles-backend    #   76,49% backend  cycles idle     (33,35%)
+    85.905.715.867      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       398.317.181      branches                  #   13,761 M/sec                    (66,68%)
+         2.390.722      branch-misses             #    0,60% of all branches          (83,32%)
+
+      29,237898312 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29259,356708      task-clock (msec)         #    0,990 CPUs utilized          
+             2.508      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.727      page-faults               #    0,059 K/sec                  
+   107.290.121.918      cycles                    #    3,667 GHz                      (83,32%)
+       611.264.766      stalled-cycles-frontend   #    0,57% frontend cycles idle     (83,33%)
+    82.402.036.157      stalled-cycles-backend    #   76,80% backend  cycles idle     (33,35%)
+    85.883.890.455      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       402.137.563      branches                  #   13,744 M/sec                    (66,68%)
+         2.186.464      branch-misses             #    0,54% of all branches          (83,35%)
+
+      29,551335488 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      28964,415385      task-clock (msec)         #    0,990 CPUs utilized          
+             2.494      context-switches          #    0,086 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.727      page-faults               #    0,060 K/sec                  
+   107.669.265.457      cycles                    #    3,717 GHz                      (83,33%)
+     1.197.502.687      stalled-cycles-frontend   #    1,11% frontend cycles idle     (83,33%)
+    82.383.987.708      stalled-cycles-backend    #   76,52% backend  cycles idle     (33,34%)
+    85.866.801.817      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       396.968.348      branches                  #   13,705 M/sec                    (66,68%)
+         2.017.690      branch-misses             #    0,51% of all branches          (83,34%)
+
+      29,258594012 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29168,461800      task-clock (msec)         #    0,990 CPUs utilized          
+             2.517      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.730      page-faults               #    0,059 K/sec                  
+   108.307.574.826      cycles                    #    3,713 GHz                      (83,32%)
+     1.146.687.354      stalled-cycles-frontend   #    1,06% frontend cycles idle     (83,35%)
+    83.067.942.421      stalled-cycles-backend    #   76,70% backend  cycles idle     (33,33%)
+    85.870.839.865      instructions              #    0,79  insns per cycle        
+                                                  #    0,97  stalled cycles per insn  (50,03%)
+       401.554.978      branches                  #   13,767 M/sec                    (66,69%)
+         2.166.403      branch-misses             #    0,54% of all branches          (83,33%)
+
+      29,460770229 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29256,269677      task-clock (msec)         #    0,990 CPUs utilized          
+             2.534      context-switches          #    0,087 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.730      page-faults               #    0,059 K/sec                  
+   107.253.679.407      cycles                    #    3,666 GHz                      (83,34%)
+       572.173.134      stalled-cycles-frontend   #    0,53% frontend cycles idle     (83,32%)
+    82.312.431.009      stalled-cycles-backend    #   76,75% backend  cycles idle     (33,34%)
+    85.905.568.785      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       405.176.453      branches                  #   13,849 M/sec                    (66,66%)
+         2.181.603      branch-misses             #    0,54% of all branches          (83,33%)
+
+      29,549742762 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/ulysses.txt':
+
+      29259,882014      task-clock (msec)         #    0,990 CPUs utilized          
+             2.529      context-switches          #    0,086 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.727      page-faults               #    0,059 K/sec                  
+   107.299.544.296      cycles                    #    3,667 GHz                      (83,34%)
+       593.983.068      stalled-cycles-frontend   #    0,55% frontend cycles idle     (83,32%)
+    82.362.491.549      stalled-cycles-backend    #   76,76% backend  cycles idle     (33,34%)
+    85.911.358.358      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       404.424.682      branches                  #   13,822 M/sec                    (66,66%)
+         2.171.623      branch-misses             #    0,54% of all branches          (83,32%)
+
+      29,553886092 seconds time elapsed
+

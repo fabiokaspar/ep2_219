@@ -1,0 +1,190 @@
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1875,050568      task-clock (msec)         #    0,834 CPUs utilized          
+               201      context-switches          #    0,107 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.359      page-faults               #    0,725 K/sec                  
+     6.965.380.115      cycles                    #    3,715 GHz                      (83,38%)
+        84.097.668      stalled-cycles-frontend   #    1,21% frontend cycles idle     (83,36%)
+     2.418.497.450      stalled-cycles-backend    #   34,72% backend  cycles idle     (33,26%)
+    15.685.973.662      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,20%)
+       400.824.289      branches                  #  213,767 M/sec                    (66,77%)
+         3.454.875      branch-misses             #    0,86% of all branches          (83,32%)
+
+       2,247972345 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1893,129283      task-clock (msec)         #    0,893 CPUs utilized          
+               205      context-switches          #    0,108 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.353      page-faults               #    0,715 K/sec                  
+     6.971.650.521      cycles                    #    3,683 GHz                      (83,33%)
+        66.631.406      stalled-cycles-frontend   #    0,96% frontend cycles idle     (83,31%)
+     2.410.670.839      stalled-cycles-backend    #   34,58% backend  cycles idle     (33,37%)
+    15.793.669.160      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,07%)
+       405.589.865      branches                  #  214,243 M/sec                    (66,76%)
+         4.602.915      branch-misses             #    1,13% of all branches          (83,37%)
+
+       2,120199579 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1897,581703      task-clock (msec)         #    0,892 CPUs utilized          
+               243      context-switches          #    0,128 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.356      page-faults               #    0,715 K/sec                  
+     6.937.955.430      cycles                    #    3,656 GHz                      (83,38%)
+        54.371.054      stalled-cycles-frontend   #    0,78% frontend cycles idle     (83,36%)
+     2.412.983.723      stalled-cycles-backend    #   34,78% backend  cycles idle     (33,26%)
+    15.695.444.988      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,23%)
+       407.323.638      branches                  #  214,654 M/sec                    (66,81%)
+         3.508.933      branch-misses             #    0,86% of all branches          (83,40%)
+
+       2,126271157 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1892,928210      task-clock (msec)         #    0,892 CPUs utilized          
+               191      context-switches          #    0,101 K/sec                  
+                 4      cpu-migrations            #    0,002 K/sec                  
+             1.357      page-faults               #    0,717 K/sec                  
+     6.918.540.611      cycles                    #    3,655 GHz                      (83,30%)
+        49.678.359      stalled-cycles-frontend   #    0,72% frontend cycles idle     (83,30%)
+     2.432.548.334      stalled-cycles-backend    #   35,16% backend  cycles idle     (33,39%)
+    15.748.002.449      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,27%)
+       406.319.397      branches                  #  214,651 M/sec                    (66,87%)
+         2.120.270      branch-misses             #    0,52% of all branches          (83,42%)
+
+       2,121095278 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1904,902813      task-clock (msec)         #    0,893 CPUs utilized          
+               196      context-switches          #    0,103 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.354      page-faults               #    0,711 K/sec                  
+     6.978.342.749      cycles                    #    3,663 GHz                      (83,24%)
+        68.183.358      stalled-cycles-frontend   #    0,98% frontend cycles idle     (83,38%)
+     2.416.779.286      stalled-cycles-backend    #   34,63% backend  cycles idle     (33,54%)
+    15.720.550.245      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,10%)
+       408.462.722      branches                  #  214,427 M/sec                    (66,69%)
+         4.495.474      branch-misses             #    1,10% of all branches          (83,28%)
+
+       2,133262255 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1907,708457      task-clock (msec)         #    0,893 CPUs utilized          
+               194      context-switches          #    0,102 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.356      page-faults               #    0,711 K/sec                  
+     6.979.124.119      cycles                    #    3,658 GHz                      (83,06%)
+        68.975.171      stalled-cycles-frontend   #    0,99% frontend cycles idle     (83,36%)
+     2.411.725.687      stalled-cycles-backend    #   34,56% backend  cycles idle     (33,58%)
+    15.722.891.370      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,20%)
+       407.565.310      branches                  #  213,641 M/sec                    (66,78%)
+         4.596.364      branch-misses             #    1,13% of all branches          (83,34%)
+
+       2,135968255 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1903,890620      task-clock (msec)         #    0,893 CPUs utilized          
+               196      context-switches          #    0,103 K/sec                  
+                 4      cpu-migrations            #    0,002 K/sec                  
+             1.356      page-faults               #    0,712 K/sec                  
+     6.959.105.463      cycles                    #    3,655 GHz                      (83,24%)
+        60.695.079      stalled-cycles-frontend   #    0,87% frontend cycles idle     (83,36%)
+     2.415.286.539      stalled-cycles-backend    #   34,71% backend  cycles idle     (33,64%)
+    15.665.782.942      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,21%)
+       406.234.368      branches                  #  213,371 M/sec                    (66,80%)
+         3.597.300      branch-misses             #    0,89% of all branches          (83,40%)
+
+       2,132607463 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1898,234249      task-clock (msec)         #    0,893 CPUs utilized          
+               198      context-switches          #    0,104 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.356      page-faults               #    0,714 K/sec                  
+     6.985.578.726      cycles                    #    3,680 GHz                      (83,35%)
+        77.760.945      stalled-cycles-frontend   #    1,11% frontend cycles idle     (83,36%)
+     2.413.515.445      stalled-cycles-backend    #   34,55% backend  cycles idle     (33,30%)
+    15.681.016.149      instructions              #    2,24  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,29%)
+       406.066.101      branches                  #  213,918 M/sec                    (66,90%)
+         4.620.074      branch-misses             #    1,14% of all branches          (83,45%)
+
+       2,124859553 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1927,824579      task-clock (msec)         #    0,894 CPUs utilized          
+               197      context-switches          #    0,102 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.359      page-faults               #    0,705 K/sec                  
+     6.969.834.853      cycles                    #    3,615 GHz                      (83,22%)
+        61.355.846      stalled-cycles-frontend   #    0,88% frontend cycles idle     (83,35%)
+     2.413.575.784      stalled-cycles-backend    #   34,63% backend  cycles idle     (33,42%)
+    15.723.353.227      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,10%)
+       407.167.464      branches                  #  211,206 M/sec                    (66,70%)
+         4.809.862      branch-misses             #    1,18% of all branches          (83,27%)
+
+       2,156117746 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/moby_dick.txt':
+
+       1898,176809      task-clock (msec)         #    0,893 CPUs utilized          
+               201      context-switches          #    0,106 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.356      page-faults               #    0,714 K/sec                  
+     6.971.257.668      cycles                    #    3,673 GHz                      (83,35%)
+        71.017.298      stalled-cycles-frontend   #    1,02% frontend cycles idle     (83,35%)
+     2.406.833.880      stalled-cycles-backend    #   34,53% backend  cycles idle     (33,30%)
+    15.692.805.188      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,28%)
+       408.182.085      branches                  #  215,039 M/sec                    (66,90%)
+         4.603.682      branch-misses             #    1,13% of all branches          (83,49%)
+
+       2,126556680 seconds time elapsed
+

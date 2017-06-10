@@ -1,0 +1,1440 @@
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        184,129749      task-clock (msec)         #    0,426 CPUs utilized          
+               118      context-switches          #    0,641 K/sec                  
+                 8      cpu-migrations            #    0,043 K/sec                  
+             3.198      page-faults               #    0,017 M/sec                  
+       584.860.583      cycles                    #    3,176 GHz                      (83,96%)
+       135.022.791      stalled-cycles-frontend   #   23,09% frontend cycles idle     (82,93%)
+       225.663.178      stalled-cycles-backend    #   38,58% backend  cycles idle     (33,98%)
+       372.936.976      instructions              #    0,64  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (56,99%)
+        89.456.642      branches                  #  485,835 M/sec                    (71,47%)
+           609.335      branch-misses             #    0,68% of all branches          (86,33%)
+
+       0,432734370 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        174,239543      task-clock (msec)         #    0,419 CPUs utilized          
+                96      context-switches          #    0,551 K/sec                  
+                10      cpu-migrations            #    0,057 K/sec                  
+             3.194      page-faults               #    0,018 M/sec                  
+       534.094.640      cycles                    #    3,065 GHz                      (83,71%)
+       131.410.089      stalled-cycles-frontend   #   24,60% frontend cycles idle     (84,06%)
+       202.427.235      stalled-cycles-backend    #   37,90% backend  cycles idle     (33,79%)
+       378.392.088      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (51,53%)
+        89.937.052      branches                  #  516,169 M/sec                    (67,37%)
+           641.888      branch-misses             #    0,71% of all branches          (83,39%)
+
+       0,415930208 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        169,163876      task-clock (msec)         #    0,414 CPUs utilized          
+                98      context-switches          #    0,579 K/sec                  
+                14      cpu-migrations            #    0,083 K/sec                  
+             3.194      page-faults               #    0,019 M/sec                  
+       535.518.129      cycles                    #    3,166 GHz                      (81,89%)
+       127.688.485      stalled-cycles-frontend   #   23,84% frontend cycles idle     (81,81%)
+       197.640.468      stalled-cycles-backend    #   36,91% backend  cycles idle     (37,84%)
+       370.391.556      instructions              #    0,69  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (54,46%)
+        89.492.000      branches                  #  529,025 M/sec                    (69,06%)
+           590.369      branch-misses             #    0,66% of all branches          (83,02%)
+
+       0,408362649 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        167,754785      task-clock (msec)         #    0,413 CPUs utilized          
+               103      context-switches          #    0,614 K/sec                  
+                 9      cpu-migrations            #    0,054 K/sec                  
+             3.197      page-faults               #    0,019 M/sec                  
+       539.362.357      cycles                    #    3,215 GHz                      (83,42%)
+       131.241.747      stalled-cycles-frontend   #   24,33% frontend cycles idle     (83,64%)
+       228.426.822      stalled-cycles-backend    #   42,35% backend  cycles idle     (33,51%)
+       382.157.948      instructions              #    0,71  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (51,30%)
+        93.449.071      branches                  #  557,058 M/sec                    (68,95%)
+           620.220      branch-misses             #    0,66% of all branches          (84,49%)
+
+       0,406358202 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        169,292988      task-clock (msec)         #    0,417 CPUs utilized          
+               109      context-switches          #    0,644 K/sec                  
+                14      cpu-migrations            #    0,083 K/sec                  
+             3.198      page-faults               #    0,019 M/sec                  
+       547.678.286      cycles                    #    3,235 GHz                      (83,48%)
+       127.000.681      stalled-cycles-frontend   #   23,19% frontend cycles idle     (83,05%)
+       199.211.117      stalled-cycles-backend    #   36,37% backend  cycles idle     (37,28%)
+       342.979.061      instructions              #    0,63  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (54,63%)
+        86.858.706      branches                  #  513,067 M/sec                    (68,11%)
+           583.427      branch-misses             #    0,67% of all branches          (81,04%)
+
+       0,406382097 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        171,093386      task-clock (msec)         #    0,414 CPUs utilized          
+               110      context-switches          #    0,643 K/sec                  
+                11      cpu-migrations            #    0,064 K/sec                  
+             3.191      page-faults               #    0,019 M/sec                  
+       542.715.475      cycles                    #    3,172 GHz                      (81,43%)
+       131.143.028      stalled-cycles-frontend   #   24,16% frontend cycles idle     (83,43%)
+       208.616.363      stalled-cycles-backend    #   38,44% backend  cycles idle     (36,68%)
+       371.490.851      instructions              #    0,68  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (54,26%)
+        91.246.955      branches                  #  533,317 M/sec                    (68,51%)
+           609.325      branch-misses             #    0,67% of all branches          (83,27%)
+
+       0,413373700 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        165,505012      task-clock (msec)         #    0,410 CPUs utilized          
+               102      context-switches          #    0,616 K/sec                  
+                10      cpu-migrations            #    0,060 K/sec                  
+             3.198      page-faults               #    0,019 M/sec                  
+       554.006.453      cycles                    #    3,347 GHz                      (81,04%)
+       128.091.823      stalled-cycles-frontend   #   23,12% frontend cycles idle     (85,10%)
+       233.016.184      stalled-cycles-backend    #   42,06% backend  cycles idle     (37,05%)
+       371.357.511      instructions              #    0,67  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (51,65%)
+        93.060.047      branches                  #  562,279 M/sec                    (65,92%)
+           569.531      branch-misses             #    0,61% of all branches          (82,64%)
+
+       0,404139422 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        172,649201      task-clock (msec)         #    0,417 CPUs utilized          
+               101      context-switches          #    0,585 K/sec                  
+                13      cpu-migrations            #    0,075 K/sec                  
+             3.196      page-faults               #    0,019 M/sec                  
+       533.747.213      cycles                    #    3,092 GHz                      (81,59%)
+       125.085.516      stalled-cycles-frontend   #   23,44% frontend cycles idle     (83,77%)
+       179.462.542      stalled-cycles-backend    #   33,62% backend  cycles idle     (37,30%)
+       384.995.063      instructions              #    0,72  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (53,05%)
+        90.832.868      branches                  #  526,112 M/sec                    (66,89%)
+           622.693      branch-misses             #    0,69% of all branches          (80,96%)
+
+       0,413996623 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        172,881856      task-clock (msec)         #    0,420 CPUs utilized          
+                96      context-switches          #    0,555 K/sec                  
+                13      cpu-migrations            #    0,075 K/sec                  
+             3.199      page-faults               #    0,019 M/sec                  
+       541.944.350      cycles                    #    3,135 GHz                      (82,99%)
+       126.913.321      stalled-cycles-frontend   #   23,42% frontend cycles idle     (82,11%)
+       190.689.869      stalled-cycles-backend    #   35,19% backend  cycles idle     (35,38%)
+       382.199.826      instructions              #    0,71  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (57,03%)
+        91.179.563      branches                  #  527,410 M/sec                    (72,51%)
+           598.503      branch-misses             #    0,66% of all branches          (86,14%)
+
+       0,411646589 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/moby_dick.txt':
+
+        167,561112      task-clock (msec)         #    0,410 CPUs utilized          
+                99      context-switches          #    0,591 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.193      page-faults               #    0,019 M/sec                  
+       539.494.736      cycles                    #    3,220 GHz                      (84,81%)
+       121.834.961      stalled-cycles-frontend   #   22,58% frontend cycles idle     (83,54%)
+       178.048.807      stalled-cycles-backend    #   33,00% backend  cycles idle     (32,56%)
+       377.633.642      instructions              #    0,70  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (54,76%)
+        88.241.444      branches                  #  526,622 M/sec                    (70,34%)
+           599.461      branch-misses             #    0,68% of all branches          (83,51%)
+
+       0,408632361 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        163,650280      task-clock (msec)         #    0,408 CPUs utilized          
+               102      context-switches          #    0,623 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.191      page-faults               #    0,019 M/sec                  
+       515.410.205      cycles                    #    3,149 GHz                      (82,83%)
+       124.821.941      stalled-cycles-frontend   #   24,22% frontend cycles idle     (83,33%)
+       193.798.010      stalled-cycles-backend    #   37,60% backend  cycles idle     (34,78%)
+       371.419.501      instructions              #    0,72  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (51,31%)
+        86.974.064      branches                  #  531,463 M/sec                    (66,05%)
+           609.043      branch-misses             #    0,70% of all branches          (82,68%)
+
+       0,401257435 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        160,013230      task-clock (msec)         #    0,386 CPUs utilized          
+               106      context-switches          #    0,662 K/sec                  
+                11      cpu-migrations            #    0,069 K/sec                  
+             3.199      page-faults               #    0,020 M/sec                  
+       517.862.926      cycles                    #    3,236 GHz                      (82,55%)
+       119.566.748      stalled-cycles-frontend   #   23,09% frontend cycles idle     (81,50%)
+       194.977.530      stalled-cycles-backend    #   37,65% backend  cycles idle     (37,01%)
+       365.005.036      instructions              #    0,70  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (52,19%)
+        87.546.875      branches                  #  547,123 M/sec                    (67,21%)
+           559.412      branch-misses             #    0,64% of all branches          (83,35%)
+
+       0,414059895 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        162,682231      task-clock (msec)         #    0,404 CPUs utilized          
+               103      context-switches          #    0,633 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.194      page-faults               #    0,020 M/sec                  
+       505.145.335      cycles                    #    3,105 GHz                      (83,90%)
+       115.824.069      stalled-cycles-frontend   #   22,93% frontend cycles idle     (85,10%)
+       210.700.655      stalled-cycles-backend    #   41,71% backend  cycles idle     (36,99%)
+       359.385.071      instructions              #    0,71  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (53,25%)
+        86.717.334      branches                  #  533,047 M/sec                    (68,01%)
+           608.591      branch-misses             #    0,70% of all branches          (82,65%)
+
+       0,402617122 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        161,545090      task-clock (msec)         #    0,404 CPUs utilized          
+                99      context-switches          #    0,613 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.196      page-faults               #    0,020 M/sec                  
+       515.429.105      cycles                    #    3,191 GHz                      (80,20%)
+       123.424.155      stalled-cycles-frontend   #   23,95% frontend cycles idle     (85,40%)
+       215.041.942      stalled-cycles-backend    #   41,72% backend  cycles idle     (36,40%)
+       362.128.767      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (51,19%)
+        86.798.152      branches                  #  537,300 M/sec                    (66,04%)
+           598.052      branch-misses             #    0,69% of all branches          (81,88%)
+
+       0,399517630 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        162,164201      task-clock (msec)         #    0,405 CPUs utilized          
+                97      context-switches          #    0,598 K/sec                  
+                14      cpu-migrations            #    0,086 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       500.075.178      cycles                    #    3,084 GHz                      (82,56%)
+       118.117.315      stalled-cycles-frontend   #   23,62% frontend cycles idle     (82,76%)
+       182.251.202      stalled-cycles-backend    #   36,44% backend  cycles idle     (36,43%)
+       378.351.525      instructions              #    0,76  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (51,64%)
+        87.951.254      branches                  #  542,359 M/sec                    (68,90%)
+           569.400      branch-misses             #    0,65% of all branches          (83,71%)
+
+       0,400137967 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        159,153077      task-clock (msec)         #    0,399 CPUs utilized          
+                87      context-switches          #    0,547 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.195      page-faults               #    0,020 M/sec                  
+       513.774.616      cycles                    #    3,228 GHz                      (82,03%)
+       121.968.764      stalled-cycles-frontend   #   23,74% frontend cycles idle     (84,09%)
+       212.129.820      stalled-cycles-backend    #   41,29% backend  cycles idle     (36,35%)
+       355.840.450      instructions              #    0,69  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (52,92%)
+        84.913.236      branches                  #  533,532 M/sec                    (68,01%)
+           642.597      branch-misses             #    0,76% of all branches          (82,89%)
+
+       0,399102358 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        158,571046      task-clock (msec)         #    0,402 CPUs utilized          
+                98      context-switches          #    0,618 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       521.110.383      cycles                    #    3,286 GHz                      (79,49%)
+       120.866.216      stalled-cycles-frontend   #   23,19% frontend cycles idle     (84,82%)
+       209.088.711      stalled-cycles-backend    #   40,12% backend  cycles idle     (37,73%)
+       350.944.028      instructions              #    0,67  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (51,25%)
+        86.494.524      branches                  #  545,462 M/sec                    (65,84%)
+           570.701      branch-misses             #    0,66% of all branches          (82,26%)
+
+       0,394382715 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        158,105656      task-clock (msec)         #    0,401 CPUs utilized          
+                94      context-switches          #    0,595 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       476.609.464      cycles                    #    3,014 GHz                      (83,11%)
+       115.334.779      stalled-cycles-frontend   #   24,20% frontend cycles idle     (84,82%)
+       193.991.651      stalled-cycles-backend    #   40,70% backend  cycles idle     (37,90%)
+       380.465.607      instructions              #    0,80  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (52,87%)
+        88.955.513      branches                  #  562,633 M/sec                    (68,44%)
+           636.193      branch-misses             #    0,72% of all branches          (83,60%)
+
+       0,394658679 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        161,808385      task-clock (msec)         #    0,403 CPUs utilized          
+                99      context-switches          #    0,612 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.195      page-faults               #    0,020 M/sec                  
+       510.822.653      cycles                    #    3,157 GHz                      (81,42%)
+       123.258.498      stalled-cycles-frontend   #   24,13% frontend cycles idle     (82,51%)
+       204.066.048      stalled-cycles-backend    #   39,95% backend  cycles idle     (38,19%)
+       367.193.506      instructions              #    0,72  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (52,63%)
+        87.964.513      branches                  #  543,634 M/sec                    (67,43%)
+           591.042      branch-misses             #    0,67% of all branches          (84,57%)
+
+       0,401035102 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/moby_dick.txt':
+
+        155,877685      task-clock (msec)         #    0,394 CPUs utilized          
+                97      context-switches          #    0,622 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.197      page-faults               #    0,021 M/sec                  
+       501.407.855      cycles                    #    3,217 GHz                      (85,73%)
+       121.266.837      stalled-cycles-frontend   #   24,19% frontend cycles idle     (84,67%)
+       210.596.691      stalled-cycles-backend    #   42,00% backend  cycles idle     (30,69%)
+       380.690.086      instructions              #    0,76  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (51,29%)
+        92.256.245      branches                  #  591,850 M/sec                    (66,29%)
+           552.467      branch-misses             #    0,60% of all branches          (81,08%)
+
+       0,395407080 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        155,050536      task-clock (msec)         #    0,391 CPUs utilized          
+               106      context-switches          #    0,684 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.197      page-faults               #    0,021 M/sec                  
+       493.948.155      cycles                    #    3,186 GHz                      (84,46%)
+       119.549.375      stalled-cycles-frontend   #   24,20% frontend cycles idle     (83,95%)
+       204.334.563      stalled-cycles-backend    #   41,37% backend  cycles idle     (33,22%)
+       354.242.120      instructions              #    0,72  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (51,43%)
+        86.314.849      branches                  #  556,688 M/sec                    (67,66%)
+           579.601      branch-misses             #    0,67% of all branches          (83,54%)
+
+       0,396718713 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        161,190129      task-clock (msec)         #    0,405 CPUs utilized          
+                97      context-switches          #    0,602 K/sec                  
+                14      cpu-migrations            #    0,087 K/sec                  
+             3.199      page-faults               #    0,020 M/sec                  
+       502.780.345      cycles                    #    3,119 GHz                      (79,74%)
+       119.079.533      stalled-cycles-frontend   #   23,68% frontend cycles idle     (83,64%)
+       185.473.733      stalled-cycles-backend    #   36,89% backend  cycles idle     (37,84%)
+       350.362.273      instructions              #    0,70  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,61%)
+        85.013.292      branches                  #  527,410 M/sec                    (68,09%)
+           577.051      branch-misses             #    0,68% of all branches          (82,96%)
+
+       0,398333460 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        154,771913      task-clock (msec)         #    0,392 CPUs utilized          
+               100      context-switches          #    0,646 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.191      page-faults               #    0,021 M/sec                  
+       501.615.129      cycles                    #    3,241 GHz                      (83,63%)
+       117.853.782      stalled-cycles-frontend   #   23,49% frontend cycles idle     (82,09%)
+       163.180.635      stalled-cycles-backend    #   32,53% backend  cycles idle     (34,92%)
+       360.458.008      instructions              #    0,72  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (50,83%)
+        84.546.727      branches                  #  546,267 M/sec                    (66,37%)
+           524.648      branch-misses             #    0,62% of all branches          (81,61%)
+
+       0,394708715 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        156,571416      task-clock (msec)         #    0,398 CPUs utilized          
+               106      context-switches          #    0,677 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.198      page-faults               #    0,020 M/sec                  
+       499.356.141      cycles                    #    3,189 GHz                      (81,66%)
+       118.019.907      stalled-cycles-frontend   #   23,63% frontend cycles idle     (84,93%)
+       199.569.309      stalled-cycles-backend    #   39,97% backend  cycles idle     (36,55%)
+       353.430.405      instructions              #    0,71  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (50,69%)
+        83.727.487      branches                  #  534,756 M/sec                    (65,39%)
+           572.965      branch-misses             #    0,68% of all branches          (81,60%)
+
+       0,393531948 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        153,928526      task-clock (msec)         #    0,392 CPUs utilized          
+               102      context-switches          #    0,663 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.198      page-faults               #    0,021 M/sec                  
+       497.801.353      cycles                    #    3,234 GHz                      (84,71%)
+       122.643.723      stalled-cycles-frontend   #   24,64% frontend cycles idle     (85,18%)
+       196.825.066      stalled-cycles-backend    #   39,54% backend  cycles idle     (30,57%)
+       323.981.447      instructions              #    0,65  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (53,55%)
+        83.328.962      branches                  #  541,348 M/sec                    (68,54%)
+           575.749      branch-misses             #    0,69% of all branches          (84,27%)
+
+       0,393122370 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        156,495664      task-clock (msec)         #    0,396 CPUs utilized          
+                97      context-switches          #    0,620 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.195      page-faults               #    0,020 M/sec                  
+       502.913.676      cycles                    #    3,214 GHz                      (85,74%)
+       115.433.430      stalled-cycles-frontend   #   22,95% frontend cycles idle     (84,56%)
+       177.680.373      stalled-cycles-backend    #   35,33% backend  cycles idle     (30,49%)
+       333.622.274      instructions              #    0,66  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (51,75%)
+        79.932.988      branches                  #  510,768 M/sec                    (67,37%)
+           522.852      branch-misses             #    0,65% of all branches          (84,72%)
+
+       0,395419213 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        163,424053      task-clock (msec)         #    0,406 CPUs utilized          
+               105      context-switches          #    0,643 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.189      page-faults               #    0,020 M/sec                  
+       509.577.561      cycles                    #    3,118 GHz                      (80,77%)
+       117.993.979      stalled-cycles-frontend   #   23,16% frontend cycles idle     (84,36%)
+       203.228.374      stalled-cycles-backend    #   39,88% backend  cycles idle     (36,48%)
+       354.826.776      instructions              #    0,70  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (52,27%)
+        84.706.042      branches                  #  518,321 M/sec                    (66,43%)
+           567.680      branch-misses             #    0,67% of all branches          (80,89%)
+
+       0,402831751 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        153,881288      task-clock (msec)         #    0,393 CPUs utilized          
+               100      context-switches          #    0,650 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.197      page-faults               #    0,021 M/sec                  
+       498.380.394      cycles                    #    3,239 GHz                      (84,62%)
+       123.082.910      stalled-cycles-frontend   #   24,70% frontend cycles idle     (84,37%)
+       197.152.497      stalled-cycles-backend    #   39,56% backend  cycles idle     (31,39%)
+       320.260.638      instructions              #    0,64  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (52,34%)
+        79.930.006      branches                  #  519,426 M/sec                    (67,47%)
+           526.235      branch-misses             #    0,66% of all branches          (82,89%)
+
+       0,391510340 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        155,386693      task-clock (msec)         #    0,397 CPUs utilized          
+                88      context-switches          #    0,566 K/sec                  
+                12      cpu-migrations            #    0,077 K/sec                  
+             3.191      page-faults               #    0,021 M/sec                  
+       519.741.079      cycles                    #    3,345 GHz                      (82,01%)
+       118.368.803      stalled-cycles-frontend   #   22,77% frontend cycles idle     (84,23%)
+       192.817.696      stalled-cycles-backend    #   37,10% backend  cycles idle     (34,31%)
+       356.573.975      instructions              #    0,69  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (52,95%)
+        87.106.799      branches                  #  560,581 M/sec                    (68,92%)
+           569.292      branch-misses             #    0,65% of all branches          (82,15%)
+
+       0,391322300 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/moby_dick.txt':
+
+        157,979401      task-clock (msec)         #    0,400 CPUs utilized          
+                96      context-switches          #    0,608 K/sec                  
+                13      cpu-migrations            #    0,082 K/sec                  
+             3.198      page-faults               #    0,020 M/sec                  
+       475.221.845      cycles                    #    3,008 GHz                      (83,09%)
+       119.467.509      stalled-cycles-frontend   #   25,14% frontend cycles idle     (82,37%)
+       180.355.762      stalled-cycles-backend    #   37,95% backend  cycles idle     (40,22%)
+       359.844.857      instructions              #    0,76  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (55,68%)
+        81.727.994      branches                  #  517,333 M/sec                    (69,32%)
+           581.918      branch-misses             #    0,71% of all branches          (83,60%)
+
+       0,394925369 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        154,726056      task-clock (msec)         #    0,393 CPUs utilized          
+                93      context-switches          #    0,601 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.193      page-faults               #    0,021 M/sec                  
+       509.401.291      cycles                    #    3,292 GHz                      (80,63%)
+       115.414.043      stalled-cycles-frontend   #   22,66% frontend cycles idle     (84,68%)
+       179.773.590      stalled-cycles-backend    #   35,29% backend  cycles idle     (36,15%)
+       367.309.810      instructions              #    0,72  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (50,96%)
+        87.852.554      branches                  #  567,794 M/sec                    (66,41%)
+           547.446      branch-misses             #    0,62% of all branches          (84,43%)
+
+       0,394139205 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        156,330229      task-clock (msec)         #    0,399 CPUs utilized          
+                92      context-switches          #    0,588 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.192      page-faults               #    0,020 M/sec                  
+       517.486.784      cycles                    #    3,310 GHz                      (80,37%)
+       117.068.358      stalled-cycles-frontend   #   22,62% frontend cycles idle     (83,44%)
+       182.509.294      stalled-cycles-backend    #   35,27% backend  cycles idle     (37,75%)
+       352.412.474      instructions              #    0,68  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (53,71%)
+        83.536.440      branches                  #  534,359 M/sec                    (69,12%)
+           562.956      branch-misses             #    0,67% of all branches          (84,16%)
+
+       0,392050247 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        156,851667      task-clock (msec)         #    0,398 CPUs utilized          
+               100      context-switches          #    0,638 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.194      page-faults               #    0,020 M/sec                  
+       499.696.821      cycles                    #    3,186 GHz                      (82,38%)
+       118.717.299      stalled-cycles-frontend   #   23,76% frontend cycles idle     (84,88%)
+       178.645.764      stalled-cycles-backend    #   35,75% backend  cycles idle     (32,94%)
+       350.631.669      instructions              #    0,70  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (50,30%)
+        83.425.436      branches                  #  531,875 M/sec                    (64,94%)
+           496.450      branch-misses             #    0,60% of all branches          (81,28%)
+
+       0,394561635 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        157,582542      task-clock (msec)         #    0,400 CPUs utilized          
+                97      context-switches          #    0,616 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       516.969.784      cycles                    #    3,281 GHz                      (82,86%)
+       115.672.416      stalled-cycles-frontend   #   22,38% frontend cycles idle     (84,53%)
+       172.134.297      stalled-cycles-backend    #   33,30% backend  cycles idle     (33,34%)
+       338.003.761      instructions              #    0,65  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (52,12%)
+        82.984.255      branches                  #  526,608 M/sec                    (69,37%)
+           529.824      branch-misses             #    0,64% of all branches          (84,96%)
+
+       0,394042533 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        154,257373      task-clock (msec)         #    0,392 CPUs utilized          
+               106      context-switches          #    0,687 K/sec                  
+                12      cpu-migrations            #    0,078 K/sec                  
+             3.198      page-faults               #    0,021 M/sec                  
+       493.754.444      cycles                    #    3,201 GHz                      (84,57%)
+       118.774.413      stalled-cycles-frontend   #   24,06% frontend cycles idle     (85,82%)
+       191.684.222      stalled-cycles-backend    #   38,82% backend  cycles idle     (30,47%)
+       343.044.746      instructions              #    0,69  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (52,95%)
+        82.234.719      branches                  #  533,101 M/sec                    (66,87%)
+           511.515      branch-misses             #    0,62% of all branches          (83,89%)
+
+       0,393312613 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        158,005142      task-clock (msec)         #    0,395 CPUs utilized          
+               108      context-switches          #    0,684 K/sec                  
+                14      cpu-migrations            #    0,089 K/sec                  
+             3.192      page-faults               #    0,020 M/sec                  
+       495.820.765      cycles                    #    3,138 GHz                      (82,45%)
+       122.655.342      stalled-cycles-frontend   #   24,74% frontend cycles idle     (82,40%)
+       172.779.685      stalled-cycles-backend    #   34,85% backend  cycles idle     (35,91%)
+       349.570.563      instructions              #    0,71  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (53,69%)
+        83.297.098      branches                  #  527,180 M/sec                    (68,08%)
+           530.322      branch-misses             #    0,64% of all branches          (83,87%)
+
+       0,399746071 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        156,072920      task-clock (msec)         #    0,397 CPUs utilized          
+                97      context-switches          #    0,622 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.192      page-faults               #    0,020 M/sec                  
+       524.581.972      cycles                    #    3,361 GHz                      (77,71%)
+       119.515.872      stalled-cycles-frontend   #   22,78% frontend cycles idle     (82,53%)
+       201.753.357      stalled-cycles-backend    #   38,46% backend  cycles idle     (43,45%)
+       359.034.301      instructions              #    0,68  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (57,00%)
+        84.320.965      branches                  #  540,266 M/sec                    (70,27%)
+           569.084      branch-misses             #    0,67% of all branches          (84,43%)
+
+       0,392874405 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        156,210079      task-clock (msec)         #    0,397 CPUs utilized          
+               101      context-switches          #    0,647 K/sec                  
+                12      cpu-migrations            #    0,077 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       480.871.607      cycles                    #    3,078 GHz                      (84,26%)
+       119.888.269      stalled-cycles-frontend   #   24,93% frontend cycles idle     (84,63%)
+       192.071.771      stalled-cycles-backend    #   39,94% backend  cycles idle     (35,21%)
+       354.830.371      instructions              #    0,74  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (52,17%)
+        85.171.752      branches                  #  545,239 M/sec                    (66,60%)
+           613.170      branch-misses             #    0,72% of all branches          (84,46%)
+
+       0,393519979 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        156,617166      task-clock (msec)         #    0,398 CPUs utilized          
+                94      context-switches          #    0,600 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.194      page-faults               #    0,020 M/sec                  
+       506.828.535      cycles                    #    3,236 GHz                      (83,15%)
+       117.384.114      stalled-cycles-frontend   #   23,16% frontend cycles idle     (84,57%)
+       185.190.948      stalled-cycles-backend    #   36,54% backend  cycles idle     (34,27%)
+       340.001.756      instructions              #    0,67  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (56,58%)
+        84.093.254      branches                  #  536,935 M/sec                    (71,06%)
+           541.413      branch-misses             #    0,64% of all branches          (84,87%)
+
+       0,393699371 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/moby_dick.txt':
+
+        153,194041      task-clock (msec)         #    0,392 CPUs utilized          
+                88      context-switches          #    0,574 K/sec                  
+                 9      cpu-migrations            #    0,059 K/sec                  
+             3.195      page-faults               #    0,021 M/sec                  
+       486.712.057      cycles                    #    3,177 GHz                      (84,24%)
+       118.814.930      stalled-cycles-frontend   #   24,41% frontend cycles idle     (84,34%)
+       198.701.143      stalled-cycles-backend    #   40,83% backend  cycles idle     (32,70%)
+       350.294.074      instructions              #    0,72  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (52,13%)
+        86.504.276      branches                  #  564,671 M/sec                    (67,14%)
+           576.115      branch-misses             #    0,67% of all branches          (83,17%)
+
+       0,390364569 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        158,226327      task-clock (msec)         #    0,397 CPUs utilized          
+               104      context-switches          #    0,657 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       498.217.944      cycles                    #    3,149 GHz                      (84,61%)
+       120.317.056      stalled-cycles-frontend   #   24,15% frontend cycles idle     (81,83%)
+       176.922.363      stalled-cycles-backend    #   35,51% backend  cycles idle     (35,01%)
+       371.295.852      instructions              #    0,75  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (51,84%)
+        84.807.211      branches                  #  535,987 M/sec                    (66,47%)
+           560.374      branch-misses             #    0,66% of all branches          (83,28%)
+
+       0,398635367 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        158,870998      task-clock (msec)         #    0,400 CPUs utilized          
+                92      context-switches          #    0,579 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       502.802.866      cycles                    #    3,165 GHz                      (82,97%)
+       122.986.682      stalled-cycles-frontend   #   24,46% frontend cycles idle     (83,52%)
+       183.640.939      stalled-cycles-backend    #   36,52% backend  cycles idle     (35,04%)
+       348.561.919      instructions              #    0,69  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (50,59%)
+        83.268.663      branches                  #  524,128 M/sec                    (65,69%)
+           595.854      branch-misses             #    0,72% of all branches          (82,94%)
+
+       0,396987759 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        156,576979      task-clock (msec)         #    0,396 CPUs utilized          
+               105      context-switches          #    0,671 K/sec                  
+                14      cpu-migrations            #    0,089 K/sec                  
+             3.190      page-faults               #    0,020 M/sec                  
+       500.282.562      cycles                    #    3,195 GHz                      (82,62%)
+       118.607.678      stalled-cycles-frontend   #   23,71% frontend cycles idle     (84,81%)
+       163.524.745      stalled-cycles-backend    #   32,69% backend  cycles idle     (33,68%)
+       336.533.439      instructions              #    0,67  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (55,77%)
+        83.549.155      branches                  #  533,598 M/sec                    (70,49%)
+           539.089      branch-misses             #    0,65% of all branches          (84,69%)
+
+       0,395783743 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        160,907931      task-clock (msec)         #    0,405 CPUs utilized          
+               101      context-switches          #    0,628 K/sec                  
+                16      cpu-migrations            #    0,099 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       503.414.322      cycles                    #    3,129 GHz                      (81,08%)
+       117.377.585      stalled-cycles-frontend   #   23,32% frontend cycles idle     (84,94%)
+       185.794.329      stalled-cycles-backend    #   36,91% backend  cycles idle     (35,67%)
+       326.759.682      instructions              #    0,65  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (56,20%)
+        81.949.729      branches                  #  509,296 M/sec                    (70,81%)
+           515.544      branch-misses             #    0,63% of all branches          (84,33%)
+
+       0,397599811 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        151,193426      task-clock (msec)         #    0,387 CPUs utilized          
+               103      context-switches          #    0,681 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.198      page-faults               #    0,021 M/sec                  
+       508.503.789      cycles                    #    3,363 GHz                      (84,15%)
+       124.228.843      stalled-cycles-frontend   #   24,43% frontend cycles idle     (85,64%)
+       191.966.399      stalled-cycles-backend    #   37,75% backend  cycles idle     (31,20%)
+       372.210.924      instructions              #    0,73  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (47,13%)
+        89.910.327      branches                  #  594,671 M/sec                    (62,87%)
+           573.806      branch-misses             #    0,64% of all branches          (79,60%)
+
+       0,390909987 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        154,361689      task-clock (msec)         #    0,391 CPUs utilized          
+               103      context-switches          #    0,667 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.198      page-faults               #    0,021 M/sec                  
+       500.023.489      cycles                    #    3,239 GHz                      (78,46%)
+       121.051.006      stalled-cycles-frontend   #   24,21% frontend cycles idle     (84,49%)
+       183.776.541      stalled-cycles-backend    #   36,75% backend  cycles idle     (37,55%)
+       337.686.451      instructions              #    0,68  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (59,18%)
+        82.536.628      branches                  #  534,696 M/sec                    (72,05%)
+           575.637      branch-misses             #    0,70% of all branches          (86,53%)
+
+       0,394541879 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        153,554899      task-clock (msec)         #    0,389 CPUs utilized          
+                94      context-switches          #    0,612 K/sec                  
+                 9      cpu-migrations            #    0,059 K/sec                  
+             3.192      page-faults               #    0,021 M/sec                  
+       481.445.744      cycles                    #    3,135 GHz                      (83,27%)
+       117.904.091      stalled-cycles-frontend   #   24,49% frontend cycles idle     (84,40%)
+       200.348.284      stalled-cycles-backend    #   41,61% backend  cycles idle     (38,22%)
+       350.968.280      instructions              #    0,73  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (53,83%)
+        84.049.425      branches                  #  547,357 M/sec                    (68,05%)
+           561.932      branch-misses             #    0,67% of all branches          (83,55%)
+
+       0,394789286 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        157,754832      task-clock (msec)         #    0,396 CPUs utilized          
+               110      context-switches          #    0,697 K/sec                  
+                11      cpu-migrations            #    0,070 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       504.135.477      cycles                    #    3,196 GHz                      (85,08%)
+       119.098.983      stalled-cycles-frontend   #   23,62% frontend cycles idle     (86,58%)
+       186.620.169      stalled-cycles-backend    #   37,02% backend  cycles idle     (29,13%)
+       368.064.190      instructions              #    0,73  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (47,61%)
+        88.843.554      branches                  #  563,175 M/sec                    (62,37%)
+           526.424      branch-misses             #    0,59% of all branches          (82,13%)
+
+       0,398789919 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        152,155823      task-clock (msec)         #    0,389 CPUs utilized          
+                99      context-switches          #    0,651 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.193      page-faults               #    0,021 M/sec                  
+       519.752.876      cycles                    #    3,416 GHz                      (83,69%)
+       120.657.349      stalled-cycles-frontend   #   23,21% frontend cycles idle     (83,32%)
+       203.743.095      stalled-cycles-backend    #   39,20% backend  cycles idle     (33,49%)
+       350.769.340      instructions              #    0,67  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (50,44%)
+        87.636.945      branches                  #  575,968 M/sec                    (64,69%)
+           583.576      branch-misses             #    0,67% of all branches          (82,73%)
+
+       0,390900087 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/moby_dick.txt':
+
+        159,531744      task-clock (msec)         #    0,402 CPUs utilized          
+               105      context-switches          #    0,658 K/sec                  
+                14      cpu-migrations            #    0,088 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       516.369.990      cycles                    #    3,237 GHz                      (80,73%)
+       121.173.762      stalled-cycles-frontend   #   23,47% frontend cycles idle     (84,95%)
+       207.828.404      stalled-cycles-backend    #   40,25% backend  cycles idle     (35,06%)
+       354.828.706      instructions              #    0,69  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (50,24%)
+        85.964.428      branches                  #  538,855 M/sec                    (65,36%)
+           552.540      branch-misses             #    0,64% of all branches          (82,13%)
+
+       0,396757790 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        155,034532      task-clock (msec)         #    0,397 CPUs utilized          
+               105      context-switches          #    0,677 K/sec                  
+                11      cpu-migrations            #    0,071 K/sec                  
+             3.195      page-faults               #    0,021 M/sec                  
+       504.231.119      cycles                    #    3,252 GHz                      (81,22%)
+       119.329.686      stalled-cycles-frontend   #   23,67% frontend cycles idle     (83,73%)
+       180.711.833      stalled-cycles-backend    #   35,84% backend  cycles idle     (36,19%)
+       335.488.368      instructions              #    0,67  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (54,83%)
+        81.349.157      branches                  #  524,716 M/sec                    (71,47%)
+           564.554      branch-misses             #    0,69% of all branches          (86,38%)
+
+       0,390947701 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        158,188307      task-clock (msec)         #    0,400 CPUs utilized          
+                98      context-switches          #    0,620 K/sec                  
+                14      cpu-migrations            #    0,089 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       508.959.581      cycles                    #    3,217 GHz                      (85,02%)
+       119.707.084      stalled-cycles-frontend   #   23,52% frontend cycles idle     (82,25%)
+       181.076.685      stalled-cycles-backend    #   35,58% backend  cycles idle     (33,30%)
+       332.799.369      instructions              #    0,65  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (58,46%)
+        81.012.916      branches                  #  512,130 M/sec                    (73,75%)
+           551.417      branch-misses             #    0,68% of all branches          (85,58%)
+
+       0,395227089 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        155,615742      task-clock (msec)         #    0,395 CPUs utilized          
+               102      context-switches          #    0,655 K/sec                  
+                13      cpu-migrations            #    0,084 K/sec                  
+             3.193      page-faults               #    0,021 M/sec                  
+       496.316.664      cycles                    #    3,189 GHz                      (84,66%)
+       116.820.868      stalled-cycles-frontend   #   23,54% frontend cycles idle     (84,85%)
+       183.265.076      stalled-cycles-backend    #   36,93% backend  cycles idle     (32,59%)
+       329.323.825      instructions              #    0,66  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (53,70%)
+        81.805.390      branches                  #  525,688 M/sec                    (69,05%)
+           524.920      branch-misses             #    0,64% of all branches          (83,99%)
+
+       0,393977504 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        156,999898      task-clock (msec)         #    0,399 CPUs utilized          
+               100      context-switches          #    0,637 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       503.413.966      cycles                    #    3,206 GHz                      (83,96%)
+       118.667.040      stalled-cycles-frontend   #   23,57% frontend cycles idle     (84,00%)
+       184.159.910      stalled-cycles-backend    #   36,58% backend  cycles idle     (33,57%)
+       361.469.638      instructions              #    0,72  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (49,94%)
+        86.112.414      branches                  #  548,487 M/sec                    (65,56%)
+           539.194      branch-misses             #    0,63% of all branches          (81,30%)
+
+       0,393171744 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        158,249828      task-clock (msec)         #    0,399 CPUs utilized          
+               119      context-switches          #    0,752 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.193      page-faults               #    0,020 M/sec                  
+       511.037.834      cycles                    #    3,229 GHz                      (83,05%)
+       121.404.425      stalled-cycles-frontend   #   23,76% frontend cycles idle     (83,04%)
+       187.724.223      stalled-cycles-backend    #   36,73% backend  cycles idle     (34,33%)
+       338.717.124      instructions              #    0,66  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (53,86%)
+        84.590.118      branches                  #  534,535 M/sec                    (68,53%)
+           527.306      branch-misses             #    0,62% of all branches          (82,47%)
+
+       0,396815645 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        158,709955      task-clock (msec)         #    0,398 CPUs utilized          
+                94      context-switches          #    0,592 K/sec                  
+                11      cpu-migrations            #    0,069 K/sec                  
+             3.196      page-faults               #    0,020 M/sec                  
+       490.431.475      cycles                    #    3,090 GHz                      (83,25%)
+       119.047.871      stalled-cycles-frontend   #   24,27% frontend cycles idle     (84,66%)
+       177.948.065      stalled-cycles-backend    #   36,28% backend  cycles idle     (33,67%)
+       332.802.423      instructions              #    0,68  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (54,30%)
+        81.385.696      branches                  #  512,795 M/sec                    (68,90%)
+           552.989      branch-misses             #    0,68% of all branches          (83,05%)
+
+       0,398790203 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        159,299803      task-clock (msec)         #    0,401 CPUs utilized          
+               107      context-switches          #    0,672 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       508.407.186      cycles                    #    3,192 GHz                      (81,88%)
+       120.738.312      stalled-cycles-frontend   #   23,75% frontend cycles idle     (83,90%)
+       190.836.075      stalled-cycles-backend    #   37,54% backend  cycles idle     (35,20%)
+       361.306.798      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (49,55%)
+        87.394.757      branches                  #  548,618 M/sec                    (64,23%)
+           564.365      branch-misses             #    0,65% of all branches          (81,25%)
+
+       0,397319292 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        154,779071      task-clock (msec)         #    0,397 CPUs utilized          
+                99      context-switches          #    0,640 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.194      page-faults               #    0,021 M/sec                  
+       508.717.616      cycles                    #    3,287 GHz                      (79,92%)
+       117.404.837      stalled-cycles-frontend   #   23,08% frontend cycles idle     (84,18%)
+       172.062.940      stalled-cycles-backend    #   33,82% backend  cycles idle     (36,29%)
+       369.908.463      instructions              #    0,73  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (51,95%)
+        88.745.213      branches                  #  573,367 M/sec                    (67,34%)
+           525.600      branch-misses             #    0,59% of all branches          (85,20%)
+
+       0,389796002 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        156,542961      task-clock (msec)         #    0,395 CPUs utilized          
+               105      context-switches          #    0,671 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       504.305.890      cycles                    #    3,222 GHz                      (84,63%)
+       119.334.135      stalled-cycles-frontend   #   23,66% frontend cycles idle     (85,04%)
+       181.214.434      stalled-cycles-backend    #   35,93% backend  cycles idle     (31,99%)
+       344.970.302      instructions              #    0,68  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (51,97%)
+        85.650.631      branches                  #  547,138 M/sec                    (66,91%)
+           561.173      branch-misses             #    0,66% of all branches          (81,55%)
+
+       0,395979238 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/moby_dick.txt':
+
+        157,101369      task-clock (msec)         #    0,398 CPUs utilized          
+               113      context-switches          #    0,719 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.195      page-faults               #    0,020 M/sec                  
+       515.607.579      cycles                    #    3,282 GHz                      (79,88%)
+       118.125.383      stalled-cycles-frontend   #   22,91% frontend cycles idle     (83,93%)
+       194.252.132      stalled-cycles-backend    #   37,67% backend  cycles idle     (37,89%)
+       323.302.903      instructions              #    0,63  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (57,11%)
+        82.205.490      branches                  #  523,264 M/sec                    (71,77%)
+           576.392      branch-misses             #    0,70% of all branches          (86,07%)
+
+       0,395117188 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        157,602458      task-clock (msec)         #    0,400 CPUs utilized          
+                96      context-switches          #    0,609 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       502.161.323      cycles                    #    3,186 GHz                      (79,65%)
+       118.155.467      stalled-cycles-frontend   #   23,53% frontend cycles idle     (85,26%)
+       199.190.407      stalled-cycles-backend    #   39,67% backend  cycles idle     (35,46%)
+       367.330.631      instructions              #    0,73  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (52,07%)
+        88.365.878      branches                  #  560,688 M/sec                    (70,03%)
+           587.498      branch-misses             #    0,66% of all branches          (85,23%)
+
+       0,394083405 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        158,137251      task-clock (msec)         #    0,402 CPUs utilized          
+               119      context-switches          #    0,753 K/sec                  
+                11      cpu-migrations            #    0,070 K/sec                  
+             3.197      page-faults               #    0,020 M/sec                  
+       502.443.397      cycles                    #    3,177 GHz                      (82,54%)
+       117.424.507      stalled-cycles-frontend   #   23,37% frontend cycles idle     (82,06%)
+       196.261.091      stalled-cycles-backend    #   39,06% backend  cycles idle     (37,40%)
+       359.053.312      instructions              #    0,71  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (55,06%)
+        84.883.769      branches                  #  536,773 M/sec                    (70,26%)
+           579.311      branch-misses             #    0,68% of all branches          (85,53%)
+
+       0,393849832 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        156,511325      task-clock (msec)         #    0,398 CPUs utilized          
+               110      context-switches          #    0,703 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.192      page-faults               #    0,020 M/sec                  
+       503.363.859      cycles                    #    3,216 GHz                      (83,44%)
+       117.611.859      stalled-cycles-frontend   #   23,37% frontend cycles idle     (84,42%)
+       172.684.237      stalled-cycles-backend    #   34,31% backend  cycles idle     (34,36%)
+       335.183.184      instructions              #    0,67  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (52,84%)
+        84.077.354      branches                  #  537,197 M/sec                    (67,60%)
+           597.570      branch-misses             #    0,71% of all branches          (83,12%)
+
+       0,393551692 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        157,607648      task-clock (msec)         #    0,398 CPUs utilized          
+               111      context-switches          #    0,704 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.195      page-faults               #    0,020 M/sec                  
+       496.345.313      cycles                    #    3,149 GHz                      (80,11%)
+       120.352.158      stalled-cycles-frontend   #   24,25% frontend cycles idle     (85,58%)
+       202.105.847      stalled-cycles-backend    #   40,72% backend  cycles idle     (34,95%)
+       350.946.034      instructions              #    0,71  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (51,66%)
+        85.763.441      branches                  #  544,158 M/sec                    (66,66%)
+           568.221      branch-misses             #    0,66% of all branches          (83,62%)
+
+       0,396286035 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        159,475301      task-clock (msec)         #    0,399 CPUs utilized          
+               105      context-switches          #    0,658 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.198      page-faults               #    0,020 M/sec                  
+       501.406.116      cycles                    #    3,144 GHz                      (81,99%)
+       113.243.641      stalled-cycles-frontend   #   22,59% frontend cycles idle     (83,02%)
+       188.588.490      stalled-cycles-backend    #   37,61% backend  cycles idle     (35,43%)
+       347.390.241      instructions              #    0,69  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (56,66%)
+        83.544.990      branches                  #  523,874 M/sec                    (70,99%)
+           549.795      branch-misses             #    0,66% of all branches          (84,07%)
+
+       0,399648750 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        154,380961      task-clock (msec)         #    0,394 CPUs utilized          
+               104      context-switches          #    0,674 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.192      page-faults               #    0,021 M/sec                  
+       504.742.139      cycles                    #    3,269 GHz                      (84,40%)
+       118.947.110      stalled-cycles-frontend   #   23,57% frontend cycles idle     (84,42%)
+       175.491.437      stalled-cycles-backend    #   34,77% backend  cycles idle     (32,78%)
+       332.915.681      instructions              #    0,66  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (52,34%)
+        85.411.341      branches                  #  553,250 M/sec                    (67,28%)
+           504.914      branch-misses             #    0,59% of all branches          (82,40%)
+
+       0,392115346 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        156,316928      task-clock (msec)         #    0,399 CPUs utilized          
+                95      context-switches          #    0,608 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.191      page-faults               #    0,020 M/sec                  
+       509.943.409      cycles                    #    3,262 GHz                      (82,39%)
+       124.015.895      stalled-cycles-frontend   #   24,32% frontend cycles idle     (82,63%)
+       194.927.158      stalled-cycles-backend    #   38,23% backend  cycles idle     (35,51%)
+       373.447.618      instructions              #    0,73  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (49,73%)
+        87.338.897      branches                  #  558,730 M/sec                    (64,34%)
+           576.151      branch-misses             #    0,66% of all branches          (79,63%)
+
+       0,391888842 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        157,933899      task-clock (msec)         #    0,396 CPUs utilized          
+                84      context-switches          #    0,532 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.198      page-faults               #    0,020 M/sec                  
+       501.831.668      cycles                    #    3,177 GHz                      (84,48%)
+       119.538.977      stalled-cycles-frontend   #   23,82% frontend cycles idle     (83,76%)
+       186.869.199      stalled-cycles-backend    #   37,24% backend  cycles idle     (33,83%)
+       368.978.693      instructions              #    0,74  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (49,35%)
+        88.114.775      branches                  #  557,922 M/sec                    (64,32%)
+           635.318      branch-misses             #    0,72% of all branches          (79,76%)
+
+       0,398588774 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        160,234809      task-clock (msec)         #    0,404 CPUs utilized          
+               101      context-switches          #    0,630 K/sec                  
+                13      cpu-migrations            #    0,081 K/sec                  
+             3.192      page-faults               #    0,020 M/sec                  
+       505.324.370      cycles                    #    3,154 GHz                      (80,34%)
+       117.786.772      stalled-cycles-frontend   #   23,31% frontend cycles idle     (83,41%)
+       189.748.674      stalled-cycles-backend    #   37,55% backend  cycles idle     (38,32%)
+       357.955.545      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,15%)
+        86.802.235      branches                  #  541,719 M/sec                    (66,87%)
+           560.469      branch-misses             #    0,65% of all branches          (81,60%)
+
+       0,396970775 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/moby_dick.txt':
+
+        156,559413      task-clock (msec)         #    0,395 CPUs utilized          
+               106      context-switches          #    0,677 K/sec                  
+                11      cpu-migrations            #    0,070 K/sec                  
+             3.198      page-faults               #    0,020 M/sec                  
+       508.226.843      cycles                    #    3,246 GHz                      (82,22%)
+       117.588.811      stalled-cycles-frontend   #   23,14% frontend cycles idle     (83,31%)
+       202.971.388      stalled-cycles-backend    #   39,94% backend  cycles idle     (35,88%)
+       322.289.562      instructions              #    0,63  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (55,59%)
+        81.420.371      branches                  #  520,061 M/sec                    (70,36%)
+           541.111      branch-misses             #    0,66% of all branches          (85,47%)
+
+       0,396287023 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        152,907711      task-clock (msec)         #    0,393 CPUs utilized          
+               106      context-switches          #    0,693 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.192      page-faults               #    0,021 M/sec                  
+       477.932.804      cycles                    #    3,126 GHz                      (82,00%)
+       112.014.450      stalled-cycles-frontend   #   23,44% frontend cycles idle     (85,65%)
+       174.267.280      stalled-cycles-backend    #   36,46% backend  cycles idle     (33,11%)
+       308.639.423      instructions              #    0,65  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (53,87%)
+        76.063.080      branches                  #  497,444 M/sec                    (69,32%)
+           546.887      branch-misses             #    0,72% of all branches          (85,24%)
+
+       0,389157854 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        151,352463      task-clock (msec)         #    0,390 CPUs utilized          
+               112      context-switches          #    0,740 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.192      page-faults               #    0,021 M/sec                  
+       494.254.634      cycles                    #    3,266 GHz                      (84,12%)
+       119.242.457      stalled-cycles-frontend   #   24,13% frontend cycles idle     (84,56%)
+       185.093.818      stalled-cycles-backend    #   37,45% backend  cycles idle     (31,93%)
+       315.053.828      instructions              #    0,64  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (56,90%)
+        78.298.803      branches                  #  517,328 M/sec                    (71,08%)
+           527.992      branch-misses             #    0,67% of all branches          (85,91%)
+
+       0,387622820 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        148,325294      task-clock (msec)         #    0,384 CPUs utilized          
+               107      context-switches          #    0,721 K/sec                  
+                 9      cpu-migrations            #    0,061 K/sec                  
+             3.192      page-faults               #    0,022 M/sec                  
+       493.810.136      cycles                    #    3,329 GHz                      (83,90%)
+       113.564.424      stalled-cycles-frontend   #   23,00% frontend cycles idle     (84,22%)
+       169.036.820      stalled-cycles-backend    #   34,23% backend  cycles idle     (32,57%)
+       356.530.719      instructions              #    0,72  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (48,34%)
+        87.151.777      branches                  #  587,572 M/sec                    (63,17%)
+           515.104      branch-misses             #    0,59% of all branches          (79,98%)
+
+       0,386305404 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        154,219116      task-clock (msec)         #    0,394 CPUs utilized          
+               103      context-switches          #    0,668 K/sec                  
+                13      cpu-migrations            #    0,084 K/sec                  
+             3.198      page-faults               #    0,021 M/sec                  
+       483.663.275      cycles                    #    3,136 GHz                      (83,56%)
+       111.485.440      stalled-cycles-frontend   #   23,05% frontend cycles idle     (81,91%)
+       161.067.289      stalled-cycles-backend    #   33,30% backend  cycles idle     (35,62%)
+       331.664.654      instructions              #    0,69  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (56,75%)
+        76.413.017      branches                  #  495,483 M/sec                    (71,37%)
+           553.653      branch-misses             #    0,72% of all branches          (85,58%)
+
+       0,391666556 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        158,793594      task-clock (msec)         #    0,398 CPUs utilized          
+               101      context-switches          #    0,636 K/sec                  
+                15      cpu-migrations            #    0,094 K/sec                  
+             3.199      page-faults               #    0,020 M/sec                  
+       477.760.526      cycles                    #    3,009 GHz                      (85,26%)
+       114.085.543      stalled-cycles-frontend   #   23,88% frontend cycles idle     (85,00%)
+       171.084.088      stalled-cycles-backend    #   35,81% backend  cycles idle     (31,40%)
+       321.044.775      instructions              #    0,67  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (51,68%)
+        77.774.306      branches                  #  489,782 M/sec                    (66,95%)
+           569.921      branch-misses             #    0,73% of all branches          (81,20%)
+
+       0,399038918 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        149,947880      task-clock (msec)         #    0,388 CPUs utilized          
+               102      context-switches          #    0,680 K/sec                  
+                10      cpu-migrations            #    0,067 K/sec                  
+             3.192      page-faults               #    0,021 M/sec                  
+       487.587.258      cycles                    #    3,252 GHz                      (83,64%)
+       118.537.275      stalled-cycles-frontend   #   24,31% frontend cycles idle     (83,59%)
+       164.346.457      stalled-cycles-backend    #   33,71% backend  cycles idle     (33,77%)
+       317.810.965      instructions              #    0,65  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (53,73%)
+        79.255.116      branches                  #  528,551 M/sec                    (69,15%)
+           566.935      branch-misses             #    0,72% of all branches          (85,55%)
+
+       0,386415997 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        152,119817      task-clock (msec)         #    0,391 CPUs utilized          
+                98      context-switches          #    0,644 K/sec                  
+                 9      cpu-migrations            #    0,059 K/sec                  
+             3.193      page-faults               #    0,021 M/sec                  
+       481.877.242      cycles                    #    3,168 GHz                      (83,45%)
+       110.888.365      stalled-cycles-frontend   #   23,01% frontend cycles idle     (83,96%)
+       176.345.995      stalled-cycles-backend    #   36,60% backend  cycles idle     (34,08%)
+       345.322.949      instructions              #    0,72  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (50,44%)
+        81.716.597      branches                  #  537,186 M/sec                    (66,05%)
+           590.431      branch-misses             #    0,72% of all branches          (81,58%)
+
+       0,389052924 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        147,917421      task-clock (msec)         #    0,384 CPUs utilized          
+               102      context-switches          #    0,690 K/sec                  
+                13      cpu-migrations            #    0,088 K/sec                  
+             3.194      page-faults               #    0,022 M/sec                  
+       474.588.724      cycles                    #    3,208 GHz                      (83,90%)
+       116.034.302      stalled-cycles-frontend   #   24,45% frontend cycles idle     (83,74%)
+       177.590.107      stalled-cycles-backend    #   37,42% backend  cycles idle     (35,44%)
+       337.824.202      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,28%)
+        85.285.921      branches                  #  576,578 M/sec                    (66,75%)
+           497.841      branch-misses             #    0,58% of all branches          (82,22%)
+
+       0,385276831 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        151,713532      task-clock (msec)         #    0,391 CPUs utilized          
+                98      context-switches          #    0,646 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.191      page-faults               #    0,021 M/sec                  
+       489.188.204      cycles                    #    3,224 GHz                      (81,18%)
+       111.437.750      stalled-cycles-frontend   #   22,78% frontend cycles idle     (83,94%)
+       180.530.805      stalled-cycles-backend    #   36,90% backend  cycles idle     (37,25%)
+       365.622.470      instructions              #    0,75  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (52,65%)
+        85.326.793      branches                  #  562,420 M/sec                    (66,99%)
+           549.378      branch-misses             #    0,64% of all branches          (82,13%)
+
+       0,387570810 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/moby_dick.txt':
+
+        153,009514      task-clock (msec)         #    0,392 CPUs utilized          
+               106      context-switches          #    0,693 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.195      page-faults               #    0,021 M/sec                  
+       462.579.387      cycles                    #    3,023 GHz                      (83,88%)
+       109.666.358      stalled-cycles-frontend   #   23,71% frontend cycles idle     (84,37%)
+       202.302.075      stalled-cycles-backend    #   43,73% backend  cycles idle     (34,49%)
+       357.346.022      instructions              #    0,77  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (50,94%)
+        83.091.197      branches                  #  543,046 M/sec                    (65,93%)
+           543.183      branch-misses             #    0,65% of all branches          (83,03%)
+
+       0,390074520 seconds time elapsed
+

@@ -1,0 +1,1440 @@
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1157,694339      task-clock (msec)         #    0,873 CPUs utilized          
+               214      context-switches          #    0,185 K/sec                  
+                 5      cpu-migrations            #    0,004 K/sec                  
+             3.103      page-faults               #    0,003 M/sec                  
+     4.270.364.595      cycles                    #    3,689 GHz                      (83,51%)
+     1.035.423.446      stalled-cycles-frontend   #   24,25% frontend cycles idle     (83,33%)
+     1.538.160.224      stalled-cycles-backend    #   36,02% backend  cycles idle     (33,19%)
+     3.178.160.237      instructions              #    0,74  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (50,57%)
+       711.649.633      branches                  #  614,713 M/sec                    (67,06%)
+         4.286.096      branch-misses             #    0,60% of all branches          (83,69%)
+
+       1,325969667 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1147,259021      task-clock (msec)         #    0,879 CPUs utilized          
+               193      context-switches          #    0,168 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.105      page-faults               #    0,003 M/sec                  
+     4.216.384.899      cycles                    #    3,675 GHz                      (83,29%)
+     1.053.510.204      stalled-cycles-frontend   #   24,99% frontend cycles idle     (82,79%)
+     1.272.465.808      stalled-cycles-backend    #   30,18% backend  cycles idle     (34,03%)
+     3.508.938.566      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,87%)
+       789.405.931      branches                  #  688,080 M/sec                    (67,24%)
+         4.741.289      branch-misses             #    0,60% of all branches          (83,45%)
+
+       1,305509722 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1143,250259      task-clock (msec)         #    0,876 CPUs utilized          
+               199      context-switches          #    0,174 K/sec                  
+                 9      cpu-migrations            #    0,008 K/sec                  
+             3.102      page-faults               #    0,003 M/sec                  
+     4.233.824.694      cycles                    #    3,703 GHz                      (83,09%)
+     1.106.947.427      stalled-cycles-frontend   #   26,15% frontend cycles idle     (83,48%)
+     1.249.878.097      stalled-cycles-backend    #   29,52% backend  cycles idle     (33,48%)
+     3.423.064.909      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,33%)
+       770.609.370      branches                  #  674,051 M/sec                    (66,50%)
+         4.842.285      branch-misses             #    0,63% of all branches          (83,30%)
+
+       1,304682101 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1147,374096      task-clock (msec)         #    0,879 CPUs utilized          
+               213      context-switches          #    0,186 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.101      page-faults               #    0,003 M/sec                  
+     4.216.246.116      cycles                    #    3,675 GHz                      (83,29%)
+     1.084.900.821      stalled-cycles-frontend   #   25,73% frontend cycles idle     (83,46%)
+     1.286.084.235      stalled-cycles-backend    #   30,50% backend  cycles idle     (33,32%)
+     3.493.531.264      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,43%)
+       782.969.987      branches                  #  682,402 M/sec                    (66,84%)
+         4.673.673      branch-misses             #    0,60% of all branches          (83,32%)
+
+       1,305734991 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1141,238807      task-clock (msec)         #    0,876 CPUs utilized          
+               200      context-switches          #    0,175 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.098      page-faults               #    0,003 M/sec                  
+     4.207.916.814      cycles                    #    3,687 GHz                      (83,51%)
+     1.065.750.463      stalled-cycles-frontend   #   25,33% frontend cycles idle     (83,48%)
+     1.239.279.894      stalled-cycles-backend    #   29,45% backend  cycles idle     (33,17%)
+     3.627.261.606      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,25%)
+       816.217.487      branches                  #  715,203 M/sec                    (66,77%)
+         4.836.565      branch-misses             #    0,59% of all branches          (83,30%)
+
+       1,303456705 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1146,550245      task-clock (msec)         #    0,877 CPUs utilized          
+               230      context-switches          #    0,201 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.101      page-faults               #    0,003 M/sec                  
+     4.157.571.195      cycles                    #    3,626 GHz                      (83,37%)
+     1.051.442.719      stalled-cycles-frontend   #   25,29% frontend cycles idle     (83,26%)
+     1.267.268.679      stalled-cycles-backend    #   30,48% backend  cycles idle     (33,79%)
+     3.441.690.020      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,61%)
+       770.493.563      branches                  #  672,010 M/sec                    (67,02%)
+         4.618.059      branch-misses             #    0,60% of all branches          (83,40%)
+
+       1,307673032 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1144,340511      task-clock (msec)         #    0,873 CPUs utilized          
+               210      context-switches          #    0,184 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.101      page-faults               #    0,003 M/sec                  
+     4.233.180.699      cycles                    #    3,699 GHz                      (83,09%)
+     1.153.465.673      stalled-cycles-frontend   #   27,25% frontend cycles idle     (83,54%)
+     1.143.710.863      stalled-cycles-backend    #   27,02% backend  cycles idle     (33,46%)
+     3.539.535.955      instructions              #    0,84  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,47%)
+       797.461.132      branches                  #  696,874 M/sec                    (66,89%)
+         6.852.643      branch-misses             #    0,86% of all branches          (83,28%)
+
+       1,311503140 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1145,816692      task-clock (msec)         #    0,879 CPUs utilized          
+               194      context-switches          #    0,169 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.105      page-faults               #    0,003 M/sec                  
+     4.213.252.734      cycles                    #    3,677 GHz                      (83,19%)
+     1.059.145.327      stalled-cycles-frontend   #   25,14% frontend cycles idle     (83,53%)
+     1.278.696.267      stalled-cycles-backend    #   30,35% backend  cycles idle     (33,59%)
+     3.532.663.597      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,39%)
+       791.119.609      branches                  #  690,442 M/sec                    (66,85%)
+         4.767.293      branch-misses             #    0,60% of all branches          (83,31%)
+
+       1,303899730 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1147,617441      task-clock (msec)         #    0,879 CPUs utilized          
+               206      context-switches          #    0,180 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.102      page-faults               #    0,003 M/sec                  
+     4.213.486.025      cycles                    #    3,672 GHz                      (83,22%)
+     1.061.272.424      stalled-cycles-frontend   #   25,19% frontend cycles idle     (83,62%)
+     1.284.900.568      stalled-cycles-backend    #   30,49% backend  cycles idle     (33,30%)
+     3.502.805.934      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (49,91%)
+       780.522.667      branches                  #  680,124 M/sec                    (66,99%)
+         4.626.090      branch-misses             #    0,59% of all branches          (83,47%)
+
+       1,305828200 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/tale_of_two_cities.txt':
+
+       1136,428466      task-clock (msec)         #    0,877 CPUs utilized          
+               195      context-switches          #    0,172 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.105      page-faults               #    0,003 M/sec                  
+     4.184.595.784      cycles                    #    3,682 GHz                      (83,49%)
+     1.054.464.503      stalled-cycles-frontend   #   25,20% frontend cycles idle     (83,23%)
+     1.252.983.963      stalled-cycles-backend    #   29,94% backend  cycles idle     (33,35%)
+     3.529.197.261      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,93%)
+       791.784.919      branches                  #  696,731 M/sec                    (67,42%)
+         4.698.160      branch-misses             #    0,59% of all branches          (83,69%)
+
+       1,295760401 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        656,422595      task-clock (msec)         #    0,805 CPUs utilized          
+               150      context-switches          #    0,229 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.105      page-faults               #    0,005 M/sec                  
+     2.379.357.730      cycles                    #    3,625 GHz                      (83,57%)
+       611.801.036      stalled-cycles-frontend   #   25,71% frontend cycles idle     (83,54%)
+       753.690.984      stalled-cycles-backend    #   31,68% backend  cycles idle     (33,11%)
+     1.881.980.744      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,29%)
+       427.675.077      branches                  #  651,524 M/sec                    (66,50%)
+         2.580.248      branch-misses             #    0,60% of all branches          (82,83%)
+
+       0,815032666 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        649,673275      task-clock (msec)         #    0,805 CPUs utilized          
+               152      context-switches          #    0,234 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.098      page-faults               #    0,005 M/sec                  
+     2.371.513.307      cycles                    #    3,650 GHz                      (83,75%)
+       593.134.930      stalled-cycles-frontend   #   25,01% frontend cycles idle     (83,62%)
+       737.018.604      stalled-cycles-backend    #   31,08% backend  cycles idle     (32,75%)
+     1.921.298.162      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,96%)
+       439.029.378      branches                  #  675,769 M/sec                    (67,45%)
+         2.629.630      branch-misses             #    0,60% of all branches          (83,78%)
+
+       0,807337252 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        652,851257      task-clock (msec)         #    0,805 CPUs utilized          
+               151      context-switches          #    0,231 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.105      page-faults               #    0,005 M/sec                  
+     2.376.095.060      cycles                    #    3,640 GHz                      (83,55%)
+       598.818.044      stalled-cycles-frontend   #   25,20% frontend cycles idle     (83,39%)
+       767.379.177      stalled-cycles-backend    #   32,30% backend  cycles idle     (33,17%)
+     1.914.269.749      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,87%)
+       430.264.020      branches                  #  659,054 M/sec                    (67,96%)
+         2.568.962      branch-misses             #    0,60% of all branches          (84,05%)
+
+       0,810737629 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        652,250731      task-clock (msec)         #    0,803 CPUs utilized          
+               150      context-switches          #    0,230 K/sec                  
+                12      cpu-migrations            #    0,018 K/sec                  
+             3.098      page-faults               #    0,005 M/sec                  
+     2.360.607.022      cycles                    #    3,619 GHz                      (83,73%)
+       588.262.502      stalled-cycles-frontend   #   24,92% frontend cycles idle     (83,45%)
+       750.123.705      stalled-cycles-backend    #   31,78% backend  cycles idle     (32,88%)
+     1.916.004.712      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,68%)
+       432.659.165      branches                  #  663,333 M/sec                    (67,36%)
+         2.631.240      branch-misses             #    0,61% of all branches          (83,34%)
+
+       0,812674556 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        651,066776      task-clock (msec)         #    0,804 CPUs utilized          
+               155      context-switches          #    0,238 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.102      page-faults               #    0,005 M/sec                  
+     2.379.711.213      cycles                    #    3,655 GHz                      (83,49%)
+       572.365.523      stalled-cycles-frontend   #   24,05% frontend cycles idle     (83,47%)
+       875.781.569      stalled-cycles-backend    #   36,80% backend  cycles idle     (33,10%)
+     1.709.357.711      instructions              #    0,72  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (51,34%)
+       386.084.269      branches                  #  593,003 M/sec                    (67,90%)
+         2.641.213      branch-misses             #    0,68% of all branches          (83,99%)
+
+       0,809729578 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        654,142209      task-clock (msec)         #    0,805 CPUs utilized          
+               161      context-switches          #    0,246 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.101      page-faults               #    0,005 M/sec                  
+     2.381.140.203      cycles                    #    3,640 GHz                      (83,86%)
+       621.293.883      stalled-cycles-frontend   #   26,09% frontend cycles idle     (83,73%)
+       740.837.067      stalled-cycles-backend    #   31,11% backend  cycles idle     (32,55%)
+     1.876.574.000      instructions              #    0,79  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,75%)
+       426.042.800      branches                  #  651,300 M/sec                    (67,21%)
+         2.598.978      branch-misses             #    0,61% of all branches          (84,00%)
+
+       0,812594845 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        652,383844      task-clock (msec)         #    0,805 CPUs utilized          
+               146      context-switches          #    0,224 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.102      page-faults               #    0,005 M/sec                  
+     2.356.487.783      cycles                    #    3,612 GHz                      (83,41%)
+       581.690.664      stalled-cycles-frontend   #   24,68% frontend cycles idle     (83,33%)
+       746.133.248      stalled-cycles-backend    #   31,66% backend  cycles idle     (33,84%)
+     1.959.334.747      instructions              #    0,83  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,87%)
+       441.476.208      branches                  #  676,712 M/sec                    (67,30%)
+         2.677.185      branch-misses             #    0,61% of all branches          (83,44%)
+
+       0,810814620 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        655,615237      task-clock (msec)         #    0,805 CPUs utilized          
+               154      context-switches          #    0,235 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.098      page-faults               #    0,005 M/sec                  
+     2.366.690.476      cycles                    #    3,610 GHz                      (83,71%)
+       577.491.787      stalled-cycles-frontend   #   24,40% frontend cycles idle     (83,55%)
+       810.196.523      stalled-cycles-backend    #   34,23% backend  cycles idle     (32,82%)
+     1.882.254.743      instructions              #    0,80  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,60%)
+       422.598.093      branches                  #  644,582 M/sec                    (67,73%)
+         2.574.915      branch-misses             #    0,61% of all branches          (83,78%)
+
+       0,814450989 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        652,968453      task-clock (msec)         #    0,802 CPUs utilized          
+               156      context-switches          #    0,239 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.102      page-faults               #    0,005 M/sec                  
+     2.365.554.581      cycles                    #    3,623 GHz                      (83,66%)
+       640.274.156      stalled-cycles-frontend   #   27,07% frontend cycles idle     (83,36%)
+       673.263.306      stalled-cycles-backend    #   28,46% backend  cycles idle     (33,23%)
+     1.921.880.720      instructions              #    0,81  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (51,24%)
+       434.534.093      branches                  #  665,475 M/sec                    (67,96%)
+         3.652.723      branch-misses             #    0,84% of all branches          (84,28%)
+
+       0,814141587 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/tale_of_two_cities.txt':
+
+        655,633405      task-clock (msec)         #    0,806 CPUs utilized          
+               153      context-switches          #    0,233 K/sec                  
+                12      cpu-migrations            #    0,018 K/sec                  
+             3.097      page-faults               #    0,005 M/sec                  
+     2.362.513.479      cycles                    #    3,603 GHz                      (83,52%)
+       604.986.215      stalled-cycles-frontend   #   25,61% frontend cycles idle     (82,97%)
+       769.949.161      stalled-cycles-backend    #   32,59% backend  cycles idle     (34,10%)
+     1.864.198.912      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,08%)
+       418.861.017      branches                  #  638,865 M/sec                    (67,79%)
+         2.552.865      branch-misses             #    0,61% of all branches          (83,79%)
+
+       0,813649906 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        430,403328      task-clock (msec)         #    0,729 CPUs utilized          
+               131      context-switches          #    0,304 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.102      page-faults               #    0,007 M/sec                  
+     1.542.616.355      cycles                    #    3,584 GHz                      (83,52%)
+       383.174.039      stalled-cycles-frontend   #   24,84% frontend cycles idle     (83,29%)
+       518.886.586      stalled-cycles-backend    #   33,64% backend  cycles idle     (33,40%)
+     1.240.121.070      instructions              #    0,80  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,48%)
+       282.415.500      branches                  #  656,165 M/sec                    (67,46%)
+         1.737.761      branch-misses             #    0,62% of all branches          (83,60%)
+
+       0,590745688 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        428,295672      task-clock (msec)         #    0,727 CPUs utilized          
+               127      context-switches          #    0,297 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.102      page-faults               #    0,007 M/sec                  
+     1.525.578.895      cycles                    #    3,562 GHz                      (83,95%)
+       383.868.243      stalled-cycles-frontend   #   25,16% frontend cycles idle     (83,96%)
+       508.556.381      stalled-cycles-backend    #   33,34% backend  cycles idle     (32,39%)
+     1.236.621.926      instructions              #    0,81  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,58%)
+       277.644.025      branches                  #  648,253 M/sec                    (68,21%)
+         1.730.531      branch-misses             #    0,62% of all branches          (84,29%)
+
+       0,589479699 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        434,333535      task-clock (msec)         #    0,730 CPUs utilized          
+               142      context-switches          #    0,327 K/sec                  
+                14      cpu-migrations            #    0,032 K/sec                  
+             3.102      page-faults               #    0,007 M/sec                  
+     1.532.935.930      cycles                    #    3,529 GHz                      (83,49%)
+       386.104.781      stalled-cycles-frontend   #   25,19% frontend cycles idle     (83,62%)
+       496.343.189      stalled-cycles-backend    #   32,38% backend  cycles idle     (33,00%)
+     1.213.638.340      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,87%)
+       276.257.181      branches                  #  636,048 M/sec                    (67,87%)
+         1.702.759      branch-misses             #    0,62% of all branches          (83,86%)
+
+       0,594965086 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        427,747887      task-clock (msec)         #    0,726 CPUs utilized          
+               122      context-switches          #    0,285 K/sec                  
+                11      cpu-migrations            #    0,026 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.480.554.704      cycles                    #    3,461 GHz                      (83,81%)
+       375.620.175      stalled-cycles-frontend   #   25,37% frontend cycles idle     (84,14%)
+       495.618.069      stalled-cycles-backend    #   33,48% backend  cycles idle     (34,02%)
+     1.226.551.530      instructions              #    0,83  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,25%)
+       276.415.555      branches                  #  646,211 M/sec                    (67,54%)
+         1.681.600      branch-misses             #    0,61% of all branches          (83,46%)
+
+       0,589139010 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        433,000760      task-clock (msec)         #    0,732 CPUs utilized          
+               133      context-switches          #    0,307 K/sec                  
+                15      cpu-migrations            #    0,035 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.517.964.036      cycles                    #    3,506 GHz                      (83,30%)
+       384.077.095      stalled-cycles-frontend   #   25,30% frontend cycles idle     (83,43%)
+       490.779.374      stalled-cycles-backend    #   32,33% backend  cycles idle     (33,77%)
+     1.209.161.844      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,23%)
+       273.121.285      branches                  #  630,764 M/sec                    (67,31%)
+         1.833.921      branch-misses             #    0,67% of all branches          (83,99%)
+
+       0,591142607 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        431,320039      task-clock (msec)         #    0,723 CPUs utilized          
+               125      context-switches          #    0,290 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.103      page-faults               #    0,007 M/sec                  
+     1.526.791.119      cycles                    #    3,540 GHz                      (84,11%)
+       372.926.261      stalled-cycles-frontend   #   24,43% frontend cycles idle     (83,54%)
+       562.586.448      stalled-cycles-backend    #   36,85% backend  cycles idle     (32,45%)
+     1.159.272.582      instructions              #    0,76  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (50,52%)
+       261.964.771      branches                  #  607,356 M/sec                    (67,65%)
+         1.610.737      branch-misses             #    0,61% of all branches          (83,69%)
+
+       0,596947164 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        432,545197      task-clock (msec)         #    0,731 CPUs utilized          
+               129      context-switches          #    0,298 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.513.464.174      cycles                    #    3,499 GHz                      (83,42%)
+       388.480.360      stalled-cycles-frontend   #   25,67% frontend cycles idle     (83,36%)
+       522.940.007      stalled-cycles-backend    #   34,55% backend  cycles idle     (33,46%)
+     1.223.558.892      instructions              #    0,81  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (52,02%)
+       275.964.825      branches                  #  638,002 M/sec                    (68,64%)
+         1.732.742      branch-misses             #    0,63% of all branches          (84,30%)
+
+       0,591348397 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        433,469847      task-clock (msec)         #    0,730 CPUs utilized          
+               141      context-switches          #    0,325 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.104      page-faults               #    0,007 M/sec                  
+     1.540.948.223      cycles                    #    3,555 GHz                      (82,51%)
+       419.177.323      stalled-cycles-frontend   #   27,20% frontend cycles idle     (83,75%)
+       483.261.510      stalled-cycles-backend    #   31,36% backend  cycles idle     (34,41%)
+     1.192.178.134      instructions              #    0,77  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,76%)
+       269.637.278      branches                  #  622,044 M/sec                    (66,66%)
+         2.219.563      branch-misses             #    0,82% of all branches          (82,64%)
+
+       0,594035678 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        432,058731      task-clock (msec)         #    0,728 CPUs utilized          
+               126      context-switches          #    0,292 K/sec                  
+                14      cpu-migrations            #    0,032 K/sec                  
+             3.106      page-faults               #    0,007 M/sec                  
+     1.518.055.023      cycles                    #    3,514 GHz                      (83,40%)
+       366.892.247      stalled-cycles-frontend   #   24,17% frontend cycles idle     (82,87%)
+       565.566.654      stalled-cycles-backend    #   37,26% backend  cycles idle     (34,46%)
+     1.065.733.924      instructions              #    0,70  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (52,51%)
+       243.384.095      branches                  #  563,313 M/sec                    (67,93%)
+         1.547.463      branch-misses             #    0,64% of all branches          (84,27%)
+
+       0,593439395 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/tale_of_two_cities.txt':
+
+        427,512262      task-clock (msec)         #    0,728 CPUs utilized          
+               135      context-switches          #    0,316 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.535.440.457      cycles                    #    3,592 GHz                      (83,24%)
+       395.154.958      stalled-cycles-frontend   #   25,74% frontend cycles idle     (83,52%)
+       502.718.274      stalled-cycles-backend    #   32,74% backend  cycles idle     (33,60%)
+     1.193.725.245      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,14%)
+       273.356.899      branches                  #  639,413 M/sec                    (67,93%)
+         1.695.093      branch-misses             #    0,62% of all branches          (83,91%)
+
+       0,586908626 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        405,729378      task-clock (msec)         #    0,716 CPUs utilized          
+               129      context-switches          #    0,318 K/sec                  
+                10      cpu-migrations            #    0,025 K/sec                  
+             3.100      page-faults               #    0,008 M/sec                  
+     1.444.143.176      cycles                    #    3,559 GHz                      (83,38%)
+       367.034.411      stalled-cycles-frontend   #   25,42% frontend cycles idle     (83,64%)
+       491.840.863      stalled-cycles-backend    #   34,06% backend  cycles idle     (33,19%)
+     1.108.086.394      instructions              #    0,77  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (51,28%)
+       249.581.758      branches                  #  615,143 M/sec                    (68,89%)
+         1.548.673      branch-misses             #    0,62% of all branches          (84,18%)
+
+       0,566350581 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        403,229519      task-clock (msec)         #    0,716 CPUs utilized          
+               132      context-switches          #    0,327 K/sec                  
+                10      cpu-migrations            #    0,025 K/sec                  
+             3.098      page-faults               #    0,008 M/sec                  
+     1.432.760.763      cycles                    #    3,553 GHz                      (83,18%)
+       370.037.080      stalled-cycles-frontend   #   25,83% frontend cycles idle     (82,94%)
+       467.836.958      stalled-cycles-backend    #   32,65% backend  cycles idle     (34,15%)
+     1.118.117.015      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,20%)
+       255.248.017      branches                  #  633,009 M/sec                    (67,68%)
+         1.631.216      branch-misses             #    0,64% of all branches          (83,51%)
+
+       0,563161120 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        404,697431      task-clock (msec)         #    0,720 CPUs utilized          
+               133      context-switches          #    0,329 K/sec                  
+                10      cpu-migrations            #    0,025 K/sec                  
+             3.100      page-faults               #    0,008 M/sec                  
+     1.437.236.588      cycles                    #    3,551 GHz                      (83,72%)
+       357.931.005      stalled-cycles-frontend   #   24,90% frontend cycles idle     (83,55%)
+       475.388.669      stalled-cycles-backend    #   33,08% backend  cycles idle     (32,95%)
+     1.151.835.878      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,32%)
+       260.683.822      branches                  #  644,145 M/sec                    (67,38%)
+         1.587.968      branch-misses             #    0,61% of all branches          (83,54%)
+
+       0,561920603 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        407,633273      task-clock (msec)         #    0,716 CPUs utilized          
+               131      context-switches          #    0,321 K/sec                  
+                13      cpu-migrations            #    0,032 K/sec                  
+             3.101      page-faults               #    0,008 M/sec                  
+     1.430.042.965      cycles                    #    3,508 GHz                      (83,32%)
+       361.226.430      stalled-cycles-frontend   #   25,26% frontend cycles idle     (82,93%)
+       472.300.442      stalled-cycles-backend    #   33,03% backend  cycles idle     (34,12%)
+     1.145.204.516      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (52,00%)
+       258.863.332      branches                  #  635,040 M/sec                    (68,14%)
+         1.620.533      branch-misses             #    0,63% of all branches          (83,68%)
+
+       0,569705369 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        407,617548      task-clock (msec)         #    0,714 CPUs utilized          
+               117      context-switches          #    0,287 K/sec                  
+                11      cpu-migrations            #    0,027 K/sec                  
+             3.101      page-faults               #    0,008 M/sec                  
+     1.438.774.319      cycles                    #    3,530 GHz                      (82,38%)
+       353.959.743      stalled-cycles-frontend   #   24,60% frontend cycles idle     (83,99%)
+       462.666.219      stalled-cycles-backend    #   32,16% backend  cycles idle     (35,34%)
+     1.163.157.674      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,96%)
+       266.792.161      branches                  #  654,516 M/sec                    (66,56%)
+         1.644.002      branch-misses             #    0,62% of all branches          (82,92%)
+
+       0,571019682 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        405,623266      task-clock (msec)         #    0,716 CPUs utilized          
+               148      context-switches          #    0,365 K/sec                  
+                12      cpu-migrations            #    0,030 K/sec                  
+             3.097      page-faults               #    0,008 M/sec                  
+     1.436.441.734      cycles                    #    3,541 GHz                      (83,51%)
+       349.965.944      stalled-cycles-frontend   #   24,36% frontend cycles idle     (84,14%)
+       514.667.273      stalled-cycles-backend    #   35,83% backend  cycles idle     (33,29%)
+     1.046.640.051      instructions              #    0,73  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (50,48%)
+       241.963.587      branches                  #  596,523 M/sec                    (67,44%)
+         1.508.415      branch-misses             #    0,62% of all branches          (83,40%)
+
+       0,566694776 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        408,223332      task-clock (msec)         #    0,721 CPUs utilized          
+               133      context-switches          #    0,326 K/sec                  
+                11      cpu-migrations            #    0,027 K/sec                  
+             3.099      page-faults               #    0,008 M/sec                  
+     1.445.385.205      cycles                    #    3,541 GHz                      (83,41%)
+       374.346.001      stalled-cycles-frontend   #   25,90% frontend cycles idle     (83,96%)
+       480.023.653      stalled-cycles-backend    #   33,21% backend  cycles idle     (32,85%)
+     1.107.480.174      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,11%)
+       253.305.449      branches                  #  620,507 M/sec                    (67,05%)
+         1.532.030      branch-misses             #    0,60% of all branches          (83,09%)
+
+       0,566476970 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        406,205889      task-clock (msec)         #    0,719 CPUs utilized          
+               130      context-switches          #    0,320 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.102      page-faults               #    0,008 M/sec                  
+     1.440.554.898      cycles                    #    3,546 GHz                      (83,46%)
+       361.812.518      stalled-cycles-frontend   #   25,12% frontend cycles idle     (83,88%)
+       478.252.867      stalled-cycles-backend    #   33,20% backend  cycles idle     (33,33%)
+     1.129.511.326      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,15%)
+       254.382.152      branches                  #  626,239 M/sec                    (67,74%)
+         1.558.545      branch-misses             #    0,61% of all branches          (83,75%)
+
+       0,564803407 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        404,970012      task-clock (msec)         #    0,716 CPUs utilized          
+               124      context-switches          #    0,306 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.101      page-faults               #    0,008 M/sec                  
+     1.425.503.669      cycles                    #    3,520 GHz                      (83,22%)
+       355.552.582      stalled-cycles-frontend   #   24,94% frontend cycles idle     (83,60%)
+       467.954.426      stalled-cycles-backend    #   32,83% backend  cycles idle     (34,12%)
+     1.170.956.632      instructions              #    0,82  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,43%)
+       261.509.212      branches                  #  645,750 M/sec                    (68,45%)
+         1.597.042      branch-misses             #    0,61% of all branches          (83,80%)
+
+       0,565668886 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/tale_of_two_cities.txt':
+
+        406,697378      task-clock (msec)         #    0,716 CPUs utilized          
+               127      context-switches          #    0,312 K/sec                  
+                12      cpu-migrations            #    0,030 K/sec                  
+             3.098      page-faults               #    0,008 M/sec                  
+     1.439.092.792      cycles                    #    3,538 GHz                      (82,93%)
+       365.833.158      stalled-cycles-frontend   #   25,42% frontend cycles idle     (83,64%)
+       468.098.725      stalled-cycles-backend    #   32,53% backend  cycles idle     (33,78%)
+     1.102.647.792      instructions              #    0,77  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,68%)
+       253.528.166      branches                  #  623,383 M/sec                    (67,52%)
+         1.539.675      branch-misses             #    0,61% of all branches          (83,53%)
+
+       0,568110788 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        408,437017      task-clock (msec)         #    0,720 CPUs utilized          
+               136      context-switches          #    0,333 K/sec                  
+                10      cpu-migrations            #    0,024 K/sec                  
+             3.102      page-faults               #    0,008 M/sec                  
+     1.432.550.888      cycles                    #    3,507 GHz                      (83,41%)
+       362.938.074      stalled-cycles-frontend   #   25,34% frontend cycles idle     (83,20%)
+       484.746.772      stalled-cycles-backend    #   33,84% backend  cycles idle     (33,96%)
+     1.117.817.758      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,66%)
+       252.244.487      branches                  #  617,585 M/sec                    (67,20%)
+         1.545.047      branch-misses             #    0,61% of all branches          (83,30%)
+
+       0,567538015 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        403,169245      task-clock (msec)         #    0,714 CPUs utilized          
+               123      context-switches          #    0,305 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.102      page-faults               #    0,008 M/sec                  
+     1.447.427.473      cycles                    #    3,590 GHz                      (82,59%)
+       365.040.680      stalled-cycles-frontend   #   25,22% frontend cycles idle     (83,44%)
+       462.787.150      stalled-cycles-backend    #   31,97% backend  cycles idle     (34,14%)
+     1.126.501.090      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,77%)
+       260.822.014      branches                  #  646,929 M/sec                    (67,51%)
+         1.606.950      branch-misses             #    0,62% of all branches          (83,44%)
+
+       0,564711951 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        408,419104      task-clock (msec)         #    0,716 CPUs utilized          
+               126      context-switches          #    0,309 K/sec                  
+                10      cpu-migrations            #    0,024 K/sec                  
+             3.106      page-faults               #    0,008 M/sec                  
+     1.440.202.419      cycles                    #    3,526 GHz                      (83,71%)
+       348.594.047      stalled-cycles-frontend   #   24,20% frontend cycles idle     (83,06%)
+       523.051.020      stalled-cycles-backend    #   36,32% backend  cycles idle     (33,47%)
+     1.060.254.479      instructions              #    0,74  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (51,52%)
+       240.350.764      branches                  #  588,491 M/sec                    (67,70%)
+         1.484.296      branch-misses             #    0,62% of all branches          (83,45%)
+
+       0,570655779 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        406,953600      task-clock (msec)         #    0,721 CPUs utilized          
+               129      context-switches          #    0,317 K/sec                  
+                14      cpu-migrations            #    0,034 K/sec                  
+             3.101      page-faults               #    0,008 M/sec                  
+     1.424.881.452      cycles                    #    3,501 GHz                      (83,29%)
+       364.307.029      stalled-cycles-frontend   #   25,57% frontend cycles idle     (83,20%)
+       464.235.052      stalled-cycles-backend    #   32,58% backend  cycles idle     (33,74%)
+     1.114.120.430      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,32%)
+       249.652.988      branches                  #  613,468 M/sec                    (68,73%)
+         1.564.520      branch-misses             #    0,63% of all branches          (83,99%)
+
+       0,564604128 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        403,976085      task-clock (msec)         #    0,718 CPUs utilized          
+               127      context-switches          #    0,314 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.098      page-faults               #    0,008 M/sec                  
+     1.434.894.917      cycles                    #    3,552 GHz                      (83,30%)
+       368.628.443      stalled-cycles-frontend   #   25,69% frontend cycles idle     (84,04%)
+       469.307.245      stalled-cycles-backend    #   32,71% backend  cycles idle     (33,43%)
+     1.099.435.182      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (51,27%)
+       253.168.746      branches                  #  626,692 M/sec                    (66,93%)
+         1.578.648      branch-misses             #    0,62% of all branches          (82,83%)
+
+       0,562966315 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        407,092095      task-clock (msec)         #    0,718 CPUs utilized          
+               141      context-switches          #    0,346 K/sec                  
+                13      cpu-migrations            #    0,032 K/sec                  
+             3.104      page-faults               #    0,008 M/sec                  
+     1.449.830.459      cycles                    #    3,561 GHz                      (83,34%)
+       370.549.069      stalled-cycles-frontend   #   25,56% frontend cycles idle     (83,97%)
+       461.829.770      stalled-cycles-backend    #   31,85% backend  cycles idle     (32,87%)
+     1.118.814.081      instructions              #    0,77  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,04%)
+       257.780.533      branches                  #  633,224 M/sec                    (68,03%)
+         1.669.693      branch-misses             #    0,65% of all branches          (84,00%)
+
+       0,566692328 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        403,540998      task-clock (msec)         #    0,714 CPUs utilized          
+               131      context-switches          #    0,325 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.105      page-faults               #    0,008 M/sec                  
+     1.439.431.155      cycles                    #    3,567 GHz                      (83,62%)
+       353.343.071      stalled-cycles-frontend   #   24,55% frontend cycles idle     (83,29%)
+       520.737.966      stalled-cycles-backend    #   36,18% backend  cycles idle     (34,10%)
+     1.056.182.115      instructions              #    0,73  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (52,11%)
+       239.700.399      branches                  #  593,993 M/sec                    (68,20%)
+         1.486.162      branch-misses             #    0,62% of all branches          (83,99%)
+
+       0,564900892 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        408,389888      task-clock (msec)         #    0,715 CPUs utilized          
+               123      context-switches          #    0,301 K/sec                  
+                12      cpu-migrations            #    0,029 K/sec                  
+             3.103      page-faults               #    0,008 M/sec                  
+     1.440.397.246      cycles                    #    3,527 GHz                      (83,34%)
+       342.698.402      stalled-cycles-frontend   #   23,79% frontend cycles idle     (83,06%)
+       509.913.351      stalled-cycles-backend    #   35,40% backend  cycles idle     (34,22%)
+     1.064.060.165      instructions              #    0,74  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (52,28%)
+       244.392.995      branches                  #  598,431 M/sec                    (67,78%)
+         1.527.908      branch-misses             #    0,63% of all branches          (83,73%)
+
+       0,571433794 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        403,977402      task-clock (msec)         #    0,718 CPUs utilized          
+               125      context-switches          #    0,309 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.098      page-faults               #    0,008 M/sec                  
+     1.437.224.246      cycles                    #    3,558 GHz                      (82,25%)
+       369.569.521      stalled-cycles-frontend   #   25,71% frontend cycles idle     (83,21%)
+       488.390.597      stalled-cycles-backend    #   33,98% backend  cycles idle     (34,74%)
+     1.127.030.010      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (52,21%)
+       256.500.275      branches                  #  634,937 M/sec                    (68,68%)
+         1.569.651      branch-misses             #    0,61% of all branches          (83,99%)
+
+       0,562969642 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/tale_of_two_cities.txt':
+
+        405,478748      task-clock (msec)         #    0,719 CPUs utilized          
+               128      context-switches          #    0,316 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.103      page-faults               #    0,008 M/sec                  
+     1.440.414.408      cycles                    #    3,552 GHz                      (84,10%)
+       363.147.937      stalled-cycles-frontend   #   25,21% frontend cycles idle     (83,59%)
+       503.016.341      stalled-cycles-backend    #   34,92% backend  cycles idle     (32,64%)
+     1.103.840.695      instructions              #    0,77  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (50,73%)
+       247.987.525      branches                  #  611,592 M/sec                    (67,55%)
+         1.535.572      branch-misses             #    0,62% of all branches          (84,10%)
+
+       0,564304120 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        406,662590      task-clock (msec)         #    0,718 CPUs utilized          
+               131      context-switches          #    0,322 K/sec                  
+                11      cpu-migrations            #    0,027 K/sec                  
+             3.098      page-faults               #    0,008 M/sec                  
+     1.452.237.411      cycles                    #    3,571 GHz                      (83,35%)
+       365.964.264      stalled-cycles-frontend   #   25,20% frontend cycles idle     (83,24%)
+       473.288.061      stalled-cycles-backend    #   32,59% backend  cycles idle     (33,74%)
+     1.137.120.027      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,10%)
+       258.663.665      branches                  #  636,065 M/sec                    (68,02%)
+         1.612.666      branch-misses             #    0,62% of all branches          (83,88%)
+
+       0,566080327 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        409,043098      task-clock (msec)         #    0,717 CPUs utilized          
+               133      context-switches          #    0,325 K/sec                  
+                11      cpu-migrations            #    0,027 K/sec                  
+             3.099      page-faults               #    0,008 M/sec                  
+     1.426.822.862      cycles                    #    3,488 GHz                      (84,10%)
+       364.011.132      stalled-cycles-frontend   #   25,51% frontend cycles idle     (83,38%)
+       471.460.569      stalled-cycles-backend    #   33,04% backend  cycles idle     (32,67%)
+     1.120.641.040      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,85%)
+       254.583.186      branches                  #  622,387 M/sec                    (67,63%)
+         1.574.747      branch-misses             #    0,62% of all branches          (83,28%)
+
+       0,570292086 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        406,544646      task-clock (msec)         #    0,711 CPUs utilized          
+               125      context-switches          #    0,307 K/sec                  
+                10      cpu-migrations            #    0,025 K/sec                  
+             3.098      page-faults               #    0,008 M/sec                  
+     1.446.078.888      cycles                    #    3,557 GHz                      (83,11%)
+       365.591.762      stalled-cycles-frontend   #   25,28% frontend cycles idle     (83,45%)
+       461.845.657      stalled-cycles-backend    #   31,94% backend  cycles idle     (33,89%)
+     1.129.161.465      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,74%)
+       260.636.485      branches                  #  641,102 M/sec                    (67,53%)
+         1.692.806      branch-misses             #    0,65% of all branches          (83,48%)
+
+       0,571974965 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        407,763452      task-clock (msec)         #    0,720 CPUs utilized          
+               120      context-switches          #    0,294 K/sec                  
+                11      cpu-migrations            #    0,027 K/sec                  
+             3.099      page-faults               #    0,008 M/sec                  
+     1.437.412.131      cycles                    #    3,525 GHz                      (83,35%)
+       355.496.427      stalled-cycles-frontend   #   24,73% frontend cycles idle     (83,98%)
+       490.666.282      stalled-cycles-backend    #   34,14% backend  cycles idle     (32,85%)
+     1.160.689.056      instructions              #    0,81  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,40%)
+       264.098.564      branches                  #  647,676 M/sec                    (68,15%)
+         1.637.305      branch-misses             #    0,62% of all branches          (83,78%)
+
+       0,566306822 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        408,370156      task-clock (msec)         #    0,720 CPUs utilized          
+               137      context-switches          #    0,335 K/sec                  
+                13      cpu-migrations            #    0,032 K/sec                  
+             3.101      page-faults               #    0,008 M/sec                  
+     1.430.831.802      cycles                    #    3,504 GHz                      (83,41%)
+       356.303.864      stalled-cycles-frontend   #   24,90% frontend cycles idle     (83,37%)
+       469.638.618      stalled-cycles-backend    #   32,82% backend  cycles idle     (33,67%)
+     1.186.878.751      instructions              #    0,83  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,98%)
+       267.111.323      branches                  #  654,091 M/sec                    (67,06%)
+         1.626.006      branch-misses             #    0,61% of all branches          (83,48%)
+
+       0,566792613 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        407,601451      task-clock (msec)         #    0,720 CPUs utilized          
+               138      context-switches          #    0,339 K/sec                  
+                12      cpu-migrations            #    0,029 K/sec                  
+             3.104      page-faults               #    0,008 M/sec                  
+     1.450.343.444      cycles                    #    3,558 GHz                      (83,34%)
+       365.295.199      stalled-cycles-frontend   #   25,19% frontend cycles idle     (83,41%)
+       479.490.253      stalled-cycles-backend    #   33,06% backend  cycles idle     (33,46%)
+     1.139.217.805      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,97%)
+       259.187.297      branches                  #  635,884 M/sec                    (67,89%)
+         1.596.225      branch-misses             #    0,62% of all branches          (83,65%)
+
+       0,566447673 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        413,221617      task-clock (msec)         #    0,719 CPUs utilized          
+               134      context-switches          #    0,324 K/sec                  
+                14      cpu-migrations            #    0,034 K/sec                  
+             3.097      page-faults               #    0,007 M/sec                  
+     1.461.010.116      cycles                    #    3,536 GHz                      (83,58%)
+       363.248.820      stalled-cycles-frontend   #   24,86% frontend cycles idle     (83,02%)
+       465.880.083      stalled-cycles-backend    #   31,89% backend  cycles idle     (34,19%)
+     1.159.621.664      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,89%)
+       267.707.687      branches                  #  647,855 M/sec                    (67,44%)
+         1.717.368      branch-misses             #    0,64% of all branches          (83,71%)
+
+       0,575093084 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        406,106369      task-clock (msec)         #    0,720 CPUs utilized          
+               123      context-switches          #    0,303 K/sec                  
+                12      cpu-migrations            #    0,030 K/sec                  
+             3.101      page-faults               #    0,008 M/sec                  
+     1.453.870.940      cycles                    #    3,580 GHz                      (83,59%)
+       364.357.564      stalled-cycles-frontend   #   25,06% frontend cycles idle     (83,89%)
+       490.821.146      stalled-cycles-backend    #   33,76% backend  cycles idle     (32,75%)
+     1.120.417.256      instructions              #    0,77  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (51,76%)
+       252.854.288      branches                  #  622,631 M/sec                    (68,45%)
+         1.575.378      branch-misses             #    0,62% of all branches          (84,00%)
+
+       0,563909102 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        415,816836      task-clock (msec)         #    0,719 CPUs utilized          
+               129      context-switches          #    0,310 K/sec                  
+                14      cpu-migrations            #    0,034 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.446.458.926      cycles                    #    3,479 GHz                      (83,64%)
+       367.995.543      stalled-cycles-frontend   #   25,44% frontend cycles idle     (84,32%)
+       494.711.478      stalled-cycles-backend    #   34,20% backend  cycles idle     (32,66%)
+     1.120.990.508      instructions              #    0,77  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (49,96%)
+       252.680.054      branches                  #  607,672 M/sec                    (66,17%)
+         1.544.492      branch-misses             #    0,61% of all branches          (83,06%)
+
+       0,578212336 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/tale_of_two_cities.txt':
+
+        404,082505      task-clock (msec)         #    0,719 CPUs utilized          
+               127      context-switches          #    0,314 K/sec                  
+                 9      cpu-migrations            #    0,022 K/sec                  
+             3.102      page-faults               #    0,008 M/sec                  
+     1.438.090.919      cycles                    #    3,559 GHz                      (83,68%)
+       345.512.135      stalled-cycles-frontend   #   24,03% frontend cycles idle     (83,55%)
+       544.672.777      stalled-cycles-backend    #   37,87% backend  cycles idle     (33,05%)
+     1.004.355.351      instructions              #    0,70  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (51,23%)
+       229.784.283      branches                  #  568,657 M/sec                    (67,60%)
+         1.422.272      branch-misses             #    0,62% of all branches          (83,54%)
+
+       0,561895903 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        433,409535      task-clock (msec)         #    0,728 CPUs utilized          
+               126      context-switches          #    0,291 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.527.374.168      cycles                    #    3,524 GHz                      (82,98%)
+       377.264.509      stalled-cycles-frontend   #   24,70% frontend cycles idle     (83,46%)
+       489.938.127      stalled-cycles-backend    #   32,08% backend  cycles idle     (33,82%)
+     1.244.986.153      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (52,50%)
+       283.045.351      branches                  #  653,067 M/sec                    (68,02%)
+         1.774.922      branch-misses             #    0,63% of all branches          (83,62%)
+
+       0,595185097 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        429,221303      task-clock (msec)         #    0,721 CPUs utilized          
+               125      context-switches          #    0,291 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.526.950.166      cycles                    #    3,557 GHz                      (84,01%)
+       387.267.903      stalled-cycles-frontend   #   25,36% frontend cycles idle     (84,01%)
+       501.080.912      stalled-cycles-backend    #   32,82% backend  cycles idle     (32,27%)
+     1.212.987.792      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,68%)
+       273.647.341      branches                  #  637,544 M/sec                    (68,24%)
+         1.692.911      branch-misses             #    0,62% of all branches          (84,11%)
+
+       0,595152840 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        428,856066      task-clock (msec)         #    0,732 CPUs utilized          
+               131      context-switches          #    0,305 K/sec                  
+                11      cpu-migrations            #    0,026 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.537.376.406      cycles                    #    3,585 GHz                      (83,20%)
+       382.135.576      stalled-cycles-frontend   #   24,86% frontend cycles idle     (84,01%)
+       513.042.703      stalled-cycles-backend    #   33,37% backend  cycles idle     (33,66%)
+     1.183.603.040      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (51,67%)
+       269.501.413      branches                  #  628,419 M/sec                    (67,54%)
+         1.651.943      branch-misses             #    0,61% of all branches          (83,56%)
+
+       0,585476956 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        436,762089      task-clock (msec)         #    0,733 CPUs utilized          
+               123      context-switches          #    0,282 K/sec                  
+                14      cpu-migrations            #    0,032 K/sec                  
+             3.100      page-faults               #    0,007 M/sec                  
+     1.528.117.738      cycles                    #    3,499 GHz                      (82,62%)
+       395.706.058      stalled-cycles-frontend   #   25,89% frontend cycles idle     (84,15%)
+       495.451.165      stalled-cycles-backend    #   32,42% backend  cycles idle     (33,44%)
+     1.225.019.528      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (49,62%)
+       273.831.704      branches                  #  626,958 M/sec                    (66,70%)
+         1.683.834      branch-misses             #    0,61% of all branches          (83,03%)
+
+       0,595450898 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        427,172267      task-clock (msec)         #    0,730 CPUs utilized          
+               130      context-switches          #    0,304 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.533.161.367      cycles                    #    3,589 GHz                      (83,28%)
+       397.684.498      stalled-cycles-frontend   #   25,94% frontend cycles idle     (83,77%)
+       486.057.205      stalled-cycles-backend    #   31,70% backend  cycles idle     (33,33%)
+     1.191.067.803      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,66%)
+       275.778.487      branches                  #  645,591 M/sec                    (66,58%)
+         1.660.481      branch-misses             #    0,60% of all branches          (82,65%)
+
+       0,584917801 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        435,176706      task-clock (msec)         #    0,732 CPUs utilized          
+               131      context-switches          #    0,301 K/sec                  
+                14      cpu-migrations            #    0,032 K/sec                  
+             3.106      page-faults               #    0,007 M/sec                  
+     1.535.728.476      cycles                    #    3,529 GHz                      (83,52%)
+       376.339.877      stalled-cycles-frontend   #   24,51% frontend cycles idle     (83,44%)
+       527.891.913      stalled-cycles-backend    #   34,37% backend  cycles idle     (33,64%)
+     1.187.664.419      instructions              #    0,77  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (50,96%)
+       270.130.622      branches                  #  620,738 M/sec                    (66,98%)
+         1.776.401      branch-misses             #    0,66% of all branches          (83,63%)
+
+       0,594370076 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        430,323837      task-clock (msec)         #    0,730 CPUs utilized          
+               129      context-switches          #    0,300 K/sec                  
+                11      cpu-migrations            #    0,026 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.523.185.802      cycles                    #    3,540 GHz                      (83,46%)
+       403.268.581      stalled-cycles-frontend   #   26,48% frontend cycles idle     (83,23%)
+       491.619.107      stalled-cycles-backend    #   32,28% backend  cycles idle     (33,84%)
+     1.211.409.144      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,46%)
+       270.243.272      branches                  #  628,000 M/sec                    (67,74%)
+         2.284.200      branch-misses             #    0,85% of all branches          (83,47%)
+
+       0,589694854 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        432,894547      task-clock (msec)         #    0,734 CPUs utilized          
+               131      context-switches          #    0,303 K/sec                  
+                13      cpu-migrations            #    0,030 K/sec                  
+             3.099      page-faults               #    0,007 M/sec                  
+     1.528.763.491      cycles                    #    3,531 GHz                      (83,40%)
+       376.347.573      stalled-cycles-frontend   #   24,62% frontend cycles idle     (84,16%)
+       525.353.004      stalled-cycles-backend    #   34,36% backend  cycles idle     (33,14%)
+     1.200.975.890      instructions              #    0,79  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (50,24%)
+       274.223.423      branches                  #  633,465 M/sec                    (66,91%)
+         1.677.104      branch-misses             #    0,61% of all branches          (82,79%)
+
+       0,590149996 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        435,687139      task-clock (msec)         #    0,731 CPUs utilized          
+               131      context-switches          #    0,301 K/sec                  
+                14      cpu-migrations            #    0,032 K/sec                  
+             3.101      page-faults               #    0,007 M/sec                  
+     1.531.927.841      cycles                    #    3,516 GHz                      (83,48%)
+       384.376.219      stalled-cycles-frontend   #   25,09% frontend cycles idle     (83,53%)
+       520.221.992      stalled-cycles-backend    #   33,96% backend  cycles idle     (33,23%)
+     1.226.443.873      instructions              #    0,80  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (49,40%)
+       273.681.175      branches                  #  628,160 M/sec                    (66,62%)
+         1.671.811      branch-misses             #    0,61% of all branches          (83,02%)
+
+       0,595735722 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/tale_of_two_cities.txt':
+
+        427,923904      task-clock (msec)         #    0,730 CPUs utilized          
+               126      context-switches          #    0,294 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.531.274.153      cycles                    #    3,578 GHz                      (83,23%)
+       370.351.182      stalled-cycles-frontend   #   24,19% frontend cycles idle     (83,18%)
+       579.666.365      stalled-cycles-backend    #   37,86% backend  cycles idle     (33,76%)
+     1.103.646.090      instructions              #    0,72  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (51,68%)
+       250.279.680      branches                  #  584,870 M/sec                    (67,83%)
+         1.572.841      branch-misses             #    0,63% of all branches          (84,10%)
+
+       0,586147659 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        433,046586      task-clock (msec)         #    0,729 CPUs utilized          
+               149      context-switches          #    0,344 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.529.829.478      cycles                    #    3,533 GHz                      (83,43%)
+       385.358.647      stalled-cycles-frontend   #   25,19% frontend cycles idle     (83,84%)
+       492.967.288      stalled-cycles-backend    #   32,22% backend  cycles idle     (33,02%)
+     1.259.447.734      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,85%)
+       285.530.616      branches                  #  659,353 M/sec                    (67,80%)
+         1.763.942      branch-misses             #    0,62% of all branches          (83,63%)
+
+       0,594265136 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        431,784917      task-clock (msec)         #    0,731 CPUs utilized          
+               131      context-switches          #    0,303 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.102      page-faults               #    0,007 M/sec                  
+     1.533.919.082      cycles                    #    3,553 GHz                      (83,34%)
+       386.663.934      stalled-cycles-frontend   #   25,21% frontend cycles idle     (83,30%)
+       503.830.734      stalled-cycles-backend    #   32,85% backend  cycles idle     (33,57%)
+     1.241.630.524      instructions              #    0,81  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,88%)
+       280.679.959      branches                  #  650,046 M/sec                    (67,60%)
+         1.754.780      branch-misses             #    0,63% of all branches          (83,41%)
+
+       0,590379843 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        433,817064      task-clock (msec)         #    0,733 CPUs utilized          
+               139      context-switches          #    0,320 K/sec                  
+                11      cpu-migrations            #    0,025 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.527.135.668      cycles                    #    3,520 GHz                      (83,88%)
+       382.710.041      stalled-cycles-frontend   #   25,06% frontend cycles idle     (84,13%)
+       501.054.340      stalled-cycles-backend    #   32,81% backend  cycles idle     (32,35%)
+     1.230.374.570      instructions              #    0,81  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (49,97%)
+       275.205.626      branches                  #  634,382 M/sec                    (67,46%)
+         1.721.354      branch-misses             #    0,63% of all branches          (84,12%)
+
+       0,592092576 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        437,014392      task-clock (msec)         #    0,728 CPUs utilized          
+               134      context-switches          #    0,307 K/sec                  
+                11      cpu-migrations            #    0,025 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.556.868.620      cycles                    #    3,563 GHz                      (83,32%)
+       388.733.447      stalled-cycles-frontend   #   24,97% frontend cycles idle     (83,60%)
+       530.609.842      stalled-cycles-backend    #   34,08% backend  cycles idle     (33,29%)
+     1.176.966.617      instructions              #    0,76  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (50,75%)
+       266.558.274      branches                  #  609,953 M/sec                    (66,94%)
+         1.839.504      branch-misses             #    0,69% of all branches          (83,49%)
+
+       0,599967535 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        431,697925      task-clock (msec)         #    0,732 CPUs utilized          
+               123      context-switches          #    0,285 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.530.464.073      cycles                    #    3,545 GHz                      (83,34%)
+       382.525.502      stalled-cycles-frontend   #   24,99% frontend cycles idle     (84,08%)
+       511.758.543      stalled-cycles-backend    #   33,44% backend  cycles idle     (33,67%)
+     1.226.432.974      instructions              #    0,80  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,17%)
+       278.891.539      branches                  #  646,034 M/sec                    (66,94%)
+         1.673.882      branch-misses             #    0,60% of all branches          (82,98%)
+
+       0,589906135 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        436,323000      task-clock (msec)         #    0,732 CPUs utilized          
+               131      context-switches          #    0,300 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.538.742.937      cycles                    #    3,527 GHz                      (83,53%)
+       383.364.385      stalled-cycles-frontend   #   24,91% frontend cycles idle     (83,75%)
+       502.639.962      stalled-cycles-backend    #   32,67% backend  cycles idle     (32,91%)
+     1.215.975.283      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,34%)
+       274.775.852      branches                  #  629,753 M/sec                    (67,18%)
+         1.697.400      branch-misses             #    0,62% of all branches          (83,11%)
+
+       0,595890550 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        431,782510      task-clock (msec)         #    0,730 CPUs utilized          
+               126      context-switches          #    0,292 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.099      page-faults               #    0,007 M/sec                  
+     1.533.915.388      cycles                    #    3,553 GHz                      (82,24%)
+       403.509.560      stalled-cycles-frontend   #   26,31% frontend cycles idle     (84,28%)
+       492.990.732      stalled-cycles-backend    #   32,14% backend  cycles idle     (34,06%)
+     1.181.590.836      instructions              #    0,77  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,68%)
+       270.265.819      branches                  #  625,930 M/sec                    (66,01%)
+         1.696.055      branch-misses             #    0,63% of all branches          (81,78%)
+
+       0,591149449 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        430,896778      task-clock (msec)         #    0,729 CPUs utilized          
+               126      context-switches          #    0,292 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.098      page-faults               #    0,007 M/sec                  
+     1.535.462.165      cycles                    #    3,563 GHz                      (83,32%)
+       379.717.011      stalled-cycles-frontend   #   24,73% frontend cycles idle     (83,13%)
+       497.950.517      stalled-cycles-backend    #   32,43% backend  cycles idle     (33,89%)
+     1.247.632.722      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,04%)
+       283.992.376      branches                  #  659,073 M/sec                    (67,38%)
+         1.753.476      branch-misses             #    0,62% of all branches          (83,07%)
+
+       0,590973989 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        432,844655      task-clock (msec)         #    0,723 CPUs utilized          
+               123      context-switches          #    0,284 K/sec                  
+                 9      cpu-migrations            #    0,021 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.546.729.740      cycles                    #    3,573 GHz                      (82,93%)
+       388.615.822      stalled-cycles-frontend   #   25,12% frontend cycles idle     (83,41%)
+       518.443.959      stalled-cycles-backend    #   33,52% backend  cycles idle     (34,33%)
+     1.184.812.838      instructions              #    0,77  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (52,35%)
+       272.141.721      branches                  #  628,728 M/sec                    (68,55%)
+         1.692.498      branch-misses             #    0,62% of all branches          (84,05%)
+
+       0,598822062 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/tale_of_two_cities.txt':
+
+        430,875038      task-clock (msec)         #    0,731 CPUs utilized          
+               130      context-switches          #    0,302 K/sec                  
+                10      cpu-migrations            #    0,023 K/sec                  
+             3.105      page-faults               #    0,007 M/sec                  
+     1.523.623.852      cycles                    #    3,536 GHz                      (83,28%)
+       388.758.333      stalled-cycles-frontend   #   25,52% frontend cycles idle     (83,29%)
+       495.914.631      stalled-cycles-backend    #   32,55% backend  cycles idle     (33,78%)
+     1.203.955.416      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,33%)
+       274.815.218      branches                  #  637,807 M/sec                    (67,96%)
+         1.727.455      branch-misses             #    0,63% of all branches          (83,85%)
+
+       0,589442415 seconds time elapsed
+

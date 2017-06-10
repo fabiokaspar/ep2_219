@@ -1,0 +1,1440 @@
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        299,265284      task-clock (msec)         #    0,261 CPUs utilized          
+               198      context-switches          #    0,662 K/sec                  
+                11      cpu-migrations            #    0,037 K/sec                  
+             4.001      page-faults               #    0,013 M/sec                  
+       977.089.432      cycles                    #    3,265 GHz                      (82,22%)
+       194.413.859      stalled-cycles-frontend   #   19,90% frontend cycles idle     (82,33%)
+       320.410.441      stalled-cycles-backend    #   32,79% backend  cycles idle     (36,40%)
+       894.281.422      instructions              #    0,92  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (54,98%)
+       220.275.589      branches                  #  736,055 M/sec                    (69,84%)
+           802.853      branch-misses             #    0,36% of all branches          (84,55%)
+
+       1,148689419 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        284,309604      task-clock (msec)         #    0,268 CPUs utilized          
+               190      context-switches          #    0,668 K/sec                  
+                12      cpu-migrations            #    0,042 K/sec                  
+             3.491      page-faults               #    0,012 M/sec                  
+       954.925.158      cycles                    #    3,359 GHz                      (82,61%)
+       186.299.573      stalled-cycles-frontend   #   19,51% frontend cycles idle     (83,12%)
+       277.321.223      stalled-cycles-backend    #   29,04% backend  cycles idle     (35,32%)
+       958.334.526      instructions              #    1,00  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (51,21%)
+       225.671.326      branches                  #  793,752 M/sec                    (67,00%)
+           820.436      branch-misses             #    0,36% of all branches          (82,46%)
+
+       1,061237907 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        286,227300      task-clock (msec)         #    0,269 CPUs utilized          
+               172      context-switches          #    0,601 K/sec                  
+                12      cpu-migrations            #    0,042 K/sec                  
+             4.001      page-faults               #    0,014 M/sec                  
+       948.435.724      cycles                    #    3,314 GHz                      (82,42%)
+       180.354.698      stalled-cycles-frontend   #   19,02% frontend cycles idle     (83,93%)
+       245.905.546      stalled-cycles-backend    #   25,93% backend  cycles idle     (34,64%)
+       960.041.524      instructions              #    1,01  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (51,55%)
+       226.263.779      branches                  #  790,504 M/sec                    (67,97%)
+           811.134      branch-misses             #    0,36% of all branches          (83,32%)
+
+       1,063093715 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        285,540724      task-clock (msec)         #    0,263 CPUs utilized          
+               202      context-switches          #    0,707 K/sec                  
+                14      cpu-migrations            #    0,049 K/sec                  
+             3.488      page-faults               #    0,012 M/sec                  
+       961.782.523      cycles                    #    3,368 GHz                      (81,52%)
+       179.114.775      stalled-cycles-frontend   #   18,62% frontend cycles idle     (83,24%)
+       262.139.097      stalled-cycles-backend    #   27,26% backend  cycles idle     (35,71%)
+       953.625.267      instructions              #    0,99  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (51,50%)
+       220.465.151      branches                  #  772,097 M/sec                    (68,99%)
+           792.238      branch-misses             #    0,36% of all branches          (84,47%)
+
+       1,084767117 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        280,363770      task-clock (msec)         #    0,265 CPUs utilized          
+               193      context-switches          #    0,688 K/sec                  
+                10      cpu-migrations            #    0,036 K/sec                  
+             4.003      page-faults               #    0,014 M/sec                  
+       957.420.621      cycles                    #    3,415 GHz                      (83,35%)
+       187.851.467      stalled-cycles-frontend   #   19,62% frontend cycles idle     (84,20%)
+       307.264.306      stalled-cycles-backend    #   32,09% backend  cycles idle     (32,70%)
+       938.771.034      instructions              #    0,98  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,40%)
+       225.288.158      branches                  #  803,557 M/sec                    (65,68%)
+           785.419      branch-misses             #    0,35% of all branches          (82,91%)
+
+       1,058047251 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        281,570081      task-clock (msec)         #    0,266 CPUs utilized          
+               194      context-switches          #    0,689 K/sec                  
+                10      cpu-migrations            #    0,036 K/sec                  
+             4.000      page-faults               #    0,014 M/sec                  
+       945.443.711      cycles                    #    3,358 GHz                      (84,85%)
+       187.765.559      stalled-cycles-frontend   #   19,86% frontend cycles idle     (83,35%)
+       283.276.162      stalled-cycles-backend    #   29,96% backend  cycles idle     (33,10%)
+       974.786.841      instructions              #    1,03  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (51,53%)
+       226.130.286      branches                  #  803,105 M/sec                    (67,36%)
+           852.810      branch-misses             #    0,38% of all branches          (83,52%)
+
+       1,058580245 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        284,463187      task-clock (msec)         #    0,268 CPUs utilized          
+               168      context-switches          #    0,591 K/sec                  
+                10      cpu-migrations            #    0,035 K/sec                  
+             4.004      page-faults               #    0,014 M/sec                  
+       962.892.494      cycles                    #    3,385 GHz                      (82,42%)
+       184.346.452      stalled-cycles-frontend   #   19,15% frontend cycles idle     (82,82%)
+       276.531.499      stalled-cycles-backend    #   28,72% backend  cycles idle     (36,92%)
+       959.602.291      instructions              #    1,00  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (52,69%)
+       225.613.032      branches                  #  793,119 M/sec                    (66,86%)
+           798.691      branch-misses             #    0,35% of all branches          (82,78%)
+
+       1,061619785 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        283,797345      task-clock (msec)         #    0,268 CPUs utilized          
+               187      context-switches          #    0,659 K/sec                  
+                11      cpu-migrations            #    0,039 K/sec                  
+             4.003      page-faults               #    0,014 M/sec                  
+       962.312.448      cycles                    #    3,391 GHz                      (81,60%)
+       183.234.877      stalled-cycles-frontend   #   19,04% frontend cycles idle     (83,18%)
+       280.650.834      stalled-cycles-backend    #   29,16% backend  cycles idle     (36,01%)
+       952.305.349      instructions              #    0,99  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (52,85%)
+       217.944.366      branches                  #  767,958 M/sec                    (69,68%)
+           810.974      branch-misses             #    0,37% of all branches          (84,45%)
+
+       1,060064351 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        280,832035      task-clock (msec)         #    0,266 CPUs utilized          
+               211      context-switches          #    0,751 K/sec                  
+                10      cpu-migrations            #    0,036 K/sec                  
+             3.491      page-faults               #    0,012 M/sec                  
+       949.173.735      cycles                    #    3,380 GHz                      (82,95%)
+       179.571.104      stalled-cycles-frontend   #   18,92% frontend cycles idle     (83,80%)
+       319.324.845      stalled-cycles-backend    #   33,64% backend  cycles idle     (33,62%)
+       918.982.921      instructions              #    0,97  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,71%)
+       221.340.626      branches                  #  788,160 M/sec                    (66,44%)
+           762.262      branch-misses             #    0,34% of all branches          (83,00%)
+
+       1,057016239 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/king_james_bible.txt':
+
+        280,965779      task-clock (msec)         #    0,266 CPUs utilized          
+               175      context-switches          #    0,623 K/sec                  
+                10      cpu-migrations            #    0,036 K/sec                  
+             3.487      page-faults               #    0,012 M/sec                  
+       943.117.350      cycles                    #    3,357 GHz                      (84,98%)
+       180.426.690      stalled-cycles-frontend   #   19,13% frontend cycles idle     (84,38%)
+       283.000.302      stalled-cycles-backend    #   30,01% backend  cycles idle     (31,43%)
+       910.661.474      instructions              #    0,97  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (53,13%)
+       216.240.660      branches                  #  769,633 M/sec                    (69,55%)
+           822.850      branch-misses             #    0,38% of all branches          (84,05%)
+
+       1,057721298 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        252,027274      task-clock (msec)         #    0,245 CPUs utilized          
+               171      context-switches          #    0,678 K/sec                  
+                11      cpu-migrations            #    0,044 K/sec                  
+             3.492      page-faults               #    0,014 M/sec                  
+       832.228.990      cycles                    #    3,302 GHz                      (83,15%)
+       154.959.304      stalled-cycles-frontend   #   18,62% frontend cycles idle     (83,16%)
+       262.184.528      stalled-cycles-backend    #   31,50% backend  cycles idle     (34,46%)
+       838.258.110      instructions              #    1,01  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (53,11%)
+       192.183.620      branches                  #  762,551 M/sec                    (70,44%)
+           646.794      branch-misses             #    0,34% of all branches          (85,18%)
+
+       1,028392860 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        256,076324      task-clock (msec)         #    0,248 CPUs utilized          
+               172      context-switches          #    0,672 K/sec                  
+                10      cpu-migrations            #    0,039 K/sec                  
+             4.001      page-faults               #    0,016 M/sec                  
+       867.581.027      cycles                    #    3,388 GHz                      (82,50%)
+       152.504.347      stalled-cycles-frontend   #   17,58% frontend cycles idle     (83,14%)
+       238.026.696      stalled-cycles-backend    #   27,44% backend  cycles idle     (34,82%)
+       866.453.675      instructions              #    1,00  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (52,40%)
+       205.557.204      branches                  #  802,719 M/sec                    (66,59%)
+           677.135      branch-misses             #    0,33% of all branches          (82,40%)
+
+       1,032534010 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        245,540958      task-clock (msec)         #    0,240 CPUs utilized          
+               176      context-switches          #    0,717 K/sec                  
+                10      cpu-migrations            #    0,041 K/sec                  
+             4.000      page-faults               #    0,016 M/sec                  
+       835.763.696      cycles                    #    3,404 GHz                      (83,30%)
+       153.768.093      stalled-cycles-frontend   #   18,40% frontend cycles idle     (83,84%)
+       264.580.950      stalled-cycles-backend    #   31,66% backend  cycles idle     (33,35%)
+       792.851.284      instructions              #    0,95  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (52,60%)
+       197.297.988      branches                  #  803,524 M/sec                    (67,47%)
+           648.570      branch-misses             #    0,33% of all branches          (81,79%)
+
+       1,023049289 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        254,670619      task-clock (msec)         #    0,247 CPUs utilized          
+               179      context-switches          #    0,703 K/sec                  
+                10      cpu-migrations            #    0,039 K/sec                  
+             3.489      page-faults               #    0,014 M/sec                  
+       838.339.749      cycles                    #    3,292 GHz                      (82,19%)
+       157.835.070      stalled-cycles-frontend   #   18,83% frontend cycles idle     (82,41%)
+       261.482.077      stalled-cycles-backend    #   31,19% backend  cycles idle     (35,88%)
+       803.871.622      instructions              #    0,96  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (55,13%)
+       195.516.454      branches                  #  767,723 M/sec                    (69,81%)
+           688.569      branch-misses             #    0,35% of all branches          (84,06%)
+
+       1,032511183 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        262,535436      task-clock (msec)         #    0,253 CPUs utilized          
+               207      context-switches          #    0,788 K/sec                  
+                13      cpu-migrations            #    0,050 K/sec                  
+             4.004      page-faults               #    0,015 M/sec                  
+       858.981.816      cycles                    #    3,272 GHz                      (84,74%)
+       151.169.102      stalled-cycles-frontend   #   17,60% frontend cycles idle     (83,32%)
+       250.093.631      stalled-cycles-backend    #   29,12% backend  cycles idle     (32,28%)
+       918.397.393      instructions              #    1,07  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (49,12%)
+       218.102.360      branches                  #  830,754 M/sec                    (65,18%)
+           656.775      branch-misses             #    0,30% of all branches          (80,56%)
+
+       1,039634830 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        249,446526      task-clock (msec)         #    0,243 CPUs utilized          
+               181      context-switches          #    0,726 K/sec                  
+                 8      cpu-migrations            #    0,032 K/sec                  
+             3.487      page-faults               #    0,014 M/sec                  
+       837.586.339      cycles                    #    3,358 GHz                      (84,03%)
+       156.843.753      stalled-cycles-frontend   #   18,73% frontend cycles idle     (81,46%)
+       258.823.020      stalled-cycles-backend    #   30,90% backend  cycles idle     (35,96%)
+       820.565.702      instructions              #    0,98  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (55,11%)
+       195.142.104      branches                  #  782,300 M/sec                    (70,03%)
+           663.018      branch-misses             #    0,34% of all branches          (85,29%)
+
+       1,028239764 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        247,525833      task-clock (msec)         #    0,242 CPUs utilized          
+               181      context-switches          #    0,731 K/sec                  
+                12      cpu-migrations            #    0,048 K/sec                  
+             3.489      page-faults               #    0,014 M/sec                  
+       820.711.830      cycles                    #    3,316 GHz                      (81,79%)
+       150.469.181      stalled-cycles-frontend   #   18,33% frontend cycles idle     (83,86%)
+       286.496.190      stalled-cycles-backend    #   34,91% backend  cycles idle     (35,76%)
+       807.619.082      instructions              #    0,98  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (52,65%)
+       198.953.384      branches                  #  803,768 M/sec                    (67,17%)
+           686.498      branch-misses             #    0,35% of all branches          (82,97%)
+
+       1,024270588 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        254,590919      task-clock (msec)         #    0,247 CPUs utilized          
+               165      context-switches          #    0,648 K/sec                  
+                16      cpu-migrations            #    0,063 K/sec                  
+             4.004      page-faults               #    0,016 M/sec                  
+       836.883.518      cycles                    #    3,287 GHz                      (82,84%)
+       159.755.087      stalled-cycles-frontend   #   19,09% frontend cycles idle     (84,53%)
+       240.051.403      stalled-cycles-backend    #   28,68% backend  cycles idle     (34,68%)
+       856.605.550      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,84%)
+       198.340.081      branches                  #  779,054 M/sec                    (68,10%)
+           673.011      branch-misses             #    0,34% of all branches          (82,84%)
+
+       1,031822184 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        276,205929      task-clock (msec)         #    0,261 CPUs utilized          
+               164      context-switches          #    0,594 K/sec                  
+                11      cpu-migrations            #    0,040 K/sec                  
+             3.493      page-faults               #    0,013 M/sec                  
+       930.978.116      cycles                    #    3,371 GHz                      (83,12%)
+       160.592.784      stalled-cycles-frontend   #   17,25% frontend cycles idle     (83,62%)
+       394.248.843      stalled-cycles-backend    #   42,35% backend  cycles idle     (34,19%)
+       828.577.854      instructions              #    0,89  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (51,59%)
+       197.618.533      branches                  #  715,475 M/sec                    (66,81%)
+           639.320      branch-misses             #    0,32% of all branches          (81,69%)
+
+       1,057131492 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/king_james_bible.txt':
+
+        257,627157      task-clock (msec)         #    0,249 CPUs utilized          
+               182      context-switches          #    0,706 K/sec                  
+                13      cpu-migrations            #    0,050 K/sec                  
+             4.000      page-faults               #    0,016 M/sec                  
+       825.880.795      cycles                    #    3,206 GHz                      (84,04%)
+       155.952.854      stalled-cycles-frontend   #   18,88% frontend cycles idle     (82,93%)
+       250.398.439      stalled-cycles-backend    #   30,32% backend  cycles idle     (34,60%)
+       840.200.909      instructions              #    1,02  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (51,62%)
+       195.931.474      branches                  #  760,523 M/sec                    (68,67%)
+           671.336      branch-misses             #    0,34% of all branches          (83,34%)
+
+       1,034534229 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        232,815680      task-clock (msec)         #    0,231 CPUs utilized          
+               194      context-switches          #    0,833 K/sec                  
+                 9      cpu-migrations            #    0,039 K/sec                  
+             4.002      page-faults               #    0,017 M/sec                  
+       781.308.745      cycles                    #    3,356 GHz                      (80,62%)
+       145.628.050      stalled-cycles-frontend   #   18,64% frontend cycles idle     (81,26%)
+       226.396.053      stalled-cycles-backend    #   28,98% backend  cycles idle     (39,18%)
+       798.886.903      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (54,77%)
+       190.040.606      branches                  #  816,271 M/sec                    (69,40%)
+           586.992      branch-misses             #    0,31% of all branches          (84,47%)
+
+       1,009642835 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        236,643280      task-clock (msec)         #    0,233 CPUs utilized          
+               151      context-switches          #    0,638 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       777.678.770      cycles                    #    3,286 GHz                      (82,09%)
+       137.193.810      stalled-cycles-frontend   #   17,64% frontend cycles idle     (83,16%)
+       213.263.486      stalled-cycles-backend    #   27,42% backend  cycles idle     (35,49%)
+       787.418.041      instructions              #    1,01  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (53,96%)
+       190.993.209      branches                  #  807,093 M/sec                    (68,23%)
+           606.123      branch-misses             #    0,32% of all branches          (81,92%)
+
+       1,014352239 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        238,214513      task-clock (msec)         #    0,235 CPUs utilized          
+               202      context-switches          #    0,848 K/sec                  
+                14      cpu-migrations            #    0,059 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       781.807.692      cycles                    #    3,282 GHz                      (81,00%)
+       139.829.159      stalled-cycles-frontend   #   17,89% frontend cycles idle     (83,70%)
+       187.912.755      stalled-cycles-backend    #   24,04% backend  cycles idle     (36,28%)
+       758.124.739      instructions              #    0,97  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (57,03%)
+       179.908.306      branches                  #  755,237 M/sec                    (72,02%)
+           584.754      branch-misses             #    0,33% of all branches          (86,43%)
+
+       1,014306931 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        236,351037      task-clock (msec)         #    0,232 CPUs utilized          
+               186      context-switches          #    0,787 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.997      page-faults               #    0,017 M/sec                  
+       803.610.653      cycles                    #    3,400 GHz                      (82,58%)
+       147.904.770      stalled-cycles-frontend   #   18,41% frontend cycles idle     (83,49%)
+       216.834.649      stalled-cycles-backend    #   26,98% backend  cycles idle     (35,00%)
+       833.553.312      instructions              #    1,04  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,73%)
+       192.614.775      branches                  #  814,952 M/sec                    (66,56%)
+           602.675      branch-misses             #    0,31% of all branches          (81,67%)
+
+       1,016654770 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        235,446315      task-clock (msec)         #    0,233 CPUs utilized          
+               207      context-switches          #    0,879 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.998      page-faults               #    0,017 M/sec                  
+       793.990.594      cycles                    #    3,372 GHz                      (82,44%)
+       137.877.854      stalled-cycles-frontend   #   17,37% frontend cycles idle     (83,03%)
+       236.370.815      stalled-cycles-backend    #   29,77% backend  cycles idle     (35,20%)
+       795.790.461      instructions              #    1,00  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (51,10%)
+       191.969.731      branches                  #  815,344 M/sec                    (67,01%)
+           635.800      branch-misses             #    0,33% of all branches          (82,06%)
+
+       1,011796106 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        232,541885      task-clock (msec)         #    0,230 CPUs utilized          
+               239      context-switches          #    0,001 M/sec                  
+                13      cpu-migrations            #    0,056 K/sec                  
+             4.000      page-faults               #    0,017 M/sec                  
+       771.658.781      cycles                    #    3,318 GHz                      (83,60%)
+       145.918.831      stalled-cycles-frontend   #   18,91% frontend cycles idle     (83,80%)
+       251.086.492      stalled-cycles-backend    #   32,54% backend  cycles idle     (32,75%)
+       794.461.473      instructions              #    1,03  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,12%)
+       191.395.438      branches                  #  823,058 M/sec                    (66,60%)
+           583.350      branch-misses             #    0,30% of all branches          (81,57%)
+
+       1,010790250 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        238,343116      task-clock (msec)         #    0,235 CPUs utilized          
+               179      context-switches          #    0,751 K/sec                  
+                14      cpu-migrations            #    0,059 K/sec                  
+             4.001      page-faults               #    0,017 M/sec                  
+       807.241.831      cycles                    #    3,387 GHz                      (81,74%)
+       144.500.898      stalled-cycles-frontend   #   17,90% frontend cycles idle     (82,93%)
+       221.820.038      stalled-cycles-backend    #   27,48% backend  cycles idle     (36,08%)
+       812.797.423      instructions              #    1,01  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (52,41%)
+       194.102.073      branches                  #  814,381 M/sec                    (67,53%)
+           602.843      branch-misses             #    0,31% of all branches          (83,02%)
+
+       1,015320914 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        236,139024      task-clock (msec)         #    0,233 CPUs utilized          
+               186      context-switches          #    0,788 K/sec                  
+                12      cpu-migrations            #    0,051 K/sec                  
+             4.002      page-faults               #    0,017 M/sec                  
+       764.693.073      cycles                    #    3,238 GHz                      (83,43%)
+       138.814.182      stalled-cycles-frontend   #   18,15% frontend cycles idle     (82,85%)
+       250.366.989      stalled-cycles-backend    #   32,74% backend  cycles idle     (35,41%)
+       766.971.312      instructions              #    1,00  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (51,05%)
+       188.063.024      branches                  #  796,408 M/sec                    (66,25%)
+           623.872      branch-misses             #    0,33% of all branches          (82,33%)
+
+       1,014475950 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        234,711133      task-clock (msec)         #    0,232 CPUs utilized          
+               181      context-switches          #    0,771 K/sec                  
+                10      cpu-migrations            #    0,043 K/sec                  
+             3.491      page-faults               #    0,015 M/sec                  
+       784.369.191      cycles                    #    3,342 GHz                      (83,59%)
+       144.611.819      stalled-cycles-frontend   #   18,44% frontend cycles idle     (81,78%)
+       222.294.031      stalled-cycles-backend    #   28,34% backend  cycles idle     (34,75%)
+       800.305.083      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,76%)
+       193.633.862      branches                  #  824,988 M/sec                    (65,20%)
+           645.855      branch-misses             #    0,33% of all branches          (82,49%)
+
+       1,012285024 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/king_james_bible.txt':
+
+        238,337597      task-clock (msec)         #    0,234 CPUs utilized          
+               185      context-switches          #    0,776 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       796.862.035      cycles                    #    3,343 GHz                      (81,45%)
+       141.725.132      stalled-cycles-frontend   #   17,79% frontend cycles idle     (84,87%)
+       208.834.178      stalled-cycles-backend    #   26,21% backend  cycles idle     (34,77%)
+       840.454.296      instructions              #    1,05  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,27%)
+       198.910.278      branches                  #  834,574 M/sec                    (64,45%)
+           612.743      branch-misses             #    0,31% of all branches          (80,00%)
+
+       1,016541588 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        234,298745      task-clock (msec)         #    0,232 CPUs utilized          
+               195      context-switches          #    0,832 K/sec                  
+                10      cpu-migrations            #    0,043 K/sec                  
+             3.493      page-faults               #    0,015 M/sec                  
+       774.910.913      cycles                    #    3,307 GHz                      (82,24%)
+       138.922.927      stalled-cycles-frontend   #   17,93% frontend cycles idle     (83,76%)
+       215.842.398      stalled-cycles-backend    #   27,85% backend  cycles idle     (35,05%)
+       796.897.037      instructions              #    1,03  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,78%)
+       190.301.847      branches                  #  812,219 M/sec                    (66,96%)
+           633.439      branch-misses             #    0,33% of all branches          (81,53%)
+
+       1,011980890 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        238,284009      task-clock (msec)         #    0,235 CPUs utilized          
+               174      context-switches          #    0,730 K/sec                  
+                13      cpu-migrations            #    0,055 K/sec                  
+             4.001      page-faults               #    0,017 M/sec                  
+       779.775.165      cycles                    #    3,272 GHz                      (82,75%)
+       135.346.089      stalled-cycles-frontend   #   17,36% frontend cycles idle     (84,60%)
+       227.455.781      stalled-cycles-backend    #   29,17% backend  cycles idle     (34,96%)
+       816.932.340      instructions              #    1,05  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,21%)
+       194.078.414      branches                  #  814,484 M/sec                    (65,67%)
+           620.284      branch-misses             #    0,32% of all branches          (80,62%)
+
+       1,015179873 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        236,655387      task-clock (msec)         #    0,233 CPUs utilized          
+               175      context-switches          #    0,739 K/sec                  
+                 9      cpu-migrations            #    0,038 K/sec                  
+             3.996      page-faults               #    0,017 M/sec                  
+       800.268.640      cycles                    #    3,382 GHz                      (77,70%)
+       139.202.531      stalled-cycles-frontend   #   17,39% frontend cycles idle     (84,59%)
+       228.582.124      stalled-cycles-backend    #   28,56% backend  cycles idle     (39,16%)
+       794.857.194      instructions              #    0,99  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (54,61%)
+       189.743.187      branches                  #  801,770 M/sec                    (69,26%)
+           609.362      branch-misses             #    0,32% of all branches          (83,76%)
+
+       1,015190212 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        239,193380      task-clock (msec)         #    0,235 CPUs utilized          
+               180      context-switches          #    0,753 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             4.003      page-faults               #    0,017 M/sec                  
+       781.916.322      cycles                    #    3,269 GHz                      (82,38%)
+       138.573.510      stalled-cycles-frontend   #   17,72% frontend cycles idle     (84,04%)
+       209.057.732      stalled-cycles-backend    #   26,74% backend  cycles idle     (34,99%)
+       803.312.107      instructions              #    1,03  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (51,41%)
+       187.926.691      branches                  #  785,668 M/sec                    (68,93%)
+           665.919      branch-misses             #    0,35% of all branches          (82,81%)
+
+       1,019793269 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        233,357029      task-clock (msec)         #    0,231 CPUs utilized          
+               161      context-switches          #    0,690 K/sec                  
+                 8      cpu-migrations            #    0,034 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       792.167.080      cycles                    #    3,395 GHz                      (82,04%)
+       136.524.818      stalled-cycles-frontend   #   17,23% frontend cycles idle     (84,19%)
+       232.083.061      stalled-cycles-backend    #   29,30% backend  cycles idle     (35,23%)
+       817.145.381      instructions              #    1,03  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (51,50%)
+       193.389.022      branches                  #  828,726 M/sec                    (67,28%)
+           626.605      branch-misses             #    0,32% of all branches          (83,13%)
+
+       1,010431101 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        235,942224      task-clock (msec)         #    0,233 CPUs utilized          
+               174      context-switches          #    0,737 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.490      page-faults               #    0,015 M/sec                  
+       797.005.416      cycles                    #    3,378 GHz                      (81,06%)
+       141.215.840      stalled-cycles-frontend   #   17,72% frontend cycles idle     (83,68%)
+       205.813.174      stalled-cycles-backend    #   25,82% backend  cycles idle     (36,34%)
+       793.213.555      instructions              #    1,00  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (51,87%)
+       185.813.461      branches                  #  787,538 M/sec                    (69,29%)
+           617.174      branch-misses             #    0,33% of all branches          (83,04%)
+
+       1,012796199 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        241,770921      task-clock (msec)         #    0,237 CPUs utilized          
+               178      context-switches          #    0,736 K/sec                  
+                14      cpu-migrations            #    0,058 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       802.939.463      cycles                    #    3,321 GHz                      (79,16%)
+       143.108.221      stalled-cycles-frontend   #   17,82% frontend cycles idle     (83,55%)
+       208.001.619      stalled-cycles-backend    #   25,91% backend  cycles idle     (38,25%)
+       815.397.606      instructions              #    1,02  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (53,84%)
+       192.560.670      branches                  #  796,459 M/sec                    (68,61%)
+           623.243      branch-misses             #    0,32% of all branches          (83,90%)
+
+       1,019632581 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        237,113052      task-clock (msec)         #    0,234 CPUs utilized          
+               174      context-switches          #    0,734 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.492      page-faults               #    0,015 M/sec                  
+       777.791.864      cycles                    #    3,280 GHz                      (83,37%)
+       145.166.247      stalled-cycles-frontend   #   18,66% frontend cycles idle     (82,24%)
+       201.250.149      stalled-cycles-backend    #   25,87% backend  cycles idle     (35,00%)
+       825.091.969      instructions              #    1,06  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,43%)
+       194.184.810      branches                  #  818,955 M/sec                    (66,09%)
+           591.580      branch-misses             #    0,30% of all branches          (81,32%)
+
+       1,013485162 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        239,923472      task-clock (msec)         #    0,235 CPUs utilized          
+               180      context-switches          #    0,750 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.492      page-faults               #    0,015 M/sec                  
+       787.007.850      cycles                    #    3,280 GHz                      (84,29%)
+       141.620.568      stalled-cycles-frontend   #   17,99% frontend cycles idle     (83,18%)
+       207.638.654      stalled-cycles-backend    #   26,38% backend  cycles idle     (33,50%)
+       819.605.457      instructions              #    1,04  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (52,32%)
+       192.044.940      branches                  #  800,442 M/sec                    (68,05%)
+           581.819      branch-misses             #    0,30% of all branches          (83,11%)
+
+       1,020679713 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/king_james_bible.txt':
+
+        237,973659      task-clock (msec)         #    0,235 CPUs utilized          
+               168      context-switches          #    0,706 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             4.001      page-faults               #    0,017 M/sec                  
+       791.384.407      cycles                    #    3,326 GHz                      (83,43%)
+       148.759.167      stalled-cycles-frontend   #   18,80% frontend cycles idle     (80,70%)
+       236.785.919      stalled-cycles-backend    #   29,92% backend  cycles idle     (36,42%)
+       816.984.628      instructions              #    1,03  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (53,34%)
+       191.304.040      branches                  #  803,887 M/sec                    (68,88%)
+           628.206      branch-misses             #    0,33% of all branches          (84,26%)
+
+       1,014766104 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        237,251644      task-clock (msec)         #    0,234 CPUs utilized          
+               202      context-switches          #    0,851 K/sec                  
+                12      cpu-migrations            #    0,051 K/sec                  
+             4.004      page-faults               #    0,017 M/sec                  
+       778.704.327      cycles                    #    3,282 GHz                      (81,43%)
+       136.021.212      stalled-cycles-frontend   #   17,47% frontend cycles idle     (82,02%)
+       218.256.245      stalled-cycles-backend    #   28,03% backend  cycles idle     (37,25%)
+       792.062.514      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (54,79%)
+       186.820.372      branches                  #  787,436 M/sec                    (70,33%)
+           616.731      branch-misses             #    0,33% of all branches          (86,32%)
+
+       1,013943041 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        236,966057      task-clock (msec)         #    0,234 CPUs utilized          
+               181      context-switches          #    0,764 K/sec                  
+                12      cpu-migrations            #    0,051 K/sec                  
+             3.487      page-faults               #    0,015 M/sec                  
+       786.312.876      cycles                    #    3,318 GHz                      (81,30%)
+       140.467.514      stalled-cycles-frontend   #   17,86% frontend cycles idle     (80,63%)
+       220.889.562      stalled-cycles-backend    #   28,09% backend  cycles idle     (38,97%)
+       806.344.908      instructions              #    1,03  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (54,41%)
+       190.846.536      branches                  #  805,375 M/sec                    (68,75%)
+           610.082      branch-misses             #    0,32% of all branches          (84,21%)
+
+       1,014263893 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        231,848639      task-clock (msec)         #    0,230 CPUs utilized          
+               184      context-switches          #    0,794 K/sec                  
+                10      cpu-migrations            #    0,043 K/sec                  
+             4.000      page-faults               #    0,017 M/sec                  
+       775.608.090      cycles                    #    3,345 GHz                      (81,95%)
+       144.296.365      stalled-cycles-frontend   #   18,60% frontend cycles idle     (83,73%)
+       234.913.337      stalled-cycles-backend    #   30,29% backend  cycles idle     (35,74%)
+       760.260.986      instructions              #    0,98  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (52,42%)
+       188.936.017      branches                  #  814,911 M/sec                    (66,43%)
+           581.118      branch-misses             #    0,31% of all branches          (81,55%)
+
+       1,008582126 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        238,149038      task-clock (msec)         #    0,234 CPUs utilized          
+               177      context-switches          #    0,743 K/sec                  
+                12      cpu-migrations            #    0,050 K/sec                  
+             3.491      page-faults               #    0,015 M/sec                  
+       794.059.851      cycles                    #    3,334 GHz                      (79,39%)
+       134.378.042      stalled-cycles-frontend   #   16,92% frontend cycles idle     (83,13%)
+       235.237.802      stalled-cycles-backend    #   29,62% backend  cycles idle     (39,15%)
+       784.207.641      instructions              #    0,99  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (54,24%)
+       190.590.406      branches                  #  800,299 M/sec                    (67,94%)
+           623.153      branch-misses             #    0,33% of all branches          (83,21%)
+
+       1,019470413 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        237,988988      task-clock (msec)         #    0,234 CPUs utilized          
+               189      context-switches          #    0,794 K/sec                  
+                11      cpu-migrations            #    0,046 K/sec                  
+             4.001      page-faults               #    0,017 M/sec                  
+       789.224.206      cycles                    #    3,316 GHz                      (81,67%)
+       141.937.517      stalled-cycles-frontend   #   17,98% frontend cycles idle     (82,65%)
+       247.949.431      stalled-cycles-backend    #   31,42% backend  cycles idle     (36,55%)
+       791.823.769      instructions              #    1,00  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (55,12%)
+       186.301.431      branches                  #  782,815 M/sec                    (70,90%)
+           597.728      branch-misses             #    0,32% of all branches          (85,18%)
+
+       1,015093827 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        233,377844      task-clock (msec)         #    0,231 CPUs utilized          
+               196      context-switches          #    0,840 K/sec                  
+                10      cpu-migrations            #    0,043 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       772.946.769      cycles                    #    3,312 GHz                      (82,90%)
+       137.437.945      stalled-cycles-frontend   #   17,78% frontend cycles idle     (84,46%)
+       247.743.981      stalled-cycles-backend    #   32,05% backend  cycles idle     (34,27%)
+       800.101.970      instructions              #    1,04  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,28%)
+       190.469.854      branches                  #  816,144 M/sec                    (65,66%)
+           582.084      branch-misses             #    0,31% of all branches          (81,73%)
+
+       1,010767177 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        259,404544      task-clock (msec)         #    0,251 CPUs utilized          
+               164      context-switches          #    0,632 K/sec                  
+                11      cpu-migrations            #    0,042 K/sec                  
+             3.490      page-faults               #    0,013 M/sec                  
+       870.075.384      cycles                    #    3,354 GHz                      (83,61%)
+       135.993.427      stalled-cycles-frontend   #   15,63% frontend cycles idle     (83,00%)
+       359.063.513      stalled-cycles-backend    #   41,27% backend  cycles idle     (34,66%)
+       833.197.874      instructions              #    0,96  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (49,05%)
+       197.637.575      branches                  #  761,889 M/sec                    (64,74%)
+           618.096      branch-misses             #    0,31% of all branches          (82,79%)
+
+       1,034877575 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        237,191379      task-clock (msec)         #    0,234 CPUs utilized          
+               171      context-switches          #    0,721 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.488      page-faults               #    0,015 M/sec                  
+       783.202.266      cycles                    #    3,302 GHz                      (81,77%)
+       140.521.860      stalled-cycles-frontend   #   17,94% frontend cycles idle     (83,40%)
+       224.267.825      stalled-cycles-backend    #   28,63% backend  cycles idle     (36,18%)
+       796.366.805      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (54,25%)
+       190.016.818      branches                  #  801,112 M/sec                    (70,19%)
+           619.991      branch-misses             #    0,33% of all branches          (84,26%)
+
+       1,014209144 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        234,473676      task-clock (msec)         #    0,231 CPUs utilized          
+               213      context-switches          #    0,908 K/sec                  
+                10      cpu-migrations            #    0,043 K/sec                  
+             3.489      page-faults               #    0,015 M/sec                  
+       785.338.771      cycles                    #    3,349 GHz                      (82,47%)
+       140.801.877      stalled-cycles-frontend   #   17,93% frontend cycles idle     (80,98%)
+       248.340.291      stalled-cycles-backend    #   31,62% backend  cycles idle     (37,34%)
+       758.545.395      instructions              #    0,97  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (54,73%)
+       183.238.532      branches                  #  781,489 M/sec                    (70,01%)
+           601.106      branch-misses             #    0,33% of all branches          (85,84%)
+
+       1,014964170 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/king_james_bible.txt':
+
+        235,134940      task-clock (msec)         #    0,233 CPUs utilized          
+               191      context-switches          #    0,812 K/sec                  
+                10      cpu-migrations            #    0,043 K/sec                  
+             3.492      page-faults               #    0,015 M/sec                  
+       786.322.210      cycles                    #    3,344 GHz                      (84,78%)
+       139.423.352      stalled-cycles-frontend   #   17,73% frontend cycles idle     (84,33%)
+       232.151.593      stalled-cycles-backend    #   29,52% backend  cycles idle     (31,52%)
+       795.665.429      instructions              #    1,01  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (49,51%)
+       192.837.517      branches                  #  820,114 M/sec                    (64,43%)
+           592.796      branch-misses             #    0,31% of all branches          (83,11%)
+
+       1,010847709 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        234,586078      task-clock (msec)         #    0,232 CPUs utilized          
+               171      context-switches          #    0,729 K/sec                  
+                 9      cpu-migrations            #    0,038 K/sec                  
+             3.998      page-faults               #    0,017 M/sec                  
+       775.075.002      cycles                    #    3,304 GHz                      (82,82%)
+       138.393.240      stalled-cycles-frontend   #   17,86% frontend cycles idle     (84,03%)
+       212.275.410      stalled-cycles-backend    #   27,39% backend  cycles idle     (33,68%)
+       817.804.065      instructions              #    1,06  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,27%)
+       197.710.191      branches                  #  842,804 M/sec                    (64,99%)
+           609.823      branch-misses             #    0,31% of all branches          (83,07%)
+
+       1,011406692 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        236,406187      task-clock (msec)         #    0,233 CPUs utilized          
+               198      context-switches          #    0,838 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             4.001      page-faults               #    0,017 M/sec                  
+       772.783.765      cycles                    #    3,269 GHz                      (82,68%)
+       141.595.139      stalled-cycles-frontend   #   18,32% frontend cycles idle     (83,57%)
+       217.779.856      stalled-cycles-backend    #   28,18% backend  cycles idle     (36,65%)
+       803.236.102      instructions              #    1,04  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (53,82%)
+       189.731.219      branches                  #  802,565 M/sec                    (68,92%)
+           625.035      branch-misses             #    0,33% of all branches          (84,47%)
+
+       1,014090638 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        232,179494      task-clock (msec)         #    0,230 CPUs utilized          
+               195      context-switches          #    0,840 K/sec                  
+                11      cpu-migrations            #    0,047 K/sec                  
+             3.490      page-faults               #    0,015 M/sec                  
+       775.766.751      cycles                    #    3,341 GHz                      (83,64%)
+       138.223.780      stalled-cycles-frontend   #   17,82% frontend cycles idle     (83,37%)
+       218.289.368      stalled-cycles-backend    #   28,14% backend  cycles idle     (33,26%)
+       789.073.790      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,94%)
+       191.884.030      branches                  #  826,447 M/sec                    (66,23%)
+           600.832      branch-misses             #    0,31% of all branches          (80,61%)
+
+       1,009971602 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        231,399819      task-clock (msec)         #    0,230 CPUs utilized          
+               184      context-switches          #    0,795 K/sec                  
+                 9      cpu-migrations            #    0,039 K/sec                  
+             3.490      page-faults               #    0,015 M/sec                  
+       773.530.894      cycles                    #    3,343 GHz                      (84,34%)
+       137.371.392      stalled-cycles-frontend   #   17,76% frontend cycles idle     (84,27%)
+       237.050.866      stalled-cycles-backend    #   30,65% backend  cycles idle     (32,72%)
+       798.301.267      instructions              #    1,03  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (49,76%)
+       191.629.403      branches                  #  828,131 M/sec                    (65,53%)
+           668.366      branch-misses             #    0,35% of all branches          (82,16%)
+
+       1,007623126 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        239,771468      task-clock (msec)         #    0,236 CPUs utilized          
+               192      context-switches          #    0,801 K/sec                  
+                15      cpu-migrations            #    0,063 K/sec                  
+             4.001      page-faults               #    0,017 M/sec                  
+       802.901.039      cycles                    #    3,349 GHz                      (80,30%)
+       145.234.924      stalled-cycles-frontend   #   18,09% frontend cycles idle     (83,57%)
+       206.149.188      stalled-cycles-backend    #   25,68% backend  cycles idle     (37,02%)
+       817.331.854      instructions              #    1,02  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (53,82%)
+       191.523.132      branches                  #  798,774 M/sec                    (69,18%)
+           682.680      branch-misses             #    0,36% of all branches          (84,53%)
+
+       1,014139582 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        237,764917      task-clock (msec)         #    0,234 CPUs utilized          
+               271      context-switches          #    0,001 M/sec                  
+                15      cpu-migrations            #    0,063 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       789.374.818      cycles                    #    3,320 GHz                      (81,82%)
+       139.528.921      stalled-cycles-frontend   #   17,68% frontend cycles idle     (83,28%)
+       222.746.310      stalled-cycles-backend    #   28,22% backend  cycles idle     (35,92%)
+       769.125.115      instructions              #    0,97  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (53,74%)
+       190.485.649      branches                  #  801,151 M/sec                    (68,66%)
+           656.824      branch-misses             #    0,34% of all branches          (85,02%)
+
+       1,014590984 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        237,729604      task-clock (msec)         #    0,234 CPUs utilized          
+               314      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       797.050.491      cycles                    #    3,353 GHz                      (81,58%)
+       126.587.859      stalled-cycles-frontend   #   15,88% frontend cycles idle     (82,97%)
+       220.223.809      stalled-cycles-backend    #   27,63% backend  cycles idle     (37,90%)
+       817.412.559      instructions              #    1,03  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (53,09%)
+       193.709.555      branches                  #  814,831 M/sec                    (68,40%)
+           710.954      branch-misses             #    0,37% of all branches          (83,99%)
+
+       1,017628418 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        238,504962      task-clock (msec)         #    0,235 CPUs utilized          
+               187      context-switches          #    0,784 K/sec                  
+                11      cpu-migrations            #    0,046 K/sec                  
+             3.999      page-faults               #    0,017 M/sec                  
+       794.550.985      cycles                    #    3,331 GHz                      (81,88%)
+       147.475.206      stalled-cycles-frontend   #   18,56% frontend cycles idle     (82,84%)
+       242.752.492      stalled-cycles-backend    #   30,55% backend  cycles idle     (35,92%)
+       792.308.486      instructions              #    1,00  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (54,83%)
+       188.888.388      branches                  #  791,968 M/sec                    (70,29%)
+           595.564      branch-misses             #    0,32% of all branches          (84,82%)
+
+       1,015663330 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        236,004784      task-clock (msec)         #    0,231 CPUs utilized          
+               204      context-switches          #    0,864 K/sec                  
+                 9      cpu-migrations            #    0,038 K/sec                  
+             4.000      page-faults               #    0,017 M/sec                  
+       787.246.607      cycles                    #    3,336 GHz                      (82,42%)
+       141.479.267      stalled-cycles-frontend   #   17,97% frontend cycles idle     (83,17%)
+       215.986.077      stalled-cycles-backend    #   27,44% backend  cycles idle     (35,12%)
+       823.828.802      instructions              #    1,05  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (52,29%)
+       190.050.099      branches                  #  805,281 M/sec                    (69,38%)
+           638.666      branch-misses             #    0,34% of all branches          (84,53%)
+
+       1,019871021 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/king_james_bible.txt':
+
+        239,749918      task-clock (msec)         #    0,235 CPUs utilized          
+               186      context-switches          #    0,776 K/sec                  
+                10      cpu-migrations            #    0,042 K/sec                  
+             4.003      page-faults               #    0,017 M/sec                  
+       790.546.880      cycles                    #    3,297 GHz                      (81,36%)
+       139.767.803      stalled-cycles-frontend   #   17,68% frontend cycles idle     (83,58%)
+       230.731.224      stalled-cycles-backend    #   29,19% backend  cycles idle     (36,97%)
+       826.338.901      instructions              #    1,05  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (52,88%)
+       196.154.990      branches                  #  818,165 M/sec                    (67,82%)
+           660.417      branch-misses             #    0,34% of all branches          (84,21%)
+
+       1,020496581 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        237,297943      task-clock (msec)         #    0,234 CPUs utilized          
+               244      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,051 K/sec                  
+             4.002      page-faults               #    0,017 M/sec                  
+       802.300.236      cycles                    #    3,381 GHz                      (80,70%)
+       138.987.028      stalled-cycles-frontend   #   17,32% frontend cycles idle     (84,62%)
+       235.891.516      stalled-cycles-backend    #   29,40% backend  cycles idle     (35,87%)
+       823.768.164      instructions              #    1,03  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (51,09%)
+       196.378.519      branches                  #  827,561 M/sec                    (66,17%)
+           639.962      branch-misses             #    0,33% of all branches          (81,95%)
+
+       1,012521105 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        237,754565      task-clock (msec)         #    0,234 CPUs utilized          
+               185      context-switches          #    0,778 K/sec                  
+                11      cpu-migrations            #    0,046 K/sec                  
+             3.489      page-faults               #    0,015 M/sec                  
+       807.314.079      cycles                    #    3,396 GHz                      (83,18%)
+       144.514.662      stalled-cycles-frontend   #   17,90% frontend cycles idle     (84,94%)
+       242.558.265      stalled-cycles-backend    #   30,05% backend  cycles idle     (32,72%)
+       844.471.585      instructions              #    1,05  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (47,61%)
+       203.578.252      branches                  #  856,254 M/sec                    (61,89%)
+           615.649      branch-misses             #    0,30% of all branches          (78,06%)
+
+       1,014248205 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        238,177827      task-clock (msec)         #    0,235 CPUs utilized          
+               163      context-switches          #    0,684 K/sec                  
+                13      cpu-migrations            #    0,055 K/sec                  
+             3.486      page-faults               #    0,015 M/sec                  
+       789.872.928      cycles                    #    3,316 GHz                      (82,06%)
+       138.231.059      stalled-cycles-frontend   #   17,50% frontend cycles idle     (83,63%)
+       237.602.315      stalled-cycles-backend    #   30,08% backend  cycles idle     (34,87%)
+       801.461.807      instructions              #    1,01  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,88%)
+       196.368.888      branches                  #  824,463 M/sec                    (66,24%)
+           659.249      branch-misses             #    0,34% of all branches          (81,27%)
+
+       1,015094782 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        241,333449      task-clock (msec)         #    0,237 CPUs utilized          
+               177      context-switches          #    0,733 K/sec                  
+                11      cpu-migrations            #    0,046 K/sec                  
+             4.000      page-faults               #    0,017 M/sec                  
+       788.523.595      cycles                    #    3,267 GHz                      (83,33%)
+       149.966.935      stalled-cycles-frontend   #   19,02% frontend cycles idle     (83,04%)
+       236.768.357      stalled-cycles-backend    #   30,03% backend  cycles idle     (34,77%)
+       797.784.386      instructions              #    1,01  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (51,50%)
+       193.265.972      branches                  #  800,825 M/sec                    (67,08%)
+           666.197      branch-misses             #    0,34% of all branches          (82,38%)
+
+       1,019287386 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        238,899789      task-clock (msec)         #    0,235 CPUs utilized          
+               180      context-switches          #    0,753 K/sec                  
+                12      cpu-migrations            #    0,050 K/sec                  
+             4.000      page-faults               #    0,017 M/sec                  
+       806.968.315      cycles                    #    3,378 GHz                      (82,57%)
+       143.083.825      stalled-cycles-frontend   #   17,73% frontend cycles idle     (84,35%)
+       246.223.635      stalled-cycles-backend    #   30,51% backend  cycles idle     (35,24%)
+       806.356.538      instructions              #    1,00  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,39%)
+       196.127.347      branches                  #  820,961 M/sec                    (65,82%)
+           631.550      branch-misses             #    0,32% of all branches          (80,77%)
+
+       1,015921844 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        237,501195      task-clock (msec)         #    0,234 CPUs utilized          
+               184      context-switches          #    0,775 K/sec                  
+                 9      cpu-migrations            #    0,038 K/sec                  
+             3.491      page-faults               #    0,015 M/sec                  
+       789.532.427      cycles                    #    3,324 GHz                      (83,69%)
+       143.058.181      stalled-cycles-frontend   #   18,12% frontend cycles idle     (83,47%)
+       210.254.406      stalled-cycles-backend    #   26,63% backend  cycles idle     (34,61%)
+       825.475.901      instructions              #    1,05  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,84%)
+       196.799.268      branches                  #  828,624 M/sec                    (66,16%)
+           615.727      branch-misses             #    0,31% of all branches          (82,14%)
+
+       1,013595273 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        241,860788      task-clock (msec)         #    0,237 CPUs utilized          
+               196      context-switches          #    0,810 K/sec                  
+                11      cpu-migrations            #    0,045 K/sec                  
+             4.002      page-faults               #    0,017 M/sec                  
+       804.111.440      cycles                    #    3,325 GHz                      (83,65%)
+       139.030.419      stalled-cycles-frontend   #   17,29% frontend cycles idle     (84,43%)
+       245.163.997      stalled-cycles-backend    #   30,49% backend  cycles idle     (32,28%)
+       802.940.435      instructions              #    1,00  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (49,41%)
+       194.888.998      branches                  #  805,790 M/sec                    (65,36%)
+           661.399      branch-misses             #    0,34% of all branches          (81,45%)
+
+       1,018726041 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        242,195767      task-clock (msec)         #    0,238 CPUs utilized          
+               172      context-switches          #    0,710 K/sec                  
+                11      cpu-migrations            #    0,045 K/sec                  
+             4.003      page-faults               #    0,017 M/sec                  
+       806.358.629      cycles                    #    3,329 GHz                      (81,43%)
+       148.745.314      stalled-cycles-frontend   #   18,45% frontend cycles idle     (81,75%)
+       219.374.754      stalled-cycles-backend    #   27,21% backend  cycles idle     (37,49%)
+       783.849.014      instructions              #    0,97  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (54,48%)
+       191.697.702      branches                  #  791,499 M/sec                    (69,60%)
+           669.704      branch-misses             #    0,35% of all branches          (84,50%)
+
+       1,019461433 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        243,622994      task-clock (msec)         #    0,225 CPUs utilized          
+               176      context-switches          #    0,722 K/sec                  
+                16      cpu-migrations            #    0,066 K/sec                  
+             3.489      page-faults               #    0,014 M/sec                  
+       780.557.727      cycles                    #    3,204 GHz                      (81,35%)
+       144.514.291      stalled-cycles-frontend   #   18,51% frontend cycles idle     (83,25%)
+       242.156.071      stalled-cycles-backend    #   31,02% backend  cycles idle     (36,10%)
+       787.142.927      instructions              #    1,01  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (54,93%)
+       187.830.988      branches                  #  770,990 M/sec                    (70,41%)
+           617.736      branch-misses             #    0,33% of all branches          (85,37%)
+
+       1,082599090 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/king_james_bible.txt':
+
+        243,802528      task-clock (msec)         #    0,239 CPUs utilized          
+               174      context-switches          #    0,714 K/sec                  
+                11      cpu-migrations            #    0,045 K/sec                  
+             3.488      page-faults               #    0,014 M/sec                  
+       814.733.635      cycles                    #    3,342 GHz                      (80,81%)
+       143.222.886      stalled-cycles-frontend   #   17,58% frontend cycles idle     (84,88%)
+       220.595.171      stalled-cycles-backend    #   27,08% backend  cycles idle     (35,47%)
+       824.373.949      instructions              #    1,01  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (52,25%)
+       191.793.375      branches                  #  786,675 M/sec                    (69,81%)
+           660.273      branch-misses             #    0,34% of all branches          (84,57%)
+
+       1,019669875 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        213,177197      task-clock (msec)         #    0,216 CPUs utilized          
+               235      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,047 K/sec                  
+             3.491      page-faults               #    0,016 M/sec                  
+       717.120.952      cycles                    #    3,364 GHz                      (82,37%)
+       123.162.311      stalled-cycles-frontend   #   17,17% frontend cycles idle     (82,85%)
+       210.520.449      stalled-cycles-backend    #   29,36% backend  cycles idle     (35,42%)
+       753.801.478      instructions              #    1,05  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,92%)
+       183.493.378      branches                  #  860,755 M/sec                    (65,87%)
+           554.433      branch-misses             #    0,30% of all branches          (81,58%)
+
+       0,988450114 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        216,057495      task-clock (msec)         #    0,218 CPUs utilized          
+               172      context-switches          #    0,796 K/sec                  
+                10      cpu-migrations            #    0,046 K/sec                  
+             3.998      page-faults               #    0,019 M/sec                  
+       726.971.804      cycles                    #    3,365 GHz                      (80,65%)
+       133.400.039      stalled-cycles-frontend   #   18,35% frontend cycles idle     (82,20%)
+       231.996.063      stalled-cycles-backend    #   31,91% backend  cycles idle     (38,92%)
+       742.452.649      instructions              #    1,02  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (54,35%)
+       178.357.252      branches                  #  825,508 M/sec                    (69,20%)
+           542.815      branch-misses             #    0,30% of all branches          (83,95%)
+
+       0,992515593 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        214,838122      task-clock (msec)         #    0,217 CPUs utilized          
+               175      context-switches          #    0,815 K/sec                  
+                 9      cpu-migrations            #    0,042 K/sec                  
+             3.486      page-faults               #    0,016 M/sec                  
+       728.232.182      cycles                    #    3,390 GHz                      (81,20%)
+       127.515.146      stalled-cycles-frontend   #   17,51% frontend cycles idle     (84,37%)
+       219.252.192      stalled-cycles-backend    #   30,11% backend  cycles idle     (34,74%)
+       745.106.795      instructions              #    1,02  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,13%)
+       182.601.291      branches                  #  849,948 M/sec                    (65,00%)
+           526.761      branch-misses             #    0,29% of all branches          (81,57%)
+
+       0,990536394 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        218,535683      task-clock (msec)         #    0,220 CPUs utilized          
+               184      context-switches          #    0,842 K/sec                  
+                10      cpu-migrations            #    0,046 K/sec                  
+             3.490      page-faults               #    0,016 M/sec                  
+       723.200.551      cycles                    #    3,309 GHz                      (81,07%)
+       130.431.984      stalled-cycles-frontend   #   18,04% frontend cycles idle     (82,93%)
+       201.101.475      stalled-cycles-backend    #   27,81% backend  cycles idle     (37,34%)
+       754.033.912      instructions              #    1,04  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (53,65%)
+       179.519.855      branches                  #  821,467 M/sec                    (68,56%)
+           579.338      branch-misses             #    0,32% of all branches          (83,31%)
+
+       0,995256472 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        219,702613      task-clock (msec)         #    0,221 CPUs utilized          
+               188      context-switches          #    0,856 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             4.003      page-faults               #    0,018 M/sec                  
+       724.362.328      cycles                    #    3,297 GHz                      (83,13%)
+       131.129.416      stalled-cycles-frontend   #   18,10% frontend cycles idle     (81,08%)
+       219.014.350      stalled-cycles-backend    #   30,24% backend  cycles idle     (36,79%)
+       743.285.297      instructions              #    1,03  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (54,98%)
+       175.912.590      branches                  #  800,685 M/sec                    (70,81%)
+           563.286      branch-misses             #    0,32% of all branches          (85,36%)
+
+       0,995637054 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        222,241676      task-clock (msec)         #    0,222 CPUs utilized          
+               215      context-switches          #    0,967 K/sec                  
+                11      cpu-migrations            #    0,049 K/sec                  
+             3.488      page-faults               #    0,016 M/sec                  
+       723.144.592      cycles                    #    3,254 GHz                      (81,44%)
+       128.143.165      stalled-cycles-frontend   #   17,72% frontend cycles idle     (83,64%)
+       202.871.621      stalled-cycles-backend    #   28,05% backend  cycles idle     (36,87%)
+       753.413.873      instructions              #    1,04  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (52,85%)
+       184.403.857      branches                  #  829,745 M/sec                    (66,66%)
+           580.501      branch-misses             #    0,31% of all branches          (82,98%)
+
+       1,003164518 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        222,714798      task-clock (msec)         #    0,223 CPUs utilized          
+               170      context-switches          #    0,763 K/sec                  
+                10      cpu-migrations            #    0,045 K/sec                  
+             3.490      page-faults               #    0,016 M/sec                  
+       716.874.369      cycles                    #    3,219 GHz                      (80,47%)
+       128.587.566      stalled-cycles-frontend   #   17,94% frontend cycles idle     (82,61%)
+       208.796.637      stalled-cycles-backend    #   29,13% backend  cycles idle     (37,42%)
+       731.640.502      instructions              #    1,02  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (54,09%)
+       175.964.093      branches                  #  790,087 M/sec                    (69,24%)
+           569.232      branch-misses             #    0,32% of all branches          (83,64%)
+
+       0,999396184 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        219,968908      task-clock (msec)         #    0,221 CPUs utilized          
+               164      context-switches          #    0,746 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             3.493      page-faults               #    0,016 M/sec                  
+       723.105.090      cycles                    #    3,287 GHz                      (81,19%)
+       128.337.807      stalled-cycles-frontend   #   17,75% frontend cycles idle     (82,54%)
+       215.488.932      stalled-cycles-backend    #   29,80% backend  cycles idle     (37,86%)
+       750.126.587      instructions              #    1,04  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (54,81%)
+       181.064.147      branches                  #  823,135 M/sec                    (69,35%)
+           520.252      branch-misses             #    0,29% of all branches          (83,85%)
+
+       0,996637100 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        219,261928      task-clock (msec)         #    0,210 CPUs utilized          
+               164      context-switches          #    0,748 K/sec                  
+                12      cpu-migrations            #    0,055 K/sec                  
+             3.491      page-faults               #    0,016 M/sec                  
+       715.014.186      cycles                    #    3,261 GHz                      (81,80%)
+       124.335.365      stalled-cycles-frontend   #   17,39% frontend cycles idle     (83,44%)
+       203.494.616      stalled-cycles-backend    #   28,46% backend  cycles idle     (36,24%)
+       770.797.326      instructions              #    1,08  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (53,01%)
+       185.136.155      branches                  #  844,361 M/sec                    (67,66%)
+           576.874      branch-misses             #    0,31% of all branches          (82,88%)
+
+       1,041981849 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/king_james_bible.txt':
+
+        221,353135      task-clock (msec)         #    0,222 CPUs utilized          
+               176      context-switches          #    0,795 K/sec                  
+                10      cpu-migrations            #    0,045 K/sec                  
+             3.489      page-faults               #    0,016 M/sec                  
+       728.519.720      cycles                    #    3,291 GHz                      (81,06%)
+       126.708.971      stalled-cycles-frontend   #   17,39% frontend cycles idle     (82,92%)
+       206.691.158      stalled-cycles-backend    #   28,37% backend  cycles idle     (37,53%)
+       739.823.501      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (55,24%)
+       179.478.785      branches                  #  810,826 M/sec                    (69,18%)
+           547.709      branch-misses             #    0,31% of all branches          (83,49%)
+
+       0,998512758 seconds time elapsed
+

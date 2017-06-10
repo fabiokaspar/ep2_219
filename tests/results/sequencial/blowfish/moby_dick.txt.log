@@ -1,0 +1,190 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23392,234497      task-clock (msec)         #    0,990 CPUs utilized          
+             2.006      context-switches          #    0,086 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.355      page-faults               #    0,058 K/sec                  
+    87.136.227.449      cycles                    #    3,725 GHz                      (83,35%)
+       947.872.635      stalled-cycles-frontend   #    1,09% frontend cycles idle     (83,33%)
+    66.733.842.950      stalled-cycles-backend    #   76,59% backend  cycles idle     (33,33%)
+    69.335.822.084      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       320.095.778      branches                  #   13,684 M/sec                    (66,68%)
+         1.984.800      branch-misses             #    0,62% of all branches          (83,34%)
+
+      23,631296408 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23635,954470      task-clock (msec)         #    0,990 CPUs utilized          
+             2.037      context-switches          #    0,086 K/sec                  
+                 5      cpu-migrations            #    0,000 K/sec                  
+             1.360      page-faults               #    0,058 K/sec                  
+    86.679.898.623      cycles                    #    3,667 GHz                      (83,32%)
+       521.251.516      stalled-cycles-frontend   #    0,60% frontend cycles idle     (83,33%)
+    66.528.979.000      stalled-cycles-backend    #   76,75% backend  cycles idle     (33,37%)
+    69.353.703.022      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       324.491.836      branches                  #   13,729 M/sec                    (66,68%)
+         1.682.040      branch-misses             #    0,52% of all branches          (83,35%)
+
+      23,874101311 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23390,464343      task-clock (msec)         #    0,990 CPUs utilized          
+             2.014      context-switches          #    0,086 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.359      page-faults               #    0,058 K/sec                  
+    86.950.002.538      cycles                    #    3,717 GHz                      (83,32%)
+       983.374.826      stalled-cycles-frontend   #    1,13% frontend cycles idle     (83,33%)
+    66.529.911.215      stalled-cycles-backend    #   76,52% backend  cycles idle     (33,35%)
+    69.360.205.169      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       322.470.266      branches                  #   13,786 M/sec                    (66,69%)
+         1.943.391      branch-misses             #    0,60% of all branches          (83,35%)
+
+      23,628334594 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23616,633436      task-clock (msec)         #    0,990 CPUs utilized          
+             2.056      context-switches          #    0,087 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             1.360      page-faults               #    0,058 K/sec                  
+    86.623.506.379      cycles                    #    3,668 GHz                      (83,32%)
+       465.160.135      stalled-cycles-frontend   #    0,54% frontend cycles idle     (83,34%)
+    66.502.029.837      stalled-cycles-backend    #   76,77% backend  cycles idle     (33,34%)
+    69.345.904.642      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       319.747.858      branches                  #   13,539 M/sec                    (66,68%)
+         1.754.627      branch-misses             #    0,55% of all branches          (83,32%)
+
+      23,856696340 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23367,956981      task-clock (msec)         #    0,990 CPUs utilized          
+             2.003      context-switches          #    0,086 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.359      page-faults               #    0,058 K/sec                  
+    86.871.282.755      cycles                    #    3,718 GHz                      (83,32%)
+       895.197.815      stalled-cycles-frontend   #    1,03% frontend cycles idle     (83,35%)
+    66.500.809.562      stalled-cycles-backend    #   76,55% backend  cycles idle     (33,33%)
+    69.318.204.434      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,03%)
+       317.370.920      branches                  #   13,581 M/sec                    (66,69%)
+         1.806.193      branch-misses             #    0,57% of all branches          (83,34%)
+
+      23,603846014 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23624,479929      task-clock (msec)         #    0,990 CPUs utilized          
+             2.039      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.359      page-faults               #    0,058 K/sec                  
+    86.611.938.634      cycles                    #    3,666 GHz                      (83,32%)
+       459.978.600      stalled-cycles-frontend   #    0,53% frontend cycles idle     (83,32%)
+    66.536.965.379      stalled-cycles-backend    #   76,82% backend  cycles idle     (33,37%)
+    69.335.918.507      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       319.329.256      branches                  #   13,517 M/sec                    (66,67%)
+         1.681.432      branch-misses             #    0,53% of all branches          (83,34%)
+
+      23,863740083 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23615,519302      task-clock (msec)         #    0,990 CPUs utilized          
+             2.129      context-switches          #    0,090 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.360      page-faults               #    0,058 K/sec                  
+    86.588.409.991      cycles                    #    3,667 GHz                      (83,32%)
+       436.715.173      stalled-cycles-frontend   #    0,50% frontend cycles idle     (83,34%)
+    66.501.796.016      stalled-cycles-backend    #   76,80% backend  cycles idle     (33,34%)
+    69.362.627.876      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       321.905.891      branches                  #   13,631 M/sec                    (66,66%)
+         1.773.470      branch-misses             #    0,55% of all branches          (83,32%)
+
+      23,857763664 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23608,336085      task-clock (msec)         #    0,990 CPUs utilized          
+             2.199      context-switches          #    0,093 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.359      page-faults               #    0,058 K/sec                  
+    86.563.934.758      cycles                    #    3,667 GHz                      (83,31%)
+       441.888.813      stalled-cycles-frontend   #    0,51% frontend cycles idle     (83,33%)
+    66.546.410.522      stalled-cycles-backend    #   76,88% backend  cycles idle     (33,38%)
+    69.343.853.960      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       321.890.698      branches                  #   13,635 M/sec                    (66,68%)
+         1.750.382      branch-misses             #    0,54% of all branches          (83,35%)
+
+      23,852854611 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23635,746171      task-clock (msec)         #    0,990 CPUs utilized          
+             2.037      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.357      page-faults               #    0,057 K/sec                  
+    86.676.565.116      cycles                    #    3,667 GHz                      (83,32%)
+       489.143.232      stalled-cycles-frontend   #    0,56% frontend cycles idle     (83,35%)
+    66.551.875.328      stalled-cycles-backend    #   76,78% backend  cycles idle     (33,33%)
+    69.373.464.729      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+       317.162.355      branches                  #   13,419 M/sec                    (66,67%)
+         1.748.471      branch-misses             #    0,55% of all branches          (83,33%)
+
+      23,875331146 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/moby_dick.txt':
+
+      23631,635762      task-clock (msec)         #    0,990 CPUs utilized          
+             2.033      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.359      page-faults               #    0,058 K/sec                  
+    86.640.358.825      cycles                    #    3,666 GHz                      (83,32%)
+       497.004.523      stalled-cycles-frontend   #    0,57% frontend cycles idle     (83,33%)
+    66.542.046.732      stalled-cycles-backend    #   76,80% backend  cycles idle     (33,36%)
+    69.372.568.450      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+       321.056.398      branches                  #   13,586 M/sec                    (66,68%)
+         1.674.557      branch-misses             #    0,52% of all branches          (83,35%)
+
+      23,870182159 seconds time elapsed
+

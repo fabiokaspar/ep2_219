@@ -1,0 +1,190 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     378085,596860      task-clock (msec)         #    0,990 CPUs utilized          
+            32.099      context-switches          #    0,085 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.721      page-faults               #    0,005 K/sec                  
+ 1.404.404.386.736      cycles                    #    3,715 GHz                      (83,32%)
+    14.427.896.549      stalled-cycles-frontend   #    1,03% frontend cycles idle     (83,33%)
+ 1.075.826.043.950      stalled-cycles-backend    #   76,60% backend  cycles idle     (33,35%)
+ 1.120.702.621.003      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     5.211.019.911      branches                  #   13,783 M/sec                    (66,67%)
+        24.628.702      branch-misses             #    0,47% of all branches          (83,34%)
+
+     381,744443265 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     378208,178684      task-clock (msec)         #    0,990 CPUs utilized          
+            32.128      context-switches          #    0,085 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.548      page-faults               #    0,004 K/sec                  
+ 1.404.154.682.146      cycles                    #    3,713 GHz                      (83,32%)
+    14.213.737.683      stalled-cycles-frontend   #    1,01% frontend cycles idle     (83,35%)
+ 1.075.118.055.646      stalled-cycles-backend    #   76,57% backend  cycles idle     (33,33%)
+ 1.121.192.234.125      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     5.206.757.313      branches                  #   13,767 M/sec                    (66,67%)
+        26.541.245      branch-misses             #    0,51% of all branches          (83,33%)
+
+     381,867493073 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     381057,428555      task-clock (msec)         #    0,990 CPUs utilized          
+            37.000      context-switches          #    0,097 K/sec                  
+                10      cpu-migrations            #    0,000 K/sec                  
+             2.327      page-faults               #    0,006 K/sec                  
+ 1.397.728.975.448      cycles                    #    3,668 GHz                      (83,34%)
+     6.585.264.794      stalled-cycles-frontend   #    0,47% frontend cycles idle     (83,34%)
+ 1.075.102.852.215      stalled-cycles-backend    #   76,92% backend  cycles idle     (33,33%)
+ 1.121.024.455.232      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     5.241.665.791      branches                  #   13,756 M/sec                    (66,66%)
+        27.971.616      branch-misses             #    0,53% of all branches          (83,33%)
+
+     384,954767122 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     380979,521301      task-clock (msec)         #    0,990 CPUs utilized          
+            37.803      context-switches          #    0,099 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             2.487      page-faults               #    0,007 K/sec                  
+ 1.396.864.375.528      cycles                    #    3,667 GHz                      (83,31%)
+     6.289.875.462      stalled-cycles-frontend   #    0,45% frontend cycles idle     (83,35%)
+ 1.075.009.093.832      stalled-cycles-backend    #   76,96% backend  cycles idle     (33,35%)
+ 1.121.103.471.516      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+     5.241.591.282      branches                  #   13,758 M/sec                    (66,68%)
+        28.017.451      branch-misses             #    0,53% of all branches          (83,33%)
+
+     384,926166294 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     380912,096873      task-clock (msec)         #    0,990 CPUs utilized          
+            38.702      context-switches          #    0,102 K/sec                  
+                 8      cpu-migrations            #    0,000 K/sec                  
+             1.550      page-faults               #    0,004 K/sec                  
+ 1.396.421.773.159      cycles                    #    3,666 GHz                      (83,33%)
+     6.065.328.209      stalled-cycles-frontend   #    0,43% frontend cycles idle     (83,34%)
+ 1.074.958.505.397      stalled-cycles-backend    #   76,98% backend  cycles idle     (33,34%)
+ 1.121.104.354.569      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     5.234.394.264      branches                  #   13,742 M/sec                    (66,67%)
+        28.209.921      branch-misses             #    0,54% of all branches          (83,33%)
+
+     384,886719532 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     381061,464474      task-clock (msec)         #    0,990 CPUs utilized          
+            36.591      context-switches          #    0,096 K/sec                  
+                11      cpu-migrations            #    0,000 K/sec                  
+             2.361      page-faults               #    0,006 K/sec                  
+ 1.397.775.266.496      cycles                    #    3,668 GHz                      (83,32%)
+     6.782.049.123      stalled-cycles-frontend   #    0,49% frontend cycles idle     (83,32%)
+ 1.075.351.664.406      stalled-cycles-backend    #   76,93% backend  cycles idle     (33,36%)
+ 1.121.084.078.575      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     5.228.488.949      branches                  #   13,721 M/sec                    (66,67%)
+        27.965.287      branch-misses             #    0,53% of all branches          (83,34%)
+
+     384,936229083 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     381156,690944      task-clock (msec)         #    0,990 CPUs utilized          
+            37.998      context-switches          #    0,100 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.657      page-faults               #    0,004 K/sec                  
+ 1.397.218.622.827      cycles                    #    3,666 GHz                      (83,33%)
+     6.334.415.433      stalled-cycles-frontend   #    0,45% frontend cycles idle     (83,35%)
+ 1.075.218.976.238      stalled-cycles-backend    #   76,95% backend  cycles idle     (33,32%)
+ 1.121.097.666.843      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (49,99%)
+     5.236.730.721      branches                  #   13,739 M/sec                    (66,66%)
+        28.510.730      branch-misses             #    0,54% of all branches          (83,32%)
+
+     385,107205722 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     378610,442361      task-clock (msec)         #    0,990 CPUs utilized          
+            32.129      context-switches          #    0,085 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.676      page-faults               #    0,004 K/sec                  
+ 1.405.963.594.322      cycles                    #    3,713 GHz                      (83,32%)
+    14.670.520.141      stalled-cycles-frontend   #    1,04% frontend cycles idle     (83,33%)
+ 1.077.235.699.277      stalled-cycles-backend    #   76,62% backend  cycles idle     (33,35%)
+ 1.121.272.949.319      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     5.221.290.026      branches                  #   13,791 M/sec                    (66,67%)
+        25.060.088      branch-misses             #    0,48% of all branches          (83,34%)
+
+     382,266920645 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     381074,566307      task-clock (msec)         #    0,990 CPUs utilized          
+            37.216      context-switches          #    0,098 K/sec                  
+                11      cpu-migrations            #    0,000 K/sec                  
+             1.740      page-faults               #    0,005 K/sec                  
+ 1.397.405.660.334      cycles                    #    3,667 GHz                      (83,33%)
+     6.411.484.012      stalled-cycles-frontend   #    0,46% frontend cycles idle     (83,33%)
+ 1.075.344.844.147      stalled-cycles-backend    #   76,95% backend  cycles idle     (33,34%)
+ 1.121.100.342.091      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (49,99%)
+     5.232.097.919      branches                  #   13,730 M/sec                    (66,65%)
+        27.987.615      branch-misses             #    0,53% of all branches          (83,33%)
+
+     384,990156222 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/mercury.png':
+
+     381166,623024      task-clock (msec)         #    0,990 CPUs utilized          
+            35.841      context-switches          #    0,094 K/sec                  
+                11      cpu-migrations            #    0,000 K/sec                  
+             1.689      page-faults               #    0,004 K/sec                  
+ 1.398.357.523.992      cycles                    #    3,669 GHz                      (83,33%)
+     7.224.281.974      stalled-cycles-frontend   #    0,52% frontend cycles idle     (83,32%)
+ 1.075.090.429.826      stalled-cycles-backend    #   76,88% backend  cycles idle     (33,34%)
+ 1.121.125.052.648      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     5.233.814.477      branches                  #   13,731 M/sec                    (66,66%)
+        28.088.510      branch-misses             #    0,54% of all branches          (83,33%)
+
+     384,994073598 seconds time elapsed
+

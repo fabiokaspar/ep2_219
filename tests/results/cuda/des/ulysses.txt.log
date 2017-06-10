@@ -1,0 +1,1440 @@
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        197,610634      task-clock (msec)         #    0,398 CPUs utilized          
+               112      context-switches          #    0,567 K/sec                  
+                 9      cpu-migrations            #    0,046 K/sec                  
+             3.567      page-faults               #    0,018 M/sec                  
+       625.144.731      cycles                    #    3,164 GHz                      (81,62%)
+       145.794.124      stalled-cycles-frontend   #   23,32% frontend cycles idle     (83,01%)
+       236.154.753      stalled-cycles-backend    #   37,78% backend  cycles idle     (37,92%)
+       440.592.413      instructions              #    0,70  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (55,60%)
+       103.460.768      branches                  #  523,559 M/sec                    (69,25%)
+           604.690      branch-misses             #    0,58% of all branches          (83,04%)
+
+       0,495926701 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        183,067076      task-clock (msec)         #    0,387 CPUs utilized          
+               113      context-switches          #    0,617 K/sec                  
+                11      cpu-migrations            #    0,060 K/sec                  
+             3.565      page-faults               #    0,019 M/sec                  
+       580.949.126      cycles                    #    3,173 GHz                      (83,40%)
+       135.628.930      stalled-cycles-frontend   #   23,35% frontend cycles idle     (81,82%)
+       187.135.390      stalled-cycles-backend    #   32,21% backend  cycles idle     (35,36%)
+       442.280.163      instructions              #    0,76  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (56,03%)
+       102.480.174      branches                  #  559,796 M/sec                    (71,21%)
+           628.197      branch-misses             #    0,61% of all branches          (85,76%)
+
+       0,473360224 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        179,879060      task-clock (msec)         #    0,382 CPUs utilized          
+                95      context-switches          #    0,528 K/sec                  
+                10      cpu-migrations            #    0,056 K/sec                  
+             3.569      page-faults               #    0,020 M/sec                  
+       588.493.251      cycles                    #    3,272 GHz                      (79,71%)
+       134.079.207      stalled-cycles-frontend   #   22,78% frontend cycles idle     (83,60%)
+       202.371.381      stalled-cycles-backend    #   34,39% backend  cycles idle     (37,82%)
+       457.660.022      instructions              #    0,78  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (54,66%)
+       105.876.013      branches                  #  588,596 M/sec                    (70,11%)
+           595.855      branch-misses             #    0,56% of all branches          (85,96%)
+
+       0,470822731 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        189,881012      task-clock (msec)         #    0,395 CPUs utilized          
+               117      context-switches          #    0,616 K/sec                  
+                14      cpu-migrations            #    0,074 K/sec                  
+             3.563      page-faults               #    0,019 M/sec                  
+       595.694.212      cycles                    #    3,137 GHz                      (84,03%)
+       135.580.320      stalled-cycles-frontend   #   22,76% frontend cycles idle     (83,37%)
+       232.725.990      stalled-cycles-backend    #   39,07% backend  cycles idle     (33,74%)
+       495.660.299      instructions              #    0,83  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (52,62%)
+       114.363.110      branches                  #  602,288 M/sec                    (68,10%)
+           607.237      branch-misses             #    0,53% of all branches          (82,67%)
+
+       0,480226316 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        176,196906      task-clock (msec)         #    0,379 CPUs utilized          
+               103      context-switches          #    0,585 K/sec                  
+                11      cpu-migrations            #    0,062 K/sec                  
+             3.563      page-faults               #    0,020 M/sec                  
+       578.734.383      cycles                    #    3,285 GHz                      (83,06%)
+       133.528.608      stalled-cycles-frontend   #   23,07% frontend cycles idle     (84,20%)
+       185.826.913      stalled-cycles-backend    #   32,11% backend  cycles idle     (34,06%)
+       438.831.418      instructions              #    0,76  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (54,83%)
+       104.494.264      branches                  #  593,054 M/sec                    (69,65%)
+           597.201      branch-misses             #    0,57% of all branches          (83,83%)
+
+       0,465410628 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        182,181160      task-clock (msec)         #    0,386 CPUs utilized          
+               105      context-switches          #    0,576 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.566      page-faults               #    0,020 M/sec                  
+       601.085.093      cycles                    #    3,299 GHz                      (75,98%)
+       134.346.806      stalled-cycles-frontend   #   22,35% frontend cycles idle     (84,32%)
+       200.024.111      stalled-cycles-backend    #   33,28% backend  cycles idle     (41,40%)
+       453.951.523      instructions              #    0,76  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (55,87%)
+       103.865.374      branches                  #  570,121 M/sec                    (70,12%)
+           607.140      branch-misses             #    0,58% of all branches          (84,62%)
+
+       0,471862577 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        178,871846      task-clock (msec)         #    0,383 CPUs utilized          
+               111      context-switches          #    0,621 K/sec                  
+                12      cpu-migrations            #    0,067 K/sec                  
+             3.565      page-faults               #    0,020 M/sec                  
+       582.568.572      cycles                    #    3,257 GHz                      (80,91%)
+       135.026.156      stalled-cycles-frontend   #   23,18% frontend cycles idle     (84,41%)
+       187.200.052      stalled-cycles-backend    #   32,13% backend  cycles idle     (37,68%)
+       460.775.197      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (53,16%)
+       107.186.629      branches                  #  599,237 M/sec                    (69,31%)
+           646.208      branch-misses             #    0,60% of all branches          (83,61%)
+
+       0,467570489 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        187,256832      task-clock (msec)         #    0,390 CPUs utilized          
+               106      context-switches          #    0,566 K/sec                  
+                18      cpu-migrations            #    0,096 K/sec                  
+             3.566      page-faults               #    0,019 M/sec                  
+       577.488.803      cycles                    #    3,084 GHz                      (82,01%)
+       135.371.020      stalled-cycles-frontend   #   23,44% frontend cycles idle     (82,92%)
+       206.736.121      stalled-cycles-backend    #   35,80% backend  cycles idle     (36,06%)
+       464.937.949      instructions              #    0,81  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (53,98%)
+       105.517.280      branches                  #  563,490 M/sec                    (69,26%)
+           637.308      branch-misses             #    0,60% of all branches          (84,04%)
+
+       0,479654734 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        187,396710      task-clock (msec)         #    0,392 CPUs utilized          
+               103      context-switches          #    0,550 K/sec                  
+                10      cpu-migrations            #    0,053 K/sec                  
+             3.564      page-faults               #    0,019 M/sec                  
+       579.819.281      cycles                    #    3,094 GHz                      (81,18%)
+       133.974.843      stalled-cycles-frontend   #   23,11% frontend cycles idle     (84,47%)
+       191.803.599      stalled-cycles-backend    #   33,08% backend  cycles idle     (35,91%)
+       475.386.672      instructions              #    0,82  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,90%)
+       108.796.395      branches                  #  580,567 M/sec                    (65,79%)
+           593.541      branch-misses             #    0,55% of all branches          (82,87%)
+
+       0,478125958 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/ulysses.txt':
+
+        182,847943      task-clock (msec)         #    0,387 CPUs utilized          
+               108      context-switches          #    0,591 K/sec                  
+                12      cpu-migrations            #    0,066 K/sec                  
+             3.566      page-faults               #    0,020 M/sec                  
+       589.378.893      cycles                    #    3,223 GHz                      (84,17%)
+       135.548.490      stalled-cycles-frontend   #   23,00% frontend cycles idle     (82,78%)
+       176.161.208      stalled-cycles-backend    #   29,89% backend  cycles idle     (35,30%)
+       497.573.961      instructions              #    0,84  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (51,01%)
+       112.609.754      branches                  #  615,866 M/sec                    (66,26%)
+           615.635      branch-misses             #    0,55% of all branches          (81,49%)
+
+       0,472674031 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        172,616792      task-clock (msec)         #    0,370 CPUs utilized          
+               102      context-switches          #    0,591 K/sec                  
+                12      cpu-migrations            #    0,070 K/sec                  
+             3.565      page-faults               #    0,021 M/sec                  
+       549.341.309      cycles                    #    3,182 GHz                      (80,72%)
+       126.006.506      stalled-cycles-frontend   #   22,94% frontend cycles idle     (80,91%)
+       183.686.031      stalled-cycles-backend    #   33,44% backend  cycles idle     (39,80%)
+       427.977.459      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (55,71%)
+        98.010.022      branches                  #  567,790 M/sec                    (70,40%)
+           580.962      branch-misses             #    0,59% of all branches          (84,26%)
+
+       0,466997911 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        166,322253      task-clock (msec)         #    0,364 CPUs utilized          
+               117      context-switches          #    0,703 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.567      page-faults               #    0,021 M/sec                  
+       520.694.928      cycles                    #    3,131 GHz                      (81,14%)
+       123.374.431      stalled-cycles-frontend   #   23,69% frontend cycles idle     (81,73%)
+       193.072.611      stalled-cycles-backend    #   37,08% backend  cycles idle     (38,57%)
+       429.655.654      instructions              #    0,83  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,55%)
+        99.002.596      branches                  #  595,246 M/sec                    (69,93%)
+           645.953      branch-misses             #    0,65% of all branches          (84,47%)
+
+       0,456389106 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        169,246477      task-clock (msec)         #    0,369 CPUs utilized          
+               105      context-switches          #    0,620 K/sec                  
+                12      cpu-migrations            #    0,071 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       546.484.111      cycles                    #    3,229 GHz                      (81,83%)
+       127.688.985      stalled-cycles-frontend   #   23,37% frontend cycles idle     (81,71%)
+       176.253.548      stalled-cycles-backend    #   32,25% backend  cycles idle     (37,91%)
+       425.259.660      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (53,63%)
+        98.765.989      branches                  #  583,563 M/sec                    (68,13%)
+           568.435      branch-misses             #    0,58% of all branches          (82,25%)
+
+       0,458472189 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        172,133863      task-clock (msec)         #    0,373 CPUs utilized          
+               101      context-switches          #    0,587 K/sec                  
+                10      cpu-migrations            #    0,058 K/sec                  
+             3.567      page-faults               #    0,021 M/sec                  
+       556.569.028      cycles                    #    3,233 GHz                      (82,05%)
+       127.364.946      stalled-cycles-frontend   #   22,88% frontend cycles idle     (82,43%)
+       187.707.658      stalled-cycles-backend    #   33,73% backend  cycles idle     (36,42%)
+       434.788.682      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (53,69%)
+        97.677.257      branches                  #  567,449 M/sec                    (68,26%)
+           566.143      branch-misses             #    0,58% of all branches          (83,53%)
+
+       0,461408351 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        166,724436      task-clock (msec)         #    0,364 CPUs utilized          
+                97      context-switches          #    0,582 K/sec                  
+                12      cpu-migrations            #    0,072 K/sec                  
+             3.567      page-faults               #    0,021 M/sec                  
+       547.309.186      cycles                    #    3,283 GHz                      (82,89%)
+       131.390.045      stalled-cycles-frontend   #   24,01% frontend cycles idle     (80,08%)
+       188.066.360      stalled-cycles-backend    #   34,36% backend  cycles idle     (37,66%)
+       433.837.524      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,97%)
+        97.821.146      branches                  #  586,724 M/sec                    (70,41%)
+           588.708      branch-misses             #    0,60% of all branches          (85,16%)
+
+       0,457840991 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        168,991792      task-clock (msec)         #    0,368 CPUs utilized          
+               106      context-switches          #    0,627 K/sec                  
+                10      cpu-migrations            #    0,059 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       552.817.735      cycles                    #    3,271 GHz                      (77,57%)
+       128.660.980      stalled-cycles-frontend   #   23,27% frontend cycles idle     (84,49%)
+       207.067.902      stalled-cycles-backend    #   37,46% backend  cycles idle     (40,18%)
+       420.926.655      instructions              #    0,76  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (55,30%)
+        97.858.248      branches                  #  579,071 M/sec                    (69,42%)
+           569.651      branch-misses             #    0,58% of all branches          (83,61%)
+
+       0,458662683 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        169,111169      task-clock (msec)         #    0,368 CPUs utilized          
+                95      context-switches          #    0,562 K/sec                  
+                13      cpu-migrations            #    0,077 K/sec                  
+             3.568      page-faults               #    0,021 M/sec                  
+       535.979.379      cycles                    #    3,169 GHz                      (81,45%)
+       124.198.774      stalled-cycles-frontend   #   23,17% frontend cycles idle     (84,70%)
+       167.764.734      stalled-cycles-backend    #   31,30% backend  cycles idle     (34,98%)
+       412.642.282      instructions              #    0,77  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (52,74%)
+        96.868.252      branches                  #  572,808 M/sec                    (68,68%)
+           544.505      branch-misses             #    0,56% of all branches          (85,30%)
+
+       0,459880797 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        170,058777      task-clock (msec)         #    0,367 CPUs utilized          
+                92      context-switches          #    0,541 K/sec                  
+                10      cpu-migrations            #    0,059 K/sec                  
+             3.565      page-faults               #    0,021 M/sec                  
+       539.415.217      cycles                    #    3,172 GHz                      (80,27%)
+       124.235.747      stalled-cycles-frontend   #   23,03% frontend cycles idle     (81,83%)
+       187.813.840      stalled-cycles-backend    #   34,82% backend  cycles idle     (40,23%)
+       416.304.624      instructions              #    0,77  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,02%)
+        96.820.724      branches                  #  569,337 M/sec                    (68,78%)
+           571.983      branch-misses             #    0,59% of all branches          (83,17%)
+
+       0,463117116 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        170,114714      task-clock (msec)         #    0,367 CPUs utilized          
+               109      context-switches          #    0,641 K/sec                  
+                10      cpu-migrations            #    0,059 K/sec                  
+             3.563      page-faults               #    0,021 M/sec                  
+       543.591.509      cycles                    #    3,195 GHz                      (80,70%)
+       130.027.718      stalled-cycles-frontend   #   23,92% frontend cycles idle     (81,76%)
+       190.343.708      stalled-cycles-backend    #   35,02% backend  cycles idle     (38,45%)
+       405.086.197      instructions              #    0,75  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (55,68%)
+        94.804.129      branches                  #  557,295 M/sec                    (69,44%)
+           576.191      branch-misses             #    0,61% of all branches          (83,93%)
+
+       0,463250437 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/ulysses.txt':
+
+        164,988395      task-clock (msec)         #    0,363 CPUs utilized          
+               100      context-switches          #    0,606 K/sec                  
+                12      cpu-migrations            #    0,073 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       554.065.105      cycles                    #    3,358 GHz                      (82,44%)
+       123.755.913      stalled-cycles-frontend   #   22,34% frontend cycles idle     (83,15%)
+       176.982.391      stalled-cycles-backend    #   31,94% backend  cycles idle     (35,26%)
+       436.076.909      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (49,78%)
+       103.152.197      branches                  #  625,209 M/sec                    (64,25%)
+           621.061      branch-misses             #    0,60% of all branches          (78,85%)
+
+       0,454264050 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        167,758778      task-clock (msec)         #    0,366 CPUs utilized          
+               123      context-switches          #    0,733 K/sec                  
+                12      cpu-migrations            #    0,072 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       538.995.117      cycles                    #    3,213 GHz                      (79,47%)
+       122.832.334      stalled-cycles-frontend   #   22,79% frontend cycles idle     (82,35%)
+       183.737.746      stalled-cycles-backend    #   34,09% backend  cycles idle     (39,13%)
+       421.058.245      instructions              #    0,78  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (57,35%)
+        97.414.662      branches                  #  580,683 M/sec                    (71,55%)
+           560.212      branch-misses             #    0,58% of all branches          (85,45%)
+
+       0,458247585 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        163,521801      task-clock (msec)         #    0,361 CPUs utilized          
+                90      context-switches          #    0,550 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.567      page-faults               #    0,022 M/sec                  
+       530.248.548      cycles                    #    3,243 GHz                      (80,07%)
+       122.552.961      stalled-cycles-frontend   #   23,11% frontend cycles idle     (83,59%)
+       179.463.646      stalled-cycles-backend    #   33,85% backend  cycles idle     (36,79%)
+       433.840.482      instructions              #    0,82  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,94%)
+        99.153.404      branches                  #  606,362 M/sec                    (66,58%)
+           564.951      branch-misses             #    0,57% of all branches          (81,21%)
+
+       0,452859788 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        166,365049      task-clock (msec)         #    0,365 CPUs utilized          
+               103      context-switches          #    0,619 K/sec                  
+                12      cpu-migrations            #    0,072 K/sec                  
+             3.564      page-faults               #    0,021 M/sec                  
+       520.477.590      cycles                    #    3,129 GHz                      (82,23%)
+       117.813.730      stalled-cycles-frontend   #   22,64% frontend cycles idle     (79,80%)
+       172.536.208      stalled-cycles-backend    #   33,15% backend  cycles idle     (38,52%)
+       412.033.849      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (55,40%)
+        96.311.572      branches                  #  578,917 M/sec                    (69,90%)
+           567.062      branch-misses             #    0,59% of all branches          (83,54%)
+
+       0,455664651 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        166,094410      task-clock (msec)         #    0,365 CPUs utilized          
+               104      context-switches          #    0,626 K/sec                  
+                14      cpu-migrations            #    0,084 K/sec                  
+             3.565      page-faults               #    0,021 M/sec                  
+       527.241.936      cycles                    #    3,174 GHz                      (80,75%)
+       119.320.124      stalled-cycles-frontend   #   22,63% frontend cycles idle     (85,57%)
+       196.616.669      stalled-cycles-backend    #   37,29% backend  cycles idle     (36,92%)
+       384.692.590      instructions              #    0,73  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (51,79%)
+        95.343.102      branches                  #  574,030 M/sec                    (66,29%)
+           587.091      branch-misses             #    0,62% of all branches          (80,56%)
+
+       0,455543926 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        162,116183      task-clock (msec)         #    0,359 CPUs utilized          
+               102      context-switches          #    0,629 K/sec                  
+                 9      cpu-migrations            #    0,056 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       527.260.874      cycles                    #    3,252 GHz                      (80,27%)
+       122.401.852      stalled-cycles-frontend   #   23,21% frontend cycles idle     (84,72%)
+       180.233.947      stalled-cycles-backend    #   34,18% backend  cycles idle     (36,77%)
+       418.767.270      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (55,33%)
+        97.143.134      branches                  #  599,219 M/sec                    (70,66%)
+           607.718      branch-misses             #    0,63% of all branches          (85,41%)
+
+       0,451559881 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        166,415379      task-clock (msec)         #    0,365 CPUs utilized          
+               103      context-switches          #    0,619 K/sec                  
+                12      cpu-migrations            #    0,072 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       526.217.496      cycles                    #    3,162 GHz                      (80,28%)
+       122.217.879      stalled-cycles-frontend   #   23,23% frontend cycles idle     (83,80%)
+       160.546.207      stalled-cycles-backend    #   30,51% backend  cycles idle     (36,81%)
+       428.310.169      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,49%)
+        99.411.274      branches                  #  597,368 M/sec                    (65,82%)
+           540.713      branch-misses             #    0,54% of all branches          (80,32%)
+
+       0,456042451 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        169,160779      task-clock (msec)         #    0,365 CPUs utilized          
+               126      context-switches          #    0,745 K/sec                  
+                12      cpu-migrations            #    0,071 K/sec                  
+             3.568      page-faults               #    0,021 M/sec                  
+       540.422.778      cycles                    #    3,195 GHz                      (80,63%)
+       126.607.222      stalled-cycles-frontend   #   23,43% frontend cycles idle     (78,71%)
+       185.049.395      stalled-cycles-backend    #   34,24% backend  cycles idle     (41,20%)
+       415.378.847      instructions              #    0,77  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (58,05%)
+        94.949.797      branches                  #  561,299 M/sec                    (71,89%)
+           548.810      branch-misses             #    0,58% of all branches          (85,10%)
+
+       0,462875437 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        161,792399      task-clock (msec)         #    0,359 CPUs utilized          
+               105      context-switches          #    0,649 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.567      page-faults               #    0,022 M/sec                  
+       518.021.944      cycles                    #    3,202 GHz                      (77,41%)
+       123.136.462      stalled-cycles-frontend   #   23,77% frontend cycles idle     (83,68%)
+       185.306.643      stalled-cycles-backend    #   35,77% backend  cycles idle     (39,91%)
+       415.409.453      instructions              #    0,80  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (53,91%)
+        92.607.276      branches                  #  572,383 M/sec                    (67,60%)
+           567.108      branch-misses             #    0,61% of all branches          (82,48%)
+
+       0,451192877 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        164,328081      task-clock (msec)         #    0,362 CPUs utilized          
+                98      context-switches          #    0,596 K/sec                  
+                13      cpu-migrations            #    0,079 K/sec                  
+             3.568      page-faults               #    0,022 M/sec                  
+       536.749.824      cycles                    #    3,266 GHz                      (82,07%)
+       120.140.471      stalled-cycles-frontend   #   22,38% frontend cycles idle     (82,16%)
+       175.891.941      stalled-cycles-backend    #   32,77% backend  cycles idle     (36,51%)
+       416.253.735      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (57,20%)
+        94.207.691      branches                  #  573,290 M/sec                    (72,90%)
+           592.862      branch-misses             #    0,63% of all branches          (86,14%)
+
+       0,454047055 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/ulysses.txt':
+
+        160,791058      task-clock (msec)         #    0,357 CPUs utilized          
+               104      context-switches          #    0,647 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       530.844.021      cycles                    #    3,301 GHz                      (77,99%)
+       120.752.783      stalled-cycles-frontend   #   22,75% frontend cycles idle     (84,99%)
+       180.968.439      stalled-cycles-backend    #   34,09% backend  cycles idle     (38,25%)
+       418.745.715      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (53,17%)
+        97.113.715      branches                  #  603,975 M/sec                    (68,05%)
+           573.634      branch-misses             #    0,59% of all branches          (82,90%)
+
+       0,450480509 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        173,319142      task-clock (msec)         #    0,371 CPUs utilized          
+               107      context-switches          #    0,617 K/sec                  
+                10      cpu-migrations            #    0,058 K/sec                  
+             3.567      page-faults               #    0,021 M/sec                  
+       525.523.382      cycles                    #    3,032 GHz                      (82,50%)
+       122.031.395      stalled-cycles-frontend   #   23,22% frontend cycles idle     (78,86%)
+       204.075.115      stalled-cycles-backend    #   38,83% backend  cycles idle     (39,62%)
+       440.563.392      instructions              #    0,84  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (55,09%)
+        98.885.480      branches                  #  570,540 M/sec                    (71,07%)
+           598.370      branch-misses             #    0,61% of all branches          (85,56%)
+
+       0,467616495 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        166,891368      task-clock (msec)         #    0,363 CPUs utilized          
+               104      context-switches          #    0,623 K/sec                  
+                13      cpu-migrations            #    0,078 K/sec                  
+             3.563      page-faults               #    0,021 M/sec                  
+       538.311.014      cycles                    #    3,226 GHz                      (81,99%)
+       120.047.458      stalled-cycles-frontend   #   22,30% frontend cycles idle     (83,35%)
+       170.680.326      stalled-cycles-backend    #   31,71% backend  cycles idle     (35,61%)
+       416.707.057      instructions              #    0,77  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (52,48%)
+        97.437.040      branches                  #  583,835 M/sec                    (66,86%)
+           575.124      branch-misses             #    0,59% of all branches          (83,41%)
+
+       0,459257697 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        164,840522      task-clock (msec)         #    0,361 CPUs utilized          
+               106      context-switches          #    0,643 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.565      page-faults               #    0,022 M/sec                  
+       540.980.492      cycles                    #    3,282 GHz                      (84,13%)
+       125.831.626      stalled-cycles-frontend   #   23,26% frontend cycles idle     (81,23%)
+       199.433.726      stalled-cycles-backend    #   36,87% backend  cycles idle     (35,50%)
+       434.768.356      instructions              #    0,80  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (52,89%)
+        99.070.384      branches                  #  601,007 M/sec                    (70,04%)
+           586.546      branch-misses             #    0,59% of all branches          (84,39%)
+
+       0,456019183 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        163,840968      task-clock (msec)         #    0,361 CPUs utilized          
+               105      context-switches          #    0,641 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.563      page-faults               #    0,022 M/sec                  
+       531.954.324      cycles                    #    3,247 GHz                      (81,47%)
+       121.031.057      stalled-cycles-frontend   #   22,75% frontend cycles idle     (85,17%)
+       184.377.698      stalled-cycles-backend    #   34,66% backend  cycles idle     (36,33%)
+       432.054.350      instructions              #    0,81  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,81%)
+        99.417.184      branches                  #  606,791 M/sec                    (65,49%)
+           558.005      branch-misses             #    0,56% of all branches          (79,96%)
+
+       0,454470599 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        167,426765      task-clock (msec)         #    0,366 CPUs utilized          
+                99      context-switches          #    0,591 K/sec                  
+                14      cpu-migrations            #    0,084 K/sec                  
+             3.564      page-faults               #    0,021 M/sec                  
+       520.312.382      cycles                    #    3,108 GHz                      (82,61%)
+       120.983.212      stalled-cycles-frontend   #   23,25% frontend cycles idle     (81,03%)
+       165.073.960      stalled-cycles-backend    #   31,73% backend  cycles idle     (37,02%)
+       410.196.352      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (55,25%)
+        94.949.036      branches                  #  567,108 M/sec                    (70,44%)
+           534.287      branch-misses             #    0,56% of all branches          (83,98%)
+
+       0,457281107 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        160,466684      task-clock (msec)         #    0,355 CPUs utilized          
+                94      context-switches          #    0,586 K/sec                  
+                 9      cpu-migrations            #    0,056 K/sec                  
+             3.567      page-faults               #    0,022 M/sec                  
+       538.187.981      cycles                    #    3,354 GHz                      (79,16%)
+       122.163.690      stalled-cycles-frontend   #   22,70% frontend cycles idle     (83,34%)
+       189.350.649      stalled-cycles-backend    #   35,18% backend  cycles idle     (40,32%)
+       412.047.288      instructions              #    0,77  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (56,24%)
+        95.312.885      branches                  #  593,973 M/sec                    (69,23%)
+           552.586      branch-misses             #    0,58% of all branches          (84,13%)
+
+       0,451449976 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        162,270239      task-clock (msec)         #    0,358 CPUs utilized          
+                95      context-switches          #    0,585 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.565      page-faults               #    0,022 M/sec                  
+       525.258.403      cycles                    #    3,237 GHz                      (80,01%)
+       117.301.516      stalled-cycles-frontend   #   22,33% frontend cycles idle     (84,53%)
+       194.815.224      stalled-cycles-backend    #   37,09% backend  cycles idle     (39,81%)
+       424.270.351      instructions              #    0,81  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (54,29%)
+        96.289.697      branches                  #  593,391 M/sec                    (69,05%)
+           555.656      branch-misses             #    0,58% of all branches          (83,78%)
+
+       0,453117050 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        164,556565      task-clock (msec)         #    0,359 CPUs utilized          
+                97      context-switches          #    0,589 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.568      page-faults               #    0,022 M/sec                  
+       521.553.575      cycles                    #    3,169 GHz                      (81,18%)
+       122.953.055      stalled-cycles-frontend   #   23,57% frontend cycles idle     (83,03%)
+       188.601.299      stalled-cycles-backend    #   36,16% backend  cycles idle     (38,16%)
+       425.494.865      instructions              #    0,82  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (54,15%)
+        96.930.661      branches                  #  589,042 M/sec                    (68,69%)
+           548.328      branch-misses             #    0,57% of all branches          (83,23%)
+
+       0,458144496 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        168,026546      task-clock (msec)         #    0,367 CPUs utilized          
+                96      context-switches          #    0,571 K/sec                  
+                12      cpu-migrations            #    0,071 K/sec                  
+             3.568      page-faults               #    0,021 M/sec                  
+       511.513.849      cycles                    #    3,044 GHz                      (84,37%)
+       115.293.316      stalled-cycles-frontend   #   22,54% frontend cycles idle     (81,96%)
+       175.366.963      stalled-cycles-backend    #   34,28% backend  cycles idle     (34,62%)
+       397.884.536      instructions              #    0,78  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (55,19%)
+        95.886.558      branches                  #  570,663 M/sec                    (69,91%)
+           582.495      branch-misses             #    0,61% of all branches          (83,94%)
+
+       0,457894111 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/ulysses.txt':
+
+        161,802028      task-clock (msec)         #    0,358 CPUs utilized          
+                98      context-switches          #    0,606 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.569      page-faults               #    0,022 M/sec                  
+       526.946.060      cycles                    #    3,257 GHz                      (82,17%)
+       119.472.145      stalled-cycles-frontend   #   22,67% frontend cycles idle     (80,73%)
+       186.365.588      stalled-cycles-backend    #   35,37% backend  cycles idle     (38,20%)
+       422.681.475      instructions              #    0,80  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (56,14%)
+        93.696.271      branches                  #  579,080 M/sec                    (70,50%)
+           556.243      branch-misses             #    0,59% of all branches          (84,92%)
+
+       0,451406927 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        169,411352      task-clock (msec)         #    0,369 CPUs utilized          
+               109      context-switches          #    0,643 K/sec                  
+                13      cpu-migrations            #    0,077 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       517.928.572      cycles                    #    3,057 GHz                      (83,55%)
+       119.281.556      stalled-cycles-frontend   #   23,03% frontend cycles idle     (83,38%)
+       167.486.460      stalled-cycles-backend    #   32,34% backend  cycles idle     (33,92%)
+       424.074.800      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (53,25%)
+        95.103.172      branches                  #  561,374 M/sec                    (69,22%)
+           515.432      branch-misses             #    0,54% of all branches          (84,19%)
+
+       0,459325329 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        166,245914      task-clock (msec)         #    0,362 CPUs utilized          
+                95      context-switches          #    0,571 K/sec                  
+                14      cpu-migrations            #    0,084 K/sec                  
+             3.567      page-faults               #    0,021 M/sec                  
+       536.681.222      cycles                    #    3,228 GHz                      (82,21%)
+       123.028.455      stalled-cycles-frontend   #   22,92% frontend cycles idle     (81,37%)
+       171.666.367      stalled-cycles-backend    #   31,99% backend  cycles idle     (37,24%)
+       404.756.368      instructions              #    0,75  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (56,89%)
+        94.733.545      branches                  #  569,840 M/sec                    (72,22%)
+           542.358      branch-misses             #    0,57% of all branches          (85,54%)
+
+       0,459579832 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        163,762359      task-clock (msec)         #    0,360 CPUs utilized          
+               104      context-switches          #    0,635 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.560      page-faults               #    0,022 M/sec                  
+       522.151.088      cycles                    #    3,188 GHz                      (80,26%)
+       119.305.184      stalled-cycles-frontend   #   22,85% frontend cycles idle     (84,70%)
+       186.623.391      stalled-cycles-backend    #   35,74% backend  cycles idle     (38,84%)
+       415.312.587      instructions              #    0,80  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (53,24%)
+        94.334.404      branches                  #  576,044 M/sec                    (67,90%)
+           564.309      branch-misses             #    0,60% of all branches          (82,42%)
+
+       0,454820382 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        163,298594      task-clock (msec)         #    0,360 CPUs utilized          
+                98      context-switches          #    0,600 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       537.358.747      cycles                    #    3,291 GHz                      (79,54%)
+       119.359.090      stalled-cycles-frontend   #   22,21% frontend cycles idle     (82,91%)
+       174.929.932      stalled-cycles-backend    #   32,55% backend  cycles idle     (38,59%)
+       403.321.100      instructions              #    0,75  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (56,86%)
+        93.822.071      branches                  #  574,543 M/sec                    (69,91%)
+           600.713      branch-misses             #    0,64% of all branches          (83,81%)
+
+       0,453436034 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        161,274065      task-clock (msec)         #    0,357 CPUs utilized          
+               102      context-switches          #    0,632 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.565      page-faults               #    0,022 M/sec                  
+       527.106.944      cycles                    #    3,268 GHz                      (81,13%)
+       120.367.655      stalled-cycles-frontend   #   22,84% frontend cycles idle     (80,23%)
+       190.009.767      stalled-cycles-backend    #   36,05% backend  cycles idle     (40,34%)
+       429.780.850      instructions              #    0,82  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (55,96%)
+        98.391.408      branches                  #  610,088 M/sec                    (70,18%)
+           543.571      branch-misses             #    0,55% of all branches          (84,97%)
+
+       0,451185074 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        169,125641      task-clock (msec)         #    0,367 CPUs utilized          
+               112      context-switches          #    0,662 K/sec                  
+                14      cpu-migrations            #    0,083 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       524.147.909      cycles                    #    3,099 GHz                      (78,21%)
+       121.378.051      stalled-cycles-frontend   #   23,16% frontend cycles idle     (83,96%)
+       176.930.968      stalled-cycles-backend    #   33,76% backend  cycles idle     (39,61%)
+       407.863.914      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (56,06%)
+        94.153.502      branches                  #  556,707 M/sec                    (70,92%)
+           559.508      branch-misses             #    0,59% of all branches          (85,17%)
+
+       0,460422360 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        163,396395      task-clock (msec)         #    0,361 CPUs utilized          
+               125      context-switches          #    0,765 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.561      page-faults               #    0,022 M/sec                  
+       539.334.778      cycles                    #    3,301 GHz                      (77,58%)
+       116.429.379      stalled-cycles-frontend   #   21,59% frontend cycles idle     (84,89%)
+       191.625.516      stalled-cycles-backend    #   35,53% backend  cycles idle     (41,69%)
+       400.204.552      instructions              #    0,74  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (55,01%)
+        94.899.221      branches                  #  580,791 M/sec                    (68,56%)
+           546.537      branch-misses             #    0,58% of all branches          (83,30%)
+
+       0,452647714 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        165,480742      task-clock (msec)         #    0,364 CPUs utilized          
+                92      context-switches          #    0,556 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.567      page-faults               #    0,022 M/sec                  
+       533.892.714      cycles                    #    3,226 GHz                      (81,77%)
+       116.589.775      stalled-cycles-frontend   #   21,84% frontend cycles idle     (81,90%)
+       157.683.507      stalled-cycles-backend    #   29,53% backend  cycles idle     (37,31%)
+       404.465.869      instructions              #    0,76  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (57,50%)
+        95.132.822      branches                  #  574,888 M/sec                    (72,80%)
+           621.132      branch-misses             #    0,65% of all branches          (86,17%)
+
+       0,455198484 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        166,025955      task-clock (msec)         #    0,364 CPUs utilized          
+               108      context-switches          #    0,651 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.564      page-faults               #    0,021 M/sec                  
+       535.695.291      cycles                    #    3,227 GHz                      (81,69%)
+       125.340.059      stalled-cycles-frontend   #   23,40% frontend cycles idle     (81,97%)
+       182.845.663      stalled-cycles-backend    #   34,13% backend  cycles idle     (37,72%)
+       414.393.931      instructions              #    0,77  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (53,73%)
+        96.039.612      branches                  #  578,461 M/sec                    (68,14%)
+           577.471      branch-misses             #    0,60% of all branches          (82,74%)
+
+       0,456682677 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/ulysses.txt':
+
+        165,567380      task-clock (msec)         #    0,363 CPUs utilized          
+                97      context-switches          #    0,586 K/sec                  
+                10      cpu-migrations            #    0,060 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       534.638.177      cycles                    #    3,229 GHz                      (83,33%)
+       123.811.375      stalled-cycles-frontend   #   23,16% frontend cycles idle     (82,62%)
+       180.114.895      stalled-cycles-backend    #   33,69% backend  cycles idle     (36,06%)
+       429.961.804      instructions              #    0,80  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (53,75%)
+        98.463.832      branches                  #  594,706 M/sec                    (70,25%)
+           613.070      branch-misses             #    0,62% of all branches          (85,77%)
+
+       0,455687160 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        167,867860      task-clock (msec)         #    0,364 CPUs utilized          
+               123      context-switches          #    0,733 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       523.753.479      cycles                    #    3,120 GHz                      (83,27%)
+       114.217.311      stalled-cycles-frontend   #   21,81% frontend cycles idle     (83,13%)
+       164.242.920      stalled-cycles-backend    #   31,36% backend  cycles idle     (34,84%)
+       399.174.449      instructions              #    0,76  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (54,28%)
+        94.709.333      branches                  #  564,190 M/sec                    (71,04%)
+           562.926      branch-misses             #    0,59% of all branches          (83,43%)
+
+       0,461275449 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        161,162028      task-clock (msec)         #    0,357 CPUs utilized          
+               101      context-switches          #    0,627 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.563      page-faults               #    0,022 M/sec                  
+       532.340.237      cycles                    #    3,303 GHz                      (81,12%)
+       116.514.825      stalled-cycles-frontend   #   21,89% frontend cycles idle     (84,62%)
+       203.850.352      stalled-cycles-backend    #   38,29% backend  cycles idle     (36,52%)
+       406.663.428      instructions              #    0,76  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (51,36%)
+       100.106.728      branches                  #  621,156 M/sec                    (66,25%)
+           631.475      branch-misses             #    0,63% of all branches          (80,95%)
+
+       0,451402404 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        165,573827      task-clock (msec)         #    0,364 CPUs utilized          
+                94      context-switches          #    0,568 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.563      page-faults               #    0,022 M/sec                  
+       523.501.409      cycles                    #    3,162 GHz                      (81,29%)
+       121.917.496      stalled-cycles-frontend   #   23,29% frontend cycles idle     (80,16%)
+       192.966.251      stalled-cycles-backend    #   36,86% backend  cycles idle     (39,02%)
+       427.399.110      instructions              #    0,82  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,38%)
+        94.473.959      branches                  #  570,585 M/sec                    (69,89%)
+           588.961      branch-misses             #    0,62% of all branches          (84,21%)
+
+       0,455075048 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        163,089087      task-clock (msec)         #    0,360 CPUs utilized          
+               103      context-switches          #    0,632 K/sec                  
+                12      cpu-migrations            #    0,074 K/sec                  
+             3.562      page-faults               #    0,022 M/sec                  
+       550.413.382      cycles                    #    3,375 GHz                      (82,10%)
+       123.702.813      stalled-cycles-frontend   #   22,47% frontend cycles idle     (83,98%)
+       193.850.599      stalled-cycles-backend    #   35,22% backend  cycles idle     (37,12%)
+       433.074.288      instructions              #    0,79  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (52,84%)
+        96.430.730      branches                  #  591,276 M/sec                    (69,98%)
+           591.504      branch-misses             #    0,61% of all branches          (84,67%)
+
+       0,452540789 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        163,981513      task-clock (msec)         #    0,360 CPUs utilized          
+               125      context-switches          #    0,762 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.564      page-faults               #    0,022 M/sec                  
+       519.500.722      cycles                    #    3,168 GHz                      (82,45%)
+       116.033.082      stalled-cycles-frontend   #   22,34% frontend cycles idle     (82,40%)
+       188.385.943      stalled-cycles-backend    #   36,26% backend  cycles idle     (40,68%)
+       401.819.165      instructions              #    0,77  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (54,66%)
+        93.884.849      branches                  #  572,533 M/sec                    (69,14%)
+           541.656      branch-misses             #    0,58% of all branches          (83,76%)
+
+       0,455376265 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        163,922577      task-clock (msec)         #    0,361 CPUs utilized          
+               107      context-switches          #    0,653 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.565      page-faults               #    0,022 M/sec                  
+       533.584.032      cycles                    #    3,255 GHz                      (83,27%)
+       121.789.489      stalled-cycles-frontend   #   22,82% frontend cycles idle     (82,77%)
+       187.770.020      stalled-cycles-backend    #   35,19% backend  cycles idle     (35,05%)
+       402.177.165      instructions              #    0,75  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (54,16%)
+        95.795.537      branches                  #  584,395 M/sec                    (69,71%)
+           572.193      branch-misses             #    0,60% of all branches          (84,56%)
+
+       0,453680912 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        168,527356      task-clock (msec)         #    0,365 CPUs utilized          
+               112      context-switches          #    0,665 K/sec                  
+                13      cpu-migrations            #    0,077 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       533.272.063      cycles                    #    3,164 GHz                      (81,92%)
+       118.506.197      stalled-cycles-frontend   #   22,22% frontend cycles idle     (81,58%)
+       187.331.546      stalled-cycles-backend    #   35,13% backend  cycles idle     (37,11%)
+       409.293.984      instructions              #    0,77  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (54,07%)
+        93.396.135      branches                  #  554,190 M/sec                    (69,03%)
+           543.985      branch-misses             #    0,58% of all branches          (83,63%)
+
+       0,462305224 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        163,893539      task-clock (msec)         #    0,361 CPUs utilized          
+               104      context-switches          #    0,635 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.564      page-faults               #    0,022 M/sec                  
+       519.733.998      cycles                    #    3,171 GHz                      (84,26%)
+       124.874.378      stalled-cycles-frontend   #   24,03% frontend cycles idle     (83,43%)
+       167.416.885      stalled-cycles-backend    #   32,21% backend  cycles idle     (34,54%)
+       439.564.232      instructions              #    0,85  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (52,74%)
+        97.581.349      branches                  #  595,395 M/sec                    (70,01%)
+           552.443      branch-misses             #    0,57% of all branches          (84,33%)
+
+       0,453750947 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        163,871247      task-clock (msec)         #    0,360 CPUs utilized          
+                95      context-switches          #    0,580 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       536.405.528      cycles                    #    3,273 GHz                      (81,46%)
+       127.176.667      stalled-cycles-frontend   #   23,71% frontend cycles idle     (81,38%)
+       181.036.822      stalled-cycles-backend    #   33,75% backend  cycles idle     (37,35%)
+       405.756.002      instructions              #    0,76  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (56,29%)
+        93.023.656      branches                  #  567,663 M/sec                    (71,54%)
+           538.483      branch-misses             #    0,58% of all branches          (84,69%)
+
+       0,455009033 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/ulysses.txt':
+
+        169,562624      task-clock (msec)         #    0,370 CPUs utilized          
+               112      context-switches          #    0,661 K/sec                  
+                12      cpu-migrations            #    0,071 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       530.292.362      cycles                    #    3,127 GHz                      (79,41%)
+       120.078.754      stalled-cycles-frontend   #   22,64% frontend cycles idle     (82,10%)
+       154.185.824      stalled-cycles-backend    #   29,08% backend  cycles idle     (41,75%)
+       404.591.970      instructions              #    0,76  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (59,23%)
+        93.974.341      branches                  #  554,216 M/sec                    (73,40%)
+           530.493      branch-misses             #    0,56% of all branches          (86,28%)
+
+       0,458523410 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        163,209120      task-clock (msec)         #    0,360 CPUs utilized          
+               108      context-switches          #    0,662 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.564      page-faults               #    0,022 M/sec                  
+       534.672.313      cycles                    #    3,276 GHz                      (82,69%)
+       124.401.729      stalled-cycles-frontend   #   23,27% frontend cycles idle     (84,46%)
+       193.660.051      stalled-cycles-backend    #   36,22% backend  cycles idle     (35,43%)
+       399.019.885      instructions              #    0,75  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (52,61%)
+        92.952.210      branches                  #  569,528 M/sec                    (70,89%)
+           574.891      branch-misses             #    0,62% of all branches          (85,23%)
+
+       0,452970332 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        164,160227      task-clock (msec)         #    0,359 CPUs utilized          
+               107      context-switches          #    0,652 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.564      page-faults               #    0,022 M/sec                  
+       525.548.385      cycles                    #    3,201 GHz                      (81,65%)
+       122.701.911      stalled-cycles-frontend   #   23,35% frontend cycles idle     (85,13%)
+       190.317.617      stalled-cycles-backend    #   36,21% backend  cycles idle     (36,94%)
+       429.130.681      instructions              #    0,82  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (52,86%)
+        97.976.343      branches                  #  596,834 M/sec                    (67,44%)
+           567.243      branch-misses             #    0,58% of all branches          (82,04%)
+
+       0,456947805 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        165,724682      task-clock (msec)         #    0,364 CPUs utilized          
+                98      context-switches          #    0,591 K/sec                  
+                10      cpu-migrations            #    0,060 K/sec                  
+             3.565      page-faults               #    0,022 M/sec                  
+       536.471.575      cycles                    #    3,237 GHz                      (80,26%)
+       120.341.657      stalled-cycles-frontend   #   22,43% frontend cycles idle     (83,81%)
+       183.018.110      stalled-cycles-backend    #   34,12% backend  cycles idle     (36,97%)
+       400.273.971      instructions              #    0,75  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (52,75%)
+        94.703.373      branches                  #  571,450 M/sec                    (67,34%)
+           571.518      branch-misses             #    0,60% of all branches          (81,69%)
+
+       0,455115657 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        162,952345      task-clock (msec)         #    0,360 CPUs utilized          
+               115      context-switches          #    0,706 K/sec                  
+                12      cpu-migrations            #    0,074 K/sec                  
+             3.568      page-faults               #    0,022 M/sec                  
+       539.549.211      cycles                    #    3,311 GHz                      (82,93%)
+       120.404.609      stalled-cycles-frontend   #   22,32% frontend cycles idle     (85,15%)
+       203.859.647      stalled-cycles-backend    #   37,78% backend  cycles idle     (34,11%)
+       400.804.112      instructions              #    0,74  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (48,90%)
+        98.794.307      branches                  #  606,277 M/sec                    (63,63%)
+           594.745      branch-misses             #    0,60% of all branches          (79,28%)
+
+       0,453256692 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        165,237246      task-clock (msec)         #    0,363 CPUs utilized          
+               103      context-switches          #    0,623 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.563      page-faults               #    0,022 M/sec                  
+       530.980.801      cycles                    #    3,213 GHz                      (82,08%)
+       125.935.453      stalled-cycles-frontend   #   23,72% frontend cycles idle     (79,83%)
+       175.294.689      stalled-cycles-backend    #   33,01% backend  cycles idle     (38,72%)
+       421.506.028      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (53,59%)
+        98.441.617      branches                  #  595,759 M/sec                    (68,40%)
+           589.747      branch-misses             #    0,60% of all branches          (82,18%)
+
+       0,455652480 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        167,421977      task-clock (msec)         #    0,364 CPUs utilized          
+                97      context-switches          #    0,579 K/sec                  
+                14      cpu-migrations            #    0,084 K/sec                  
+             3.567      page-faults               #    0,021 M/sec                  
+       529.960.452      cycles                    #    3,165 GHz                      (77,59%)
+       122.480.865      stalled-cycles-frontend   #   23,11% frontend cycles idle     (83,82%)
+       185.292.642      stalled-cycles-backend    #   34,96% backend  cycles idle     (39,78%)
+       428.217.076      instructions              #    0,81  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,81%)
+        96.386.414      branches                  #  575,709 M/sec                    (70,57%)
+           540.742      branch-misses             #    0,56% of all branches          (84,86%)
+
+       0,460268049 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        169,586848      task-clock (msec)         #    0,369 CPUs utilized          
+               104      context-switches          #    0,613 K/sec                  
+                10      cpu-migrations            #    0,059 K/sec                  
+             3.563      page-faults               #    0,021 M/sec                  
+       543.974.245      cycles                    #    3,208 GHz                      (81,94%)
+       122.832.487      stalled-cycles-frontend   #   22,58% frontend cycles idle     (82,20%)
+       193.786.761      stalled-cycles-backend    #   35,62% backend  cycles idle     (37,74%)
+       414.335.455      instructions              #    0,76  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (54,23%)
+        95.732.684      branches                  #  564,505 M/sec                    (68,67%)
+           554.544      branch-misses             #    0,58% of all branches          (82,73%)
+
+       0,459001168 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        169,287994      task-clock (msec)         #    0,367 CPUs utilized          
+               107      context-switches          #    0,632 K/sec                  
+                14      cpu-migrations            #    0,083 K/sec                  
+             3.566      page-faults               #    0,021 M/sec                  
+       517.948.002      cycles                    #    3,060 GHz                      (83,29%)
+       121.048.209      stalled-cycles-frontend   #   23,37% frontend cycles idle     (82,34%)
+       192.550.356      stalled-cycles-backend    #   37,18% backend  cycles idle     (36,90%)
+       423.478.524      instructions              #    0,82  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (53,92%)
+        93.115.056      branches                  #  550,039 M/sec                    (71,13%)
+           561.725      branch-misses             #    0,60% of all branches          (85,62%)
+
+       0,460855488 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        164,606709      task-clock (msec)         #    0,363 CPUs utilized          
+               118      context-switches          #    0,717 K/sec                  
+                12      cpu-migrations            #    0,073 K/sec                  
+             3.566      page-faults               #    0,022 M/sec                  
+       543.828.675      cycles                    #    3,304 GHz                      (80,39%)
+       125.715.187      stalled-cycles-frontend   #   23,12% frontend cycles idle     (83,01%)
+       192.607.018      stalled-cycles-backend    #   35,42% backend  cycles idle     (39,96%)
+       426.885.319      instructions              #    0,78  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,85%)
+        97.341.188      branches                  #  591,356 M/sec                    (70,18%)
+           571.973      branch-misses             #    0,59% of all branches          (84,67%)
+
+       0,453284778 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/ulysses.txt':
+
+        164,098355      task-clock (msec)         #    0,363 CPUs utilized          
+               112      context-switches          #    0,683 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.563      page-faults               #    0,022 M/sec                  
+       527.911.923      cycles                    #    3,217 GHz                      (82,18%)
+       118.124.673      stalled-cycles-frontend   #   22,38% frontend cycles idle     (83,33%)
+       190.026.997      stalled-cycles-backend    #   36,00% backend  cycles idle     (35,61%)
+       410.230.115      instructions              #    0,78  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (53,17%)
+        95.230.874      branches                  #  580,328 M/sec                    (68,36%)
+           561.841      branch-misses             #    0,59% of all branches          (82,84%)
+
+       0,452482855 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        158,335677      task-clock (msec)         #    0,353 CPUs utilized          
+                95      context-switches          #    0,600 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.565      page-faults               #    0,023 M/sec                  
+       504.112.505      cycles                    #    3,184 GHz                      (83,47%)
+       112.981.847      stalled-cycles-frontend   #   22,41% frontend cycles idle     (81,42%)
+       170.871.182      stalled-cycles-backend    #   33,90% backend  cycles idle     (37,23%)
+       430.137.135      instructions              #    0,85  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (53,66%)
+        97.579.782      branches                  #  616,284 M/sec                    (68,88%)
+           578.154      branch-misses             #    0,59% of all branches          (86,12%)
+
+       0,447955925 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        155,557344      task-clock (msec)         #    0,349 CPUs utilized          
+                97      context-switches          #    0,624 K/sec                  
+                 8      cpu-migrations            #    0,051 K/sec                  
+             3.564      page-faults               #    0,023 M/sec                  
+       516.176.195      cycles                    #    3,318 GHz                      (82,86%)
+       116.742.664      stalled-cycles-frontend   #   22,62% frontend cycles idle     (84,35%)
+       177.035.384      stalled-cycles-backend    #   34,30% backend  cycles idle     (35,37%)
+       411.410.623      instructions              #    0,80  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,65%)
+        97.625.491      branches                  #  627,585 M/sec                    (66,08%)
+           550.571      branch-misses             #    0,56% of all branches          (83,57%)
+
+       0,445678725 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        155,015166      task-clock (msec)         #    0,349 CPUs utilized          
+                98      context-switches          #    0,632 K/sec                  
+                14      cpu-migrations            #    0,090 K/sec                  
+             3.565      page-faults               #    0,023 M/sec                  
+       504.306.814      cycles                    #    3,253 GHz                      (83,36%)
+       115.382.134      stalled-cycles-frontend   #   22,88% frontend cycles idle     (84,15%)
+       167.307.138      stalled-cycles-backend    #   33,18% backend  cycles idle     (35,11%)
+       398.025.940      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,57%)
+        93.846.523      branches                  #  605,402 M/sec                    (68,75%)
+           558.274      branch-misses             #    0,59% of all branches          (84,17%)
+
+       0,444357099 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        158,654630      task-clock (msec)         #    0,355 CPUs utilized          
+               102      context-switches          #    0,643 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.564      page-faults               #    0,022 M/sec                  
+       507.431.511      cycles                    #    3,198 GHz                      (84,55%)
+       118.983.089      stalled-cycles-frontend   #   23,45% frontend cycles idle     (83,13%)
+       168.750.359      stalled-cycles-backend    #   33,26% backend  cycles idle     (35,57%)
+       423.705.452      instructions              #    0,84  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (53,36%)
+        93.412.427      branches                  #  588,778 M/sec                    (68,52%)
+           519.818      branch-misses             #    0,56% of all branches          (82,30%)
+
+       0,447409606 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        159,855635      task-clock (msec)         #    0,355 CPUs utilized          
+               105      context-switches          #    0,657 K/sec                  
+                14      cpu-migrations            #    0,088 K/sec                  
+             3.567      page-faults               #    0,022 M/sec                  
+       513.550.780      cycles                    #    3,213 GHz                      (80,98%)
+       115.607.652      stalled-cycles-frontend   #   22,51% frontend cycles idle     (82,23%)
+       170.941.033      stalled-cycles-backend    #   33,29% backend  cycles idle     (37,95%)
+       407.599.484      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (54,55%)
+        91.366.403      branches                  #  571,556 M/sec                    (70,23%)
+           528.669      branch-misses             #    0,58% of all branches          (84,53%)
+
+       0,450384743 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        159,244837      task-clock (msec)         #    0,355 CPUs utilized          
+               121      context-switches          #    0,760 K/sec                  
+                11      cpu-migrations            #    0,069 K/sec                  
+             3.565      page-faults               #    0,022 M/sec                  
+       504.633.949      cycles                    #    3,169 GHz                      (80,70%)
+       117.888.405      stalled-cycles-frontend   #   23,36% frontend cycles idle     (83,86%)
+       168.796.484      stalled-cycles-backend    #   33,45% backend  cycles idle     (36,97%)
+       396.696.648      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (53,96%)
+        91.217.612      branches                  #  572,814 M/sec                    (69,10%)
+           502.524      branch-misses             #    0,55% of all branches          (84,69%)
+
+       0,448416007 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        155,581430      task-clock (msec)         #    0,349 CPUs utilized          
+               107      context-switches          #    0,688 K/sec                  
+                11      cpu-migrations            #    0,071 K/sec                  
+             3.563      page-faults               #    0,023 M/sec                  
+       512.779.036      cycles                    #    3,296 GHz                      (81,51%)
+       117.866.130      stalled-cycles-frontend   #   22,99% frontend cycles idle     (82,80%)
+       171.850.408      stalled-cycles-backend    #   33,51% backend  cycles idle     (37,18%)
+       424.764.356      instructions              #    0,83  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (53,75%)
+        95.877.531      branches                  #  616,253 M/sec                    (69,04%)
+           560.460      branch-misses             #    0,58% of all branches          (83,78%)
+
+       0,445871056 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        158,717424      task-clock (msec)         #    0,354 CPUs utilized          
+                99      context-switches          #    0,624 K/sec                  
+                14      cpu-migrations            #    0,088 K/sec                  
+             3.568      page-faults               #    0,022 M/sec                  
+       489.794.037      cycles                    #    3,086 GHz                      (80,76%)
+       112.230.201      stalled-cycles-frontend   #   22,91% frontend cycles idle     (84,96%)
+       161.431.212      stalled-cycles-backend    #   32,96% backend  cycles idle     (38,01%)
+       408.037.275      instructions              #    0,83  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (53,10%)
+        95.345.603      branches                  #  600,725 M/sec                    (68,91%)
+           527.160      branch-misses             #    0,55% of all branches          (83,66%)
+
+       0,448273251 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        155,952540      task-clock (msec)         #    0,349 CPUs utilized          
+                97      context-switches          #    0,622 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.562      page-faults               #    0,023 M/sec                  
+       510.784.948      cycles                    #    3,275 GHz                      (84,21%)
+       121.394.940      stalled-cycles-frontend   #   23,77% frontend cycles idle     (82,71%)
+       178.760.552      stalled-cycles-backend    #   35,00% backend  cycles idle     (33,88%)
+       395.336.338      instructions              #    0,77  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,27%)
+        89.830.250      branches                  #  576,010 M/sec                    (71,07%)
+           527.162      branch-misses             #    0,59% of all branches          (83,78%)
+
+       0,446985195 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/ulysses.txt':
+
+        160,898350      task-clock (msec)         #    0,358 CPUs utilized          
+               107      context-switches          #    0,665 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.569      page-faults               #    0,022 M/sec                  
+       514.881.406      cycles                    #    3,200 GHz                      (84,35%)
+       116.329.183      stalled-cycles-frontend   #   22,59% frontend cycles idle     (84,06%)
+       163.080.882      stalled-cycles-backend    #   31,67% backend  cycles idle     (33,20%)
+       434.236.616      instructions              #    0,84  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,65%)
+        95.966.919      branches                  #  596,444 M/sec                    (68,64%)
+           582.302      branch-misses             #    0,61% of all branches          (83,29%)
+
+       0,449960774 seconds time elapsed
+

@@ -1,0 +1,1440 @@
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        383,293286      task-clock (msec)         #    0,329 CPUs utilized          
+               196      context-switches          #    0,511 K/sec                  
+                 7      cpu-migrations            #    0,018 K/sec                  
+             4.257      page-faults               #    0,011 M/sec                  
+     1.338.684.937      cycles                    #    3,493 GHz                      (82,36%)
+       248.739.219      stalled-cycles-frontend   #   18,58% frontend cycles idle     (83,11%)
+       541.519.819      stalled-cycles-backend    #   40,45% backend  cycles idle     (35,08%)
+     1.156.668.128      instructions              #    0,86  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (51,63%)
+       267.536.364      branches                  #  697,994 M/sec                    (67,27%)
+         1.039.494      branch-misses             #    0,39% of all branches          (83,33%)
+
+       1,166408301 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        370,423930      task-clock (msec)         #    0,322 CPUs utilized          
+               187      context-switches          #    0,505 K/sec                  
+                13      cpu-migrations            #    0,035 K/sec                  
+             4.257      page-faults               #    0,011 M/sec                  
+     1.256.610.703      cycles                    #    3,392 GHz                      (82,24%)
+       254.740.222      stalled-cycles-frontend   #   20,27% frontend cycles idle     (81,44%)
+       402.252.217      stalled-cycles-backend    #   32,01% backend  cycles idle     (36,37%)
+     1.161.658.288      instructions              #    0,92  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (51,57%)
+       267.935.432      branches                  #  723,321 M/sec                    (68,80%)
+         1.092.861      branch-misses             #    0,41% of all branches          (83,76%)
+
+       1,148669005 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        367,402461      task-clock (msec)         #    0,320 CPUs utilized          
+               170      context-switches          #    0,463 K/sec                  
+                10      cpu-migrations            #    0,027 K/sec                  
+             3.743      page-faults               #    0,010 M/sec                  
+     1.287.010.795      cycles                    #    3,503 GHz                      (82,55%)
+       251.605.085      stalled-cycles-frontend   #   19,55% frontend cycles idle     (83,16%)
+       416.150.758      stalled-cycles-backend    #   32,33% backend  cycles idle     (34,56%)
+     1.164.104.363      instructions              #    0,90  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,00%)
+       272.662.264      branches                  #  742,135 M/sec                    (66,36%)
+         1.004.675      branch-misses             #    0,37% of all branches          (82,45%)
+
+       1,147294523 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        348,585884      task-clock (msec)         #    0,309 CPUs utilized          
+               202      context-switches          #    0,579 K/sec                  
+                10      cpu-migrations            #    0,029 K/sec                  
+             4.257      page-faults               #    0,012 M/sec                  
+     1.180.571.213      cycles                    #    3,387 GHz                      (82,48%)
+       230.185.596      stalled-cycles-frontend   #   19,50% frontend cycles idle     (83,97%)
+       370.220.570      stalled-cycles-backend    #   31,36% backend  cycles idle     (34,02%)
+     1.068.910.506      instructions              #    0,91  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (52,06%)
+       251.383.067      branches                  #  721,151 M/sec                    (67,83%)
+         1.021.535      branch-misses             #    0,41% of all branches          (84,54%)
+
+       1,126880256 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        349,245653      task-clock (msec)         #    0,310 CPUs utilized          
+               197      context-switches          #    0,564 K/sec                  
+                10      cpu-migrations            #    0,029 K/sec                  
+             4.255      page-faults               #    0,012 M/sec                  
+     1.220.210.281      cycles                    #    3,494 GHz                      (82,68%)
+       241.393.298      stalled-cycles-frontend   #   19,78% frontend cycles idle     (82,41%)
+       380.007.444      stalled-cycles-backend    #   31,14% backend  cycles idle     (35,09%)
+     1.136.256.273      instructions              #    0,93  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (52,40%)
+       260.454.378      branches                  #  745,763 M/sec                    (68,54%)
+         1.022.492      branch-misses             #    0,39% of all branches          (84,07%)
+
+       1,127056365 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        350,096158      task-clock (msec)         #    0,311 CPUs utilized          
+               198      context-switches          #    0,566 K/sec                  
+                11      cpu-migrations            #    0,031 K/sec                  
+             4.256      page-faults               #    0,012 M/sec                  
+     1.207.274.073      cycles                    #    3,448 GHz                      (82,92%)
+       236.674.552      stalled-cycles-frontend   #   19,60% frontend cycles idle     (82,79%)
+       358.377.519      stalled-cycles-backend    #   29,68% backend  cycles idle     (34,84%)
+     1.084.635.049      instructions              #    0,90  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (52,24%)
+       255.643.597      branches                  #  730,210 M/sec                    (67,90%)
+           989.091      branch-misses             #    0,39% of all branches          (82,79%)
+
+       1,126499735 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        347,002441      task-clock (msec)         #    0,308 CPUs utilized          
+               182      context-switches          #    0,524 K/sec                  
+                10      cpu-migrations            #    0,029 K/sec                  
+             3.745      page-faults               #    0,011 M/sec                  
+     1.163.190.060      cycles                    #    3,352 GHz                      (83,71%)
+       232.426.227      stalled-cycles-frontend   #   19,98% frontend cycles idle     (83,94%)
+       390.943.905      stalled-cycles-backend    #   33,61% backend  cycles idle     (35,21%)
+     1.070.476.857      instructions              #    0,92  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,96%)
+       256.905.628      branches                  #  740,357 M/sec                    (66,44%)
+         1.025.601      branch-misses             #    0,40% of all branches          (82,30%)
+
+       1,126647952 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        353,891963      task-clock (msec)         #    0,312 CPUs utilized          
+               281      context-switches          #    0,794 K/sec                  
+                13      cpu-migrations            #    0,037 K/sec                  
+             4.256      page-faults               #    0,012 M/sec                  
+     1.197.453.905      cycles                    #    3,384 GHz                      (82,66%)
+       240.130.604      stalled-cycles-frontend   #   20,05% frontend cycles idle     (83,32%)
+       396.917.068      stalled-cycles-backend    #   33,15% backend  cycles idle     (34,70%)
+     1.103.522.883      instructions              #    0,92  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (49,78%)
+       255.883.836      branches                  #  723,056 M/sec                    (66,64%)
+           987.877      branch-misses             #    0,39% of all branches          (83,08%)
+
+       1,135710644 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        360,213696      task-clock (msec)         #    0,316 CPUs utilized          
+               186      context-switches          #    0,516 K/sec                  
+                11      cpu-migrations            #    0,031 K/sec                  
+             4.253      page-faults               #    0,012 M/sec                  
+     1.253.734.520      cycles                    #    3,481 GHz                      (83,78%)
+       256.268.036      stalled-cycles-frontend   #   20,44% frontend cycles idle     (83,25%)
+       402.741.019      stalled-cycles-backend    #   32,12% backend  cycles idle     (33,26%)
+     1.142.683.367      instructions              #    0,91  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (51,13%)
+       266.989.972      branches                  #  741,199 M/sec                    (66,44%)
+         1.057.902      branch-misses             #    0,40% of all branches          (82,26%)
+
+       1,138265190 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/king_james_bible.txt':
+
+        350,909138      task-clock (msec)         #    0,311 CPUs utilized          
+               186      context-switches          #    0,530 K/sec                  
+                10      cpu-migrations            #    0,028 K/sec                  
+             3.744      page-faults               #    0,011 M/sec                  
+     1.213.700.967      cycles                    #    3,459 GHz                      (83,12%)
+       244.897.432      stalled-cycles-frontend   #   20,18% frontend cycles idle     (84,03%)
+       363.842.705      stalled-cycles-backend    #   29,98% backend  cycles idle     (33,64%)
+     1.137.109.057      instructions              #    0,94  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (49,47%)
+       263.143.867      branches                  #  749,892 M/sec                    (64,95%)
+           987.942      branch-misses             #    0,38% of all branches          (80,54%)
+
+       1,127741046 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        319,294884      task-clock (msec)         #    0,291 CPUs utilized          
+               204      context-switches          #    0,639 K/sec                  
+                13      cpu-migrations            #    0,041 K/sec                  
+             4.256      page-faults               #    0,013 M/sec                  
+     1.099.702.897      cycles                    #    3,444 GHz                      (82,80%)
+       214.699.272      stalled-cycles-frontend   #   19,52% frontend cycles idle     (83,38%)
+       367.829.020      stalled-cycles-backend    #   33,45% backend  cycles idle     (34,29%)
+       996.211.383      instructions              #    0,91  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,49%)
+       240.474.426      branches                  #  753,142 M/sec                    (67,45%)
+           896.927      branch-misses             #    0,37% of all branches          (82,46%)
+
+       1,096192831 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        323,635713      task-clock (msec)         #    0,294 CPUs utilized          
+               187      context-switches          #    0,578 K/sec                  
+                13      cpu-migrations            #    0,040 K/sec                  
+             4.260      page-faults               #    0,013 M/sec                  
+     1.087.511.521      cycles                    #    3,360 GHz                      (82,60%)
+       205.213.930      stalled-cycles-frontend   #   18,87% frontend cycles idle     (83,08%)
+       366.759.945      stalled-cycles-backend    #   33,72% backend  cycles idle     (34,71%)
+       998.004.918      instructions              #    0,92  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (53,15%)
+       231.126.418      branches                  #  714,156 M/sec                    (69,95%)
+           923.187      branch-misses             #    0,40% of all branches          (85,02%)
+
+       1,101740159 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        325,537843      task-clock (msec)         #    0,295 CPUs utilized          
+               185      context-switches          #    0,568 K/sec                  
+                12      cpu-migrations            #    0,037 K/sec                  
+             4.254      page-faults               #    0,013 M/sec                  
+     1.109.856.297      cycles                    #    3,409 GHz                      (83,23%)
+       215.596.935      stalled-cycles-frontend   #   19,43% frontend cycles idle     (83,99%)
+       361.587.581      stalled-cycles-backend    #   32,58% backend  cycles idle     (34,14%)
+     1.038.616.190      instructions              #    0,94  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,44%)
+       242.834.635      branches                  #  745,949 M/sec                    (66,36%)
+           898.396      branch-misses             #    0,37% of all branches          (82,79%)
+
+       1,102160985 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        318,772135      task-clock (msec)         #    0,291 CPUs utilized          
+               186      context-switches          #    0,583 K/sec                  
+                 8      cpu-migrations            #    0,025 K/sec                  
+             4.256      page-faults               #    0,013 M/sec                  
+     1.107.826.433      cycles                    #    3,475 GHz                      (81,95%)
+       216.577.796      stalled-cycles-frontend   #   19,55% frontend cycles idle     (84,85%)
+       343.481.750      stalled-cycles-backend    #   31,01% backend  cycles idle     (33,90%)
+     1.020.968.754      instructions              #    0,92  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (52,25%)
+       237.755.829      branches                  #  745,849 M/sec                    (68,18%)
+           923.193      branch-misses             #    0,39% of all branches          (83,64%)
+
+       1,095548417 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        328,531004      task-clock (msec)         #    0,297 CPUs utilized          
+               188      context-switches          #    0,572 K/sec                  
+                11      cpu-migrations            #    0,033 K/sec                  
+             4.259      page-faults               #    0,013 M/sec                  
+     1.111.404.722      cycles                    #    3,383 GHz                      (82,88%)
+       227.429.823      stalled-cycles-frontend   #   20,46% frontend cycles idle     (82,38%)
+       329.115.180      stalled-cycles-backend    #   29,61% backend  cycles idle     (35,02%)
+     1.048.783.217      instructions              #    0,94  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (51,30%)
+       242.551.012      branches                  #  738,290 M/sec                    (67,18%)
+         1.076.743      branch-misses             #    0,44% of all branches          (84,34%)
+
+       1,107605342 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        317,426426      task-clock (msec)         #    0,290 CPUs utilized          
+               183      context-switches          #    0,577 K/sec                  
+                10      cpu-migrations            #    0,032 K/sec                  
+             3.743      page-faults               #    0,012 M/sec                  
+     1.075.694.126      cycles                    #    3,389 GHz                      (82,97%)
+       213.543.834      stalled-cycles-frontend   #   19,85% frontend cycles idle     (83,45%)
+       364.838.034      stalled-cycles-backend    #   33,92% backend  cycles idle     (34,74%)
+       991.315.006      instructions              #    0,92  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (52,85%)
+       235.315.964      branches                  #  741,324 M/sec                    (68,38%)
+           880.929      branch-misses             #    0,37% of all branches          (83,93%)
+
+       1,094774734 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        319,193204      task-clock (msec)         #    0,289 CPUs utilized          
+               227      context-switches          #    0,711 K/sec                  
+                11      cpu-migrations            #    0,034 K/sec                  
+             3.743      page-faults               #    0,012 M/sec                  
+     1.089.729.881      cycles                    #    3,414 GHz                      (82,73%)
+       212.864.559      stalled-cycles-frontend   #   19,53% frontend cycles idle     (83,62%)
+       368.324.207      stalled-cycles-backend    #   33,80% backend  cycles idle     (34,52%)
+     1.005.556.959      instructions              #    0,92  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,50%)
+       239.943.187      branches                  #  751,718 M/sec                    (67,54%)
+           962.504      branch-misses             #    0,40% of all branches          (82,68%)
+
+       1,103377802 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        320,662273      task-clock (msec)         #    0,292 CPUs utilized          
+               199      context-switches          #    0,621 K/sec                  
+                10      cpu-migrations            #    0,031 K/sec                  
+             4.255      page-faults               #    0,013 M/sec                  
+     1.098.969.430      cycles                    #    3,427 GHz                      (82,40%)
+       213.960.199      stalled-cycles-frontend   #   19,47% frontend cycles idle     (83,40%)
+       370.878.462      stalled-cycles-backend    #   33,75% backend  cycles idle     (35,09%)
+     1.003.616.181      instructions              #    0,91  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (52,05%)
+       240.760.842      branches                  #  750,824 M/sec                    (67,37%)
+           886.799      branch-misses             #    0,37% of all branches          (82,60%)
+
+       1,097718399 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        321,163103      task-clock (msec)         #    0,292 CPUs utilized          
+               185      context-switches          #    0,576 K/sec                  
+                10      cpu-migrations            #    0,031 K/sec                  
+             4.259      page-faults               #    0,013 M/sec                  
+     1.109.087.174      cycles                    #    3,453 GHz                      (82,85%)
+       204.545.185      stalled-cycles-frontend   #   18,44% frontend cycles idle     (84,43%)
+       309.583.388      stalled-cycles-backend    #   27,91% backend  cycles idle     (33,33%)
+     1.026.270.984      instructions              #    0,93  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,96%)
+       241.539.298      branches                  #  752,077 M/sec                    (67,12%)
+           891.354      branch-misses             #    0,37% of all branches          (81,83%)
+
+       1,098791801 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/king_james_bible.txt':
+
+        323,947709      task-clock (msec)         #    0,294 CPUs utilized          
+               189      context-switches          #    0,583 K/sec                  
+                11      cpu-migrations            #    0,034 K/sec                  
+             3.744      page-faults               #    0,012 M/sec                  
+     1.123.993.204      cycles                    #    3,470 GHz                      (81,94%)
+       215.341.728      stalled-cycles-frontend   #   19,16% frontend cycles idle     (83,62%)
+       359.010.260      stalled-cycles-backend    #   31,94% backend  cycles idle     (35,33%)
+       987.521.553      instructions              #    0,88  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (53,40%)
+       237.373.219      branches                  #  732,752 M/sec                    (68,69%)
+           922.935      branch-misses             #    0,39% of all branches          (84,03%)
+
+       1,101816057 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        298,344263      task-clock (msec)         #    0,277 CPUs utilized          
+               196      context-switches          #    0,657 K/sec                  
+                 9      cpu-migrations            #    0,030 K/sec                  
+             3.746      page-faults               #    0,013 M/sec                  
+     1.023.183.411      cycles                    #    3,430 GHz                      (82,95%)
+       191.239.780      stalled-cycles-frontend   #   18,69% frontend cycles idle     (82,94%)
+       318.685.305      stalled-cycles-backend    #   31,15% backend  cycles idle     (34,68%)
+       976.316.729      instructions              #    0,95  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,67%)
+       228.815.710      branches                  #  766,952 M/sec                    (66,28%)
+           813.546      branch-misses             #    0,36% of all branches          (81,91%)
+
+       1,075951147 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        303,842240      task-clock (msec)         #    0,280 CPUs utilized          
+               174      context-switches          #    0,573 K/sec                  
+                13      cpu-migrations            #    0,043 K/sec                  
+             4.257      page-faults               #    0,014 M/sec                  
+     1.023.601.605      cycles                    #    3,369 GHz                      (82,50%)
+       200.734.812      stalled-cycles-frontend   #   19,61% frontend cycles idle     (82,34%)
+       347.886.011      stalled-cycles-backend    #   33,99% backend  cycles idle     (36,18%)
+       942.432.694      instructions              #    0,92  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (53,09%)
+       226.791.221      branches                  #  746,411 M/sec                    (68,19%)
+           854.321      branch-misses             #    0,38% of all branches          (83,20%)
+
+       1,083677368 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        300,539786      task-clock (msec)         #    0,279 CPUs utilized          
+               191      context-switches          #    0,636 K/sec                  
+                 9      cpu-migrations            #    0,030 K/sec                  
+             3.742      page-faults               #    0,012 M/sec                  
+     1.019.806.307      cycles                    #    3,393 GHz                      (84,25%)
+       199.555.061      stalled-cycles-frontend   #   19,57% frontend cycles idle     (84,10%)
+       308.362.949      stalled-cycles-backend    #   30,24% backend  cycles idle     (32,64%)
+       978.984.798      instructions              #    0,96  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,94%)
+       228.603.116      branches                  #  760,642 M/sec                    (66,04%)
+           853.139      branch-misses             #    0,37% of all branches          (83,13%)
+
+       1,076825216 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        304,218841      task-clock (msec)         #    0,281 CPUs utilized          
+               178      context-switches          #    0,585 K/sec                  
+                12      cpu-migrations            #    0,039 K/sec                  
+             4.257      page-faults               #    0,014 M/sec                  
+     1.032.376.216      cycles                    #    3,394 GHz                      (82,48%)
+       200.453.667      stalled-cycles-frontend   #   19,42% frontend cycles idle     (84,21%)
+       302.725.928      stalled-cycles-backend    #   29,32% backend  cycles idle     (34,24%)
+       951.951.066      instructions              #    0,92  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (52,94%)
+       226.588.302      branches                  #  744,820 M/sec                    (68,16%)
+           830.185      branch-misses             #    0,37% of all branches          (83,44%)
+
+       1,082110311 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        313,353655      task-clock (msec)         #    0,287 CPUs utilized          
+               186      context-switches          #    0,594 K/sec                  
+                12      cpu-migrations            #    0,038 K/sec                  
+             4.252      page-faults               #    0,014 M/sec                  
+     1.038.168.113      cycles                    #    3,313 GHz                      (80,79%)
+       200.164.410      stalled-cycles-frontend   #   19,28% frontend cycles idle     (83,65%)
+       302.689.226      stalled-cycles-backend    #   29,16% backend  cycles idle     (36,22%)
+       967.194.794      instructions              #    0,93  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (52,62%)
+       225.475.377      branches                  #  719,556 M/sec                    (69,07%)
+           878.615      branch-misses             #    0,39% of all branches          (84,42%)
+
+       1,090358861 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        303,519160      task-clock (msec)         #    0,281 CPUs utilized          
+               205      context-switches          #    0,675 K/sec                  
+                10      cpu-migrations            #    0,033 K/sec                  
+             4.259      page-faults               #    0,014 M/sec                  
+     1.032.781.320      cycles                    #    3,403 GHz                      (83,10%)
+       198.119.656      stalled-cycles-frontend   #   19,18% frontend cycles idle     (83,91%)
+       349.040.625      stalled-cycles-backend    #   33,80% backend  cycles idle     (33,25%)
+       916.151.391      instructions              #    0,89  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (53,49%)
+       220.580.894      branches                  #  726,745 M/sec                    (69,61%)
+           866.642      branch-misses             #    0,39% of all branches          (84,56%)
+
+       1,081936373 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        297,006517      task-clock (msec)         #    0,276 CPUs utilized          
+               178      context-switches          #    0,599 K/sec                  
+                10      cpu-migrations            #    0,034 K/sec                  
+             4.254      page-faults               #    0,014 M/sec                  
+     1.024.380.044      cycles                    #    3,449 GHz                      (84,36%)
+       198.504.669      stalled-cycles-frontend   #   19,38% frontend cycles idle     (83,43%)
+       347.421.854      stalled-cycles-backend    #   33,92% backend  cycles idle     (32,77%)
+       904.727.065      instructions              #    0,88  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (52,21%)
+       219.441.482      branches                  #  738,844 M/sec                    (68,12%)
+           807.287      branch-misses             #    0,37% of all branches          (83,30%)
+
+       1,076221008 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        296,852016      task-clock (msec)         #    0,276 CPUs utilized          
+               189      context-switches          #    0,637 K/sec                  
+                10      cpu-migrations            #    0,034 K/sec                  
+             3.743      page-faults               #    0,013 M/sec                  
+     1.008.952.225      cycles                    #    3,399 GHz                      (83,93%)
+       190.960.036      stalled-cycles-frontend   #   18,93% frontend cycles idle     (83,48%)
+       384.697.104      stalled-cycles-backend    #   38,13% backend  cycles idle     (32,84%)
+       944.163.614      instructions              #    0,94  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,96%)
+       222.752.367      branches                  #  750,382 M/sec                    (67,38%)
+           821.302      branch-misses             #    0,37% of all branches          (83,56%)
+
+       1,075776255 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        305,046300      task-clock (msec)         #    0,282 CPUs utilized          
+               169      context-switches          #    0,554 K/sec                  
+                12      cpu-migrations            #    0,039 K/sec                  
+             3.746      page-faults               #    0,012 M/sec                  
+     1.043.741.114      cycles                    #    3,422 GHz                      (81,48%)
+       192.798.390      stalled-cycles-frontend   #   18,47% frontend cycles idle     (82,57%)
+       304.669.665      stalled-cycles-backend    #   29,19% backend  cycles idle     (36,49%)
+       978.477.881      instructions              #    0,94  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (52,92%)
+       229.520.527      branches                  #  752,412 M/sec                    (68,50%)
+           880.351      branch-misses             #    0,38% of all branches          (83,73%)
+
+       1,081785629 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/king_james_bible.txt':
+
+        304,663469      task-clock (msec)         #    0,282 CPUs utilized          
+               188      context-switches          #    0,617 K/sec                  
+                10      cpu-migrations            #    0,033 K/sec                  
+             3.748      page-faults               #    0,012 M/sec                  
+     1.027.099.519      cycles                    #    3,371 GHz                      (83,36%)
+       199.440.180      stalled-cycles-frontend   #   19,42% frontend cycles idle     (84,70%)
+       326.565.753      stalled-cycles-backend    #   31,79% backend  cycles idle     (32,75%)
+     1.007.704.744      instructions              #    0,98  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (48,87%)
+       235.257.643      branches                  #  772,189 M/sec                    (64,57%)
+           842.633      branch-misses             #    0,36% of all branches          (79,86%)
+
+       1,082186961 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        301,483179      task-clock (msec)         #    0,279 CPUs utilized          
+               179      context-switches          #    0,594 K/sec                  
+                12      cpu-migrations            #    0,040 K/sec                  
+             3.744      page-faults               #    0,012 M/sec                  
+     1.027.478.093      cycles                    #    3,408 GHz                      (81,60%)
+       197.330.183      stalled-cycles-frontend   #   19,21% frontend cycles idle     (83,88%)
+       290.221.193      stalled-cycles-backend    #   28,25% backend  cycles idle     (36,01%)
+       999.427.353      instructions              #    0,97  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (51,54%)
+       235.879.683      branches                  #  782,397 M/sec                    (66,78%)
+           880.038      branch-misses             #    0,37% of all branches          (82,11%)
+
+       1,079982964 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        300,380499      task-clock (msec)         #    0,279 CPUs utilized          
+               196      context-switches          #    0,653 K/sec                  
+                10      cpu-migrations            #    0,033 K/sec                  
+             4.257      page-faults               #    0,014 M/sec                  
+     1.003.028.562      cycles                    #    3,339 GHz                      (84,01%)
+       205.750.223      stalled-cycles-frontend   #   20,51% frontend cycles idle     (84,79%)
+       353.258.478      stalled-cycles-backend    #   35,22% backend  cycles idle     (31,82%)
+       950.758.211      instructions              #    0,95  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,14%)
+       225.554.160      branches                  #  750,895 M/sec                    (65,93%)
+           974.191      branch-misses             #    0,43% of all branches          (82,14%)
+
+       1,078274076 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        299,925215      task-clock (msec)         #    0,279 CPUs utilized          
+               249      context-switches          #    0,830 K/sec                  
+                12      cpu-migrations            #    0,040 K/sec                  
+             4.253      page-faults               #    0,014 M/sec                  
+     1.012.793.525      cycles                    #    3,377 GHz                      (83,76%)
+       194.262.744      stalled-cycles-frontend   #   19,18% frontend cycles idle     (84,13%)
+       303.660.818      stalled-cycles-backend    #   29,98% backend  cycles idle     (32,45%)
+     1.017.232.432      instructions              #    1,00  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (49,43%)
+       236.765.870      branches                  #  789,416 M/sec                    (65,00%)
+           857.362      branch-misses             #    0,36% of all branches          (81,64%)
+
+       1,074664263 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        298,005454      task-clock (msec)         #    0,278 CPUs utilized          
+               282      context-switches          #    0,946 K/sec                  
+                12      cpu-migrations            #    0,040 K/sec                  
+             3.743      page-faults               #    0,013 M/sec                  
+     1.029.630.721      cycles                    #    3,455 GHz                      (83,35%)
+       200.023.352      stalled-cycles-frontend   #   19,43% frontend cycles idle     (84,00%)
+       291.543.110      stalled-cycles-backend    #   28,32% backend  cycles idle     (33,64%)
+       945.219.249      instructions              #    0,92  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (52,24%)
+       224.443.481      branches                  #  753,152 M/sec                    (68,57%)
+           841.502      branch-misses             #    0,37% of all branches          (83,96%)
+
+       1,073735293 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        299,147198      task-clock (msec)         #    0,277 CPUs utilized          
+               181      context-switches          #    0,605 K/sec                  
+                14      cpu-migrations            #    0,047 K/sec                  
+             3.746      page-faults               #    0,013 M/sec                  
+     1.014.164.012      cycles                    #    3,390 GHz                      (83,86%)
+       189.715.104      stalled-cycles-frontend   #   18,71% frontend cycles idle     (81,68%)
+       331.345.257      stalled-cycles-backend    #   32,67% backend  cycles idle     (35,11%)
+       952.592.392      instructions              #    0,94  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (51,85%)
+       228.746.618      branches                  #  764,662 M/sec                    (67,34%)
+           859.552      branch-misses             #    0,38% of all branches          (83,33%)
+
+       1,078448815 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        303,695336      task-clock (msec)         #    0,280 CPUs utilized          
+               193      context-switches          #    0,636 K/sec                  
+                12      cpu-migrations            #    0,040 K/sec                  
+             4.252      page-faults               #    0,014 M/sec                  
+     1.040.805.988      cycles                    #    3,427 GHz                      (82,79%)
+       199.690.005      stalled-cycles-frontend   #   19,19% frontend cycles idle     (82,89%)
+       291.266.752      stalled-cycles-backend    #   27,98% backend  cycles idle     (35,11%)
+     1.009.613.402      instructions              #    0,97  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (51,83%)
+       236.019.479      branches                  #  777,159 M/sec                    (67,64%)
+           850.710      branch-misses             #    0,36% of all branches          (83,47%)
+
+       1,083971484 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        298,626238      task-clock (msec)         #    0,277 CPUs utilized          
+               194      context-switches          #    0,650 K/sec                  
+                 9      cpu-migrations            #    0,030 K/sec                  
+             4.256      page-faults               #    0,014 M/sec                  
+     1.023.202.858      cycles                    #    3,426 GHz                      (84,02%)
+       195.722.139      stalled-cycles-frontend   #   19,13% frontend cycles idle     (82,96%)
+       350.335.898      stalled-cycles-backend    #   34,24% backend  cycles idle     (33,35%)
+       969.469.708      instructions              #    0,95  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (49,60%)
+       234.455.631      branches                  #  785,114 M/sec                    (64,42%)
+           839.009      branch-misses             #    0,36% of all branches          (80,85%)
+
+       1,077101526 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        303,039974      task-clock (msec)         #    0,281 CPUs utilized          
+               192      context-switches          #    0,634 K/sec                  
+                12      cpu-migrations            #    0,040 K/sec                  
+             4.255      page-faults               #    0,014 M/sec                  
+     1.026.824.991      cycles                    #    3,388 GHz                      (83,36%)
+       195.910.026      stalled-cycles-frontend   #   19,08% frontend cycles idle     (84,07%)
+       332.572.265      stalled-cycles-backend    #   32,39% backend  cycles idle     (33,04%)
+       932.316.382      instructions              #    0,91  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (54,62%)
+       222.425.166      branches                  #  733,980 M/sec                    (70,06%)
+           932.414      branch-misses             #    0,42% of all branches          (85,24%)
+
+       1,080293776 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        301,815392      task-clock (msec)         #    0,280 CPUs utilized          
+               176      context-switches          #    0,583 K/sec                  
+                15      cpu-migrations            #    0,050 K/sec                  
+             4.257      page-faults               #    0,014 M/sec                  
+     1.025.715.335      cycles                    #    3,398 GHz                      (84,20%)
+       186.221.277      stalled-cycles-frontend   #   18,16% frontend cycles idle     (82,58%)
+       342.092.809      stalled-cycles-backend    #   33,35% backend  cycles idle     (33,98%)
+       942.747.852      instructions              #    0,92  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (54,08%)
+       223.886.901      branches                  #  741,801 M/sec                    (69,00%)
+           860.412      branch-misses             #    0,38% of all branches          (83,76%)
+
+       1,076966997 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/king_james_bible.txt':
+
+        308,253083      task-clock (msec)         #    0,278 CPUs utilized          
+               216      context-switches          #    0,701 K/sec                  
+                10      cpu-migrations            #    0,032 K/sec                  
+             4.255      page-faults               #    0,014 M/sec                  
+     1.042.069.446      cycles                    #    3,381 GHz                      (80,79%)
+       191.973.932      stalled-cycles-frontend   #   18,42% frontend cycles idle     (83,10%)
+       321.330.701      stalled-cycles-backend    #   30,84% backend  cycles idle     (36,93%)
+       946.032.750      instructions              #    0,91  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (52,54%)
+       225.169.046      branches                  #  730,468 M/sec                    (66,98%)
+           818.232      branch-misses             #    0,36% of all branches          (83,22%)
+
+       1,107931955 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        309,196371      task-clock (msec)         #    0,285 CPUs utilized          
+               176      context-switches          #    0,569 K/sec                  
+                11      cpu-migrations            #    0,036 K/sec                  
+             4.255      page-faults               #    0,014 M/sec                  
+     1.044.016.642      cycles                    #    3,377 GHz                      (82,13%)
+       191.835.486      stalled-cycles-frontend   #   18,37% frontend cycles idle     (83,32%)
+       295.385.897      stalled-cycles-backend    #   28,29% backend  cycles idle     (36,35%)
+       971.851.868      instructions              #    0,93  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (53,24%)
+       227.522.704      branches                  #  735,852 M/sec                    (68,72%)
+           845.828      branch-misses             #    0,37% of all branches          (83,83%)
+
+       1,086061109 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        301,494540      task-clock (msec)         #    0,279 CPUs utilized          
+               188      context-switches          #    0,624 K/sec                  
+                13      cpu-migrations            #    0,043 K/sec                  
+             4.256      page-faults               #    0,014 M/sec                  
+     1.024.417.770      cycles                    #    3,398 GHz                      (84,06%)
+       194.285.138      stalled-cycles-frontend   #   18,97% frontend cycles idle     (83,19%)
+       288.623.379      stalled-cycles-backend    #   28,17% backend  cycles idle     (33,65%)
+       994.165.646      instructions              #    0,97  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,38%)
+       232.270.503      branches                  #  770,397 M/sec                    (66,14%)
+           872.270      branch-misses             #    0,38% of all branches          (81,94%)
+
+       1,080598307 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        303,043529      task-clock (msec)         #    0,280 CPUs utilized          
+               165      context-switches          #    0,544 K/sec                  
+                13      cpu-migrations            #    0,043 K/sec                  
+             3.745      page-faults               #    0,012 M/sec                  
+     1.009.277.876      cycles                    #    3,330 GHz                      (84,71%)
+       194.069.302      stalled-cycles-frontend   #   19,23% frontend cycles idle     (84,28%)
+       287.313.362      stalled-cycles-backend    #   28,47% backend  cycles idle     (32,56%)
+     1.007.750.717      instructions              #    1,00  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (48,36%)
+       233.797.277      branches                  #  771,497 M/sec                    (65,56%)
+           866.112      branch-misses             #    0,37% of all branches          (81,34%)
+
+       1,083483927 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        302,495324      task-clock (msec)         #    0,280 CPUs utilized          
+               202      context-switches          #    0,668 K/sec                  
+                 9      cpu-migrations            #    0,030 K/sec                  
+             4.258      page-faults               #    0,014 M/sec                  
+     1.019.796.745      cycles                    #    3,371 GHz                      (82,39%)
+       200.523.279      stalled-cycles-frontend   #   19,66% frontend cycles idle     (83,77%)
+       340.180.578      stalled-cycles-backend    #   33,36% backend  cycles idle     (34,67%)
+     1.007.905.486      instructions              #    0,99  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (51,63%)
+       233.986.281      branches                  #  773,520 M/sec                    (67,01%)
+           838.582      branch-misses             #    0,36% of all branches          (82,07%)
+
+       1,080319579 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        301,331648      task-clock (msec)         #    0,279 CPUs utilized          
+               172      context-switches          #    0,571 K/sec                  
+                13      cpu-migrations            #    0,043 K/sec                  
+             4.256      page-faults               #    0,014 M/sec                  
+     1.027.381.881      cycles                    #    3,409 GHz                      (82,87%)
+       187.127.510      stalled-cycles-frontend   #   18,21% frontend cycles idle     (82,54%)
+       348.797.345      stalled-cycles-backend    #   33,95% backend  cycles idle     (35,02%)
+       955.060.535      instructions              #    0,93  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (53,75%)
+       228.121.077      branches                  #  757,043 M/sec                    (69,55%)
+           866.741      branch-misses             #    0,38% of all branches          (84,76%)
+
+       1,078218136 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        298,807011      task-clock (msec)         #    0,278 CPUs utilized          
+               178      context-switches          #    0,596 K/sec                  
+                 9      cpu-migrations            #    0,030 K/sec                  
+             4.257      page-faults               #    0,014 M/sec                  
+     1.028.625.215      cycles                    #    3,442 GHz                      (81,69%)
+       201.036.517      stalled-cycles-frontend   #   19,54% frontend cycles idle     (83,98%)
+       332.785.088      stalled-cycles-backend    #   32,35% backend  cycles idle     (36,56%)
+       975.120.751      instructions              #    0,95  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (53,40%)
+       226.879.692      branches                  #  759,285 M/sec                    (69,01%)
+           850.706      branch-misses             #    0,37% of all branches          (84,56%)
+
+       1,075865152 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        302,148805      task-clock (msec)         #    0,275 CPUs utilized          
+               204      context-switches          #    0,675 K/sec                  
+                10      cpu-migrations            #    0,033 K/sec                  
+             3.745      page-faults               #    0,012 M/sec                  
+     1.023.989.885      cycles                    #    3,389 GHz                      (84,15%)
+       193.790.871      stalled-cycles-frontend   #   18,93% frontend cycles idle     (84,22%)
+       321.018.071      stalled-cycles-backend    #   31,35% backend  cycles idle     (31,82%)
+       983.612.233      instructions              #    0,96  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (49,14%)
+       231.118.678      branches                  #  764,917 M/sec                    (65,00%)
+           857.892      branch-misses             #    0,37% of all branches          (82,03%)
+
+       1,096915875 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        301,030465      task-clock (msec)         #    0,278 CPUs utilized          
+               187      context-switches          #    0,621 K/sec                  
+                11      cpu-migrations            #    0,037 K/sec                  
+             3.746      page-faults               #    0,012 M/sec                  
+     1.029.442.614      cycles                    #    3,420 GHz                      (81,36%)
+       190.633.839      stalled-cycles-frontend   #   18,52% frontend cycles idle     (83,24%)
+       311.870.083      stalled-cycles-backend    #   30,30% backend  cycles idle     (36,23%)
+       971.699.424      instructions              #    0,94  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (51,81%)
+       229.054.299      branches                  #  760,901 M/sec                    (66,93%)
+           857.971      branch-misses             #    0,37% of all branches          (82,15%)
+
+       1,081604839 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        299,691091      task-clock (msec)         #    0,278 CPUs utilized          
+               204      context-switches          #    0,681 K/sec                  
+                10      cpu-migrations            #    0,033 K/sec                  
+             4.254      page-faults               #    0,014 M/sec                  
+     1.024.545.972      cycles                    #    3,419 GHz                      (82,11%)
+       189.543.209      stalled-cycles-frontend   #   18,50% frontend cycles idle     (84,05%)
+       298.990.027      stalled-cycles-backend    #   29,18% backend  cycles idle     (34,32%)
+     1.011.053.185      instructions              #    0,99  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,25%)
+       236.962.332      branches                  #  790,689 M/sec                    (65,89%)
+           837.832      branch-misses             #    0,35% of all branches          (82,10%)
+
+       1,078682991 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/king_james_bible.txt':
+
+        313,234529      task-clock (msec)         #    0,287 CPUs utilized          
+               176      context-switches          #    0,562 K/sec                  
+                10      cpu-migrations            #    0,032 K/sec                  
+             3.747      page-faults               #    0,012 M/sec                  
+     1.057.343.909      cycles                    #    3,376 GHz                      (83,27%)
+       208.922.606      stalled-cycles-frontend   #   19,76% frontend cycles idle     (84,22%)
+       332.395.394      stalled-cycles-backend    #   31,44% backend  cycles idle     (33,26%)
+     1.009.781.028      instructions              #    0,96  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (49,81%)
+       240.591.482      branches                  #  768,087 M/sec                    (64,76%)
+           846.613      branch-misses             #    0,35% of all branches          (79,94%)
+
+       1,092109497 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        326,376574      task-clock (msec)         #    0,296 CPUs utilized          
+               192      context-switches          #    0,588 K/sec                  
+                10      cpu-migrations            #    0,031 K/sec                  
+             3.742      page-faults               #    0,011 M/sec                  
+     1.119.766.467      cycles                    #    3,431 GHz                      (83,22%)
+       213.313.040      stalled-cycles-frontend   #   19,05% frontend cycles idle     (83,96%)
+       341.426.831      stalled-cycles-backend    #   30,49% backend  cycles idle     (33,95%)
+     1.058.734.875      instructions              #    0,95  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (49,77%)
+       247.934.283      branches                  #  759,657 M/sec                    (66,13%)
+           961.842      branch-misses             #    0,39% of all branches          (82,05%)
+
+       1,103544288 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        325,537127      task-clock (msec)         #    0,294 CPUs utilized          
+               173      context-switches          #    0,531 K/sec                  
+                14      cpu-migrations            #    0,043 K/sec                  
+             3.745      page-faults               #    0,012 M/sec                  
+     1.097.196.144      cycles                    #    3,370 GHz                      (82,15%)
+       216.445.384      stalled-cycles-frontend   #   19,73% frontend cycles idle     (83,14%)
+       333.054.526      stalled-cycles-backend    #   30,36% backend  cycles idle     (36,64%)
+     1.043.833.925      instructions              #    0,95  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (52,85%)
+       240.881.862      branches                  #  739,952 M/sec                    (69,11%)
+           920.496      branch-misses             #    0,38% of all branches          (84,58%)
+
+       1,107153910 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        318,480073      task-clock (msec)         #    0,291 CPUs utilized          
+               189      context-switches          #    0,593 K/sec                  
+                 9      cpu-migrations            #    0,028 K/sec                  
+             4.255      page-faults               #    0,013 M/sec                  
+     1.092.305.136      cycles                    #    3,430 GHz                      (82,37%)
+       214.385.297      stalled-cycles-frontend   #   19,63% frontend cycles idle     (83,28%)
+       348.362.529      stalled-cycles-backend    #   31,89% backend  cycles idle     (34,73%)
+     1.021.481.925      instructions              #    0,94  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (51,81%)
+       235.395.373      branches                  #  739,121 M/sec                    (67,99%)
+           888.753      branch-misses             #    0,38% of all branches          (83,17%)
+
+       1,095383441 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        313,899079      task-clock (msec)         #    0,288 CPUs utilized          
+               190      context-switches          #    0,605 K/sec                  
+                12      cpu-migrations            #    0,038 K/sec                  
+             4.256      page-faults               #    0,014 M/sec                  
+     1.065.488.762      cycles                    #    3,394 GHz                      (83,30%)
+       209.546.882      stalled-cycles-frontend   #   19,67% frontend cycles idle     (82,24%)
+       335.941.323      stalled-cycles-backend    #   31,53% backend  cycles idle     (35,70%)
+     1.014.781.096      instructions              #    0,95  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,87%)
+       240.201.860      branches                  #  765,220 M/sec                    (66,15%)
+           843.669      branch-misses             #    0,35% of all branches          (81,84%)
+
+       1,089848035 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        320,444770      task-clock (msec)         #    0,292 CPUs utilized          
+               186      context-switches          #    0,580 K/sec                  
+                10      cpu-migrations            #    0,031 K/sec                  
+             4.257      page-faults               #    0,013 M/sec                  
+     1.086.341.696      cycles                    #    3,390 GHz                      (83,64%)
+       204.975.502      stalled-cycles-frontend   #   18,87% frontend cycles idle     (81,37%)
+       362.004.016      stalled-cycles-backend    #   33,32% backend  cycles idle     (35,30%)
+     1.002.296.644      instructions              #    0,92  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (53,83%)
+       239.021.980      branches                  #  745,907 M/sec                    (68,56%)
+           912.761      branch-misses             #    0,38% of all branches          (84,56%)
+
+       1,099063349 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        322,068408      task-clock (msec)         #    0,291 CPUs utilized          
+               191      context-switches          #    0,593 K/sec                  
+                10      cpu-migrations            #    0,031 K/sec                  
+             4.251      page-faults               #    0,013 M/sec                  
+     1.096.297.300      cycles                    #    3,404 GHz                      (81,56%)
+       210.980.257      stalled-cycles-frontend   #   19,24% frontend cycles idle     (83,53%)
+       345.858.619      stalled-cycles-backend    #   31,55% backend  cycles idle     (35,94%)
+       989.909.382      instructions              #    0,90  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (53,33%)
+       234.480.675      branches                  #  728,046 M/sec                    (69,14%)
+           923.918      branch-misses             #    0,39% of all branches          (83,77%)
+
+       1,108625155 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        319,593411      task-clock (msec)         #    0,291 CPUs utilized          
+               189      context-switches          #    0,591 K/sec                  
+                14      cpu-migrations            #    0,044 K/sec                  
+             3.742      page-faults               #    0,012 M/sec                  
+     1.082.987.859      cycles                    #    3,389 GHz                      (83,05%)
+       212.080.986      stalled-cycles-frontend   #   19,58% frontend cycles idle     (83,10%)
+       361.099.317      stalled-cycles-backend    #   33,34% backend  cycles idle     (34,44%)
+     1.010.100.625      instructions              #    0,93  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (52,42%)
+       234.624.235      branches                  #  734,134 M/sec                    (67,95%)
+           872.929      branch-misses             #    0,37% of all branches          (84,55%)
+
+       1,096589147 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        320,828951      task-clock (msec)         #    0,291 CPUs utilized          
+               201      context-switches          #    0,627 K/sec                  
+                14      cpu-migrations            #    0,044 K/sec                  
+             4.255      page-faults               #    0,013 M/sec                  
+     1.077.803.318      cycles                    #    3,359 GHz                      (83,44%)
+       213.702.895      stalled-cycles-frontend   #   19,83% frontend cycles idle     (82,24%)
+       364.586.690      stalled-cycles-backend    #   33,83% backend  cycles idle     (34,61%)
+       999.723.161      instructions              #    0,93  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (52,44%)
+       236.444.492      branches                  #  736,980 M/sec                    (68,88%)
+           899.532      branch-misses             #    0,38% of all branches          (83,67%)
+
+       1,101060427 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        313,743413      task-clock (msec)         #    0,288 CPUs utilized          
+               202      context-switches          #    0,644 K/sec                  
+                 9      cpu-migrations            #    0,029 K/sec                  
+             3.744      page-faults               #    0,012 M/sec                  
+     1.084.217.384      cycles                    #    3,456 GHz                      (83,40%)
+       219.831.384      stalled-cycles-frontend   #   20,28% frontend cycles idle     (82,89%)
+       347.402.238      stalled-cycles-backend    #   32,04% backend  cycles idle     (34,52%)
+       976.089.547      instructions              #    0,90  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (53,32%)
+       230.217.241      branches                  #  733,776 M/sec                    (69,65%)
+           861.953      branch-misses             #    0,37% of all branches          (84,83%)
+
+       1,090882861 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/king_james_bible.txt':
+
+        317,170018      task-clock (msec)         #    0,290 CPUs utilized          
+               176      context-switches          #    0,555 K/sec                  
+                11      cpu-migrations            #    0,035 K/sec                  
+             3.744      page-faults               #    0,012 M/sec                  
+     1.081.430.523      cycles                    #    3,410 GHz                      (83,05%)
+       210.564.801      stalled-cycles-frontend   #   19,47% frontend cycles idle     (82,04%)
+       363.915.719      stalled-cycles-backend    #   33,65% backend  cycles idle     (35,38%)
+       992.850.673      instructions              #    0,92  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (53,38%)
+       235.726.911      branches                  #  743,219 M/sec                    (68,43%)
+           902.826      branch-misses             #    0,38% of all branches          (83,54%)
+
+       1,093627809 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        221,445153      task-clock (msec)         #    0,222 CPUs utilized          
+               182      context-switches          #    0,822 K/sec                  
+                12      cpu-migrations            #    0,054 K/sec                  
+             3.749      page-faults               #    0,017 M/sec                  
+       723.866.701      cycles                    #    3,269 GHz                      (81,46%)
+       124.634.396      stalled-cycles-frontend   #   17,22% frontend cycles idle     (84,36%)
+       230.698.064      stalled-cycles-backend    #   31,87% backend  cycles idle     (35,27%)
+       728.895.697      instructions              #    1,01  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (53,04%)
+       177.541.866      branches                  #  801,742 M/sec                    (68,28%)
+           521.012      branch-misses             #    0,29% of all branches          (83,63%)
+
+       0,998890677 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        220,864505      task-clock (msec)         #    0,221 CPUs utilized          
+               220      context-switches          #    0,996 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             3.748      page-faults               #    0,017 M/sec                  
+       748.326.425      cycles                    #    3,388 GHz                      (77,10%)
+       129.637.980      stalled-cycles-frontend   #   17,32% frontend cycles idle     (85,59%)
+       205.288.584      stalled-cycles-backend    #   27,43% backend  cycles idle     (37,66%)
+       744.603.869      instructions              #    1,00  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (54,73%)
+       178.726.127      branches                  #  809,212 M/sec                    (69,18%)
+           537.048      branch-misses             #    0,30% of all branches          (83,67%)
+
+       1,000439168 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        222,594772      task-clock (msec)         #    0,221 CPUs utilized          
+               192      context-switches          #    0,863 K/sec                  
+                11      cpu-migrations            #    0,049 K/sec                  
+             4.257      page-faults               #    0,019 M/sec                  
+       748.004.389      cycles                    #    3,360 GHz                      (79,23%)
+       129.387.741      stalled-cycles-frontend   #   17,30% frontend cycles idle     (85,92%)
+       217.888.137      stalled-cycles-backend    #   29,13% backend  cycles idle     (35,64%)
+       796.057.616      instructions              #    1,06  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,18%)
+       188.008.782      branches                  #  844,624 M/sec                    (66,38%)
+           560.483      branch-misses             #    0,30% of all branches          (84,69%)
+
+       1,005587472 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        214,883151      task-clock (msec)         #    0,217 CPUs utilized          
+               228      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,051 K/sec                  
+             4.257      page-faults               #    0,020 M/sec                  
+       713.591.502      cycles                    #    3,321 GHz                      (81,79%)
+       127.526.264      stalled-cycles-frontend   #   17,87% frontend cycles idle     (81,02%)
+       236.826.529      stalled-cycles-backend    #   33,19% backend  cycles idle     (38,37%)
+       698.274.407      instructions              #    0,98  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (54,77%)
+       172.940.121      branches                  #  804,810 M/sec                    (70,65%)
+           535.394      branch-misses             #    0,31% of all branches          (84,09%)
+
+       0,991710873 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        220,327599      task-clock (msec)         #    0,221 CPUs utilized          
+               169      context-switches          #    0,767 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             4.257      page-faults               #    0,019 M/sec                  
+       720.780.188      cycles                    #    3,271 GHz                      (84,03%)
+       126.720.975      stalled-cycles-frontend   #   17,58% frontend cycles idle     (85,47%)
+       227.299.790      stalled-cycles-backend    #   31,54% backend  cycles idle     (30,77%)
+       721.682.206      instructions              #    1,00  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,14%)
+       175.988.796      branches                  #  798,760 M/sec                    (66,03%)
+           577.665      branch-misses             #    0,33% of all branches          (82,25%)
+
+       0,997747351 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        222,911002      task-clock (msec)         #    0,223 CPUs utilized          
+               175      context-switches          #    0,785 K/sec                  
+                11      cpu-migrations            #    0,049 K/sec                  
+             4.254      page-faults               #    0,019 M/sec                  
+       734.345.773      cycles                    #    3,294 GHz                      (82,89%)
+       127.163.843      stalled-cycles-frontend   #   17,32% frontend cycles idle     (82,66%)
+       212.009.410      stalled-cycles-backend    #   28,87% backend  cycles idle     (35,13%)
+       750.193.317      instructions              #    1,02  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (55,35%)
+       178.041.087      branches                  #  798,709 M/sec                    (71,27%)
+           555.750      branch-misses             #    0,31% of all branches          (84,96%)
+
+       0,999232347 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        219,195303      task-clock (msec)         #    0,220 CPUs utilized          
+               193      context-switches          #    0,880 K/sec                  
+                10      cpu-migrations            #    0,046 K/sec                  
+             4.255      page-faults               #    0,019 M/sec                  
+       726.146.591      cycles                    #    3,313 GHz                      (81,06%)
+       127.923.659      stalled-cycles-frontend   #   17,62% frontend cycles idle     (82,29%)
+       225.859.019      stalled-cycles-backend    #   31,10% backend  cycles idle     (37,54%)
+       742.860.879      instructions              #    1,02  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (55,46%)
+       176.007.805      branches                  #  802,973 M/sec                    (70,52%)
+           572.217      branch-misses             #    0,33% of all branches          (85,37%)
+
+       0,995615853 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        226,653531      task-clock (msec)         #    0,225 CPUs utilized          
+               176      context-switches          #    0,777 K/sec                  
+                13      cpu-migrations            #    0,057 K/sec                  
+             4.256      page-faults               #    0,019 M/sec                  
+       718.639.968      cycles                    #    3,171 GHz                      (84,05%)
+       121.506.575      stalled-cycles-frontend   #   16,91% frontend cycles idle     (80,51%)
+       216.678.927      stalled-cycles-backend    #   30,15% backend  cycles idle     (36,12%)
+       706.917.121      instructions              #    0,98  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (56,69%)
+       175.387.121      branches                  #  773,812 M/sec                    (70,85%)
+           579.578      branch-misses             #    0,33% of all branches          (85,81%)
+
+       1,007918899 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        215,138819      task-clock (msec)         #    0,217 CPUs utilized          
+               162      context-switches          #    0,753 K/sec                  
+                 8      cpu-migrations            #    0,037 K/sec                  
+             3.745      page-faults               #    0,017 M/sec                  
+       720.029.609      cycles                    #    3,347 GHz                      (81,17%)
+       124.708.567      stalled-cycles-frontend   #   17,32% frontend cycles idle     (83,35%)
+       226.092.466      stalled-cycles-backend    #   31,40% backend  cycles idle     (36,46%)
+       728.158.616      instructions              #    1,01  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (52,52%)
+       180.644.143      branches                  #  839,663 M/sec                    (67,51%)
+           548.608      branch-misses             #    0,30% of all branches          (84,13%)
+
+       0,991254928 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/king_james_bible.txt':
+
+        221,903447      task-clock (msec)         #    0,222 CPUs utilized          
+               185      context-switches          #    0,834 K/sec                  
+                13      cpu-migrations            #    0,059 K/sec                  
+             4.251      page-faults               #    0,019 M/sec                  
+       717.831.726      cycles                    #    3,235 GHz                      (83,21%)
+       123.879.513      stalled-cycles-frontend   #   17,26% frontend cycles idle     (83,16%)
+       210.938.072      stalled-cycles-backend    #   29,39% backend  cycles idle     (34,91%)
+       752.035.946      instructions              #    1,05  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (53,63%)
+       175.732.282      branches                  #  791,931 M/sec                    (69,83%)
+           547.657      branch-misses             #    0,31% of all branches          (85,69%)
+
+       0,997914811 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        217,685246      task-clock (msec)         #    0,219 CPUs utilized          
+               189      context-switches          #    0,868 K/sec                  
+                12      cpu-migrations            #    0,055 K/sec                  
+             4.258      page-faults               #    0,020 M/sec                  
+       710.259.475      cycles                    #    3,263 GHz                      (83,28%)
+       119.011.537      stalled-cycles-frontend   #   16,76% frontend cycles idle     (82,86%)
+       247.716.989      stalled-cycles-backend    #   34,88% backend  cycles idle     (35,13%)
+       715.910.953      instructions              #    1,01  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (53,47%)
+       177.225.984      branches                  #  814,139 M/sec                    (68,60%)
+           551.823      branch-misses             #    0,31% of all branches          (83,68%)
+
+       0,993709338 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        220,699819      task-clock (msec)         #    0,221 CPUs utilized          
+               180      context-switches          #    0,816 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             4.257      page-faults               #    0,019 M/sec                  
+       726.583.606      cycles                    #    3,292 GHz                      (83,43%)
+       129.716.116      stalled-cycles-frontend   #   17,85% frontend cycles idle     (82,30%)
+       207.040.318      stalled-cycles-backend    #   28,50% backend  cycles idle     (35,65%)
+       778.630.158      instructions              #    1,07  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (52,62%)
+       184.024.922      branches                  #  833,825 M/sec                    (67,35%)
+           567.522      branch-misses             #    0,31% of all branches          (82,32%)
+
+       1,000240293 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        219,784627      task-clock (msec)         #    0,216 CPUs utilized          
+               164      context-switches          #    0,746 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             3.742      page-faults               #    0,017 M/sec                  
+       726.714.969      cycles                    #    3,306 GHz                      (81,72%)
+       126.109.155      stalled-cycles-frontend   #   17,35% frontend cycles idle     (83,17%)
+       211.541.036      stalled-cycles-backend    #   29,11% backend  cycles idle     (35,66%)
+       758.776.882      instructions              #    1,04  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (52,70%)
+       180.888.403      branches                  #  823,026 M/sec                    (67,64%)
+           535.994      branch-misses             #    0,30% of all branches          (83,45%)
+
+       1,016307459 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        220,879069      task-clock (msec)         #    0,211 CPUs utilized          
+               213      context-switches          #    0,964 K/sec                  
+                10      cpu-migrations            #    0,045 K/sec                  
+             3.749      page-faults               #    0,017 M/sec                  
+       731.331.858      cycles                    #    3,311 GHz                      (81,42%)
+       126.531.681      stalled-cycles-frontend   #   17,30% frontend cycles idle     (82,93%)
+       218.110.801      stalled-cycles-backend    #   29,82% backend  cycles idle     (37,09%)
+       757.668.399      instructions              #    1,04  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (53,15%)
+       181.415.702      branches                  #  821,335 M/sec                    (67,16%)
+           579.728      branch-misses             #    0,32% of all branches          (81,76%)
+
+       1,047443323 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        218,953380      task-clock (msec)         #    0,217 CPUs utilized          
+               215      context-switches          #    0,982 K/sec                  
+                10      cpu-migrations            #    0,046 K/sec                  
+             3.743      page-faults               #    0,017 M/sec                  
+       720.407.917      cycles                    #    3,290 GHz                      (82,38%)
+       119.082.530      stalled-cycles-frontend   #   16,53% frontend cycles idle     (83,33%)
+       226.749.470      stalled-cycles-backend    #   31,48% backend  cycles idle     (36,65%)
+       762.872.406      instructions              #    1,06  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (54,53%)
+       181.973.430      branches                  #  831,106 M/sec                    (69,69%)
+           555.527      branch-misses             #    0,31% of all branches          (85,35%)
+
+       1,008303854 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        217,631693      task-clock (msec)         #    0,218 CPUs utilized          
+               186      context-switches          #    0,855 K/sec                  
+                12      cpu-migrations            #    0,055 K/sec                  
+             4.255      page-faults               #    0,020 M/sec                  
+       707.696.444      cycles                    #    3,252 GHz                      (83,31%)
+       117.428.017      stalled-cycles-frontend   #   16,59% frontend cycles idle     (81,25%)
+       256.542.624      stalled-cycles-backend    #   36,25% backend  cycles idle     (36,65%)
+       745.242.132      instructions              #    1,05  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (52,12%)
+       181.156.696      branches                  #  832,400 M/sec                    (67,01%)
+           548.060      branch-misses             #    0,30% of all branches          (83,21%)
+
+       0,998997630 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        218,985260      task-clock (msec)         #    0,219 CPUs utilized          
+               173      context-switches          #    0,790 K/sec                  
+                10      cpu-migrations            #    0,046 K/sec                  
+             4.255      page-faults               #    0,019 M/sec                  
+       706.561.872      cycles                    #    3,227 GHz                      (84,58%)
+       124.070.337      stalled-cycles-frontend   #   17,56% frontend cycles idle     (81,47%)
+       210.495.570      stalled-cycles-backend    #   29,79% backend  cycles idle     (35,60%)
+       751.936.017      instructions              #    1,06  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (51,30%)
+       179.770.492      branches                  #  820,925 M/sec                    (66,97%)
+           521.348      branch-misses             #    0,29% of all branches          (82,11%)
+
+       0,999377299 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        227,301366      task-clock (msec)         #    0,225 CPUs utilized          
+               187      context-switches          #    0,823 K/sec                  
+                10      cpu-migrations            #    0,044 K/sec                  
+             4.255      page-faults               #    0,019 M/sec                  
+       740.838.799      cycles                    #    3,259 GHz                      (81,20%)
+       125.885.088      stalled-cycles-frontend   #   16,99% frontend cycles idle     (80,63%)
+       239.763.726      stalled-cycles-backend    #   32,36% backend  cycles idle     (38,53%)
+       763.826.467      instructions              #    1,03  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (54,25%)
+       178.885.853      branches                  #  786,999 M/sec                    (69,72%)
+           563.879      branch-misses             #    0,32% of all branches          (84,31%)
+
+       1,009738209 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        218,766298      task-clock (msec)         #    0,218 CPUs utilized          
+               200      context-switches          #    0,914 K/sec                  
+                 9      cpu-migrations            #    0,041 K/sec                  
+             3.744      page-faults               #    0,017 M/sec                  
+       730.611.200      cycles                    #    3,340 GHz                      (81,99%)
+       130.463.537      stalled-cycles-frontend   #   17,86% frontend cycles idle     (82,92%)
+       219.653.331      stalled-cycles-backend    #   30,06% backend  cycles idle     (35,73%)
+       753.772.720      instructions              #    1,03  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (52,64%)
+       179.845.416      branches                  #  822,089 M/sec                    (68,96%)
+           578.626      branch-misses             #    0,32% of all branches          (84,16%)
+
+       1,001780019 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/king_james_bible.txt':
+
+        222,218542      task-clock (msec)         #    0,222 CPUs utilized          
+               178      context-switches          #    0,801 K/sec                  
+                10      cpu-migrations            #    0,045 K/sec                  
+             3.743      page-faults               #    0,017 M/sec                  
+       729.250.913      cycles                    #    3,282 GHz                      (82,06%)
+       128.132.663      stalled-cycles-frontend   #   17,57% frontend cycles idle     (84,17%)
+       205.435.287      stalled-cycles-backend    #   28,17% backend  cycles idle     (36,69%)
+       752.031.590      instructions              #    1,03  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (52,81%)
+       176.465.366      branches                  #  794,107 M/sec                    (69,03%)
+           541.216      branch-misses             #    0,31% of all branches          (83,65%)
+
+       1,000023057 seconds time elapsed
+

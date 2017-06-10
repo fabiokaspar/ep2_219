@@ -1,0 +1,190 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      81517,783714      task-clock (msec)         #    0,990 CPUs utilized          
+             6.956      context-switches          #    0,085 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             2.166      page-faults               #    0,027 K/sec                  
+   303.001.425.540      cycles                    #    3,717 GHz                      (83,33%)
+     3.293.784.913      stalled-cycles-frontend   #    1,09% frontend cycles idle     (83,32%)
+   232.000.485.435      stalled-cycles-backend    #   76,57% backend  cycles idle     (33,35%)
+   241.902.554.818      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     1.124.525.020      branches                  #   13,795 M/sec                    (66,67%)
+         6.655.265      branch-misses             #    0,59% of all branches          (83,34%)
+
+      82,317613409 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      82910,411584      task-clock (msec)         #    0,989 CPUs utilized          
+             9.625      context-switches          #    0,116 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             2.166      page-faults               #    0,026 K/sec                  
+   303.723.212.594      cycles                    #    3,663 GHz                      (83,32%)
+     1.144.743.099      stalled-cycles-frontend   #    0,38% frontend cycles idle     (83,33%)
+   234.338.023.731      stalled-cycles-backend    #   77,16% backend  cycles idle     (33,35%)
+   241.906.931.845      instructions              #    0,80  insns per cycle        
+                                                  #    0,97  stalled cycles per insn  (50,01%)
+     1.130.381.637      branches                  #   13,634 M/sec                    (66,68%)
+         6.198.066      branch-misses             #    0,55% of all branches          (83,35%)
+
+      83,797789544 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      82484,623894      task-clock (msec)         #    0,990 CPUs utilized          
+             8.155      context-switches          #    0,099 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.161      page-faults               #    0,026 K/sec                  
+   302.460.546.956      cycles                    #    3,667 GHz                      (83,34%)
+     1.275.013.746      stalled-cycles-frontend   #    0,42% frontend cycles idle     (83,34%)
+   232.915.494.859      stalled-cycles-backend    #   77,01% backend  cycles idle     (33,33%)
+   241.892.052.300      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     1.130.133.761      branches                  #   13,701 M/sec                    (66,66%)
+         6.069.043      branch-misses             #    0,54% of all branches          (83,33%)
+
+      83,342782006 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      82319,862903      task-clock (msec)         #    0,990 CPUs utilized          
+             8.572      context-switches          #    0,104 K/sec                  
+                 5      cpu-migrations            #    0,000 K/sec                  
+             2.166      page-faults               #    0,026 K/sec                  
+   301.739.390.582      cycles                    #    3,665 GHz                      (83,33%)
+     1.431.746.760      stalled-cycles-frontend   #    0,47% frontend cycles idle     (83,33%)
+   232.031.253.518      stalled-cycles-backend    #   76,90% backend  cycles idle     (33,35%)
+   241.945.368.009      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     1.127.728.895      branches                  #   13,699 M/sec                    (66,67%)
+         6.140.225      branch-misses             #    0,54% of all branches          (83,33%)
+
+      83,166465562 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      82254,405157      task-clock (msec)         #    0,990 CPUs utilized          
+             8.067      context-switches          #    0,098 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             1.650      page-faults               #    0,020 K/sec                  
+   301.573.888.013      cycles                    #    3,666 GHz                      (83,29%)
+     1.387.700.231      stalled-cycles-frontend   #    0,46% frontend cycles idle     (83,33%)
+   231.972.449.509      stalled-cycles-backend    #   76,92% backend  cycles idle     (33,38%)
+   241.885.025.198      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,03%)
+     1.136.582.049      branches                  #   13,818 M/sec                    (66,68%)
+         5.992.325      branch-misses             #    0,53% of all branches          (83,33%)
+
+      83,105944618 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      82245,505133      task-clock (msec)         #    0,990 CPUs utilized          
+             8.205      context-switches          #    0,100 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             1.654      page-faults               #    0,020 K/sec                  
+   301.406.580.518      cycles                    #    3,665 GHz                      (83,33%)
+     1.356.408.537      stalled-cycles-frontend   #    0,45% frontend cycles idle     (83,33%)
+   231.871.261.949      stalled-cycles-backend    #   76,93% backend  cycles idle     (33,34%)
+   241.851.365.715      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     1.126.066.668      branches                  #   13,692 M/sec                    (66,66%)
+         6.121.495      branch-misses             #    0,54% of all branches          (83,34%)
+
+      83,104273066 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      81555,089040      task-clock (msec)         #    0,990 CPUs utilized          
+             6.937      context-switches          #    0,085 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             2.160      page-faults               #    0,026 K/sec                  
+   303.011.103.800      cycles                    #    3,715 GHz                      (83,34%)
+     3.257.665.521      stalled-cycles-frontend   #    1,08% frontend cycles idle     (83,33%)
+   231.878.461.393      stalled-cycles-backend    #   76,52% backend  cycles idle     (33,34%)
+   241.807.600.848      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     1.126.955.210      branches                  #   13,818 M/sec                    (66,66%)
+         5.816.607      branch-misses             #    0,52% of all branches          (83,33%)
+
+      82,357153368 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      81607,626591      task-clock (msec)         #    0,990 CPUs utilized          
+             6.949      context-switches          #    0,085 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             2.163      page-faults               #    0,027 K/sec                  
+   302.892.465.326      cycles                    #    3,712 GHz                      (83,32%)
+     3.095.627.123      stalled-cycles-frontend   #    1,02% frontend cycles idle     (83,33%)
+   231.961.964.380      stalled-cycles-backend    #   76,58% backend  cycles idle     (33,35%)
+   241.932.496.360      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     1.124.372.550      branches                  #   13,778 M/sec                    (66,67%)
+         5.586.463      branch-misses             #    0,50% of all branches          (83,34%)
+
+      82,408080652 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      82271,646708      task-clock (msec)         #    0,990 CPUs utilized          
+             8.180      context-switches          #    0,099 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.652      page-faults               #    0,020 K/sec                  
+   301.469.047.652      cycles                    #    3,664 GHz                      (83,32%)
+     1.242.322.436      stalled-cycles-frontend   #    0,41% frontend cycles idle     (83,33%)
+   232.067.089.004      stalled-cycles-backend    #   76,98% backend  cycles idle     (33,36%)
+   241.841.512.362      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     1.122.719.273      branches                  #   13,646 M/sec                    (66,68%)
+         5.965.857      branch-misses             #    0,53% of all branches          (83,34%)
+
+      83,128767046 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/king_james_bible.txt':
+
+      81550,796552      task-clock (msec)         #    0,990 CPUs utilized          
+             6.974      context-switches          #    0,086 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+               810      page-faults               #    0,010 K/sec                  
+   302.930.821.703      cycles                    #    3,715 GHz                      (83,34%)
+     3.135.452.354      stalled-cycles-frontend   #    1,04% frontend cycles idle     (83,33%)
+   231.966.909.462      stalled-cycles-backend    #   76,57% backend  cycles idle     (33,33%)
+   241.810.506.941      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     1.120.984.009      branches                  #   13,746 M/sec                    (66,66%)
+         5.942.268      branch-misses             #    0,53% of all branches          (83,33%)
+
+      82,352958341 seconds time elapsed
+

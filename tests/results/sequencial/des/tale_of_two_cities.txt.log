@@ -1,0 +1,190 @@
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1193,018642      task-clock (msec)         #    0,830 CPUs utilized          
+               150      context-switches          #    0,126 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.233      page-faults               #    0,001 M/sec                  
+     4.421.844.597      cycles                    #    3,706 GHz                      (83,23%)
+        62.430.110      stalled-cycles-frontend   #    1,41% frontend cycles idle     (83,24%)
+     1.518.539.350      stalled-cycles-backend    #   34,34% backend  cycles idle     (33,53%)
+     9.910.129.570      instructions              #    2,24  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,53%)
+       267.944.761      branches                  #  224,594 M/sec                    (66,94%)
+         2.848.670      branch-misses             #    1,06% of all branches          (83,38%)
+
+       1,437800429 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1197,665860      task-clock (msec)         #    0,890 CPUs utilized          
+               156      context-switches          #    0,130 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.234      page-faults               #    0,001 M/sec                  
+     4.416.402.491      cycles                    #    3,688 GHz                      (83,30%)
+        61.008.739      stalled-cycles-frontend   #    1,38% frontend cycles idle     (83,30%)
+     1.519.527.916      stalled-cycles-backend    #   34,41% backend  cycles idle     (33,40%)
+     9.951.237.868      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,38%)
+       267.121.162      branches                  #  223,035 M/sec                    (66,96%)
+         2.975.354      branch-misses             #    1,11% of all branches          (83,41%)
+
+       1,346293701 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1194,626639      task-clock (msec)         #    0,888 CPUs utilized          
+               133      context-switches          #    0,111 K/sec                  
+                 2      cpu-migrations            #    0,002 K/sec                  
+             1.232      page-faults               #    0,001 M/sec                  
+     4.402.695.400      cycles                    #    3,685 GHz                      (83,24%)
+        43.802.798      stalled-cycles-frontend   #    0,99% frontend cycles idle     (83,29%)
+     1.514.399.326      stalled-cycles-backend    #   34,40% backend  cycles idle     (33,69%)
+     9.912.404.484      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,53%)
+       265.772.472      branches                  #  222,473 M/sec                    (66,93%)
+         2.250.616      branch-misses             #    0,85% of all branches          (83,32%)
+
+       1,344985529 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1203,394114      task-clock (msec)         #    0,890 CPUs utilized          
+               158      context-switches          #    0,131 K/sec                  
+                 3      cpu-migrations            #    0,002 K/sec                  
+             1.233      page-faults               #    0,001 M/sec                  
+     4.405.894.763      cycles                    #    3,661 GHz                      (83,40%)
+        39.822.469      stalled-cycles-frontend   #    0,90% frontend cycles idle     (83,38%)
+     1.528.166.933      stalled-cycles-backend    #   34,68% backend  cycles idle     (33,22%)
+     9.900.584.797      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,37%)
+       264.347.728      branches                  #  219,668 M/sec                    (66,91%)
+         2.942.176      branch-misses             #    1,11% of all branches          (83,43%)
+
+       1,352334184 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1189,527337      task-clock (msec)         #    0,888 CPUs utilized          
+               146      context-switches          #    0,123 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.233      page-faults               #    0,001 M/sec                  
+     4.413.853.953      cycles                    #    3,711 GHz                      (83,21%)
+        61.440.772      stalled-cycles-frontend   #    1,39% frontend cycles idle     (83,43%)
+     1.519.914.141      stalled-cycles-backend    #   34,44% backend  cycles idle     (33,37%)
+     9.939.479.872      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,08%)
+       263.835.854      branches                  #  221,799 M/sec                    (66,67%)
+         2.606.785      branch-misses             #    0,99% of all branches          (83,15%)
+
+       1,339242890 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1198,806563      task-clock (msec)         #    0,888 CPUs utilized          
+               144      context-switches          #    0,120 K/sec                  
+                 2      cpu-migrations            #    0,002 K/sec                  
+             1.236      page-faults               #    0,001 M/sec                  
+     4.410.351.308      cycles                    #    3,679 GHz                      (83,31%)
+        42.524.328      stalled-cycles-frontend   #    0,96% frontend cycles idle     (83,35%)
+     1.519.818.814      stalled-cycles-backend    #   34,46% backend  cycles idle     (33,34%)
+     9.910.998.227      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,43%)
+       267.146.290      branches                  #  222,844 M/sec                    (67,02%)
+         2.863.507      branch-misses             #    1,07% of all branches          (83,47%)
+
+       1,349397273 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1204,332404      task-clock (msec)         #    0,889 CPUs utilized          
+               148      context-switches          #    0,123 K/sec                  
+                 2      cpu-migrations            #    0,002 K/sec                  
+             1.236      page-faults               #    0,001 M/sec                  
+     4.408.787.169      cycles                    #    3,661 GHz                      (83,35%)
+        44.427.621      stalled-cycles-frontend   #    1,01% frontend cycles idle     (83,39%)
+     1.517.938.297      stalled-cycles-backend    #   34,43% backend  cycles idle     (33,44%)
+     9.962.438.881      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+       267.275.340      branches                  #  221,928 M/sec                    (66,62%)
+         3.382.048      branch-misses             #    1,27% of all branches          (83,23%)
+
+       1,354175983 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1193,566282      task-clock (msec)         #    0,885 CPUs utilized          
+               149      context-switches          #    0,125 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.231      page-faults               #    0,001 M/sec                  
+     4.421.755.709      cycles                    #    3,705 GHz                      (83,24%)
+        68.405.313      stalled-cycles-frontend   #    1,55% frontend cycles idle     (83,24%)
+     1.522.536.383      stalled-cycles-backend    #   34,43% backend  cycles idle     (33,52%)
+     9.922.389.441      instructions              #    2,24  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,43%)
+       266.799.694      branches                  #  223,532 M/sec                    (66,91%)
+         2.846.461      branch-misses             #    1,07% of all branches          (83,35%)
+
+       1,348951412 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1191,416344      task-clock (msec)         #    0,889 CPUs utilized          
+               144      context-switches          #    0,121 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.233      page-faults               #    0,001 M/sec                  
+     4.392.136.421      cycles                    #    3,686 GHz                      (83,21%)
+        44.479.258      stalled-cycles-frontend   #    1,01% frontend cycles idle     (83,24%)
+     1.524.236.683      stalled-cycles-backend    #   34,70% backend  cycles idle     (33,55%)
+     9.941.220.166      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,45%)
+       262.644.027      branches                  #  220,447 M/sec                    (67,04%)
+         1.605.805      branch-misses             #    0,61% of all branches          (83,47%)
+
+       1,340246652 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/tale_of_two_cities.txt':
+
+       1200,565160      task-clock (msec)         #    0,889 CPUs utilized          
+               150      context-switches          #    0,125 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+             1.233      page-faults               #    0,001 M/sec                  
+     4.417.847.474      cycles                    #    3,680 GHz                      (83,33%)
+        55.098.868      stalled-cycles-frontend   #    1,25% frontend cycles idle     (83,37%)
+     1.522.851.801      stalled-cycles-backend    #   34,47% backend  cycles idle     (33,31%)
+     9.890.343.796      instructions              #    2,24  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,43%)
+       262.288.447      branches                  #  218,471 M/sec                    (67,01%)
+         2.858.927      branch-misses             #    1,09% of all branches          (83,52%)
+
+       1,350255648 seconds time elapsed
+

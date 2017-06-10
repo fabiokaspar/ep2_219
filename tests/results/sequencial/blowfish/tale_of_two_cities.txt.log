@@ -1,0 +1,190 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14902,231585      task-clock (msec)         #    0,989 CPUs utilized          
+             1.421      context-switches          #    0,095 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.234      page-faults               #    0,083 K/sec                  
+    54.753.496.203      cycles                    #    3,674 GHz                      (83,32%)
+       418.088.226      stalled-cycles-frontend   #    0,76% frontend cycles idle     (83,36%)
+    42.013.196.993      stalled-cycles-backend    #   76,73% backend  cycles idle     (33,34%)
+    43.828.373.081      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,03%)
+       209.917.917      branches                  #   14,086 M/sec                    (66,69%)
+         1.152.716      branch-misses             #    0,55% of all branches          (83,33%)
+
+      15,063482642 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14928,855871      task-clock (msec)         #    0,990 CPUs utilized          
+             1.307      context-switches          #    0,088 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.235      page-faults               #    0,083 K/sec                  
+    54.815.640.515      cycles                    #    3,672 GHz                      (83,33%)
+       409.427.753      stalled-cycles-frontend   #    0,75% frontend cycles idle     (83,33%)
+    42.040.545.861      stalled-cycles-backend    #   76,69% backend  cycles idle     (33,34%)
+    43.872.500.258      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (49,98%)
+       214.851.404      branches                  #   14,392 M/sec                    (66,64%)
+         1.296.008      branch-misses             #    0,60% of all branches          (83,31%)
+
+      15,083543447 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14943,622904      task-clock (msec)         #    0,990 CPUs utilized          
+             1.312      context-switches          #    0,088 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.234      page-faults               #    0,083 K/sec                  
+    54.834.408.648      cycles                    #    3,669 GHz                      (83,32%)
+       346.875.301      stalled-cycles-frontend   #    0,63% frontend cycles idle     (83,35%)
+    42.091.386.758      stalled-cycles-backend    #   76,76% backend  cycles idle     (33,34%)
+    43.850.766.238      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,03%)
+       214.145.229      branches                  #   14,330 M/sec                    (66,71%)
+         1.186.650      branch-misses             #    0,55% of all branches          (83,33%)
+
+      15,098860303 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14940,258821      task-clock (msec)         #    0,990 CPUs utilized          
+             1.318      context-switches          #    0,088 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.234      page-faults               #    0,083 K/sec                  
+    54.796.370.044      cycles                    #    3,668 GHz                      (83,32%)
+       331.350.286      stalled-cycles-frontend   #    0,60% frontend cycles idle     (83,32%)
+    42.081.121.042      stalled-cycles-backend    #   76,80% backend  cycles idle     (33,36%)
+    43.846.940.359      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       212.703.304      branches                  #   14,237 M/sec                    (66,69%)
+         1.094.504      branch-misses             #    0,51% of all branches          (83,35%)
+
+      15,096965632 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14617,182780      task-clock (msec)         #    0,990 CPUs utilized          
+             1.280      context-switches          #    0,088 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.237      page-faults               #    0,085 K/sec                  
+    54.827.208.994      cycles                    #    3,751 GHz                      (83,30%)
+       434.855.113      stalled-cycles-frontend   #    0,79% frontend cycles idle     (83,33%)
+    42.050.691.184      stalled-cycles-backend    #   76,70% backend  cycles idle     (33,38%)
+    43.834.515.771      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       210.305.984      branches                  #   14,388 M/sec                    (66,68%)
+         1.062.491      branch-misses             #    0,51% of all branches          (83,35%)
+
+      14,772067942 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14774,887623      task-clock (msec)         #    0,990 CPUs utilized          
+             1.290      context-switches          #    0,087 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.236      page-faults               #    0,084 K/sec                  
+    54.917.087.716      cycles                    #    3,717 GHz                      (83,32%)
+       595.656.578      stalled-cycles-frontend   #    1,08% frontend cycles idle     (83,34%)
+    42.029.913.587      stalled-cycles-backend    #   76,53% backend  cycles idle     (33,34%)
+    43.839.813.526      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,03%)
+       213.451.363      branches                  #   14,447 M/sec                    (66,70%)
+         1.192.341      branch-misses             #    0,56% of all branches          (83,34%)
+
+      14,929850012 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14794,580233      task-clock (msec)         #    0,990 CPUs utilized          
+             1.302      context-switches          #    0,088 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.236      page-faults               #    0,084 K/sec                  
+    54.943.186.320      cycles                    #    3,714 GHz                      (83,33%)
+       614.799.552      stalled-cycles-frontend   #    1,12% frontend cycles idle     (83,32%)
+    42.030.359.599      stalled-cycles-backend    #   76,50% backend  cycles idle     (33,37%)
+    43.838.268.658      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,06%)
+       203.736.510      branches                  #   13,771 M/sec                    (66,69%)
+         1.079.464      branch-misses             #    0,53% of all branches          (83,34%)
+
+      14,949096985 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14793,230294      task-clock (msec)         #    0,990 CPUs utilized          
+             1.290      context-switches          #    0,087 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.232      page-faults               #    0,083 K/sec                  
+    54.927.907.270      cycles                    #    3,713 GHz                      (83,33%)
+       590.954.116      stalled-cycles-frontend   #    1,08% frontend cycles idle     (83,32%)
+    42.038.019.706      stalled-cycles-backend    #   76,53% backend  cycles idle     (33,35%)
+    43.837.024.922      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,04%)
+       210.179.224      branches                  #   14,208 M/sec                    (66,68%)
+         1.247.539      branch-misses             #    0,59% of all branches          (83,33%)
+
+      14,948061609 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14974,732515      task-clock (msec)         #    0,990 CPUs utilized          
+             1.307      context-switches          #    0,087 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.234      page-faults               #    0,082 K/sec                  
+    54.908.506.061      cycles                    #    3,667 GHz                      (83,35%)
+       311.364.726      stalled-cycles-frontend   #    0,57% frontend cycles idle     (83,33%)
+    42.174.111.620      stalled-cycles-backend    #   76,81% backend  cycles idle     (33,35%)
+    43.868.485.852      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,02%)
+       215.380.806      branches                  #   14,383 M/sec                    (66,66%)
+         1.128.203      branch-misses             #    0,52% of all branches          (83,33%)
+
+      15,132311117 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/tale_of_two_cities.txt':
+
+      14936,157411      task-clock (msec)         #    0,990 CPUs utilized          
+             1.310      context-switches          #    0,088 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.234      page-faults               #    0,083 K/sec                  
+    54.749.147.128      cycles                    #    3,666 GHz                      (83,31%)
+       288.063.028      stalled-cycles-frontend   #    0,53% frontend cycles idle     (83,28%)
+    42.013.242.722      stalled-cycles-backend    #   76,74% backend  cycles idle     (33,41%)
+    43.806.672.687      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,04%)
+       208.801.514      branches                  #   13,980 M/sec                    (66,69%)
+         1.179.337      branch-misses             #    0,56% of all branches          (83,35%)
+
+      15,091623829 seconds time elapsed
+

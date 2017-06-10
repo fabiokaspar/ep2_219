@@ -1,0 +1,190 @@
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        569,034057      task-clock (msec)         #    0,668 CPUs utilized          
+               115      context-switches          #    0,202 K/sec                  
+                 3      cpu-migrations            #    0,005 K/sec                  
+             1.729      page-faults               #    0,003 M/sec                  
+     2.080.906.802      cycles                    #    3,657 GHz                      (83,13%)
+        38.038.272      stalled-cycles-frontend   #    1,83% frontend cycles idle     (82,63%)
+       826.541.684      stalled-cycles-backend    #   39,72% backend  cycles idle     (34,24%)
+     4.273.505.568      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,80%)
+        85.469.667      branches                  #  150,201 M/sec                    (67,19%)
+            35.985      branch-misses             #    0,04% of all branches          (83,34%)
+
+       0,851457924 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        562,444778      task-clock (msec)         #    0,667 CPUs utilized          
+                82      context-switches          #    0,146 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.726      page-faults               #    0,003 M/sec                  
+     2.077.341.519      cycles                    #    3,693 GHz                      (83,06%)
+        46.113.199      stalled-cycles-frontend   #    2,22% frontend cycles idle     (83,14%)
+       820.376.188      stalled-cycles-backend    #   39,49% backend  cycles idle     (33,80%)
+     4.257.971.852      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,36%)
+        84.522.153      branches                  #  150,276 M/sec                    (66,85%)
+            29.005      branch-misses             #    0,03% of all branches          (83,17%)
+
+       0,843397227 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        567,833529      task-clock (msec)         #    0,668 CPUs utilized          
+                81      context-switches          #    0,143 K/sec                  
+                 3      cpu-migrations            #    0,005 K/sec                  
+             1.729      page-faults               #    0,003 M/sec                  
+     2.082.496.198      cycles                    #    3,667 GHz                      (83,13%)
+        46.175.911      stalled-cycles-frontend   #    2,22% frontend cycles idle     (82,62%)
+       800.791.161      stalled-cycles-backend    #   38,45% backend  cycles idle     (34,46%)
+     4.221.861.837      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,09%)
+        85.927.045      branches                  #  151,324 M/sec                    (67,28%)
+            30.831      branch-misses             #    0,04% of all branches          (83,47%)
+
+       0,849528046 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        573,398015      task-clock (msec)         #    0,671 CPUs utilized          
+                86      context-switches          #    0,150 K/sec                  
+                 2      cpu-migrations            #    0,003 K/sec                  
+             1.726      page-faults               #    0,003 M/sec                  
+     2.081.420.631      cycles                    #    3,630 GHz                      (83,28%)
+        38.909.202      stalled-cycles-frontend   #    1,87% frontend cycles idle     (83,28%)
+       816.531.454      stalled-cycles-backend    #   39,23% backend  cycles idle     (33,44%)
+     4.276.437.068      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,81%)
+        84.013.877      branches                  #  146,519 M/sec                    (67,27%)
+            27.867      branch-misses             #    0,03% of all branches          (83,53%)
+
+       0,854390447 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        561,920074      task-clock (msec)         #    0,667 CPUs utilized          
+                90      context-switches          #    0,160 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.727      page-faults               #    0,003 M/sec                  
+     2.080.934.845      cycles                    #    3,703 GHz                      (83,37%)
+        46.176.823      stalled-cycles-frontend   #    2,22% frontend cycles idle     (83,34%)
+       814.787.466      stalled-cycles-backend    #   39,15% backend  cycles idle     (33,29%)
+     4.250.885.182      instructions              #    2,04  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,38%)
+        85.677.638      branches                  #  152,473 M/sec                    (66,98%)
+            30.325      branch-misses             #    0,04% of all branches          (83,35%)
+
+       0,842408130 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        565,989602      task-clock (msec)         #    0,668 CPUs utilized          
+                91      context-switches          #    0,161 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.729      page-faults               #    0,003 M/sec                  
+     2.082.576.924      cycles                    #    3,680 GHz                      (83,00%)
+        46.140.781      stalled-cycles-frontend   #    2,22% frontend cycles idle     (82,81%)
+       804.410.335      stalled-cycles-backend    #   38,63% backend  cycles idle     (34,44%)
+     4.238.031.856      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,18%)
+        86.150.232      branches                  #  152,212 M/sec                    (67,43%)
+            30.840      branch-misses             #    0,04% of all branches          (83,67%)
+
+       0,847701227 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        565,935235      task-clock (msec)         #    0,669 CPUs utilized          
+                92      context-switches          #    0,163 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.726      page-faults               #    0,003 M/sec                  
+     2.075.395.198      cycles                    #    3,667 GHz                      (83,01%)
+        41.685.211      stalled-cycles-frontend   #    2,01% frontend cycles idle     (83,63%)
+       810.831.215      stalled-cycles-backend    #   39,07% backend  cycles idle     (33,36%)
+     4.276.149.067      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,38%)
+        86.091.107      branches                  #  152,122 M/sec                    (67,01%)
+            30.485      branch-misses             #    0,04% of all branches          (83,25%)
+
+       0,846402601 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        571,867955      task-clock (msec)         #    0,670 CPUs utilized          
+                96      context-switches          #    0,168 K/sec                  
+                 3      cpu-migrations            #    0,005 K/sec                  
+             1.727      page-faults               #    0,003 M/sec                  
+     2.080.629.359      cycles                    #    3,638 GHz                      (83,20%)
+        38.597.279      stalled-cycles-frontend   #    1,86% frontend cycles idle     (83,22%)
+       817.987.823      stalled-cycles-backend    #   39,31% backend  cycles idle     (33,58%)
+     4.262.322.763      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,07%)
+        85.424.660      branches                  #  149,378 M/sec                    (67,32%)
+            35.438      branch-misses             #    0,04% of all branches          (83,58%)
+
+       0,853555098 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        562,725598      task-clock (msec)         #    0,667 CPUs utilized          
+                80      context-switches          #    0,142 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.726      page-faults               #    0,003 M/sec                  
+     2.078.938.342      cycles                    #    3,694 GHz                      (83,24%)
+        45.414.412      stalled-cycles-frontend   #    2,18% frontend cycles idle     (83,06%)
+       812.977.557      stalled-cycles-backend    #   39,11% backend  cycles idle     (33,71%)
+     4.266.192.879      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,43%)
+        87.336.988      branches                  #  155,204 M/sec                    (66,97%)
+            30.486      branch-misses             #    0,03% of all branches          (83,34%)
+
+       0,843664059 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/ulysses.txt':
+
+        563,560019      task-clock (msec)         #    0,667 CPUs utilized          
+                86      context-switches          #    0,153 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.726      page-faults               #    0,003 M/sec                  
+     2.080.493.946      cycles                    #    3,692 GHz                      (83,48%)
+        49.890.881      stalled-cycles-frontend   #    2,40% frontend cycles idle     (83,47%)
+       821.491.722      stalled-cycles-backend    #   39,49% backend  cycles idle     (33,05%)
+     4.255.718.396      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,40%)
+        83.795.857      branches                  #  148,690 M/sec                    (66,71%)
+            31.487      branch-misses             #    0,04% of all branches          (83,05%)
+
+       0,845427325 seconds time elapsed
+

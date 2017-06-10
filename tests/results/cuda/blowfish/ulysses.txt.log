@@ -1,0 +1,1440 @@
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2128,694391      task-clock (msec)         #    0,878 CPUs utilized          
+               307      context-switches          #    0,144 K/sec                  
+                12      cpu-migrations            #    0,006 K/sec                  
+             3.594      page-faults               #    0,002 M/sec                  
+     7.901.073.919      cycles                    #    3,712 GHz                      (83,18%)
+     1.940.230.917      stalled-cycles-frontend   #   24,56% frontend cycles idle     (83,32%)
+     2.407.792.213      stalled-cycles-backend    #   30,47% backend  cycles idle     (33,74%)
+     6.609.231.633      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,35%)
+     1.475.767.996      branches                  #  693,274 M/sec                    (66,80%)
+         8.563.201      branch-misses             #    0,58% of all branches          (83,41%)
+
+       2,423851786 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2126,474193      task-clock (msec)         #    0,880 CPUs utilized          
+               288      context-switches          #    0,135 K/sec                  
+                 9      cpu-migrations            #    0,004 K/sec                  
+             3.597      page-faults               #    0,002 M/sec                  
+     7.918.460.981      cycles                    #    3,724 GHz                      (83,36%)
+     1.915.280.074      stalled-cycles-frontend   #   24,19% frontend cycles idle     (83,34%)
+     2.478.496.895      stalled-cycles-backend    #   31,30% backend  cycles idle     (33,54%)
+     6.546.467.550      instructions              #    0,83  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,16%)
+     1.456.520.175      branches                  #  684,946 M/sec                    (66,87%)
+         8.452.553      branch-misses             #    0,58% of all branches          (83,41%)
+
+       2,416959272 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2125,167671      task-clock (msec)         #    0,880 CPUs utilized          
+               290      context-switches          #    0,136 K/sec                  
+                10      cpu-migrations            #    0,005 K/sec                  
+             3.594      page-faults               #    0,002 M/sec                  
+     7.922.076.059      cycles                    #    3,728 GHz                      (83,26%)
+     1.971.136.412      stalled-cycles-frontend   #   24,88% frontend cycles idle     (83,39%)
+     2.356.934.493      stalled-cycles-backend    #   29,75% backend  cycles idle     (33,38%)
+     6.614.845.743      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,43%)
+     1.478.448.030      branches                  #  695,685 M/sec                    (67,07%)
+         8.590.154      branch-misses             #    0,58% of all branches          (83,55%)
+
+       2,415759746 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2123,876624      task-clock (msec)         #    0,880 CPUs utilized          
+               293      context-switches          #    0,138 K/sec                  
+                10      cpu-migrations            #    0,005 K/sec                  
+             3.595      page-faults               #    0,002 M/sec                  
+     7.889.488.410      cycles                    #    3,715 GHz                      (83,09%)
+     1.917.455.574      stalled-cycles-frontend   #   24,30% frontend cycles idle     (83,43%)
+     2.468.883.916      stalled-cycles-backend    #   31,29% backend  cycles idle     (33,80%)
+     6.433.000.845      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,43%)
+     1.437.982.721      branches                  #  677,056 M/sec                    (66,80%)
+         8.370.967      branch-misses             #    0,58% of all branches          (83,17%)
+
+       2,414706783 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2125,855126      task-clock (msec)         #    0,880 CPUs utilized          
+               284      context-switches          #    0,134 K/sec                  
+                13      cpu-migrations            #    0,006 K/sec                  
+             3.592      page-faults               #    0,002 M/sec                  
+     7.914.605.709      cycles                    #    3,723 GHz                      (83,27%)
+     1.939.183.514      stalled-cycles-frontend   #   24,50% frontend cycles idle     (83,10%)
+     2.375.898.517      stalled-cycles-backend    #   30,02% backend  cycles idle     (33,66%)
+     6.573.154.927      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,24%)
+     1.467.918.777      branches                  #  690,507 M/sec                    (66,78%)
+         8.561.199      branch-misses             #    0,58% of all branches          (83,34%)
+
+       2,416262695 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2129,810871      task-clock (msec)         #    0,880 CPUs utilized          
+               294      context-switches          #    0,138 K/sec                  
+                14      cpu-migrations            #    0,007 K/sec                  
+             3.593      page-faults               #    0,002 M/sec                  
+     7.903.482.085      cycles                    #    3,711 GHz                      (83,01%)
+     2.006.731.167      stalled-cycles-frontend   #   25,39% frontend cycles idle     (83,25%)
+     2.390.825.681      stalled-cycles-backend    #   30,25% backend  cycles idle     (33,86%)
+     6.555.495.236      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,43%)
+     1.461.405.817      branches                  #  686,167 M/sec                    (66,94%)
+         8.468.578      branch-misses             #    0,58% of all branches          (83,49%)
+
+       2,419336250 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2116,165141      task-clock (msec)         #    0,880 CPUs utilized          
+               294      context-switches          #    0,139 K/sec                  
+                 9      cpu-migrations            #    0,004 K/sec                  
+             3.593      page-faults               #    0,002 M/sec                  
+     7.862.025.131      cycles                    #    3,715 GHz                      (83,24%)
+     2.066.695.586      stalled-cycles-frontend   #   26,29% frontend cycles idle     (83,27%)
+     2.526.009.791      stalled-cycles-backend    #   32,13% backend  cycles idle     (33,60%)
+     6.239.415.510      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,23%)
+     1.388.402.668      branches                  #  656,094 M/sec                    (66,79%)
+         8.077.166      branch-misses             #    0,58% of all branches          (83,43%)
+
+       2,405418501 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2128,899649      task-clock (msec)         #    0,879 CPUs utilized          
+               301      context-switches          #    0,141 K/sec                  
+                12      cpu-migrations            #    0,006 K/sec                  
+             3.599      page-faults               #    0,002 M/sec                  
+     7.904.925.089      cycles                    #    3,713 GHz                      (83,34%)
+     1.947.503.335      stalled-cycles-frontend   #   24,64% frontend cycles idle     (82,91%)
+     2.253.450.025      stalled-cycles-backend    #   28,51% backend  cycles idle     (33,88%)
+     6.845.334.545      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,55%)
+     1.526.578.726      branches                  #  717,074 M/sec                    (67,03%)
+         9.363.004      branch-misses             #    0,61% of all branches          (83,49%)
+
+       2,420976591 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2130,301027      task-clock (msec)         #    0,879 CPUs utilized          
+               294      context-switches          #    0,138 K/sec                  
+                14      cpu-migrations            #    0,007 K/sec                  
+             3.597      page-faults               #    0,002 M/sec                  
+     7.876.815.785      cycles                    #    3,698 GHz                      (83,23%)
+     1.967.233.103      stalled-cycles-frontend   #   24,97% frontend cycles idle     (83,51%)
+     2.430.079.839      stalled-cycles-backend    #   30,85% backend  cycles idle     (33,29%)
+     6.637.471.521      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,22%)
+     1.475.282.029      branches                  #  692,523 M/sec                    (66,95%)
+         8.546.281      branch-misses             #    0,58% of all branches          (83,45%)
+
+       2,423081525 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/ulysses.txt':
+
+       2119,607910      task-clock (msec)         #    0,879 CPUs utilized          
+               300      context-switches          #    0,142 K/sec                  
+                13      cpu-migrations            #    0,006 K/sec                  
+             3.597      page-faults               #    0,002 M/sec                  
+     7.871.221.759      cycles                    #    3,714 GHz                      (83,43%)
+     1.936.863.681      stalled-cycles-frontend   #   24,61% frontend cycles idle     (83,29%)
+     2.426.555.409      stalled-cycles-backend    #   30,83% backend  cycles idle     (33,35%)
+     6.421.766.911      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,31%)
+     1.427.776.800      branches                  #  673,604 M/sec                    (67,03%)
+         8.452.409      branch-misses             #    0,59% of all branches          (83,53%)
+
+       2,410803005 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1168,308148      task-clock (msec)         #    0,801 CPUs utilized          
+               205      context-switches          #    0,175 K/sec                  
+                17      cpu-migrations            #    0,015 K/sec                  
+             3.597      page-faults               #    0,003 M/sec                  
+     4.283.084.981      cycles                    #    3,666 GHz                      (83,11%)
+     1.058.510.371      stalled-cycles-frontend   #   24,71% frontend cycles idle     (83,53%)
+     1.311.989.665      stalled-cycles-backend    #   30,63% backend  cycles idle     (33,77%)
+     3.576.388.628      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,15%)
+       801.333.637      branches                  #  685,892 M/sec                    (66,63%)
+         4.633.210      branch-misses             #    0,58% of all branches          (83,21%)
+
+       1,459434753 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1162,705653      task-clock (msec)         #    0,794 CPUs utilized          
+               205      context-switches          #    0,176 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.595      page-faults               #    0,003 M/sec                  
+     4.284.862.019      cycles                    #    3,685 GHz                      (83,14%)
+     1.090.333.827      stalled-cycles-frontend   #   25,45% frontend cycles idle     (83,45%)
+     1.281.613.914      stalled-cycles-backend    #   29,91% backend  cycles idle     (33,81%)
+     3.498.339.249      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,06%)
+       783.498.185      branches                  #  673,858 M/sec                    (66,60%)
+         4.571.161      branch-misses             #    0,58% of all branches          (83,26%)
+
+       1,465096302 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1163,455537      task-clock (msec)         #    0,801 CPUs utilized          
+               194      context-switches          #    0,167 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             3.596      page-faults               #    0,003 M/sec                  
+     4.301.506.719      cycles                    #    3,697 GHz                      (82,65%)
+     1.055.839.538      stalled-cycles-frontend   #   24,55% frontend cycles idle     (83,43%)
+     1.347.293.565      stalled-cycles-backend    #   31,32% backend  cycles idle     (34,19%)
+     3.522.445.790      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,96%)
+       790.704.478      branches                  #  679,617 M/sec                    (67,31%)
+         4.577.185      branch-misses             #    0,58% of all branches          (83,65%)
+
+       1,453055662 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1159,706212      task-clock (msec)         #    0,800 CPUs utilized          
+               206      context-switches          #    0,178 K/sec                  
+                11      cpu-migrations            #    0,009 K/sec                  
+             3.597      page-faults               #    0,003 M/sec                  
+     4.283.732.907      cycles                    #    3,694 GHz                      (83,07%)
+     1.072.504.592      stalled-cycles-frontend   #   25,04% frontend cycles idle     (83,31%)
+     1.333.861.185      stalled-cycles-backend    #   31,14% backend  cycles idle     (33,84%)
+     3.467.390.173      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,39%)
+       774.910.777      branches                  #  668,196 M/sec                    (66,90%)
+         4.540.598      branch-misses             #    0,59% of all branches          (83,25%)
+
+       1,449427752 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1161,753774      task-clock (msec)         #    0,800 CPUs utilized          
+               219      context-switches          #    0,189 K/sec                  
+                14      cpu-migrations            #    0,012 K/sec                  
+             3.594      page-faults               #    0,003 M/sec                  
+     4.271.186.860      cycles                    #    3,676 GHz                      (83,28%)
+     1.053.954.062      stalled-cycles-frontend   #   24,68% frontend cycles idle     (82,97%)
+     1.282.007.656      stalled-cycles-backend    #   30,02% backend  cycles idle     (33,96%)
+     3.544.970.281      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,02%)
+       790.404.877      branches                  #  680,355 M/sec                    (67,65%)
+         4.599.052      branch-misses             #    0,58% of all branches          (83,82%)
+
+       1,452729730 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1164,416316      task-clock (msec)         #    0,800 CPUs utilized          
+               240      context-switches          #    0,206 K/sec                  
+                13      cpu-migrations            #    0,011 K/sec                  
+             3.596      page-faults               #    0,003 M/sec                  
+     4.221.374.934      cycles                    #    3,625 GHz                      (83,20%)
+     1.066.504.805      stalled-cycles-frontend   #   25,26% frontend cycles idle     (83,39%)
+     1.212.131.073      stalled-cycles-backend    #   28,71% backend  cycles idle     (33,64%)
+     3.596.231.769      instructions              #    0,85  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,20%)
+       801.368.901      branches                  #  688,215 M/sec                    (66,65%)
+         4.632.676      branch-misses             #    0,58% of all branches          (83,47%)
+
+       1,456186503 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1163,100166      task-clock (msec)         #    0,799 CPUs utilized          
+               200      context-switches          #    0,172 K/sec                  
+                13      cpu-migrations            #    0,011 K/sec                  
+             3.592      page-faults               #    0,003 M/sec                  
+     4.293.938.400      cycles                    #    3,692 GHz                      (83,36%)
+     1.064.236.405      stalled-cycles-frontend   #   24,78% frontend cycles idle     (83,02%)
+     1.290.639.474      stalled-cycles-backend    #   30,06% backend  cycles idle     (33,80%)
+     3.573.787.818      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,85%)
+       799.508.041      branches                  #  687,394 M/sec                    (67,54%)
+         4.701.811      branch-misses             #    0,59% of all branches          (83,81%)
+
+       1,455531087 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1166,029044      task-clock (msec)         #    0,801 CPUs utilized          
+               199      context-switches          #    0,171 K/sec                  
+                14      cpu-migrations            #    0,012 K/sec                  
+             3.594      page-faults               #    0,003 M/sec                  
+     4.281.405.868      cycles                    #    3,672 GHz                      (83,57%)
+     1.052.315.794      stalled-cycles-frontend   #   24,58% frontend cycles idle     (83,30%)
+     1.290.339.733      stalled-cycles-backend    #   30,14% backend  cycles idle     (33,42%)
+     3.582.897.386      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,22%)
+       797.039.480      branches                  #  683,550 M/sec                    (66,75%)
+         4.596.481      branch-misses             #    0,58% of all branches          (83,12%)
+
+       1,455531114 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1164,737339      task-clock (msec)         #    0,801 CPUs utilized          
+               229      context-switches          #    0,197 K/sec                  
+                14      cpu-migrations            #    0,012 K/sec                  
+             3.596      page-faults               #    0,003 M/sec                  
+     4.287.332.983      cycles                    #    3,681 GHz                      (82,82%)
+     1.055.232.920      stalled-cycles-frontend   #   24,61% frontend cycles idle     (83,26%)
+     1.309.737.952      stalled-cycles-backend    #   30,55% backend  cycles idle     (34,05%)
+     3.504.725.077      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,60%)
+       785.852.651      branches                  #  674,704 M/sec                    (66,91%)
+         4.594.369      branch-misses             #    0,58% of all branches          (83,19%)
+
+       1,453896143 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/ulysses.txt':
+
+       1167,503440      task-clock (msec)         #    0,801 CPUs utilized          
+               198      context-switches          #    0,170 K/sec                  
+                13      cpu-migrations            #    0,011 K/sec                  
+             3.592      page-faults               #    0,003 M/sec                  
+     4.262.071.086      cycles                    #    3,651 GHz                      (82,95%)
+     1.043.217.123      stalled-cycles-frontend   #   24,48% frontend cycles idle     (83,30%)
+     1.329.515.300      stalled-cycles-backend    #   31,19% backend  cycles idle     (33,89%)
+     3.548.632.377      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,77%)
+       792.152.843      branches                  #  678,502 M/sec                    (67,25%)
+         4.590.133      branch-misses             #    0,58% of all branches          (83,66%)
+
+       1,457736156 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        731,056137      task-clock (msec)         #    0,715 CPUs utilized          
+               158      context-switches          #    0,216 K/sec                  
+                12      cpu-migrations            #    0,016 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.651.110.934      cycles                    #    3,626 GHz                      (82,89%)
+       673.474.737      stalled-cycles-frontend   #   25,40% frontend cycles idle     (83,56%)
+       818.426.679      stalled-cycles-backend    #   30,87% backend  cycles idle     (33,99%)
+     2.145.567.787      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,01%)
+       478.951.097      branches                  #  655,150 M/sec                    (67,40%)
+         2.783.200      branch-misses             #    0,58% of all branches          (83,41%)
+
+       1,022095983 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        727,648527      task-clock (msec)         #    0,713 CPUs utilized          
+               155      context-switches          #    0,213 K/sec                  
+                11      cpu-migrations            #    0,015 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.656.599.818      cycles                    #    3,651 GHz                      (82,86%)
+       659.388.539      stalled-cycles-frontend   #   24,82% frontend cycles idle     (83,48%)
+       794.200.228      stalled-cycles-backend    #   29,90% backend  cycles idle     (34,14%)
+     2.154.673.136      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,26%)
+       485.977.415      branches                  #  667,874 M/sec                    (67,59%)
+         2.954.513      branch-misses             #    0,61% of all branches          (83,70%)
+
+       1,021012072 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        730,014164      task-clock (msec)         #    0,716 CPUs utilized          
+               150      context-switches          #    0,205 K/sec                  
+                11      cpu-migrations            #    0,015 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.663.474.293      cycles                    #    3,649 GHz                      (82,22%)
+       666.248.320      stalled-cycles-frontend   #   25,01% frontend cycles idle     (83,07%)
+       790.197.882      stalled-cycles-backend    #   29,67% backend  cycles idle     (34,74%)
+     2.159.257.862      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,61%)
+       484.656.122      branches                  #  663,900 M/sec                    (67,91%)
+         2.906.945      branch-misses             #    0,60% of all branches          (83,80%)
+
+       1,019439431 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        723,643433      task-clock (msec)         #    0,713 CPUs utilized          
+               162      context-switches          #    0,224 K/sec                  
+                 9      cpu-migrations            #    0,012 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.624.220.372      cycles                    #    3,626 GHz                      (83,16%)
+       668.405.550      stalled-cycles-frontend   #   25,47% frontend cycles idle     (83,42%)
+       801.488.602      stalled-cycles-backend    #   30,54% backend  cycles idle     (34,04%)
+     2.130.944.029      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,93%)
+       473.676.852      branches                  #  654,572 M/sec                    (67,40%)
+         3.901.164      branch-misses             #    0,82% of all branches          (83,47%)
+
+       1,014268259 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        733,771920      task-clock (msec)         #    0,698 CPUs utilized          
+               146      context-switches          #    0,199 K/sec                  
+                11      cpu-migrations            #    0,015 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.624.785.849      cycles                    #    3,577 GHz                      (83,69%)
+       644.484.074      stalled-cycles-frontend   #   24,55% frontend cycles idle     (83,46%)
+       783.670.722      stalled-cycles-backend    #   29,86% backend  cycles idle     (33,26%)
+     2.188.691.092      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,38%)
+       491.025.925      branches                  #  669,181 M/sec                    (66,90%)
+         2.878.157      branch-misses             #    0,59% of all branches          (82,87%)
+
+       1,051224430 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        728,592617      task-clock (msec)         #    0,714 CPUs utilized          
+               149      context-switches          #    0,205 K/sec                  
+                14      cpu-migrations            #    0,019 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.658.174.552      cycles                    #    3,648 GHz                      (82,34%)
+       648.163.021      stalled-cycles-frontend   #   24,38% frontend cycles idle     (83,48%)
+       797.066.654      stalled-cycles-backend    #   29,99% backend  cycles idle     (34,83%)
+     2.165.365.103      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,68%)
+       488.784.199      branches                  #  670,861 M/sec                    (67,77%)
+         2.832.619      branch-misses             #    0,58% of all branches          (83,59%)
+
+       1,020607059 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        730,798854      task-clock (msec)         #    0,714 CPUs utilized          
+               162      context-switches          #    0,222 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.647.955.921      cycles                    #    3,623 GHz                      (83,17%)
+       653.400.766      stalled-cycles-frontend   #   24,68% frontend cycles idle     (83,48%)
+       791.978.978      stalled-cycles-backend    #   29,91% backend  cycles idle     (33,61%)
+     2.197.976.011      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,56%)
+       491.397.699      branches                  #  672,412 M/sec                    (67,00%)
+         2.830.471      branch-misses             #    0,58% of all branches          (83,57%)
+
+       1,023135024 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        728,848872      task-clock (msec)         #    0,713 CPUs utilized          
+               167      context-switches          #    0,229 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.650.562.964      cycles                    #    3,637 GHz                      (82,91%)
+       642.018.621      stalled-cycles-frontend   #   24,22% frontend cycles idle     (83,23%)
+       804.236.177      stalled-cycles-backend    #   30,34% backend  cycles idle     (34,11%)
+     2.233.680.399      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,02%)
+       496.007.923      branches                  #  680,536 M/sec                    (67,47%)
+         2.929.041      branch-misses             #    0,59% of all branches          (83,80%)
+
+       1,021761371 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        727,487239      task-clock (msec)         #    0,715 CPUs utilized          
+               163      context-switches          #    0,224 K/sec                  
+                 9      cpu-migrations            #    0,012 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.648.301.796      cycles                    #    3,640 GHz                      (83,16%)
+       662.200.104      stalled-cycles-frontend   #   25,00% frontend cycles idle     (82,34%)
+       802.959.246      stalled-cycles-backend    #   30,32% backend  cycles idle     (34,63%)
+     2.190.109.354      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,22%)
+       491.328.750      branches                  #  675,378 M/sec                    (67,64%)
+         2.839.472      branch-misses             #    0,58% of all branches          (83,81%)
+
+       1,017702916 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/ulysses.txt':
+
+        728,078069      task-clock (msec)         #    0,712 CPUs utilized          
+               153      context-switches          #    0,210 K/sec                  
+                11      cpu-migrations            #    0,015 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.651.094.940      cycles                    #    3,641 GHz                      (83,51%)
+       646.915.213      stalled-cycles-frontend   #   24,40% frontend cycles idle     (82,93%)
+       833.386.897      stalled-cycles-backend    #   31,44% backend  cycles idle     (33,75%)
+     2.160.558.909      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,25%)
+       488.173.524      branches                  #  670,496 M/sec                    (67,44%)
+         2.851.156      branch-misses             #    0,58% of all branches          (83,89%)
+
+       1,023212729 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        670,398046      task-clock (msec)         #    0,696 CPUs utilized          
+               157      context-switches          #    0,234 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.418.418.367      cycles                    #    3,607 GHz                      (83,59%)
+       586.238.304      stalled-cycles-frontend   #   24,24% frontend cycles idle     (84,19%)
+       808.502.377      stalled-cycles-backend    #   33,43% backend  cycles idle     (33,51%)
+     1.939.369.979      instructions              #    0,80  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,36%)
+       441.865.527      branches                  #  659,109 M/sec                    (66,26%)
+         2.563.879      branch-misses             #    0,58% of all branches          (83,13%)
+
+       0,962834349 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        674,614167      task-clock (msec)         #    0,697 CPUs utilized          
+               144      context-switches          #    0,213 K/sec                  
+                16      cpu-migrations            #    0,024 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.442.004.042      cycles                    #    3,620 GHz                      (82,73%)
+       599.705.215      stalled-cycles-frontend   #   24,56% frontend cycles idle     (83,36%)
+       749.362.088      stalled-cycles-backend    #   30,69% backend  cycles idle     (34,38%)
+     2.018.714.389      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,52%)
+       453.267.318      branches                  #  671,891 M/sec                    (67,61%)
+         2.632.938      branch-misses             #    0,58% of all branches          (83,41%)
+
+       0,968317230 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        672,328419      task-clock (msec)         #    0,698 CPUs utilized          
+               158      context-switches          #    0,235 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.451.924.273      cycles                    #    3,647 GHz                      (82,15%)
+       608.438.214      stalled-cycles-frontend   #   24,81% frontend cycles idle     (83,30%)
+       769.348.511      stalled-cycles-backend    #   31,38% backend  cycles idle     (35,24%)
+     2.000.759.835      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,47%)
+       450.013.597      branches                  #  669,336 M/sec                    (67,48%)
+         2.617.091      branch-misses             #    0,58% of all branches          (83,55%)
+
+       0,963173634 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        671,556901      task-clock (msec)         #    0,698 CPUs utilized          
+               151      context-switches          #    0,225 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.406.859.199      cycles                    #    3,584 GHz                      (83,21%)
+       592.122.777      stalled-cycles-frontend   #   24,60% frontend cycles idle     (84,14%)
+       764.381.672      stalled-cycles-backend    #   31,76% backend  cycles idle     (34,54%)
+     2.004.259.096      instructions              #    0,83  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,57%)
+       445.978.499      branches                  #  664,096 M/sec                    (67,22%)
+         2.597.932      branch-misses             #    0,58% of all branches          (83,25%)
+
+       0,962641911 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        678,760674      task-clock (msec)         #    0,698 CPUs utilized          
+               146      context-switches          #    0,215 K/sec                  
+                14      cpu-migrations            #    0,021 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.445.448.641      cycles                    #    3,603 GHz                      (83,31%)
+       599.152.709      stalled-cycles-frontend   #   24,50% frontend cycles idle     (83,43%)
+       739.567.626      stalled-cycles-backend    #   30,24% backend  cycles idle     (33,52%)
+     2.039.589.903      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,23%)
+       454.756.527      branches                  #  669,981 M/sec                    (67,36%)
+         2.633.939      branch-misses             #    0,58% of all branches          (83,84%)
+
+       0,972254381 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        672,699341      task-clock (msec)         #    0,697 CPUs utilized          
+               152      context-switches          #    0,226 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.458.387.760      cycles                    #    3,655 GHz                      (82,85%)
+       594.273.465      stalled-cycles-frontend   #   24,17% frontend cycles idle     (83,52%)
+       766.942.917      stalled-cycles-backend    #   31,20% backend  cycles idle     (34,03%)
+     1.994.014.543      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,50%)
+       447.917.300      branches                  #  665,851 M/sec                    (67,96%)
+         2.672.237      branch-misses             #    0,60% of all branches          (83,89%)
+
+       0,964644240 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        670,106359      task-clock (msec)         #    0,695 CPUs utilized          
+               152      context-switches          #    0,227 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.447.877.417      cycles                    #    3,653 GHz                      (83,28%)
+       601.883.691      stalled-cycles-frontend   #   24,59% frontend cycles idle     (82,98%)
+       756.145.852      stalled-cycles-backend    #   30,89% backend  cycles idle     (33,92%)
+     2.044.366.040      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,00%)
+       455.912.718      branches                  #  680,359 M/sec                    (67,70%)
+         2.648.226      branch-misses             #    0,58% of all branches          (83,76%)
+
+       0,963836663 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        679,259421      task-clock (msec)         #    0,698 CPUs utilized          
+               146      context-switches          #    0,215 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.450.498.632      cycles                    #    3,608 GHz                      (82,69%)
+       594.849.878      stalled-cycles-frontend   #   24,27% frontend cycles idle     (83,81%)
+       796.634.789      stalled-cycles-backend    #   32,51% backend  cycles idle     (34,07%)
+     2.001.089.897      instructions              #    0,82  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,68%)
+       450.014.786      branches                  #  662,508 M/sec                    (66,66%)
+         2.624.585      branch-misses             #    0,58% of all branches          (82,53%)
+
+       0,973332680 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        667,767775      task-clock (msec)         #    0,698 CPUs utilized          
+               146      context-switches          #    0,219 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.443.667.609      cycles                    #    3,659 GHz                      (83,47%)
+       600.336.926      stalled-cycles-frontend   #   24,57% frontend cycles idle     (83,61%)
+       757.163.152      stalled-cycles-backend    #   30,98% backend  cycles idle     (34,30%)
+     1.987.259.222      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,05%)
+       447.630.931      branches                  #  670,339 M/sec                    (67,05%)
+         2.639.514      branch-misses             #    0,59% of all branches          (82,79%)
+
+       0,956969765 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/ulysses.txt':
+
+        672,166416      task-clock (msec)         #    0,698 CPUs utilized          
+               148      context-switches          #    0,220 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.445.063.405      cycles                    #    3,638 GHz                      (82,74%)
+       608.968.647      stalled-cycles-frontend   #   24,91% frontend cycles idle     (83,75%)
+       787.255.154      stalled-cycles-backend    #   32,20% backend  cycles idle     (34,63%)
+     1.941.112.905      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,29%)
+       436.589.241      branches                  #  649,526 M/sec                    (67,32%)
+         2.567.813      branch-misses             #    0,59% of all branches          (83,38%)
+
+       0,962369164 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        676,657753      task-clock (msec)         #    0,700 CPUs utilized          
+               152      context-switches          #    0,225 K/sec                  
+                12      cpu-migrations            #    0,018 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.450.125.741      cycles                    #    3,621 GHz                      (83,19%)
+       595.822.344      stalled-cycles-frontend   #   24,32% frontend cycles idle     (83,00%)
+       774.793.972      stalled-cycles-backend    #   31,62% backend  cycles idle     (34,13%)
+     2.057.484.382      instructions              #    0,84  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,10%)
+       459.456.319      branches                  #  679,008 M/sec                    (67,22%)
+         2.632.772      branch-misses             #    0,57% of all branches          (83,44%)
+
+       0,966522595 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        677,260971      task-clock (msec)         #    0,699 CPUs utilized          
+               173      context-switches          #    0,255 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.596      page-faults               #    0,005 M/sec                  
+     2.447.229.425      cycles                    #    3,613 GHz                      (82,99%)
+       619.396.205      stalled-cycles-frontend   #   25,31% frontend cycles idle     (83,65%)
+       750.777.457      stalled-cycles-backend    #   30,68% backend  cycles idle     (33,84%)
+     1.993.169.403      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,25%)
+       447.384.747      branches                  #  660,580 M/sec                    (67,69%)
+         2.619.685      branch-misses             #    0,59% of all branches          (83,89%)
+
+       0,968862687 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        678,472531      task-clock (msec)         #    0,699 CPUs utilized          
+               162      context-switches          #    0,239 K/sec                  
+                14      cpu-migrations            #    0,021 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.443.022.944      cycles                    #    3,601 GHz                      (83,09%)
+       586.500.632      stalled-cycles-frontend   #   24,01% frontend cycles idle     (83,55%)
+       777.126.387      stalled-cycles-backend    #   31,81% backend  cycles idle     (33,82%)
+     2.002.486.673      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,58%)
+       447.584.424      branches                  #  659,694 M/sec                    (66,81%)
+         2.589.009      branch-misses             #    0,58% of all branches          (82,73%)
+
+       0,970176706 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        672,472783      task-clock (msec)         #    0,698 CPUs utilized          
+               149      context-switches          #    0,222 K/sec                  
+                13      cpu-migrations            #    0,019 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.437.477.948      cycles                    #    3,625 GHz                      (83,00%)
+       613.850.727      stalled-cycles-frontend   #   25,18% frontend cycles idle     (83,12%)
+       726.169.684      stalled-cycles-backend    #   29,79% backend  cycles idle     (34,14%)
+     1.999.499.710      instructions              #    0,82  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,59%)
+       447.072.604      branches                  #  664,819 M/sec                    (67,83%)
+         2.616.810      branch-misses             #    0,59% of all branches          (83,90%)
+
+       0,962900919 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        672,520894      task-clock (msec)         #    0,699 CPUs utilized          
+               145      context-switches          #    0,216 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.457.062.711      cycles                    #    3,654 GHz                      (83,05%)
+       614.845.600      stalled-cycles-frontend   #   25,02% frontend cycles idle     (83,28%)
+       721.671.832      stalled-cycles-backend    #   29,37% backend  cycles idle     (34,09%)
+     1.989.642.227      instructions              #    0,81  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,17%)
+       450.018.827      branches                  #  669,152 M/sec                    (67,20%)
+         2.628.027      branch-misses             #    0,58% of all branches          (83,27%)
+
+       0,962624673 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        676,636791      task-clock (msec)         #    0,700 CPUs utilized          
+               148      context-switches          #    0,219 K/sec                  
+                12      cpu-migrations            #    0,018 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.466.290.248      cycles                    #    3,645 GHz                      (82,05%)
+       606.537.041      stalled-cycles-frontend   #   24,59% frontend cycles idle     (83,58%)
+       734.556.261      stalled-cycles-backend    #   29,78% backend  cycles idle     (34,65%)
+     2.008.271.636      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,53%)
+       452.658.724      branches                  #  668,983 M/sec                    (67,62%)
+         2.661.411      branch-misses             #    0,59% of all branches          (83,60%)
+
+       0,965997208 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        671,505149      task-clock (msec)         #    0,696 CPUs utilized          
+               148      context-switches          #    0,220 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.462.789.855      cycles                    #    3,668 GHz                      (82,46%)
+       602.683.408      stalled-cycles-frontend   #   24,47% frontend cycles idle     (83,57%)
+       746.931.701      stalled-cycles-backend    #   30,33% backend  cycles idle     (34,61%)
+     2.056.750.042      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,25%)
+       459.591.579      branches                  #  684,420 M/sec                    (67,86%)
+         2.676.501      branch-misses             #    0,58% of all branches          (83,72%)
+
+       0,964427734 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        674,486263      task-clock (msec)         #    0,700 CPUs utilized          
+               150      context-switches          #    0,222 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.453.099.667      cycles                    #    3,637 GHz                      (82,36%)
+       589.696.215      stalled-cycles-frontend   #   24,04% frontend cycles idle     (83,51%)
+       779.574.565      stalled-cycles-backend    #   31,78% backend  cycles idle     (34,50%)
+     2.004.933.340      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,93%)
+       447.725.049      branches                  #  663,802 M/sec                    (68,19%)
+         2.609.602      branch-misses             #    0,58% of all branches          (83,99%)
+
+       0,963895740 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        669,774948      task-clock (msec)         #    0,698 CPUs utilized          
+               161      context-switches          #    0,240 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.448.479.871      cycles                    #    3,656 GHz                      (82,59%)
+       594.076.588      stalled-cycles-frontend   #   24,26% frontend cycles idle     (82,88%)
+       798.633.330      stalled-cycles-backend    #   32,62% backend  cycles idle     (34,70%)
+     1.992.310.646      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,36%)
+       445.717.651      branches                  #  665,474 M/sec                    (67,25%)
+         2.604.335      branch-misses             #    0,58% of all branches          (83,56%)
+
+       0,959910808 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/ulysses.txt':
+
+        671,230907      task-clock (msec)         #    0,697 CPUs utilized          
+               142      context-switches          #    0,212 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.447.734.102      cycles                    #    3,647 GHz                      (82,65%)
+       603.347.354      stalled-cycles-frontend   #   24,65% frontend cycles idle     (83,46%)
+       810.093.514      stalled-cycles-backend    #   33,10% backend  cycles idle     (34,15%)
+     1.949.618.100      instructions              #    0,80  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,96%)
+       440.492.207      branches                  #  656,245 M/sec                    (67,23%)
+         2.574.042      branch-misses             #    0,58% of all branches          (83,34%)
+
+       0,962363018 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        683,430826      task-clock (msec)         #    0,702 CPUs utilized          
+               149      context-switches          #    0,218 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             3.596      page-faults               #    0,005 M/sec                  
+     2.455.485.439      cycles                    #    3,593 GHz                      (83,69%)
+       658.468.672      stalled-cycles-frontend   #   26,82% frontend cycles idle     (82,23%)
+       701.209.800      stalled-cycles-backend    #   28,56% backend  cycles idle     (34,17%)
+     2.052.590.404      instructions              #    0,84  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (51,56%)
+       457.309.068      branches                  #  669,137 M/sec                    (68,35%)
+         3.695.712      branch-misses             #    0,81% of all branches          (84,11%)
+
+       0,973280100 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        675,142614      task-clock (msec)         #    0,697 CPUs utilized          
+               152      context-switches          #    0,225 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.436.689.472      cycles                    #    3,609 GHz                      (82,97%)
+       626.439.161      stalled-cycles-frontend   #   25,71% frontend cycles idle     (83,38%)
+       754.644.330      stalled-cycles-backend    #   30,97% backend  cycles idle     (33,89%)
+     1.949.123.666      instructions              #    0,80  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,73%)
+       443.755.108      branches                  #  657,276 M/sec                    (66,71%)
+         2.628.506      branch-misses             #    0,59% of all branches          (83,11%)
+
+       0,968667621 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        675,779683      task-clock (msec)         #    0,699 CPUs utilized          
+               178      context-switches          #    0,263 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.455.037.325      cycles                    #    3,633 GHz                      (83,45%)
+       610.880.311      stalled-cycles-frontend   #   24,88% frontend cycles idle     (83,13%)
+       740.434.836      stalled-cycles-backend    #   30,16% backend  cycles idle     (33,61%)
+     2.010.050.222      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,44%)
+       449.648.257      branches                  #  665,377 M/sec                    (67,57%)
+         2.593.335      branch-misses             #    0,58% of all branches          (83,69%)
+
+       0,967193614 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        673,329203      task-clock (msec)         #    0,696 CPUs utilized          
+               154      context-switches          #    0,229 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.444.649.469      cycles                    #    3,631 GHz                      (83,34%)
+       664.183.845      stalled-cycles-frontend   #   27,17% frontend cycles idle     (83,22%)
+       662.582.501      stalled-cycles-backend    #   27,10% backend  cycles idle     (33,80%)
+     2.015.004.266      instructions              #    0,82  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,98%)
+       451.363.049      branches                  #  670,345 M/sec                    (67,36%)
+         3.638.826      branch-misses             #    0,81% of all branches          (83,61%)
+
+       0,966905368 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        672,205989      task-clock (msec)         #    0,698 CPUs utilized          
+               148      context-switches          #    0,220 K/sec                  
+                 8      cpu-migrations            #    0,012 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.451.663.624      cycles                    #    3,647 GHz                      (83,05%)
+       597.306.258      stalled-cycles-frontend   #   24,36% frontend cycles idle     (83,18%)
+       748.589.137      stalled-cycles-backend    #   30,53% backend  cycles idle     (33,97%)
+     2.052.064.147      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,32%)
+       457.676.975      branches                  #  680,858 M/sec                    (67,58%)
+         2.657.241      branch-misses             #    0,58% of all branches          (83,70%)
+
+       0,962943760 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        677,615612      task-clock (msec)         #    0,697 CPUs utilized          
+               169      context-switches          #    0,249 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.454.966.370      cycles                    #    3,623 GHz                      (83,28%)
+       605.206.594      stalled-cycles-frontend   #   24,65% frontend cycles idle     (83,44%)
+       758.124.559      stalled-cycles-backend    #   30,88% backend  cycles idle     (33,65%)
+     2.004.790.075      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,81%)
+       452.778.076      branches                  #  668,193 M/sec                    (66,92%)
+         2.693.205      branch-misses             #    0,59% of all branches          (83,07%)
+
+       0,971840997 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        674,518172      task-clock (msec)         #    0,698 CPUs utilized          
+               151      context-switches          #    0,224 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.441.628.138      cycles                    #    3,620 GHz                      (83,36%)
+       588.156.652      stalled-cycles-frontend   #   24,09% frontend cycles idle     (83,81%)
+       747.984.182      stalled-cycles-backend    #   30,63% backend  cycles idle     (33,10%)
+     1.975.688.222      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,67%)
+       442.758.392      branches                  #  656,407 M/sec                    (66,84%)
+         2.576.073      branch-misses             #    0,58% of all branches          (83,25%)
+
+       0,965964775 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        676,425133      task-clock (msec)         #    0,700 CPUs utilized          
+               152      context-switches          #    0,225 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.460.154.646      cycles                    #    3,637 GHz                      (83,30%)
+       611.981.518      stalled-cycles-frontend   #   24,88% frontend cycles idle     (83,16%)
+       743.399.066      stalled-cycles-backend    #   30,22% backend  cycles idle     (33,73%)
+     2.004.034.861      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,35%)
+       447.666.758      branches                  #  661,813 M/sec                    (67,67%)
+         2.583.496      branch-misses             #    0,58% of all branches          (83,87%)
+
+       0,966178351 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        678,043793      task-clock (msec)         #    0,699 CPUs utilized          
+               153      context-switches          #    0,226 K/sec                  
+                14      cpu-migrations            #    0,021 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.440.407.463      cycles                    #    3,599 GHz                      (83,26%)
+       587.333.143      stalled-cycles-frontend   #   24,07% frontend cycles idle     (82,67%)
+       732.000.413      stalled-cycles-backend    #   30,00% backend  cycles idle     (34,78%)
+     2.025.680.032      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (52,30%)
+       453.357.156      branches                  #  668,625 M/sec                    (68,20%)
+         2.648.475      branch-misses             #    0,58% of all branches          (84,09%)
+
+       0,969802607 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/ulysses.txt':
+
+        670,454628      task-clock (msec)         #    0,696 CPUs utilized          
+               162      context-switches          #    0,242 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.591      page-faults               #    0,005 M/sec                  
+     2.450.841.489      cycles                    #    3,655 GHz                      (83,21%)
+       606.035.758      stalled-cycles-frontend   #   24,73% frontend cycles idle     (83,57%)
+       766.261.363      stalled-cycles-backend    #   31,27% backend  cycles idle     (33,33%)
+     1.955.194.979      instructions              #    0,80  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,67%)
+       440.317.683      branches                  #  656,745 M/sec                    (67,11%)
+         2.569.064      branch-misses             #    0,58% of all branches          (83,08%)
+
+       0,963625619 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        725,686794      task-clock (msec)         #    0,715 CPUs utilized          
+               168      context-switches          #    0,232 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.650.075.607      cycles                    #    3,652 GHz                      (82,55%)
+       654.800.490      stalled-cycles-frontend   #   24,71% frontend cycles idle     (83,58%)
+       831.124.576      stalled-cycles-backend    #   31,36% backend  cycles idle     (34,29%)
+     2.173.156.086      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,10%)
+       486.106.919      branches                  #  669,858 M/sec                    (67,08%)
+         2.816.217      branch-misses             #    0,58% of all branches          (83,03%)
+
+       1,015435821 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        721,919084      task-clock (msec)         #    0,712 CPUs utilized          
+               170      context-switches          #    0,235 K/sec                  
+                12      cpu-migrations            #    0,017 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.626.740.578      cycles                    #    3,639 GHz                      (82,77%)
+       632.525.281      stalled-cycles-frontend   #   24,08% frontend cycles idle     (82,60%)
+       829.605.983      stalled-cycles-backend    #   31,58% backend  cycles idle     (34,96%)
+     2.163.480.452      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,57%)
+       484.730.153      branches                  #  671,447 M/sec                    (67,62%)
+         2.847.166      branch-misses             #    0,59% of all branches          (83,68%)
+
+       1,013547951 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        719,643265      task-clock (msec)         #    0,713 CPUs utilized          
+               154      context-switches          #    0,214 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.644.470.198      cycles                    #    3,675 GHz                      (82,49%)
+       636.622.033      stalled-cycles-frontend   #   24,07% frontend cycles idle     (83,52%)
+       836.756.711      stalled-cycles-backend    #   31,64% backend  cycles idle     (34,13%)
+     2.122.808.692      instructions              #    0,80  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,13%)
+       477.033.408      branches                  #  662,875 M/sec                    (67,40%)
+         2.769.853      branch-misses             #    0,58% of all branches          (83,48%)
+
+       1,009129871 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        721,232092      task-clock (msec)         #    0,713 CPUs utilized          
+               152      context-switches          #    0,211 K/sec                  
+                14      cpu-migrations            #    0,019 K/sec                  
+             3.596      page-faults               #    0,005 M/sec                  
+     2.618.459.768      cycles                    #    3,631 GHz                      (82,62%)
+       695.632.189      stalled-cycles-frontend   #   26,57% frontend cycles idle     (83,46%)
+       779.050.615      stalled-cycles-backend    #   29,75% backend  cycles idle     (34,30%)
+     2.124.373.385      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,27%)
+       476.296.002      branches                  #  660,392 M/sec                    (67,47%)
+         3.906.987      branch-misses             #    0,82% of all branches          (83,53%)
+
+       1,011514111 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        721,027984      task-clock (msec)         #    0,710 CPUs utilized          
+               160      context-switches          #    0,222 K/sec                  
+                13      cpu-migrations            #    0,018 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.618.607.261      cycles                    #    3,632 GHz                      (82,99%)
+       634.011.738      stalled-cycles-frontend   #   24,21% frontend cycles idle     (83,38%)
+       832.189.872      stalled-cycles-backend    #   31,78% backend  cycles idle     (33,80%)
+     2.155.303.317      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,44%)
+       481.776.816      branches                  #  668,180 M/sec                    (66,66%)
+         2.807.941      branch-misses             #    0,58% of all branches          (82,72%)
+
+       1,015401019 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        726,697735      task-clock (msec)         #    0,714 CPUs utilized          
+               156      context-switches          #    0,215 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.640.122.801      cycles                    #    3,633 GHz                      (82,67%)
+       637.567.004      stalled-cycles-frontend   #   24,15% frontend cycles idle     (83,44%)
+       814.661.268      stalled-cycles-backend    #   30,86% backend  cycles idle     (34,34%)
+     2.172.372.294      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,38%)
+       486.895.162      branches                  #  670,011 M/sec                    (67,53%)
+         2.885.657      branch-misses             #    0,59% of all branches          (83,60%)
+
+       1,017318657 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        716,045611      task-clock (msec)         #    0,710 CPUs utilized          
+               155      context-switches          #    0,216 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.623.368.039      cycles                    #    3,664 GHz                      (82,69%)
+       662.673.433      stalled-cycles-frontend   #   25,26% frontend cycles idle     (83,53%)
+       806.656.202      stalled-cycles-backend    #   30,75% backend  cycles idle     (34,21%)
+     2.145.378.313      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,86%)
+       484.885.345      branches                  #  677,171 M/sec                    (67,06%)
+         2.822.554      branch-misses             #    0,58% of all branches          (83,22%)
+
+       1,008504939 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        729,225002      task-clock (msec)         #    0,715 CPUs utilized          
+               149      context-switches          #    0,204 K/sec                  
+                11      cpu-migrations            #    0,015 K/sec                  
+             3.592      page-faults               #    0,005 M/sec                  
+     2.627.680.344      cycles                    #    3,603 GHz                      (83,72%)
+       641.762.992      stalled-cycles-frontend   #   24,42% frontend cycles idle     (82,61%)
+       829.399.291      stalled-cycles-backend    #   31,56% backend  cycles idle     (33,80%)
+     2.150.254.629      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,62%)
+       482.447.943      branches                  #  661,590 M/sec                    (67,43%)
+         2.872.891      branch-misses             #    0,60% of all branches          (83,31%)
+
+       1,020090368 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        727,703310      task-clock (msec)         #    0,714 CPUs utilized          
+               154      context-switches          #    0,212 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.638.922.949      cycles                    #    3,626 GHz                      (82,82%)
+       650.726.433      stalled-cycles-frontend   #   24,66% frontend cycles idle     (83,50%)
+       789.303.429      stalled-cycles-backend    #   29,91% backend  cycles idle     (34,12%)
+     2.151.766.574      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (51,17%)
+       480.914.911      branches                  #  660,867 M/sec                    (67,40%)
+         2.845.828      branch-misses             #    0,59% of all branches          (83,35%)
+
+       1,019322751 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/ulysses.txt':
+
+        723,324779      task-clock (msec)         #    0,714 CPUs utilized          
+               154      context-switches          #    0,213 K/sec                  
+                11      cpu-migrations            #    0,015 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.616.549.882      cycles                    #    3,617 GHz                      (83,31%)
+       640.248.146      stalled-cycles-frontend   #   24,47% frontend cycles idle     (83,04%)
+       783.393.169      stalled-cycles-backend    #   29,94% backend  cycles idle     (33,82%)
+     2.206.332.274      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,27%)
+       496.012.646      branches                  #  685,740 M/sec                    (67,56%)
+         2.891.985      branch-misses             #    0,58% of all branches          (83,71%)
+
+       1,013024450 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        725,454767      task-clock (msec)         #    0,697 CPUs utilized          
+               162      context-switches          #    0,223 K/sec                  
+                 9      cpu-migrations            #    0,012 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.639.138.522      cycles                    #    3,638 GHz                      (83,06%)
+       646.886.057      stalled-cycles-frontend   #   24,51% frontend cycles idle     (83,61%)
+       831.370.139      stalled-cycles-backend    #   31,50% backend  cycles idle     (33,83%)
+     2.175.665.034      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,82%)
+       488.331.821      branches                  #  673,139 M/sec                    (66,82%)
+         2.824.293      branch-misses             #    0,58% of all branches          (82,76%)
+
+       1,040555768 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        723,012111      task-clock (msec)         #    0,714 CPUs utilized          
+               146      context-switches          #    0,202 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.595      page-faults               #    0,005 M/sec                  
+     2.624.150.050      cycles                    #    3,629 GHz                      (83,40%)
+       646.719.714      stalled-cycles-frontend   #   24,64% frontend cycles idle     (82,87%)
+       815.463.439      stalled-cycles-backend    #   31,08% backend  cycles idle     (33,96%)
+     2.195.509.787      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,56%)
+       490.464.140      branches                  #  678,362 M/sec                    (67,54%)
+         2.932.697      branch-misses             #    0,60% of all branches          (83,55%)
+
+       1,013088967 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        728,566546      task-clock (msec)         #    0,711 CPUs utilized          
+               166      context-switches          #    0,228 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.596      page-faults               #    0,005 M/sec                  
+     2.650.542.567      cycles                    #    3,638 GHz                      (83,12%)
+       642.952.550      stalled-cycles-frontend   #   24,26% frontend cycles idle     (82,61%)
+       936.021.564      stalled-cycles-backend    #   35,31% backend  cycles idle     (34,52%)
+     1.999.442.175      instructions              #    0,75  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (51,16%)
+       446.643.033      branches                  #  613,044 M/sec                    (67,24%)
+         2.624.666      branch-misses             #    0,59% of all branches          (83,68%)
+
+       1,024752729 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        724,577130      task-clock (msec)         #    0,714 CPUs utilized          
+               156      context-switches          #    0,215 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.628.642.771      cycles                    #    3,628 GHz                      (83,37%)
+       661.628.896      stalled-cycles-frontend   #   25,17% frontend cycles idle     (83,81%)
+       803.628.089      stalled-cycles-backend    #   30,57% backend  cycles idle     (33,24%)
+     2.156.436.431      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,05%)
+       480.054.816      branches                  #  662,531 M/sec                    (66,60%)
+         2.783.380      branch-misses             #    0,58% of all branches          (82,58%)
+
+       1,014639300 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        725,069194      task-clock (msec)         #    0,714 CPUs utilized          
+               151      context-switches          #    0,208 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.594      page-faults               #    0,005 M/sec                  
+     2.632.771.233      cycles                    #    3,631 GHz                      (83,11%)
+       626.366.297      stalled-cycles-frontend   #   23,79% frontend cycles idle     (83,24%)
+       910.368.959      stalled-cycles-backend    #   34,58% backend  cycles idle     (33,94%)
+     1.953.769.924      instructions              #    0,74  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (51,62%)
+       439.783.656      branches                  #  606,540 M/sec                    (68,10%)
+         2.571.075      branch-misses             #    0,58% of all branches          (84,23%)
+
+       1,015466123 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        728,798646      task-clock (msec)         #    0,711 CPUs utilized          
+               158      context-switches          #    0,217 K/sec                  
+                16      cpu-migrations            #    0,022 K/sec                  
+             3.591      page-faults               #    0,005 M/sec                  
+     2.625.501.737      cycles                    #    3,603 GHz                      (82,81%)
+       626.854.766      stalled-cycles-frontend   #   23,88% frontend cycles idle     (83,00%)
+       939.797.571      stalled-cycles-backend    #   35,79% backend  cycles idle     (34,41%)
+     1.975.925.206      instructions              #    0,75  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (50,95%)
+       441.713.586      branches                  #  606,085 M/sec                    (67,28%)
+         2.547.663      branch-misses             #    0,58% of all branches          (83,29%)
+
+       1,024638489 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        721,501320      task-clock (msec)         #    0,712 CPUs utilized          
+               154      context-switches          #    0,213 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.593      page-faults               #    0,005 M/sec                  
+     2.633.495.648      cycles                    #    3,650 GHz                      (82,64%)
+       639.951.858      stalled-cycles-frontend   #   24,30% frontend cycles idle     (83,41%)
+       822.744.093      stalled-cycles-backend    #   31,24% backend  cycles idle     (34,23%)
+     2.120.318.536      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,22%)
+       476.656.905      branches                  #  660,646 M/sec                    (67,34%)
+         2.775.241      branch-misses             #    0,58% of all branches          (83,37%)
+
+       1,013197186 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        724,409627      task-clock (msec)         #    0,712 CPUs utilized          
+               152      context-switches          #    0,210 K/sec                  
+                14      cpu-migrations            #    0,019 K/sec                  
+             3.597      page-faults               #    0,005 M/sec                  
+     2.623.914.394      cycles                    #    3,622 GHz                      (83,10%)
+       656.534.445      stalled-cycles-frontend   #   25,02% frontend cycles idle     (83,39%)
+       830.941.535      stalled-cycles-backend    #   31,67% backend  cycles idle     (33,62%)
+     2.155.951.125      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,85%)
+       484.996.639      branches                  #  669,506 M/sec                    (67,15%)
+         2.851.923      branch-misses             #    0,59% of all branches          (83,72%)
+
+       1,018096433 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        730,713574      task-clock (msec)         #    0,716 CPUs utilized          
+               149      context-switches          #    0,204 K/sec                  
+                 9      cpu-migrations            #    0,012 K/sec                  
+             3.596      page-faults               #    0,005 M/sec                  
+     2.670.483.301      cycles                    #    3,655 GHz                      (83,58%)
+       646.675.429      stalled-cycles-frontend   #   24,22% frontend cycles idle     (83,31%)
+       858.580.027      stalled-cycles-backend    #   32,15% backend  cycles idle     (33,25%)
+     2.167.229.846      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,29%)
+       493.786.796      branches                  #  675,760 M/sec                    (67,81%)
+         2.831.433      branch-misses             #    0,57% of all branches          (83,94%)
+
+       1,020322403 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/ulysses.txt':
+
+        723,347691      task-clock (msec)         #    0,714 CPUs utilized          
+               153      context-switches          #    0,212 K/sec                  
+                13      cpu-migrations            #    0,018 K/sec                  
+             3.596      page-faults               #    0,005 M/sec                  
+     2.635.083.515      cycles                    #    3,643 GHz                      (82,30%)
+       632.780.458      stalled-cycles-frontend   #   24,01% frontend cycles idle     (83,89%)
+       813.402.514      stalled-cycles-backend    #   30,87% backend  cycles idle     (34,23%)
+     2.162.428.557      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,88%)
+       489.453.301      branches                  #  676,650 M/sec                    (66,92%)
+         2.869.934      branch-misses             #    0,59% of all branches          (83,44%)
+
+       1,013409025 seconds time elapsed
+

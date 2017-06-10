@@ -1,0 +1,1440 @@
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        213,344497      task-clock (msec)         #    0,417 CPUs utilized          
+               117      context-switches          #    0,548 K/sec                  
+                11      cpu-migrations            #    0,052 K/sec                  
+             3.820      page-faults               #    0,018 M/sec                  
+       684.424.823      cycles                    #    3,208 GHz                      (82,87%)
+       156.521.922      stalled-cycles-frontend   #   22,87% frontend cycles idle     (82,11%)
+       233.621.559      stalled-cycles-backend    #   34,13% backend  cycles idle     (35,50%)
+       541.474.236      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (52,87%)
+       122.213.466      branches                  #  572,846 M/sec                    (68,83%)
+           701.191      branch-misses             #    0,57% of all branches          (84,72%)
+
+       0,511238509 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        208,275019      task-clock (msec)         #    0,418 CPUs utilized          
+               109      context-switches          #    0,523 K/sec                  
+                10      cpu-migrations            #    0,048 K/sec                  
+             3.819      page-faults               #    0,018 M/sec                  
+       688.636.497      cycles                    #    3,306 GHz                      (84,99%)
+       156.483.440      stalled-cycles-frontend   #   22,72% frontend cycles idle     (85,66%)
+       250.219.523      stalled-cycles-backend    #   36,34% backend  cycles idle     (29,96%)
+       546.824.596      instructions              #    0,79  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (45,82%)
+       127.861.579      branches                  #  613,907 M/sec                    (63,86%)
+           712.879      branch-misses             #    0,56% of all branches          (80,25%)
+
+       0,498477848 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        214,927538      task-clock (msec)         #    0,425 CPUs utilized          
+               105      context-switches          #    0,489 K/sec                  
+                13      cpu-migrations            #    0,060 K/sec                  
+             3.819      page-faults               #    0,018 M/sec                  
+       682.452.481      cycles                    #    3,175 GHz                      (82,04%)
+       154.196.648      stalled-cycles-frontend   #   22,59% frontend cycles idle     (83,90%)
+       248.068.901      stalled-cycles-backend    #   36,35% backend  cycles idle     (38,87%)
+       538.818.680      instructions              #    0,79  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (54,40%)
+       119.758.692      branches                  #  557,205 M/sec                    (69,13%)
+           715.942      branch-misses             #    0,60% of all branches          (84,55%)
+
+       0,506068473 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        213,976260      task-clock (msec)         #    0,424 CPUs utilized          
+                98      context-switches          #    0,458 K/sec                  
+                14      cpu-migrations            #    0,065 K/sec                  
+             3.820      page-faults               #    0,018 M/sec                  
+       686.471.251      cycles                    #    3,208 GHz                      (82,83%)
+       158.813.314      stalled-cycles-frontend   #   23,13% frontend cycles idle     (81,16%)
+       250.034.260      stalled-cycles-backend    #   36,42% backend  cycles idle     (37,26%)
+       538.164.542      instructions              #    0,78  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (55,43%)
+       122.510.497      branches                  #  572,542 M/sec                    (70,24%)
+           730.283      branch-misses             #    0,60% of all branches          (85,04%)
+
+       0,505058237 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        213,120925      task-clock (msec)         #    0,421 CPUs utilized          
+               117      context-switches          #    0,549 K/sec                  
+                 9      cpu-migrations            #    0,042 K/sec                  
+             3.819      page-faults               #    0,018 M/sec                  
+       702.526.270      cycles                    #    3,296 GHz                      (84,85%)
+       155.954.974      stalled-cycles-frontend   #   22,20% frontend cycles idle     (84,89%)
+       253.659.598      stalled-cycles-backend    #   36,11% backend  cycles idle     (31,88%)
+       541.043.171      instructions              #    0,77  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (46,34%)
+       129.280.136      branches                  #  606,605 M/sec                    (61,32%)
+           717.581      branch-misses             #    0,56% of all branches          (77,48%)
+
+       0,506272374 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        208,092950      task-clock (msec)         #    0,417 CPUs utilized          
+               109      context-switches          #    0,524 K/sec                  
+                10      cpu-migrations            #    0,048 K/sec                  
+             3.823      page-faults               #    0,018 M/sec                  
+       676.465.674      cycles                    #    3,251 GHz                      (79,55%)
+       160.550.434      stalled-cycles-frontend   #   23,73% frontend cycles idle     (84,56%)
+       243.040.373      stalled-cycles-backend    #   35,93% backend  cycles idle     (38,71%)
+       538.654.284      instructions              #    0,80  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,76%)
+       121.237.608      branches                  #  582,613 M/sec                    (71,17%)
+           699.722      branch-misses             #    0,58% of all branches          (85,09%)
+
+       0,498614685 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        214,166284      task-clock (msec)         #    0,425 CPUs utilized          
+               106      context-switches          #    0,495 K/sec                  
+                11      cpu-migrations            #    0,051 K/sec                  
+             3.818      page-faults               #    0,018 M/sec                  
+       694.907.427      cycles                    #    3,245 GHz                      (82,74%)
+       160.091.465      stalled-cycles-frontend   #   23,04% frontend cycles idle     (82,10%)
+       255.602.368      stalled-cycles-backend    #   36,78% backend  cycles idle     (36,05%)
+       530.952.555      instructions              #    0,76  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (54,17%)
+       121.737.635      branches                  #  568,426 M/sec                    (70,15%)
+           735.589      branch-misses             #    0,60% of all branches          (84,91%)
+
+       0,504479557 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        206,849617      task-clock (msec)         #    0,415 CPUs utilized          
+               111      context-switches          #    0,537 K/sec                  
+                11      cpu-migrations            #    0,053 K/sec                  
+             3.819      page-faults               #    0,018 M/sec                  
+       688.271.129      cycles                    #    3,327 GHz                      (82,64%)
+       158.997.553      stalled-cycles-frontend   #   23,10% frontend cycles idle     (83,92%)
+       224.859.690      stalled-cycles-backend    #   32,67% backend  cycles idle     (35,81%)
+       552.230.617      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,25%)
+       123.216.295      branches                  #  595,681 M/sec                    (68,52%)
+           723.917      branch-misses             #    0,59% of all branches          (83,97%)
+
+       0,498678070 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        208,309737      task-clock (msec)         #    0,418 CPUs utilized          
+               101      context-switches          #    0,485 K/sec                  
+                11      cpu-migrations            #    0,053 K/sec                  
+             3.822      page-faults               #    0,018 M/sec                  
+       687.227.543      cycles                    #    3,299 GHz                      (81,01%)
+       154.681.219      stalled-cycles-frontend   #   22,51% frontend cycles idle     (83,23%)
+       248.047.092      stalled-cycles-backend    #   36,09% backend  cycles idle     (36,68%)
+       531.515.926      instructions              #    0,77  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (53,84%)
+       123.046.678      branches                  #  590,691 M/sec                    (69,19%)
+           722.284      branch-misses             #    0,59% of all branches          (84,23%)
+
+       0,498091139 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/ulysses.txt':
+
+        213,899386      task-clock (msec)         #    0,424 CPUs utilized          
+               107      context-switches          #    0,500 K/sec                  
+                10      cpu-migrations            #    0,047 K/sec                  
+             3.823      page-faults               #    0,018 M/sec                  
+       701.446.971      cycles                    #    3,279 GHz                      (81,76%)
+       157.121.147      stalled-cycles-frontend   #   22,40% frontend cycles idle     (83,17%)
+       256.950.551      stalled-cycles-backend    #   36,63% backend  cycles idle     (39,62%)
+       532.094.387      instructions              #    0,76  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (54,84%)
+       119.712.404      branches                  #  559,667 M/sec                    (69,70%)
+           728.347      branch-misses             #    0,61% of all branches          (83,37%)
+
+       0,504869717 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        201,810111      task-clock (msec)         #    0,410 CPUs utilized          
+               120      context-switches          #    0,595 K/sec                  
+                14      cpu-migrations            #    0,069 K/sec                  
+             3.820      page-faults               #    0,019 M/sec                  
+       633.695.233      cycles                    #    3,140 GHz                      (83,23%)
+       148.829.992      stalled-cycles-frontend   #   23,49% frontend cycles idle     (82,70%)
+       235.420.794      stalled-cycles-backend    #   37,15% backend  cycles idle     (36,95%)
+       491.116.714      instructions              #    0,78  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (54,52%)
+       109.540.570      branches                  #  542,790 M/sec                    (70,19%)
+           650.841      branch-misses             #    0,59% of all branches          (85,61%)
+
+       0,492815182 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        198,838491      task-clock (msec)         #    0,406 CPUs utilized          
+               108      context-switches          #    0,543 K/sec                  
+                 9      cpu-migrations            #    0,045 K/sec                  
+             3.820      page-faults               #    0,019 M/sec                  
+       652.349.489      cycles                    #    3,281 GHz                      (82,74%)
+       156.965.860      stalled-cycles-frontend   #   24,06% frontend cycles idle     (83,97%)
+       226.090.175      stalled-cycles-backend    #   34,66% backend  cycles idle     (35,57%)
+       530.098.640      instructions              #    0,81  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (51,17%)
+       118.710.802      branches                  #  597,021 M/sec                    (68,38%)
+           652.641      branch-misses             #    0,55% of all branches          (82,94%)
+
+       0,489951331 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        203,377360      task-clock (msec)         #    0,410 CPUs utilized          
+               111      context-switches          #    0,546 K/sec                  
+                10      cpu-migrations            #    0,049 K/sec                  
+             3.823      page-faults               #    0,019 M/sec                  
+       653.582.767      cycles                    #    3,214 GHz                      (83,44%)
+       149.273.652      stalled-cycles-frontend   #   22,84% frontend cycles idle     (83,72%)
+       220.246.882      stalled-cycles-backend    #   33,70% backend  cycles idle     (35,15%)
+       532.785.965      instructions              #    0,82  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,62%)
+       121.086.286      branches                  #  595,377 M/sec                    (67,22%)
+           692.953      branch-misses             #    0,57% of all branches          (82,89%)
+
+       0,496420742 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        198,328489      task-clock (msec)         #    0,405 CPUs utilized          
+               102      context-switches          #    0,514 K/sec                  
+                11      cpu-migrations            #    0,055 K/sec                  
+             3.820      page-faults               #    0,019 M/sec                  
+       660.331.710      cycles                    #    3,329 GHz                      (82,00%)
+       144.792.498      stalled-cycles-frontend   #   21,93% frontend cycles idle     (82,61%)
+       231.580.502      stalled-cycles-backend    #   35,07% backend  cycles idle     (35,85%)
+       483.954.893      instructions              #    0,73  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (53,64%)
+       114.004.372      branches                  #  574,826 M/sec                    (68,12%)
+           675.603      branch-misses             #    0,59% of all branches          (84,98%)
+
+       0,489883594 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        201,491498      task-clock (msec)         #    0,404 CPUs utilized          
+               100      context-switches          #    0,496 K/sec                  
+                 9      cpu-migrations            #    0,045 K/sec                  
+             3.819      page-faults               #    0,019 M/sec                  
+       668.710.330      cycles                    #    3,319 GHz                      (82,63%)
+       153.686.647      stalled-cycles-frontend   #   22,98% frontend cycles idle     (84,07%)
+       210.233.227      stalled-cycles-backend    #   31,44% backend  cycles idle     (36,51%)
+       505.349.569      instructions              #    0,76  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (55,52%)
+       113.653.644      branches                  #  564,062 M/sec                    (68,57%)
+           678.423      branch-misses             #    0,60% of all branches          (84,35%)
+
+       0,498586073 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        198,043501      task-clock (msec)         #    0,405 CPUs utilized          
+               111      context-switches          #    0,560 K/sec                  
+                11      cpu-migrations            #    0,056 K/sec                  
+             3.822      page-faults               #    0,019 M/sec                  
+       663.338.399      cycles                    #    3,349 GHz                      (81,74%)
+       149.282.759      stalled-cycles-frontend   #   22,50% frontend cycles idle     (83,63%)
+       213.871.015      stalled-cycles-backend    #   32,24% backend  cycles idle     (36,47%)
+       505.307.690      instructions              #    0,76  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (52,58%)
+       118.365.245      branches                  #  597,673 M/sec                    (68,34%)
+           728.682      branch-misses             #    0,62% of all branches          (83,16%)
+
+       0,489543206 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        205,755644      task-clock (msec)         #    0,412 CPUs utilized          
+               102      context-switches          #    0,496 K/sec                  
+                13      cpu-migrations            #    0,063 K/sec                  
+             3.819      page-faults               #    0,019 M/sec                  
+       649.789.428      cycles                    #    3,158 GHz                      (82,28%)
+       151.752.804      stalled-cycles-frontend   #   23,35% frontend cycles idle     (82,82%)
+       214.657.504      stalled-cycles-backend    #   33,03% backend  cycles idle     (35,82%)
+       504.813.167      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,80%)
+       113.896.261      branches                  #  553,551 M/sec                    (71,79%)
+           703.898      branch-misses             #    0,62% of all branches          (85,05%)
+
+       0,499248262 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        199,196175      task-clock (msec)         #    0,407 CPUs utilized          
+               103      context-switches          #    0,517 K/sec                  
+                 9      cpu-migrations            #    0,045 K/sec                  
+             3.821      page-faults               #    0,019 M/sec                  
+       654.652.265      cycles                    #    3,286 GHz                      (83,33%)
+       155.409.994      stalled-cycles-frontend   #   23,74% frontend cycles idle     (79,93%)
+       223.726.695      stalled-cycles-backend    #   34,17% backend  cycles idle     (37,71%)
+       525.307.898      instructions              #    0,80  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,52%)
+       117.616.193      branches                  #  590,454 M/sec                    (70,66%)
+           670.975      branch-misses             #    0,57% of all branches          (85,28%)
+
+       0,489604260 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        203,387463      task-clock (msec)         #    0,411 CPUs utilized          
+               107      context-switches          #    0,526 K/sec                  
+                11      cpu-migrations            #    0,054 K/sec                  
+             3.815      page-faults               #    0,019 M/sec                  
+       664.900.434      cycles                    #    3,269 GHz                      (80,96%)
+       150.278.548      stalled-cycles-frontend   #   22,60% frontend cycles idle     (84,13%)
+       221.648.372      stalled-cycles-backend    #   33,34% backend  cycles idle     (36,44%)
+       498.697.444      instructions              #    0,75  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (53,91%)
+       113.716.558      branches                  #  559,113 M/sec                    (69,48%)
+           660.850      branch-misses             #    0,58% of all branches          (83,81%)
+
+       0,495312091 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/ulysses.txt':
+
+        198,414075      task-clock (msec)         #    0,406 CPUs utilized          
+                97      context-switches          #    0,489 K/sec                  
+                 9      cpu-migrations            #    0,045 K/sec                  
+             3.819      page-faults               #    0,019 M/sec                  
+       653.227.325      cycles                    #    3,292 GHz                      (82,27%)
+       149.829.121      stalled-cycles-frontend   #   22,94% frontend cycles idle     (81,75%)
+       252.490.549      stalled-cycles-backend    #   38,65% backend  cycles idle     (38,85%)
+       502.109.830      instructions              #    0,77  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (52,91%)
+       113.977.268      branches                  #  574,441 M/sec                    (66,99%)
+           641.358      branch-misses             #    0,56% of all branches          (82,20%)
+
+       0,489017993 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        194,623024      task-clock (msec)         #    0,400 CPUs utilized          
+               117      context-switches          #    0,601 K/sec                  
+                12      cpu-migrations            #    0,062 K/sec                  
+             3.818      page-faults               #    0,020 M/sec                  
+       624.969.343      cycles                    #    3,211 GHz                      (80,69%)
+       140.909.891      stalled-cycles-frontend   #   22,55% frontend cycles idle     (84,91%)
+       211.812.323      stalled-cycles-backend    #   33,89% backend  cycles idle     (40,52%)
+       473.807.699      instructions              #    0,76  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (54,96%)
+       111.963.539      branches                  #  575,284 M/sec                    (68,46%)
+           642.674      branch-misses             #    0,57% of all branches          (84,34%)
+
+       0,486880406 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        192,938265      task-clock (msec)         #    0,400 CPUs utilized          
+               127      context-switches          #    0,658 K/sec                  
+                11      cpu-migrations            #    0,057 K/sec                  
+             3.820      page-faults               #    0,020 M/sec                  
+       631.355.945      cycles                    #    3,272 GHz                      (79,05%)
+       139.165.685      stalled-cycles-frontend   #   22,04% frontend cycles idle     (84,91%)
+       221.853.741      stalled-cycles-backend    #   35,14% backend  cycles idle     (40,21%)
+       486.066.198      instructions              #    0,77  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (54,78%)
+       112.260.653      branches                  #  581,848 M/sec                    (69,36%)
+           643.625      branch-misses             #    0,57% of all branches          (83,72%)
+
+       0,481950927 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        192,178219      task-clock (msec)         #    0,397 CPUs utilized          
+               105      context-switches          #    0,546 K/sec                  
+                11      cpu-migrations            #    0,057 K/sec                  
+             3.818      page-faults               #    0,020 M/sec                  
+       630.700.764      cycles                    #    3,282 GHz                      (81,70%)
+       147.022.860      stalled-cycles-frontend   #   23,31% frontend cycles idle     (84,24%)
+       206.035.258      stalled-cycles-backend    #   32,67% backend  cycles idle     (35,09%)
+       497.450.223      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,61%)
+       113.861.208      branches                  #  592,477 M/sec                    (67,14%)
+           636.189      branch-misses             #    0,56% of all branches          (82,26%)
+
+       0,483997474 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        192,237295      task-clock (msec)         #    0,398 CPUs utilized          
+               108      context-switches          #    0,562 K/sec                  
+                11      cpu-migrations            #    0,057 K/sec                  
+             3.823      page-faults               #    0,020 M/sec                  
+       627.268.537      cycles                    #    3,263 GHz                      (81,43%)
+       145.631.470      stalled-cycles-frontend   #   23,22% frontend cycles idle     (83,86%)
+       223.500.631      stalled-cycles-backend    #   35,63% backend  cycles idle     (35,91%)
+       464.258.618      instructions              #    0,74  insns per cycle        
+                                                  #    0,48  stalled cycles per insn  (52,31%)
+       109.330.521      branches                  #  568,727 M/sec                    (66,81%)
+           635.962      branch-misses             #    0,58% of all branches          (81,42%)
+
+       0,483446228 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        196,135426      task-clock (msec)         #    0,400 CPUs utilized          
+               100      context-switches          #    0,510 K/sec                  
+                12      cpu-migrations            #    0,061 K/sec                  
+             3.821      page-faults               #    0,019 M/sec                  
+       631.114.675      cycles                    #    3,218 GHz                      (82,21%)
+       143.838.581      stalled-cycles-frontend   #   22,79% frontend cycles idle     (84,34%)
+       211.089.398      stalled-cycles-backend    #   33,45% backend  cycles idle     (35,57%)
+       512.721.282      instructions              #    0,81  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,88%)
+       115.037.690      branches                  #  586,522 M/sec                    (67,19%)
+           667.731      branch-misses             #    0,58% of all branches          (83,02%)
+
+       0,490475017 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        197,373858      task-clock (msec)         #    0,405 CPUs utilized          
+               110      context-switches          #    0,557 K/sec                  
+                14      cpu-migrations            #    0,071 K/sec                  
+             3.819      page-faults               #    0,019 M/sec                  
+       621.967.233      cycles                    #    3,151 GHz                      (84,18%)
+       146.588.873      stalled-cycles-frontend   #   23,57% frontend cycles idle     (82,30%)
+       200.656.220      stalled-cycles-backend    #   32,26% backend  cycles idle     (34,15%)
+       489.841.067      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (54,64%)
+       109.593.855      branches                  #  555,260 M/sec                    (69,91%)
+           627.551      branch-misses             #    0,57% of all branches          (83,03%)
+
+       0,487678633 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        195,370346      task-clock (msec)         #    0,401 CPUs utilized          
+               113      context-switches          #    0,578 K/sec                  
+                10      cpu-migrations            #    0,051 K/sec                  
+             3.819      page-faults               #    0,020 M/sec                  
+       641.423.970      cycles                    #    3,283 GHz                      (80,02%)
+       143.413.832      stalled-cycles-frontend   #   22,36% frontend cycles idle     (84,51%)
+       207.232.457      stalled-cycles-backend    #   32,31% backend  cycles idle     (36,30%)
+       473.324.790      instructions              #    0,74  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (54,57%)
+       109.720.512      branches                  #  561,603 M/sec                    (69,92%)
+           639.854      branch-misses             #    0,58% of all branches          (85,31%)
+
+       0,487655237 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        189,745506      task-clock (msec)         #    0,396 CPUs utilized          
+               116      context-switches          #    0,611 K/sec                  
+                12      cpu-migrations            #    0,063 K/sec                  
+             3.822      page-faults               #    0,020 M/sec                  
+       625.268.877      cycles                    #    3,295 GHz                      (82,43%)
+       149.152.847      stalled-cycles-frontend   #   23,85% frontend cycles idle     (82,45%)
+       213.422.305      stalled-cycles-backend    #   34,13% backend  cycles idle     (36,06%)
+       470.822.424      instructions              #    0,75  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (54,32%)
+       107.400.865      branches                  #  566,026 M/sec                    (70,74%)
+           697.124      branch-misses             #    0,65% of all branches          (84,94%)
+
+       0,479440604 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        190,294644      task-clock (msec)         #    0,395 CPUs utilized          
+               117      context-switches          #    0,615 K/sec                  
+                10      cpu-migrations            #    0,053 K/sec                  
+             3.821      page-faults               #    0,020 M/sec                  
+       626.625.359      cycles                    #    3,293 GHz                      (81,00%)
+       139.777.693      stalled-cycles-frontend   #   22,31% frontend cycles idle     (85,02%)
+       221.102.279      stalled-cycles-backend    #   35,28% backend  cycles idle     (36,86%)
+       485.534.246      instructions              #    0,77  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (51,45%)
+       111.637.406      branches                  #  586,656 M/sec                    (67,89%)
+           640.488      branch-misses             #    0,57% of all branches          (82,62%)
+
+       0,481259410 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/ulysses.txt':
+
+        196,224954      task-clock (msec)         #    0,404 CPUs utilized          
+               102      context-switches          #    0,520 K/sec                  
+                10      cpu-migrations            #    0,051 K/sec                  
+             3.820      page-faults               #    0,019 M/sec                  
+       633.682.911      cycles                    #    3,229 GHz                      (83,56%)
+       145.187.839      stalled-cycles-frontend   #   22,91% frontend cycles idle     (82,90%)
+       213.115.385      stalled-cycles-backend    #   33,63% backend  cycles idle     (34,04%)
+       501.206.438      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,65%)
+       114.474.864      branches                  #  583,386 M/sec                    (70,24%)
+           685.132      branch-misses             #    0,60% of all branches          (85,01%)
+
+       0,486002273 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        191,629483      task-clock (msec)         #    0,398 CPUs utilized          
+               103      context-switches          #    0,537 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.817      page-faults               #    0,020 M/sec                  
+       623.613.504      cycles                    #    3,254 GHz                      (82,81%)
+       142.986.310      stalled-cycles-frontend   #   22,93% frontend cycles idle     (82,52%)
+       216.837.505      stalled-cycles-backend    #   34,77% backend  cycles idle     (36,33%)
+       509.269.569      instructions              #    0,82  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (53,93%)
+       111.767.760      branches                  #  583,249 M/sec                    (70,15%)
+           649.448      branch-misses             #    0,58% of all branches          (85,28%)
+
+       0,481075230 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        195,163747      task-clock (msec)         #    0,400 CPUs utilized          
+               134      context-switches          #    0,687 K/sec                  
+                11      cpu-migrations            #    0,056 K/sec                  
+             3.822      page-faults               #    0,020 M/sec                  
+       628.159.292      cycles                    #    3,219 GHz                      (82,80%)
+       142.984.307      stalled-cycles-frontend   #   22,76% frontend cycles idle     (83,74%)
+       195.690.396      stalled-cycles-backend    #   31,15% backend  cycles idle     (33,92%)
+       497.664.910      instructions              #    0,79  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (52,34%)
+       114.038.084      branches                  #  584,320 M/sec                    (66,95%)
+           631.593      branch-misses             #    0,55% of all branches          (80,71%)
+
+       0,487917291 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        190,538795      task-clock (msec)         #    0,397 CPUs utilized          
+               101      context-switches          #    0,530 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.821      page-faults               #    0,020 M/sec                  
+       623.918.643      cycles                    #    3,274 GHz                      (81,63%)
+       144.984.248      stalled-cycles-frontend   #   23,24% frontend cycles idle     (83,94%)
+       205.862.485      stalled-cycles-backend    #   33,00% backend  cycles idle     (36,11%)
+       460.478.509      instructions              #    0,74  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (54,84%)
+       107.345.259      branches                  #  563,377 M/sec                    (70,33%)
+           633.621      branch-misses             #    0,59% of all branches          (84,35%)
+
+       0,480257158 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        203,482008      task-clock (msec)         #    0,411 CPUs utilized          
+               114      context-switches          #    0,560 K/sec                  
+                13      cpu-migrations            #    0,064 K/sec                  
+             3.822      page-faults               #    0,019 M/sec                  
+       659.852.109      cycles                    #    3,243 GHz                      (85,06%)
+       142.074.674      stalled-cycles-frontend   #   21,53% frontend cycles idle     (84,20%)
+       283.173.647      stalled-cycles-backend    #   42,91% backend  cycles idle     (31,28%)
+       484.248.804      instructions              #    0,73  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (48,98%)
+       112.203.837      branches                  #  551,419 M/sec                    (67,23%)
+           631.298      branch-misses             #    0,56% of all branches          (82,79%)
+
+       0,494874996 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        193,833222      task-clock (msec)         #    0,400 CPUs utilized          
+               104      context-switches          #    0,537 K/sec                  
+                11      cpu-migrations            #    0,057 K/sec                  
+             3.821      page-faults               #    0,020 M/sec                  
+       637.122.261      cycles                    #    3,287 GHz                      (83,26%)
+       150.652.606      stalled-cycles-frontend   #   23,65% frontend cycles idle     (80,74%)
+       209.744.581      stalled-cycles-backend    #   32,92% backend  cycles idle     (37,47%)
+       491.804.348      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,38%)
+       109.973.389      branches                  #  567,361 M/sec                    (69,18%)
+           698.831      branch-misses             #    0,64% of all branches          (83,07%)
+
+       0,485122012 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        194,178068      task-clock (msec)         #    0,401 CPUs utilized          
+               101      context-switches          #    0,520 K/sec                  
+                10      cpu-migrations            #    0,051 K/sec                  
+             3.819      page-faults               #    0,020 M/sec                  
+       625.333.989      cycles                    #    3,220 GHz                      (80,80%)
+       140.644.475      stalled-cycles-frontend   #   22,49% frontend cycles idle     (83,75%)
+       194.369.103      stalled-cycles-backend    #   31,08% backend  cycles idle     (35,99%)
+       480.642.691      instructions              #    0,77  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (55,51%)
+       111.523.712      branches                  #  574,337 M/sec                    (69,04%)
+           618.130      branch-misses             #    0,55% of all branches          (82,95%)
+
+       0,484761282 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        193,597681      task-clock (msec)         #    0,400 CPUs utilized          
+               103      context-switches          #    0,532 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.818      page-faults               #    0,020 M/sec                  
+       628.511.975      cycles                    #    3,246 GHz                      (81,79%)
+       144.254.630      stalled-cycles-frontend   #   22,95% frontend cycles idle     (82,62%)
+       206.502.852      stalled-cycles-backend    #   32,86% backend  cycles idle     (36,60%)
+       484.426.573      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,47%)
+       108.875.165      branches                  #  562,378 M/sec                    (69,77%)
+           650.115      branch-misses             #    0,60% of all branches          (84,59%)
+
+       0,484263140 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        193,901830      task-clock (msec)         #    0,400 CPUs utilized          
+               110      context-switches          #    0,567 K/sec                  
+                14      cpu-migrations            #    0,072 K/sec                  
+             3.822      page-faults               #    0,020 M/sec                  
+       623.608.192      cycles                    #    3,216 GHz                      (81,53%)
+       142.678.033      stalled-cycles-frontend   #   22,88% frontend cycles idle     (83,87%)
+       205.127.603      stalled-cycles-backend    #   32,89% backend  cycles idle     (35,04%)
+       481.528.052      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,37%)
+       113.078.096      branches                  #  583,172 M/sec                    (66,55%)
+           643.840      branch-misses             #    0,57% of all branches          (81,13%)
+
+       0,484469177 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        190,521997      task-clock (msec)         #    0,396 CPUs utilized          
+               108      context-switches          #    0,567 K/sec                  
+                 9      cpu-migrations            #    0,047 K/sec                  
+             3.822      page-faults               #    0,020 M/sec                  
+       631.284.936      cycles                    #    3,313 GHz                      (83,68%)
+       146.340.595      stalled-cycles-frontend   #   23,18% frontend cycles idle     (81,52%)
+       210.719.533      stalled-cycles-backend    #   33,38% backend  cycles idle     (35,82%)
+       485.586.743      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,17%)
+       111.530.994      branches                  #  585,397 M/sec                    (68,46%)
+           644.169      branch-misses             #    0,58% of all branches          (82,42%)
+
+       0,480985189 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/ulysses.txt':
+
+        193,854419      task-clock (msec)         #    0,400 CPUs utilized          
+               110      context-switches          #    0,567 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.815      page-faults               #    0,020 M/sec                  
+       620.866.157      cycles                    #    3,203 GHz                      (83,53%)
+       141.045.616      stalled-cycles-frontend   #   22,72% frontend cycles idle     (83,46%)
+       205.033.442      stalled-cycles-backend    #   33,02% backend  cycles idle     (33,89%)
+       475.826.525      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,44%)
+       113.800.356      branches                  #  587,040 M/sec                    (64,39%)
+           654.503      branch-misses             #    0,58% of all branches          (80,96%)
+
+       0,484884458 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        189,469850      task-clock (msec)         #    0,396 CPUs utilized          
+                99      context-switches          #    0,523 K/sec                  
+                11      cpu-migrations            #    0,058 K/sec                  
+             3.822      page-faults               #    0,020 M/sec                  
+       618.509.889      cycles                    #    3,264 GHz                      (81,99%)
+       141.805.864      stalled-cycles-frontend   #   22,93% frontend cycles idle     (83,63%)
+       212.688.900      stalled-cycles-backend    #   34,39% backend  cycles idle     (36,06%)
+       468.727.872      instructions              #    0,76  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (53,85%)
+       108.996.271      branches                  #  575,270 M/sec                    (68,53%)
+           638.242      branch-misses             #    0,59% of all branches          (83,20%)
+
+       0,478901741 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        193,934138      task-clock (msec)         #    0,401 CPUs utilized          
+               107      context-switches          #    0,552 K/sec                  
+                16      cpu-migrations            #    0,083 K/sec                  
+             3.818      page-faults               #    0,020 M/sec                  
+       641.244.276      cycles                    #    3,307 GHz                      (80,80%)
+       144.721.822      stalled-cycles-frontend   #   22,57% frontend cycles idle     (81,79%)
+       226.998.288      stalled-cycles-backend    #   35,40% backend  cycles idle     (37,96%)
+       479.377.197      instructions              #    0,75  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (54,37%)
+       109.719.985      branches                  #  565,759 M/sec                    (69,33%)
+           675.286      branch-misses             #    0,62% of all branches          (83,82%)
+
+       0,483587945 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        192,059088      task-clock (msec)         #    0,398 CPUs utilized          
+                99      context-switches          #    0,515 K/sec                  
+                 9      cpu-migrations            #    0,047 K/sec                  
+             3.816      page-faults               #    0,020 M/sec                  
+       627.758.414      cycles                    #    3,269 GHz                      (80,52%)
+       143.236.136      stalled-cycles-frontend   #   22,82% frontend cycles idle     (82,29%)
+       231.342.336      stalled-cycles-backend    #   36,85% backend  cycles idle     (39,12%)
+       488.894.454      instructions              #    0,78  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (53,62%)
+       107.967.355      branches                  #  562,157 M/sec                    (70,16%)
+           650.664      branch-misses             #    0,60% of all branches          (84,75%)
+
+       0,482298872 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        193,933020      task-clock (msec)         #    0,399 CPUs utilized          
+               106      context-switches          #    0,547 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.824      page-faults               #    0,020 M/sec                  
+       617.583.622      cycles                    #    3,185 GHz                      (83,61%)
+       146.183.842      stalled-cycles-frontend   #   23,67% frontend cycles idle     (80,41%)
+       212.215.794      stalled-cycles-backend    #   34,36% backend  cycles idle     (36,73%)
+       496.133.920      instructions              #    0,80  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (55,47%)
+       113.093.609      branches                  #  583,158 M/sec                    (70,99%)
+           658.735      branch-misses             #    0,58% of all branches          (85,39%)
+
+       0,486447129 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        197,734452      task-clock (msec)         #    0,404 CPUs utilized          
+               110      context-switches          #    0,556 K/sec                  
+                12      cpu-migrations            #    0,061 K/sec                  
+             3.824      page-faults               #    0,019 M/sec                  
+       612.722.526      cycles                    #    3,099 GHz                      (84,86%)
+       142.042.488      stalled-cycles-frontend   #   23,18% frontend cycles idle     (83,42%)
+       222.595.418      stalled-cycles-backend    #   36,33% backend  cycles idle     (33,22%)
+       489.654.048      instructions              #    0,80  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (52,30%)
+       113.281.632      branches                  #  572,898 M/sec                    (69,41%)
+           657.353      branch-misses             #    0,58% of all branches          (85,10%)
+
+       0,489610955 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        192,192205      task-clock (msec)         #    0,397 CPUs utilized          
+               120      context-switches          #    0,624 K/sec                  
+                12      cpu-migrations            #    0,062 K/sec                  
+             3.823      page-faults               #    0,020 M/sec                  
+       625.516.075      cycles                    #    3,255 GHz                      (79,00%)
+       147.313.066      stalled-cycles-frontend   #   23,55% frontend cycles idle     (84,81%)
+       219.644.530      stalled-cycles-backend    #   35,11% backend  cycles idle     (38,15%)
+       471.711.279      instructions              #    0,75  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (52,87%)
+       108.055.786      branches                  #  562,228 M/sec                    (68,19%)
+           642.789      branch-misses             #    0,59% of all branches          (83,02%)
+
+       0,483715864 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        196,492223      task-clock (msec)         #    0,404 CPUs utilized          
+               103      context-switches          #    0,524 K/sec                  
+                12      cpu-migrations            #    0,061 K/sec                  
+             3.820      page-faults               #    0,019 M/sec                  
+       627.483.993      cycles                    #    3,193 GHz                      (81,10%)
+       143.011.036      stalled-cycles-frontend   #   22,79% frontend cycles idle     (83,54%)
+       206.581.217      stalled-cycles-backend    #   32,92% backend  cycles idle     (36,98%)
+       475.868.484      instructions              #    0,76  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (53,78%)
+       109.169.605      branches                  #  555,592 M/sec                    (69,61%)
+           669.414      branch-misses             #    0,61% of all branches          (83,31%)
+
+       0,486940283 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        197,105674      task-clock (msec)         #    0,405 CPUs utilized          
+               139      context-switches          #    0,705 K/sec                  
+                10      cpu-migrations            #    0,051 K/sec                  
+             3.821      page-faults               #    0,019 M/sec                  
+       646.127.481      cycles                    #    3,278 GHz                      (80,83%)
+       143.775.433      stalled-cycles-frontend   #   22,25% frontend cycles idle     (80,44%)
+       248.178.435      stalled-cycles-backend    #   38,41% backend  cycles idle     (39,51%)
+       500.103.127      instructions              #    0,77  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (54,55%)
+       112.469.116      branches                  #  570,603 M/sec                    (70,67%)
+           646.011      branch-misses             #    0,57% of all branches          (84,76%)
+
+       0,486650657 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        193,921378      task-clock (msec)         #    0,397 CPUs utilized          
+               108      context-switches          #    0,557 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.819      page-faults               #    0,020 M/sec                  
+       627.449.446      cycles                    #    3,236 GHz                      (80,85%)
+       147.261.963      stalled-cycles-frontend   #   23,47% frontend cycles idle     (83,41%)
+       198.862.037      stalled-cycles-backend    #   31,69% backend  cycles idle     (37,17%)
+       479.018.796      instructions              #    0,76  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (55,62%)
+       109.245.805      branches                  #  563,351 M/sec                    (69,37%)
+           653.092      branch-misses             #    0,60% of all branches          (84,16%)
+
+       0,488573457 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/ulysses.txt':
+
+        199,410167      task-clock (msec)         #    0,405 CPUs utilized          
+               106      context-switches          #    0,532 K/sec                  
+                14      cpu-migrations            #    0,070 K/sec                  
+             3.820      page-faults               #    0,019 M/sec                  
+       612.859.329      cycles                    #    3,073 GHz                      (82,92%)
+       140.214.566      stalled-cycles-frontend   #   22,88% frontend cycles idle     (82,02%)
+       208.696.169      stalled-cycles-backend    #   34,05% backend  cycles idle     (36,74%)
+       494.244.435      instructions              #    0,81  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (53,58%)
+       110.133.514      branches                  #  552,296 M/sec                    (68,11%)
+           636.883      branch-misses             #    0,58% of all branches          (83,31%)
+
+       0,491933117 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        200,116002      task-clock (msec)         #    0,405 CPUs utilized          
+               103      context-switches          #    0,515 K/sec                  
+                14      cpu-migrations            #    0,070 K/sec                  
+             3.823      page-faults               #    0,019 M/sec                  
+       631.233.973      cycles                    #    3,154 GHz                      (83,35%)
+       147.648.535      stalled-cycles-frontend   #   23,39% frontend cycles idle     (83,60%)
+       211.662.397      stalled-cycles-backend    #   33,53% backend  cycles idle     (34,09%)
+       482.463.852      instructions              #    0,76  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (53,55%)
+       112.205.770      branches                  #  560,704 M/sec                    (68,26%)
+           646.855      branch-misses             #    0,58% of all branches          (85,42%)
+
+       0,493787667 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        199,899171      task-clock (msec)         #    0,407 CPUs utilized          
+               116      context-switches          #    0,580 K/sec                  
+                14      cpu-migrations            #    0,070 K/sec                  
+             3.818      page-faults               #    0,019 M/sec                  
+       638.995.734      cycles                    #    3,197 GHz                      (82,87%)
+       146.064.347      stalled-cycles-frontend   #   22,86% frontend cycles idle     (80,10%)
+       243.002.593      stalled-cycles-backend    #   38,03% backend  cycles idle     (38,89%)
+       461.983.483      instructions              #    0,72  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,28%)
+       109.120.968      branches                  #  545,880 M/sec                    (67,24%)
+           678.105      branch-misses             #    0,62% of all branches          (81,17%)
+
+       0,491238127 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        195,707992      task-clock (msec)         #    0,402 CPUs utilized          
+               114      context-switches          #    0,583 K/sec                  
+                11      cpu-migrations            #    0,056 K/sec                  
+             3.817      page-faults               #    0,020 M/sec                  
+       642.807.836      cycles                    #    3,285 GHz                      (81,54%)
+       145.566.375      stalled-cycles-frontend   #   22,65% frontend cycles idle     (82,24%)
+       216.178.646      stalled-cycles-backend    #   33,63% backend  cycles idle     (37,02%)
+       484.779.711      instructions              #    0,75  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (56,89%)
+       110.986.434      branches                  #  567,102 M/sec                    (71,43%)
+           654.466      branch-misses             #    0,59% of all branches          (85,57%)
+
+       0,486923458 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        194,610828      task-clock (msec)         #    0,401 CPUs utilized          
+                94      context-switches          #    0,483 K/sec                  
+                13      cpu-migrations            #    0,067 K/sec                  
+             3.818      page-faults               #    0,020 M/sec                  
+       647.191.548      cycles                    #    3,326 GHz                      (82,33%)
+       149.785.501      stalled-cycles-frontend   #   23,14% frontend cycles idle     (78,01%)
+       252.924.103      stalled-cycles-backend    #   39,08% backend  cycles idle     (40,15%)
+       520.769.198      instructions              #    0,80  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (54,84%)
+       116.283.318      branches                  #  597,517 M/sec                    (71,05%)
+           690.914      branch-misses             #    0,59% of all branches          (85,41%)
+
+       0,485248210 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        202,301311      task-clock (msec)         #    0,410 CPUs utilized          
+               104      context-switches          #    0,514 K/sec                  
+                10      cpu-migrations            #    0,049 K/sec                  
+             3.819      page-faults               #    0,019 M/sec                  
+       637.793.702      cycles                    #    3,153 GHz                      (83,37%)
+       144.072.825      stalled-cycles-frontend   #   22,59% frontend cycles idle     (82,87%)
+       212.987.362      stalled-cycles-backend    #   33,39% backend  cycles idle     (35,71%)
+       513.536.128      instructions              #    0,81  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (54,12%)
+       115.870.333      branches                  #  572,761 M/sec                    (67,92%)
+           701.154      branch-misses             #    0,61% of all branches          (85,69%)
+
+       0,493416693 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        196,094147      task-clock (msec)         #    0,404 CPUs utilized          
+               116      context-switches          #    0,592 K/sec                  
+                11      cpu-migrations            #    0,056 K/sec                  
+             3.815      page-faults               #    0,019 M/sec                  
+       614.904.710      cycles                    #    3,136 GHz                      (84,51%)
+       142.480.939      stalled-cycles-frontend   #   23,17% frontend cycles idle     (81,85%)
+       216.394.701      stalled-cycles-backend    #   35,19% backend  cycles idle     (35,52%)
+       464.781.082      instructions              #    0,76  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (55,59%)
+       108.339.510      branches                  #  552,487 M/sec                    (71,23%)
+           643.389      branch-misses             #    0,59% of all branches          (85,29%)
+
+       0,485568180 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        194,435615      task-clock (msec)         #    0,401 CPUs utilized          
+               100      context-switches          #    0,514 K/sec                  
+                 9      cpu-migrations            #    0,046 K/sec                  
+             3.821      page-faults               #    0,020 M/sec                  
+       654.829.353      cycles                    #    3,368 GHz                      (80,76%)
+       150.980.972      stalled-cycles-frontend   #   23,06% frontend cycles idle     (83,42%)
+       221.266.388      stalled-cycles-backend    #   33,79% backend  cycles idle     (37,22%)
+       486.932.306      instructions              #    0,74  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (54,92%)
+       111.773.464      branches                  #  574,861 M/sec                    (69,36%)
+           678.888      branch-misses             #    0,61% of all branches          (83,60%)
+
+       0,484431835 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        201,265131      task-clock (msec)         #    0,408 CPUs utilized          
+               102      context-switches          #    0,507 K/sec                  
+                 9      cpu-migrations            #    0,045 K/sec                  
+             3.819      page-faults               #    0,019 M/sec                  
+       667.373.904      cycles                    #    3,316 GHz                      (84,31%)
+       152.499.674      stalled-cycles-frontend   #   22,85% frontend cycles idle     (81,66%)
+       231.791.723      stalled-cycles-backend    #   34,73% backend  cycles idle     (34,91%)
+       511.725.706      instructions              #    0,77  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,45%)
+       117.097.298      branches                  #  581,806 M/sec                    (72,01%)
+           648.221      branch-misses             #    0,55% of all branches          (85,27%)
+
+       0,493848274 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        194,031262      task-clock (msec)         #    0,400 CPUs utilized          
+               115      context-switches          #    0,593 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.822      page-faults               #    0,020 M/sec                  
+       639.188.668      cycles                    #    3,294 GHz                      (79,55%)
+       148.147.448      stalled-cycles-frontend   #   23,18% frontend cycles idle     (83,84%)
+       240.545.886      stalled-cycles-backend    #   37,63% backend  cycles idle     (38,61%)
+       481.160.657      instructions              #    0,75  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (55,53%)
+       110.207.967      branches                  #  567,991 M/sec                    (69,78%)
+           657.159      branch-misses             #    0,60% of all branches          (84,13%)
+
+       0,484705023 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/ulysses.txt':
+
+        197,320629      task-clock (msec)         #    0,404 CPUs utilized          
+               116      context-switches          #    0,588 K/sec                  
+                 9      cpu-migrations            #    0,046 K/sec                  
+             3.823      page-faults               #    0,019 M/sec                  
+       639.647.535      cycles                    #    3,242 GHz                      (84,01%)
+       147.897.886      stalled-cycles-frontend   #   23,12% frontend cycles idle     (80,93%)
+       226.278.567      stalled-cycles-backend    #   35,38% backend  cycles idle     (35,82%)
+       498.197.254      instructions              #    0,78  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (55,33%)
+       112.711.551      branches                  #  571,210 M/sec                    (71,28%)
+           644.685      branch-misses             #    0,57% of all branches          (85,52%)
+
+       0,488006116 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        161,625709      task-clock (msec)         #    0,357 CPUs utilized          
+               101      context-switches          #    0,625 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.818      page-faults               #    0,024 M/sec                  
+       511.066.329      cycles                    #    3,162 GHz                      (81,37%)
+       116.781.189      stalled-cycles-frontend   #   22,85% frontend cycles idle     (84,00%)
+       175.871.306      stalled-cycles-backend    #   34,41% backend  cycles idle     (35,99%)
+       414.868.232      instructions              #    0,81  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,35%)
+        95.064.553      branches                  #  588,177 M/sec                    (66,57%)
+           562.426      branch-misses             #    0,59% of all branches          (82,83%)
+
+       0,452401168 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        163,888584      task-clock (msec)         #    0,358 CPUs utilized          
+                97      context-switches          #    0,592 K/sec                  
+                13      cpu-migrations            #    0,079 K/sec                  
+             3.822      page-faults               #    0,023 M/sec                  
+       526.300.276      cycles                    #    3,211 GHz                      (80,94%)
+       120.322.350      stalled-cycles-frontend   #   22,86% frontend cycles idle     (83,46%)
+       171.707.654      stalled-cycles-backend    #   32,63% backend  cycles idle     (36,28%)
+       403.238.468      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (51,42%)
+        95.418.555      branches                  #  582,216 M/sec                    (65,21%)
+           556.151      branch-misses             #    0,58% of all branches          (81,71%)
+
+       0,457241069 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        160,997158      task-clock (msec)         #    0,357 CPUs utilized          
+               105      context-switches          #    0,652 K/sec                  
+                12      cpu-migrations            #    0,075 K/sec                  
+             3.822      page-faults               #    0,024 M/sec                  
+       519.685.547      cycles                    #    3,228 GHz                      (85,12%)
+       118.025.769      stalled-cycles-frontend   #   22,71% frontend cycles idle     (83,13%)
+       171.254.969      stalled-cycles-backend    #   32,95% backend  cycles idle     (33,12%)
+       433.386.450      instructions              #    0,83  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (53,23%)
+        95.192.702      branches                  #  591,269 M/sec                    (68,27%)
+           558.837      branch-misses             #    0,59% of all branches          (83,00%)
+
+       0,450868365 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        159,767040      task-clock (msec)         #    0,354 CPUs utilized          
+                90      context-switches          #    0,563 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.819      page-faults               #    0,024 M/sec                  
+       519.110.253      cycles                    #    3,249 GHz                      (77,82%)
+       116.702.125      stalled-cycles-frontend   #   22,48% frontend cycles idle     (84,75%)
+       171.932.764      stalled-cycles-backend    #   33,12% backend  cycles idle     (39,05%)
+       417.584.952      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (54,71%)
+        94.135.416      branches                  #  589,204 M/sec                    (68,89%)
+           632.182      branch-misses             #    0,67% of all branches          (83,77%)
+
+       0,451412681 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        166,374491      task-clock (msec)         #    0,360 CPUs utilized          
+               138      context-switches          #    0,829 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.819      page-faults               #    0,023 M/sec                  
+       510.243.905      cycles                    #    3,067 GHz                      (84,18%)
+       121.799.080      stalled-cycles-frontend   #   23,87% frontend cycles idle     (79,35%)
+       187.905.543      stalled-cycles-backend    #   36,83% backend  cycles idle     (37,34%)
+       407.043.076      instructions              #    0,80  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (57,63%)
+        91.849.222      branches                  #  552,063 M/sec                    (73,18%)
+           525.682      branch-misses             #    0,57% of all branches          (87,10%)
+
+       0,462360120 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        163,790935      task-clock (msec)         #    0,361 CPUs utilized          
+                96      context-switches          #    0,586 K/sec                  
+                14      cpu-migrations            #    0,085 K/sec                  
+             3.821      page-faults               #    0,023 M/sec                  
+       502.009.901      cycles                    #    3,065 GHz                      (81,76%)
+       114.521.611      stalled-cycles-frontend   #   22,81% frontend cycles idle     (83,58%)
+       163.525.598      stalled-cycles-backend    #   32,57% backend  cycles idle     (37,60%)
+       422.927.795      instructions              #    0,84  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (53,59%)
+        94.804.655      branches                  #  578,815 M/sec                    (68,96%)
+           571.020      branch-misses             #    0,60% of all branches          (82,70%)
+
+       0,453622785 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        160,208322      task-clock (msec)         #    0,354 CPUs utilized          
+               108      context-switches          #    0,674 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.817      page-faults               #    0,024 M/sec                  
+       511.978.002      cycles                    #    3,196 GHz                      (81,40%)
+       115.646.487      stalled-cycles-frontend   #   22,59% frontend cycles idle     (78,64%)
+       182.266.629      stalled-cycles-backend    #   35,60% backend  cycles idle     (40,63%)
+       414.323.963      instructions              #    0,81  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (55,43%)
+        93.755.111      branches                  #  585,207 M/sec                    (70,40%)
+           575.044      branch-misses             #    0,61% of all branches          (84,37%)
+
+       0,453002430 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        160,774008      task-clock (msec)         #    0,356 CPUs utilized          
+               112      context-switches          #    0,697 K/sec                  
+                11      cpu-migrations            #    0,068 K/sec                  
+             3.818      page-faults               #    0,024 M/sec                  
+       519.846.119      cycles                    #    3,233 GHz                      (81,59%)
+       116.865.887      stalled-cycles-frontend   #   22,48% frontend cycles idle     (84,08%)
+       181.371.770      stalled-cycles-backend    #   34,89% backend  cycles idle     (35,44%)
+       399.613.732      instructions              #    0,77  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (54,08%)
+        91.492.084      branches                  #  569,073 M/sec                    (69,86%)
+           557.056      branch-misses             #    0,61% of all branches          (85,88%)
+
+       0,451278714 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        158,691936      task-clock (msec)         #    0,352 CPUs utilized          
+                93      context-switches          #    0,586 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.817      page-faults               #    0,024 M/sec                  
+       523.639.515      cycles                    #    3,300 GHz                      (80,50%)
+       123.058.986      stalled-cycles-frontend   #   23,50% frontend cycles idle     (81,53%)
+       180.650.601      stalled-cycles-backend    #   34,50% backend  cycles idle     (39,86%)
+       411.518.438      instructions              #    0,79  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (55,52%)
+        93.625.457      branches                  #  589,982 M/sec                    (69,66%)
+           532.018      branch-misses             #    0,57% of all branches          (84,77%)
+
+       0,450589151 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/ulysses.txt':
+
+        162,840224      task-clock (msec)         #    0,359 CPUs utilized          
+                95      context-switches          #    0,583 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.819      page-faults               #    0,023 M/sec                  
+       511.668.317      cycles                    #    3,142 GHz                      (81,99%)
+       117.151.987      stalled-cycles-frontend   #   22,90% frontend cycles idle     (82,85%)
+       175.433.362      stalled-cycles-backend    #   34,29% backend  cycles idle     (35,95%)
+       392.045.253      instructions              #    0,77  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (56,02%)
+        91.667.591      branches                  #  562,930 M/sec                    (69,90%)
+           528.119      branch-misses             #    0,58% of all branches          (83,81%)
+
+       0,453259935 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        160,306992      task-clock (msec)         #    0,355 CPUs utilized          
+               104      context-switches          #    0,649 K/sec                  
+                16      cpu-migrations            #    0,100 K/sec                  
+             3.823      page-faults               #    0,024 M/sec                  
+       516.638.716      cycles                    #    3,223 GHz                      (80,33%)
+       117.731.840      stalled-cycles-frontend   #   22,79% frontend cycles idle     (83,13%)
+       161.087.660      stalled-cycles-backend    #   31,18% backend  cycles idle     (37,63%)
+       419.048.861      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (53,27%)
+        94.243.484      branches                  #  587,894 M/sec                    (68,46%)
+           555.486      branch-misses             #    0,59% of all branches          (82,50%)
+
+       0,450947932 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        164,042143      task-clock (msec)         #    0,360 CPUs utilized          
+               100      context-switches          #    0,610 K/sec                  
+                14      cpu-migrations            #    0,085 K/sec                  
+             3.819      page-faults               #    0,023 M/sec                  
+       517.441.586      cycles                    #    3,154 GHz                      (78,40%)
+       112.200.815      stalled-cycles-frontend   #   21,68% frontend cycles idle     (85,34%)
+       166.755.037      stalled-cycles-backend    #   32,23% backend  cycles idle     (37,97%)
+       408.261.353      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (52,69%)
+        93.883.679      branches                  #  572,314 M/sec                    (67,34%)
+           528.017      branch-misses             #    0,56% of all branches          (83,37%)
+
+       0,456042306 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        162,507815      task-clock (msec)         #    0,359 CPUs utilized          
+               102      context-switches          #    0,628 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.821      page-faults               #    0,024 M/sec                  
+       517.326.006      cycles                    #    3,183 GHz                      (86,16%)
+       115.405.711      stalled-cycles-frontend   #   22,31% frontend cycles idle     (83,32%)
+       172.073.756      stalled-cycles-backend    #   33,26% backend  cycles idle     (31,38%)
+       445.624.272      instructions              #    0,86  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (47,45%)
+       101.099.389      branches                  #  622,120 M/sec                    (62,82%)
+           604.015      branch-misses             #    0,60% of all branches          (82,17%)
+
+       0,452920713 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        159,118361      task-clock (msec)         #    0,354 CPUs utilized          
+               103      context-switches          #    0,647 K/sec                  
+                14      cpu-migrations            #    0,088 K/sec                  
+             3.824      page-faults               #    0,024 M/sec                  
+       513.547.885      cycles                    #    3,227 GHz                      (81,80%)
+       117.123.143      stalled-cycles-frontend   #   22,81% frontend cycles idle     (82,41%)
+       170.273.267      stalled-cycles-backend    #   33,16% backend  cycles idle     (38,13%)
+       372.901.804      instructions              #    0,73  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (55,19%)
+        91.490.687      branches                  #  574,985 M/sec                    (70,12%)
+           543.040      branch-misses             #    0,59% of all branches          (83,26%)
+
+       0,449839329 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        161,236574      task-clock (msec)         #    0,356 CPUs utilized          
+               104      context-switches          #    0,645 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.819      page-faults               #    0,024 M/sec                  
+       509.340.168      cycles                    #    3,159 GHz                      (82,29%)
+       117.561.183      stalled-cycles-frontend   #   23,08% frontend cycles idle     (84,44%)
+       179.522.384      stalled-cycles-backend    #   35,25% backend  cycles idle     (34,96%)
+       414.784.622      instructions              #    0,81  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (51,94%)
+        95.097.523      branches                  #  589,801 M/sec                    (65,94%)
+           525.397      branch-misses             #    0,55% of all branches          (79,86%)
+
+       0,452985698 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        162,244014      task-clock (msec)         #    0,357 CPUs utilized          
+                95      context-switches          #    0,586 K/sec                  
+                12      cpu-migrations            #    0,074 K/sec                  
+             3.823      page-faults               #    0,024 M/sec                  
+       507.020.887      cycles                    #    3,125 GHz                      (82,85%)
+       115.447.195      stalled-cycles-frontend   #   22,77% frontend cycles idle     (79,92%)
+       185.915.980      stalled-cycles-backend    #   36,67% backend  cycles idle     (38,09%)
+       424.940.900      instructions              #    0,84  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (55,90%)
+        96.244.097      branches                  #  593,206 M/sec                    (70,83%)
+           560.408      branch-misses             #    0,58% of all branches          (84,66%)
+
+       0,454405364 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        158,997307      task-clock (msec)         #    0,355 CPUs utilized          
+               101      context-switches          #    0,635 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.309      page-faults               #    0,021 M/sec                  
+       524.696.171      cycles                    #    3,300 GHz                      (83,38%)
+       115.111.749      stalled-cycles-frontend   #   21,94% frontend cycles idle     (81,80%)
+       185.967.690      stalled-cycles-backend    #   35,44% backend  cycles idle     (36,45%)
+       437.094.113      instructions              #    0,83  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (54,09%)
+        98.727.836      branches                  #  620,940 M/sec                    (70,18%)
+           573.931      branch-misses             #    0,58% of all branches          (85,25%)
+
+       0,448404974 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        162,258532      task-clock (msec)         #    0,356 CPUs utilized          
+                98      context-switches          #    0,604 K/sec                  
+                12      cpu-migrations            #    0,074 K/sec                  
+             3.819      page-faults               #    0,024 M/sec                  
+       524.223.891      cycles                    #    3,231 GHz                      (83,66%)
+       119.305.328      stalled-cycles-frontend   #   22,76% frontend cycles idle     (82,48%)
+       174.234.525      stalled-cycles-backend    #   33,24% backend  cycles idle     (35,04%)
+       403.817.080      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (53,34%)
+        93.511.579      branches                  #  576,312 M/sec                    (70,51%)
+           554.280      branch-misses             #    0,59% of all branches          (84,31%)
+
+       0,455869164 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        161,643252      task-clock (msec)         #    0,358 CPUs utilized          
+                90      context-switches          #    0,557 K/sec                  
+                13      cpu-migrations            #    0,080 K/sec                  
+             3.820      page-faults               #    0,024 M/sec                  
+       510.177.045      cycles                    #    3,156 GHz                      (83,26%)
+       104.763.935      stalled-cycles-frontend   #   20,53% frontend cycles idle     (80,85%)
+       168.653.677      stalled-cycles-backend    #   33,06% backend  cycles idle     (40,49%)
+       419.167.747      instructions              #    0,82  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (55,75%)
+        97.419.655      branches                  #  602,683 M/sec                    (68,84%)
+           585.184      branch-misses             #    0,60% of all branches          (85,37%)
+
+       0,451281260 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/ulysses.txt':
+
+        165,710042      task-clock (msec)         #    0,360 CPUs utilized          
+               113      context-switches          #    0,682 K/sec                  
+                14      cpu-migrations            #    0,084 K/sec                  
+             3.818      page-faults               #    0,023 M/sec                  
+       527.030.530      cycles                    #    3,180 GHz                      (78,50%)
+       115.924.868      stalled-cycles-frontend   #   22,00% frontend cycles idle     (84,75%)
+       163.551.073      stalled-cycles-backend    #   31,03% backend  cycles idle     (39,72%)
+       393.786.236      instructions              #    0,75  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (56,45%)
+        90.430.298      branches                  #  545,714 M/sec                    (69,91%)
+           534.106      branch-misses             #    0,59% of all branches          (83,44%)
+
+       0,459746901 seconds time elapsed
+

@@ -2,179 +2,1439 @@ DES device test step 1: SUCCEEDED
 
  Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
 
-       1835,083271      task-clock (msec)         #    0,243 CPUs utilized          
-             1.027      context-switches          #    0,560 K/sec                  
-                17      cpu-migrations            #    0,009 K/sec                  
+       1837,715269      task-clock (msec)         #    0,247 CPUs utilized          
+             1.334      context-switches          #    0,726 K/sec                  
+                19      cpu-migrations            #    0,010 K/sec                  
              5.064      page-faults               #    0,003 M/sec                  
-     6.347.792.202      cycles                    #    3,459 GHz                      (83,02%)
-     1.090.568.323      stalled-cycles-frontend   #   17,18% frontend cycles idle     (83,01%)
-     2.149.388.561      stalled-cycles-backend    #   33,86% backend  cycles idle     (34,13%)
-     6.337.782.167      instructions              #    1,00  insns per cycle        
-                                                  #    0,34  stalled cycles per insn  (51,21%)
-     1.496.614.110      branches                  #  815,557 M/sec                    (67,36%)
-         4.891.075      branch-misses             #    0,33% of all branches          (83,54%)
+     6.009.172.602      cycles                    #    3,270 GHz                      (83,48%)
+     1.060.258.535      stalled-cycles-frontend   #   17,64% frontend cycles idle     (82,98%)
+     2.087.438.021      stalled-cycles-backend    #   34,74% backend  cycles idle     (33,55%)
+     6.388.906.928      instructions              #    1,06  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,20%)
+     1.502.933.295      branches                  #  817,827 M/sec                    (67,01%)
+         4.790.601      branch-misses             #    0,32% of all branches          (83,36%)
 
-       7,549551458 seconds time elapsed
+       7,454631666 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
  Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
 
-       1800,149098      task-clock (msec)         #    0,245 CPUs utilized          
-             1.116      context-switches          #    0,620 K/sec                  
-                17      cpu-migrations            #    0,009 K/sec                  
+       1759,927856      task-clock (msec)         #    0,241 CPUs utilized          
+             1.052      context-switches          #    0,598 K/sec                  
+                16      cpu-migrations            #    0,009 K/sec                  
+             4.079      page-faults               #    0,002 M/sec                  
+     6.091.012.128      cycles                    #    3,461 GHz                      (82,89%)
+     1.048.728.566      stalled-cycles-frontend   #   17,22% frontend cycles idle     (83,51%)
+     2.183.906.776      stalled-cycles-backend    #   35,85% backend  cycles idle     (34,00%)
+     6.059.262.625      instructions              #    0,99  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,34%)
+     1.443.947.115      branches                  #  820,458 M/sec                    (66,85%)
+         3.483.811      branch-misses             #    0,24% of all branches          (83,13%)
+
+       7,298238949 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1748,795633      task-clock (msec)         #    0,240 CPUs utilized          
+               941      context-switches          #    0,538 K/sec                  
+                22      cpu-migrations            #    0,013 K/sec                  
+             4.079      page-faults               #    0,002 M/sec                  
+     5.936.065.465      cycles                    #    3,394 GHz                      (83,29%)
+     1.074.328.986      stalled-cycles-frontend   #   18,10% frontend cycles idle     (83,38%)
+     1.966.494.852      stalled-cycles-backend    #   33,13% backend  cycles idle     (33,69%)
+     6.040.874.422      instructions              #    1,02  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,17%)
+     1.423.988.248      branches                  #  814,268 M/sec                    (66,63%)
+         3.444.463      branch-misses             #    0,24% of all branches          (83,36%)
+
+       7,287856318 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1754,621008      task-clock (msec)         #    0,241 CPUs utilized          
+               939      context-switches          #    0,535 K/sec                  
+                17      cpu-migrations            #    0,010 K/sec                  
              4.078      page-faults               #    0,002 M/sec                  
-     6.189.121.980      cycles                    #    3,438 GHz                      (83,32%)
-     1.052.243.284      stalled-cycles-frontend   #   17,00% frontend cycles idle     (83,36%)
-     2.217.304.117      stalled-cycles-backend    #   35,83% backend  cycles idle     (33,39%)
-     6.031.970.951      instructions              #    0,97  insns per cycle        
-                                                  #    0,37  stalled cycles per insn  (50,62%)
-     1.425.783.430      branches                  #  792,036 M/sec                    (67,13%)
-         3.405.874      branch-misses             #    0,24% of all branches          (83,64%)
+     6.078.339.870      cycles                    #    3,464 GHz                      (83,21%)
+     1.029.838.383      stalled-cycles-frontend   #   16,94% frontend cycles idle     (83,01%)
+     2.170.200.274      stalled-cycles-backend    #   35,70% backend  cycles idle     (34,00%)
+     6.035.801.357      instructions              #    0,99  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,37%)
+     1.439.689.329      branches                  #  820,513 M/sec                    (66,83%)
+         3.523.728      branch-misses             #    0,24% of all branches          (83,38%)
 
-       7,334227433 seconds time elapsed
+       7,284386319 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1949,608301      task-clock (msec)         #    0,260 CPUs utilized          
+             1.176      context-switches          #    0,603 K/sec                  
+                19      cpu-migrations            #    0,010 K/sec                  
+             4.079      page-faults               #    0,002 M/sec                  
+     6.850.916.307      cycles                    #    3,514 GHz                      (83,42%)
+     1.058.357.095      stalled-cycles-frontend   #   15,45% frontend cycles idle     (83,44%)
+     3.091.482.374      stalled-cycles-backend    #   45,13% backend  cycles idle     (33,38%)
+     6.036.614.681      instructions              #    0,88  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (50,25%)
+     1.427.523.357      branches                  #  732,210 M/sec                    (66,87%)
+         3.578.286      branch-misses             #    0,25% of all branches          (83,27%)
+
+       7,485085298 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1778,560953      task-clock (msec)         #    0,243 CPUs utilized          
+               904      context-switches          #    0,508 K/sec                  
+                19      cpu-migrations            #    0,011 K/sec                  
+             4.077      page-faults               #    0,002 M/sec                  
+     6.183.877.611      cycles                    #    3,477 GHz                      (83,26%)
+     1.068.278.872      stalled-cycles-frontend   #   17,28% frontend cycles idle     (83,54%)
+     2.199.455.632      stalled-cycles-backend    #   35,57% backend  cycles idle     (33,30%)
+     6.130.946.451      instructions              #    0,99  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (49,74%)
+     1.446.797.156      branches                  #  813,465 M/sec                    (66,08%)
+         3.402.028      branch-misses             #    0,24% of all branches          (83,14%)
+
+       7,318319346 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1732,810862      task-clock (msec)         #    0,238 CPUs utilized          
+               952      context-switches          #    0,549 K/sec                  
+                17      cpu-migrations            #    0,010 K/sec                  
+             4.077      page-faults               #    0,002 M/sec                  
+     6.212.623.837      cycles                    #    3,585 GHz                      (83,57%)
+     1.025.636.458      stalled-cycles-frontend   #   16,51% frontend cycles idle     (83,49%)
+     2.336.123.849      stalled-cycles-backend    #   37,60% backend  cycles idle     (33,23%)
+     6.058.389.854      instructions              #    0,98  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,20%)
+     1.439.807.181      branches                  #  830,908 M/sec                    (66,50%)
+         3.399.815      branch-misses             #    0,24% of all branches          (83,27%)
+
+       7,269046725 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1739,935758      task-clock (msec)         #    0,239 CPUs utilized          
+             1.043      context-switches          #    0,599 K/sec                  
+                22      cpu-migrations            #    0,013 K/sec                  
+             4.077      page-faults               #    0,002 M/sec                  
+     6.116.030.973      cycles                    #    3,515 GHz                      (83,54%)
+     1.005.222.561      stalled-cycles-frontend   #   16,44% frontend cycles idle     (83,20%)
+     2.136.195.545      stalled-cycles-backend    #   34,93% backend  cycles idle     (33,37%)
+     6.058.638.524      instructions              #    0,99  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,24%)
+     1.439.904.124      branches                  #  827,562 M/sec                    (66,85%)
+         3.463.116      branch-misses             #    0,24% of all branches          (83,20%)
+
+       7,269794606 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1778,647451      task-clock (msec)         #    0,243 CPUs utilized          
+               896      context-switches          #    0,504 K/sec                  
+                21      cpu-migrations            #    0,012 K/sec                  
+             4.076      page-faults               #    0,002 M/sec                  
+     6.150.566.220      cycles                    #    3,458 GHz                      (83,21%)
+     1.063.581.016      stalled-cycles-frontend   #   17,29% frontend cycles idle     (83,44%)
+     2.200.170.533      stalled-cycles-backend    #   35,77% backend  cycles idle     (33,66%)
+     6.028.909.725      instructions              #    0,98  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,10%)
+     1.431.609.429      branches                  #  804,887 M/sec                    (66,42%)
+         3.417.074      branch-misses             #    0,24% of all branches          (83,30%)
+
+       7,317936590 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_1.tif':
+
+       1728,724302      task-clock (msec)         #    0,238 CPUs utilized          
+               902      context-switches          #    0,522 K/sec                  
+                18      cpu-migrations            #    0,010 K/sec                  
+             4.078      page-faults               #    0,002 M/sec                  
+     5.829.338.846      cycles                    #    3,372 GHz                      (83,41%)
+     1.037.692.528      stalled-cycles-frontend   #   17,80% frontend cycles idle     (83,33%)
+     1.960.649.080      stalled-cycles-backend    #   33,63% backend  cycles idle     (33,54%)
+     6.073.950.062      instructions              #    1,04  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,51%)
+     1.438.294.374      branches                  #  831,998 M/sec                    (67,10%)
+         3.541.605      branch-misses             #    0,25% of all branches          (83,42%)
+
+       7,269164643 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
  Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
 
-       1545,357343      task-clock (msec)         #    0,218 CPUs utilized          
-             1.148      context-switches          #    0,743 K/sec                  
-                21      cpu-migrations            #    0,014 K/sec                  
-             4.079      page-faults               #    0,003 M/sec                  
-     5.352.031.571      cycles                    #    3,463 GHz                      (83,03%)
-       824.129.678      stalled-cycles-frontend   #   15,40% frontend cycles idle     (83,30%)
-     1.954.854.179      stalled-cycles-backend    #   36,53% backend  cycles idle     (33,88%)
-     5.426.196.375      instructions              #    1,01  insns per cycle        
-                                                  #    0,36  stalled cycles per insn  (50,52%)
-     1.295.483.632      branches                  #  838,307 M/sec                    (66,97%)
-         2.669.938      branch-misses             #    0,21% of all branches          (83,41%)
+       1557,618804      task-clock (msec)         #    0,219 CPUs utilized          
+             1.052      context-switches          #    0,675 K/sec                  
+                21      cpu-migrations            #    0,013 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.413.263.670      cycles                    #    3,475 GHz                      (83,58%)
+       868.785.938      stalled-cycles-frontend   #   16,05% frontend cycles idle     (83,39%)
+     1.921.556.635      stalled-cycles-backend    #   35,50% backend  cycles idle     (33,25%)
+     5.438.695.822      instructions              #    1,00  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (49,65%)
+     1.292.187.104      branches                  #  829,591 M/sec                    (66,68%)
+         2.650.809      branch-misses             #    0,21% of all branches          (83,45%)
 
-       7,085221305 seconds time elapsed
+       7,099523961 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
  Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
 
-       1502,777033      task-clock (msec)         #    0,214 CPUs utilized          
-               886      context-switches          #    0,590 K/sec                  
+       1541,794657      task-clock (msec)         #    0,218 CPUs utilized          
+               856      context-switches          #    0,555 K/sec                  
+                17      cpu-migrations            #    0,011 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     5.301.083.053      cycles                    #    3,438 GHz                      (83,26%)
+       842.928.144      stalled-cycles-frontend   #   15,90% frontend cycles idle     (83,09%)
+     1.818.583.055      stalled-cycles-backend    #   34,31% backend  cycles idle     (33,75%)
+     5.362.144.028      instructions              #    1,01  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (51,07%)
+     1.283.967.657      branches                  #  832,775 M/sec                    (67,52%)
+         2.819.449      branch-misses             #    0,22% of all branches          (83,53%)
+
+       7,086548976 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1549,302399      task-clock (msec)         #    0,219 CPUs utilized          
+               904      context-switches          #    0,583 K/sec                  
                 18      cpu-migrations            #    0,012 K/sec                  
              4.077      page-faults               #    0,003 M/sec                  
-     5.208.812.268      cycles                    #    3,466 GHz                      (83,11%)
-       783.408.619      stalled-cycles-frontend   #   15,04% frontend cycles idle     (83,43%)
-     1.919.708.004      stalled-cycles-backend    #   36,86% backend  cycles idle     (33,51%)
-     5.433.008.569      instructions              #    1,04  insns per cycle        
-                                                  #    0,35  stalled cycles per insn  (50,52%)
-     1.293.823.748      branches                  #  860,955 M/sec                    (66,91%)
-         2.616.798      branch-misses             #    0,20% of all branches          (83,26%)
+     5.103.931.111      cycles                    #    3,294 GHz                      (83,36%)
+       642.283.987      stalled-cycles-frontend   #   12,58% frontend cycles idle     (83,26%)
+     1.907.951.345      stalled-cycles-backend    #   37,38% backend  cycles idle     (33,48%)
+     5.424.417.601      instructions              #    1,06  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (49,87%)
+     1.286.306.416      branches                  #  830,249 M/sec                    (66,63%)
+         2.587.394      branch-misses             #    0,20% of all branches          (83,21%)
 
-       7,036611229 seconds time elapsed
+       7,087285448 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
- Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
 
-       1442,004291      task-clock (msec)         #    0,206 CPUs utilized          
-               775      context-switches          #    0,537 K/sec                  
-                18      cpu-migrations            #    0,012 K/sec                  
-             4.080      page-faults               #    0,003 M/sec                  
-     4.931.882.882      cycles                    #    3,420 GHz                      (83,89%)
-       742.327.504      stalled-cycles-frontend   #   15,05% frontend cycles idle     (83,48%)
-     1.878.297.511      stalled-cycles-backend    #   38,08% backend  cycles idle     (32,90%)
-     5.039.794.823      instructions              #    1,02  insns per cycle        
+       1524,163606      task-clock (msec)         #    0,216 CPUs utilized          
+             1.061      context-switches          #    0,696 K/sec                  
+                22      cpu-migrations            #    0,014 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     5.280.548.448      cycles                    #    3,465 GHz                      (83,33%)
+       820.877.662      stalled-cycles-frontend   #   15,55% frontend cycles idle     (83,58%)
+     1.984.343.055      stalled-cycles-backend    #   37,58% backend  cycles idle     (33,24%)
+     5.435.926.396      instructions              #    1,03  insns per cycle        
                                                   #    0,37  stalled cycles per insn  (50,38%)
-     1.210.794.336      branches                  #  839,661 M/sec                    (66,92%)
-         2.081.215      branch-misses             #    0,17% of all branches          (83,32%)
+     1.293.446.181      branches                  #  848,627 M/sec                    (67,19%)
+         2.584.771      branch-misses             #    0,20% of all branches          (83,51%)
 
-       6,984821999 seconds time elapsed
+       7,055298885 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1592,904242      task-clock (msec)         #    0,223 CPUs utilized          
+             1.085      context-switches          #    0,681 K/sec                  
+                22      cpu-migrations            #    0,014 K/sec                  
+             4.075      page-faults               #    0,003 M/sec                  
+     5.179.305.421      cycles                    #    3,251 GHz                      (83,59%)
+       726.993.892      stalled-cycles-frontend   #   14,04% frontend cycles idle     (83,26%)
+     1.819.781.629      stalled-cycles-backend    #   35,14% backend  cycles idle     (33,16%)
+     5.352.972.575      instructions              #    1,03  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,47%)
+     1.285.939.540      branches                  #  807,292 M/sec                    (66,72%)
+         2.484.253      branch-misses             #    0,19% of all branches          (82,99%)
+
+       7,131733764 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1562,117969      task-clock (msec)         #    0,220 CPUs utilized          
+               880      context-switches          #    0,563 K/sec                  
+                16      cpu-migrations            #    0,010 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.109.112.960      cycles                    #    3,271 GHz                      (83,43%)
+       816.334.478      stalled-cycles-frontend   #   15,98% frontend cycles idle     (83,60%)
+     1.709.468.609      stalled-cycles-backend    #   33,46% backend  cycles idle     (33,13%)
+     5.312.402.920      instructions              #    1,04  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,47%)
+     1.268.752.661      branches                  #  812,200 M/sec                    (67,01%)
+         2.578.790      branch-misses             #    0,20% of all branches          (83,29%)
+
+       7,102352828 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1515,151539      task-clock (msec)         #    0,215 CPUs utilized          
+               955      context-switches          #    0,630 K/sec                  
+                24      cpu-migrations            #    0,016 K/sec                  
+             4.081      page-faults               #    0,003 M/sec                  
+     5.274.763.734      cycles                    #    3,481 GHz                      (83,48%)
+       744.914.583      stalled-cycles-frontend   #   14,12% frontend cycles idle     (83,23%)
+     1.907.951.614      stalled-cycles-backend    #   36,17% backend  cycles idle     (33,31%)
+     5.394.569.836      instructions              #    1,02  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,56%)
+     1.289.600.080      branches                  #  851,136 M/sec                    (67,09%)
+         2.659.945      branch-misses             #    0,21% of all branches          (83,41%)
+
+       7,053066579 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1555,016852      task-clock (msec)         #    0,219 CPUs utilized          
+               870      context-switches          #    0,559 K/sec                  
+                18      cpu-migrations            #    0,012 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.300.409.715      cycles                    #    3,409 GHz                      (83,51%)
+       831.152.437      stalled-cycles-frontend   #   15,68% frontend cycles idle     (83,33%)
+     1.895.939.911      stalled-cycles-backend    #   35,77% backend  cycles idle     (33,28%)
+     5.413.096.973      instructions              #    1,02  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,13%)
+     1.288.293.115      branches                  #  828,475 M/sec                    (66,92%)
+         2.676.584      branch-misses             #    0,21% of all branches          (83,58%)
+
+       7,101550673 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1574,068328      task-clock (msec)         #    0,221 CPUs utilized          
+               922      context-switches          #    0,586 K/sec                  
+                22      cpu-migrations            #    0,014 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.000.695.836      cycles                    #    3,177 GHz                      (83,25%)
+       804.462.394      stalled-cycles-frontend   #   16,09% frontend cycles idle     (83,21%)
+     1.622.278.270      stalled-cycles-backend    #   32,44% backend  cycles idle     (33,61%)
+     5.345.599.865      instructions              #    1,07  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,59%)
+     1.286.110.511      branches                  #  817,061 M/sec                    (67,33%)
+         2.659.228      branch-misses             #    0,21% of all branches          (83,73%)
+
+       7,117318671 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/hubble_1.tif':
+
+       1546,660840      task-clock (msec)         #    0,218 CPUs utilized          
+               880      context-switches          #    0,569 K/sec                  
+                25      cpu-migrations            #    0,016 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.336.045.730      cycles                    #    3,450 GHz                      (83,41%)
+       833.498.636      stalled-cycles-frontend   #   15,62% frontend cycles idle     (83,66%)
+     1.914.876.959      stalled-cycles-backend    #   35,89% backend  cycles idle     (33,23%)
+     5.437.372.901      instructions              #    1,02  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (49,87%)
+     1.292.788.679      branches                  #  835,858 M/sec                    (66,64%)
+         2.626.229      branch-misses             #    0,20% of all branches          (83,37%)
+
+       7,087029713 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
  Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
 
-       1424,975247      task-clock (msec)         #    0,205 CPUs utilized          
-               910      context-switches          #    0,639 K/sec                  
-                21      cpu-migrations            #    0,015 K/sec                  
-             4.075      page-faults               #    0,003 M/sec                  
-     4.981.191.760      cycles                    #    3,496 GHz                      (83,03%)
-       784.707.252      stalled-cycles-frontend   #   15,75% frontend cycles idle     (83,62%)
-     1.858.426.242      stalled-cycles-backend    #   37,31% backend  cycles idle     (33,70%)
-     5.118.392.426      instructions              #    1,03  insns per cycle        
-                                                  #    0,36  stalled cycles per insn  (50,02%)
-     1.230.513.417      branches                  #  863,533 M/sec                    (66,26%)
-         2.186.311      branch-misses             #    0,18% of all branches          (83,17%)
+       1425,572262      task-clock (msec)         #    0,205 CPUs utilized          
+               909      context-switches          #    0,638 K/sec                  
+                20      cpu-migrations            #    0,014 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.795.856.449      cycles                    #    3,364 GHz                      (83,30%)
+       692.729.111      stalled-cycles-frontend   #   14,44% frontend cycles idle     (83,35%)
+     1.813.266.673      stalled-cycles-backend    #   37,81% backend  cycles idle     (33,60%)
+     4.998.608.381      instructions              #    1,04  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,59%)
+     1.216.589.601      branches                  #  853,404 M/sec                    (67,15%)
+         2.193.383      branch-misses             #    0,18% of all branches          (83,45%)
 
-       6,965947472 seconds time elapsed
+       6,967209855 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
- Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
 
-       1426,182423      task-clock (msec)         #    0,205 CPUs utilized          
-               840      context-switches          #    0,589 K/sec                  
+       1467,919962      task-clock (msec)         #    0,210 CPUs utilized          
+               823      context-switches          #    0,561 K/sec                  
+                22      cpu-migrations            #    0,015 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.001.060.556      cycles                    #    3,407 GHz                      (83,44%)
+       757.168.655      stalled-cycles-frontend   #   15,14% frontend cycles idle     (83,48%)
+     1.795.775.034      stalled-cycles-backend    #   35,91% backend  cycles idle     (33,20%)
+     4.996.857.737      instructions              #    1,00  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,50%)
+     1.215.725.599      branches                  #  828,196 M/sec                    (66,89%)
+         2.251.593      branch-misses             #    0,19% of all branches          (83,42%)
+
+       7,000459769 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1414,835992      task-clock (msec)         #    0,203 CPUs utilized          
+               859      context-switches          #    0,607 K/sec                  
+                18      cpu-migrations            #    0,013 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.938.961.281      cycles                    #    3,491 GHz                      (83,56%)
+       707.673.437      stalled-cycles-frontend   #   14,33% frontend cycles idle     (83,62%)
+     1.910.098.837      stalled-cycles-backend    #   38,67% backend  cycles idle     (33,00%)
+     5.188.315.297      instructions              #    1,05  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (49,30%)
+     1.226.723.229      branches                  #  867,043 M/sec                    (66,50%)
+         2.195.334      branch-misses             #    0,18% of all branches          (83,15%)
+
+       6,953245125 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1427,692352      task-clock (msec)         #    0,205 CPUs utilized          
+               861      context-switches          #    0,603 K/sec                  
+                23      cpu-migrations            #    0,016 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.976.708.379      cycles                    #    3,486 GHz                      (82,85%)
+       752.610.821      stalled-cycles-frontend   #   15,12% frontend cycles idle     (83,47%)
+     1.822.734.888      stalled-cycles-backend    #   36,63% backend  cycles idle     (34,03%)
+     5.158.228.869      instructions              #    1,04  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,53%)
+     1.231.187.430      branches                  #  862,362 M/sec                    (66,84%)
+         2.351.539      branch-misses             #    0,19% of all branches          (83,45%)
+
+       6,968160718 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1553,532434      task-clock (msec)         #    0,219 CPUs utilized          
+               985      context-switches          #    0,634 K/sec                  
+                26      cpu-migrations            #    0,017 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.742.594.639      cycles                    #    3,053 GHz                      (83,30%)
+       630.780.007      stalled-cycles-frontend   #   13,30% frontend cycles idle     (83,51%)
+     1.726.080.228      stalled-cycles-backend    #   36,40% backend  cycles idle     (33,54%)
+     5.095.385.244      instructions              #    1,07  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (49,92%)
+     1.218.389.886      branches                  #  784,271 M/sec                    (66,66%)
+         2.250.039      branch-misses             #    0,18% of all branches          (83,10%)
+
+       7,086204546 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1437,101213      task-clock (msec)         #    0,206 CPUs utilized          
+               948      context-switches          #    0,660 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.931.078.722      cycles                    #    3,431 GHz                      (83,62%)
+       675.736.622      stalled-cycles-frontend   #   13,70% frontend cycles idle     (83,35%)
+     1.943.852.725      stalled-cycles-backend    #   39,42% backend  cycles idle     (33,05%)
+     4.975.774.140      instructions              #    1,01  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,51%)
+     1.215.113.601      branches                  #  845,531 M/sec                    (67,07%)
+         2.086.543      branch-misses             #    0,17% of all branches          (83,33%)
+
+       6,985881500 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1454,398566      task-clock (msec)         #    0,208 CPUs utilized          
+               795      context-switches          #    0,547 K/sec                  
                 20      cpu-migrations            #    0,014 K/sec                  
              4.080      page-faults               #    0,003 M/sec                  
-     5.046.669.932      cycles                    #    3,539 GHz                      (82,95%)
-       737.093.560      stalled-cycles-frontend   #   14,61% frontend cycles idle     (83,41%)
-     1.936.195.915      stalled-cycles-backend    #   38,37% backend  cycles idle     (33,96%)
-     5.114.804.355      instructions              #    1,01  insns per cycle        
-                                                  #    0,38  stalled cycles per insn  (50,78%)
-     1.220.281.750      branches                  #  855,628 M/sec                    (67,01%)
-         2.268.493      branch-misses             #    0,19% of all branches          (83,40%)
+     5.050.951.010      cycles                    #    3,473 GHz                      (83,13%)
+       793.377.434      stalled-cycles-frontend   #   15,71% frontend cycles idle     (83,43%)
+     1.791.421.621      stalled-cycles-backend    #   35,47% backend  cycles idle     (33,60%)
+     5.169.835.023      instructions              #    1,02  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,47%)
+     1.224.628.883      branches                  #  842,017 M/sec                    (66,82%)
+         2.193.798      branch-misses             #    0,18% of all branches          (83,00%)
 
-       6,968529540 seconds time elapsed
+       6,986089328 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1457,943658      task-clock (msec)         #    0,208 CPUs utilized          
+               862      context-switches          #    0,591 K/sec                  
+                23      cpu-migrations            #    0,016 K/sec                  
+             3.571      page-faults               #    0,002 M/sec                  
+     4.803.894.312      cycles                    #    3,295 GHz                      (82,98%)
+       694.268.528      stalled-cycles-frontend   #   14,45% frontend cycles idle     (83,39%)
+     1.658.318.067      stalled-cycles-backend    #   34,52% backend  cycles idle     (33,96%)
+     5.030.554.388      instructions              #    1,05  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,46%)
+     1.215.491.268      branches                  #  833,702 M/sec                    (66,64%)
+         2.299.170      branch-misses             #    0,19% of all branches          (82,98%)
+
+       6,996696496 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1479,901346      task-clock (msec)         #    0,211 CPUs utilized          
+               854      context-switches          #    0,577 K/sec                  
+                22      cpu-migrations            #    0,015 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.787.540.958      cycles                    #    3,235 GHz                      (83,65%)
+       725.328.370      stalled-cycles-frontend   #   15,15% frontend cycles idle     (82,79%)
+     1.521.672.789      stalled-cycles-backend    #   31,78% backend  cycles idle     (33,66%)
+     5.164.430.152      instructions              #    1,08  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,53%)
+     1.226.469.444      branches                  #  828,751 M/sec                    (67,33%)
+         2.208.284      branch-misses             #    0,18% of all branches          (83,56%)
+
+       7,018005590 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/hubble_1.tif':
+
+       1446,290686      task-clock (msec)         #    0,207 CPUs utilized          
+               866      context-switches          #    0,599 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.932.115.132      cycles                    #    3,410 GHz                      (82,95%)
+       693.264.430      stalled-cycles-frontend   #   14,06% frontend cycles idle     (83,62%)
+     1.781.532.016      stalled-cycles-backend    #   36,12% backend  cycles idle     (33,62%)
+     5.131.404.197      instructions              #    1,04  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (49,98%)
+     1.220.098.517      branches                  #  843,605 M/sec                    (66,81%)
+         2.218.596      branch-misses             #    0,18% of all branches          (83,25%)
+
+       6,985001981 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
  Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
 
-       1446,611706      task-clock (msec)         #    0,207 CPUs utilized          
-               846      context-switches          #    0,585 K/sec                  
-                18      cpu-migrations            #    0,012 K/sec                  
-             4.080      page-faults               #    0,003 M/sec                  
-     4.966.358.865      cycles                    #    3,433 GHz                      (83,58%)
-       757.202.692      stalled-cycles-frontend   #   15,25% frontend cycles idle     (83,28%)
-     1.781.862.036      stalled-cycles-backend    #   35,88% backend  cycles idle     (33,31%)
-     5.180.317.926      instructions              #    1,04  insns per cycle        
-                                                  #    0,34  stalled cycles per insn  (50,23%)
-     1.229.342.709      branches                  #  849,808 M/sec                    (66,88%)
-         2.254.805      branch-misses             #    0,18% of all branches          (83,25%)
+       1443,554123      task-clock (msec)         #    0,207 CPUs utilized          
+               922      context-switches          #    0,639 K/sec                  
+                17      cpu-migrations            #    0,012 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.052.003.355      cycles                    #    3,500 GHz                      (83,54%)
+       762.831.996      stalled-cycles-frontend   #   15,10% frontend cycles idle     (83,65%)
+     1.882.014.253      stalled-cycles-backend    #   37,25% backend  cycles idle     (32,95%)
+     5.045.607.996      instructions              #    1,00  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (49,83%)
+     1.216.314.678      branches                  #  842,583 M/sec                    (66,35%)
+         2.127.476      branch-misses             #    0,17% of all branches          (83,33%)
 
-       6,985058275 seconds time elapsed
-
-DES device test step 1: SUCCEEDED
-
- Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
-
-       1448,580045      task-clock (msec)         #    0,207 CPUs utilized          
-               876      context-switches          #    0,605 K/sec                  
-                16      cpu-migrations            #    0,011 K/sec                  
-             4.078      page-faults               #    0,003 M/sec                  
-     5.112.061.089      cycles                    #    3,529 GHz                      (83,31%)
-       771.477.831      stalled-cycles-frontend   #   15,09% frontend cycles idle     (83,34%)
-     1.962.814.710      stalled-cycles-backend    #   38,40% backend  cycles idle     (33,47%)
-     5.089.633.620      instructions              #    1,00  insns per cycle        
-                                                  #    0,39  stalled cycles per insn  (50,14%)
-     1.226.426.852      branches                  #  846,641 M/sec                    (66,62%)
-         2.279.370      branch-misses             #    0,19% of all branches          (83,13%)
-
-       6,985321237 seconds time elapsed
+       6,984815649 seconds time elapsed
 
 DES device test step 1: SUCCEEDED
 
- Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
 
-       1432,338522      task-clock (msec)         #    0,206 CPUs utilized          
-               805      context-switches          #    0,562 K/sec                  
+       1450,657700      task-clock (msec)         #    0,208 CPUs utilized          
+               855      context-switches          #    0,589 K/sec                  
+                25      cpu-migrations            #    0,017 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.795.932.222      cycles                    #    3,306 GHz                      (83,41%)
+       749.864.520      stalled-cycles-frontend   #   15,64% frontend cycles idle     (83,44%)
+     1.665.446.016      stalled-cycles-backend    #   34,73% backend  cycles idle     (33,23%)
+     5.096.735.590      instructions              #    1,06  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,63%)
+     1.223.685.232      branches                  #  843,538 M/sec                    (67,22%)
+         2.285.109      branch-misses             #    0,19% of all branches          (83,51%)
+
+       6,985736486 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1420,597345      task-clock (msec)         #    0,204 CPUs utilized          
+               927      context-switches          #    0,653 K/sec                  
                 22      cpu-migrations            #    0,015 K/sec                  
-             4.080      page-faults               #    0,003 M/sec                  
-     4.743.584.835      cycles                    #    3,312 GHz                      (83,19%)
-       752.313.615      stalled-cycles-frontend   #   15,86% frontend cycles idle     (83,19%)
-     1.630.076.618      stalled-cycles-backend    #   34,36% backend  cycles idle     (33,69%)
-     5.078.222.769      instructions              #    1,07  insns per cycle        
-                                                  #    0,32  stalled cycles per insn  (50,01%)
-     1.220.800.201      branches                  #  852,313 M/sec                    (66,76%)
-         2.145.962      branch-misses             #    0,18% of all branches          (82,91%)
+             4.076      page-faults               #    0,003 M/sec                  
+     4.943.710.904      cycles                    #    3,480 GHz                      (83,20%)
+       742.714.178      stalled-cycles-frontend   #   15,02% frontend cycles idle     (83,32%)
+     1.955.499.179      stalled-cycles-backend    #   39,56% backend  cycles idle     (33,60%)
+     5.061.692.593      instructions              #    1,02  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,38%)
+     1.218.756.527      branches                  #  857,918 M/sec                    (66,76%)
+         2.083.159      branch-misses             #    0,17% of all branches          (83,55%)
 
-       6,966790598 seconds time elapsed
+       6,953029451 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1470,581120      task-clock (msec)         #    0,210 CPUs utilized          
+               872      context-switches          #    0,593 K/sec                  
+                18      cpu-migrations            #    0,012 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     5.038.949.327      cycles                    #    3,427 GHz                      (83,38%)
+       792.187.072      stalled-cycles-frontend   #   15,72% frontend cycles idle     (82,91%)
+     1.838.468.841      stalled-cycles-backend    #   36,49% backend  cycles idle     (33,77%)
+     5.065.432.577      instructions              #    1,01  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,70%)
+     1.218.324.279      branches                  #  828,465 M/sec                    (67,31%)
+         2.222.945      branch-misses             #    0,18% of all branches          (83,85%)
+
+       7,004836590 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1449,049780      task-clock (msec)         #    0,207 CPUs utilized          
+               867      context-switches          #    0,598 K/sec                  
+                23      cpu-migrations            #    0,016 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.931.065.200      cycles                    #    3,403 GHz                      (83,57%)
+       732.410.648      stalled-cycles-frontend   #   14,85% frontend cycles idle     (83,63%)
+     1.833.153.700      stalled-cycles-backend    #   37,18% backend  cycles idle     (32,97%)
+     5.134.357.457      instructions              #    1,04  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,09%)
+     1.229.192.020      branches                  #  848,275 M/sec                    (66,61%)
+         2.250.405      branch-misses             #    0,18% of all branches          (83,38%)
+
+       6,985241778 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1447,856506      task-clock (msec)         #    0,207 CPUs utilized          
+             1.151      context-switches          #    0,795 K/sec                  
+                21      cpu-migrations            #    0,015 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.928.241.874      cycles                    #    3,404 GHz                      (83,77%)
+       727.884.863      stalled-cycles-frontend   #   14,77% frontend cycles idle     (83,05%)
+     1.867.330.242      stalled-cycles-backend    #   37,89% backend  cycles idle     (33,19%)
+     5.020.969.546      instructions              #    1,02  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,72%)
+     1.216.904.147      branches                  #  840,487 M/sec                    (67,30%)
+         2.231.089      branch-misses             #    0,18% of all branches          (83,88%)
+
+       6,983212501 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1432,834298      task-clock (msec)         #    0,206 CPUs utilized          
+             1.032      context-switches          #    0,720 K/sec                  
+                21      cpu-migrations            #    0,015 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.745.859.105      cycles                    #    3,312 GHz                      (83,45%)
+       740.406.227      stalled-cycles-frontend   #   15,60% frontend cycles idle     (83,38%)
+     1.550.808.445      stalled-cycles-backend    #   32,68% backend  cycles idle     (33,32%)
+     5.011.246.134      instructions              #    1,06  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,12%)
+     1.214.231.469      branches                  #  847,433 M/sec                    (66,47%)
+         2.166.683      branch-misses             #    0,18% of all branches          (82,80%)
+
+       6,964643378 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1453,529464      task-clock (msec)         #    0,208 CPUs utilized          
+               931      context-switches          #    0,641 K/sec                  
+                20      cpu-migrations            #    0,014 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.905.430.689      cycles                    #    3,375 GHz                      (82,66%)
+       706.158.909      stalled-cycles-frontend   #   14,40% frontend cycles idle     (83,29%)
+     1.799.771.353      stalled-cycles-backend    #   36,69% backend  cycles idle     (34,15%)
+     5.013.591.515      instructions              #    1,02  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,91%)
+     1.205.087.407      branches                  #  829,077 M/sec                    (67,38%)
+         2.188.266      branch-misses             #    0,18% of all branches          (83,57%)
+
+       6,987212062 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1459,792834      task-clock (msec)         #    0,209 CPUs utilized          
+               917      context-switches          #    0,628 K/sec                  
+                21      cpu-migrations            #    0,014 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     5.018.422.564      cycles                    #    3,438 GHz                      (83,45%)
+       716.527.609      stalled-cycles-frontend   #   14,28% frontend cycles idle     (83,57%)
+     1.866.909.585      stalled-cycles-backend    #   37,20% backend  cycles idle     (33,41%)
+     5.083.774.212      instructions              #    1,01  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,40%)
+     1.228.216.591      branches                  #  841,364 M/sec                    (66,76%)
+         2.326.756      branch-misses             #    0,19% of all branches          (83,38%)
+
+       7,000660144 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/hubble_1.tif':
+
+       1451,459782      task-clock (msec)         #    0,208 CPUs utilized          
+               882      context-switches          #    0,608 K/sec                  
+                26      cpu-migrations            #    0,018 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     5.095.398.568      cycles                    #    3,511 GHz                      (83,28%)
+       762.315.307      stalled-cycles-frontend   #   14,96% frontend cycles idle     (83,26%)
+     1.926.968.652      stalled-cycles-backend    #   37,82% backend  cycles idle     (33,76%)
+     5.124.851.694      instructions              #    1,01  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,25%)
+     1.234.864.940      branches                  #  850,774 M/sec                    (66,61%)
+         2.241.570      branch-misses             #    0,18% of all branches          (83,17%)
+
+       6,986488450 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1446,093757      task-clock (msec)         #    0,207 CPUs utilized          
+               834      context-switches          #    0,577 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.967.499.923      cycles                    #    3,435 GHz                      (83,12%)
+       746.462.211      stalled-cycles-frontend   #   15,03% frontend cycles idle     (83,47%)
+     1.808.965.652      stalled-cycles-backend    #   36,42% backend  cycles idle     (33,44%)
+     5.093.137.675      instructions              #    1,03  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,43%)
+     1.216.444.219      branches                  #  841,193 M/sec                    (66,99%)
+         2.269.267      branch-misses             #    0,19% of all branches          (83,44%)
+
+       6,986958487 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1434,119672      task-clock (msec)         #    0,206 CPUs utilized          
+               759      context-switches          #    0,529 K/sec                  
+                18      cpu-migrations            #    0,013 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.915.057.371      cycles                    #    3,427 GHz                      (83,38%)
+       748.031.471      stalled-cycles-frontend   #   15,22% frontend cycles idle     (83,15%)
+     1.701.812.558      stalled-cycles-backend    #   34,62% backend  cycles idle     (33,52%)
+     5.080.301.341      instructions              #    1,03  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,28%)
+     1.219.038.576      branches                  #  850,026 M/sec                    (66,76%)
+         2.183.096      branch-misses             #    0,18% of all branches          (83,07%)
+
+       6,966096998 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1437,444328      task-clock (msec)         #    0,206 CPUs utilized          
+             1.183      context-switches          #    0,823 K/sec                  
+                20      cpu-migrations            #    0,014 K/sec                  
+             4.081      page-faults               #    0,003 M/sec                  
+     5.010.398.436      cycles                    #    3,486 GHz                      (83,27%)
+       755.345.941      stalled-cycles-frontend   #   15,08% frontend cycles idle     (83,01%)
+     1.843.414.211      stalled-cycles-backend    #   36,79% backend  cycles idle     (33,94%)
+     5.086.931.097      instructions              #    1,02  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,74%)
+     1.226.382.575      branches                  #  853,169 M/sec                    (67,13%)
+         2.224.046      branch-misses             #    0,18% of all branches          (83,61%)
+
+       6,971556880 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1476,312931      task-clock (msec)         #    0,210 CPUs utilized          
+               847      context-switches          #    0,574 K/sec                  
+                22      cpu-migrations            #    0,015 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.091.997.533      cycles                    #    3,449 GHz                      (83,53%)
+       809.127.669      stalled-cycles-frontend   #   15,89% frontend cycles idle     (83,77%)
+     1.765.235.449      stalled-cycles-backend    #   34,67% backend  cycles idle     (32,95%)
+     5.146.808.150      instructions              #    1,01  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (49,95%)
+     1.222.561.685      branches                  #  828,118 M/sec                    (66,47%)
+         2.026.867      branch-misses             #    0,17% of all branches          (83,09%)
+
+       7,015133196 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1509,036173      task-clock (msec)         #    0,214 CPUs utilized          
+               819      context-switches          #    0,543 K/sec                  
+                21      cpu-migrations            #    0,014 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.015.218.157      cycles                    #    3,323 GHz                      (83,46%)
+       762.116.315      stalled-cycles-frontend   #   15,20% frontend cycles idle     (83,00%)
+     1.874.489.336      stalled-cycles-backend    #   37,38% backend  cycles idle     (33,78%)
+     5.054.612.333      instructions              #    1,01  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,43%)
+     1.210.501.906      branches                  #  802,169 M/sec                    (66,96%)
+         2.293.039      branch-misses             #    0,19% of all branches          (83,41%)
+
+       7,051428101 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1475,730330      task-clock (msec)         #    0,210 CPUs utilized          
+               966      context-switches          #    0,655 K/sec                  
+                22      cpu-migrations            #    0,015 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.731.966.652      cycles                    #    3,207 GHz                      (82,87%)
+       742.296.180      stalled-cycles-frontend   #   15,69% frontend cycles idle     (83,37%)
+     1.562.468.143      stalled-cycles-backend    #   33,02% backend  cycles idle     (33,85%)
+     5.011.940.030      instructions              #    1,06  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,92%)
+     1.207.391.191      branches                  #  818,165 M/sec                    (67,31%)
+         2.179.910      branch-misses             #    0,18% of all branches          (83,73%)
+
+       7,015650530 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1453,534688      task-clock (msec)         #    0,208 CPUs utilized          
+               735      context-switches          #    0,506 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.968.234.176      cycles                    #    3,418 GHz                      (83,59%)
+       751.291.460      stalled-cycles-frontend   #   15,12% frontend cycles idle     (83,12%)
+     1.824.045.481      stalled-cycles-backend    #   36,71% backend  cycles idle     (33,45%)
+     5.103.361.058      instructions              #    1,03  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,00%)
+     1.223.562.982      branches                  #  841,785 M/sec                    (66,89%)
+         2.243.170      branch-misses             #    0,18% of all branches          (83,57%)
+
+       6,985480083 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1486,526589      task-clock (msec)         #    0,212 CPUs utilized          
+             1.117      context-switches          #    0,751 K/sec                  
+                23      cpu-migrations            #    0,015 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     4.972.208.809      cycles                    #    3,345 GHz                      (83,37%)
+       761.173.096      stalled-cycles-frontend   #   15,31% frontend cycles idle     (83,26%)
+     1.831.170.331      stalled-cycles-backend    #   36,83% backend  cycles idle     (33,77%)
+     5.077.173.939      instructions              #    1,02  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,16%)
+     1.213.502.325      branches                  #  816,334 M/sec                    (66,52%)
+         2.200.399      branch-misses             #    0,18% of all branches          (83,06%)
+
+       7,021726824 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1462,412547      task-clock (msec)         #    0,208 CPUs utilized          
+               876      context-switches          #    0,599 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.943.723.450      cycles                    #    3,381 GHz                      (83,35%)
+       768.633.953      stalled-cycles-frontend   #   15,55% frontend cycles idle     (82,80%)
+     1.776.722.295      stalled-cycles-backend    #   35,94% backend  cycles idle     (34,00%)
+     5.096.888.919      instructions              #    1,03  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,54%)
+     1.220.698.768      branches                  #  834,716 M/sec                    (67,03%)
+         2.386.448      branch-misses             #    0,20% of all branches          (83,38%)
+
+       7,015904061 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/hubble_1.tif':
+
+       1446,141508      task-clock (msec)         #    0,207 CPUs utilized          
+               859      context-switches          #    0,594 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.747.939.951      cycles                    #    3,283 GHz                      (83,47%)
+       755.967.899      stalled-cycles-frontend   #   15,92% frontend cycles idle     (83,08%)
+     1.577.278.719      stalled-cycles-backend    #   33,22% backend  cycles idle     (33,53%)
+     5.144.778.571      instructions              #    1,08  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,16%)
+     1.222.968.137      branches                  #  845,677 M/sec                    (66,89%)
+         2.489.832      branch-misses             #    0,20% of all branches          (83,42%)
+
+       6,986113241 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1509,740404      task-clock (msec)         #    0,214 CPUs utilized          
+               872      context-switches          #    0,578 K/sec                  
+                20      cpu-migrations            #    0,013 K/sec                  
+             4.074      page-faults               #    0,003 M/sec                  
+     4.857.008.219      cycles                    #    3,217 GHz                      (82,97%)
+       649.682.259      stalled-cycles-frontend   #   13,38% frontend cycles idle     (83,20%)
+     1.766.490.870      stalled-cycles-backend    #   36,37% backend  cycles idle     (34,09%)
+     5.040.836.447      instructions              #    1,04  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,91%)
+     1.220.040.187      branches                  #  808,113 M/sec                    (66,98%)
+         2.155.871      branch-misses             #    0,18% of all branches          (83,58%)
+
+       7,051515763 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1470,692339      task-clock (msec)         #    0,210 CPUs utilized          
+               737      context-switches          #    0,501 K/sec                  
+                17      cpu-migrations            #    0,012 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     5.086.724.113      cycles                    #    3,459 GHz                      (83,19%)
+       788.646.450      stalled-cycles-frontend   #   15,50% frontend cycles idle     (83,03%)
+     1.793.568.662      stalled-cycles-backend    #   35,26% backend  cycles idle     (33,92%)
+     5.048.655.303      instructions              #    0,99  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,60%)
+     1.222.582.650      branches                  #  831,297 M/sec                    (67,15%)
+         2.526.093      branch-misses             #    0,21% of all branches          (83,51%)
+
+       7,004989342 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1447,813076      task-clock (msec)         #    0,207 CPUs utilized          
+               880      context-switches          #    0,608 K/sec                  
+                18      cpu-migrations            #    0,012 K/sec                  
+             4.081      page-faults               #    0,003 M/sec                  
+     4.804.257.648      cycles                    #    3,318 GHz                      (83,32%)
+       572.280.816      stalled-cycles-frontend   #   11,91% frontend cycles idle     (82,65%)
+     1.916.860.282      stalled-cycles-backend    #   39,90% backend  cycles idle     (34,13%)
+     5.064.776.443      instructions              #    1,05  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,71%)
+     1.226.800.153      branches                  #  847,347 M/sec                    (67,37%)
+         2.175.433      branch-misses             #    0,18% of all branches          (83,79%)
+
+       6,984268321 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1464,142264      task-clock (msec)         #    0,209 CPUs utilized          
+               886      context-switches          #    0,605 K/sec                  
+                20      cpu-migrations            #    0,014 K/sec                  
+             4.081      page-faults               #    0,003 M/sec                  
+     4.895.981.376      cycles                    #    3,344 GHz                      (83,00%)
+       703.687.999      stalled-cycles-frontend   #   14,37% frontend cycles idle     (83,58%)
+     1.817.240.356      stalled-cycles-backend    #   37,12% backend  cycles idle     (33,51%)
+     5.137.698.298      instructions              #    1,05  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,30%)
+     1.232.795.997      branches                  #  841,992 M/sec                    (66,75%)
+         2.218.962      branch-misses             #    0,18% of all branches          (83,43%)
+
+       7,001844306 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1492,043800      task-clock (msec)         #    0,212 CPUs utilized          
+               877      context-switches          #    0,588 K/sec                  
+                21      cpu-migrations            #    0,014 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.860.657.799      cycles                    #    3,258 GHz                      (83,52%)
+       702.338.817      stalled-cycles-frontend   #   14,45% frontend cycles idle     (83,28%)
+     1.824.368.937      stalled-cycles-backend    #   37,53% backend  cycles idle     (33,27%)
+     5.082.038.659      instructions              #    1,05  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,37%)
+     1.229.710.010      branches                  #  824,178 M/sec                    (66,84%)
+         2.207.444      branch-misses             #    0,18% of all branches          (83,23%)
+
+       7,033933739 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1462,666160      task-clock (msec)         #    0,209 CPUs utilized          
+             1.161      context-switches          #    0,794 K/sec                  
+                23      cpu-migrations            #    0,016 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     5.001.336.088      cycles                    #    3,419 GHz                      (83,02%)
+       753.194.691      stalled-cycles-frontend   #   15,06% frontend cycles idle     (83,62%)
+     1.740.901.768      stalled-cycles-backend    #   34,81% backend  cycles idle     (33,77%)
+     5.173.075.580      instructions              #    1,03  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,40%)
+     1.238.291.059      branches                  #  846,599 M/sec                    (66,66%)
+         2.308.037      branch-misses             #    0,19% of all branches          (83,24%)
+
+       7,000432413 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1432,693684      task-clock (msec)         #    0,206 CPUs utilized          
+               740      context-switches          #    0,517 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     4.933.985.481      cycles                    #    3,444 GHz                      (83,87%)
+       726.344.347      stalled-cycles-frontend   #   14,72% frontend cycles idle     (83,48%)
+     1.906.327.471      stalled-cycles-backend    #   38,64% backend  cycles idle     (32,76%)
+     5.134.872.848      instructions              #    1,04  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,10%)
+     1.218.468.860      branches                  #  850,474 M/sec                    (67,07%)
+         2.212.756      branch-misses             #    0,18% of all branches          (83,52%)
+
+       6,969901807 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1482,470936      task-clock (msec)         #    0,211 CPUs utilized          
+             1.045      context-switches          #    0,705 K/sec                  
+                27      cpu-migrations            #    0,018 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.937.116.313      cycles                    #    3,330 GHz                      (83,53%)
+       685.931.262      stalled-cycles-frontend   #   13,89% frontend cycles idle     (82,82%)
+     1.877.880.523      stalled-cycles-backend    #   38,04% backend  cycles idle     (33,82%)
+     5.001.458.433      instructions              #    1,01  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,63%)
+     1.211.037.539      branches                  #  816,905 M/sec                    (66,88%)
+         2.164.396      branch-misses             #    0,18% of all branches          (83,12%)
+
+       7,018624760 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1468,545373      task-clock (msec)         #    0,210 CPUs utilized          
+               879      context-switches          #    0,599 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.061.331.408      cycles                    #    3,446 GHz                      (83,53%)
+       775.133.759      stalled-cycles-frontend   #   15,31% frontend cycles idle     (82,58%)
+     1.910.007.433      stalled-cycles-backend    #   37,74% backend  cycles idle     (34,07%)
+     5.045.933.974      instructions              #    1,00  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,75%)
+     1.223.592.190      branches                  #  833,200 M/sec                    (67,01%)
+         2.173.419      branch-misses             #    0,18% of all branches          (83,35%)
+
+       7,004981066 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/hubble_1.tif':
+
+       1445,611834      task-clock (msec)         #    0,207 CPUs utilized          
+               867      context-switches          #    0,600 K/sec                  
+                16      cpu-migrations            #    0,011 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.054.902.561      cycles                    #    3,497 GHz                      (83,02%)
+       736.409.582      stalled-cycles-frontend   #   14,57% frontend cycles idle     (83,36%)
+     1.914.435.530      stalled-cycles-backend    #   37,87% backend  cycles idle     (33,76%)
+     5.077.172.366      instructions              #    1,00  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,71%)
+     1.218.413.281      branches                  #  842,836 M/sec                    (67,16%)
+         2.250.547      branch-misses             #    0,18% of all branches          (83,73%)
+
+       6,983297022 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1509,923058      task-clock (msec)         #    0,214 CPUs utilized          
+               919      context-switches          #    0,609 K/sec                  
+                16      cpu-migrations            #    0,011 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.187.967.954      cycles                    #    3,436 GHz                      (83,05%)
+       804.431.960      stalled-cycles-frontend   #   15,51% frontend cycles idle     (83,62%)
+     1.879.103.671      stalled-cycles-backend    #   36,22% backend  cycles idle     (33,83%)
+     5.238.676.380      instructions              #    1,01  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,50%)
+     1.247.924.913      branches                  #  826,482 M/sec                    (66,78%)
+         2.408.336      branch-misses             #    0,19% of all branches          (82,94%)
+
+       7,051363667 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1498,370839      task-clock (msec)         #    0,213 CPUs utilized          
+               744      context-switches          #    0,497 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     5.102.582.466      cycles                    #    3,405 GHz                      (83,22%)
+       835.697.583      stalled-cycles-frontend   #   16,38% frontend cycles idle     (83,56%)
+     1.829.170.371      stalled-cycles-backend    #   35,85% backend  cycles idle     (33,45%)
+     5.180.073.898      instructions              #    1,02  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,41%)
+     1.245.097.410      branches                  #  830,967 M/sec                    (67,13%)
+         2.358.320      branch-misses             #    0,19% of all branches          (83,60%)
+
+       7,034521000 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1478,149353      task-clock (msec)         #    0,211 CPUs utilized          
+               902      context-switches          #    0,610 K/sec                  
+                21      cpu-migrations            #    0,014 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     5.067.037.297      cycles                    #    3,428 GHz                      (83,36%)
+       742.598.159      stalled-cycles-frontend   #   14,66% frontend cycles idle     (83,14%)
+     1.825.035.862      stalled-cycles-backend    #   36,02% backend  cycles idle     (33,81%)
+     5.151.837.947      instructions              #    1,02  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,44%)
+     1.243.275.637      branches                  #  841,103 M/sec                    (66,48%)
+         2.232.801      branch-misses             #    0,18% of all branches          (82,68%)
+
+       7,017868759 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1457,951906      task-clock (msec)         #    0,208 CPUs utilized          
+             1.165      context-switches          #    0,799 K/sec                  
+                22      cpu-migrations            #    0,015 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     4.882.002.590      cycles                    #    3,349 GHz                      (83,02%)
+       698.178.268      stalled-cycles-frontend   #   14,30% frontend cycles idle     (83,58%)
+     1.763.849.250      stalled-cycles-backend    #   36,13% backend  cycles idle     (33,71%)
+     5.155.557.040      instructions              #    1,06  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,32%)
+     1.228.427.232      branches                  #  842,570 M/sec                    (67,00%)
+         2.388.736      branch-misses             #    0,19% of all branches          (83,17%)
+
+       7,000503426 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1481,239787      task-clock (msec)         #    0,211 CPUs utilized          
+               877      context-switches          #    0,592 K/sec                  
+                20      cpu-migrations            #    0,014 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.996.760.104      cycles                    #    3,373 GHz                      (83,89%)
+       747.074.966      stalled-cycles-frontend   #   14,95% frontend cycles idle     (83,17%)
+     1.902.139.159      stalled-cycles-backend    #   38,07% backend  cycles idle     (33,32%)
+     5.185.498.156      instructions              #    1,04  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (49,83%)
+     1.241.312.189      branches                  #  838,022 M/sec                    (66,77%)
+         2.420.294      branch-misses             #    0,19% of all branches          (83,41%)
+
+       7,019818307 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1467,497156      task-clock (msec)         #    0,210 CPUs utilized          
+               858      context-switches          #    0,585 K/sec                  
+                19      cpu-migrations            #    0,013 K/sec                  
+             4.077      page-faults               #    0,003 M/sec                  
+     5.049.226.582      cycles                    #    3,441 GHz                      (83,08%)
+       712.476.442      stalled-cycles-frontend   #   14,11% frontend cycles idle     (83,45%)
+     1.892.889.068      stalled-cycles-backend    #   37,49% backend  cycles idle     (33,50%)
+     5.116.459.410      instructions              #    1,01  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,65%)
+     1.229.295.260      branches                  #  837,682 M/sec                    (67,18%)
+         2.478.875      branch-misses             #    0,20% of all branches          (83,81%)
+
+       7,002271437 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1456,369396      task-clock (msec)         #    0,208 CPUs utilized          
+               749      context-switches          #    0,514 K/sec                  
+                17      cpu-migrations            #    0,012 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     5.074.603.995      cycles                    #    3,484 GHz                      (83,58%)
+       755.993.582      stalled-cycles-frontend   #   14,90% frontend cycles idle     (83,24%)
+     1.958.261.764      stalled-cycles-backend    #   38,59% backend  cycles idle     (33,39%)
+     5.165.140.278      instructions              #    1,02  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,03%)
+     1.232.453.926      branches                  #  846,251 M/sec                    (66,68%)
+         2.253.840      branch-misses             #    0,18% of all branches          (83,26%)
+
+       6,987301582 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1479,559151      task-clock (msec)         #    0,211 CPUs utilized          
+               888      context-switches          #    0,600 K/sec                  
+                18      cpu-migrations            #    0,012 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.118.906.980      cycles                    #    3,460 GHz                      (82,84%)
+       786.830.073      stalled-cycles-frontend   #   15,37% frontend cycles idle     (83,29%)
+     1.903.276.156      stalled-cycles-backend    #   37,18% backend  cycles idle     (34,03%)
+     5.193.747.154      instructions              #    1,01  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,66%)
+     1.249.274.850      branches                  #  844,356 M/sec                    (66,97%)
+         2.350.567      branch-misses             #    0,19% of all branches          (83,47%)
+
+       7,015226816 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1517,804883      task-clock (msec)         #    0,215 CPUs utilized          
+               875      context-switches          #    0,576 K/sec                  
+                17      cpu-migrations            #    0,011 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     5.214.485.194      cycles                    #    3,436 GHz                      (83,50%)
+       816.553.293      stalled-cycles-frontend   #   15,66% frontend cycles idle     (83,32%)
+     1.973.010.727      stalled-cycles-backend    #   37,84% backend  cycles idle     (33,23%)
+     5.193.261.195      instructions              #    1,00  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,02%)
+     1.242.425.244      branches                  #  818,567 M/sec                    (66,69%)
+         2.194.582      branch-misses             #    0,18% of all branches          (83,52%)
+
+       7,055004310 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/hubble_1.tif':
+
+       1477,441580      task-clock (msec)         #    0,211 CPUs utilized          
+             1.011      context-switches          #    0,684 K/sec                  
+                22      cpu-migrations            #    0,015 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     5.049.554.289      cycles                    #    3,418 GHz                      (83,07%)
+       769.175.678      stalled-cycles-frontend   #   15,23% frontend cycles idle     (82,86%)
+     1.852.240.774      stalled-cycles-backend    #   36,68% backend  cycles idle     (34,15%)
+     5.143.766.597      instructions              #    1,02  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,39%)
+     1.237.518.314      branches                  #  837,609 M/sec                    (66,64%)
+         2.391.566      branch-misses             #    0,19% of all branches          (83,40%)
+
+       7,018253321 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1350,903930      task-clock (msec)         #    0,196 CPUs utilized          
+               906      context-switches          #    0,671 K/sec                  
+                21      cpu-migrations            #    0,016 K/sec                  
+             4.079      page-faults               #    0,003 M/sec                  
+     4.267.537.685      cycles                    #    3,159 GHz                      (83,46%)
+       637.787.242      stalled-cycles-frontend   #   14,95% frontend cycles idle     (83,04%)
+     1.460.347.223      stalled-cycles-backend    #   34,22% backend  cycles idle     (33,70%)
+     4.715.451.200      instructions              #    1,10  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,20%)
+     1.138.410.720      branches                  #  842,703 M/sec                    (66,41%)
+         1.694.476      branch-misses             #    0,15% of all branches          (83,10%)
+
+       6,886573312 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1302,450474      task-clock (msec)         #    0,191 CPUs utilized          
+               843      context-switches          #    0,647 K/sec                  
+                19      cpu-migrations            #    0,015 K/sec                  
+             4.074      page-faults               #    0,003 M/sec                  
+     4.634.206.424      cycles                    #    3,558 GHz                      (83,66%)
+       616.953.168      stalled-cycles-frontend   #   13,31% frontend cycles idle     (83,48%)
+     1.776.146.718      stalled-cycles-backend    #   38,33% backend  cycles idle     (33,00%)
+     4.709.246.234      instructions              #    1,02  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (49,90%)
+     1.140.012.199      branches                  #  875,283 M/sec                    (66,55%)
+         1.816.079      branch-misses             #    0,16% of all branches          (82,98%)
+
+       6,832945374 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1363,129557      task-clock (msec)         #    0,197 CPUs utilized          
+               858      context-switches          #    0,629 K/sec                  
+                20      cpu-migrations            #    0,015 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.639.518.170      cycles                    #    3,404 GHz                      (83,02%)
+       641.656.261      stalled-cycles-frontend   #   13,83% frontend cycles idle     (83,62%)
+     1.813.640.830      stalled-cycles-backend    #   39,09% backend  cycles idle     (33,60%)
+     4.665.141.849      instructions              #    1,01  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,02%)
+     1.130.485.115      branches                  #  829,331 M/sec                    (66,48%)
+         1.720.619      branch-misses             #    0,15% of all branches          (82,94%)
+
+       6,902543009 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1328,854887      task-clock (msec)         #    0,193 CPUs utilized          
+               870      context-switches          #    0,655 K/sec                  
+                21      cpu-migrations            #    0,016 K/sec                  
+             3.570      page-faults               #    0,003 M/sec                  
+     4.467.644.630      cycles                    #    3,362 GHz                      (83,53%)
+       627.738.424      stalled-cycles-frontend   #   14,05% frontend cycles idle     (83,34%)
+     1.746.700.285      stalled-cycles-backend    #   39,10% backend  cycles idle     (33,42%)
+     4.719.578.320      instructions              #    1,06  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,40%)
+     1.138.418.092      branches                  #  856,691 M/sec                    (67,09%)
+         1.786.319      branch-misses             #    0,16% of all branches          (83,41%)
+
+       6,868720309 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1344,450890      task-clock (msec)         #    0,195 CPUs utilized          
+               822      context-switches          #    0,611 K/sec                  
+                17      cpu-migrations            #    0,013 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.536.869.878      cycles                    #    3,375 GHz                      (82,92%)
+       630.398.132      stalled-cycles-frontend   #   13,90% frontend cycles idle     (83,70%)
+     1.731.672.876      stalled-cycles-backend    #   38,17% backend  cycles idle     (33,43%)
+     4.562.873.637      instructions              #    1,01  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,90%)
+     1.110.254.933      branches                  #  825,805 M/sec                    (67,15%)
+         1.706.629      branch-misses             #    0,15% of all branches          (83,23%)
+
+       6,884556691 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1269,255548      task-clock (msec)         #    0,186 CPUs utilized          
+             1.198      context-switches          #    0,944 K/sec                  
+                20      cpu-migrations            #    0,016 K/sec                  
+             4.082      page-faults               #    0,003 M/sec                  
+     4.539.231.647      cycles                    #    3,576 GHz                      (83,36%)
+       657.365.224      stalled-cycles-frontend   #   14,48% frontend cycles idle     (83,50%)
+     1.851.860.582      stalled-cycles-backend    #   40,80% backend  cycles idle     (33,38%)
+     4.656.019.969      instructions              #    1,03  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (49,97%)
+     1.122.580.239      branches                  #  884,440 M/sec                    (66,78%)
+         1.570.560      branch-misses             #    0,14% of all branches          (83,30%)
+
+       6,818831078 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1354,068258      task-clock (msec)         #    0,197 CPUs utilized          
+               833      context-switches          #    0,615 K/sec                  
+                20      cpu-migrations            #    0,015 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.469.622.457      cycles                    #    3,301 GHz                      (83,64%)
+       591.489.171      stalled-cycles-frontend   #   13,23% frontend cycles idle     (83,50%)
+     1.634.480.576      stalled-cycles-backend    #   36,57% backend  cycles idle     (33,05%)
+     4.706.150.558      instructions              #    1,05  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,01%)
+     1.137.845.902      branches                  #  840,317 M/sec                    (66,43%)
+         1.678.656      branch-misses             #    0,15% of all branches          (83,19%)
+
+       6,886537399 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1353,210818      task-clock (msec)         #    0,196 CPUs utilized          
+               846      context-switches          #    0,625 K/sec                  
+                19      cpu-migrations            #    0,014 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.615.852.039      cycles                    #    3,411 GHz                      (82,90%)
+       683.509.187      stalled-cycles-frontend   #   14,81% frontend cycles idle     (82,88%)
+     1.820.002.782      stalled-cycles-backend    #   39,43% backend  cycles idle     (34,27%)
+     4.665.510.863      instructions              #    1,01  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,81%)
+     1.132.809.716      branches                  #  837,127 M/sec                    (67,28%)
+         1.881.035      branch-misses             #    0,17% of all branches          (83,61%)
+
+       6,886876337 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1297,565631      task-clock (msec)         #    0,190 CPUs utilized          
+               845      context-switches          #    0,651 K/sec                  
+                20      cpu-migrations            #    0,015 K/sec                  
+             4.078      page-faults               #    0,003 M/sec                  
+     4.511.984.011      cycles                    #    3,477 GHz                      (83,44%)
+       626.699.767      stalled-cycles-frontend   #   13,89% frontend cycles idle     (83,42%)
+     1.677.616.588      stalled-cycles-backend    #   37,18% backend  cycles idle     (33,24%)
+     4.714.377.451      instructions              #    1,04  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,25%)
+     1.133.366.843      branches                  #  873,456 M/sec                    (66,84%)
+         1.735.704      branch-misses             #    0,15% of all branches          (83,19%)
+
+       6,837390422 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/hubble_1.tif':
+
+       1308,229055      task-clock (msec)         #    0,191 CPUs utilized          
+               863      context-switches          #    0,660 K/sec                  
+                18      cpu-migrations            #    0,014 K/sec                  
+             4.080      page-faults               #    0,003 M/sec                  
+     4.441.461.284      cycles                    #    3,395 GHz                      (83,49%)
+       575.951.547      stalled-cycles-frontend   #   12,97% frontend cycles idle     (83,56%)
+     1.708.347.686      stalled-cycles-backend    #   38,46% backend  cycles idle     (33,15%)
+     4.676.796.703      instructions              #    1,05  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (49,89%)
+     1.134.434.776      branches                  #  867,153 M/sec                    (66,43%)
+         1.799.649      branch-misses             #    0,16% of all branches          (83,05%)
+
+       6,851889729 seconds time elapsed
 

@@ -1,0 +1,190 @@
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        293,309885      task-clock (msec)         #    0,660 CPUs utilized          
+                71      context-switches          #    0,242 K/sec                  
+                 1      cpu-migrations            #    0,003 K/sec                  
+             1.233      page-faults               #    0,004 M/sec                  
+     1.062.823.156      cycles                    #    3,624 GHz                      (83,65%)
+        20.511.050      stalled-cycles-frontend   #    1,93% frontend cycles idle     (83,70%)
+       417.097.163      stalled-cycles-backend    #   39,24% backend  cycles idle     (32,65%)
+     2.107.561.551      instructions              #    1,98  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (51,84%)
+        50.789.885      branches                  #  173,161 M/sec                    (68,12%)
+             6.122      branch-misses             #    0,01% of all branches          (83,97%)
+
+       0,444261840 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        293,293004      task-clock (msec)         #    0,664 CPUs utilized          
+                63      context-switches          #    0,215 K/sec                  
+                 1      cpu-migrations            #    0,003 K/sec                  
+             1.236      page-faults               #    0,004 M/sec                  
+     1.070.402.221      cycles                    #    3,650 GHz                      (82,28%)
+        22.495.528      stalled-cycles-frontend   #    2,10% frontend cycles idle     (83,38%)
+       416.068.998      stalled-cycles-backend    #   38,87% backend  cycles idle     (34,39%)
+     2.138.513.956      instructions              #    2,00  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,85%)
+        46.335.347      branches                  #  157,983 M/sec                    (67,21%)
+            29.679      branch-misses             #    0,06% of all branches          (83,57%)
+
+       0,441915668 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        293,745219      task-clock (msec)         #    0,664 CPUs utilized          
+                65      context-switches          #    0,221 K/sec                  
+                 1      cpu-migrations            #    0,003 K/sec                  
+             1.236      page-faults               #    0,004 M/sec                  
+     1.066.766.821      cycles                    #    3,632 GHz                      (83,49%)
+        24.695.080      stalled-cycles-frontend   #    2,31% frontend cycles idle     (83,68%)
+       420.501.183      stalled-cycles-backend    #   39,42% backend  cycles idle     (33,80%)
+     2.169.634.127      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,15%)
+        52.592.460      branches                  #  179,041 M/sec                    (66,48%)
+            16.705      branch-misses             #    0,03% of all branches          (82,82%)
+
+       0,442585676 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        293,761069      task-clock (msec)         #    0,664 CPUs utilized          
+                62      context-switches          #    0,211 K/sec                  
+                 2      cpu-migrations            #    0,007 K/sec                  
+             1.236      page-faults               #    0,004 M/sec                  
+     1.069.182.072      cycles                    #    3,640 GHz                      (82,81%)
+        21.765.600      stalled-cycles-frontend   #    2,04% frontend cycles idle     (83,61%)
+       412.395.706      stalled-cycles-backend    #   38,57% backend  cycles idle     (33,81%)
+     2.168.020.224      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,11%)
+        51.470.398      branches                  #  175,212 M/sec                    (66,44%)
+            19.407      branch-misses             #    0,04% of all branches          (82,78%)
+
+       0,442313063 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        295,087612      task-clock (msec)         #    0,643 CPUs utilized          
+                69      context-switches          #    0,234 K/sec                  
+                 2      cpu-migrations            #    0,007 K/sec                  
+             1.232      page-faults               #    0,004 M/sec                  
+     1.053.775.699      cycles                    #    3,571 GHz                      (83,50%)
+        18.098.984      stalled-cycles-frontend   #    1,72% frontend cycles idle     (83,74%)
+       411.627.400      stalled-cycles-backend    #   39,06% backend  cycles idle     (34,10%)
+     2.160.960.573      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,35%)
+        49.075.725      branches                  #  166,309 M/sec                    (66,60%)
+            18.654      branch-misses             #    0,04% of all branches          (82,87%)
+
+       0,458957211 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        291,649781      task-clock (msec)         #    0,663 CPUs utilized          
+                68      context-switches          #    0,233 K/sec                  
+                 1      cpu-migrations            #    0,003 K/sec                  
+             1.232      page-faults               #    0,004 M/sec                  
+     1.070.321.714      cycles                    #    3,670 GHz                      (83,09%)
+        22.018.785      stalled-cycles-frontend   #    2,06% frontend cycles idle     (83,37%)
+       417.755.404      stalled-cycles-backend    #   39,03% backend  cycles idle     (34,44%)
+     2.148.848.444      instructions              #    2,01  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,85%)
+        47.955.200      branches                  #  164,427 M/sec                    (67,31%)
+            20.520      branch-misses             #    0,04% of all branches          (83,76%)
+
+       0,439961509 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        292,337733      task-clock (msec)         #    0,663 CPUs utilized          
+                69      context-switches          #    0,236 K/sec                  
+                 2      cpu-migrations            #    0,007 K/sec                  
+             1.235      page-faults               #    0,004 M/sec                  
+     1.058.140.473      cycles                    #    3,620 GHz                      (83,42%)
+        20.810.143      stalled-cycles-frontend   #    1,97% frontend cycles idle     (83,57%)
+       409.260.447      stalled-cycles-backend    #   38,68% backend  cycles idle     (33,83%)
+     2.191.664.942      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,22%)
+        53.208.697      branches                  #  182,011 M/sec                    (66,64%)
+            15.849      branch-misses             #    0,03% of all branches          (83,04%)
+
+       0,441048757 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        294,872873      task-clock (msec)         #    0,664 CPUs utilized          
+                70      context-switches          #    0,237 K/sec                  
+                 2      cpu-migrations            #    0,007 K/sec                  
+             1.236      page-faults               #    0,004 M/sec                  
+     1.062.809.909      cycles                    #    3,604 GHz                      (83,74%)
+        20.293.478      stalled-cycles-frontend   #    1,91% frontend cycles idle     (83,74%)
+       415.445.841      stalled-cycles-backend    #   39,09% backend  cycles idle     (32,52%)
+     2.105.479.885      instructions              #    1,98  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (51,72%)
+        51.432.004      branches                  #  174,421 M/sec                    (68,00%)
+             8.497      branch-misses             #    0,02% of all branches          (83,83%)
+
+       0,444131381 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        295,055342      task-clock (msec)         #    0,665 CPUs utilized          
+                63      context-switches          #    0,214 K/sec                  
+                 2      cpu-migrations            #    0,007 K/sec                  
+             1.236      page-faults               #    0,004 M/sec                  
+     1.061.853.626      cycles                    #    3,599 GHz                      (83,47%)
+        20.112.042      stalled-cycles-frontend   #    1,89% frontend cycles idle     (83,74%)
+       409.806.055      stalled-cycles-backend    #   38,59% backend  cycles idle     (34,06%)
+     2.159.610.446      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,32%)
+        51.174.701      branches                  #  173,441 M/sec                    (66,59%)
+            18.574      branch-misses             #    0,04% of all branches          (82,86%)
+
+       0,443630288 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/tale_of_two_cities.txt':
+
+        290,756673      task-clock (msec)         #    0,662 CPUs utilized          
+                73      context-switches          #    0,251 K/sec                  
+                 1      cpu-migrations            #    0,003 K/sec                  
+             1.233      page-faults               #    0,004 M/sec                  
+     1.071.566.162      cycles                    #    3,685 GHz                      (83,51%)
+        22.494.054      stalled-cycles-frontend   #    2,10% frontend cycles idle     (83,54%)
+       416.653.829      stalled-cycles-backend    #   38,88% backend  cycles idle     (32,96%)
+     2.111.513.850      instructions              #    1,97  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (51,79%)
+        47.149.719      branches                  #  162,162 M/sec                    (68,06%)
+             6.330      branch-misses             #    0,01% of all branches          (83,90%)
+
+       0,439231950 seconds time elapsed
+

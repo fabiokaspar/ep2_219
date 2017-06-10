@@ -20,6 +20,7 @@ MODO=('sequencial' 'cuda')
 
 NT_MAX=1024
 
+rm -rf results
 mkdir results
 mkdir results/${MODO[0]}
 mkdir results/${MODO[1]}

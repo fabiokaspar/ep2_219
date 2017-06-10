@@ -1,0 +1,1440 @@
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5759,191859      task-clock (msec)         #    0,880 CPUs utilized          
+               725      context-switches          #    0,126 K/sec                  
+                 6      cpu-migrations            #    0,001 K/sec                  
+             3.517      page-faults               #    0,611 K/sec                  
+    21.539.621.737      cycles                    #    3,740 GHz                      (83,32%)
+     5.399.012.701      stalled-cycles-frontend   #   25,07% frontend cycles idle     (83,39%)
+     6.273.263.332      stalled-cycles-backend    #   29,12% backend  cycles idle     (33,36%)
+    18.424.236.802      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,00%)
+     4.112.738.779      branches                  #  714,117 M/sec                    (66,59%)
+        24.553.329      branch-misses             #    0,60% of all branches          (83,21%)
+
+       6,543267107 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5763,196376      task-clock (msec)         #    0,881 CPUs utilized          
+               696      context-switches          #    0,121 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             4.028      page-faults               #    0,699 K/sec                  
+    21.549.057.024      cycles                    #    3,739 GHz                      (83,36%)
+     5.389.503.577      stalled-cycles-frontend   #   25,01% frontend cycles idle     (83,34%)
+     6.401.286.090      stalled-cycles-backend    #   29,71% backend  cycles idle     (33,31%)
+    18.276.123.626      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,01%)
+     4.077.344.785      branches                  #  707,480 M/sec                    (66,69%)
+        23.347.648      branch-misses             #    0,57% of all branches          (83,29%)
+
+       6,543575882 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5774,033277      task-clock (msec)         #    0,881 CPUs utilized          
+               730      context-switches          #    0,126 K/sec                  
+                10      cpu-migrations            #    0,002 K/sec                  
+             3.522      page-faults               #    0,610 K/sec                  
+    21.532.189.170      cycles                    #    3,729 GHz                      (83,30%)
+     5.622.998.795      stalled-cycles-frontend   #   26,11% frontend cycles idle     (83,37%)
+     6.394.662.657      stalled-cycles-backend    #   29,70% backend  cycles idle     (33,43%)
+    18.262.410.720      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,09%)
+     4.066.098.357      branches                  #  704,204 M/sec                    (66,74%)
+        23.158.375      branch-misses             #    0,57% of all branches          (83,33%)
+
+       6,555161987 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5768,239757      task-clock (msec)         #    0,881 CPUs utilized          
+               724      context-switches          #    0,126 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             4.031      page-faults               #    0,699 K/sec                  
+    21.489.964.173      cycles                    #    3,726 GHz                      (83,32%)
+     5.249.839.880      stalled-cycles-frontend   #   24,43% frontend cycles idle     (83,25%)
+     7.414.872.000      stalled-cycles-backend    #   34,50% backend  cycles idle     (33,47%)
+    16.269.848.654      instructions              #    0,76  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (50,19%)
+     3.627.756.754      branches                  #  628,919 M/sec                    (66,81%)
+        20.631.028      branch-misses             #    0,57% of all branches          (83,43%)
+
+       6,547119867 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5766,115910      task-clock (msec)         #    0,881 CPUs utilized          
+               702      context-switches          #    0,122 K/sec                  
+                 8      cpu-migrations            #    0,001 K/sec                  
+             4.031      page-faults               #    0,699 K/sec                  
+    21.416.719.256      cycles                    #    3,714 GHz                      (83,35%)
+     5.210.166.533      stalled-cycles-frontend   #   24,33% frontend cycles idle     (83,31%)
+     7.496.370.850      stalled-cycles-backend    #   35,00% backend  cycles idle     (33,41%)
+    15.979.109.028      instructions              #    0,75  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (50,21%)
+     3.563.442.034      branches                  #  617,997 M/sec                    (66,86%)
+        20.220.453      branch-misses             #    0,57% of all branches          (83,43%)
+
+       6,541713906 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5756,022881      task-clock (msec)         #    0,881 CPUs utilized          
+               708      context-switches          #    0,123 K/sec                  
+                 9      cpu-migrations            #    0,002 K/sec                  
+             3.518      page-faults               #    0,611 K/sec                  
+    21.371.525.081      cycles                    #    3,713 GHz                      (83,19%)
+     5.379.434.989      stalled-cycles-frontend   #   25,17% frontend cycles idle     (83,37%)
+     6.211.897.011      stalled-cycles-backend    #   29,07% backend  cycles idle     (33,54%)
+    18.366.810.469      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,18%)
+     4.096.585.899      branches                  #  711,704 M/sec                    (66,77%)
+        23.419.802      branch-misses             #    0,57% of all branches          (83,40%)
+
+       6,536465273 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5745,104926      task-clock (msec)         #    0,881 CPUs utilized          
+               711      context-switches          #    0,124 K/sec                  
+                10      cpu-migrations            #    0,002 K/sec                  
+             4.033      page-faults               #    0,702 K/sec                  
+    21.305.133.946      cycles                    #    3,708 GHz                      (83,27%)
+     5.398.093.207      stalled-cycles-frontend   #   25,34% frontend cycles idle     (83,40%)
+     6.347.197.554      stalled-cycles-backend    #   29,79% backend  cycles idle     (33,34%)
+    18.366.907.522      instructions              #    0,86  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,12%)
+     4.100.777.445      branches                  #  713,786 M/sec                    (66,74%)
+        23.283.994      branch-misses             #    0,57% of all branches          (83,30%)
+
+       6,521054480 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5756,915864      task-clock (msec)         #    0,881 CPUs utilized          
+               714      context-switches          #    0,124 K/sec                  
+                 9      cpu-migrations            #    0,002 K/sec                  
+             4.029      page-faults               #    0,700 K/sec                  
+    21.338.937.691      cycles                    #    3,707 GHz                      (83,32%)
+     5.474.415.825      stalled-cycles-frontend   #   25,65% frontend cycles idle     (83,37%)
+     6.342.915.775      stalled-cycles-backend    #   29,72% backend  cycles idle     (33,43%)
+    17.556.731.181      instructions              #    0,82  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,05%)
+     3.913.455.190      branches                  #  679,783 M/sec                    (66,65%)
+        26.233.943      branch-misses             #    0,67% of all branches          (83,25%)
+
+       6,533517532 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5759,405723      task-clock (msec)         #    0,881 CPUs utilized          
+               705      context-switches          #    0,122 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.521      page-faults               #    0,611 K/sec                  
+    21.346.841.674      cycles                    #    3,706 GHz                      (83,33%)
+     5.362.770.528      stalled-cycles-frontend   #   25,12% frontend cycles idle     (83,37%)
+     6.332.627.226      stalled-cycles-backend    #   29,67% backend  cycles idle     (33,32%)
+    17.951.980.387      instructions              #    0,84  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,03%)
+     4.010.831.182      branches                  #  696,397 M/sec                    (66,63%)
+        23.103.089      branch-misses             #    0,58% of all branches          (83,26%)
+
+       6,539168576 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/king_james_bible.txt':
+
+       5772,919419      task-clock (msec)         #    0,881 CPUs utilized          
+               743      context-switches          #    0,129 K/sec                  
+                14      cpu-migrations            #    0,002 K/sec                  
+             4.035      page-faults               #    0,699 K/sec                  
+    21.481.209.932      cycles                    #    3,721 GHz                      (83,20%)
+     5.799.548.991      stalled-cycles-frontend   #   27,00% frontend cycles idle     (83,33%)
+     5.667.426.061      stalled-cycles-backend    #   26,38% backend  cycles idle     (33,48%)
+    18.381.471.826      instructions              #    0,86  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,15%)
+     4.103.365.021      branches                  #  710,795 M/sec                    (66,73%)
+        36.864.546      branch-misses             #    0,90% of all branches          (83,33%)
+
+       6,553889367 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3058,183300      task-clock (msec)         #    0,797 CPUs utilized          
+               457      context-switches          #    0,149 K/sec                  
+                13      cpu-migrations            #    0,004 K/sec                  
+             4.032      page-faults               #    0,001 M/sec                  
+    11.284.761.647      cycles                    #    3,690 GHz                      (83,32%)
+     2.820.098.759      stalled-cycles-frontend   #   24,99% frontend cycles idle     (83,28%)
+     3.222.785.400      stalled-cycles-backend    #   28,56% backend  cycles idle     (33,53%)
+     9.782.856.582      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,16%)
+     2.183.035.153      branches                  #  713,834 M/sec                    (66,78%)
+        12.182.297      branch-misses             #    0,56% of all branches          (83,40%)
+
+       3,838196359 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3048,553756      task-clock (msec)         #    0,796 CPUs utilized          
+               461      context-switches          #    0,151 K/sec                  
+                10      cpu-migrations            #    0,003 K/sec                  
+             4.033      page-faults               #    0,001 M/sec                  
+    11.287.803.896      cycles                    #    3,703 GHz                      (83,23%)
+     2.846.776.903      stalled-cycles-frontend   #   25,22% frontend cycles idle     (83,37%)
+     3.354.520.945      stalled-cycles-backend    #   29,72% backend  cycles idle     (33,43%)
+     9.792.443.532      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,16%)
+     2.193.044.016      branches                  #  719,372 M/sec                    (66,75%)
+        12.309.667      branch-misses             #    0,56% of all branches          (83,39%)
+
+       3,830207781 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3048,218414      task-clock (msec)         #    0,796 CPUs utilized          
+               470      context-switches          #    0,154 K/sec                  
+                 9      cpu-migrations            #    0,003 K/sec                  
+             4.029      page-faults               #    0,001 M/sec                  
+    11.283.284.550      cycles                    #    3,702 GHz                      (83,15%)
+     2.727.727.932      stalled-cycles-frontend   #   24,17% frontend cycles idle     (83,38%)
+     3.700.896.116      stalled-cycles-backend    #   32,80% backend  cycles idle     (33,62%)
+     8.890.611.331      instructions              #    0,79  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,19%)
+     1.989.843.997      branches                  #  652,789 M/sec                    (66,76%)
+        11.133.680      branch-misses             #    0,56% of all branches          (83,27%)
+
+       3,827040666 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3059,363284      task-clock (msec)         #    0,797 CPUs utilized          
+               459      context-switches          #    0,150 K/sec                  
+                11      cpu-migrations            #    0,004 K/sec                  
+             4.030      page-faults               #    0,001 M/sec                  
+    11.321.021.972      cycles                    #    3,700 GHz                      (83,14%)
+     2.770.813.206      stalled-cycles-frontend   #   24,47% frontend cycles idle     (83,31%)
+     3.446.038.935      stalled-cycles-backend    #   30,44% backend  cycles idle     (33,61%)
+     9.764.066.144      instructions              #    0,86  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,21%)
+     2.183.416.413      branches                  #  713,683 M/sec                    (66,82%)
+        12.236.057      branch-misses             #    0,56% of all branches          (83,33%)
+
+       3,838276626 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3066,291825      task-clock (msec)         #    0,798 CPUs utilized          
+               457      context-switches          #    0,149 K/sec                  
+                11      cpu-migrations            #    0,004 K/sec                  
+             4.031      page-faults               #    0,001 M/sec                  
+    11.404.119.294      cycles                    #    3,719 GHz                      (83,22%)
+     2.904.186.261      stalled-cycles-frontend   #   25,47% frontend cycles idle     (83,24%)
+     2.987.970.694      stalled-cycles-backend    #   26,20% backend  cycles idle     (33,64%)
+    10.411.839.139      instructions              #    0,91  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,31%)
+     2.331.942.260      branches                  #  760,509 M/sec                    (66,84%)
+        13.099.459      branch-misses             #    0,56% of all branches          (83,44%)
+
+       3,844443845 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3059,517369      task-clock (msec)         #    0,798 CPUs utilized          
+               523      context-switches          #    0,171 K/sec                  
+                10      cpu-migrations            #    0,003 K/sec                  
+             4.030      page-faults               #    0,001 M/sec                  
+    11.305.983.441      cycles                    #    3,695 GHz                      (83,51%)
+     2.914.877.017      stalled-cycles-frontend   #   25,78% frontend cycles idle     (83,40%)
+     3.207.545.048      stalled-cycles-backend    #   28,37% backend  cycles idle     (33,13%)
+     9.663.019.791      instructions              #    0,85  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,26%)
+     2.163.111.206      branches                  #  707,011 M/sec                    (66,85%)
+        12.060.454      branch-misses             #    0,56% of all branches          (83,39%)
+
+       3,834504222 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3048,128109      task-clock (msec)         #    0,797 CPUs utilized          
+               463      context-switches          #    0,152 K/sec                  
+                14      cpu-migrations            #    0,005 K/sec                  
+             4.027      page-faults               #    0,001 M/sec                  
+    11.250.461.189      cycles                    #    3,691 GHz                      (83,43%)
+     2.781.382.602      stalled-cycles-frontend   #   24,72% frontend cycles idle     (83,35%)
+     3.259.258.136      stalled-cycles-backend    #   28,97% backend  cycles idle     (33,40%)
+     9.758.290.592      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (49,97%)
+     2.184.278.042      branches                  #  716,597 M/sec                    (66,54%)
+        12.226.665      branch-misses             #    0,56% of all branches          (83,20%)
+
+       3,825569575 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3056,485664      task-clock (msec)         #    0,797 CPUs utilized          
+               444      context-switches          #    0,145 K/sec                  
+                10      cpu-migrations            #    0,003 K/sec                  
+             4.032      page-faults               #    0,001 M/sec                  
+    11.299.208.626      cycles                    #    3,697 GHz                      (83,31%)
+     2.978.644.626      stalled-cycles-frontend   #   26,36% frontend cycles idle     (83,38%)
+     3.203.668.268      stalled-cycles-backend    #   28,35% backend  cycles idle     (33,41%)
+     9.524.722.088      instructions              #    0,84  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,24%)
+     2.132.282.798      branches                  #  697,626 M/sec                    (66,85%)
+        11.925.009      branch-misses             #    0,56% of all branches          (83,39%)
+
+       3,834568403 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3054,719390      task-clock (msec)         #    0,797 CPUs utilized          
+               449      context-switches          #    0,147 K/sec                  
+                14      cpu-migrations            #    0,005 K/sec                  
+             3.519      page-faults               #    0,001 M/sec                  
+    11.268.670.474      cycles                    #    3,689 GHz                      (83,45%)
+     2.924.213.747      stalled-cycles-frontend   #   25,95% frontend cycles idle     (83,23%)
+     3.230.196.390      stalled-cycles-backend    #   28,67% backend  cycles idle     (33,41%)
+     9.511.792.879      instructions              #    0,84  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,26%)
+     2.125.572.785      branches                  #  695,832 M/sec                    (66,89%)
+        13.971.727      branch-misses             #    0,66% of all branches          (83,38%)
+
+       3,832861366 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/king_james_bible.txt':
+
+       3057,611130      task-clock (msec)         #    0,797 CPUs utilized          
+               456      context-switches          #    0,149 K/sec                  
+                12      cpu-migrations            #    0,004 K/sec                  
+             3.520      page-faults               #    0,001 M/sec                  
+    11.297.743.414      cycles                    #    3,695 GHz                      (83,26%)
+     2.714.025.096      stalled-cycles-frontend   #   24,02% frontend cycles idle     (83,16%)
+     4.021.085.911      stalled-cycles-backend    #   35,59% backend  cycles idle     (33,60%)
+     8.256.646.254      instructions              #    0,73  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (50,27%)
+     1.844.459.278      branches                  #  603,235 M/sec                    (66,89%)
+        11.925.037      branch-misses             #    0,65% of all branches          (83,40%)
+
+       3,835432946 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1826,492640      task-clock (msec)         #    0,702 CPUs utilized          
+               339      context-switches          #    0,186 K/sec                  
+                10      cpu-migrations            #    0,005 K/sec                  
+             4.026      page-faults               #    0,002 M/sec                  
+     6.713.576.558      cycles                    #    3,676 GHz                      (83,33%)
+     1.695.726.293      stalled-cycles-frontend   #   25,26% frontend cycles idle     (83,01%)
+     2.000.659.044      stalled-cycles-backend    #   29,80% backend  cycles idle     (33,81%)
+     5.717.038.476      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,64%)
+     1.288.554.389      branches                  #  705,480 M/sec                    (66,95%)
+         7.029.926      branch-misses             #    0,55% of all branches          (83,31%)
+
+       2,603598601 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1828,228251      task-clock (msec)         #    0,701 CPUs utilized          
+               337      context-switches          #    0,184 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             3.522      page-faults               #    0,002 M/sec                  
+     6.741.470.127      cycles                    #    3,687 GHz                      (83,25%)
+     1.704.208.866      stalled-cycles-frontend   #   25,28% frontend cycles idle     (83,10%)
+     1.971.179.509      stalled-cycles-backend    #   29,24% backend  cycles idle     (33,91%)
+     5.727.238.355      instructions              #    0,85  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,32%)
+     1.292.283.586      branches                  #  706,850 M/sec                    (66,75%)
+         8.221.159      branch-misses             #    0,64% of all branches          (83,17%)
+
+       2,609247420 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1827,269506      task-clock (msec)         #    0,702 CPUs utilized          
+               326      context-switches          #    0,178 K/sec                  
+                10      cpu-migrations            #    0,005 K/sec                  
+             3.520      page-faults               #    0,002 M/sec                  
+     6.745.967.285      cycles                    #    3,692 GHz                      (83,11%)
+     1.671.698.529      stalled-cycles-frontend   #   24,78% frontend cycles idle     (83,14%)
+     1.918.337.904      stalled-cycles-backend    #   28,44% backend  cycles idle     (33,87%)
+     5.858.619.093      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,39%)
+     1.316.896.964      branches                  #  720,691 M/sec                    (66,81%)
+         7.167.308      branch-misses             #    0,54% of all branches          (83,45%)
+
+       2,604053273 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1825,940225      task-clock (msec)         #    0,700 CPUs utilized          
+               334      context-switches          #    0,183 K/sec                  
+                14      cpu-migrations            #    0,008 K/sec                  
+             4.032      page-faults               #    0,002 M/sec                  
+     6.743.749.990      cycles                    #    3,693 GHz                      (83,38%)
+     1.657.137.489      stalled-cycles-frontend   #   24,57% frontend cycles idle     (83,09%)
+     1.908.763.638      stalled-cycles-backend    #   28,30% backend  cycles idle     (33,68%)
+     5.876.851.650      instructions              #    0,87  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,44%)
+     1.321.782.129      branches                  #  723,891 M/sec                    (66,84%)
+         7.178.623      branch-misses             #    0,54% of all branches          (83,57%)
+
+       2,606885924 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1828,211094      task-clock (msec)         #    0,702 CPUs utilized          
+               335      context-switches          #    0,183 K/sec                  
+                10      cpu-migrations            #    0,005 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.741.875.702      cycles                    #    3,688 GHz                      (83,36%)
+     1.704.985.066      stalled-cycles-frontend   #   25,29% frontend cycles idle     (83,40%)
+     1.952.067.548      stalled-cycles-backend    #   28,95% backend  cycles idle     (33,36%)
+     5.811.298.077      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,14%)
+     1.307.948.603      branches                  #  715,425 M/sec                    (66,60%)
+         7.454.185      branch-misses             #    0,57% of all branches          (83,10%)
+
+       2,605463904 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1830,034136      task-clock (msec)         #    0,700 CPUs utilized          
+               318      context-switches          #    0,174 K/sec                  
+                10      cpu-migrations            #    0,005 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.728.232.566      cycles                    #    3,677 GHz                      (83,47%)
+     1.693.610.370      stalled-cycles-frontend   #   25,17% frontend cycles idle     (83,41%)
+     1.962.027.747      stalled-cycles-backend    #   29,16% backend  cycles idle     (33,30%)
+     5.836.279.023      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,17%)
+     1.312.440.373      branches                  #  717,167 M/sec                    (66,64%)
+         7.127.533      branch-misses             #    0,54% of all branches          (83,20%)
+
+       2,614912882 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1825,019760      task-clock (msec)         #    0,701 CPUs utilized          
+               319      context-switches          #    0,175 K/sec                  
+                13      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.732.550.338      cycles                    #    3,689 GHz                      (82,99%)
+     1.672.874.774      stalled-cycles-frontend   #   24,85% frontend cycles idle     (83,33%)
+     1.916.333.641      stalled-cycles-backend    #   28,46% backend  cycles idle     (33,92%)
+     5.840.543.439      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,67%)
+     1.315.113.774      branches                  #  720,602 M/sec                    (66,94%)
+         7.168.755      branch-misses             #    0,55% of all branches          (83,35%)
+
+       2,602876841 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1829,155334      task-clock (msec)         #    0,701 CPUs utilized          
+               326      context-switches          #    0,178 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.741.370.373      cycles                    #    3,686 GHz                      (83,36%)
+     1.658.404.714      stalled-cycles-frontend   #   24,60% frontend cycles idle     (83,37%)
+     1.975.488.229      stalled-cycles-backend    #   29,30% backend  cycles idle     (33,47%)
+     5.922.753.346      instructions              #    0,88  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,30%)
+     1.331.983.165      branches                  #  728,196 M/sec                    (66,91%)
+         7.291.412      branch-misses             #    0,55% of all branches          (83,34%)
+
+       2,611060497 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1829,145238      task-clock (msec)         #    0,702 CPUs utilized          
+               346      context-switches          #    0,189 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.719.646.187      cycles                    #    3,674 GHz                      (83,30%)
+     1.686.442.320      stalled-cycles-frontend   #   25,10% frontend cycles idle     (83,01%)
+     1.954.613.750      stalled-cycles-backend    #   29,09% backend  cycles idle     (34,16%)
+     5.903.991.565      instructions              #    0,88  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,62%)
+     1.321.396.494      branches                  #  722,412 M/sec                    (67,02%)
+         7.663.898      branch-misses             #    0,58% of all branches          (83,47%)
+
+       2,605969806 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/king_james_bible.txt':
+
+       1825,259517      task-clock (msec)         #    0,700 CPUs utilized          
+               349      context-switches          #    0,191 K/sec                  
+                17      cpu-migrations            #    0,009 K/sec                  
+             3.518      page-faults               #    0,002 M/sec                  
+     6.748.942.067      cycles                    #    3,698 GHz                      (82,89%)
+     1.643.238.948      stalled-cycles-frontend   #   24,35% frontend cycles idle     (83,25%)
+     2.025.124.082      stalled-cycles-backend    #   30,01% backend  cycles idle     (34,02%)
+     5.767.703.299      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,64%)
+     1.297.393.395      branches                  #  710,799 M/sec                    (67,05%)
+         7.042.731      branch-misses             #    0,54% of all branches          (83,47%)
+
+       2,609055468 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1664,783619      task-clock (msec)         #    0,682 CPUs utilized          
+               308      context-switches          #    0,185 K/sec                  
+                 9      cpu-migrations            #    0,005 K/sec                  
+             4.026      page-faults               #    0,002 M/sec                  
+     6.136.972.746      cycles                    #    3,686 GHz                      (83,36%)
+     1.558.164.180      stalled-cycles-frontend   #   25,39% frontend cycles idle     (83,21%)
+     1.800.443.088      stalled-cycles-backend    #   29,34% backend  cycles idle     (33,52%)
+     5.365.636.303      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,27%)
+     1.208.414.720      branches                  #  725,869 M/sec                    (66,71%)
+         6.555.932      branch-misses             #    0,54% of all branches          (83,30%)
+
+       2,442707014 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1670,030036      task-clock (msec)         #    0,682 CPUs utilized          
+               320      context-switches          #    0,192 K/sec                  
+                 9      cpu-migrations            #    0,005 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.159.868.134      cycles                    #    3,688 GHz                      (83,10%)
+     1.517.962.940      stalled-cycles-frontend   #   24,64% frontend cycles idle     (83,06%)
+     1.791.580.937      stalled-cycles-backend    #   29,08% backend  cycles idle     (34,10%)
+     5.369.817.766      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,63%)
+     1.204.736.438      branches                  #  721,386 M/sec                    (67,13%)
+         7.330.548      branch-misses             #    0,61% of all branches          (83,48%)
+
+       2,448303493 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1673,317606      task-clock (msec)         #    0,682 CPUs utilized          
+               326      context-switches          #    0,195 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             3.521      page-faults               #    0,002 M/sec                  
+     6.160.029.273      cycles                    #    3,681 GHz                      (82,95%)
+     1.486.219.734      stalled-cycles-frontend   #   24,13% frontend cycles idle     (83,53%)
+     1.890.566.338      stalled-cycles-backend    #   30,69% backend  cycles idle     (33,60%)
+     5.272.229.121      instructions              #    0,86  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,45%)
+     1.191.079.620      branches                  #  711,807 M/sec                    (66,75%)
+         6.412.852      branch-misses             #    0,54% of all branches          (83,38%)
+
+       2,452419808 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1671,419912      task-clock (msec)         #    0,683 CPUs utilized          
+               318      context-switches          #    0,190 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.168.674.497      cycles                    #    3,691 GHz                      (83,34%)
+     1.495.053.296      stalled-cycles-frontend   #   24,24% frontend cycles idle     (83,01%)
+     1.910.361.820      stalled-cycles-backend    #   30,97% backend  cycles idle     (33,71%)
+     5.265.203.199      instructions              #    0,85  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,72%)
+     1.188.108.183      branches                  #  710,838 M/sec                    (67,25%)
+         6.894.803      branch-misses             #    0,58% of all branches          (83,75%)
+
+       2,447461570 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1669,663054      task-clock (msec)         #    0,683 CPUs utilized          
+               324      context-switches          #    0,194 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.160.441.028      cycles                    #    3,690 GHz                      (83,10%)
+     1.629.150.161      stalled-cycles-frontend   #   26,45% frontend cycles idle     (83,47%)
+     1.601.118.712      stalled-cycles-backend    #   25,99% backend  cycles idle     (33,65%)
+     5.503.278.378      instructions              #    0,89  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,03%)
+     1.234.162.960      branches                  #  739,169 M/sec                    (66,45%)
+         9.678.828      branch-misses             #    0,78% of all branches          (83,10%)
+
+       2,446013868 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1672,244778      task-clock (msec)         #    0,683 CPUs utilized          
+               318      context-switches          #    0,190 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.032      page-faults               #    0,002 M/sec                  
+     6.139.293.942      cycles                    #    3,671 GHz                      (83,44%)
+     1.500.518.211      stalled-cycles-frontend   #   24,44% frontend cycles idle     (83,28%)
+     1.812.937.817      stalled-cycles-backend    #   29,53% backend  cycles idle     (33,44%)
+     5.336.086.922      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,12%)
+     1.201.049.844      branches                  #  718,226 M/sec                    (66,55%)
+         6.479.031      branch-misses             #    0,54% of all branches          (83,01%)
+
+       2,449149314 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1674,066214      task-clock (msec)         #    0,683 CPUs utilized          
+               353      context-switches          #    0,211 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.029      page-faults               #    0,002 M/sec                  
+     6.197.636.185      cycles                    #    3,702 GHz                      (83,13%)
+     1.542.820.128      stalled-cycles-frontend   #   24,89% frontend cycles idle     (83,33%)
+     1.817.468.180      stalled-cycles-backend    #   29,33% backend  cycles idle     (33,75%)
+     5.268.823.909      instructions              #    0,85  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,45%)
+     1.181.868.826      branches                  #  705,987 M/sec                    (67,00%)
+         6.346.628      branch-misses             #    0,54% of all branches          (83,44%)
+
+       2,451228182 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1671,797419      task-clock (msec)         #    0,683 CPUs utilized          
+               327      context-switches          #    0,196 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             4.033      page-faults               #    0,002 M/sec                  
+     6.145.089.816      cycles                    #    3,676 GHz                      (83,38%)
+     1.544.622.115      stalled-cycles-frontend   #   25,14% frontend cycles idle     (83,19%)
+     1.790.266.441      stalled-cycles-backend    #   29,13% backend  cycles idle     (33,55%)
+     5.265.608.081      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,32%)
+     1.186.921.642      branches                  #  709,967 M/sec                    (66,77%)
+         6.421.002      branch-misses             #    0,54% of all branches          (83,17%)
+
+       2,449218367 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1676,032008      task-clock (msec)         #    0,683 CPUs utilized          
+               308      context-switches          #    0,184 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.033      page-faults               #    0,002 M/sec                  
+     6.174.108.249      cycles                    #    3,684 GHz                      (83,39%)
+     1.495.816.381      stalled-cycles-frontend   #   24,23% frontend cycles idle     (83,42%)
+     1.853.248.027      stalled-cycles-backend    #   30,02% backend  cycles idle     (33,25%)
+     5.307.488.296      instructions              #    0,86  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,70%)
+     1.193.344.987      branches                  #  712,006 M/sec                    (67,28%)
+         6.461.554      branch-misses             #    0,54% of all branches          (83,67%)
+
+       2,452245727 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/king_james_bible.txt':
+
+       1668,184936      task-clock (msec)         #    0,682 CPUs utilized          
+               310      context-switches          #    0,186 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.165.234.899      cycles                    #    3,696 GHz                      (83,43%)
+     1.508.640.147      stalled-cycles-frontend   #   24,47% frontend cycles idle     (83,43%)
+     1.759.656.366      stalled-cycles-backend    #   28,54% backend  cycles idle     (33,21%)
+     5.290.098.416      instructions              #    0,86  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,19%)
+     1.187.530.513      branches                  #  711,870 M/sec                    (66,78%)
+         6.582.248      branch-misses             #    0,55% of all branches          (83,19%)
+
+       2,444393573 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1677,797267      task-clock (msec)         #    0,684 CPUs utilized          
+               344      context-switches          #    0,205 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             3.520      page-faults               #    0,002 M/sec                  
+     6.197.132.041      cycles                    #    3,694 GHz                      (83,14%)
+     1.517.859.726      stalled-cycles-frontend   #   24,49% frontend cycles idle     (83,11%)
+     2.081.812.399      stalled-cycles-backend    #   33,59% backend  cycles idle     (33,87%)
+     4.833.024.627      instructions              #    0,78  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,72%)
+     1.094.434.306      branches                  #  652,304 M/sec                    (67,13%)
+         5.876.432      branch-misses             #    0,54% of all branches          (83,45%)
+
+       2,454526982 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1683,881323      task-clock (msec)         #    0,684 CPUs utilized          
+               343      context-switches          #    0,204 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             3.516      page-faults               #    0,002 M/sec                  
+     6.214.730.787      cycles                    #    3,691 GHz                      (82,98%)
+     1.519.517.246      stalled-cycles-frontend   #   24,45% frontend cycles idle     (83,39%)
+     1.805.714.806      stalled-cycles-backend    #   29,06% backend  cycles idle     (34,01%)
+     5.376.675.353      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,73%)
+     1.207.852.831      branches                  #  717,303 M/sec                    (67,14%)
+         6.573.768      branch-misses             #    0,54% of all branches          (83,54%)
+
+       2,460826988 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1666,804831      task-clock (msec)         #    0,682 CPUs utilized          
+               340      context-switches          #    0,204 K/sec                  
+                 9      cpu-migrations            #    0,005 K/sec                  
+             4.028      page-faults               #    0,002 M/sec                  
+     6.158.375.047      cycles                    #    3,695 GHz                      (83,43%)
+     1.505.091.073      stalled-cycles-frontend   #   24,44% frontend cycles idle     (83,40%)
+     1.833.293.312      stalled-cycles-backend    #   29,77% backend  cycles idle     (33,44%)
+     5.341.136.138      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (49,92%)
+     1.200.742.589      branches                  #  720,386 M/sec                    (66,52%)
+         6.479.165      branch-misses             #    0,54% of all branches          (83,14%)
+
+       2,445108965 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1679,808951      task-clock (msec)         #    0,683 CPUs utilized          
+               326      context-switches          #    0,194 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.195.749.438      cycles                    #    3,688 GHz                      (83,34%)
+     1.497.904.416      stalled-cycles-frontend   #   24,18% frontend cycles idle     (83,40%)
+     1.812.952.484      stalled-cycles-backend    #   29,26% backend  cycles idle     (33,44%)
+     5.419.927.851      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (49,84%)
+     1.214.333.760      branches                  #  722,900 M/sec                    (66,53%)
+         6.562.474      branch-misses             #    0,54% of all branches          (83,02%)
+
+       2,458438289 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1676,006782      task-clock (msec)         #    0,684 CPUs utilized          
+               302      context-switches          #    0,180 K/sec                  
+                 8      cpu-migrations            #    0,005 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.209.336.308      cycles                    #    3,705 GHz                      (83,37%)
+     1.529.845.755      stalled-cycles-frontend   #   24,64% frontend cycles idle     (82,99%)
+     1.813.851.831      stalled-cycles-backend    #   29,21% backend  cycles idle     (33,78%)
+     5.502.082.812      instructions              #    0,89  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,28%)
+     1.233.752.057      branches                  #  736,126 M/sec                    (66,72%)
+         6.712.097      branch-misses             #    0,54% of all branches          (83,10%)
+
+       2,451694796 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1686,211445      task-clock (msec)         #    0,684 CPUs utilized          
+               318      context-switches          #    0,189 K/sec                  
+                13      cpu-migrations            #    0,008 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.199.197.017      cycles                    #    3,676 GHz                      (83,46%)
+     1.578.166.478      stalled-cycles-frontend   #   25,46% frontend cycles idle     (83,41%)
+     1.784.554.681      stalled-cycles-backend    #   28,79% backend  cycles idle     (33,30%)
+     5.307.739.807      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,15%)
+     1.195.255.625      branches                  #  708,841 M/sec                    (66,75%)
+         6.707.097      branch-misses             #    0,56% of all branches          (83,08%)
+
+       2,466647036 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1682,621112      task-clock (msec)         #    0,684 CPUs utilized          
+               324      context-switches          #    0,193 K/sec                  
+                14      cpu-migrations            #    0,008 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.179.354.291      cycles                    #    3,672 GHz                      (83,04%)
+     1.579.228.006      stalled-cycles-frontend   #   25,56% frontend cycles idle     (83,34%)
+     1.740.269.729      stalled-cycles-backend    #   28,16% backend  cycles idle     (33,83%)
+     5.358.641.560      instructions              #    0,87  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,42%)
+     1.205.457.978      branches                  #  716,417 M/sec                    (66,86%)
+         6.461.031      branch-misses             #    0,54% of all branches          (83,22%)
+
+       2,460916729 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1680,547457      task-clock (msec)         #    0,683 CPUs utilized          
+               341      context-switches          #    0,203 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.193.987.043      cycles                    #    3,686 GHz                      (83,21%)
+     1.452.110.805      stalled-cycles-frontend   #   23,44% frontend cycles idle     (83,34%)
+     2.126.897.369      stalled-cycles-backend    #   34,34% backend  cycles idle     (33,64%)
+     4.812.218.055      instructions              #    0,78  insns per cycle        
+                                                  #    0,44  stalled cycles per insn  (50,43%)
+     1.084.190.779      branches                  #  645,141 M/sec                    (66,94%)
+         5.898.417      branch-misses             #    0,54% of all branches          (83,42%)
+
+       2,459063162 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1683,550490      task-clock (msec)         #    0,684 CPUs utilized          
+               311      context-switches          #    0,185 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.194.178.063      cycles                    #    3,679 GHz                      (83,19%)
+     1.552.880.592      stalled-cycles-frontend   #   25,07% frontend cycles idle     (83,22%)
+     1.764.027.279      stalled-cycles-backend    #   28,48% backend  cycles idle     (33,73%)
+     5.386.168.134      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,39%)
+     1.206.393.520      branches                  #  716,577 M/sec                    (66,95%)
+         6.629.612      branch-misses             #    0,55% of all branches          (83,33%)
+
+       2,463009093 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/king_james_bible.txt':
+
+       1679,875360      task-clock (msec)         #    0,684 CPUs utilized          
+               310      context-switches          #    0,185 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.186.162.105      cycles                    #    3,683 GHz                      (83,22%)
+     1.620.628.137      stalled-cycles-frontend   #   26,20% frontend cycles idle     (83,24%)
+     1.668.036.302      stalled-cycles-backend    #   26,96% backend  cycles idle     (33,82%)
+     5.346.739.487      instructions              #    0,86  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,64%)
+     1.205.103.499      branches                  #  717,377 M/sec                    (66,97%)
+        10.377.498      branch-misses             #    0,86% of all branches          (83,27%)
+
+       2,455919367 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1680,660938      task-clock (msec)         #    0,684 CPUs utilized          
+               318      context-switches          #    0,189 K/sec                  
+                 9      cpu-migrations            #    0,005 K/sec                  
+             3.518      page-faults               #    0,002 M/sec                  
+     6.211.482.670      cycles                    #    3,696 GHz                      (83,02%)
+     1.562.106.857      stalled-cycles-frontend   #   25,15% frontend cycles idle     (83,44%)
+     1.790.270.945      stalled-cycles-backend    #   28,82% backend  cycles idle     (33,78%)
+     5.366.315.147      instructions              #    0,86  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,46%)
+     1.206.860.793      branches                  #  718,087 M/sec                    (66,89%)
+         6.516.921      branch-misses             #    0,54% of all branches          (83,37%)
+
+       2,457426547 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1678,210604      task-clock (msec)         #    0,684 CPUs utilized          
+               316      context-switches          #    0,188 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.029      page-faults               #    0,002 M/sec                  
+     6.205.736.984      cycles                    #    3,698 GHz                      (83,09%)
+     1.497.217.405      stalled-cycles-frontend   #   24,13% frontend cycles idle     (83,23%)
+     1.859.681.823      stalled-cycles-backend    #   29,97% backend  cycles idle     (33,77%)
+     5.365.520.314      instructions              #    0,86  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,47%)
+     1.209.748.581      branches                  #  720,856 M/sec                    (66,96%)
+         6.683.138      branch-misses             #    0,55% of all branches          (83,38%)
+
+       2,453668622 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1679,771139      task-clock (msec)         #    0,684 CPUs utilized          
+               317      context-switches          #    0,189 K/sec                  
+                13      cpu-migrations            #    0,008 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.204.804.929      cycles                    #    3,694 GHz                      (83,12%)
+     1.525.669.375      stalled-cycles-frontend   #   24,59% frontend cycles idle     (83,54%)
+     1.824.019.977      stalled-cycles-backend    #   29,40% backend  cycles idle     (33,69%)
+     5.376.556.942      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,40%)
+     1.208.085.235      branches                  #  719,196 M/sec                    (66,83%)
+         6.546.199      branch-misses             #    0,54% of all branches          (83,29%)
+
+       2,456030158 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1677,905889      task-clock (msec)         #    0,683 CPUs utilized          
+               322      context-switches          #    0,192 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             3.521      page-faults               #    0,002 M/sec                  
+     6.189.396.402      cycles                    #    3,689 GHz                      (83,17%)
+     1.564.475.323      stalled-cycles-frontend   #   25,28% frontend cycles idle     (83,19%)
+     1.842.742.644      stalled-cycles-backend    #   29,77% backend  cycles idle     (33,79%)
+     5.363.255.697      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,41%)
+     1.202.620.044      branches                  #  716,739 M/sec                    (66,86%)
+         6.496.605      branch-misses             #    0,54% of all branches          (83,31%)
+
+       2,455226814 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1675,802921      task-clock (msec)         #    0,683 CPUs utilized          
+               330      context-switches          #    0,197 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             3.517      page-faults               #    0,002 M/sec                  
+     6.179.517.770      cycles                    #    3,687 GHz                      (83,18%)
+     1.552.480.264      stalled-cycles-frontend   #   25,12% frontend cycles idle     (83,47%)
+     1.798.392.067      stalled-cycles-backend    #   29,10% backend  cycles idle     (33,56%)
+     5.348.346.876      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,11%)
+     1.201.420.982      branches                  #  716,923 M/sec                    (66,55%)
+         6.488.221      branch-misses             #    0,54% of all branches          (83,14%)
+
+       2,452359977 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1683,133031      task-clock (msec)         #    0,684 CPUs utilized          
+               356      context-switches          #    0,212 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.517      page-faults               #    0,002 M/sec                  
+     6.215.065.085      cycles                    #    3,693 GHz                      (83,33%)
+     1.579.388.885      stalled-cycles-frontend   #   25,41% frontend cycles idle     (82,95%)
+     1.764.255.641      stalled-cycles-backend    #   28,39% backend  cycles idle     (33,76%)
+     5.340.045.016      instructions              #    0,86  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,63%)
+     1.201.666.512      branches                  #  713,946 M/sec                    (67,03%)
+         6.515.555      branch-misses             #    0,54% of all branches          (83,43%)
+
+       2,461289869 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1675,856949      task-clock (msec)         #    0,684 CPUs utilized          
+               353      context-switches          #    0,211 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.187.378.372      cycles                    #    3,692 GHz                      (83,40%)
+     1.506.207.690      stalled-cycles-frontend   #   24,34% frontend cycles idle     (83,39%)
+     1.791.917.756      stalled-cycles-backend    #   28,96% backend  cycles idle     (33,49%)
+     5.411.778.089      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,03%)
+     1.213.715.174      branches                  #  724,236 M/sec                    (66,48%)
+         6.563.337      branch-misses             #    0,54% of all branches          (83,00%)
+
+       2,451429232 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1683,865689      task-clock (msec)         #    0,684 CPUs utilized          
+               326      context-switches          #    0,194 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.188.522.261      cycles                    #    3,675 GHz                      (83,34%)
+     1.543.081.716      stalled-cycles-frontend   #   24,93% frontend cycles idle     (83,04%)
+     1.793.317.515      stalled-cycles-backend    #   28,98% backend  cycles idle     (33,90%)
+     5.349.616.230      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,72%)
+     1.205.754.676      branches                  #  716,063 M/sec                    (67,16%)
+         6.539.615      branch-misses             #    0,54% of all branches          (83,48%)
+
+       2,463350493 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1676,410602      task-clock (msec)         #    0,683 CPUs utilized          
+               316      context-switches          #    0,188 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.520      page-faults               #    0,002 M/sec                  
+     6.190.257.797      cycles                    #    3,693 GHz                      (83,18%)
+     1.526.932.967      stalled-cycles-frontend   #   24,67% frontend cycles idle     (83,55%)
+     1.805.945.637      stalled-cycles-backend    #   29,17% backend  cycles idle     (33,56%)
+     5.438.847.951      instructions              #    0,88  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,05%)
+     1.217.808.937      branches                  #  726,438 M/sec                    (66,48%)
+         6.573.143      branch-misses             #    0,54% of all branches          (83,34%)
+
+       2,453666850 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/king_james_bible.txt':
+
+       1676,398750      task-clock (msec)         #    0,683 CPUs utilized          
+               289      context-switches          #    0,172 K/sec                  
+                11      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.198.432.429      cycles                    #    3,697 GHz                      (83,20%)
+     1.499.182.593      stalled-cycles-frontend   #   24,19% frontend cycles idle     (83,45%)
+     1.823.485.338      stalled-cycles-backend    #   29,42% backend  cycles idle     (33,92%)
+     5.411.393.512      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,34%)
+     1.215.949.795      branches                  #  725,334 M/sec                    (66,79%)
+         6.568.411      branch-misses             #    0,54% of all branches          (83,24%)
+
+       2,454239710 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1798,154011      task-clock (msec)         #    0,698 CPUs utilized          
+               336      context-switches          #    0,187 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.522      page-faults               #    0,002 M/sec                  
+     6.643.939.568      cycles                    #    3,695 GHz                      (83,03%)
+     1.646.062.031      stalled-cycles-frontend   #   24,78% frontend cycles idle     (83,54%)
+     1.976.629.850      stalled-cycles-backend    #   29,75% backend  cycles idle     (33,47%)
+     5.633.867.142      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (49,95%)
+     1.269.857.645      branches                  #  706,201 M/sec                    (66,34%)
+         6.883.599      branch-misses             #    0,54% of all branches          (83,14%)
+
+       2,574756305 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1798,613493      task-clock (msec)         #    0,698 CPUs utilized          
+               350      context-switches          #    0,195 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.659.771.211      cycles                    #    3,703 GHz                      (83,13%)
+     1.686.146.751      stalled-cycles-frontend   #   25,32% frontend cycles idle     (83,38%)
+     1.932.477.931      stalled-cycles-backend    #   29,02% backend  cycles idle     (33,54%)
+     5.761.647.561      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,41%)
+     1.292.895.888      branches                  #  718,829 M/sec                    (66,94%)
+         7.141.200      branch-misses             #    0,55% of all branches          (83,49%)
+
+       2,575045603 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1802,458973      task-clock (msec)         #    0,699 CPUs utilized          
+               319      context-switches          #    0,177 K/sec                  
+                13      cpu-migrations            #    0,007 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.641.464.862      cycles                    #    3,685 GHz                      (83,12%)
+     1.636.033.397      stalled-cycles-frontend   #   24,63% frontend cycles idle     (83,22%)
+     1.890.724.665      stalled-cycles-backend    #   28,47% backend  cycles idle     (33,70%)
+     5.762.053.907      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,51%)
+     1.297.116.342      branches                  #  719,637 M/sec                    (67,02%)
+         7.063.648      branch-misses             #    0,54% of all branches          (83,54%)
+
+       2,579031509 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1801,310246      task-clock (msec)         #    0,699 CPUs utilized          
+               360      context-switches          #    0,200 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.649.187.390      cycles                    #    3,691 GHz                      (83,24%)
+     1.616.497.001      stalled-cycles-frontend   #   24,31% frontend cycles idle     (83,36%)
+     1.976.825.091      stalled-cycles-backend    #   29,73% backend  cycles idle     (33,52%)
+     5.793.119.572      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,32%)
+     1.293.148.630      branches                  #  717,893 M/sec                    (67,08%)
+         7.022.522      branch-misses             #    0,54% of all branches          (83,57%)
+
+       2,578636641 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1799,230284      task-clock (msec)         #    0,698 CPUs utilized          
+               328      context-switches          #    0,182 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.642.286.231      cycles                    #    3,692 GHz                      (83,01%)
+     1.615.727.986      stalled-cycles-frontend   #   24,32% frontend cycles idle     (83,34%)
+     1.928.717.425      stalled-cycles-backend    #   29,04% backend  cycles idle     (33,91%)
+     5.795.832.538      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,41%)
+     1.301.125.563      branches                  #  723,157 M/sec                    (66,91%)
+         7.105.494      branch-misses             #    0,55% of all branches          (83,39%)
+
+       2,575956328 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1802,093404      task-clock (msec)         #    0,699 CPUs utilized          
+               326      context-switches          #    0,181 K/sec                  
+                14      cpu-migrations            #    0,008 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.667.915.891      cycles                    #    3,700 GHz                      (83,03%)
+     1.610.018.901      stalled-cycles-frontend   #   24,15% frontend cycles idle     (83,33%)
+     1.970.433.212      stalled-cycles-backend    #   29,55% backend  cycles idle     (33,76%)
+     5.716.300.590      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,44%)
+     1.283.139.079      branches                  #  712,027 M/sec                    (66,98%)
+         7.000.947      branch-misses             #    0,55% of all branches          (83,42%)
+
+       2,578657896 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1801,099347      task-clock (msec)         #    0,699 CPUs utilized          
+               357      context-switches          #    0,198 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.654.023.231      cycles                    #    3,694 GHz                      (83,17%)
+     1.667.610.178      stalled-cycles-frontend   #   25,06% frontend cycles idle     (83,21%)
+     1.895.200.814      stalled-cycles-backend    #   28,48% backend  cycles idle     (33,65%)
+     5.724.050.740      instructions              #    0,86  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,51%)
+     1.288.472.778      branches                  #  715,381 M/sec                    (66,99%)
+         7.008.506      branch-misses             #    0,54% of all branches          (83,41%)
+
+       2,577596536 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1803,381525      task-clock (msec)         #    0,698 CPUs utilized          
+               350      context-switches          #    0,194 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.032      page-faults               #    0,002 M/sec                  
+     6.643.380.585      cycles                    #    3,684 GHz                      (83,31%)
+     1.693.063.022      stalled-cycles-frontend   #   25,48% frontend cycles idle     (83,27%)
+     1.942.613.860      stalled-cycles-backend    #   29,24% backend  cycles idle     (33,49%)
+     5.737.484.197      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,17%)
+     1.282.521.854      branches                  #  711,176 M/sec                    (66,97%)
+         6.961.802      branch-misses             #    0,54% of all branches          (83,39%)
+
+       2,582065629 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1803,396396      task-clock (msec)         #    0,697 CPUs utilized          
+               327      context-switches          #    0,181 K/sec                  
+                13      cpu-migrations            #    0,007 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.651.844.811      cycles                    #    3,689 GHz                      (83,35%)
+     1.638.964.395      stalled-cycles-frontend   #   24,64% frontend cycles idle     (83,41%)
+     1.915.242.624      stalled-cycles-backend    #   28,79% backend  cycles idle     (33,39%)
+     5.850.674.713      instructions              #    0,88  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,12%)
+     1.317.826.570      branches                  #  730,747 M/sec                    (66,52%)
+         7.120.484      branch-misses             #    0,54% of all branches          (83,11%)
+
+       2,585936174 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/king_james_bible.txt':
+
+       1798,575832      task-clock (msec)         #    0,698 CPUs utilized          
+               339      context-switches          #    0,188 K/sec                  
+                13      cpu-migrations            #    0,007 K/sec                  
+             4.030      page-faults               #    0,002 M/sec                  
+     6.654.600.025      cycles                    #    3,700 GHz                      (83,26%)
+     1.627.639.248      stalled-cycles-frontend   #   24,46% frontend cycles idle     (83,34%)
+     1.898.957.215      stalled-cycles-backend    #   28,54% backend  cycles idle     (33,54%)
+     5.791.253.310      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,36%)
+     1.298.193.622      branches                  #  721,790 M/sec                    (67,09%)
+         7.094.555      branch-misses             #    0,55% of all branches          (83,57%)
+
+       2,576356902 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1801,555474      task-clock (msec)         #    0,697 CPUs utilized          
+               327      context-switches          #    0,182 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.642.437.187      cycles                    #    3,687 GHz                      (83,49%)
+     1.607.200.183      stalled-cycles-frontend   #   24,20% frontend cycles idle     (83,37%)
+     2.025.097.746      stalled-cycles-backend    #   30,49% backend  cycles idle     (33,21%)
+     5.652.993.855      instructions              #    0,85  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,00%)
+     1.267.272.752      branches                  #  703,433 M/sec                    (66,77%)
+         7.635.026      branch-misses             #    0,60% of all branches          (83,39%)
+
+       2,584474612 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1805,219583      task-clock (msec)         #    0,699 CPUs utilized          
+               323      context-switches          #    0,179 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.675.576.431      cycles                    #    3,698 GHz                      (83,38%)
+     1.657.522.456      stalled-cycles-frontend   #   24,83% frontend cycles idle     (83,13%)
+     1.987.978.702      stalled-cycles-backend    #   29,78% backend  cycles idle     (33,53%)
+     5.780.246.018      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,65%)
+     1.302.643.155      branches                  #  721,598 M/sec                    (67,04%)
+         7.087.513      branch-misses             #    0,54% of all branches          (83,44%)
+
+       2,582824533 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1804,080554      task-clock (msec)         #    0,698 CPUs utilized          
+               315      context-switches          #    0,175 K/sec                  
+                 8      cpu-migrations            #    0,004 K/sec                  
+             3.519      page-faults               #    0,002 M/sec                  
+     6.656.030.686      cycles                    #    3,689 GHz                      (83,31%)
+     1.618.848.241      stalled-cycles-frontend   #   24,32% frontend cycles idle     (83,15%)
+     1.979.429.551      stalled-cycles-backend    #   29,74% backend  cycles idle     (33,74%)
+     5.739.713.976      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,28%)
+     1.289.141.216      branches                  #  714,570 M/sec                    (66,69%)
+         6.943.140      branch-misses             #    0,54% of all branches          (83,21%)
+
+       2,584871110 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1802,847490      task-clock (msec)         #    0,699 CPUs utilized          
+               329      context-switches          #    0,182 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             4.028      page-faults               #    0,002 M/sec                  
+     6.659.198.943      cycles                    #    3,694 GHz                      (83,46%)
+     1.652.056.504      stalled-cycles-frontend   #   24,81% frontend cycles idle     (83,38%)
+     1.908.568.093      stalled-cycles-backend    #   28,66% backend  cycles idle     (33,26%)
+     5.735.315.140      instructions              #    0,86  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,30%)
+     1.283.791.686      branches                  #  712,091 M/sec                    (66,72%)
+         6.986.159      branch-misses             #    0,54% of all branches          (83,13%)
+
+       2,579470857 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1806,334329      task-clock (msec)         #    0,698 CPUs utilized          
+               325      context-switches          #    0,180 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.660.878.582      cycles                    #    3,688 GHz                      (83,44%)
+     1.634.545.200      stalled-cycles-frontend   #   24,54% frontend cycles idle     (83,41%)
+     1.971.287.417      stalled-cycles-backend    #   29,60% backend  cycles idle     (33,23%)
+     5.847.760.376      instructions              #    0,88  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,11%)
+     1.313.040.883      branches                  #  726,909 M/sec                    (66,67%)
+         7.169.068      branch-misses             #    0,55% of all branches          (83,12%)
+
+       2,587129480 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1804,062906      task-clock (msec)         #    0,699 CPUs utilized          
+               330      context-switches          #    0,183 K/sec                  
+                 8      cpu-migrations            #    0,004 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.667.574.685      cycles                    #    3,696 GHz                      (83,02%)
+     1.641.058.240      stalled-cycles-frontend   #   24,61% frontend cycles idle     (83,43%)
+     2.026.860.503      stalled-cycles-backend    #   30,40% backend  cycles idle     (33,77%)
+     5.537.427.217      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,41%)
+     1.245.432.466      branches                  #  690,349 M/sec                    (66,96%)
+         7.489.181      branch-misses             #    0,60% of all branches          (83,35%)
+
+       2,581089283 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1807,255984      task-clock (msec)         #    0,699 CPUs utilized          
+               315      context-switches          #    0,174 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             4.034      page-faults               #    0,002 M/sec                  
+     6.680.265.669      cycles                    #    3,696 GHz                      (83,46%)
+     1.637.400.039      stalled-cycles-frontend   #   24,51% frontend cycles idle     (83,17%)
+     1.943.502.624      stalled-cycles-backend    #   29,09% backend  cycles idle     (33,41%)
+     5.772.624.907      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,24%)
+     1.292.669.773      branches                  #  715,267 M/sec                    (66,95%)
+         7.268.068      branch-misses             #    0,56% of all branches          (83,34%)
+
+       2,586314573 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1831,935091      task-clock (msec)         #    0,701 CPUs utilized          
+               335      context-switches          #    0,183 K/sec                  
+                 9      cpu-migrations            #    0,005 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.767.847.364      cycles                    #    3,694 GHz                      (83,00%)
+     1.740.764.080      stalled-cycles-frontend   #   25,72% frontend cycles idle     (83,52%)
+     1.933.743.109      stalled-cycles-backend    #   28,57% backend  cycles idle     (33,65%)
+     5.771.294.838      instructions              #    0,85  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,66%)
+     1.301.555.565      branches                  #  710,481 M/sec                    (67,23%)
+        10.807.091      branch-misses             #    0,83% of all branches          (83,58%)
+
+       2,611642743 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1811,605388      task-clock (msec)         #    0,699 CPUs utilized          
+               328      context-switches          #    0,181 K/sec                  
+                12      cpu-migrations            #    0,007 K/sec                  
+             3.517      page-faults               #    0,002 M/sec                  
+     6.686.746.725      cycles                    #    3,691 GHz                      (83,34%)
+     1.704.932.980      stalled-cycles-frontend   #   25,50% frontend cycles idle     (83,34%)
+     1.964.534.778      stalled-cycles-backend    #   29,38% backend  cycles idle     (33,41%)
+     5.702.495.028      instructions              #    0,85  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,70%)
+     1.282.597.862      branches                  #  707,990 M/sec                    (67,11%)
+         6.943.130      branch-misses             #    0,54% of all branches          (83,42%)
+
+       2,590155449 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/king_james_bible.txt':
+
+       1805,514403      task-clock (msec)         #    0,699 CPUs utilized          
+               345      context-switches          #    0,191 K/sec                  
+                13      cpu-migrations            #    0,007 K/sec                  
+             4.031      page-faults               #    0,002 M/sec                  
+     6.644.035.383      cycles                    #    3,680 GHz                      (83,48%)
+     1.731.399.787      stalled-cycles-frontend   #   26,06% frontend cycles idle     (83,53%)
+     2.165.214.827      stalled-cycles-backend    #   32,59% backend  cycles idle     (33,09%)
+     4.993.023.308      instructions              #    0,75  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (49,92%)
+     1.120.340.771      branches                  #  620,511 M/sec                    (66,65%)
+         8.717.744      branch-misses             #    0,78% of all branches          (83,12%)
+
+       2,584419274 seconds time elapsed
+

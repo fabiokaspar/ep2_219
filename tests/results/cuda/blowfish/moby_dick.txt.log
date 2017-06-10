@@ -1,0 +1,1440 @@
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1757,794461      task-clock (msec)         #    0,878 CPUs utilized          
+               262      context-switches          #    0,149 K/sec                  
+                 6      cpu-migrations            #    0,003 K/sec                  
+             3.228      page-faults               #    0,002 M/sec                  
+     6.515.153.712      cycles                    #    3,706 GHz                      (83,40%)
+     1.605.962.131      stalled-cycles-frontend   #   24,65% frontend cycles idle     (83,39%)
+     1.863.305.304      stalled-cycles-backend    #   28,60% backend  cycles idle     (33,35%)
+     5.612.873.806      instructions              #    0,86  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,20%)
+     1.254.989.624      branches                  #  713,957 M/sec                    (66,62%)
+         7.368.808      branch-misses             #    0,59% of all branches          (83,12%)
+
+       2,001047991 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1740,411177      task-clock (msec)         #    0,881 CPUs utilized          
+               247      context-switches          #    0,142 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.221      page-faults               #    0,002 M/sec                  
+     6.432.987.195      cycles                    #    3,696 GHz                      (83,25%)
+     1.654.361.219      stalled-cycles-frontend   #   25,72% frontend cycles idle     (83,48%)
+     1.919.508.250      stalled-cycles-backend    #   29,84% backend  cycles idle     (33,90%)
+     5.288.785.872      instructions              #    0,82  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,43%)
+     1.184.102.063      branches                  #  680,358 M/sec                    (66,87%)
+         6.978.289      branch-misses             #    0,59% of all branches          (83,32%)
+
+       1,975612787 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1739,312644      task-clock (msec)         #    0,879 CPUs utilized          
+               254      context-switches          #    0,146 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             3.224      page-faults               #    0,002 M/sec                  
+     6.438.587.572      cycles                    #    3,702 GHz                      (83,41%)
+     1.616.114.260      stalled-cycles-frontend   #   25,10% frontend cycles idle     (83,41%)
+     2.004.478.669      stalled-cycles-backend    #   31,13% backend  cycles idle     (33,46%)
+     5.297.145.332      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (49,95%)
+     1.184.153.548      branches                  #  680,817 M/sec                    (66,50%)
+         6.941.415      branch-misses             #    0,59% of all branches          (83,05%)
+
+       1,977988512 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1734,719596      task-clock (msec)         #    0,880 CPUs utilized          
+               253      context-switches          #    0,146 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.222      page-faults               #    0,002 M/sec                  
+     6.440.448.802      cycles                    #    3,713 GHz                      (83,08%)
+     1.640.871.534      stalled-cycles-frontend   #   25,48% frontend cycles idle     (83,40%)
+     1.987.650.562      stalled-cycles-backend    #   30,86% backend  cycles idle     (33,61%)
+     5.126.777.323      instructions              #    0,80  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,58%)
+     1.147.386.503      branches                  #  661,425 M/sec                    (67,08%)
+         6.720.049      branch-misses             #    0,59% of all branches          (83,53%)
+
+       1,970674983 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1737,889983      task-clock (msec)         #    0,879 CPUs utilized          
+               260      context-switches          #    0,150 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.224      page-faults               #    0,002 M/sec                  
+     6.475.409.032      cycles                    #    3,726 GHz                      (83,26%)
+     1.615.640.758      stalled-cycles-frontend   #   24,95% frontend cycles idle     (83,17%)
+     1.977.559.571      stalled-cycles-backend    #   30,54% backend  cycles idle     (33,72%)
+     5.320.934.297      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,52%)
+     1.189.539.370      branches                  #  684,473 M/sec                    (67,00%)
+         7.028.213      branch-misses             #    0,59% of all branches          (83,63%)
+
+       1,976043340 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1738,472948      task-clock (msec)         #    0,879 CPUs utilized          
+               261      context-switches          #    0,150 K/sec                  
+                10      cpu-migrations            #    0,006 K/sec                  
+             3.228      page-faults               #    0,002 M/sec                  
+     6.445.726.565      cycles                    #    3,708 GHz                      (83,19%)
+     1.619.915.998      stalled-cycles-frontend   #   25,13% frontend cycles idle     (83,23%)
+     2.058.903.699      stalled-cycles-backend    #   31,94% backend  cycles idle     (33,69%)
+     5.213.090.759      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,51%)
+     1.167.446.575      branches                  #  671,536 M/sec                    (67,10%)
+         6.858.810      branch-misses             #    0,59% of all branches          (83,46%)
+
+       1,976708067 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1742,239772      task-clock (msec)         #    0,879 CPUs utilized          
+               255      context-switches          #    0,146 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             3.224      page-faults               #    0,002 M/sec                  
+     6.441.075.670      cycles                    #    3,697 GHz                      (83,35%)
+     1.563.446.102      stalled-cycles-frontend   #   24,27% frontend cycles idle     (83,47%)
+     2.061.872.452      stalled-cycles-backend    #   32,01% backend  cycles idle     (33,26%)
+     5.297.505.439      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (49,84%)
+     1.184.176.105      branches                  #  679,686 M/sec                    (66,43%)
+         7.036.748      branch-misses             #    0,59% of all branches          (83,16%)
+
+       1,981099237 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1735,437375      task-clock (msec)         #    0,879 CPUs utilized          
+               250      context-switches          #    0,144 K/sec                  
+                 9      cpu-migrations            #    0,005 K/sec                  
+             3.221      page-faults               #    0,002 M/sec                  
+     6.434.198.965      cycles                    #    3,708 GHz                      (83,39%)
+     1.667.762.729      stalled-cycles-frontend   #   25,92% frontend cycles idle     (83,18%)
+     1.949.821.717      stalled-cycles-backend    #   30,30% backend  cycles idle     (33,50%)
+     5.169.878.545      instructions              #    0,80  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,53%)
+     1.156.165.319      branches                  #  666,210 M/sec                    (67,06%)
+         6.889.173      branch-misses             #    0,60% of all branches          (83,56%)
+
+       1,973383490 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1739,380161      task-clock (msec)         #    0,881 CPUs utilized          
+               247      context-switches          #    0,142 K/sec                  
+                13      cpu-migrations            #    0,007 K/sec                  
+             3.222      page-faults               #    0,002 M/sec                  
+     6.422.093.420      cycles                    #    3,692 GHz                      (83,31%)
+     1.669.821.561      stalled-cycles-frontend   #   26,00% frontend cycles idle     (83,26%)
+     1.937.396.971      stalled-cycles-backend    #   30,17% backend  cycles idle     (33,46%)
+     5.230.668.521      instructions              #    0,81  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,29%)
+     1.171.651.387      branches                  #  673,603 M/sec                    (66,64%)
+         6.952.242      branch-misses             #    0,59% of all branches          (83,37%)
+
+       1,975274194 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/moby_dick.txt':
+
+       1741,167635      task-clock (msec)         #    0,879 CPUs utilized          
+               253      context-switches          #    0,145 K/sec                  
+                11      cpu-migrations            #    0,006 K/sec                  
+             3.225      page-faults               #    0,002 M/sec                  
+     6.431.078.745      cycles                    #    3,694 GHz                      (83,15%)
+     1.642.071.224      stalled-cycles-frontend   #   25,53% frontend cycles idle     (83,08%)
+     2.017.090.096      stalled-cycles-backend    #   31,36% backend  cycles idle     (33,80%)
+     5.212.748.981      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,61%)
+     1.162.640.296      branches                  #  667,736 M/sec                    (67,15%)
+         6.847.537      branch-misses             #    0,59% of all branches          (83,74%)
+
+       1,981294282 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        975,843258      task-clock (msec)         #    0,805 CPUs utilized          
+               179      context-switches          #    0,183 K/sec                  
+                13      cpu-migrations            #    0,013 K/sec                  
+             3.225      page-faults               #    0,003 M/sec                  
+     3.542.235.327      cycles                    #    3,630 GHz                      (83,42%)
+       868.759.746      stalled-cycles-frontend   #   24,53% frontend cycles idle     (83,30%)
+     1.161.411.079      stalled-cycles-backend    #   32,79% backend  cycles idle     (33,41%)
+     2.955.069.952      instructions              #    0,83  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,50%)
+       661.213.316      branches                  #  677,581 M/sec                    (67,14%)
+         3.871.418      branch-misses             #    0,59% of all branches          (83,55%)
+
+       1,212746450 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        961,696365      task-clock (msec)         #    0,800 CPUs utilized          
+               184      context-switches          #    0,191 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             3.224      page-faults               #    0,003 M/sec                  
+     3.511.054.703      cycles                    #    3,651 GHz                      (83,18%)
+       864.513.887      stalled-cycles-frontend   #   24,62% frontend cycles idle     (83,40%)
+     1.075.579.486      stalled-cycles-backend    #   30,63% backend  cycles idle     (33,56%)
+     2.916.890.621      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,13%)
+       650.761.735      branches                  #  676,681 M/sec                    (66,51%)
+         3.854.952      branch-misses             #    0,59% of all branches          (82,83%)
+
+       1,201754206 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        963,144982      task-clock (msec)         #    0,800 CPUs utilized          
+               174      context-switches          #    0,181 K/sec                  
+                12      cpu-migrations            #    0,012 K/sec                  
+             3.227      page-faults               #    0,003 M/sec                  
+     3.522.031.119      cycles                    #    3,657 GHz                      (83,11%)
+       853.402.393      stalled-cycles-frontend   #   24,23% frontend cycles idle     (83,16%)
+     1.160.354.740      stalled-cycles-backend    #   32,95% backend  cycles idle     (33,91%)
+     2.805.663.217      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,64%)
+       629.033.704      branches                  #  653,104 M/sec                    (67,02%)
+         3.745.909      branch-misses             #    0,60% of all branches          (83,27%)
+
+       1,203515852 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        959,103812      task-clock (msec)         #    0,801 CPUs utilized          
+               176      context-switches          #    0,184 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             3.227      page-faults               #    0,003 M/sec                  
+     3.530.483.760      cycles                    #    3,681 GHz                      (83,32%)
+       876.535.139      stalled-cycles-frontend   #   24,83% frontend cycles idle     (83,35%)
+     1.104.980.190      stalled-cycles-backend    #   31,30% backend  cycles idle     (33,48%)
+     2.849.306.882      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,74%)
+       642.432.575      branches                  #  669,826 M/sec                    (67,06%)
+         3.801.652      branch-misses             #    0,59% of all branches          (83,47%)
+
+       1,197228949 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        961,925066      task-clock (msec)         #    0,801 CPUs utilized          
+               179      context-switches          #    0,186 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             3.224      page-faults               #    0,003 M/sec                  
+     3.518.627.499      cycles                    #    3,658 GHz                      (83,34%)
+       871.809.681      stalled-cycles-frontend   #   24,78% frontend cycles idle     (83,52%)
+     1.075.624.284      stalled-cycles-backend    #   30,57% backend  cycles idle     (33,41%)
+     2.901.762.555      instructions              #    0,82  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,21%)
+       651.874.007      branches                  #  677,676 M/sec                    (66,58%)
+         3.824.303      branch-misses             #    0,59% of all branches          (83,07%)
+
+       1,201353292 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        961,454288      task-clock (msec)         #    0,801 CPUs utilized          
+               172      context-switches          #    0,179 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             3.227      page-faults               #    0,003 M/sec                  
+     3.527.336.798      cycles                    #    3,669 GHz                      (83,36%)
+       903.050.368      stalled-cycles-frontend   #   25,60% frontend cycles idle     (83,49%)
+     1.086.743.695      stalled-cycles-backend    #   30,81% backend  cycles idle     (33,59%)
+     2.839.031.257      instructions              #    0,80  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,24%)
+       639.559.006      branches                  #  665,200 M/sec                    (66,48%)
+         3.794.278      branch-misses             #    0,59% of all branches          (82,73%)
+
+       1,199734057 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        969,808365      task-clock (msec)         #    0,804 CPUs utilized          
+               174      context-switches          #    0,179 K/sec                  
+                12      cpu-migrations            #    0,012 K/sec                  
+             3.221      page-faults               #    0,003 M/sec                  
+     3.540.946.289      cycles                    #    3,651 GHz                      (83,15%)
+       863.516.113      stalled-cycles-frontend   #   24,39% frontend cycles idle     (83,41%)
+     1.112.647.243      stalled-cycles-backend    #   31,42% backend  cycles idle     (34,02%)
+     2.858.208.590      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,50%)
+       642.480.292      branches                  #  662,482 M/sec                    (66,96%)
+         3.871.158      branch-misses             #    0,60% of all branches          (83,16%)
+
+       1,206662285 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        962,526969      task-clock (msec)         #    0,801 CPUs utilized          
+               179      context-switches          #    0,186 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             3.222      page-faults               #    0,003 M/sec                  
+     3.516.718.807      cycles                    #    3,654 GHz                      (83,00%)
+       866.166.687      stalled-cycles-frontend   #   24,63% frontend cycles idle     (82,92%)
+     1.106.431.041      stalled-cycles-backend    #   31,46% backend  cycles idle     (34,20%)
+     2.850.616.231      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,64%)
+       642.523.715      branches                  #  667,538 M/sec                    (66,91%)
+         3.801.050      branch-misses             #    0,59% of all branches          (83,53%)
+
+       1,202140752 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        964,178897      task-clock (msec)         #    0,802 CPUs utilized          
+               175      context-switches          #    0,182 K/sec                  
+                13      cpu-migrations            #    0,013 K/sec                  
+             3.224      page-faults               #    0,003 M/sec                  
+     3.513.584.497      cycles                    #    3,644 GHz                      (83,00%)
+       895.527.719      stalled-cycles-frontend   #   25,49% frontend cycles idle     (83,42%)
+     1.085.952.982      stalled-cycles-backend    #   30,91% backend  cycles idle     (33,76%)
+     2.839.149.144      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,75%)
+       637.744.256      branches                  #  661,438 M/sec                    (67,02%)
+         3.818.503      branch-misses             #    0,60% of all branches          (83,24%)
+
+       1,201804858 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/moby_dick.txt':
+
+        965,067044      task-clock (msec)         #    0,801 CPUs utilized          
+               196      context-switches          #    0,203 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             3.224      page-faults               #    0,003 M/sec                  
+     3.537.798.408      cycles                    #    3,666 GHz                      (82,88%)
+       870.773.886      stalled-cycles-frontend   #   24,61% frontend cycles idle     (83,42%)
+     1.133.026.095      stalled-cycles-backend    #   32,03% backend  cycles idle     (34,09%)
+     2.903.211.958      instructions              #    0,82  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,49%)
+       645.899.131      branches                  #  669,279 M/sec                    (66,95%)
+         3.889.895      branch-misses             #    0,60% of all branches          (83,23%)
+
+       1,204543733 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        608,359750      task-clock (msec)         #    0,717 CPUs utilized          
+               150      context-switches          #    0,247 K/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.229      page-faults               #    0,005 M/sec                  
+     2.215.738.508      cycles                    #    3,642 GHz                      (82,95%)
+       554.875.805      stalled-cycles-frontend   #   25,04% frontend cycles idle     (84,00%)
+       704.292.146      stalled-cycles-backend    #   31,79% backend  cycles idle     (33,38%)
+     1.717.959.268      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,53%)
+       391.359.862      branches                  #  643,303 M/sec                    (66,75%)
+         2.316.152      branch-misses             #    0,59% of all branches          (83,08%)
+
+       0,849056297 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        608,586868      task-clock (msec)         #    0,717 CPUs utilized          
+               141      context-switches          #    0,232 K/sec                  
+                 9      cpu-migrations            #    0,015 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.210.612.267      cycles                    #    3,632 GHz                      (82,47%)
+       552.417.949      stalled-cycles-frontend   #   24,99% frontend cycles idle     (83,44%)
+       681.130.353      stalled-cycles-backend    #   30,81% backend  cycles idle     (34,23%)
+     1.769.700.278      instructions              #    0,80  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,88%)
+       399.371.904      branches                  #  656,228 M/sec                    (67,02%)
+         2.399.420      branch-misses             #    0,60% of all branches          (83,18%)
+
+       0,848879054 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        614,831439      task-clock (msec)         #    0,719 CPUs utilized          
+               142      context-switches          #    0,231 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.219      page-faults               #    0,005 M/sec                  
+     2.223.979.048      cycles                    #    3,617 GHz                      (82,87%)
+       555.446.234      stalled-cycles-frontend   #   24,98% frontend cycles idle     (83,16%)
+       679.943.859      stalled-cycles-backend    #   30,57% backend  cycles idle     (34,18%)
+     1.733.698.189      instructions              #    0,78  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,76%)
+       395.384.715      branches                  #  643,078 M/sec                    (67,89%)
+         2.366.723      branch-misses             #    0,60% of all branches          (83,90%)
+
+       0,854587267 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        608,166832      task-clock (msec)         #    0,719 CPUs utilized          
+               133      context-switches          #    0,219 K/sec                  
+                12      cpu-migrations            #    0,020 K/sec                  
+             3.223      page-faults               #    0,005 M/sec                  
+     2.188.338.637      cycles                    #    3,598 GHz                      (83,24%)
+       548.146.498      stalled-cycles-frontend   #   25,05% frontend cycles idle     (83,56%)
+       676.556.156      stalled-cycles-backend    #   30,92% backend  cycles idle     (33,97%)
+     1.783.853.910      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,35%)
+       402.584.622      branches                  #  661,964 M/sec                    (66,74%)
+         2.417.776      branch-misses             #    0,60% of all branches          (83,17%)
+
+       0,845876723 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        602,696015      task-clock (msec)         #    0,714 CPUs utilized          
+               138      context-switches          #    0,229 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.185.014.009      cycles                    #    3,625 GHz                      (82,52%)
+       507.374.954      stalled-cycles-frontend   #   23,22% frontend cycles idle     (82,73%)
+       793.607.895      stalled-cycles-backend    #   36,32% backend  cycles idle     (35,47%)
+     1.613.677.917      instructions              #    0,74  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (51,90%)
+       364.685.491      branches                  #  605,090 M/sec                    (67,79%)
+         2.252.614      branch-misses             #    0,62% of all branches          (83,72%)
+
+       0,843932059 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        615,638607      task-clock (msec)         #    0,721 CPUs utilized          
+               145      context-switches          #    0,236 K/sec                  
+                15      cpu-migrations            #    0,024 K/sec                  
+             3.224      page-faults               #    0,005 M/sec                  
+     2.202.484.663      cycles                    #    3,578 GHz                      (83,74%)
+       543.686.036      stalled-cycles-frontend   #   24,69% frontend cycles idle     (83,18%)
+       709.698.541      stalled-cycles-backend    #   32,22% backend  cycles idle     (33,45%)
+     1.775.099.952      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,68%)
+       402.239.728      branches                  #  653,370 M/sec                    (66,80%)
+         2.398.521      branch-misses             #    0,60% of all branches          (83,05%)
+
+       0,854343726 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        609,522744      task-clock (msec)         #    0,720 CPUs utilized          
+               160      context-switches          #    0,263 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.181.750.011      cycles                    #    3,579 GHz                      (83,09%)
+       530.864.126      stalled-cycles-frontend   #   24,33% frontend cycles idle     (83,47%)
+       703.410.735      stalled-cycles-backend    #   32,24% backend  cycles idle     (33,90%)
+     1.760.209.257      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,85%)
+       396.541.000      branches                  #  650,576 M/sec                    (67,60%)
+         2.408.809      branch-misses             #    0,61% of all branches          (83,21%)
+
+       0,846593514 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        609,573925      task-clock (msec)         #    0,720 CPUs utilized          
+               146      context-switches          #    0,240 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.198.724.218      cycles                    #    3,607 GHz                      (83,55%)
+       546.516.525      stalled-cycles-frontend   #   24,86% frontend cycles idle     (83,59%)
+       702.109.225      stalled-cycles-backend    #   31,93% backend  cycles idle     (33,30%)
+     1.773.333.384      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,32%)
+       399.477.278      branches                  #  655,339 M/sec                    (67,07%)
+         2.377.882      branch-misses             #    0,60% of all branches          (83,24%)
+
+       0,846672016 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        613,436676      task-clock (msec)         #    0,718 CPUs utilized          
+               158      context-switches          #    0,258 K/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.159.153.042      cycles                    #    3,520 GHz                      (83,74%)
+       556.640.338      stalled-cycles-frontend   #   25,78% frontend cycles idle     (83,79%)
+       676.036.918      stalled-cycles-backend    #   31,31% backend  cycles idle     (34,15%)
+     1.749.996.135      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,47%)
+       398.072.227      branches                  #  648,921 M/sec                    (66,76%)
+         2.433.381      branch-misses             #    0,61% of all branches          (82,96%)
+
+       0,854047470 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/moby_dick.txt':
+
+        606,437481      task-clock (msec)         #    0,719 CPUs utilized          
+               136      context-switches          #    0,224 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.213.219.865      cycles                    #    3,650 GHz                      (83,60%)
+       544.552.955      stalled-cycles-frontend   #   24,60% frontend cycles idle     (83,54%)
+       707.697.357      stalled-cycles-backend    #   31,98% backend  cycles idle     (32,91%)
+     1.720.197.850      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,27%)
+       390.777.749      branches                  #  644,383 M/sec                    (66,48%)
+         2.353.862      branch-misses             #    0,60% of all branches          (82,82%)
+
+       0,843132713 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        573,548543      task-clock (msec)         #    0,703 CPUs utilized          
+               148      context-switches          #    0,258 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.228      page-faults               #    0,006 M/sec                  
+     2.062.358.560      cycles                    #    3,596 GHz                      (83,25%)
+       522.168.770      stalled-cycles-frontend   #   25,32% frontend cycles idle     (83,03%)
+       659.865.559      stalled-cycles-backend    #   32,00% backend  cycles idle     (34,08%)
+     1.637.624.407      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,43%)
+       371.624.328      branches                  #  647,939 M/sec                    (66,30%)
+         2.252.355      branch-misses             #    0,61% of all branches          (82,96%)
+
+       0,815824024 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        572,196805      task-clock (msec)         #    0,706 CPUs utilized          
+               135      context-switches          #    0,236 K/sec                  
+                13      cpu-migrations            #    0,023 K/sec                  
+             3.221      page-faults               #    0,006 M/sec                  
+     2.048.834.799      cycles                    #    3,581 GHz                      (82,84%)
+       513.204.170      stalled-cycles-frontend   #   25,05% frontend cycles idle     (83,26%)
+       653.064.679      stalled-cycles-backend    #   31,87% backend  cycles idle     (34,26%)
+     1.658.022.109      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,20%)
+       376.849.330      branches                  #  658,601 M/sec                    (66,33%)
+         2.286.155      branch-misses             #    0,61% of all branches          (82,35%)
+
+       0,810526586 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        569,737478      task-clock (msec)         #    0,706 CPUs utilized          
+               138      context-switches          #    0,242 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.226      page-faults               #    0,006 M/sec                  
+     2.071.201.582      cycles                    #    3,635 GHz                      (83,59%)
+       498.754.713      stalled-cycles-frontend   #   24,08% frontend cycles idle     (83,52%)
+       643.070.403      stalled-cycles-backend    #   31,05% backend  cycles idle     (33,18%)
+     1.708.699.788      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (49,80%)
+       388.488.645      branches                  #  681,873 M/sec                    (66,08%)
+         2.279.956      branch-misses             #    0,59% of all branches          (82,80%)
+
+       0,806666102 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        571,503271      task-clock (msec)         #    0,707 CPUs utilized          
+               125      context-switches          #    0,219 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.224      page-faults               #    0,006 M/sec                  
+     2.048.772.718      cycles                    #    3,585 GHz                      (83,45%)
+       514.051.120      stalled-cycles-frontend   #   25,09% frontend cycles idle     (83,17%)
+       651.216.055      stalled-cycles-backend    #   31,79% backend  cycles idle     (33,55%)
+     1.606.315.340      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,57%)
+       367.125.479      branches                  #  642,386 M/sec                    (67,56%)
+         2.197.726      branch-misses             #    0,60% of all branches          (84,03%)
+
+       0,808347450 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        565,112123      task-clock (msec)         #    0,704 CPUs utilized          
+               148      context-switches          #    0,262 K/sec                  
+                11      cpu-migrations            #    0,019 K/sec                  
+             3.228      page-faults               #    0,006 M/sec                  
+     2.056.577.939      cycles                    #    3,639 GHz                      (83,77%)
+       480.678.450      stalled-cycles-frontend   #   23,37% frontend cycles idle     (83,79%)
+       740.852.077      stalled-cycles-backend    #   36,02% backend  cycles idle     (32,67%)
+     1.477.213.302      instructions              #    0,72  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (50,40%)
+       340.350.112      branches                  #  602,270 M/sec                    (66,67%)
+         2.000.941      branch-misses             #    0,59% of all branches          (83,02%)
+
+       0,802922140 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        568,094075      task-clock (msec)         #    0,703 CPUs utilized          
+               136      context-switches          #    0,239 K/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             3.226      page-faults               #    0,006 M/sec                  
+     2.051.969.379      cycles                    #    3,612 GHz                      (83,20%)
+       505.718.842      stalled-cycles-frontend   #   24,65% frontend cycles idle     (83,41%)
+       677.034.568      stalled-cycles-backend    #   32,99% backend  cycles idle     (33,87%)
+     1.661.169.195      instructions              #    0,81  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,09%)
+       375.277.803      branches                  #  660,591 M/sec                    (66,25%)
+         2.273.960      branch-misses             #    0,61% of all branches          (82,77%)
+
+       0,807905015 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        570,090111      task-clock (msec)         #    0,706 CPUs utilized          
+               152      context-switches          #    0,267 K/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             3.225      page-faults               #    0,006 M/sec                  
+     2.029.817.167      cycles                    #    3,561 GHz                      (83,34%)
+       495.951.801      stalled-cycles-frontend   #   24,43% frontend cycles idle     (83,98%)
+       644.196.438      stalled-cycles-backend    #   31,74% backend  cycles idle     (32,73%)
+     1.698.860.767      instructions              #    0,84  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,09%)
+       385.386.571      branches                  #  676,010 M/sec                    (66,19%)
+         2.342.659      branch-misses             #    0,61% of all branches          (83,02%)
+
+       0,807705505 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        570,681642      task-clock (msec)         #    0,706 CPUs utilized          
+               142      context-switches          #    0,249 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.222      page-faults               #    0,006 M/sec                  
+     2.044.139.178      cycles                    #    3,582 GHz                      (84,04%)
+       509.651.054      stalled-cycles-frontend   #   24,93% frontend cycles idle     (83,77%)
+       639.449.208      stalled-cycles-backend    #   31,28% backend  cycles idle     (32,86%)
+     1.647.967.593      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (49,75%)
+       373.354.550      branches                  #  654,226 M/sec                    (65,68%)
+         2.211.254      branch-misses             #    0,59% of all branches          (83,08%)
+
+       0,807759323 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        567,529064      task-clock (msec)         #    0,705 CPUs utilized          
+               143      context-switches          #    0,252 K/sec                  
+                13      cpu-migrations            #    0,023 K/sec                  
+             3.223      page-faults               #    0,006 M/sec                  
+     2.069.655.680      cycles                    #    3,647 GHz                      (84,03%)
+       505.832.932      stalled-cycles-frontend   #   24,44% frontend cycles idle     (84,28%)
+       727.054.787      stalled-cycles-backend    #   35,13% backend  cycles idle     (31,94%)
+     1.459.194.362      instructions              #    0,71  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (50,57%)
+       333.120.718      branches                  #  586,967 M/sec                    (66,79%)
+         1.968.401      branch-misses             #    0,59% of all branches          (83,39%)
+
+       0,804937881 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/moby_dick.txt':
+
+        570,695600      task-clock (msec)         #    0,706 CPUs utilized          
+               137      context-switches          #    0,240 K/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.048.739.831      cycles                    #    3,590 GHz                      (83,76%)
+       503.445.660      stalled-cycles-frontend   #   24,57% frontend cycles idle     (83,19%)
+       645.381.159      stalled-cycles-backend    #   31,50% backend  cycles idle     (33,81%)
+     1.680.331.622      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (49,96%)
+       380.398.248      branches                  #  666,552 M/sec                    (66,08%)
+         2.244.036      branch-misses             #    0,59% of all branches          (82,67%)
+
+       0,807784916 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        571,522816      task-clock (msec)         #    0,706 CPUs utilized          
+               156      context-switches          #    0,273 K/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             3.226      page-faults               #    0,006 M/sec                  
+     2.063.170.075      cycles                    #    3,610 GHz                      (82,83%)
+       499.329.143      stalled-cycles-frontend   #   24,20% frontend cycles idle     (83,43%)
+       669.807.767      stalled-cycles-backend    #   32,46% backend  cycles idle     (33,92%)
+     1.611.144.350      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (52,14%)
+       363.495.873      branches                  #  636,013 M/sec                    (68,26%)
+         2.775.790      branch-misses             #    0,76% of all branches          (84,12%)
+
+       0,809538696 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        568,103625      task-clock (msec)         #    0,701 CPUs utilized          
+               141      context-switches          #    0,248 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.224      page-faults               #    0,006 M/sec                  
+     2.051.249.391      cycles                    #    3,611 GHz                      (83,11%)
+       513.641.584      stalled-cycles-frontend   #   25,04% frontend cycles idle     (83,73%)
+       641.116.365      stalled-cycles-backend    #   31,25% backend  cycles idle     (33,33%)
+     1.628.925.501      instructions              #    0,79  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (49,93%)
+       370.580.490      branches                  #  652,311 M/sec                    (66,11%)
+         2.237.572      branch-misses             #    0,60% of all branches          (82,72%)
+
+       0,810506924 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        565,730817      task-clock (msec)         #    0,704 CPUs utilized          
+               150      context-switches          #    0,265 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.228      page-faults               #    0,006 M/sec                  
+     2.057.921.603      cycles                    #    3,638 GHz                      (83,74%)
+       488.236.626      stalled-cycles-frontend   #   23,72% frontend cycles idle     (82,99%)
+       745.246.978      stalled-cycles-backend    #   36,21% backend  cycles idle     (33,63%)
+     1.484.473.040      instructions              #    0,72  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (51,31%)
+       340.656.495      branches                  #  602,153 M/sec                    (67,59%)
+         2.077.496      branch-misses             #    0,61% of all branches          (83,86%)
+
+       0,803551682 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        573,550337      task-clock (msec)         #    0,708 CPUs utilized          
+               142      context-switches          #    0,248 K/sec                  
+                14      cpu-migrations            #    0,024 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.067.681.559      cycles                    #    3,605 GHz                      (82,90%)
+       507.770.209      stalled-cycles-frontend   #   24,56% frontend cycles idle     (82,85%)
+       673.185.351      stalled-cycles-backend    #   32,56% backend  cycles idle     (34,78%)
+     1.644.075.069      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,14%)
+       372.341.676      branches                  #  649,187 M/sec                    (67,23%)
+         2.237.177      branch-misses             #    0,60% of all branches          (83,24%)
+
+       0,810228710 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        566,073891      task-clock (msec)         #    0,705 CPUs utilized          
+               139      context-switches          #    0,246 K/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             3.224      page-faults               #    0,006 M/sec                  
+     2.029.771.067      cycles                    #    3,586 GHz                      (83,87%)
+       488.679.424      stalled-cycles-frontend   #   24,08% frontend cycles idle     (83,78%)
+       692.874.767      stalled-cycles-backend    #   34,14% backend  cycles idle     (33,88%)
+     1.605.280.748      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (51,02%)
+       363.684.090      branches                  #  642,468 M/sec                    (67,05%)
+         2.198.105      branch-misses             #    0,60% of all branches          (82,95%)
+
+       0,803302315 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        571,050923      task-clock (msec)         #    0,705 CPUs utilized          
+               141      context-switches          #    0,247 K/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             3.224      page-faults               #    0,006 M/sec                  
+     2.062.121.276      cycles                    #    3,611 GHz                      (83,36%)
+       556.007.869      stalled-cycles-frontend   #   26,96% frontend cycles idle     (83,95%)
+       624.329.908      stalled-cycles-backend    #   30,28% backend  cycles idle     (32,79%)
+     1.609.599.994      instructions              #    0,78  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,93%)
+       367.529.728      branches                  #  643,602 M/sec                    (66,81%)
+         3.031.673      branch-misses             #    0,82% of all branches          (83,98%)
+
+       0,810021337 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        571,643190      task-clock (msec)         #    0,707 CPUs utilized          
+               146      context-switches          #    0,255 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.224      page-faults               #    0,006 M/sec                  
+     2.037.747.362      cycles                    #    3,565 GHz                      (82,70%)
+       497.525.486      stalled-cycles-frontend   #   24,42% frontend cycles idle     (83,31%)
+       657.509.122      stalled-cycles-backend    #   32,27% backend  cycles idle     (34,58%)
+     1.648.226.117      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,01%)
+       370.269.339      branches                  #  647,728 M/sec                    (66,75%)
+         2.192.671      branch-misses             #    0,59% of all branches          (82,70%)
+
+       0,808785144 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        573,027575      task-clock (msec)         #    0,708 CPUs utilized          
+               143      context-switches          #    0,250 K/sec                  
+                16      cpu-migrations            #    0,028 K/sec                  
+             3.228      page-faults               #    0,006 M/sec                  
+     2.055.434.561      cycles                    #    3,587 GHz                      (83,25%)
+       511.153.570      stalled-cycles-frontend   #   24,87% frontend cycles idle     (83,26%)
+       659.828.542      stalled-cycles-backend    #   32,10% backend  cycles idle     (33,79%)
+     1.650.968.346      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,68%)
+       374.252.846      branches                  #  653,115 M/sec                    (66,63%)
+         2.264.293      branch-misses             #    0,61% of all branches          (82,52%)
+
+       0,808935941 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        567,532766      task-clock (msec)         #    0,705 CPUs utilized          
+               133      context-switches          #    0,234 K/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             3.222      page-faults               #    0,006 M/sec                  
+     2.049.425.971      cycles                    #    3,611 GHz                      (83,09%)
+       499.821.911      stalled-cycles-frontend   #   24,39% frontend cycles idle     (83,04%)
+       642.760.551      stalled-cycles-backend    #   31,36% backend  cycles idle     (34,16%)
+     1.701.341.407      instructions              #    0,83  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,51%)
+       388.111.753      branches                  #  683,858 M/sec                    (67,66%)
+         2.324.616      branch-misses             #    0,60% of all branches          (83,81%)
+
+       0,804678614 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/moby_dick.txt':
+
+        571,354643      task-clock (msec)         #    0,706 CPUs utilized          
+               156      context-switches          #    0,273 K/sec                  
+                11      cpu-migrations            #    0,019 K/sec                  
+             3.221      page-faults               #    0,006 M/sec                  
+     2.029.590.636      cycles                    #    3,552 GHz                      (83,40%)
+       505.456.579      stalled-cycles-frontend   #   24,90% frontend cycles idle     (83,93%)
+       657.249.289      stalled-cycles-backend    #   32,38% backend  cycles idle     (34,20%)
+     1.626.935.061      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,86%)
+       370.827.715      branches                  #  649,032 M/sec                    (67,10%)
+         2.236.347      branch-misses             #    0,60% of all branches          (83,19%)
+
+       0,809200837 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        572,633164      task-clock (msec)         #    0,708 CPUs utilized          
+               142      context-switches          #    0,248 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.065.891.221      cycles                    #    3,608 GHz                      (82,99%)
+       505.432.838      stalled-cycles-frontend   #   24,47% frontend cycles idle     (82,60%)
+       658.285.347      stalled-cycles-backend    #   31,86% backend  cycles idle     (34,61%)
+     1.613.181.573      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,48%)
+       362.185.913      branches                  #  632,492 M/sec                    (67,27%)
+         2.283.656      branch-misses             #    0,63% of all branches          (83,38%)
+
+       0,809314610 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        568,855986      task-clock (msec)         #    0,706 CPUs utilized          
+               138      context-switches          #    0,243 K/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             3.222      page-faults               #    0,006 M/sec                  
+     2.067.709.841      cycles                    #    3,635 GHz                      (83,28%)
+       503.726.575      stalled-cycles-frontend   #   24,36% frontend cycles idle     (83,80%)
+       658.829.314      stalled-cycles-backend    #   31,86% backend  cycles idle     (33,44%)
+     1.619.831.600      instructions              #    0,78  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,30%)
+       369.284.109      branches                  #  649,170 M/sec                    (66,27%)
+         2.199.977      branch-misses             #    0,60% of all branches          (83,20%)
+
+       0,805850027 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        570,882669      task-clock (msec)         #    0,707 CPUs utilized          
+               144      context-switches          #    0,252 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.223      page-faults               #    0,006 M/sec                  
+     2.066.163.612      cycles                    #    3,619 GHz                      (83,22%)
+       505.106.682      stalled-cycles-frontend   #   24,45% frontend cycles idle     (83,33%)
+       659.343.470      stalled-cycles-backend    #   31,91% backend  cycles idle     (33,60%)
+     1.639.947.173      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,63%)
+       371.537.527      branches                  #  650,812 M/sec                    (66,76%)
+         2.279.572      branch-misses             #    0,61% of all branches          (83,57%)
+
+       0,807726061 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        571,104881      task-clock (msec)         #    0,705 CPUs utilized          
+               137      context-switches          #    0,240 K/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             3.222      page-faults               #    0,006 M/sec                  
+     2.056.139.638      cycles                    #    3,600 GHz                      (83,43%)
+       511.685.713      stalled-cycles-frontend   #   24,89% frontend cycles idle     (83,38%)
+       671.062.318      stalled-cycles-backend    #   32,64% backend  cycles idle     (33,36%)
+     1.670.052.127      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,60%)
+       379.454.569      branches                  #  664,422 M/sec                    (66,48%)
+         2.276.179      branch-misses             #    0,60% of all branches          (83,32%)
+
+       0,809810383 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        570,876123      task-clock (msec)         #    0,705 CPUs utilized          
+               137      context-switches          #    0,240 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.032.554.990      cycles                    #    3,560 GHz                      (83,68%)
+       499.574.558      stalled-cycles-frontend   #   24,58% frontend cycles idle     (83,93%)
+       649.161.720      stalled-cycles-backend    #   31,94% backend  cycles idle     (33,99%)
+     1.600.207.002      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,89%)
+       368.459.341      branches                  #  645,428 M/sec                    (66,85%)
+         2.237.169      branch-misses             #    0,61% of all branches          (82,61%)
+
+       0,810268980 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        571,209708      task-clock (msec)         #    0,705 CPUs utilized          
+               141      context-switches          #    0,247 K/sec                  
+                13      cpu-migrations            #    0,023 K/sec                  
+             3.221      page-faults               #    0,006 M/sec                  
+     2.050.317.107      cycles                    #    3,589 GHz                      (83,27%)
+       514.948.725      stalled-cycles-frontend   #   25,12% frontend cycles idle     (83,81%)
+       666.550.501      stalled-cycles-backend    #   32,51% backend  cycles idle     (34,00%)
+     1.602.428.470      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,61%)
+       363.994.107      branches                  #  637,234 M/sec                    (66,67%)
+         2.185.626      branch-misses             #    0,60% of all branches          (83,20%)
+
+       0,810061999 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        574,532620      task-clock (msec)         #    0,708 CPUs utilized          
+               140      context-switches          #    0,244 K/sec                  
+                16      cpu-migrations            #    0,028 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.052.209.115      cycles                    #    3,572 GHz                      (82,01%)
+       512.524.054      stalled-cycles-frontend   #   24,97% frontend cycles idle     (83,21%)
+       666.684.072      stalled-cycles-backend    #   32,49% backend  cycles idle     (34,96%)
+     1.631.397.797      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,95%)
+       371.993.990      branches                  #  647,472 M/sec                    (66,91%)
+         2.244.671      branch-misses             #    0,60% of all branches          (83,28%)
+
+       0,811270278 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        569,800618      task-clock (msec)         #    0,703 CPUs utilized          
+               134      context-switches          #    0,235 K/sec                  
+                13      cpu-migrations            #    0,023 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.052.863.339      cycles                    #    3,603 GHz                      (82,71%)
+       503.396.485      stalled-cycles-frontend   #   24,52% frontend cycles idle     (84,02%)
+       668.616.523      stalled-cycles-backend    #   32,57% backend  cycles idle     (33,59%)
+     1.650.991.025      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,21%)
+       372.930.925      branches                  #  654,494 M/sec                    (66,50%)
+         2.312.575      branch-misses             #    0,62% of all branches          (82,67%)
+
+       0,811032746 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        572,564321      task-clock (msec)         #    0,707 CPUs utilized          
+               145      context-switches          #    0,253 K/sec                  
+                14      cpu-migrations            #    0,024 K/sec                  
+             3.222      page-faults               #    0,006 M/sec                  
+     2.070.180.396      cycles                    #    3,616 GHz                      (83,08%)
+       499.818.467      stalled-cycles-frontend   #   24,14% frontend cycles idle     (83,01%)
+       670.045.048      stalled-cycles-backend    #   32,37% backend  cycles idle     (35,27%)
+     1.627.453.831      instructions              #    0,79  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (51,36%)
+       368.239.857      branches                  #  643,141 M/sec                    (67,53%)
+         2.241.572      branch-misses             #    0,61% of all branches          (83,50%)
+
+       0,809775028 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/moby_dick.txt':
+
+        566,072083      task-clock (msec)         #    0,703 CPUs utilized          
+               144      context-switches          #    0,254 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.227      page-faults               #    0,006 M/sec                  
+     2.066.589.459      cycles                    #    3,651 GHz                      (83,16%)
+       514.297.849      stalled-cycles-frontend   #   24,89% frontend cycles idle     (83,99%)
+       652.413.178      stalled-cycles-backend    #   31,57% backend  cycles idle     (33,59%)
+     1.632.295.025      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (49,91%)
+       370.093.139      branches                  #  653,792 M/sec                    (66,14%)
+         2.214.760      branch-misses             #    0,60% of all branches          (82,80%)
+
+       0,804899003 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        610,575371      task-clock (msec)         #    0,718 CPUs utilized          
+               147      context-switches          #    0,241 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.225      page-faults               #    0,005 M/sec                  
+     2.214.677.375      cycles                    #    3,627 GHz                      (82,94%)
+       540.395.185      stalled-cycles-frontend   #   24,40% frontend cycles idle     (84,07%)
+       693.971.471      stalled-cycles-backend    #   31,34% backend  cycles idle     (33,29%)
+     1.794.365.515      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (49,33%)
+       405.070.076      branches                  #  663,424 M/sec                    (65,48%)
+         2.391.405      branch-misses             #    0,59% of all branches          (82,03%)
+
+       0,850071091 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        605,901189      task-clock (msec)         #    0,718 CPUs utilized          
+               149      context-switches          #    0,246 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.221      page-faults               #    0,005 M/sec                  
+     2.184.120.935      cycles                    #    3,605 GHz                      (83,18%)
+       538.461.080      stalled-cycles-frontend   #   24,65% frontend cycles idle     (83,30%)
+       691.134.434      stalled-cycles-backend    #   31,64% backend  cycles idle     (33,74%)
+     1.745.823.936      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,95%)
+       397.158.752      branches                  #  655,484 M/sec                    (66,87%)
+         2.416.038      branch-misses             #    0,61% of all branches          (83,67%)
+
+       0,843420528 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        605,413549      task-clock (msec)         #    0,720 CPUs utilized          
+               142      context-switches          #    0,235 K/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.184.891.760      cycles                    #    3,609 GHz                      (83,55%)
+       542.051.884      stalled-cycles-frontend   #   24,81% frontend cycles idle     (83,43%)
+       693.333.467      stalled-cycles-backend    #   31,73% backend  cycles idle     (33,19%)
+     1.768.200.295      instructions              #    0,81  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,55%)
+       399.105.577      branches                  #  659,228 M/sec                    (66,89%)
+         2.425.686      branch-misses             #    0,61% of all branches          (83,68%)
+
+       0,841145909 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        604,677107      task-clock (msec)         #    0,718 CPUs utilized          
+               142      context-switches          #    0,235 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.220      page-faults               #    0,005 M/sec                  
+     2.191.543.113      cycles                    #    3,624 GHz                      (82,83%)
+       532.849.467      stalled-cycles-frontend   #   24,31% frontend cycles idle     (83,40%)
+       701.256.541      stalled-cycles-backend    #   32,00% backend  cycles idle     (33,99%)
+     1.754.260.125      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,78%)
+       395.965.185      branches                  #  654,837 M/sec                    (67,01%)
+         2.354.835      branch-misses             #    0,59% of all branches          (83,23%)
+
+       0,841858556 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        606,242042      task-clock (msec)         #    0,718 CPUs utilized          
+               146      context-switches          #    0,241 K/sec                  
+                13      cpu-migrations            #    0,021 K/sec                  
+             3.223      page-faults               #    0,005 M/sec                  
+     2.196.760.343      cycles                    #    3,624 GHz                      (83,35%)
+       528.521.121      stalled-cycles-frontend   #   24,06% frontend cycles idle     (83,53%)
+       754.162.639      stalled-cycles-backend    #   34,33% backend  cycles idle     (33,45%)
+     1.629.673.241      instructions              #    0,74  insns per cycle        
+                                                  #    0,46  stalled cycles per insn  (50,89%)
+       368.510.800      branches                  #  607,861 M/sec                    (67,27%)
+         2.223.418      branch-misses             #    0,60% of all branches          (83,31%)
+
+       0,843807659 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        606,880655      task-clock (msec)         #    0,718 CPUs utilized          
+               148      context-switches          #    0,244 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.226      page-faults               #    0,005 M/sec                  
+     2.192.634.524      cycles                    #    3,613 GHz                      (82,90%)
+       537.447.921      stalled-cycles-frontend   #   24,51% frontend cycles idle     (83,62%)
+       697.007.099      stalled-cycles-backend    #   31,79% backend  cycles idle     (33,63%)
+     1.757.565.967      instructions              #    0,80  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,31%)
+       399.940.735      branches                  #  659,011 M/sec                    (66,36%)
+         2.359.391      branch-misses             #    0,59% of all branches          (82,76%)
+
+       0,844842530 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        604,350306      task-clock (msec)         #    0,718 CPUs utilized          
+               136      context-switches          #    0,225 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.227      page-faults               #    0,005 M/sec                  
+     2.180.810.518      cycles                    #    3,609 GHz                      (83,68%)
+       535.578.735      stalled-cycles-frontend   #   24,56% frontend cycles idle     (83,52%)
+       665.479.124      stalled-cycles-backend    #   30,52% backend  cycles idle     (33,09%)
+     1.730.544.518      instructions              #    0,79  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (51,13%)
+       389.699.438      branches                  #  644,824 M/sec                    (68,27%)
+         2.368.969      branch-misses             #    0,61% of all branches          (84,08%)
+
+       0,841880812 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        607,764991      task-clock (msec)         #    0,713 CPUs utilized          
+               151      context-switches          #    0,248 K/sec                  
+                13      cpu-migrations            #    0,021 K/sec                  
+             3.227      page-faults               #    0,005 M/sec                  
+     2.191.129.380      cycles                    #    3,605 GHz                      (83,47%)
+       538.766.603      stalled-cycles-frontend   #   24,59% frontend cycles idle     (83,52%)
+       673.425.806      stalled-cycles-backend    #   30,73% backend  cycles idle     (33,42%)
+     1.729.459.214      instructions              #    0,79  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,93%)
+       396.811.287      branches                  #  652,903 M/sec                    (67,29%)
+         2.405.257      branch-misses             #    0,61% of all branches          (83,47%)
+
+       0,852128922 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        608,677350      task-clock (msec)         #    0,719 CPUs utilized          
+               146      context-switches          #    0,240 K/sec                  
+                12      cpu-migrations            #    0,020 K/sec                  
+             3.227      page-faults               #    0,005 M/sec                  
+     2.193.755.957      cycles                    #    3,604 GHz                      (83,00%)
+       549.507.614      stalled-cycles-frontend   #   25,05% frontend cycles idle     (83,52%)
+       699.369.273      stalled-cycles-backend    #   31,88% backend  cycles idle     (33,67%)
+     1.729.782.647      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (51,10%)
+       393.787.368      branches                  #  646,956 M/sec                    (67,41%)
+         2.360.817      branch-misses             #    0,60% of all branches          (83,79%)
+
+       0,846376289 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/moby_dick.txt':
+
+        608,630754      task-clock (msec)         #    0,720 CPUs utilized          
+               149      context-switches          #    0,245 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.170.997.830      cycles                    #    3,567 GHz                      (83,39%)
+       531.760.993      stalled-cycles-frontend   #   24,49% frontend cycles idle     (83,56%)
+       686.670.634      stalled-cycles-backend    #   31,63% backend  cycles idle     (33,64%)
+     1.790.854.086      instructions              #    0,82  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,06%)
+       404.351.331      branches                  #  664,362 M/sec                    (66,61%)
+         2.401.962      branch-misses             #    0,59% of all branches          (82,77%)
+
+       0,845471556 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        608,912445      task-clock (msec)         #    0,719 CPUs utilized          
+               148      context-switches          #    0,243 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.227      page-faults               #    0,005 M/sec                  
+     2.204.773.388      cycles                    #    3,621 GHz                      (82,94%)
+       539.677.795      stalled-cycles-frontend   #   24,48% frontend cycles idle     (83,65%)
+       698.862.506      stalled-cycles-backend    #   31,70% backend  cycles idle     (33,54%)
+     1.746.834.763      instructions              #    0,79  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,62%)
+       394.252.762      branches                  #  647,470 M/sec                    (66,78%)
+         2.340.106      branch-misses             #    0,59% of all branches          (83,03%)
+
+       0,847256916 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        607,161989      task-clock (msec)         #    0,717 CPUs utilized          
+               143      context-switches          #    0,236 K/sec                  
+                12      cpu-migrations            #    0,020 K/sec                  
+             3.224      page-faults               #    0,005 M/sec                  
+     2.191.189.463      cycles                    #    3,609 GHz                      (83,11%)
+       542.815.596      stalled-cycles-frontend   #   24,77% frontend cycles idle     (83,25%)
+       683.975.865      stalled-cycles-backend    #   31,21% backend  cycles idle     (34,47%)
+     1.745.548.631      instructions              #    0,80  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,14%)
+       394.353.774      branches                  #  649,503 M/sec                    (67,52%)
+         2.365.874      branch-misses             #    0,60% of all branches          (83,73%)
+
+       0,847328075 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        604,755351      task-clock (msec)         #    0,717 CPUs utilized          
+               139      context-switches          #    0,230 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.177.292.723      cycles                    #    3,600 GHz                      (82,96%)
+       525.893.475      stalled-cycles-frontend   #   24,15% frontend cycles idle     (83,92%)
+       711.122.969      stalled-cycles-backend    #   32,66% backend  cycles idle     (34,72%)
+     1.766.201.529      instructions              #    0,81  insns per cycle        
+                                                  #    0,40  stalled cycles per insn  (50,64%)
+       399.504.186      branches                  #  660,605 M/sec                    (66,55%)
+         2.419.555      branch-misses             #    0,61% of all branches          (82,63%)
+
+       0,842890870 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        606,786341      task-clock (msec)         #    0,712 CPUs utilized          
+               151      context-switches          #    0,249 K/sec                  
+                13      cpu-migrations            #    0,021 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.198.904.399      cycles                    #    3,624 GHz                      (83,23%)
+       582.567.126      stalled-cycles-frontend   #   26,49% frontend cycles idle     (83,36%)
+       644.678.971      stalled-cycles-backend    #   29,32% backend  cycles idle     (33,70%)
+     1.795.783.536      instructions              #    0,82  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,25%)
+       406.165.696      branches                  #  669,372 M/sec                    (66,45%)
+         3.377.777      branch-misses             #    0,83% of all branches          (82,51%)
+
+       0,852798150 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        605,871303      task-clock (msec)         #    0,719 CPUs utilized          
+               150      context-switches          #    0,248 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.186.559.619      cycles                    #    3,609 GHz                      (82,62%)
+       559.533.505      stalled-cycles-frontend   #   25,59% frontend cycles idle     (83,51%)
+       639.299.130      stalled-cycles-backend    #   29,24% backend  cycles idle     (34,27%)
+     1.762.501.511      instructions              #    0,81  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (51,43%)
+       394.693.744      branches                  #  651,448 M/sec                    (67,62%)
+         3.318.151      branch-misses             #    0,84% of all branches          (83,67%)
+
+       0,842322368 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        605,988735      task-clock (msec)         #    0,719 CPUs utilized          
+               124      context-switches          #    0,205 K/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.227      page-faults               #    0,005 M/sec                  
+     2.193.098.270      cycles                    #    3,619 GHz                      (82,80%)
+       534.028.797      stalled-cycles-frontend   #   24,35% frontend cycles idle     (83,24%)
+       712.649.119      stalled-cycles-backend    #   32,50% backend  cycles idle     (35,57%)
+     1.715.534.943      instructions              #    0,78  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (51,39%)
+       389.772.960      branches                  #  643,202 M/sec                    (67,25%)
+         2.333.764      branch-misses             #    0,60% of all branches          (83,92%)
+
+       0,842788537 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        605,137386      task-clock (msec)         #    0,718 CPUs utilized          
+               156      context-switches          #    0,258 K/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.189.588.650      cycles                    #    3,618 GHz                      (83,07%)
+       535.797.297      stalled-cycles-frontend   #   24,47% frontend cycles idle     (83,44%)
+       671.374.495      stalled-cycles-backend    #   30,66% backend  cycles idle     (33,77%)
+     1.710.971.082      instructions              #    0,78  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (51,37%)
+       390.946.441      branches                  #  646,046 M/sec                    (67,34%)
+         2.377.694      branch-misses             #    0,61% of all branches          (84,17%)
+
+       0,842421025 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        607,051412      task-clock (msec)         #    0,719 CPUs utilized          
+               158      context-switches          #    0,260 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.222      page-faults               #    0,005 M/sec                  
+     2.195.105.311      cycles                    #    3,616 GHz                      (83,26%)
+       541.686.992      stalled-cycles-frontend   #   24,68% frontend cycles idle     (83,50%)
+       683.343.127      stalled-cycles-backend    #   31,13% backend  cycles idle     (33,68%)
+     1.741.284.793      instructions              #    0,79  insns per cycle        
+                                                  #    0,39  stalled cycles per insn  (50,96%)
+       392.394.661      branches                  #  646,394 M/sec                    (67,93%)
+         2.412.281      branch-misses             #    0,61% of all branches          (83,94%)
+
+       0,844518123 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        606,646732      task-clock (msec)         #    0,717 CPUs utilized          
+               146      context-switches          #    0,241 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.227      page-faults               #    0,005 M/sec                  
+     2.192.801.791      cycles                    #    3,615 GHz                      (83,51%)
+       528.986.891      stalled-cycles-frontend   #   24,12% frontend cycles idle     (83,52%)
+       717.755.629      stalled-cycles-backend    #   32,73% backend  cycles idle     (33,13%)
+     1.748.382.969      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,26%)
+       393.774.634      branches                  #  649,100 M/sec                    (66,39%)
+         2.339.596      branch-misses             #    0,59% of all branches          (83,22%)
+
+       0,845503045 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/moby_dick.txt':
+
+        611,086151      task-clock (msec)         #    0,714 CPUs utilized          
+               148      context-switches          #    0,242 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.228      page-faults               #    0,005 M/sec                  
+     2.183.847.700      cycles                    #    3,574 GHz                      (83,61%)
+       540.695.705      stalled-cycles-frontend   #   24,76% frontend cycles idle     (83,68%)
+       671.091.322      stalled-cycles-backend    #   30,73% backend  cycles idle     (32,92%)
+     1.752.926.272      instructions              #    0,80  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (49,33%)
+       400.403.098      branches                  #  655,232 M/sec                    (65,59%)
+         2.386.907      branch-misses             #    0,60% of all branches          (81,47%)
+
+       0,856269562 seconds time elapsed
+

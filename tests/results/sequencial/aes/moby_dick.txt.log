@@ -1,0 +1,190 @@
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        454,944554      task-clock (msec)         #    0,665 CPUs utilized          
+                80      context-switches          #    0,176 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.355      page-faults               #    0,003 M/sec                  
+     1.682.040.851      cycles                    #    3,697 GHz                      (83,35%)
+        37.472.890      stalled-cycles-frontend   #    2,23% frontend cycles idle     (83,30%)
+       664.269.791      stalled-cycles-backend    #   39,49% backend  cycles idle     (33,36%)
+     3.407.635.327      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,20%)
+        63.536.055      branches                  #  139,657 M/sec                    (67,61%)
+            26.299      branch-misses             #    0,04% of all branches          (83,84%)
+
+       0,684471459 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        464,683867      task-clock (msec)         #    0,670 CPUs utilized          
+                78      context-switches          #    0,168 K/sec                  
+                 2      cpu-migrations            #    0,004 K/sec                  
+             1.359      page-faults               #    0,003 M/sec                  
+     1.665.068.967      cycles                    #    3,583 GHz                      (83,33%)
+        27.357.195      stalled-cycles-frontend   #    1,64% frontend cycles idle     (83,66%)
+       658.209.030      stalled-cycles-backend    #   39,53% backend  cycles idle     (34,59%)
+     3.408.847.216      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,93%)
+        66.056.300      branches                  #  142,153 M/sec                    (67,26%)
+            35.984      branch-misses             #    0,05% of all branches          (83,62%)
+
+       0,693119736 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        455,246308      task-clock (msec)         #    0,666 CPUs utilized          
+                74      context-switches          #    0,163 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.359      page-faults               #    0,003 M/sec                  
+     1.683.334.099      cycles                    #    3,698 GHz                      (82,60%)
+        32.885.028      stalled-cycles-frontend   #    1,95% frontend cycles idle     (83,29%)
+       662.817.475      stalled-cycles-backend    #   39,38% backend  cycles idle     (34,23%)
+     3.423.223.406      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,92%)
+        63.793.286      branches                  #  140,129 M/sec                    (67,60%)
+            22.497      branch-misses             #    0,04% of all branches          (83,63%)
+
+       0,683119355 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        466,040430      task-clock (msec)         #    0,671 CPUs utilized          
+                74      context-switches          #    0,159 K/sec                  
+                 2      cpu-migrations            #    0,004 K/sec                  
+             1.359      page-faults               #    0,003 M/sec                  
+     1.690.277.039      cycles                    #    3,627 GHz                      (82,27%)
+        29.351.946      stalled-cycles-frontend   #    1,74% frontend cycles idle     (83,51%)
+       655.661.886      stalled-cycles-backend    #   38,79% backend  cycles idle     (34,22%)
+     3.405.642.088      instructions              #    2,01  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,85%)
+        65.010.879      branches                  #  139,496 M/sec                    (67,28%)
+            38.906      branch-misses             #    0,06% of all branches          (83,64%)
+
+       0,694332656 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        455,225718      task-clock (msec)         #    0,667 CPUs utilized          
+                74      context-switches          #    0,163 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.358      page-faults               #    0,003 M/sec                  
+     1.681.818.928      cycles                    #    3,694 GHz                      (83,31%)
+        32.643.734      stalled-cycles-frontend   #    1,94% frontend cycles idle     (83,31%)
+       667.526.514      stalled-cycles-backend    #   39,69% backend  cycles idle     (33,39%)
+     3.443.204.946      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,89%)
+        64.501.323      branches                  #  141,691 M/sec                    (67,19%)
+            16.859      branch-misses             #    0,03% of all branches          (83,25%)
+
+       0,682452975 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        455,904372      task-clock (msec)         #    0,668 CPUs utilized          
+                78      context-switches          #    0,171 K/sec                  
+                 2      cpu-migrations            #    0,004 K/sec                  
+             1.356      page-faults               #    0,003 M/sec                  
+     1.679.663.592      cycles                    #    3,684 GHz                      (83,35%)
+        39.248.812      stalled-cycles-frontend   #    2,34% frontend cycles idle     (83,34%)
+       666.748.086      stalled-cycles-backend    #   39,70% backend  cycles idle     (33,32%)
+     3.430.541.998      instructions              #    2,04  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,04%)
+        65.493.107      branches                  #  143,655 M/sec                    (67,47%)
+            25.890      branch-misses             #    0,04% of all branches          (83,65%)
+
+       0,682737990 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        461,878674      task-clock (msec)         #    0,668 CPUs utilized          
+                76      context-switches          #    0,165 K/sec                  
+                 2      cpu-migrations            #    0,004 K/sec                  
+             1.359      page-faults               #    0,003 M/sec                  
+     1.685.368.326      cycles                    #    3,649 GHz                      (82,93%)
+        29.971.615      stalled-cycles-frontend   #    1,78% frontend cycles idle     (83,50%)
+       669.700.491      stalled-cycles-backend    #   39,74% backend  cycles idle     (33,98%)
+     3.455.771.023      instructions              #    2,05  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,41%)
+        65.417.694      branches                  #  141,634 M/sec                    (66,89%)
+            22.042      branch-misses             #    0,03% of all branches          (83,30%)
+
+       0,691166248 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        464,437521      task-clock (msec)         #    0,671 CPUs utilized          
+                72      context-switches          #    0,155 K/sec                  
+                 2      cpu-migrations            #    0,004 K/sec                  
+             1.356      page-faults               #    0,003 M/sec                  
+     1.684.857.539      cycles                    #    3,628 GHz                      (82,94%)
+        26.287.912      stalled-cycles-frontend   #    1,56% frontend cycles idle     (83,51%)
+       664.056.260      stalled-cycles-backend    #   39,41% backend  cycles idle     (34,21%)
+     3.424.112.769      instructions              #    2,03  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,56%)
+        68.038.485      branches                  #  146,497 M/sec                    (66,90%)
+            28.563      branch-misses             #    0,04% of all branches          (83,27%)
+
+       0,692637615 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        461,608126      task-clock (msec)         #    0,670 CPUs utilized          
+                76      context-switches          #    0,165 K/sec                  
+                 2      cpu-migrations            #    0,004 K/sec                  
+             1.359      page-faults               #    0,003 M/sec                  
+     1.673.794.856      cycles                    #    3,626 GHz                      (83,42%)
+        26.833.730      stalled-cycles-frontend   #    1,60% frontend cycles idle     (83,54%)
+       665.370.898      stalled-cycles-backend    #   39,75% backend  cycles idle     (33,75%)
+     3.472.003.987      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,18%)
+        72.353.584      branches                  #  156,742 M/sec                    (66,64%)
+            19.159      branch-misses             #    0,03% of all branches          (83,11%)
+
+       0,688973581 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/moby_dick.txt':
+
+        454,489988      task-clock (msec)         #    0,666 CPUs utilized          
+                78      context-switches          #    0,172 K/sec                  
+                 1      cpu-migrations            #    0,002 K/sec                  
+             1.357      page-faults               #    0,003 M/sec                  
+     1.678.340.714      cycles                    #    3,693 GHz                      (83,22%)
+        29.940.321      stalled-cycles-frontend   #    1,78% frontend cycles idle     (83,29%)
+       664.515.658      stalled-cycles-backend    #   39,59% backend  cycles idle     (33,79%)
+     3.471.658.317      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,49%)
+        66.493.517      branches                  #  146,304 M/sec                    (67,20%)
+            29.477      branch-misses             #    0,04% of all branches          (83,74%)
+
+       0,681915650 seconds time elapsed
+

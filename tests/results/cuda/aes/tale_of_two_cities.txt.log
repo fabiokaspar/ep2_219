@@ -1,0 +1,1440 @@
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        169,083428      task-clock (msec)         #    0,505 CPUs utilized          
+               130      context-switches          #    0,769 K/sec                  
+                 6      cpu-migrations            #    0,035 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       544.310.643      cycles                    #    3,219 GHz                      (84,43%)
+       135.224.249      stalled-cycles-frontend   #   24,84% frontend cycles idle     (83,58%)
+       236.044.891      stalled-cycles-backend    #   43,37% backend  cycles idle     (32,71%)
+       326.335.539      instructions              #    0,60  insns per cycle        
+                                                  #    0,72  stalled cycles per insn  (53,94%)
+        76.057.837      branches                  #  449,824 M/sec                    (68,80%)
+           567.180      branch-misses             #    0,75% of all branches          (84,82%)
+
+       0,334598889 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        170,042752      task-clock (msec)         #    0,519 CPUs utilized          
+               108      context-switches          #    0,635 K/sec                  
+                10      cpu-migrations            #    0,059 K/sec                  
+             3.329      page-faults               #    0,020 M/sec                  
+       540.163.660      cycles                    #    3,177 GHz                      (83,69%)
+       134.167.777      stalled-cycles-frontend   #   24,84% frontend cycles idle     (85,57%)
+       222.589.147      stalled-cycles-backend    #   41,21% backend  cycles idle     (32,88%)
+       352.304.443      instructions              #    0,65  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (50,67%)
+        83.858.350      branches                  #  493,160 M/sec                    (67,39%)
+           570.429      branch-misses             #    0,68% of all branches          (82,39%)
+
+       0,327781186 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        164,863200      task-clock (msec)         #    0,512 CPUs utilized          
+                95      context-switches          #    0,576 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.330      page-faults               #    0,020 M/sec                  
+       525.156.155      cycles                    #    3,185 GHz                      (85,19%)
+       130.540.550      stalled-cycles-frontend   #   24,86% frontend cycles idle     (83,96%)
+       203.994.625      stalled-cycles-backend    #   38,84% backend  cycles idle     (32,87%)
+       400.799.375      instructions              #    0,76  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (51,27%)
+        93.819.385      branches                  #  569,074 M/sec                    (66,23%)
+           663.149      branch-misses             #    0,71% of all branches          (83,27%)
+
+       0,322204142 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        171,007934      task-clock (msec)         #    0,518 CPUs utilized          
+                99      context-switches          #    0,579 K/sec                  
+                12      cpu-migrations            #    0,070 K/sec                  
+             3.324      page-faults               #    0,019 M/sec                  
+       536.422.763      cycles                    #    3,137 GHz                      (83,22%)
+       127.671.487      stalled-cycles-frontend   #   23,80% frontend cycles idle     (84,54%)
+       211.707.102      stalled-cycles-backend    #   39,47% backend  cycles idle     (32,98%)
+       384.860.928      instructions              #    0,72  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (53,21%)
+        91.299.287      branches                  #  533,889 M/sec                    (67,09%)
+           636.739      branch-misses             #    0,70% of all branches          (83,67%)
+
+       0,330133712 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        172,723331      task-clock (msec)         #    0,517 CPUs utilized          
+               107      context-switches          #    0,619 K/sec                  
+                11      cpu-migrations            #    0,064 K/sec                  
+             3.327      page-faults               #    0,019 M/sec                  
+       520.015.102      cycles                    #    3,011 GHz                      (85,55%)
+       133.391.534      stalled-cycles-frontend   #   25,65% frontend cycles idle     (86,40%)
+       217.666.210      stalled-cycles-backend    #   41,86% backend  cycles idle     (32,50%)
+       398.344.944      instructions              #    0,77  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (50,61%)
+        92.933.214      branches                  #  538,047 M/sec                    (65,65%)
+           599.201      branch-misses             #    0,64% of all branches          (80,50%)
+
+       0,334278651 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        171,748782      task-clock (msec)         #    0,517 CPUs utilized          
+               106      context-switches          #    0,617 K/sec                  
+                10      cpu-migrations            #    0,058 K/sec                  
+             3.324      page-faults               #    0,019 M/sec                  
+       527.445.151      cycles                    #    3,071 GHz                      (83,65%)
+       130.656.885      stalled-cycles-frontend   #   24,77% frontend cycles idle     (84,14%)
+       220.772.123      stalled-cycles-backend    #   41,86% backend  cycles idle     (33,94%)
+       394.005.910      instructions              #    0,75  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (52,38%)
+        91.060.876      branches                  #  530,198 M/sec                    (70,58%)
+           641.567      branch-misses             #    0,70% of all branches          (84,43%)
+
+       0,332454458 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        169,621361      task-clock (msec)         #    0,517 CPUs utilized          
+               108      context-switches          #    0,637 K/sec                  
+                11      cpu-migrations            #    0,065 K/sec                  
+             3.325      page-faults               #    0,020 M/sec                  
+       536.648.038      cycles                    #    3,164 GHz                      (83,96%)
+       132.201.559      stalled-cycles-frontend   #   24,63% frontend cycles idle     (85,54%)
+       222.903.446      stalled-cycles-backend    #   41,54% backend  cycles idle     (31,54%)
+       339.986.578      instructions              #    0,63  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (50,71%)
+        81.073.689      branches                  #  477,969 M/sec                    (67,36%)
+           561.754      branch-misses             #    0,69% of all branches          (82,44%)
+
+       0,328211017 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        170,137671      task-clock (msec)         #    0,517 CPUs utilized          
+               108      context-switches          #    0,635 K/sec                  
+                11      cpu-migrations            #    0,065 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       526.821.905      cycles                    #    3,096 GHz                      (84,39%)
+       130.936.274      stalled-cycles-frontend   #   24,85% frontend cycles idle     (83,61%)
+       246.100.151      stalled-cycles-backend    #   46,71% backend  cycles idle     (32,59%)
+       369.326.406      instructions              #    0,70  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (53,08%)
+        86.034.420      branches                  #  505,675 M/sec                    (70,17%)
+           568.096      branch-misses             #    0,66% of all branches          (84,91%)
+
+       0,329334831 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        168,521330      task-clock (msec)         #    0,515 CPUs utilized          
+                97      context-switches          #    0,576 K/sec                  
+                11      cpu-migrations            #    0,065 K/sec                  
+             3.332      page-faults               #    0,020 M/sec                  
+       551.483.325      cycles                    #    3,272 GHz                      (81,87%)
+       134.704.790      stalled-cycles-frontend   #   24,43% frontend cycles idle     (83,63%)
+       221.710.134      stalled-cycles-backend    #   40,20% backend  cycles idle     (35,38%)
+       346.705.835      instructions              #    0,63  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (54,21%)
+        81.654.032      branches                  #  484,532 M/sec                    (71,06%)
+           606.828      branch-misses             #    0,74% of all branches          (85,55%)
+
+       0,326921630 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/tale_of_two_cities.txt':
+
+        171,040930      task-clock (msec)         #    0,513 CPUs utilized          
+                96      context-switches          #    0,561 K/sec                  
+                10      cpu-migrations            #    0,058 K/sec                  
+             3.326      page-faults               #    0,019 M/sec                  
+       553.259.038      cycles                    #    3,235 GHz                      (81,77%)
+       129.868.494      stalled-cycles-frontend   #   23,47% frontend cycles idle     (85,41%)
+       226.046.298      stalled-cycles-backend    #   40,86% backend  cycles idle     (36,96%)
+       341.111.232      instructions              #    0,62  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (54,37%)
+        81.616.519      branches                  #  477,175 M/sec                    (70,84%)
+           588.694      branch-misses             #    0,72% of all branches          (85,75%)
+
+       0,333424084 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        164,454580      task-clock (msec)         #    0,510 CPUs utilized          
+               100      context-switches          #    0,608 K/sec                  
+                14      cpu-migrations            #    0,085 K/sec                  
+             3.325      page-faults               #    0,020 M/sec                  
+       514.196.543      cycles                    #    3,127 GHz                      (82,53%)
+       126.099.460      stalled-cycles-frontend   #   24,52% frontend cycles idle     (84,78%)
+       225.939.335      stalled-cycles-backend    #   43,94% backend  cycles idle     (32,96%)
+       358.951.927      instructions              #    0,70  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (50,65%)
+        84.944.498      branches                  #  516,523 M/sec                    (69,43%)
+           597.243      branch-misses             #    0,70% of all branches          (84,22%)
+
+       0,322645447 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        166,973618      task-clock (msec)         #    0,513 CPUs utilized          
+               107      context-switches          #    0,641 K/sec                  
+                12      cpu-migrations            #    0,072 K/sec                  
+             3.327      page-faults               #    0,020 M/sec                  
+       511.561.758      cycles                    #    3,064 GHz                      (83,22%)
+       123.199.451      stalled-cycles-frontend   #   24,08% frontend cycles idle     (83,45%)
+       218.203.829      stalled-cycles-backend    #   42,65% backend  cycles idle     (33,68%)
+       373.136.209      instructions              #    0,73  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (52,60%)
+        84.274.564      branches                  #  504,718 M/sec                    (69,04%)
+           593.203      branch-misses             #    0,70% of all branches          (84,75%)
+
+       0,325259257 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        164,908313      task-clock (msec)         #    0,504 CPUs utilized          
+               103      context-switches          #    0,625 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.328      page-faults               #    0,020 M/sec                  
+       524.391.983      cycles                    #    3,180 GHz                      (79,36%)
+       132.876.341      stalled-cycles-frontend   #   25,34% frontend cycles idle     (80,44%)
+       200.726.146      stalled-cycles-backend    #   38,28% backend  cycles idle     (42,02%)
+       375.430.670      instructions              #    0,72  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (56,60%)
+        88.655.074      branches                  #  537,602 M/sec                    (69,68%)
+           653.402      branch-misses             #    0,74% of all branches          (84,14%)
+
+       0,326920154 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        162,309479      task-clock (msec)         #    0,505 CPUs utilized          
+               105      context-switches          #    0,647 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       522.528.249      cycles                    #    3,219 GHz                      (82,17%)
+       133.901.112      stalled-cycles-frontend   #   25,63% frontend cycles idle     (83,58%)
+       227.403.286      stalled-cycles-backend    #   43,52% backend  cycles idle     (35,15%)
+       337.336.573      instructions              #    0,65  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (53,32%)
+        78.922.292      branches                  #  486,246 M/sec                    (68,25%)
+           572.920      branch-misses             #    0,73% of all branches          (84,72%)
+
+       0,321189390 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        166,242472      task-clock (msec)         #    0,513 CPUs utilized          
+               118      context-switches          #    0,710 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.330      page-faults               #    0,020 M/sec                  
+       520.910.437      cycles                    #    3,133 GHz                      (82,33%)
+       130.121.071      stalled-cycles-frontend   #   24,98% frontend cycles idle     (83,45%)
+       204.995.986      stalled-cycles-backend    #   39,35% backend  cycles idle     (35,58%)
+       382.530.012      instructions              #    0,73  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (55,26%)
+        90.840.494      branches                  #  546,434 M/sec                    (69,60%)
+           658.415      branch-misses             #    0,72% of all branches          (84,10%)
+
+       0,324230690 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        161,527519      task-clock (msec)         #    0,502 CPUs utilized          
+               103      context-switches          #    0,638 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.331      page-faults               #    0,021 M/sec                  
+       521.823.547      cycles                    #    3,231 GHz                      (82,64%)
+       129.915.176      stalled-cycles-frontend   #   24,90% frontend cycles idle     (83,99%)
+       220.892.111      stalled-cycles-backend    #   42,33% backend  cycles idle     (33,88%)
+       349.610.841      instructions              #    0,67  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (52,87%)
+        82.534.380      branches                  #  510,962 M/sec                    (70,08%)
+           626.955      branch-misses             #    0,76% of all branches          (85,18%)
+
+       0,322014630 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        166,220262      task-clock (msec)         #    0,511 CPUs utilized          
+               103      context-switches          #    0,620 K/sec                  
+                10      cpu-migrations            #    0,060 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       522.689.873      cycles                    #    3,145 GHz                      (83,34%)
+       127.992.042      stalled-cycles-frontend   #   24,49% frontend cycles idle     (84,76%)
+       228.790.497      stalled-cycles-backend    #   43,77% backend  cycles idle     (33,68%)
+       344.755.272      instructions              #    0,66  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (55,61%)
+        80.194.339      branches                  #  482,458 M/sec                    (68,25%)
+           605.642      branch-misses             #    0,76% of all branches          (85,23%)
+
+       0,325352539 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        162,591102      task-clock (msec)         #    0,501 CPUs utilized          
+               103      context-switches          #    0,633 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       518.053.931      cycles                    #    3,186 GHz                      (83,31%)
+       129.839.430      stalled-cycles-frontend   #   25,06% frontend cycles idle     (84,42%)
+       223.852.650      stalled-cycles-backend    #   43,21% backend  cycles idle     (33,65%)
+       347.311.316      instructions              #    0,67  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (52,50%)
+        81.893.216      branches                  #  503,676 M/sec                    (69,20%)
+           577.225      branch-misses             #    0,70% of all branches          (84,39%)
+
+       0,324603305 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        163,867081      task-clock (msec)         #    0,505 CPUs utilized          
+               107      context-switches          #    0,653 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.330      page-faults               #    0,020 M/sec                  
+       522.081.300      cycles                    #    3,186 GHz                      (85,14%)
+       131.022.987      stalled-cycles-frontend   #   25,10% frontend cycles idle     (85,53%)
+       202.908.761      stalled-cycles-backend    #   38,87% backend  cycles idle     (31,35%)
+       376.215.791      instructions              #    0,72  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (49,16%)
+        90.368.561      branches                  #  551,475 M/sec                    (63,35%)
+           584.573      branch-misses             #    0,65% of all branches          (78,36%)
+
+       0,324408936 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/tale_of_two_cities.txt':
+
+        160,605204      task-clock (msec)         #    0,504 CPUs utilized          
+               102      context-switches          #    0,635 K/sec                  
+                 9      cpu-migrations            #    0,056 K/sec                  
+             3.330      page-faults               #    0,021 M/sec                  
+       528.968.071      cycles                    #    3,294 GHz                      (84,11%)
+       131.664.389      stalled-cycles-frontend   #   24,89% frontend cycles idle     (79,87%)
+       221.398.959      stalled-cycles-backend    #   41,85% backend  cycles idle     (36,70%)
+       376.002.704      instructions              #    0,71  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (54,78%)
+        88.159.441      branches                  #  548,920 M/sec                    (68,76%)
+           578.855      branch-misses             #    0,66% of all branches          (83,60%)
+
+       0,318807902 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        161,298488      task-clock (msec)         #    0,504 CPUs utilized          
+               111      context-switches          #    0,688 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.322      page-faults               #    0,021 M/sec                  
+       506.675.135      cycles                    #    3,141 GHz                      (82,42%)
+       120.480.354      stalled-cycles-frontend   #   23,78% frontend cycles idle     (84,99%)
+       202.950.244      stalled-cycles-backend    #   40,06% backend  cycles idle     (33,90%)
+       356.902.731      instructions              #    0,70  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (51,85%)
+        85.344.966      branches                  #  529,112 M/sec                    (68,84%)
+           619.046      branch-misses             #    0,73% of all branches          (83,85%)
+
+       0,319905761 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        159,510697      task-clock (msec)         #    0,501 CPUs utilized          
+               109      context-switches          #    0,683 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.330      page-faults               #    0,021 M/sec                  
+       511.802.051      cycles                    #    3,209 GHz                      (85,90%)
+       122.741.704      stalled-cycles-frontend   #   23,98% frontend cycles idle     (85,08%)
+       222.065.667      stalled-cycles-backend    #   43,39% backend  cycles idle     (29,37%)
+       311.049.564      instructions              #    0,61  insns per cycle        
+                                                  #    0,71  stalled cycles per insn  (55,14%)
+        77.271.378      branches                  #  484,428 M/sec                    (68,44%)
+           528.527      branch-misses             #    0,68% of all branches          (85,33%)
+
+       0,318426852 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        154,568362      task-clock (msec)         #    0,493 CPUs utilized          
+               122      context-switches          #    0,789 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.327      page-faults               #    0,022 M/sec                  
+       506.233.422      cycles                    #    3,275 GHz                      (85,61%)
+       126.972.807      stalled-cycles-frontend   #   25,08% frontend cycles idle     (84,51%)
+       213.274.275      stalled-cycles-backend    #   42,13% backend  cycles idle     (30,24%)
+       313.751.721      instructions              #    0,62  insns per cycle        
+                                                  #    0,68  stalled cycles per insn  (53,46%)
+        75.569.471      branches                  #  488,906 M/sec                    (71,08%)
+           579.448      branch-misses             #    0,77% of all branches          (85,60%)
+
+       0,313711564 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        158,617328      task-clock (msec)         #    0,501 CPUs utilized          
+               103      context-switches          #    0,649 K/sec                  
+                 9      cpu-migrations            #    0,057 K/sec                  
+             3.330      page-faults               #    0,021 M/sec                  
+       507.311.630      cycles                    #    3,198 GHz                      (82,45%)
+       126.813.265      stalled-cycles-frontend   #   25,00% frontend cycles idle     (83,44%)
+       221.026.913      stalled-cycles-backend    #   43,57% backend  cycles idle     (34,98%)
+       325.649.772      instructions              #    0,64  insns per cycle        
+                                                  #    0,68  stalled cycles per insn  (53,90%)
+        77.820.019      branches                  #  490,615 M/sec                    (67,81%)
+           538.728      branch-misses             #    0,69% of all branches          (84,51%)
+
+       0,316892925 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        159,514609      task-clock (msec)         #    0,500 CPUs utilized          
+               103      context-switches          #    0,646 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.326      page-faults               #    0,021 M/sec                  
+       500.369.892      cycles                    #    3,137 GHz                      (82,74%)
+       116.900.932      stalled-cycles-frontend   #   23,36% frontend cycles idle     (86,00%)
+       209.067.336      stalled-cycles-backend    #   41,78% backend  cycles idle     (36,22%)
+       377.576.103      instructions              #    0,75  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (51,72%)
+        88.574.318      branches                  #  555,274 M/sec                    (68,34%)
+           630.645      branch-misses             #    0,71% of all branches          (83,31%)
+
+       0,318971306 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        156,057640      task-clock (msec)         #    0,493 CPUs utilized          
+               110      context-switches          #    0,705 K/sec                  
+                 9      cpu-migrations            #    0,058 K/sec                  
+             3.331      page-faults               #    0,021 M/sec                  
+       500.876.688      cycles                    #    3,210 GHz                      (84,07%)
+       129.843.991      stalled-cycles-frontend   #   25,92% frontend cycles idle     (82,76%)
+       221.527.828      stalled-cycles-backend    #   44,23% backend  cycles idle     (33,93%)
+       349.180.875      instructions              #    0,70  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (52,11%)
+        81.684.039      branches                  #  523,422 M/sec                    (69,51%)
+           561.858      branch-misses             #    0,69% of all branches          (84,88%)
+
+       0,316833736 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        160,879138      task-clock (msec)         #    0,503 CPUs utilized          
+               120      context-switches          #    0,746 K/sec                  
+                11      cpu-migrations            #    0,068 K/sec                  
+             3.327      page-faults               #    0,021 M/sec                  
+       509.226.926      cycles                    #    3,165 GHz                      (85,98%)
+       123.893.097      stalled-cycles-frontend   #   24,33% frontend cycles idle     (85,25%)
+       213.551.607      stalled-cycles-backend    #   41,94% backend  cycles idle     (29,50%)
+       321.666.899      instructions              #    0,63  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (52,31%)
+        78.755.549      branches                  #  489,532 M/sec                    (69,99%)
+           583.543      branch-misses             #    0,74% of all branches          (84,33%)
+
+       0,319843309 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        164,639351      task-clock (msec)         #    0,506 CPUs utilized          
+               104      context-switches          #    0,632 K/sec                  
+                13      cpu-migrations            #    0,079 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       498.412.157      cycles                    #    3,027 GHz                      (84,38%)
+       126.208.609      stalled-cycles-frontend   #   25,32% frontend cycles idle     (82,88%)
+       200.085.094      stalled-cycles-backend    #   40,14% backend  cycles idle     (33,62%)
+       324.825.068      instructions              #    0,65  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (51,83%)
+        76.505.776      branches                  #  464,687 M/sec                    (68,75%)
+           561.697      branch-misses             #    0,73% of all branches          (83,82%)
+
+       0,325605315 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        155,607522      task-clock (msec)         #    0,494 CPUs utilized          
+               100      context-switches          #    0,643 K/sec                  
+                13      cpu-migrations            #    0,084 K/sec                  
+             3.324      page-faults               #    0,021 M/sec                  
+       505.826.442      cycles                    #    3,251 GHz                      (82,77%)
+       117.750.063      stalled-cycles-frontend   #   23,28% frontend cycles idle     (82,21%)
+       202.878.502      stalled-cycles-backend    #   40,11% backend  cycles idle     (35,49%)
+       379.179.002      instructions              #    0,75  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (54,23%)
+        88.693.228      branches                  #  569,980 M/sec                    (69,76%)
+           630.024      branch-misses             #    0,71% of all branches          (84,85%)
+
+       0,315226424 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/tale_of_two_cities.txt':
+
+        164,363547      task-clock (msec)         #    0,502 CPUs utilized          
+               100      context-switches          #    0,608 K/sec                  
+                10      cpu-migrations            #    0,061 K/sec                  
+             3.330      page-faults               #    0,020 M/sec                  
+       485.330.014      cycles                    #    2,953 GHz                      (82,79%)
+       126.999.945      stalled-cycles-frontend   #   26,17% frontend cycles idle     (86,65%)
+       229.670.144      stalled-cycles-backend    #   47,32% backend  cycles idle     (34,86%)
+       355.110.491      instructions              #    0,73  insns per cycle        
+                                                  #    0,65  stalled cycles per insn  (51,00%)
+        82.791.768      branches                  #  503,711 M/sec                    (69,83%)
+           627.005      branch-misses             #    0,76% of all branches          (84,60%)
+
+       0,327207896 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        161,248619      task-clock (msec)         #    0,500 CPUs utilized          
+               102      context-switches          #    0,633 K/sec                  
+                12      cpu-migrations            #    0,074 K/sec                  
+             3.326      page-faults               #    0,021 M/sec                  
+       487.770.939      cycles                    #    3,025 GHz                      (84,51%)
+       121.516.204      stalled-cycles-frontend   #   24,91% frontend cycles idle     (78,51%)
+       193.012.772      stalled-cycles-backend    #   39,57% backend  cycles idle     (37,84%)
+       355.113.630      instructions              #    0,73  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (55,60%)
+        85.075.739      branches                  #  527,606 M/sec                    (70,41%)
+           617.668      branch-misses             #    0,73% of all branches          (84,89%)
+
+       0,322723288 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        166,778439      task-clock (msec)         #    0,512 CPUs utilized          
+               100      context-switches          #    0,600 K/sec                  
+                14      cpu-migrations            #    0,084 K/sec                  
+             3.329      page-faults               #    0,020 M/sec                  
+       499.922.597      cycles                    #    2,998 GHz                      (82,85%)
+       119.280.851      stalled-cycles-frontend   #   23,86% frontend cycles idle     (86,35%)
+       215.609.777      stalled-cycles-backend    #   43,13% backend  cycles idle     (32,89%)
+       344.037.694      instructions              #    0,69  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (51,45%)
+        81.242.325      branches                  #  487,127 M/sec                    (68,39%)
+           568.461      branch-misses             #    0,70% of all branches          (83,58%)
+
+       0,325541380 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        164,425306      task-clock (msec)         #    0,509 CPUs utilized          
+                97      context-switches          #    0,590 K/sec                  
+                12      cpu-migrations            #    0,073 K/sec                  
+             3.328      page-faults               #    0,020 M/sec                  
+       508.884.871      cycles                    #    3,095 GHz                      (80,11%)
+       124.936.629      stalled-cycles-frontend   #   24,55% frontend cycles idle     (85,49%)
+       227.509.765      stalled-cycles-backend    #   44,71% backend  cycles idle     (36,68%)
+       320.115.025      instructions              #    0,63  insns per cycle        
+                                                  #    0,71  stalled cycles per insn  (51,38%)
+        76.656.270      branches                  #  466,207 M/sec                    (65,86%)
+           524.328      branch-misses             #    0,68% of all branches          (83,46%)
+
+       0,322961074 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        159,263946      task-clock (msec)         #    0,500 CPUs utilized          
+                98      context-switches          #    0,615 K/sec                  
+                11      cpu-migrations            #    0,069 K/sec                  
+             3.328      page-faults               #    0,021 M/sec                  
+       498.423.473      cycles                    #    3,130 GHz                      (81,86%)
+       120.981.620      stalled-cycles-frontend   #   24,27% frontend cycles idle     (85,38%)
+       226.779.955      stalled-cycles-backend    #   45,50% backend  cycles idle     (35,71%)
+       343.485.951      instructions              #    0,69  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (55,44%)
+        80.948.857      branches                  #  508,269 M/sec                    (70,91%)
+           552.122      branch-misses             #    0,68% of all branches          (84,78%)
+
+       0,318252468 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        162,487852      task-clock (msec)         #    0,501 CPUs utilized          
+               110      context-switches          #    0,677 K/sec                  
+                 9      cpu-migrations            #    0,055 K/sec                  
+             3.327      page-faults               #    0,020 M/sec                  
+       521.334.524      cycles                    #    3,208 GHz                      (83,38%)
+       128.057.095      stalled-cycles-frontend   #   24,56% frontend cycles idle     (85,74%)
+       239.313.353      stalled-cycles-backend    #   45,90% backend  cycles idle     (34,13%)
+       330.183.276      instructions              #    0,63  insns per cycle        
+                                                  #    0,72  stalled cycles per insn  (53,07%)
+        77.508.842      branches                  #  477,013 M/sec                    (69,63%)
+           546.002      branch-misses             #    0,70% of all branches          (84,85%)
+
+       0,324029629 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        159,085094      task-clock (msec)         #    0,499 CPUs utilized          
+               100      context-switches          #    0,629 K/sec                  
+                11      cpu-migrations            #    0,069 K/sec                  
+             3.331      page-faults               #    0,021 M/sec                  
+       504.312.163      cycles                    #    3,170 GHz                      (85,01%)
+       123.958.535      stalled-cycles-frontend   #   24,58% frontend cycles idle     (84,95%)
+       197.269.438      stalled-cycles-backend    #   39,12% backend  cycles idle     (30,91%)
+       351.138.668      instructions              #    0,70  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (50,80%)
+        86.250.386      branches                  #  542,165 M/sec                    (67,07%)
+           672.969      branch-misses             #    0,78% of all branches          (85,82%)
+
+       0,318508572 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        161,175196      task-clock (msec)         #    0,498 CPUs utilized          
+               108      context-switches          #    0,670 K/sec                  
+                11      cpu-migrations            #    0,068 K/sec                  
+             3.330      page-faults               #    0,021 M/sec                  
+       511.003.332      cycles                    #    3,170 GHz                      (84,50%)
+       128.501.323      stalled-cycles-frontend   #   25,15% frontend cycles idle     (81,07%)
+       232.911.729      stalled-cycles-backend    #   45,58% backend  cycles idle     (34,95%)
+       333.070.108      instructions              #    0,65  insns per cycle        
+                                                  #    0,70  stalled cycles per insn  (51,48%)
+        77.101.706      branches                  #  478,372 M/sec                    (70,33%)
+           554.018      branch-misses             #    0,72% of all branches          (85,37%)
+
+       0,323565518 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        159,999141      task-clock (msec)         #    0,502 CPUs utilized          
+               103      context-switches          #    0,644 K/sec                  
+                 9      cpu-migrations            #    0,056 K/sec                  
+             3.326      page-faults               #    0,021 M/sec                  
+       501.685.261      cycles                    #    3,136 GHz                      (85,46%)
+       128.964.462      stalled-cycles-frontend   #   25,71% frontend cycles idle     (85,03%)
+       221.944.121      stalled-cycles-backend    #   44,24% backend  cycles idle     (32,89%)
+       327.098.197      instructions              #    0,65  insns per cycle        
+                                                  #    0,68  stalled cycles per insn  (50,52%)
+        78.558.570      branches                  #  490,994 M/sec                    (64,21%)
+           533.012      branch-misses             #    0,68% of all branches          (79,59%)
+
+       0,318454155 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        161,407317      task-clock (msec)         #    0,498 CPUs utilized          
+               101      context-switches          #    0,626 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.329      page-faults               #    0,021 M/sec                  
+       510.321.361      cycles                    #    3,162 GHz                      (83,03%)
+       127.818.125      stalled-cycles-frontend   #   25,05% frontend cycles idle     (84,78%)
+       201.407.571      stalled-cycles-backend    #   39,47% backend  cycles idle     (35,16%)
+       335.620.639      instructions              #    0,66  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (52,66%)
+        78.602.328      branches                  #  486,981 M/sec                    (69,91%)
+           557.769      branch-misses             #    0,71% of all branches          (85,44%)
+
+       0,323824863 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/tale_of_two_cities.txt':
+
+        163,618296      task-clock (msec)         #    0,502 CPUs utilized          
+               109      context-switches          #    0,666 K/sec                  
+                14      cpu-migrations            #    0,086 K/sec                  
+             3.323      page-faults               #    0,020 M/sec                  
+       498.775.909      cycles                    #    3,048 GHz                      (84,72%)
+       120.748.405      stalled-cycles-frontend   #   24,21% frontend cycles idle     (81,77%)
+       212.241.199      stalled-cycles-backend    #   42,55% backend  cycles idle     (33,96%)
+       348.091.516      instructions              #    0,70  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (52,71%)
+        84.434.449      branches                  #  516,045 M/sec                    (68,86%)
+           587.978      branch-misses             #    0,70% of all branches          (84,72%)
+
+       0,326047127 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        160,688797      task-clock (msec)         #    0,502 CPUs utilized          
+                96      context-switches          #    0,597 K/sec                  
+                14      cpu-migrations            #    0,087 K/sec                  
+             3.331      page-faults               #    0,021 M/sec                  
+       504.649.413      cycles                    #    3,141 GHz                      (83,40%)
+       125.128.589      stalled-cycles-frontend   #   24,80% frontend cycles idle     (84,78%)
+       216.048.497      stalled-cycles-backend    #   42,81% backend  cycles idle     (34,52%)
+       327.786.755      instructions              #    0,65  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (52,28%)
+        77.640.021      branches                  #  483,170 M/sec                    (68,87%)
+           549.733      branch-misses             #    0,71% of all branches          (84,20%)
+
+       0,320270867 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        163,827110      task-clock (msec)         #    0,508 CPUs utilized          
+                98      context-switches          #    0,598 K/sec                  
+                14      cpu-migrations            #    0,085 K/sec                  
+             3.327      page-faults               #    0,020 M/sec                  
+       472.512.903      cycles                    #    2,884 GHz                      (86,29%)
+       116.795.299      stalled-cycles-frontend   #   24,72% frontend cycles idle     (83,71%)
+       211.984.519      stalled-cycles-backend    #   44,86% backend  cycles idle     (34,66%)
+       353.268.529      instructions              #    0,75  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (51,62%)
+        84.387.051      branches                  #  515,098 M/sec                    (67,50%)
+           566.427      branch-misses             #    0,67% of all branches          (83,04%)
+
+       0,322564046 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        160,095684      task-clock (msec)         #    0,502 CPUs utilized          
+               112      context-switches          #    0,700 K/sec                  
+                 8      cpu-migrations            #    0,050 K/sec                  
+             3.324      page-faults               #    0,021 M/sec                  
+       514.885.006      cycles                    #    3,216 GHz                      (82,68%)
+       122.726.231      stalled-cycles-frontend   #   23,84% frontend cycles idle     (85,00%)
+       211.608.833      stalled-cycles-backend    #   41,10% backend  cycles idle     (32,85%)
+       370.679.380      instructions              #    0,72  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (52,73%)
+        88.676.928      branches                  #  553,900 M/sec                    (67,53%)
+           587.856      branch-misses             #    0,66% of all branches          (82,44%)
+
+       0,318706334 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        155,134491      task-clock (msec)         #    0,490 CPUs utilized          
+               108      context-switches          #    0,696 K/sec                  
+                 8      cpu-migrations            #    0,052 K/sec                  
+             3.326      page-faults               #    0,021 M/sec                  
+       516.321.690      cycles                    #    3,328 GHz                      (82,89%)
+       129.125.003      stalled-cycles-frontend   #   25,01% frontend cycles idle     (84,58%)
+       193.750.855      stalled-cycles-backend    #   37,53% backend  cycles idle     (32,86%)
+       330.964.771      instructions              #    0,64  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (55,76%)
+        81.274.891      branches                  #  523,900 M/sec                    (70,17%)
+           569.056      branch-misses             #    0,70% of all branches          (84,45%)
+
+       0,316414917 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        156,103614      task-clock (msec)         #    0,498 CPUs utilized          
+               127      context-switches          #    0,814 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.328      page-faults               #    0,021 M/sec                  
+       505.562.116      cycles                    #    3,239 GHz                      (81,90%)
+       123.809.299      stalled-cycles-frontend   #   24,49% frontend cycles idle     (83,91%)
+       207.480.662      stalled-cycles-backend    #   41,04% backend  cycles idle     (34,94%)
+       344.361.090      instructions              #    0,68  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (53,33%)
+        83.995.140      branches                  #  538,073 M/sec                    (67,81%)
+           571.828      branch-misses             #    0,68% of all branches          (83,03%)
+
+       0,313274492 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        156,847783      task-clock (msec)         #    0,497 CPUs utilized          
+               108      context-switches          #    0,689 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.328      page-faults               #    0,021 M/sec                  
+       500.501.423      cycles                    #    3,191 GHz                      (84,32%)
+       123.018.973      stalled-cycles-frontend   #   24,58% frontend cycles idle     (84,19%)
+       196.535.447      stalled-cycles-backend    #   39,27% backend  cycles idle     (32,08%)
+       346.948.689      instructions              #    0,69  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (51,05%)
+        84.347.502      branches                  #  537,767 M/sec                    (68,87%)
+           571.219      branch-misses             #    0,68% of all branches          (82,95%)
+
+       0,315458969 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        163,061106      task-clock (msec)         #    0,509 CPUs utilized          
+                93      context-switches          #    0,570 K/sec                  
+                12      cpu-migrations            #    0,074 K/sec                  
+             3.327      page-faults               #    0,020 M/sec                  
+       501.160.152      cycles                    #    3,073 GHz                      (82,87%)
+       111.352.323      stalled-cycles-frontend   #   22,22% frontend cycles idle     (83,35%)
+       198.437.706      stalled-cycles-backend    #   39,60% backend  cycles idle     (38,36%)
+       381.346.076      instructions              #    0,76  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (49,71%)
+        88.654.381      branches                  #  543,688 M/sec                    (65,02%)
+           586.661      branch-misses             #    0,66% of all branches          (80,75%)
+
+       0,320366904 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        162,037670      task-clock (msec)         #    0,505 CPUs utilized          
+               101      context-switches          #    0,623 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.327      page-faults               #    0,021 M/sec                  
+       509.663.978      cycles                    #    3,145 GHz                      (82,31%)
+       123.100.392      stalled-cycles-frontend   #   24,15% frontend cycles idle     (82,75%)
+       213.490.793      stalled-cycles-backend    #   41,89% backend  cycles idle     (35,96%)
+       344.292.333      instructions              #    0,68  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (54,47%)
+        85.124.047      branches                  #  525,335 M/sec                    (69,12%)
+           609.298      branch-misses             #    0,72% of all branches          (84,29%)
+
+       0,321035929 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        157,830927      task-clock (msec)         #    0,498 CPUs utilized          
+               102      context-switches          #    0,646 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.331      page-faults               #    0,021 M/sec                  
+       492.895.436      cycles                    #    3,123 GHz                      (85,23%)
+       123.687.507      stalled-cycles-frontend   #   25,09% frontend cycles idle     (84,89%)
+       211.095.948      stalled-cycles-backend    #   42,83% backend  cycles idle     (32,43%)
+       356.074.709      instructions              #    0,72  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (47,94%)
+        82.093.125      branches                  #  520,133 M/sec                    (66,81%)
+           608.701      branch-misses             #    0,74% of all branches          (81,89%)
+
+       0,317118570 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/tale_of_two_cities.txt':
+
+        159,653912      task-clock (msec)         #    0,497 CPUs utilized          
+               111      context-switches          #    0,695 K/sec                  
+                11      cpu-migrations            #    0,069 K/sec                  
+             3.326      page-faults               #    0,021 M/sec                  
+       510.417.268      cycles                    #    3,197 GHz                      (82,87%)
+       125.070.791      stalled-cycles-frontend   #   24,50% frontend cycles idle     (85,53%)
+       230.504.709      stalled-cycles-backend    #   45,16% backend  cycles idle     (33,63%)
+       326.625.146      instructions              #    0,64  insns per cycle        
+                                                  #    0,71  stalled cycles per insn  (52,24%)
+        77.847.273      branches                  #  487,600 M/sec                    (69,75%)
+           547.067      branch-misses             #    0,70% of all branches          (85,52%)
+
+       0,321072754 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        167,187035      task-clock (msec)         #    0,514 CPUs utilized          
+                99      context-switches          #    0,592 K/sec                  
+                11      cpu-migrations            #    0,066 K/sec                  
+             3.328      page-faults               #    0,020 M/sec                  
+       501.673.598      cycles                    #    3,001 GHz                      (82,85%)
+       120.790.716      stalled-cycles-frontend   #   24,08% frontend cycles idle     (83,37%)
+       190.940.367      stalled-cycles-backend    #   38,06% backend  cycles idle     (34,37%)
+       335.597.408      instructions              #    0,67  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (52,31%)
+        79.841.269      branches                  #  477,557 M/sec                    (67,98%)
+           583.179      branch-misses             #    0,73% of all branches          (85,09%)
+
+       0,325363308 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        161,047559      task-clock (msec)         #    0,498 CPUs utilized          
+               110      context-switches          #    0,683 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.327      page-faults               #    0,021 M/sec                  
+       516.056.526      cycles                    #    3,204 GHz                      (82,97%)
+       126.390.916      stalled-cycles-frontend   #   24,49% frontend cycles idle     (84,63%)
+       199.459.530      stalled-cycles-backend    #   38,65% backend  cycles idle     (33,49%)
+       339.494.613      instructions              #    0,66  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (53,28%)
+        84.363.850      branches                  #  523,844 M/sec                    (67,71%)
+           593.150      branch-misses             #    0,70% of all branches          (83,14%)
+
+       0,323500412 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        163,654895      task-clock (msec)         #    0,507 CPUs utilized          
+               109      context-switches          #    0,666 K/sec                  
+                14      cpu-migrations            #    0,086 K/sec                  
+             3.330      page-faults               #    0,020 M/sec                  
+       506.679.549      cycles                    #    3,096 GHz                      (84,41%)
+       124.720.653      stalled-cycles-frontend   #   24,62% frontend cycles idle     (83,89%)
+       209.844.401      stalled-cycles-backend    #   41,42% backend  cycles idle     (32,63%)
+       359.477.706      instructions              #    0,71  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (53,16%)
+        87.924.799      branches                  #  537,257 M/sec                    (69,30%)
+           590.122      branch-misses             #    0,67% of all branches          (84,36%)
+
+       0,322967263 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        162,591208      task-clock (msec)         #    0,503 CPUs utilized          
+               111      context-switches          #    0,683 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.326      page-faults               #    0,020 M/sec                  
+       500.163.167      cycles                    #    3,076 GHz                      (83,01%)
+       126.910.532      stalled-cycles-frontend   #   25,37% frontend cycles idle     (83,78%)
+       232.201.166      stalled-cycles-backend    #   46,43% backend  cycles idle     (33,64%)
+       364.319.557      instructions              #    0,73  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (52,45%)
+        84.955.330      branches                  #  522,509 M/sec                    (69,81%)
+           645.367      branch-misses             #    0,76% of all branches          (84,53%)
+
+       0,323043870 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        165,649050      task-clock (msec)         #    0,504 CPUs utilized          
+               107      context-switches          #    0,646 K/sec                  
+                14      cpu-migrations            #    0,085 K/sec                  
+             3.331      page-faults               #    0,020 M/sec                  
+       523.793.844      cycles                    #    3,162 GHz                      (83,31%)
+       129.742.124      stalled-cycles-frontend   #   24,77% frontend cycles idle     (83,14%)
+       214.424.220      stalled-cycles-backend    #   40,94% backend  cycles idle     (34,12%)
+       318.098.241      instructions              #    0,61  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (55,92%)
+        74.747.287      branches                  #  451,239 M/sec                    (71,16%)
+           566.989      branch-misses             #    0,76% of all branches          (85,28%)
+
+       0,328420923 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        158,165886      task-clock (msec)         #    0,496 CPUs utilized          
+               104      context-switches          #    0,658 K/sec                  
+                10      cpu-migrations            #    0,063 K/sec                  
+             3.327      page-faults               #    0,021 M/sec                  
+       529.164.987      cycles                    #    3,346 GHz                      (81,52%)
+       131.611.168      stalled-cycles-frontend   #   24,87% frontend cycles idle     (84,86%)
+       213.788.691      stalled-cycles-backend    #   40,40% backend  cycles idle     (34,45%)
+       339.462.960      instructions              #    0,64  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (52,57%)
+        81.463.153      branches                  #  515,049 M/sec                    (69,88%)
+           580.923      branch-misses             #    0,71% of all branches          (85,27%)
+
+       0,319018844 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        163,932428      task-clock (msec)         #    0,510 CPUs utilized          
+               101      context-switches          #    0,616 K/sec                  
+                12      cpu-migrations            #    0,073 K/sec                  
+             3.324      page-faults               #    0,020 M/sec                  
+       502.218.030      cycles                    #    3,064 GHz                      (82,08%)
+       122.092.041      stalled-cycles-frontend   #   24,31% frontend cycles idle     (83,88%)
+       211.984.624      stalled-cycles-backend    #   42,21% backend  cycles idle     (34,30%)
+       365.193.904      instructions              #    0,73  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (54,25%)
+        85.152.213      branches                  #  519,435 M/sec                    (68,51%)
+           641.257      branch-misses             #    0,75% of all branches          (83,04%)
+
+       0,321288383 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        163,460061      task-clock (msec)         #    0,507 CPUs utilized          
+               112      context-switches          #    0,685 K/sec                  
+                11      cpu-migrations            #    0,067 K/sec                  
+             3.328      page-faults               #    0,020 M/sec                  
+       523.591.828      cycles                    #    3,203 GHz                      (82,99%)
+       126.290.905      stalled-cycles-frontend   #   24,12% frontend cycles idle     (82,93%)
+       216.274.616      stalled-cycles-backend    #   41,31% backend  cycles idle     (34,65%)
+       367.326.688      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (54,17%)
+        86.574.546      branches                  #  529,637 M/sec                    (68,86%)
+           638.743      branch-misses             #    0,74% of all branches          (83,79%)
+
+       0,322098707 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        169,271839      task-clock (msec)         #    0,510 CPUs utilized          
+               111      context-switches          #    0,656 K/sec                  
+                13      cpu-migrations            #    0,077 K/sec                  
+             3.330      page-faults               #    0,020 M/sec                  
+       492.425.797      cycles                    #    2,909 GHz                      (83,61%)
+       120.810.261      stalled-cycles-frontend   #   24,53% frontend cycles idle     (84,08%)
+       196.543.162      stalled-cycles-backend    #   39,91% backend  cycles idle     (32,62%)
+       358.605.859      instructions              #    0,73  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (52,04%)
+        83.822.316      branches                  #  495,194 M/sec                    (68,35%)
+           617.825      branch-misses             #    0,74% of all branches          (84,09%)
+
+       0,332210914 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/tale_of_two_cities.txt':
+
+        161,866529      task-clock (msec)         #    0,505 CPUs utilized          
+               106      context-switches          #    0,655 K/sec                  
+                10      cpu-migrations            #    0,062 K/sec                  
+             3.326      page-faults               #    0,021 M/sec                  
+       510.876.937      cycles                    #    3,156 GHz                      (85,60%)
+       127.147.267      stalled-cycles-frontend   #   24,89% frontend cycles idle     (85,20%)
+       227.358.559      stalled-cycles-backend    #   44,50% backend  cycles idle     (32,23%)
+       343.916.040      instructions              #    0,67  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (49,62%)
+        82.609.259      branches                  #  510,354 M/sec                    (65,33%)
+           560.851      branch-misses             #    0,68% of all branches          (83,02%)
+
+       0,320353603 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        142,252521      task-clock (msec)         #    0,474 CPUs utilized          
+               110      context-switches          #    0,773 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.328      page-faults               #    0,023 M/sec                  
+       445.363.591      cycles                    #    3,131 GHz                      (82,98%)
+       112.486.777      stalled-cycles-frontend   #   25,26% frontend cycles idle     (83,23%)
+       182.776.908      stalled-cycles-backend    #   41,04% backend  cycles idle     (36,06%)
+       295.298.997      instructions              #    0,66  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (53,08%)
+        71.054.985      branches                  #  499,499 M/sec                    (69,56%)
+           551.580      branch-misses             #    0,78% of all branches          (85,70%)
+
+       0,300227187 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        145,207430      task-clock (msec)         #    0,478 CPUs utilized          
+               111      context-switches          #    0,764 K/sec                  
+                12      cpu-migrations            #    0,083 K/sec                  
+             3.328      page-faults               #    0,023 M/sec                  
+       435.073.587      cycles                    #    2,996 GHz                      (83,05%)
+       104.456.663      stalled-cycles-frontend   #   24,01% frontend cycles idle     (84,71%)
+       175.722.590      stalled-cycles-backend    #   40,39% backend  cycles idle     (32,92%)
+       310.108.156      instructions              #    0,71  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (57,15%)
+        74.827.072      branches                  #  515,312 M/sec                    (70,91%)
+           520.020      branch-misses             #    0,69% of all branches          (85,35%)
+
+       0,304089075 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        149,051123      task-clock (msec)         #    0,484 CPUs utilized          
+               106      context-switches          #    0,711 K/sec                  
+                14      cpu-migrations            #    0,094 K/sec                  
+             3.331      page-faults               #    0,022 M/sec                  
+       452.336.271      cycles                    #    3,035 GHz                      (83,93%)
+       113.991.669      stalled-cycles-frontend   #   25,20% frontend cycles idle     (81,44%)
+       200.156.133      stalled-cycles-backend    #   44,25% backend  cycles idle     (37,44%)
+       292.989.192      instructions              #    0,65  insns per cycle        
+                                                  #    0,68  stalled cycles per insn  (53,03%)
+        69.138.391      branches                  #  463,857 M/sec                    (66,70%)
+           497.331      branch-misses             #    0,72% of all branches          (83,82%)
+
+       0,307647512 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        141,015947      task-clock (msec)         #    0,469 CPUs utilized          
+               103      context-switches          #    0,730 K/sec                  
+                 9      cpu-migrations            #    0,064 K/sec                  
+             3.327      page-faults               #    0,024 M/sec                  
+       454.275.675      cycles                    #    3,221 GHz                      (81,01%)
+       114.416.412      stalled-cycles-frontend   #   25,19% frontend cycles idle     (79,53%)
+       177.131.354      stalled-cycles-backend    #   38,99% backend  cycles idle     (39,87%)
+       328.827.326      instructions              #    0,72  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (56,66%)
+        78.417.392      branches                  #  556,089 M/sec                    (69,68%)
+           544.364      branch-misses             #    0,69% of all branches          (83,64%)
+
+       0,300753948 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        142,232430      task-clock (msec)         #    0,473 CPUs utilized          
+                97      context-switches          #    0,682 K/sec                  
+                 9      cpu-migrations            #    0,063 K/sec                  
+             3.328      page-faults               #    0,023 M/sec                  
+       453.704.687      cycles                    #    3,190 GHz                      (84,06%)
+       116.063.448      stalled-cycles-frontend   #   25,58% frontend cycles idle     (83,47%)
+       190.738.171      stalled-cycles-backend    #   42,04% backend  cycles idle     (35,02%)
+       301.971.260      instructions              #    0,67  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (50,35%)
+        72.957.855      branches                  #  512,948 M/sec                    (66,02%)
+           497.415      branch-misses             #    0,68% of all branches          (82,09%)
+
+       0,301018870 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        142,273057      task-clock (msec)         #    0,474 CPUs utilized          
+               114      context-switches          #    0,801 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.327      page-faults               #    0,023 M/sec                  
+       440.744.188      cycles                    #    3,098 GHz                      (84,08%)
+       110.028.930      stalled-cycles-frontend   #   24,96% frontend cycles idle     (83,98%)
+       179.919.010      stalled-cycles-backend    #   40,82% backend  cycles idle     (32,48%)
+       319.407.189      instructions              #    0,72  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (54,50%)
+        79.075.489      branches                  #  555,801 M/sec                    (69,69%)
+           578.117      branch-misses             #    0,73% of all branches          (84,45%)
+
+       0,299903875 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        143,406954      task-clock (msec)         #    0,476 CPUs utilized          
+               112      context-switches          #    0,781 K/sec                  
+                12      cpu-migrations            #    0,084 K/sec                  
+             3.324      page-faults               #    0,023 M/sec                  
+       456.316.755      cycles                    #    3,182 GHz                      (83,57%)
+       113.508.705      stalled-cycles-frontend   #   24,87% frontend cycles idle     (83,52%)
+       188.220.987      stalled-cycles-backend    #   41,25% backend  cycles idle     (33,83%)
+       267.499.281      instructions              #    0,59  insns per cycle        
+                                                  #    0,70  stalled cycles per insn  (56,20%)
+        64.943.412      branches                  #  452,861 M/sec                    (70,88%)
+           467.037      branch-misses             #    0,72% of all branches          (85,31%)
+
+       0,300961472 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        146,454406      task-clock (msec)         #    0,475 CPUs utilized          
+               118      context-switches          #    0,806 K/sec                  
+                14      cpu-migrations            #    0,096 K/sec                  
+             3.331      page-faults               #    0,023 M/sec                  
+       452.374.361      cycles                    #    3,089 GHz                      (84,26%)
+       113.991.628      stalled-cycles-frontend   #   25,20% frontend cycles idle     (85,84%)
+       200.972.795      stalled-cycles-backend    #   44,43% backend  cycles idle     (31,72%)
+       322.024.573      instructions              #    0,71  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (49,82%)
+        74.558.932      branches                  #  509,093 M/sec                    (68,82%)
+           531.605      branch-misses             #    0,71% of all branches          (84,85%)
+
+       0,308267657 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        138,913905      task-clock (msec)         #    0,467 CPUs utilized          
+               103      context-switches          #    0,741 K/sec                  
+                 9      cpu-migrations            #    0,065 K/sec                  
+             3.330      page-faults               #    0,024 M/sec                  
+       459.520.100      cycles                    #    3,308 GHz                      (83,81%)
+       116.321.835      stalled-cycles-frontend   #   25,31% frontend cycles idle     (80,25%)
+       171.882.121      stalled-cycles-backend    #   37,40% backend  cycles idle     (37,45%)
+       346.467.028      instructions              #    0,75  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (55,46%)
+        79.019.542      branches                  #  568,838 M/sec                    (70,62%)
+           565.493      branch-misses             #    0,72% of all branches          (84,99%)
+
+       0,297357073 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/tale_of_two_cities.txt':
+
+        146,342630      task-clock (msec)         #    0,479 CPUs utilized          
+               103      context-switches          #    0,704 K/sec                  
+                14      cpu-migrations            #    0,096 K/sec                  
+             3.331      page-faults               #    0,023 M/sec                  
+       454.985.824      cycles                    #    3,109 GHz                      (85,67%)
+       111.435.340      stalled-cycles-frontend   #   24,49% frontend cycles idle     (84,72%)
+       199.379.411      stalled-cycles-backend    #   43,82% backend  cycles idle     (30,12%)
+       316.695.208      instructions              #    0,70  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (48,86%)
+        74.040.337      branches                  #  505,938 M/sec                    (67,95%)
+           503.573      branch-misses             #    0,68% of all branches          (83,74%)
+
+       0,305308668 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        142,411188      task-clock (msec)         #    0,472 CPUs utilized          
+               112      context-switches          #    0,786 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.327      page-faults               #    0,023 M/sec                  
+       452.720.368      cycles                    #    3,179 GHz                      (81,02%)
+       112.279.765      stalled-cycles-frontend   #   24,80% frontend cycles idle     (83,50%)
+       207.852.540      stalled-cycles-backend    #   45,91% backend  cycles idle     (35,79%)
+       296.989.126      instructions              #    0,66  insns per cycle        
+                                                  #    0,70  stalled cycles per insn  (53,88%)
+        70.705.403      branches                  #  496,488 M/sec                    (70,41%)
+           549.678      branch-misses             #    0,78% of all branches          (85,94%)
+
+       0,301901869 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        143,359046      task-clock (msec)         #    0,476 CPUs utilized          
+               105      context-switches          #    0,732 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.327      page-faults               #    0,023 M/sec                  
+       454.356.240      cycles                    #    3,169 GHz                      (82,17%)
+       113.483.418      stalled-cycles-frontend   #   24,98% frontend cycles idle     (84,29%)
+       194.147.383      stalled-cycles-backend    #   42,73% backend  cycles idle     (34,74%)
+       298.906.027      instructions              #    0,66  insns per cycle        
+                                                  #    0,65  stalled cycles per insn  (56,70%)
+        72.092.760      branches                  #  502,883 M/sec                    (71,26%)
+           552.374      branch-misses             #    0,77% of all branches          (85,75%)
+
+       0,301032927 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        147,584760      task-clock (msec)         #    0,477 CPUs utilized          
+                97      context-switches          #    0,657 K/sec                  
+                14      cpu-migrations            #    0,095 K/sec                  
+             3.324      page-faults               #    0,023 M/sec                  
+       452.919.320      cycles                    #    3,069 GHz                      (83,77%)
+       112.543.945      stalled-cycles-frontend   #   24,85% frontend cycles idle     (84,42%)
+       190.880.522      stalled-cycles-backend    #   42,14% backend  cycles idle     (32,73%)
+       309.556.723      instructions              #    0,68  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (52,63%)
+        74.762.793      branches                  #  506,575 M/sec                    (71,64%)
+           548.320      branch-misses             #    0,73% of all branches          (85,11%)
+
+       0,309368360 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        139,883423      task-clock (msec)         #    0,465 CPUs utilized          
+               104      context-switches          #    0,743 K/sec                  
+                11      cpu-migrations            #    0,079 K/sec                  
+             3.325      page-faults               #    0,024 M/sec                  
+       447.765.227      cycles                    #    3,201 GHz                      (85,14%)
+       112.328.886      stalled-cycles-frontend   #   25,09% frontend cycles idle     (84,07%)
+       186.085.938      stalled-cycles-backend    #   41,56% backend  cycles idle     (31,56%)
+       306.739.848      instructions              #    0,69  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (53,55%)
+        74.836.127      branches                  #  534,989 M/sec                    (71,31%)
+           532.272      branch-misses             #    0,71% of all branches          (85,30%)
+
+       0,301068148 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        144,874190      task-clock (msec)         #    0,477 CPUs utilized          
+               103      context-switches          #    0,711 K/sec                  
+                14      cpu-migrations            #    0,097 K/sec                  
+             3.323      page-faults               #    0,023 M/sec                  
+       459.898.289      cycles                    #    3,174 GHz                      (82,69%)
+       113.325.627      stalled-cycles-frontend   #   24,64% frontend cycles idle     (84,66%)
+       172.770.124      stalled-cycles-backend    #   37,57% backend  cycles idle     (33,46%)
+       323.087.944      instructions              #    0,70  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (54,73%)
+        78.690.443      branches                  #  543,164 M/sec                    (69,62%)
+           567.308      branch-misses             #    0,72% of all branches          (83,92%)
+
+       0,303856296 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        142,259505      task-clock (msec)         #    0,469 CPUs utilized          
+               105      context-switches          #    0,738 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.327      page-faults               #    0,023 M/sec                  
+       459.178.778      cycles                    #    3,228 GHz                      (84,40%)
+       111.199.399      stalled-cycles-frontend   #   24,22% frontend cycles idle     (85,23%)
+       182.188.294      stalled-cycles-backend    #   39,68% backend  cycles idle     (35,85%)
+       283.357.191      instructions              #    0,62  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (59,56%)
+        72.389.449      branches                  #  508,855 M/sec                    (73,93%)
+           548.347      branch-misses             #    0,76% of all branches          (86,88%)
+
+       0,303460300 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        141,098874      task-clock (msec)         #    0,467 CPUs utilized          
+               105      context-switches          #    0,744 K/sec                  
+                10      cpu-migrations            #    0,071 K/sec                  
+             3.325      page-faults               #    0,024 M/sec                  
+       452.183.420      cycles                    #    3,205 GHz                      (84,34%)
+       112.394.264      stalled-cycles-frontend   #   24,86% frontend cycles idle     (83,40%)
+       195.626.183      stalled-cycles-backend    #   43,26% backend  cycles idle     (33,28%)
+       316.899.231      instructions              #    0,70  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (53,34%)
+        75.473.395      branches                  #  534,897 M/sec                    (69,51%)
+           516.572      branch-misses             #    0,68% of all branches          (83,55%)
+
+       0,302449676 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        144,520749      task-clock (msec)         #    0,472 CPUs utilized          
+               110      context-switches          #    0,761 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.326      page-faults               #    0,023 M/sec                  
+       463.028.917      cycles                    #    3,204 GHz                      (84,31%)
+       117.479.335      stalled-cycles-frontend   #   25,37% frontend cycles idle     (85,82%)
+       215.115.542      stalled-cycles-backend    #   46,46% backend  cycles idle     (30,40%)
+       290.716.303      instructions              #    0,63  insns per cycle        
+                                                  #    0,74  stalled cycles per insn  (50,37%)
+        68.656.402      branches                  #  475,063 M/sec                    (70,75%)
+           505.820      branch-misses             #    0,74% of all branches          (86,24%)
+
+       0,306080263 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        144,653426      task-clock (msec)         #    0,476 CPUs utilized          
+               109      context-switches          #    0,754 K/sec                  
+                14      cpu-migrations            #    0,097 K/sec                  
+             3.321      page-faults               #    0,023 M/sec                  
+       447.788.248      cycles                    #    3,096 GHz                      (84,52%)
+       110.341.887      stalled-cycles-frontend   #   24,64% frontend cycles idle     (83,77%)
+       190.134.993      stalled-cycles-backend    #   42,46% backend  cycles idle     (33,54%)
+       290.168.047      instructions              #    0,65  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (54,02%)
+        69.547.520      branches                  #  480,787 M/sec                    (70,73%)
+           487.269      branch-misses             #    0,70% of all branches          (85,07%)
+
+       0,303734716 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/tale_of_two_cities.txt':
+
+        143,109355      task-clock (msec)         #    0,476 CPUs utilized          
+               111      context-switches          #    0,776 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.324      page-faults               #    0,023 M/sec                  
+       448.728.515      cycles                    #    3,136 GHz                      (83,23%)
+       112.263.786      stalled-cycles-frontend   #   25,02% frontend cycles idle     (83,12%)
+       189.489.001      stalled-cycles-backend    #   42,23% backend  cycles idle     (34,99%)
+       309.516.699      instructions              #    0,69  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (55,09%)
+        72.401.192      branches                  #  505,915 M/sec                    (69,33%)
+           529.748      branch-misses             #    0,73% of all branches          (84,08%)
+
+       0,300680673 seconds time elapsed
+

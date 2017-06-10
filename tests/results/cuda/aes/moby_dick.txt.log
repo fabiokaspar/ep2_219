@@ -1,0 +1,1440 @@
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        194,185058      task-clock (msec)         #    0,444 CPUs utilized          
+               106      context-switches          #    0,546 K/sec                  
+                 6      cpu-migrations            #    0,031 K/sec                  
+             3.452      page-faults               #    0,018 M/sec                  
+       625.169.647      cycles                    #    3,219 GHz                      (83,29%)
+       147.665.923      stalled-cycles-frontend   #   23,62% frontend cycles idle     (84,26%)
+       231.959.854      stalled-cycles-backend    #   37,10% backend  cycles idle     (34,26%)
+       457.635.882      instructions              #    0,73  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (50,80%)
+       106.471.463      branches                  #  548,299 M/sec                    (65,75%)
+           641.080      branch-misses             #    0,60% of all branches          (81,38%)
+
+       0,436923996 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        194,104255      task-clock (msec)         #    0,450 CPUs utilized          
+               109      context-switches          #    0,562 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.448      page-faults               #    0,018 M/sec                  
+       638.793.485      cycles                    #    3,291 GHz                      (82,74%)
+       145.901.199      stalled-cycles-frontend   #   22,84% frontend cycles idle     (81,54%)
+       228.960.748      stalled-cycles-backend    #   35,84% backend  cycles idle     (36,49%)
+       444.120.751      instructions              #    0,70  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (56,02%)
+       103.578.707      branches                  #  533,624 M/sec                    (70,49%)
+           677.774      branch-misses             #    0,65% of all branches          (84,91%)
+
+       0,431105872 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        194,579351      task-clock (msec)         #    0,447 CPUs utilized          
+               107      context-switches          #    0,550 K/sec                  
+                 9      cpu-migrations            #    0,046 K/sec                  
+             3.450      page-faults               #    0,018 M/sec                  
+       629.068.208      cycles                    #    3,233 GHz                      (83,85%)
+       150.306.504      stalled-cycles-frontend   #   23,89% frontend cycles idle     (83,85%)
+       226.378.576      stalled-cycles-backend    #   35,99% backend  cycles idle     (33,65%)
+       439.096.456      instructions              #    0,70  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (52,61%)
+       106.290.393      branches                  #  546,257 M/sec                    (67,19%)
+           672.721      branch-misses             #    0,63% of all branches          (82,19%)
+
+       0,434948478 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        196,541606      task-clock (msec)         #    0,452 CPUs utilized          
+               111      context-switches          #    0,565 K/sec                  
+                11      cpu-migrations            #    0,056 K/sec                  
+             3.449      page-faults               #    0,018 M/sec                  
+       636.876.926      cycles                    #    3,240 GHz                      (83,82%)
+       148.051.190      stalled-cycles-frontend   #   23,25% frontend cycles idle     (85,22%)
+       248.075.218      stalled-cycles-backend    #   38,95% backend  cycles idle     (36,13%)
+       459.268.039      instructions              #    0,72  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (52,20%)
+       107.076.163      branches                  #  544,802 M/sec                    (66,40%)
+           674.319      branch-misses             #    0,63% of all branches          (81,42%)
+
+       0,434454316 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        199,595715      task-clock (msec)         #    0,453 CPUs utilized          
+               105      context-switches          #    0,526 K/sec                  
+                13      cpu-migrations            #    0,065 K/sec                  
+             3.453      page-faults               #    0,017 M/sec                  
+       643.772.872      cycles                    #    3,225 GHz                      (82,53%)
+       153.947.959      stalled-cycles-frontend   #   23,91% frontend cycles idle     (82,03%)
+       225.246.375      stalled-cycles-backend    #   34,99% backend  cycles idle     (35,91%)
+       424.511.224      instructions              #    0,66  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (54,31%)
+       103.862.024      branches                  #  520,362 M/sec                    (69,43%)
+           701.244      branch-misses             #    0,68% of all branches          (83,31%)
+
+       0,440361165 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        192,022555      task-clock (msec)         #    0,447 CPUs utilized          
+               112      context-switches          #    0,583 K/sec                  
+                11      cpu-migrations            #    0,057 K/sec                  
+             3.448      page-faults               #    0,018 M/sec                  
+       622.263.426      cycles                    #    3,241 GHz                      (83,58%)
+       145.363.671      stalled-cycles-frontend   #   23,36% frontend cycles idle     (82,90%)
+       237.987.360      stalled-cycles-backend    #   38,25% backend  cycles idle     (33,87%)
+       451.278.246      instructions              #    0,73  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (49,68%)
+       101.703.990      branches                  #  529,646 M/sec                    (65,65%)
+           654.998      branch-misses             #    0,64% of all branches          (81,85%)
+
+       0,429386609 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        196,118043      task-clock (msec)         #    0,449 CPUs utilized          
+               103      context-switches          #    0,525 K/sec                  
+                14      cpu-migrations            #    0,071 K/sec                  
+             3.445      page-faults               #    0,018 M/sec                  
+       627.323.017      cycles                    #    3,199 GHz                      (83,51%)
+       150.777.562      stalled-cycles-frontend   #   24,04% frontend cycles idle     (83,79%)
+       228.180.095      stalled-cycles-backend    #   36,37% backend  cycles idle     (34,12%)
+       437.531.986      instructions              #    0,70  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (52,46%)
+       104.769.114      branches                  #  534,215 M/sec                    (66,90%)
+           652.612      branch-misses             #    0,62% of all branches          (82,16%)
+
+       0,437111327 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        192,348294      task-clock (msec)         #    0,446 CPUs utilized          
+               105      context-switches          #    0,546 K/sec                  
+                10      cpu-migrations            #    0,052 K/sec                  
+             3.454      page-faults               #    0,018 M/sec                  
+       633.446.587      cycles                    #    3,293 GHz                      (83,09%)
+       145.685.963      stalled-cycles-frontend   #   23,00% frontend cycles idle     (83,40%)
+       222.336.134      stalled-cycles-backend    #   35,10% backend  cycles idle     (34,61%)
+       457.119.649      instructions              #    0,72  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (53,12%)
+       107.247.448      branches                  #  557,569 M/sec                    (66,94%)
+           734.702      branch-misses             #    0,69% of all branches          (83,59%)
+
+       0,431107000 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        195,569929      task-clock (msec)         #    0,452 CPUs utilized          
+               103      context-switches          #    0,527 K/sec                  
+                12      cpu-migrations            #    0,061 K/sec                  
+             3.452      page-faults               #    0,018 M/sec                  
+       642.056.605      cycles                    #    3,283 GHz                      (83,87%)
+       148.827.495      stalled-cycles-frontend   #   23,18% frontend cycles idle     (83,05%)
+       226.380.230      stalled-cycles-backend    #   35,26% backend  cycles idle     (33,95%)
+       435.609.809      instructions              #    0,68  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (53,05%)
+       102.575.062      branches                  #  524,493 M/sec                    (68,90%)
+           656.310      branch-misses             #    0,64% of all branches          (83,76%)
+
+       0,432314208 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/moby_dick.txt':
+
+        191,650243      task-clock (msec)         #    0,446 CPUs utilized          
+                97      context-switches          #    0,506 K/sec                  
+                12      cpu-migrations            #    0,063 K/sec                  
+             3.447      page-faults               #    0,018 M/sec                  
+       615.950.837      cycles                    #    3,214 GHz                      (83,92%)
+       150.630.241      stalled-cycles-frontend   #   24,45% frontend cycles idle     (86,03%)
+       275.204.547      stalled-cycles-backend    #   44,68% backend  cycles idle     (34,49%)
+       427.047.654      instructions              #    0,69  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (51,35%)
+       103.248.752      branches                  #  538,735 M/sec                    (65,41%)
+           656.482      branch-misses             #    0,64% of all branches          (83,65%)
+
+       0,429520963 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        185,495361      task-clock (msec)         #    0,439 CPUs utilized          
+               106      context-switches          #    0,571 K/sec                  
+                 9      cpu-migrations            #    0,049 K/sec                  
+             3.451      page-faults               #    0,019 M/sec                  
+       613.924.171      cycles                    #    3,310 GHz                      (83,23%)
+       143.240.872      stalled-cycles-frontend   #   23,33% frontend cycles idle     (83,42%)
+       224.166.900      stalled-cycles-backend    #   36,51% backend  cycles idle     (33,66%)
+       421.208.209      instructions              #    0,69  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (49,19%)
+       100.077.691      branches                  #  539,516 M/sec                    (64,38%)
+           627.935      branch-misses             #    0,63% of all branches          (81,24%)
+
+       0,422320126 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        186,590721      task-clock (msec)         #    0,440 CPUs utilized          
+               111      context-switches          #    0,595 K/sec                  
+                10      cpu-migrations            #    0,054 K/sec                  
+             3.451      page-faults               #    0,018 M/sec                  
+       605.817.960      cycles                    #    3,247 GHz                      (81,91%)
+       142.537.713      stalled-cycles-frontend   #   23,53% frontend cycles idle     (84,23%)
+       244.330.326      stalled-cycles-backend    #   40,33% backend  cycles idle     (34,91%)
+       418.797.952      instructions              #    0,69  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (52,54%)
+       100.996.937      branches                  #  541,275 M/sec                    (67,56%)
+           643.889      branch-misses             #    0,64% of all branches          (83,74%)
+
+       0,424412184 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        187,904602      task-clock (msec)         #    0,440 CPUs utilized          
+               113      context-switches          #    0,601 K/sec                  
+                10      cpu-migrations            #    0,053 K/sec                  
+             3.453      page-faults               #    0,018 M/sec                  
+       599.948.821      cycles                    #    3,193 GHz                      (83,38%)
+       139.966.044      stalled-cycles-frontend   #   23,33% frontend cycles idle     (81,68%)
+       215.318.881      stalled-cycles-backend    #   35,89% backend  cycles idle     (36,87%)
+       423.663.989      instructions              #    0,71  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (53,13%)
+        98.006.599      branches                  #  521,576 M/sec                    (68,10%)
+           668.809      branch-misses             #    0,68% of all branches          (83,66%)
+
+       0,427154309 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        187,133386      task-clock (msec)         #    0,439 CPUs utilized          
+               106      context-switches          #    0,566 K/sec                  
+                10      cpu-migrations            #    0,053 K/sec                  
+             3.446      page-faults               #    0,018 M/sec                  
+       583.650.914      cycles                    #    3,119 GHz                      (78,83%)
+       142.011.455      stalled-cycles-frontend   #   24,33% frontend cycles idle     (85,08%)
+       221.804.951      stalled-cycles-backend    #   38,00% backend  cycles idle     (40,92%)
+       416.659.060      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (56,01%)
+        94.704.250      branches                  #  506,079 M/sec                    (70,14%)
+           633.302      branch-misses             #    0,67% of all branches          (85,02%)
+
+       0,426304332 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        187,485347      task-clock (msec)         #    0,438 CPUs utilized          
+               101      context-switches          #    0,539 K/sec                  
+                10      cpu-migrations            #    0,053 K/sec                  
+             3.445      page-faults               #    0,018 M/sec                  
+       611.671.778      cycles                    #    3,263 GHz                      (81,22%)
+       147.263.045      stalled-cycles-frontend   #   24,08% frontend cycles idle     (85,26%)
+       241.483.349      stalled-cycles-backend    #   39,48% backend  cycles idle     (34,89%)
+       423.866.499      instructions              #    0,69  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (49,90%)
+        98.536.748      branches                  #  525,570 M/sec                    (66,17%)
+           691.969      branch-misses             #    0,70% of all branches          (82,95%)
+
+       0,428479923 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        183,639446      task-clock (msec)         #    0,435 CPUs utilized          
+               108      context-switches          #    0,588 K/sec                  
+                10      cpu-migrations            #    0,054 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       607.996.360      cycles                    #    3,311 GHz                      (83,02%)
+       141.022.601      stalled-cycles-frontend   #   23,19% frontend cycles idle     (84,03%)
+       231.631.884      stalled-cycles-backend    #   38,10% backend  cycles idle     (33,14%)
+       424.112.788      instructions              #    0,70  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (48,63%)
+        99.462.204      branches                  #  541,617 M/sec                    (64,09%)
+           688.096      branch-misses             #    0,69% of all branches          (81,05%)
+
+       0,422069310 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        193,243062      task-clock (msec)         #    0,444 CPUs utilized          
+               101      context-switches          #    0,523 K/sec                  
+                14      cpu-migrations            #    0,072 K/sec                  
+             3.450      page-faults               #    0,018 M/sec                  
+       603.930.192      cycles                    #    3,125 GHz                      (82,90%)
+       144.158.110      stalled-cycles-frontend   #   23,87% frontend cycles idle     (81,44%)
+       220.497.440      stalled-cycles-backend    #   36,51% backend  cycles idle     (35,96%)
+       414.854.699      instructions              #    0,69  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,41%)
+        97.827.855      branches                  #  506,243 M/sec                    (69,76%)
+           653.180      branch-misses             #    0,67% of all branches          (83,27%)
+
+       0,435156996 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        190,468991      task-clock (msec)         #    0,442 CPUs utilized          
+               114      context-switches          #    0,599 K/sec                  
+                12      cpu-migrations            #    0,063 K/sec                  
+             3.454      page-faults               #    0,018 M/sec                  
+       617.067.096      cycles                    #    3,240 GHz                      (81,09%)
+       141.378.685      stalled-cycles-frontend   #   22,91% frontend cycles idle     (82,81%)
+       232.111.236      stalled-cycles-backend    #   37,62% backend  cycles idle     (38,83%)
+       422.962.043      instructions              #    0,69  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (53,28%)
+        99.990.186      branches                  #  524,968 M/sec                    (69,54%)
+           648.547      branch-misses             #    0,65% of all branches          (84,23%)
+
+       0,430540604 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        186,616359      task-clock (msec)         #    0,439 CPUs utilized          
+               101      context-switches          #    0,541 K/sec                  
+                 9      cpu-migrations            #    0,048 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       612.456.536      cycles                    #    3,282 GHz                      (82,03%)
+       143.910.144      stalled-cycles-frontend   #   23,50% frontend cycles idle     (84,23%)
+       214.996.643      stalled-cycles-backend    #   35,10% backend  cycles idle     (34,42%)
+       429.177.500      instructions              #    0,70  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (53,06%)
+       100.562.696      branches                  #  538,874 M/sec                    (68,13%)
+           706.521      branch-misses             #    0,70% of all branches          (83,33%)
+
+       0,425331695 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/moby_dick.txt':
+
+        184,455710      task-clock (msec)         #    0,438 CPUs utilized          
+               111      context-switches          #    0,602 K/sec                  
+                 8      cpu-migrations            #    0,043 K/sec                  
+             3.454      page-faults               #    0,019 M/sec                  
+       592.991.694      cycles                    #    3,215 GHz                      (84,41%)
+       142.750.608      stalled-cycles-frontend   #   24,07% frontend cycles idle     (82,57%)
+       221.876.657      stalled-cycles-backend    #   37,42% backend  cycles idle     (35,65%)
+       422.500.398      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (50,76%)
+        99.848.921      branches                  #  541,317 M/sec                    (65,84%)
+           615.701      branch-misses             #    0,62% of all branches          (81,48%)
+
+       0,421520791 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        178,904987      task-clock (msec)         #    0,428 CPUs utilized          
+               103      context-switches          #    0,576 K/sec                  
+                10      cpu-migrations            #    0,056 K/sec                  
+             3.450      page-faults               #    0,019 M/sec                  
+       585.510.518      cycles                    #    3,273 GHz                      (83,27%)
+       141.069.052      stalled-cycles-frontend   #   24,09% frontend cycles idle     (84,17%)
+       210.113.165      stalled-cycles-backend    #   35,89% backend  cycles idle     (33,75%)
+       412.243.313      instructions              #    0,70  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (49,74%)
+        99.799.538      branches                  #  557,835 M/sec                    (64,66%)
+           701.026      branch-misses             #    0,70% of all branches          (81,77%)
+
+       0,417647680 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        184,081541      task-clock (msec)         #    0,436 CPUs utilized          
+               103      context-switches          #    0,560 K/sec                  
+                13      cpu-migrations            #    0,071 K/sec                  
+             3.445      page-faults               #    0,019 M/sec                  
+       588.449.243      cycles                    #    3,197 GHz                      (81,43%)
+       136.458.416      stalled-cycles-frontend   #   23,19% frontend cycles idle     (84,13%)
+       221.744.410      stalled-cycles-backend    #   37,68% backend  cycles idle     (37,91%)
+       381.243.970      instructions              #    0,65  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (52,17%)
+        94.454.316      branches                  #  513,111 M/sec                    (66,73%)
+           659.394      branch-misses             #    0,70% of all branches          (80,97%)
+
+       0,421793811 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        182,281719      task-clock (msec)         #    0,434 CPUs utilized          
+               115      context-switches          #    0,631 K/sec                  
+                11      cpu-migrations            #    0,060 K/sec                  
+             3.447      page-faults               #    0,019 M/sec                  
+       590.239.781      cycles                    #    3,238 GHz                      (82,57%)
+       135.162.602      stalled-cycles-frontend   #   22,90% frontend cycles idle     (82,48%)
+       218.645.407      stalled-cycles-backend    #   37,04% backend  cycles idle     (35,94%)
+       416.052.074      instructions              #    0,70  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,16%)
+        98.634.213      branches                  #  541,109 M/sec                    (67,41%)
+           652.488      branch-misses             #    0,66% of all branches          (82,97%)
+
+       0,420293081 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        177,408564      task-clock (msec)         #    0,428 CPUs utilized          
+                99      context-switches          #    0,558 K/sec                  
+                11      cpu-migrations            #    0,062 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       578.269.165      cycles                    #    3,260 GHz                      (84,50%)
+       135.535.723      stalled-cycles-frontend   #   23,44% frontend cycles idle     (84,29%)
+       188.585.975      stalled-cycles-backend    #   32,61% backend  cycles idle     (31,92%)
+       382.641.252      instructions              #    0,66  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (55,60%)
+        93.799.157      branches                  #  528,718 M/sec                    (69,78%)
+           650.883      branch-misses             #    0,69% of all branches          (83,07%)
+
+       0,414658803 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        181,067112      task-clock (msec)         #    0,430 CPUs utilized          
+               105      context-switches          #    0,580 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.450      page-faults               #    0,019 M/sec                  
+       593.898.283      cycles                    #    3,280 GHz                      (82,31%)
+       137.201.819      stalled-cycles-frontend   #   23,10% frontend cycles idle     (85,08%)
+       210.951.801      stalled-cycles-backend    #   35,52% backend  cycles idle     (33,95%)
+       423.355.410      instructions              #    0,71  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (47,88%)
+       101.517.895      branches                  #  560,664 M/sec                    (62,62%)
+           635.785      branch-misses             #    0,63% of all branches          (78,49%)
+
+       0,421152903 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        182,306972      task-clock (msec)         #    0,435 CPUs utilized          
+                94      context-switches          #    0,516 K/sec                  
+                13      cpu-migrations            #    0,071 K/sec                  
+             3.449      page-faults               #    0,019 M/sec                  
+       570.996.245      cycles                    #    3,132 GHz                      (82,61%)
+       135.066.098      stalled-cycles-frontend   #   23,65% frontend cycles idle     (84,43%)
+       220.554.344      stalled-cycles-backend    #   38,63% backend  cycles idle     (36,60%)
+       392.591.736      instructions              #    0,69  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (52,05%)
+        94.083.319      branches                  #  516,071 M/sec                    (66,08%)
+           618.912      branch-misses             #    0,66% of all branches          (81,87%)
+
+       0,419365011 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        181,836340      task-clock (msec)         #    0,434 CPUs utilized          
+               111      context-switches          #    0,610 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.449      page-faults               #    0,019 M/sec                  
+       581.505.493      cycles                    #    3,198 GHz                      (80,30%)
+       135.849.612      stalled-cycles-frontend   #   23,36% frontend cycles idle     (84,64%)
+       229.433.598      stalled-cycles-backend    #   39,46% backend  cycles idle     (35,70%)
+       402.491.777      instructions              #    0,69  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (53,48%)
+        94.597.285      branches                  #  520,233 M/sec                    (69,94%)
+           624.793      branch-misses             #    0,66% of all branches          (85,26%)
+
+       0,418872687 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        180,825708      task-clock (msec)         #    0,430 CPUs utilized          
+               100      context-switches          #    0,553 K/sec                  
+                 9      cpu-migrations            #    0,050 K/sec                  
+             3.454      page-faults               #    0,019 M/sec                  
+       578.785.760      cycles                    #    3,201 GHz                      (84,85%)
+       135.591.608      stalled-cycles-frontend   #   23,43% frontend cycles idle     (86,11%)
+       232.707.987      stalled-cycles-backend    #   40,21% backend  cycles idle     (30,07%)
+       382.793.713      instructions              #    0,66  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (47,76%)
+        95.313.540      branches                  #  527,102 M/sec                    (63,55%)
+           603.689      branch-misses             #    0,63% of all branches          (83,51%)
+
+       0,420589854 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        176,264404      task-clock (msec)         #    0,424 CPUs utilized          
+               103      context-switches          #    0,584 K/sec                  
+                10      cpu-migrations            #    0,057 K/sec                  
+             3.454      page-faults               #    0,020 M/sec                  
+       560.337.917      cycles                    #    3,179 GHz                      (84,01%)
+       131.429.746      stalled-cycles-frontend   #   23,46% frontend cycles idle     (85,05%)
+       208.985.012      stalled-cycles-backend    #   37,30% backend  cycles idle     (32,37%)
+       395.990.460      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (51,75%)
+        92.776.574      branches                  #  526,349 M/sec                    (66,94%)
+           583.544      branch-misses             #    0,63% of all branches          (83,17%)
+
+       0,415535344 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/moby_dick.txt':
+
+        179,219099      task-clock (msec)         #    0,428 CPUs utilized          
+               106      context-switches          #    0,591 K/sec                  
+                 8      cpu-migrations            #    0,045 K/sec                  
+             3.452      page-faults               #    0,019 M/sec                  
+       570.776.684      cycles                    #    3,185 GHz                      (84,21%)
+       133.396.582      stalled-cycles-frontend   #   23,37% frontend cycles idle     (85,34%)
+       189.120.487      stalled-cycles-backend    #   33,13% backend  cycles idle     (31,97%)
+       385.486.601      instructions              #    0,68  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (50,47%)
+        93.800.055      branches                  #  523,382 M/sec                    (65,18%)
+           580.374      branch-misses             #    0,62% of all branches          (80,66%)
+
+       0,419065576 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        178,235701      task-clock (msec)         #    0,428 CPUs utilized          
+               112      context-switches          #    0,628 K/sec                  
+                12      cpu-migrations            #    0,067 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       555.304.380      cycles                    #    3,116 GHz                      (84,23%)
+       135.661.295      stalled-cycles-frontend   #   24,43% frontend cycles idle     (82,58%)
+       233.989.272      stalled-cycles-backend    #   42,14% backend  cycles idle     (34,24%)
+       426.867.481      instructions              #    0,77  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (50,03%)
+        98.421.455      branches                  #  552,198 M/sec                    (65,37%)
+           593.501      branch-misses             #    0,60% of all branches          (81,47%)
+
+       0,416508942 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        180,781248      task-clock (msec)         #    0,428 CPUs utilized          
+               105      context-switches          #    0,581 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.445      page-faults               #    0,019 M/sec                  
+       569.111.291      cycles                    #    3,148 GHz                      (84,61%)
+       138.535.763      stalled-cycles-frontend   #   24,34% frontend cycles idle     (84,98%)
+       236.107.680      stalled-cycles-backend    #   41,49% backend  cycles idle     (31,46%)
+       398.614.869      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (49,12%)
+        94.275.406      branches                  #  521,489 M/sec                    (64,97%)
+           617.694      branch-misses             #    0,66% of all branches          (82,50%)
+
+       0,422323092 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        183,627723      task-clock (msec)         #    0,436 CPUs utilized          
+               106      context-switches          #    0,577 K/sec                  
+                13      cpu-migrations            #    0,071 K/sec                  
+             3.445      page-faults               #    0,019 M/sec                  
+       584.537.248      cycles                    #    3,183 GHz                      (83,21%)
+       136.095.956      stalled-cycles-frontend   #   23,28% frontend cycles idle     (82,75%)
+       228.291.867      stalled-cycles-backend    #   39,06% backend  cycles idle     (34,64%)
+       410.130.285      instructions              #    0,70  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (53,82%)
+        98.896.365      branches                  #  538,570 M/sec                    (68,66%)
+           661.451      branch-misses             #    0,67% of all branches          (83,51%)
+
+       0,421060324 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        178,120085      task-clock (msec)         #    0,426 CPUs utilized          
+               105      context-switches          #    0,589 K/sec                  
+                11      cpu-migrations            #    0,062 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       583.673.203      cycles                    #    3,277 GHz                      (80,36%)
+       133.119.313      stalled-cycles-frontend   #   22,81% frontend cycles idle     (82,73%)
+       206.423.668      stalled-cycles-backend    #   35,37% backend  cycles idle     (37,38%)
+       395.466.542      instructions              #    0,68  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (55,79%)
+        94.496.441      branches                  #  530,521 M/sec                    (71,69%)
+           612.114      branch-misses             #    0,65% of all branches          (84,91%)
+
+       0,417847417 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        179,931795      task-clock (msec)         #    0,428 CPUs utilized          
+               101      context-switches          #    0,561 K/sec                  
+                13      cpu-migrations            #    0,072 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       580.007.815      cycles                    #    3,223 GHz                      (85,05%)
+       138.667.701      stalled-cycles-frontend   #   23,91% frontend cycles idle     (83,22%)
+       224.336.698      stalled-cycles-backend    #   38,68% backend  cycles idle     (34,01%)
+       385.428.400      instructions              #    0,66  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (53,64%)
+        94.028.368      branches                  #  522,578 M/sec                    (66,45%)
+           581.480      branch-misses             #    0,62% of all branches          (83,53%)
+
+       0,420801318 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        179,236485      task-clock (msec)         #    0,431 CPUs utilized          
+               109      context-switches          #    0,608 K/sec                  
+                11      cpu-migrations            #    0,061 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       590.638.040      cycles                    #    3,295 GHz                      (84,59%)
+       137.024.670      stalled-cycles-frontend   #   23,20% frontend cycles idle     (82,92%)
+       214.102.297      stalled-cycles-backend    #   36,25% backend  cycles idle     (32,94%)
+       409.365.030      instructions              #    0,69  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (52,97%)
+        95.387.723      branches                  #  532,189 M/sec                    (70,47%)
+           602.444      branch-misses             #    0,63% of all branches          (84,98%)
+
+       0,416332007 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        181,439181      task-clock (msec)         #    0,433 CPUs utilized          
+               103      context-switches          #    0,568 K/sec                  
+                 9      cpu-migrations            #    0,050 K/sec                  
+             3.447      page-faults               #    0,019 M/sec                  
+       590.454.301      cycles                    #    3,254 GHz                      (80,83%)
+       136.370.509      stalled-cycles-frontend   #   23,10% frontend cycles idle     (81,62%)
+       208.669.809      stalled-cycles-backend    #   35,34% backend  cycles idle     (38,68%)
+       416.134.241      instructions              #    0,70  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (53,74%)
+        98.618.761      branches                  #  543,536 M/sec                    (69,40%)
+           637.552      branch-misses             #    0,65% of all branches          (83,31%)
+
+       0,419454483 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        184,430973      task-clock (msec)         #    0,437 CPUs utilized          
+               107      context-switches          #    0,580 K/sec                  
+                 9      cpu-migrations            #    0,049 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       586.823.734      cycles                    #    3,182 GHz                      (82,01%)
+       133.731.656      stalled-cycles-frontend   #   22,79% frontend cycles idle     (85,39%)
+       214.041.431      stalled-cycles-backend    #   36,47% backend  cycles idle     (33,52%)
+       407.488.018      instructions              #    0,69  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (48,76%)
+        98.180.330      branches                  #  532,342 M/sec                    (63,22%)
+           631.777      branch-misses             #    0,64% of all branches          (80,07%)
+
+       0,422167974 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        179,580134      task-clock (msec)         #    0,428 CPUs utilized          
+                97      context-switches          #    0,540 K/sec                  
+                12      cpu-migrations            #    0,067 K/sec                  
+             3.446      page-faults               #    0,019 M/sec                  
+       561.463.956      cycles                    #    3,127 GHz                      (81,39%)
+       137.684.559      stalled-cycles-frontend   #   24,52% frontend cycles idle     (85,82%)
+       218.486.626      stalled-cycles-backend    #   38,91% backend  cycles idle     (37,05%)
+       393.138.140      instructions              #    0,70  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (51,19%)
+        97.199.243      branches                  #  541,258 M/sec                    (65,01%)
+           597.117      branch-misses             #    0,61% of all branches          (80,28%)
+
+       0,419902344 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/moby_dick.txt':
+
+        179,696873      task-clock (msec)         #    0,430 CPUs utilized          
+               105      context-switches          #    0,584 K/sec                  
+                 9      cpu-migrations            #    0,050 K/sec                  
+             3.449      page-faults               #    0,019 M/sec                  
+       594.602.576      cycles                    #    3,309 GHz                      (80,26%)
+       141.886.857      stalled-cycles-frontend   #   23,86% frontend cycles idle     (84,48%)
+       227.180.860      stalled-cycles-backend    #   38,21% backend  cycles idle     (35,94%)
+       364.852.256      instructions              #    0,61  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (54,77%)
+        90.525.779      branches                  #  503,769 M/sec                    (69,85%)
+           642.489      branch-misses             #    0,71% of all branches          (85,32%)
+
+       0,417525630 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        180,632017      task-clock (msec)         #    0,432 CPUs utilized          
+               106      context-switches          #    0,587 K/sec                  
+                12      cpu-migrations            #    0,066 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       553.741.726      cycles                    #    3,066 GHz                      (84,47%)
+       137.429.725      stalled-cycles-frontend   #   24,82% frontend cycles idle     (84,63%)
+       224.487.948      stalled-cycles-backend    #   40,54% backend  cycles idle     (32,47%)
+       425.507.343      instructions              #    0,77  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (50,16%)
+        96.651.784      branches                  #  535,076 M/sec                    (65,67%)
+           613.448      branch-misses             #    0,63% of all branches          (81,46%)
+
+       0,418546533 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        182,071079      task-clock (msec)         #    0,431 CPUs utilized          
+               105      context-switches          #    0,577 K/sec                  
+                11      cpu-migrations            #    0,060 K/sec                  
+             3.451      page-faults               #    0,019 M/sec                  
+       573.306.633      cycles                    #    3,149 GHz                      (82,45%)
+       139.897.150      stalled-cycles-frontend   #   24,40% frontend cycles idle     (84,48%)
+       233.633.063      stalled-cycles-backend    #   40,75% backend  cycles idle     (36,51%)
+       408.226.911      instructions              #    0,71  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (51,73%)
+        97.080.380      branches                  #  533,200 M/sec                    (66,19%)
+           638.620      branch-misses             #    0,66% of all branches          (81,41%)
+
+       0,422681969 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        180,861529      task-clock (msec)         #    0,429 CPUs utilized          
+                97      context-switches          #    0,536 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.454      page-faults               #    0,019 M/sec                  
+       587.553.453      cycles                    #    3,249 GHz                      (82,46%)
+       137.646.874      stalled-cycles-frontend   #   23,43% frontend cycles idle     (84,68%)
+       227.611.742      stalled-cycles-backend    #   38,74% backend  cycles idle     (33,88%)
+       398.075.914      instructions              #    0,68  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (51,83%)
+        96.120.922      branches                  #  531,461 M/sec                    (66,76%)
+           577.104      branch-misses             #    0,60% of all branches          (81,83%)
+
+       0,421620708 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        181,106908      task-clock (msec)         #    0,431 CPUs utilized          
+               133      context-switches          #    0,734 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       545.766.151      cycles                    #    3,014 GHz                      (84,53%)
+       131.099.190      stalled-cycles-frontend   #   24,02% frontend cycles idle     (81,10%)
+       232.873.760      stalled-cycles-backend    #   42,67% backend  cycles idle     (34,57%)
+       425.756.010      instructions              #    0,78  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (53,91%)
+        97.963.301      branches                  #  540,914 M/sec                    (69,13%)
+           626.298      branch-misses             #    0,64% of all branches          (83,69%)
+
+       0,420565198 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        178,188067      task-clock (msec)         #    0,428 CPUs utilized          
+               109      context-switches          #    0,612 K/sec                  
+                13      cpu-migrations            #    0,073 K/sec                  
+             3.452      page-faults               #    0,019 M/sec                  
+       589.534.849      cycles                    #    3,308 GHz                      (83,09%)
+       132.790.085      stalled-cycles-frontend   #   22,52% frontend cycles idle     (84,20%)
+       226.433.219      stalled-cycles-backend    #   38,41% backend  cycles idle     (34,21%)
+       406.594.190      instructions              #    0,69  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (56,76%)
+        95.793.812      branches                  #  537,599 M/sec                    (72,64%)
+           702.728      branch-misses             #    0,73% of all branches          (85,87%)
+
+       0,416762458 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        183,312069      task-clock (msec)         #    0,436 CPUs utilized          
+                95      context-switches          #    0,518 K/sec                  
+                 9      cpu-migrations            #    0,049 K/sec                  
+             3.449      page-faults               #    0,019 M/sec                  
+       573.992.847      cycles                    #    3,131 GHz                      (80,94%)
+       126.764.669      stalled-cycles-frontend   #   22,08% frontend cycles idle     (83,85%)
+       188.976.605      stalled-cycles-backend    #   32,92% backend  cycles idle     (36,15%)
+       439.622.737      instructions              #    0,77  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (50,17%)
+       100.228.149      branches                  #  546,762 M/sec                    (66,81%)
+           757.715      branch-misses             #    0,76% of all branches          (82,08%)
+
+       0,419983596 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        185,319796      task-clock (msec)         #    0,434 CPUs utilized          
+               104      context-switches          #    0,561 K/sec                  
+                10      cpu-migrations            #    0,054 K/sec                  
+             3.450      page-faults               #    0,019 M/sec                  
+       586.719.505      cycles                    #    3,166 GHz                      (84,32%)
+       139.043.265      stalled-cycles-frontend   #   23,70% frontend cycles idle     (84,44%)
+       260.064.198      stalled-cycles-backend    #   44,33% backend  cycles idle     (35,68%)
+       439.580.108      instructions              #    0,75  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (51,26%)
+       102.264.469      branches                  #  551,827 M/sec                    (66,78%)
+           641.871      branch-misses             #    0,63% of all branches          (84,53%)
+
+       0,427246813 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        179,551646      task-clock (msec)         #    0,428 CPUs utilized          
+               107      context-switches          #    0,596 K/sec                  
+                10      cpu-migrations            #    0,056 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       581.923.262      cycles                    #    3,241 GHz                      (81,04%)
+       133.528.340      stalled-cycles-frontend   #   22,95% frontend cycles idle     (86,11%)
+       219.056.007      stalled-cycles-backend    #   37,64% backend  cycles idle     (33,26%)
+       382.555.519      instructions              #    0,66  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (51,56%)
+        91.166.685      branches                  #  507,746 M/sec                    (66,73%)
+           651.640      branch-misses             #    0,71% of all branches          (81,98%)
+
+       0,419471475 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        185,657412      task-clock (msec)         #    0,436 CPUs utilized          
+               104      context-switches          #    0,560 K/sec                  
+                16      cpu-migrations            #    0,086 K/sec                  
+             3.449      page-faults               #    0,019 M/sec                  
+       579.522.871      cycles                    #    3,121 GHz                      (78,70%)
+       132.581.402      stalled-cycles-frontend   #   22,88% frontend cycles idle     (85,05%)
+       201.693.112      stalled-cycles-backend    #   34,80% backend  cycles idle     (36,68%)
+       392.404.497      instructions              #    0,68  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (51,94%)
+        95.226.303      branches                  #  512,914 M/sec                    (66,20%)
+           618.230      branch-misses             #    0,65% of all branches          (80,63%)
+
+       0,426047194 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/moby_dick.txt':
+
+        179,004075      task-clock (msec)         #    0,427 CPUs utilized          
+               100      context-switches          #    0,559 K/sec                  
+                12      cpu-migrations            #    0,067 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       565.327.503      cycles                    #    3,158 GHz                      (81,95%)
+       133.571.744      stalled-cycles-frontend   #   23,63% frontend cycles idle     (84,43%)
+       232.720.125      stalled-cycles-backend    #   41,17% backend  cycles idle     (38,27%)
+       397.187.772      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (53,20%)
+        95.951.474      branches                  #  536,030 M/sec                    (67,45%)
+           627.298      branch-misses             #    0,65% of all branches          (82,65%)
+
+       0,419242377 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        183,640457      task-clock (msec)         #    0,432 CPUs utilized          
+               100      context-switches          #    0,545 K/sec                  
+                11      cpu-migrations            #    0,060 K/sec                  
+             3.454      page-faults               #    0,019 M/sec                  
+       581.177.087      cycles                    #    3,165 GHz                      (82,99%)
+       136.593.759      stalled-cycles-frontend   #   23,50% frontend cycles idle     (84,61%)
+       224.978.570      stalled-cycles-backend    #   38,71% backend  cycles idle     (35,99%)
+       422.144.024      instructions              #    0,73  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (50,76%)
+        99.721.011      branches                  #  543,023 M/sec                    (64,90%)
+           649.495      branch-misses             #    0,65% of all branches          (82,96%)
+
+       0,425290585 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        187,250153      task-clock (msec)         #    0,433 CPUs utilized          
+                92      context-switches          #    0,491 K/sec                  
+                13      cpu-migrations            #    0,069 K/sec                  
+             3.448      page-faults               #    0,018 M/sec                  
+       558.189.862      cycles                    #    2,981 GHz                      (84,35%)
+       136.472.108      stalled-cycles-frontend   #   24,45% frontend cycles idle     (85,16%)
+       218.455.352      stalled-cycles-backend    #   39,14% backend  cycles idle     (34,42%)
+       420.819.931      instructions              #    0,75  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (49,50%)
+        98.805.482      branches                  #  527,666 M/sec                    (66,56%)
+           652.651      branch-misses             #    0,66% of all branches          (82,21%)
+
+       0,432065669 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        189,065292      task-clock (msec)         #    0,444 CPUs utilized          
+               101      context-switches          #    0,534 K/sec                  
+                 9      cpu-migrations            #    0,048 K/sec                  
+             3.453      page-faults               #    0,018 M/sec                  
+       612.336.792      cycles                    #    3,239 GHz                      (81,71%)
+       144.442.266      stalled-cycles-frontend   #   23,59% frontend cycles idle     (81,98%)
+       229.450.414      stalled-cycles-backend    #   37,47% backend  cycles idle     (37,55%)
+       432.813.303      instructions              #    0,71  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,79%)
+        99.726.438      branches                  #  527,471 M/sec                    (69,32%)
+           646.952      branch-misses             #    0,65% of all branches          (83,46%)
+
+       0,426208364 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        182,016755      task-clock (msec)         #    0,434 CPUs utilized          
+               122      context-switches          #    0,670 K/sec                  
+                10      cpu-migrations            #    0,055 K/sec                  
+             3.447      page-faults               #    0,019 M/sec                  
+       592.456.394      cycles                    #    3,255 GHz                      (83,21%)
+       139.442.801      stalled-cycles-frontend   #   23,54% frontend cycles idle     (85,10%)
+       216.781.299      stalled-cycles-backend    #   36,59% backend  cycles idle     (33,10%)
+       403.658.991      instructions              #    0,68  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (52,82%)
+        99.277.240      branches                  #  545,429 M/sec                    (67,90%)
+           620.679      branch-misses             #    0,63% of all branches          (82,06%)
+
+       0,419196247 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        191,109763      task-clock (msec)         #    0,445 CPUs utilized          
+                95      context-switches          #    0,497 K/sec                  
+                14      cpu-migrations            #    0,073 K/sec                  
+             3.450      page-faults               #    0,018 M/sec                  
+       589.384.946      cycles                    #    3,084 GHz                      (81,95%)
+       136.980.881      stalled-cycles-frontend   #   23,24% frontend cycles idle     (82,77%)
+       215.039.529      stalled-cycles-backend    #   36,49% backend  cycles idle     (38,05%)
+       414.207.851      instructions              #    0,70  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (53,69%)
+        99.238.589      branches                  #  519,275 M/sec                    (67,64%)
+           666.550      branch-misses             #    0,67% of all branches          (82,18%)
+
+       0,429840828 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        179,972499      task-clock (msec)         #    0,432 CPUs utilized          
+               101      context-switches          #    0,561 K/sec                  
+                11      cpu-migrations            #    0,061 K/sec                  
+             3.453      page-faults               #    0,019 M/sec                  
+       593.190.515      cycles                    #    3,296 GHz                      (82,63%)
+       144.174.497      stalled-cycles-frontend   #   24,30% frontend cycles idle     (84,53%)
+       230.442.115      stalled-cycles-backend    #   38,85% backend  cycles idle     (33,27%)
+       391.581.805      instructions              #    0,66  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (57,56%)
+        95.989.758      branches                  #  533,358 M/sec                    (71,73%)
+           619.081      branch-misses             #    0,64% of all branches          (86,12%)
+
+       0,417078589 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        182,152151      task-clock (msec)         #    0,434 CPUs utilized          
+               101      context-switches          #    0,554 K/sec                  
+                 9      cpu-migrations            #    0,049 K/sec                  
+             3.451      page-faults               #    0,019 M/sec                  
+       597.106.332      cycles                    #    3,278 GHz                      (81,10%)
+       138.124.093      stalled-cycles-frontend   #   23,13% frontend cycles idle     (84,32%)
+       226.235.666      stalled-cycles-backend    #   37,89% backend  cycles idle     (37,74%)
+       391.767.723      instructions              #    0,66  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (51,81%)
+        97.318.062      branches                  #  534,268 M/sec                    (66,45%)
+           642.424      branch-misses             #    0,66% of all branches          (83,84%)
+
+       0,420162479 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        182,517116      task-clock (msec)         #    0,431 CPUs utilized          
+                97      context-switches          #    0,531 K/sec                  
+                11      cpu-migrations            #    0,060 K/sec                  
+             3.448      page-faults               #    0,019 M/sec                  
+       606.408.285      cycles                    #    3,322 GHz                      (82,80%)
+       135.891.734      stalled-cycles-frontend   #   22,41% frontend cycles idle     (83,40%)
+       233.097.430      stalled-cycles-backend    #   38,44% backend  cycles idle     (34,59%)
+       414.642.638      instructions              #    0,68  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (55,15%)
+       101.008.823      branches                  #  553,421 M/sec                    (69,96%)
+           653.518      branch-misses             #    0,65% of all branches          (85,04%)
+
+       0,423689241 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        181,695117      task-clock (msec)         #    0,433 CPUs utilized          
+               100      context-switches          #    0,550 K/sec                  
+                 8      cpu-migrations            #    0,044 K/sec                  
+             3.447      page-faults               #    0,019 M/sec                  
+       593.217.814      cycles                    #    3,265 GHz                      (84,57%)
+       137.693.136      stalled-cycles-frontend   #   23,21% frontend cycles idle     (84,89%)
+       208.524.147      stalled-cycles-backend    #   35,15% backend  cycles idle     (31,58%)
+       424.533.482      instructions              #    0,72  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (52,82%)
+       101.152.935      branches                  #  556,718 M/sec                    (69,96%)
+           630.918      branch-misses             #    0,62% of all branches          (85,02%)
+
+       0,419452229 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/moby_dick.txt':
+
+        178,906102      task-clock (msec)         #    0,430 CPUs utilized          
+               108      context-switches          #    0,604 K/sec                  
+                 8      cpu-migrations            #    0,045 K/sec                  
+             3.452      page-faults               #    0,019 M/sec                  
+       604.333.128      cycles                    #    3,378 GHz                      (83,62%)
+       143.676.079      stalled-cycles-frontend   #   23,77% frontend cycles idle     (83,40%)
+       238.377.646      stalled-cycles-backend    #   39,44% backend  cycles idle     (33,63%)
+       437.372.249      instructions              #    0,72  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (49,42%)
+       101.376.879      branches                  #  566,649 M/sec                    (64,71%)
+           642.277      branch-misses             #    0,63% of all branches          (82,30%)
+
+       0,415946217 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        152,991867      task-clock (msec)         #    0,393 CPUs utilized          
+               100      context-switches          #    0,654 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.451      page-faults               #    0,023 M/sec                  
+       492.842.334      cycles                    #    3,221 GHz                      (83,58%)
+       115.401.527      stalled-cycles-frontend   #   23,42% frontend cycles idle     (84,53%)
+       176.446.034      stalled-cycles-backend    #   35,80% backend  cycles idle     (32,76%)
+       363.436.518      instructions              #    0,74  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (46,93%)
+        83.379.267      branches                  #  544,991 M/sec                    (64,27%)
+           566.501      branch-misses             #    0,68% of all branches          (79,71%)
+
+       0,389614264 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        151,758928      task-clock (msec)         #    0,390 CPUs utilized          
+                97      context-switches          #    0,639 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.453      page-faults               #    0,023 M/sec                  
+       492.047.168      cycles                    #    3,242 GHz                      (83,57%)
+       118.960.921      stalled-cycles-frontend   #   24,18% frontend cycles idle     (85,24%)
+       194.748.720      stalled-cycles-backend    #   39,58% backend  cycles idle     (31,86%)
+       353.851.763      instructions              #    0,72  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (49,17%)
+        84.419.968      branches                  #  556,277 M/sec                    (65,12%)
+           513.469      branch-misses             #    0,61% of all branches          (81,70%)
+
+       0,389370484 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        155,985786      task-clock (msec)         #    0,393 CPUs utilized          
+               103      context-switches          #    0,660 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.450      page-faults               #    0,022 M/sec                  
+       503.287.384      cycles                    #    3,226 GHz                      (82,95%)
+       114.880.085      stalled-cycles-frontend   #   22,83% frontend cycles idle     (83,15%)
+       195.519.431      stalled-cycles-backend    #   38,85% backend  cycles idle     (35,54%)
+       347.082.309      instructions              #    0,69  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (51,28%)
+        84.695.240      branches                  #  542,968 M/sec                    (66,27%)
+           586.266      branch-misses             #    0,69% of all branches          (80,37%)
+
+       0,397005179 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        151,260432      task-clock (msec)         #    0,374 CPUs utilized          
+                92      context-switches          #    0,608 K/sec                  
+                 9      cpu-migrations            #    0,060 K/sec                  
+             3.445      page-faults               #    0,023 M/sec                  
+       485.356.619      cycles                    #    3,209 GHz                      (82,96%)
+       117.173.390      stalled-cycles-frontend   #   24,14% frontend cycles idle     (83,76%)
+       187.907.198      stalled-cycles-backend    #   38,72% backend  cycles idle     (36,45%)
+       356.142.865      instructions              #    0,73  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (52,49%)
+        82.759.091      branches                  #  547,130 M/sec                    (67,40%)
+           545.202      branch-misses             #    0,66% of all branches          (83,98%)
+
+       0,404930002 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        152,879241      task-clock (msec)         #    0,391 CPUs utilized          
+                96      context-switches          #    0,628 K/sec                  
+                11      cpu-migrations            #    0,072 K/sec                  
+             3.451      page-faults               #    0,023 M/sec                  
+       490.185.253      cycles                    #    3,206 GHz                      (84,48%)
+       111.887.720      stalled-cycles-frontend   #   22,83% frontend cycles idle     (84,68%)
+       181.222.295      stalled-cycles-backend    #   36,97% backend  cycles idle     (31,61%)
+       344.541.104      instructions              #    0,70  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (52,78%)
+        82.406.947      branches                  #  539,033 M/sec                    (66,52%)
+           504.685      branch-misses             #    0,61% of all branches          (84,23%)
+
+       0,390625092 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        149,645862      task-clock (msec)         #    0,389 CPUs utilized          
+               106      context-switches          #    0,708 K/sec                  
+                12      cpu-migrations            #    0,080 K/sec                  
+             3.453      page-faults               #    0,023 M/sec                  
+       489.158.200      cycles                    #    3,269 GHz                      (84,08%)
+       112.300.244      stalled-cycles-frontend   #   22,96% frontend cycles idle     (85,88%)
+       164.318.703      stalled-cycles-backend    #   33,59% backend  cycles idle     (30,63%)
+       337.552.963      instructions              #    0,69  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (50,74%)
+        79.644.840      branches                  #  532,222 M/sec                    (65,70%)
+           520.620      branch-misses             #    0,65% of all branches          (80,03%)
+
+       0,385180498 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        149,911124      task-clock (msec)         #    0,385 CPUs utilized          
+                98      context-switches          #    0,654 K/sec                  
+                 9      cpu-migrations            #    0,060 K/sec                  
+             3.450      page-faults               #    0,023 M/sec                  
+       482.823.097      cycles                    #    3,221 GHz                      (83,60%)
+       111.629.629      stalled-cycles-frontend   #   23,12% frontend cycles idle     (84,34%)
+       176.159.405      stalled-cycles-backend    #   36,49% backend  cycles idle     (34,76%)
+       357.970.938      instructions              #    0,74  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (49,90%)
+        84.618.867      branches                  #  564,460 M/sec                    (65,81%)
+           564.530      branch-misses             #    0,67% of all branches          (81,76%)
+
+       0,389700604 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        152,384037      task-clock (msec)         #    0,393 CPUs utilized          
+               101      context-switches          #    0,663 K/sec                  
+                11      cpu-migrations            #    0,072 K/sec                  
+             3.454      page-faults               #    0,023 M/sec                  
+       502.561.639      cycles                    #    3,298 GHz                      (82,62%)
+       117.675.141      stalled-cycles-frontend   #   23,42% frontend cycles idle     (81,72%)
+       185.348.704      stalled-cycles-backend    #   36,88% backend  cycles idle     (36,22%)
+       328.980.391      instructions              #    0,65  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (56,57%)
+        79.563.971      branches                  #  522,128 M/sec                    (71,35%)
+           582.723      branch-misses             #    0,73% of all branches          (85,50%)
+
+       0,388186944 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        150,721496      task-clock (msec)         #    0,387 CPUs utilized          
+               106      context-switches          #    0,703 K/sec                  
+                 9      cpu-migrations            #    0,060 K/sec                  
+             3.453      page-faults               #    0,023 M/sec                  
+       496.956.006      cycles                    #    3,297 GHz                      (84,11%)
+       117.354.170      stalled-cycles-frontend   #   23,61% frontend cycles idle     (83,97%)
+       175.933.725      stalled-cycles-backend    #   35,40% backend  cycles idle     (32,81%)
+       343.366.299      instructions              #    0,69  insns per cycle        
+                                                  #    0,51  stalled cycles per insn  (50,69%)
+        82.215.054      branches                  #  545,477 M/sec                    (65,79%)
+           516.907      branch-misses             #    0,63% of all branches          (81,43%)
+
+       0,388997303 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/moby_dick.txt':
+
+        155,024426      task-clock (msec)         #    0,394 CPUs utilized          
+               103      context-switches          #    0,664 K/sec                  
+                11      cpu-migrations            #    0,071 K/sec                  
+             3.445      page-faults               #    0,022 M/sec                  
+       487.793.730      cycles                    #    3,147 GHz                      (84,71%)
+       113.250.392      stalled-cycles-frontend   #   23,22% frontend cycles idle     (83,55%)
+       190.893.466      stalled-cycles-backend    #   39,13% backend  cycles idle     (33,50%)
+       353.749.092      instructions              #    0,73  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (50,39%)
+        83.852.536      branches                  #  540,899 M/sec                    (64,77%)
+           558.150      branch-misses             #    0,67% of all branches          (81,22%)
+
+       0,393456797 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        153,417518      task-clock (msec)         #    0,388 CPUs utilized          
+                96      context-switches          #    0,626 K/sec                  
+                 9      cpu-migrations            #    0,059 K/sec                  
+             3.451      page-faults               #    0,022 M/sec                  
+       502.963.607      cycles                    #    3,278 GHz                      (84,58%)
+       115.489.442      stalled-cycles-frontend   #   22,96% frontend cycles idle     (83,57%)
+       203.359.694      stalled-cycles-backend    #   40,43% backend  cycles idle     (32,36%)
+       323.270.731      instructions              #    0,64  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (53,54%)
+        80.874.962      branches                  #  527,156 M/sec                    (68,58%)
+           526.482      branch-misses             #    0,65% of all branches          (84,53%)
+
+       0,395837695 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        149,683422      task-clock (msec)         #    0,385 CPUs utilized          
+                99      context-switches          #    0,661 K/sec                  
+                10      cpu-migrations            #    0,067 K/sec                  
+             3.454      page-faults               #    0,023 M/sec                  
+       487.633.760      cycles                    #    3,258 GHz                      (80,00%)
+       119.634.142      stalled-cycles-frontend   #   24,53% frontend cycles idle     (84,36%)
+       196.814.448      stalled-cycles-backend    #   40,36% backend  cycles idle     (37,18%)
+       329.129.200      instructions              #    0,67  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (53,46%)
+        81.095.388      branches                  #  541,779 M/sec                    (69,82%)
+           533.399      branch-misses             #    0,66% of all branches          (83,31%)
+
+       0,389280955 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        151,273795      task-clock (msec)         #    0,389 CPUs utilized          
+                95      context-switches          #    0,628 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.449      page-faults               #    0,023 M/sec                  
+       498.270.448      cycles                    #    3,294 GHz                      (84,37%)
+       120.062.970      stalled-cycles-frontend   #   24,10% frontend cycles idle     (83,34%)
+       204.360.221      stalled-cycles-backend    #   41,01% backend  cycles idle     (32,76%)
+       321.034.639      instructions              #    0,64  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (54,31%)
+        79.750.733      branches                  #  527,195 M/sec                    (68,49%)
+           534.291      branch-misses             #    0,67% of all branches          (85,98%)
+
+       0,388515681 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        153,955752      task-clock (msec)         #    0,394 CPUs utilized          
+               112      context-switches          #    0,727 K/sec                  
+                11      cpu-migrations            #    0,071 K/sec                  
+             3.449      page-faults               #    0,022 M/sec                  
+       489.215.433      cycles                    #    3,178 GHz                      (83,29%)
+       115.229.241      stalled-cycles-frontend   #   23,55% frontend cycles idle     (81,64%)
+       173.561.032      stalled-cycles-backend    #   35,48% backend  cycles idle     (35,84%)
+       346.027.020      instructions              #    0,71  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (54,89%)
+        81.783.580      branches                  #  531,215 M/sec                    (71,81%)
+           536.219      branch-misses             #    0,66% of all branches          (84,38%)
+
+       0,390883693 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        159,038660      task-clock (msec)         #    0,401 CPUs utilized          
+               105      context-switches          #    0,660 K/sec                  
+                14      cpu-migrations            #    0,088 K/sec                  
+             3.447      page-faults               #    0,022 M/sec                  
+       486.163.615      cycles                    #    3,057 GHz                      (82,82%)
+       117.572.858      stalled-cycles-frontend   #   24,18% frontend cycles idle     (82,51%)
+       175.516.473      stalled-cycles-backend    #   36,10% backend  cycles idle     (36,49%)
+       357.912.977      instructions              #    0,74  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (52,11%)
+        87.027.432      branches                  #  547,209 M/sec                    (65,49%)
+           587.359      branch-misses             #    0,67% of all branches          (82,03%)
+
+       0,396534939 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        156,000932      task-clock (msec)         #    0,397 CPUs utilized          
+               109      context-switches          #    0,699 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.446      page-faults               #    0,022 M/sec                  
+       486.711.421      cycles                    #    3,120 GHz                      (84,40%)
+       114.474.078      stalled-cycles-frontend   #   23,52% frontend cycles idle     (84,78%)
+       165.871.248      stalled-cycles-backend    #   34,08% backend  cycles idle     (32,49%)
+       336.957.990      instructions              #    0,69  insns per cycle        
+                                                  #    0,49  stalled cycles per insn  (52,86%)
+        82.335.679      branches                  #  527,790 M/sec                    (67,15%)
+           556.013      branch-misses             #    0,68% of all branches          (82,32%)
+
+       0,393373000 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        156,216535      task-clock (msec)         #    0,397 CPUs utilized          
+                96      context-switches          #    0,615 K/sec                  
+                11      cpu-migrations            #    0,070 K/sec                  
+             3.454      page-faults               #    0,022 M/sec                  
+       482.976.478      cycles                    #    3,092 GHz                      (84,49%)
+       110.814.056      stalled-cycles-frontend   #   22,94% frontend cycles idle     (84,91%)
+       159.776.921      stalled-cycles-backend    #   33,08% backend  cycles idle     (31,90%)
+       341.251.796      instructions              #    0,71  insns per cycle        
+                                                  #    0,47  stalled cycles per insn  (52,16%)
+        83.011.188      branches                  #  531,385 M/sec                    (66,65%)
+           524.246      branch-misses             #    0,63% of all branches          (81,91%)
+
+       0,393221173 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        156,389316      task-clock (msec)         #    0,397 CPUs utilized          
+               100      context-switches          #    0,639 K/sec                  
+                10      cpu-migrations            #    0,064 K/sec                  
+             3.453      page-faults               #    0,022 M/sec                  
+       488.334.311      cycles                    #    3,123 GHz                      (82,20%)
+       113.914.889      stalled-cycles-frontend   #   23,33% frontend cycles idle     (82,05%)
+       192.647.551      stalled-cycles-backend    #   39,45% backend  cycles idle     (37,43%)
+       333.876.760      instructions              #    0,68  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (52,84%)
+        81.858.295      branches                  #  523,426 M/sec                    (66,08%)
+           490.503      branch-misses             #    0,60% of all branches          (81,06%)
+
+       0,393640488 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        150,292300      task-clock (msec)         #    0,388 CPUs utilized          
+                97      context-switches          #    0,645 K/sec                  
+                10      cpu-migrations            #    0,067 K/sec                  
+             3.453      page-faults               #    0,023 M/sec                  
+       489.277.693      cycles                    #    3,256 GHz                      (82,50%)
+       110.117.144      stalled-cycles-frontend   #   22,51% frontend cycles idle     (82,65%)
+       177.555.979      stalled-cycles-backend    #   36,29% backend  cycles idle     (36,52%)
+       354.364.647      instructions              #    0,72  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (54,55%)
+        84.642.433      branches                  #  563,185 M/sec                    (69,03%)
+           551.047      branch-misses             #    0,65% of all branches          (83,89%)
+
+       0,387739142 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/moby_dick.txt':
+
+        154,660645      task-clock (msec)         #    0,395 CPUs utilized          
+               102      context-switches          #    0,660 K/sec                  
+                15      cpu-migrations            #    0,097 K/sec                  
+             3.447      page-faults               #    0,022 M/sec                  
+       482.004.810      cycles                    #    3,117 GHz                      (81,79%)
+       111.686.406      stalled-cycles-frontend   #   23,17% frontend cycles idle     (81,71%)
+       184.181.769      stalled-cycles-backend    #   38,21% backend  cycles idle     (38,28%)
+       331.978.348      instructions              #    0,69  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (55,52%)
+        81.106.832      branches                  #  524,418 M/sec                    (70,05%)
+           540.094      branch-misses             #    0,67% of all branches          (83,24%)
+
+       0,391699075 seconds time elapsed
+

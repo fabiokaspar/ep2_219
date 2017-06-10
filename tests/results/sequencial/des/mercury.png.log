@@ -1,0 +1,190 @@
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      30804,465631      task-clock (msec)         #    0,861 CPUs utilized          
+             3.394      context-switches          #    0,110 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             2.487      page-faults               #    0,081 K/sec                  
+   112.350.772.278      cycles                    #    3,647 GHz                      (83,37%)
+     1.103.633.659      stalled-cycles-frontend   #    0,98% frontend cycles idle     (83,37%)
+    39.019.721.306      stalled-cycles-backend    #   34,73% backend  cycles idle     (33,27%)
+   254.883.804.956      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (49,93%)
+     6.620.833.456      branches                  #  214,931 M/sec                    (66,56%)
+        69.289.665      branch-misses             #    1,05% of all branches          (83,31%)
+
+      35,770493263 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      30819,606520      task-clock (msec)         #    0,897 CPUs utilized          
+             3.700      context-switches          #    0,120 K/sec                  
+                 6      cpu-migrations            #    0,000 K/sec                  
+             2.487      page-faults               #    0,081 K/sec                  
+   112.349.299.351      cycles                    #    3,645 GHz                      (83,34%)
+     1.099.562.078      stalled-cycles-frontend   #    0,98% frontend cycles idle     (83,31%)
+    39.091.921.490      stalled-cycles-backend    #   34,79% backend  cycles idle     (33,36%)
+   254.704.483.480      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (49,99%)
+     6.619.132.310      branches                  #  214,770 M/sec                    (66,66%)
+        62.097.267      branch-misses             #    0,94% of all branches          (83,35%)
+
+      34,374388336 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      30903,145495      task-clock (msec)         #    0,897 CPUs utilized          
+             3.042      context-switches          #    0,098 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             2.484      page-faults               #    0,080 K/sec                  
+   111.588.724.648      cycles                    #    3,611 GHz                      (83,33%)
+       542.690.011      stalled-cycles-frontend   #    0,49% frontend cycles idle     (83,34%)
+    38.955.285.867      stalled-cycles-backend    #   34,91% backend  cycles idle     (33,33%)
+   254.880.562.422      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,00%)
+     6.606.735.856      branches                  #  213,788 M/sec                    (66,65%)
+        44.377.165      branch-misses             #    0,67% of all branches          (83,31%)
+
+      34,437597293 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      31219,428342      task-clock (msec)         #    0,898 CPUs utilized          
+             3.313      context-switches          #    0,106 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.484      page-faults               #    0,048 K/sec                  
+   112.475.908.574      cycles                    #    3,603 GHz                      (83,34%)
+       780.365.578      stalled-cycles-frontend   #    0,69% frontend cycles idle     (83,33%)
+    39.109.010.267      stalled-cycles-backend    #   34,77% backend  cycles idle     (33,33%)
+   254.694.261.746      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,01%)
+     6.617.590.415      branches                  #  211,970 M/sec                    (66,66%)
+        77.622.477      branch-misses             #    1,17% of all branches          (83,33%)
+
+      34,750190619 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      31098,219318      task-clock (msec)         #    0,898 CPUs utilized          
+             3.144      context-switches          #    0,101 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.625      page-faults               #    0,052 K/sec                  
+   111.902.649.798      cycles                    #    3,598 GHz                      (83,32%)
+       605.256.099      stalled-cycles-frontend   #    0,54% frontend cycles idle     (83,33%)
+    39.101.317.650      stalled-cycles-backend    #   34,94% backend  cycles idle     (33,36%)
+   254.710.225.114      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,00%)
+     6.613.889.164      branches                  #  212,677 M/sec                    (66,67%)
+        46.219.706      branch-misses             #    0,70% of all branches          (83,33%)
+
+      34,634223060 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      31117,405849      task-clock (msec)         #    0,898 CPUs utilized          
+             3.097      context-switches          #    0,100 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.612      page-faults               #    0,052 K/sec                  
+   111.952.006.193      cycles                    #    3,598 GHz                      (83,32%)
+       600.328.954      stalled-cycles-frontend   #    0,54% frontend cycles idle     (83,36%)
+    39.128.017.669      stalled-cycles-backend    #   34,95% backend  cycles idle     (33,34%)
+   254.824.628.752      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,00%)
+     6.614.614.364      branches                  #  212,570 M/sec                    (66,66%)
+        43.883.410      branch-misses             #    0,66% of all branches          (83,31%)
+
+      34,650151834 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      30700,336106      task-clock (msec)         #    0,897 CPUs utilized          
+             3.069      context-switches          #    0,100 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             1.975      page-faults               #    0,064 K/sec                  
+   112.290.225.464      cycles                    #    3,658 GHz                      (83,33%)
+     1.016.720.469      stalled-cycles-frontend   #    0,91% frontend cycles idle     (83,36%)
+    39.136.485.819      stalled-cycles-backend    #   34,85% backend  cycles idle     (33,33%)
+   254.822.607.117      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (49,98%)
+     6.610.032.171      branches                  #  215,308 M/sec                    (66,64%)
+        52.533.260      branch-misses             #    0,79% of all branches          (83,28%)
+
+      34,236616590 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      30759,448707      task-clock (msec)         #    0,896 CPUs utilized          
+             3.686      context-switches          #    0,120 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             2.487      page-faults               #    0,081 K/sec                  
+   112.200.146.423      cycles                    #    3,648 GHz                      (83,34%)
+       992.199.308      stalled-cycles-frontend   #    0,88% frontend cycles idle     (83,37%)
+    39.042.677.172      stalled-cycles-backend    #   34,80% backend  cycles idle     (33,29%)
+   254.794.885.366      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (49,94%)
+     6.606.518.206      branches                  #  214,780 M/sec                    (66,59%)
+        61.890.184      branch-misses             #    0,94% of all branches          (83,35%)
+
+      34,322007023 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      31178,430749      task-clock (msec)         #    0,898 CPUs utilized          
+             3.088      context-switches          #    0,099 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.971      page-faults               #    0,063 K/sec                  
+   113.803.963.156      cycles                    #    3,650 GHz                      (83,32%)
+     1.496.217.624      stalled-cycles-frontend   #    1,31% frontend cycles idle     (83,34%)
+    39.292.948.874      stalled-cycles-backend    #   34,53% backend  cycles idle     (33,35%)
+   254.749.745.258      instructions              #    2,24  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+     6.612.104.412      branches                  #  212,073 M/sec                    (66,68%)
+       109.422.103      branch-misses             #    1,65% of all branches          (83,32%)
+
+      34,712760414 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/mercury.png':
+
+      30906,200434      task-clock (msec)         #    0,897 CPUs utilized          
+             3.451      context-switches          #    0,112 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.976      page-faults               #    0,064 K/sec                  
+   112.781.190.110      cycles                    #    3,649 GHz                      (83,32%)
+     1.297.478.928      stalled-cycles-frontend   #    1,15% frontend cycles idle     (83,32%)
+    39.001.299.403      stalled-cycles-backend    #   34,58% backend  cycles idle     (33,36%)
+   254.728.706.283      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,00%)
+     6.606.604.287      branches                  #  213,763 M/sec                    (66,66%)
+        81.596.190      branch-misses             #    1,24% of all branches          (83,35%)
+
+      34,441833196 seconds time elapsed
+

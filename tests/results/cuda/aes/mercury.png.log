@@ -1,0 +1,1440 @@
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1175,191455      task-clock (msec)         #    0,249 CPUs utilized          
+               613      context-switches          #    0,522 K/sec                  
+                 9      cpu-migrations            #    0,008 K/sec                  
+             4.578      page-faults               #    0,004 M/sec                  
+     4.265.945.518      cycles                    #    3,630 GHz                      (83,34%)
+       749.462.947      stalled-cycles-frontend   #   17,57% frontend cycles idle     (83,02%)
+     1.308.395.643      stalled-cycles-backend    #   30,67% backend  cycles idle     (33,66%)
+     4.393.699.127      instructions              #    1,03  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (51,11%)
+     1.040.476.600      branches                  #  885,368 M/sec                    (67,35%)
+         2.777.968      branch-misses             #    0,27% of all branches          (83,38%)
+
+       4,716646473 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1225,184319      task-clock (msec)         #    0,258 CPUs utilized          
+               638      context-switches          #    0,521 K/sec                  
+                10      cpu-migrations            #    0,008 K/sec                  
+             4.065      page-faults               #    0,003 M/sec                  
+     4.477.102.744      cycles                    #    3,654 GHz                      (83,63%)
+       749.590.210      stalled-cycles-frontend   #   16,74% frontend cycles idle     (83,51%)
+     1.392.878.346      stalled-cycles-backend    #   31,11% backend  cycles idle     (32,97%)
+     4.632.201.012      instructions              #    1,03  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,50%)
+     1.092.651.004      branches                  #  891,826 M/sec                    (67,25%)
+         3.024.991      branch-misses             #    0,28% of all branches          (83,71%)
+
+       4,753277437 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1181,898110      task-clock (msec)         #    0,251 CPUs utilized          
+               681      context-switches          #    0,576 K/sec                  
+                12      cpu-migrations            #    0,010 K/sec                  
+             4.578      page-faults               #    0,004 M/sec                  
+     4.325.188.472      cycles                    #    3,660 GHz                      (83,31%)
+       665.507.176      stalled-cycles-frontend   #   15,39% frontend cycles idle     (83,49%)
+     1.452.841.687      stalled-cycles-backend    #   33,59% backend  cycles idle     (33,37%)
+     4.450.906.361      instructions              #    1,03  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,21%)
+     1.042.846.832      branches                  #  882,349 M/sec                    (67,01%)
+         2.674.448      branch-misses             #    0,26% of all branches          (83,41%)
+
+       4,714097938 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1175,635937      task-clock (msec)         #    0,250 CPUs utilized          
+               668      context-switches          #    0,568 K/sec                  
+                13      cpu-migrations            #    0,011 K/sec                  
+             4.576      page-faults               #    0,004 M/sec                  
+     4.255.470.646      cycles                    #    3,620 GHz                      (83,29%)
+       714.372.591      stalled-cycles-frontend   #   16,79% frontend cycles idle     (83,34%)
+     1.281.648.368      stalled-cycles-backend    #   30,12% backend  cycles idle     (33,65%)
+     4.436.422.234      instructions              #    1,04  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,08%)
+     1.043.839.279      branches                  #  887,893 M/sec                    (66,88%)
+         2.719.958      branch-misses             #    0,26% of all branches          (83,45%)
+
+       4,711791369 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1219,187618      task-clock (msec)         #    0,257 CPUs utilized          
+               891      context-switches          #    0,731 K/sec                  
+                12      cpu-migrations            #    0,010 K/sec                  
+             4.576      page-faults               #    0,004 M/sec                  
+     4.428.314.477      cycles                    #    3,632 GHz                      (83,31%)
+       787.838.518      stalled-cycles-frontend   #   17,79% frontend cycles idle     (83,16%)
+     1.346.295.285      stalled-cycles-backend    #   30,40% backend  cycles idle     (33,58%)
+     4.634.699.345      instructions              #    1,05  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,56%)
+     1.082.605.521      branches                  #  887,973 M/sec                    (67,38%)
+         3.007.139      branch-misses             #    0,28% of all branches          (83,71%)
+
+       4,749783819 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1121,146954      task-clock (msec)         #    0,241 CPUs utilized          
+               635      context-switches          #    0,566 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     4.073.272.341      cycles                    #    3,633 GHz                      (82,97%)
+       713.381.189      stalled-cycles-frontend   #   17,51% frontend cycles idle     (83,05%)
+     1.266.047.549      stalled-cycles-backend    #   31,08% backend  cycles idle     (34,09%)
+     4.446.540.296      instructions              #    1,09  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,53%)
+     1.037.114.171      branches                  #  925,047 M/sec                    (67,20%)
+         2.674.706      branch-misses             #    0,26% of all branches          (83,52%)
+
+       4,652503250 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1125,263058      task-clock (msec)         #    0,242 CPUs utilized          
+               596      context-switches          #    0,530 K/sec                  
+                11      cpu-migrations            #    0,010 K/sec                  
+             4.578      page-faults               #    0,004 M/sec                  
+     4.089.155.672      cycles                    #    3,634 GHz                      (83,27%)
+       676.450.946      stalled-cycles-frontend   #   16,54% frontend cycles idle     (82,79%)
+     1.293.890.814      stalled-cycles-backend    #   31,64% backend  cycles idle     (34,07%)
+     4.378.072.773      instructions              #    1,07  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (51,16%)
+     1.032.269.009      branches                  #  917,358 M/sec                    (67,61%)
+         2.711.488      branch-misses             #    0,26% of all branches          (83,99%)
+
+       4,654036281 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1137,104823      task-clock (msec)         #    0,244 CPUs utilized          
+               637      context-switches          #    0,560 K/sec                  
+                 9      cpu-migrations            #    0,008 K/sec                  
+             4.577      page-faults               #    0,004 M/sec                  
+     4.122.204.698      cycles                    #    3,625 GHz                      (83,51%)
+       715.074.680      stalled-cycles-frontend   #   17,35% frontend cycles idle     (83,65%)
+     1.239.252.388      stalled-cycles-backend    #   30,06% backend  cycles idle     (33,33%)
+     4.405.887.451      instructions              #    1,07  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,21%)
+     1.038.828.610      branches                  #  913,573 M/sec                    (67,13%)
+         2.668.242      branch-misses             #    0,26% of all branches          (83,67%)
+
+       4,667752209 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1231,874360      task-clock (msec)         #    0,259 CPUs utilized          
+               633      context-switches          #    0,514 K/sec                  
+                11      cpu-migrations            #    0,009 K/sec                  
+             4.579      page-faults               #    0,004 M/sec                  
+     4.438.656.967      cycles                    #    3,603 GHz                      (83,50%)
+       773.606.210      stalled-cycles-frontend   #   17,43% frontend cycles idle     (83,03%)
+     1.381.234.074      stalled-cycles-backend    #   31,12% backend  cycles idle     (33,68%)
+     4.659.136.336      instructions              #    1,05  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,40%)
+     1.092.821.701      branches                  #  887,121 M/sec                    (66,68%)
+         3.034.715      branch-misses             #    0,28% of all branches          (83,48%)
+
+       4,762353627 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/mercury.png':
+
+       1121,528924      task-clock (msec)         #    0,241 CPUs utilized          
+               631      context-switches          #    0,563 K/sec                  
+                10      cpu-migrations            #    0,009 K/sec                  
+             4.578      page-faults               #    0,004 M/sec                  
+     4.044.790.355      cycles                    #    3,606 GHz                      (83,43%)
+       663.588.290      stalled-cycles-frontend   #   16,41% frontend cycles idle     (83,17%)
+     1.232.240.946      stalled-cycles-backend    #   30,46% backend  cycles idle     (33,60%)
+     4.456.289.781      instructions              #    1,10  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,64%)
+     1.045.004.425      branches                  #  931,768 M/sec                    (66,63%)
+         2.722.081      branch-misses             #    0,26% of all branches          (83,38%)
+
+       4,656968719 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1022,696424      task-clock (msec)         #    0,225 CPUs utilized          
+               702      context-switches          #    0,686 K/sec                  
+                13      cpu-migrations            #    0,013 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.693.892.146      cycles                    #    3,612 GHz                      (83,13%)
+       603.632.431      stalled-cycles-frontend   #   16,34% frontend cycles idle     (83,04%)
+     1.078.994.582      stalled-cycles-backend    #   29,21% backend  cycles idle     (33,92%)
+     4.046.111.244      instructions              #    1,10  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,50%)
+       961.171.516      branches                  #  939,840 M/sec                    (66,47%)
+         2.248.681      branch-misses             #    0,23% of all branches          (83,48%)
+
+       4,547428545 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1043,650889      task-clock (msec)         #    0,228 CPUs utilized          
+               626      context-switches          #    0,600 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             4.066      page-faults               #    0,004 M/sec                  
+     3.784.515.953      cycles                    #    3,626 GHz                      (83,24%)
+       601.492.333      stalled-cycles-frontend   #   15,89% frontend cycles idle     (84,01%)
+     1.206.084.472      stalled-cycles-backend    #   31,87% backend  cycles idle     (32,90%)
+     4.069.820.835      instructions              #    1,08  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (49,98%)
+       967.057.544      branches                  #  926,610 M/sec                    (66,32%)
+         2.302.665      branch-misses             #    0,24% of all branches          (83,03%)
+
+       4,573411569 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1017,911948      task-clock (msec)         #    0,224 CPUs utilized          
+               609      context-switches          #    0,598 K/sec                  
+                12      cpu-migrations            #    0,012 K/sec                  
+             4.576      page-faults               #    0,004 M/sec                  
+     3.690.722.495      cycles                    #    3,626 GHz                      (83,46%)
+       612.258.449      stalled-cycles-frontend   #   16,59% frontend cycles idle     (83,17%)
+     1.120.531.819      stalled-cycles-backend    #   30,36% backend  cycles idle     (33,48%)
+     4.114.270.619      instructions              #    1,11  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,18%)
+       972.213.110      branches                  #  955,105 M/sec                    (66,97%)
+         2.328.464      branch-misses             #    0,24% of all branches          (83,14%)
+
+       4,544758951 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1036,016906      task-clock (msec)         #    0,227 CPUs utilized          
+               667      context-switches          #    0,644 K/sec                  
+                15      cpu-migrations            #    0,014 K/sec                  
+             4.576      page-faults               #    0,004 M/sec                  
+     3.762.354.227      cycles                    #    3,632 GHz                      (83,52%)
+       629.009.601      stalled-cycles-frontend   #   16,72% frontend cycles idle     (83,39%)
+     1.130.364.797      stalled-cycles-backend    #   30,04% backend  cycles idle     (33,14%)
+     4.172.405.345      instructions              #    1,11  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,04%)
+       984.819.005      branches                  #  950,582 M/sec                    (66,77%)
+         2.369.595      branch-misses             #    0,24% of all branches          (83,64%)
+
+       4,567059330 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1024,045255      task-clock (msec)         #    0,225 CPUs utilized          
+               598      context-switches          #    0,584 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.706.111.638      cycles                    #    3,619 GHz                      (83,39%)
+       583.880.637      stalled-cycles-frontend   #   15,75% frontend cycles idle     (83,02%)
+     1.102.389.989      stalled-cycles-backend    #   29,75% backend  cycles idle     (33,78%)
+     4.093.207.668      instructions              #    1,10  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,26%)
+       963.566.171      branches                  #  940,941 M/sec                    (66,90%)
+         2.307.403      branch-misses             #    0,24% of all branches          (83,19%)
+
+       4,553290264 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1025,219654      task-clock (msec)         #    0,225 CPUs utilized          
+               609      context-switches          #    0,594 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             4.067      page-faults               #    0,004 M/sec                  
+     3.731.023.356      cycles                    #    3,639 GHz                      (83,47%)
+       586.068.802      stalled-cycles-frontend   #   15,71% frontend cycles idle     (82,96%)
+     1.096.039.828      stalled-cycles-backend    #   29,38% backend  cycles idle     (33,65%)
+     4.069.963.015      instructions              #    1,09  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,70%)
+       964.531.006      branches                  #  940,804 M/sec                    (67,08%)
+         2.308.773      branch-misses             #    0,24% of all branches          (83,61%)
+
+       4,555910321 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1017,168672      task-clock (msec)         #    0,224 CPUs utilized          
+               601      context-switches          #    0,591 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             4.576      page-faults               #    0,004 M/sec                  
+     3.686.028.395      cycles                    #    3,624 GHz                      (83,79%)
+       601.823.431      stalled-cycles-frontend   #   16,33% frontend cycles idle     (83,62%)
+     1.078.171.695      stalled-cycles-backend    #   29,25% backend  cycles idle     (32,75%)
+     4.144.162.533      instructions              #    1,12  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (49,52%)
+       984.823.504      branches                  #  968,201 M/sec                    (65,66%)
+         2.296.778      branch-misses             #    0,23% of all branches          (83,22%)
+
+       4,549716848 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1055,309470      task-clock (msec)         #    0,230 CPUs utilized          
+               844      context-switches          #    0,800 K/sec                  
+                13      cpu-migrations            #    0,012 K/sec                  
+             4.577      page-faults               #    0,004 M/sec                  
+     3.791.217.984      cycles                    #    3,593 GHz                      (83,58%)
+       606.742.346      stalled-cycles-frontend   #   16,00% frontend cycles idle     (83,49%)
+     1.288.717.102      stalled-cycles-backend    #   33,99% backend  cycles idle     (33,37%)
+     4.045.004.057      instructions              #    1,07  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,73%)
+       951.440.590      branches                  #  901,575 M/sec                    (67,38%)
+         2.238.649      branch-misses             #    0,24% of all branches          (83,92%)
+
+       4,585218671 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1020,444389      task-clock (msec)         #    0,224 CPUs utilized          
+               713      context-switches          #    0,699 K/sec                  
+                14      cpu-migrations            #    0,014 K/sec                  
+             4.577      page-faults               #    0,004 M/sec                  
+     3.687.001.982      cycles                    #    3,613 GHz                      (83,90%)
+       598.580.086      stalled-cycles-frontend   #   16,23% frontend cycles idle     (83,25%)
+     1.026.768.656      stalled-cycles-backend    #   27,85% backend  cycles idle     (32,98%)
+     4.036.095.116      instructions              #    1,09  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,83%)
+       961.666.037      branches                  #  942,399 M/sec                    (67,04%)
+         2.287.947      branch-misses             #    0,24% of all branches          (83,31%)
+
+       4,549144249 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/mercury.png':
+
+       1025,478462      task-clock (msec)         #    0,225 CPUs utilized          
+               623      context-switches          #    0,608 K/sec                  
+                 8      cpu-migrations            #    0,008 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.718.308.751      cycles                    #    3,626 GHz                      (83,22%)
+       589.726.590      stalled-cycles-frontend   #   15,86% frontend cycles idle     (83,33%)
+     1.065.014.293      stalled-cycles-backend    #   28,64% backend  cycles idle     (33,66%)
+     4.046.297.445      instructions              #    1,09  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,84%)
+       952.576.548      branches                  #  928,909 M/sec                    (67,08%)
+         2.188.263      branch-misses             #    0,23% of all branches          (83,18%)
+
+       4,554336442 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        930,290658      task-clock (msec)         #    0,208 CPUs utilized          
+               723      context-switches          #    0,777 K/sec                  
+                12      cpu-migrations            #    0,013 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.324.267.754      cycles                    #    3,573 GHz                      (83,87%)
+       505.825.939      stalled-cycles-frontend   #   15,22% frontend cycles idle     (83,98%)
+       947.464.998      stalled-cycles-backend    #   28,50% backend  cycles idle     (32,50%)
+     3.895.462.959      instructions              #    1,17  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (49,85%)
+       930.495.736      branches                  # 1000,220 M/sec                    (65,85%)
+         2.211.868      branch-misses             #    0,24% of all branches          (82,70%)
+
+       4,462398924 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        931,897806      task-clock (msec)         #    0,209 CPUs utilized          
+               604      context-switches          #    0,648 K/sec                  
+                13      cpu-migrations            #    0,014 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     3.335.456.016      cycles                    #    3,579 GHz                      (83,31%)
+       487.226.355      stalled-cycles-frontend   #   14,61% frontend cycles idle     (83,49%)
+     1.087.265.872      stalled-cycles-backend    #   32,60% backend  cycles idle     (33,27%)
+     3.834.920.490      instructions              #    1,15  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,80%)
+       908.437.334      branches                  #  974,825 M/sec                    (67,63%)
+         1.946.475      branch-misses             #    0,21% of all branches          (83,79%)
+
+       4,464579436 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        939,612942      task-clock (msec)         #    0,210 CPUs utilized          
+               598      context-switches          #    0,636 K/sec                  
+                10      cpu-migrations            #    0,011 K/sec                  
+             4.066      page-faults               #    0,004 M/sec                  
+     3.353.028.337      cycles                    #    3,569 GHz                      (82,93%)
+       509.274.840      stalled-cycles-frontend   #   15,19% frontend cycles idle     (83,07%)
+       966.045.032      stalled-cycles-backend    #   28,81% backend  cycles idle     (34,22%)
+     3.801.099.239      instructions              #    1,13  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (51,13%)
+       907.609.322      branches                  #  965,940 M/sec                    (67,26%)
+         2.033.713      branch-misses             #    0,22% of all branches          (83,24%)
+
+       4,471953018 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        969,586513      task-clock (msec)         #    0,215 CPUs utilized          
+               614      context-switches          #    0,633 K/sec                  
+                 9      cpu-migrations            #    0,009 K/sec                  
+             4.066      page-faults               #    0,004 M/sec                  
+     3.487.432.980      cycles                    #    3,597 GHz                      (83,14%)
+       543.065.101      stalled-cycles-frontend   #   15,57% frontend cycles idle     (83,57%)
+     1.021.171.953      stalled-cycles-backend    #   29,28% backend  cycles idle     (33,82%)
+     3.874.366.548      instructions              #    1,11  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,85%)
+       921.844.652      branches                  #  950,761 M/sec                    (67,31%)
+         2.014.385      branch-misses             #    0,22% of all branches          (83,40%)
+
+       4,502163951 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        929,020136      task-clock (msec)         #    0,208 CPUs utilized          
+               792      context-switches          #    0,853 K/sec                  
+                11      cpu-migrations            #    0,012 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     3.332.855.244      cycles                    #    3,587 GHz                      (83,87%)
+       527.255.618      stalled-cycles-frontend   #   15,82% frontend cycles idle     (83,76%)
+     1.005.666.398      stalled-cycles-backend    #   30,17% backend  cycles idle     (32,69%)
+     3.924.382.016      instructions              #    1,18  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (49,66%)
+       921.815.160      branches                  #  992,245 M/sec                    (66,59%)
+         1.961.100      branch-misses             #    0,21% of all branches          (83,16%)
+
+       4,457508979 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        912,242420      task-clock (msec)         #    0,206 CPUs utilized          
+               537      context-switches          #    0,589 K/sec                  
+                10      cpu-migrations            #    0,011 K/sec                  
+             4.577      page-faults               #    0,005 M/sec                  
+     3.285.777.081      cycles                    #    3,602 GHz                      (83,00%)
+       469.326.461      stalled-cycles-frontend   #   14,28% frontend cycles idle     (83,20%)
+     1.079.045.083      stalled-cycles-backend    #   32,84% backend  cycles idle     (33,95%)
+     3.798.817.850      instructions              #    1,16  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,60%)
+       902.009.840      branches                  #  988,783 M/sec                    (66,82%)
+         1.898.880      branch-misses             #    0,21% of all branches          (83,22%)
+
+       4,421065141 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        931,880743      task-clock (msec)         #    0,209 CPUs utilized          
+               616      context-switches          #    0,661 K/sec                  
+                14      cpu-migrations            #    0,015 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.342.029.134      cycles                    #    3,586 GHz                      (83,63%)
+       510.015.512      stalled-cycles-frontend   #   15,26% frontend cycles idle     (83,22%)
+       966.845.067      stalled-cycles-backend    #   28,93% backend  cycles idle     (33,16%)
+     3.856.231.924      instructions              #    1,15  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (51,12%)
+       922.119.025      branches                  #  989,525 M/sec                    (67,32%)
+         1.976.210      branch-misses             #    0,21% of all branches          (83,76%)
+
+       4,456625724 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        920,000837      task-clock (msec)         #    0,207 CPUs utilized          
+               579      context-switches          #    0,629 K/sec                  
+                11      cpu-migrations            #    0,012 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.296.865.833      cycles                    #    3,584 GHz                      (83,05%)
+       488.504.918      stalled-cycles-frontend   #   14,82% frontend cycles idle     (83,44%)
+       972.082.304      stalled-cycles-backend    #   29,49% backend  cycles idle     (33,85%)
+     3.849.845.433      instructions              #    1,17  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,87%)
+       904.495.359      branches                  #  983,146 M/sec                    (67,49%)
+         1.979.254      branch-misses             #    0,22% of all branches          (83,59%)
+
+       4,450821929 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        935,016626      task-clock (msec)         #    0,209 CPUs utilized          
+               585      context-switches          #    0,626 K/sec                  
+                11      cpu-migrations            #    0,012 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.368.460.224      cycles                    #    3,603 GHz                      (83,59%)
+       515.561.300      stalled-cycles-frontend   #   15,31% frontend cycles idle     (83,67%)
+       946.913.550      stalled-cycles-backend    #   28,11% backend  cycles idle     (33,03%)
+     3.887.682.698      instructions              #    1,15  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (49,73%)
+       916.185.092      branches                  #  979,860 M/sec                    (66,43%)
+         1.959.826      branch-misses             #    0,21% of all branches          (83,12%)
+
+       4,466901816 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/mercury.png':
+
+        940,910753      task-clock (msec)         #    0,210 CPUs utilized          
+               634      context-switches          #    0,674 K/sec                  
+                10      cpu-migrations            #    0,011 K/sec                  
+             4.061      page-faults               #    0,004 M/sec                  
+     3.396.449.597      cycles                    #    3,610 GHz                      (82,78%)
+       528.310.169      stalled-cycles-frontend   #   15,55% frontend cycles idle     (83,14%)
+       937.296.332      stalled-cycles-backend    #   27,60% backend  cycles idle     (34,36%)
+     3.837.987.922      instructions              #    1,13  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,85%)
+       911.921.637      branches                  #  969,190 M/sec                    (67,37%)
+         1.998.283      branch-misses             #    0,22% of all branches          (83,69%)
+
+       4,472210344 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        934,866182      task-clock (msec)         #    0,209 CPUs utilized          
+               598      context-switches          #    0,640 K/sec                  
+                13      cpu-migrations            #    0,014 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.354.314.546      cycles                    #    3,588 GHz                      (83,30%)
+       535.479.349      stalled-cycles-frontend   #   15,96% frontend cycles idle     (83,60%)
+       943.433.516      stalled-cycles-backend    #   28,13% backend  cycles idle     (33,22%)
+     3.893.577.361      instructions              #    1,16  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (49,98%)
+       927.005.683      branches                  #  991,592 M/sec                    (66,10%)
+         1.974.681      branch-misses             #    0,21% of all branches          (83,51%)
+
+       4,463914085 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        933,478227      task-clock (msec)         #    0,209 CPUs utilized          
+               624      context-switches          #    0,668 K/sec                  
+                 8      cpu-migrations            #    0,009 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     3.353.686.656      cycles                    #    3,593 GHz                      (82,97%)
+       521.755.284      stalled-cycles-frontend   #   15,56% frontend cycles idle     (83,77%)
+     1.040.197.084      stalled-cycles-backend    #   31,02% backend  cycles idle     (33,88%)
+     3.781.551.989      instructions              #    1,13  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,41%)
+       901.109.805      branches                  #  965,325 M/sec                    (66,62%)
+         1.868.766      branch-misses             #    0,21% of all branches          (83,46%)
+
+       4,463236778 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        943,559333      task-clock (msec)         #    0,211 CPUs utilized          
+               641      context-switches          #    0,679 K/sec                  
+                 8      cpu-migrations            #    0,008 K/sec                  
+             4.573      page-faults               #    0,005 M/sec                  
+     3.395.150.878      cycles                    #    3,598 GHz                      (83,44%)
+       530.358.896      stalled-cycles-frontend   #   15,62% frontend cycles idle     (82,84%)
+       957.969.668      stalled-cycles-backend    #   28,22% backend  cycles idle     (33,85%)
+     3.848.470.694      instructions              #    1,13  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (51,20%)
+       911.618.688      branches                  #  966,149 M/sec                    (67,50%)
+         1.957.876      branch-misses             #    0,21% of all branches          (83,63%)
+
+       4,473369803 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        949,617454      task-clock (msec)         #    0,212 CPUs utilized          
+               642      context-switches          #    0,676 K/sec                  
+                14      cpu-migrations            #    0,015 K/sec                  
+             4.577      page-faults               #    0,005 M/sec                  
+     3.426.522.186      cycles                    #    3,608 GHz                      (83,54%)
+       536.402.806      stalled-cycles-frontend   #   15,65% frontend cycles idle     (83,68%)
+       981.949.234      stalled-cycles-backend    #   28,66% backend  cycles idle     (33,38%)
+     3.852.903.559      instructions              #    1,12  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,14%)
+       918.766.330      branches                  #  967,512 M/sec                    (66,38%)
+         2.034.456      branch-misses             #    0,22% of all branches          (83,11%)
+
+       4,479408775 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        943,183132      task-clock (msec)         #    0,211 CPUs utilized          
+               619      context-switches          #    0,656 K/sec                  
+                15      cpu-migrations            #    0,016 K/sec                  
+             4.579      page-faults               #    0,005 M/sec                  
+     3.376.788.891      cycles                    #    3,580 GHz                      (83,17%)
+       531.004.695      stalled-cycles-frontend   #   15,73% frontend cycles idle     (83,51%)
+       969.364.797      stalled-cycles-backend    #   28,71% backend  cycles idle     (33,75%)
+     3.832.387.857      instructions              #    1,13  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,07%)
+       907.293.752      branches                  #  961,949 M/sec                    (66,48%)
+         1.902.092      branch-misses             #    0,21% of all branches          (83,28%)
+
+       4,475299934 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        933,577406      task-clock (msec)         #    0,209 CPUs utilized          
+               611      context-switches          #    0,654 K/sec                  
+                 9      cpu-migrations            #    0,010 K/sec                  
+             4.574      page-faults               #    0,005 M/sec                  
+     3.374.176.771      cycles                    #    3,614 GHz                      (82,99%)
+       525.016.522      stalled-cycles-frontend   #   15,56% frontend cycles idle     (83,87%)
+       929.972.228      stalled-cycles-backend    #   27,56% backend  cycles idle     (33,89%)
+     3.859.735.858      instructions              #    1,14  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,09%)
+       918.147.497      branches                  #  983,472 M/sec                    (66,12%)
+         1.967.478      branch-misses             #    0,21% of all branches          (82,61%)
+
+       4,463923395 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        929,735023      task-clock (msec)         #    0,208 CPUs utilized          
+               559      context-switches          #    0,601 K/sec                  
+                11      cpu-migrations            #    0,012 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.330.600.802      cycles                    #    3,582 GHz                      (82,96%)
+       513.242.820      stalled-cycles-frontend   #   15,41% frontend cycles idle     (83,66%)
+       959.354.418      stalled-cycles-backend    #   28,80% backend  cycles idle     (33,77%)
+     3.902.028.829      instructions              #    1,17  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (49,72%)
+       924.504.971      branches                  #  994,375 M/sec                    (66,48%)
+         1.970.872      branch-misses             #    0,21% of all branches          (82,86%)
+
+       4,460042260 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        973,562863      task-clock (msec)         #    0,216 CPUs utilized          
+               643      context-switches          #    0,660 K/sec                  
+                13      cpu-migrations            #    0,013 K/sec                  
+             4.577      page-faults               #    0,005 M/sec                  
+     3.465.194.829      cycles                    #    3,559 GHz                      (83,64%)
+       564.370.786      stalled-cycles-frontend   #   16,29% frontend cycles idle     (83,31%)
+     1.031.723.139      stalled-cycles-backend    #   29,77% backend  cycles idle     (33,49%)
+     3.822.532.650      instructions              #    1,10  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,46%)
+       902.100.061      branches                  #  926,597 M/sec                    (66,85%)
+         2.550.580      branch-misses             #    0,28% of all branches          (83,64%)
+
+       4,505856755 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        927,062022      task-clock (msec)         #    0,208 CPUs utilized          
+               629      context-switches          #    0,678 K/sec                  
+                10      cpu-migrations            #    0,011 K/sec                  
+             4.067      page-faults               #    0,004 M/sec                  
+     3.347.485.275      cycles                    #    3,611 GHz                      (82,71%)
+       485.442.223      stalled-cycles-frontend   #   14,50% frontend cycles idle     (83,22%)
+       990.249.447      stalled-cycles-backend    #   29,58% backend  cycles idle     (34,36%)
+     3.814.463.758      instructions              #    1,14  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,76%)
+       912.873.639      branches                  #  984,695 M/sec                    (66,77%)
+         1.892.228      branch-misses             #    0,21% of all branches          (83,33%)
+
+       4,455626881 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/mercury.png':
+
+        946,480814      task-clock (msec)         #    0,211 CPUs utilized          
+               567      context-switches          #    0,599 K/sec                  
+                 9      cpu-migrations            #    0,010 K/sec                  
+             4.578      page-faults               #    0,005 M/sec                  
+     3.415.945.305      cycles                    #    3,609 GHz                      (83,71%)
+       552.218.022      stalled-cycles-frontend   #   16,17% frontend cycles idle     (82,98%)
+       912.021.551      stalled-cycles-backend    #   26,70% backend  cycles idle     (33,48%)
+     3.877.235.927      instructions              #    1,14  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,82%)
+       916.478.220      branches                  #  968,301 M/sec                    (67,62%)
+         2.717.558      branch-misses             #    0,30% of all branches          (83,79%)
+
+       4,478711609 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        938,738524      task-clock (msec)         #    0,210 CPUs utilized          
+               615      context-switches          #    0,655 K/sec                  
+                12      cpu-migrations            #    0,013 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.374.272.192      cycles                    #    3,594 GHz                      (82,70%)
+       524.569.987      stalled-cycles-frontend   #   15,55% frontend cycles idle     (83,43%)
+       924.147.527      stalled-cycles-backend    #   27,39% backend  cycles idle     (34,28%)
+     3.863.959.496      instructions              #    1,15  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,58%)
+       914.932.410      branches                  #  974,640 M/sec                    (67,10%)
+         2.048.671      branch-misses             #    0,22% of all branches          (83,50%)
+
+       4,470499553 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        916,444170      task-clock (msec)         #    0,206 CPUs utilized          
+               609      context-switches          #    0,665 K/sec                  
+                13      cpu-migrations            #    0,014 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.307.824.801      cycles                    #    3,609 GHz                      (82,44%)
+       548.527.425      stalled-cycles-frontend   #   16,58% frontend cycles idle     (83,49%)
+       979.122.642      stalled-cycles-backend    #   29,60% backend  cycles idle     (34,40%)
+     3.848.669.662      instructions              #    1,16  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,71%)
+       917.647.531      branches                  # 1001,313 M/sec                    (66,63%)
+         2.668.846      branch-misses             #    0,29% of all branches          (83,62%)
+
+       4,447803437 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        948,775623      task-clock (msec)         #    0,212 CPUs utilized          
+               634      context-switches          #    0,668 K/sec                  
+                17      cpu-migrations            #    0,018 K/sec                  
+             4.066      page-faults               #    0,004 M/sec                  
+     3.383.261.475      cycles                    #    3,566 GHz                      (83,17%)
+       518.087.850      stalled-cycles-frontend   #   15,31% frontend cycles idle     (83,99%)
+       947.625.293      stalled-cycles-backend    #   28,01% backend  cycles idle     (33,57%)
+     3.876.616.883      instructions              #    1,15  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,48%)
+       921.610.653      branches                  #  971,368 M/sec                    (66,70%)
+         2.017.362      branch-misses             #    0,22% of all branches          (82,71%)
+
+       4,479545049 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        948,087363      task-clock (msec)         #    0,211 CPUs utilized          
+               650      context-switches          #    0,686 K/sec                  
+                10      cpu-migrations            #    0,011 K/sec                  
+             4.578      page-faults               #    0,005 M/sec                  
+     3.431.959.327      cycles                    #    3,620 GHz                      (83,45%)
+       525.843.037      stalled-cycles-frontend   #   15,32% frontend cycles idle     (82,72%)
+       978.887.527      stalled-cycles-backend    #   28,52% backend  cycles idle     (34,04%)
+     3.886.682.231      instructions              #    1,13  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,60%)
+       918.245.322      branches                  #  968,524 M/sec                    (67,11%)
+         2.032.738      branch-misses             #    0,22% of all branches          (83,46%)
+
+       4,496459702 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        953,367729      task-clock (msec)         #    0,213 CPUs utilized          
+               582      context-switches          #    0,610 K/sec                  
+                11      cpu-migrations            #    0,012 K/sec                  
+             4.573      page-faults               #    0,005 M/sec                  
+     3.432.098.409      cycles                    #    3,600 GHz                      (83,54%)
+       581.528.318      stalled-cycles-frontend   #   16,94% frontend cycles idle     (83,68%)
+       962.872.546      stalled-cycles-backend    #   28,05% backend  cycles idle     (33,05%)
+     3.964.440.412      instructions              #    1,16  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,07%)
+       930.454.651      branches                  #  975,966 M/sec                    (67,22%)
+         2.770.327      branch-misses             #    0,30% of all branches          (83,44%)
+
+       4,483284266 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        951,331477      task-clock (msec)         #    0,212 CPUs utilized          
+               611      context-switches          #    0,642 K/sec                  
+                12      cpu-migrations            #    0,013 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.405.972.956      cycles                    #    3,580 GHz                      (83,40%)
+       529.024.338      stalled-cycles-frontend   #   15,53% frontend cycles idle     (83,04%)
+       963.099.994      stalled-cycles-backend    #   28,28% backend  cycles idle     (33,95%)
+     3.866.970.674      instructions              #    1,14  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,40%)
+       921.218.104      branches                  #  968,346 M/sec                    (66,55%)
+         1.972.440      branch-misses             #    0,21% of all branches          (83,21%)
+
+       4,483717962 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        937,970907      task-clock (msec)         #    0,210 CPUs utilized          
+               600      context-switches          #    0,640 K/sec                  
+                 9      cpu-migrations            #    0,010 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.378.155.551      cycles                    #    3,602 GHz                      (83,57%)
+       528.378.883      stalled-cycles-frontend   #   15,64% frontend cycles idle     (82,60%)
+       979.295.827      stalled-cycles-backend    #   28,99% backend  cycles idle     (34,10%)
+     3.818.656.615      instructions              #    1,13  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,92%)
+       903.560.937      branches                  #  963,314 M/sec                    (66,93%)
+         1.958.398      branch-misses             #    0,22% of all branches          (83,72%)
+
+       4,466748964 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        934,593909      task-clock (msec)         #    0,209 CPUs utilized          
+               587      context-switches          #    0,628 K/sec                  
+                10      cpu-migrations            #    0,011 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.350.165.306      cycles                    #    3,585 GHz                      (83,35%)
+       524.998.083      stalled-cycles-frontend   #   15,67% frontend cycles idle     (83,33%)
+       952.207.643      stalled-cycles-backend    #   28,42% backend  cycles idle     (33,46%)
+     3.820.623.767      instructions              #    1,14  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,47%)
+       904.531.155      branches                  #  967,833 M/sec                    (67,33%)
+         1.989.887      branch-misses             #    0,22% of all branches          (83,63%)
+
+       4,470279336 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        923,563309      task-clock (msec)         #    0,207 CPUs utilized          
+               645      context-switches          #    0,698 K/sec                  
+                11      cpu-migrations            #    0,012 K/sec                  
+             4.574      page-faults               #    0,005 M/sec                  
+     3.332.399.341      cycles                    #    3,608 GHz                      (83,75%)
+       514.685.661      stalled-cycles-frontend   #   15,44% frontend cycles idle     (82,91%)
+     1.038.942.475      stalled-cycles-backend    #   31,18% backend  cycles idle     (33,54%)
+     3.795.437.486      instructions              #    1,14  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,27%)
+       902.668.183      branches                  #  977,376 M/sec                    (66,78%)
+         1.880.393      branch-misses             #    0,21% of all branches          (82,64%)
+
+       4,453871268 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/mercury.png':
+
+        942,451130      task-clock (msec)         #    0,211 CPUs utilized          
+               642      context-switches          #    0,681 K/sec                  
+                 9      cpu-migrations            #    0,010 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.386.372.111      cycles                    #    3,593 GHz                      (83,05%)
+       535.534.773      stalled-cycles-frontend   #   15,81% frontend cycles idle     (82,94%)
+       923.164.618      stalled-cycles-backend    #   27,26% backend  cycles idle     (34,22%)
+     3.869.255.684      instructions              #    1,14  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (51,06%)
+       916.101.154      branches                  #  972,041 M/sec                    (67,14%)
+         1.996.304      branch-misses             #    0,22% of all branches          (83,47%)
+
+       4,475054485 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        998,580395      task-clock (msec)         #    0,220 CPUs utilized          
+               601      context-switches          #    0,602 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             4.577      page-faults               #    0,005 M/sec                  
+     3.568.013.352      cycles                    #    3,573 GHz                      (83,17%)
+       590.574.890      stalled-cycles-frontend   #   16,55% frontend cycles idle     (83,64%)
+     1.030.972.420      stalled-cycles-backend    #   28,89% backend  cycles idle     (33,84%)
+     3.954.429.070      instructions              #    1,11  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,58%)
+       924.751.287      branches                  #  926,066 M/sec                    (67,79%)
+         2.129.432      branch-misses             #    0,23% of all branches          (84,29%)
+
+       4,529106481 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        974,777690      task-clock (msec)         #    0,216 CPUs utilized          
+               601      context-switches          #    0,617 K/sec                  
+                13      cpu-migrations            #    0,013 K/sec                  
+             4.066      page-faults               #    0,004 M/sec                  
+     3.537.406.275      cycles                    #    3,629 GHz                      (83,24%)
+       563.639.018      stalled-cycles-frontend   #   15,93% frontend cycles idle     (83,39%)
+     1.091.383.904      stalled-cycles-backend    #   30,85% backend  cycles idle     (34,45%)
+     3.947.512.944      instructions              #    1,12  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,72%)
+       934.420.123      branches                  #  958,598 M/sec                    (67,40%)
+         2.118.117      branch-misses             #    0,23% of all branches          (83,57%)
+
+       4,508181338 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        977,596295      task-clock (msec)         #    0,217 CPUs utilized          
+               751      context-switches          #    0,768 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             4.576      page-faults               #    0,005 M/sec                  
+     3.524.058.886      cycles                    #    3,605 GHz                      (83,14%)
+       529.866.602      stalled-cycles-frontend   #   15,04% frontend cycles idle     (83,55%)
+     1.068.278.086      stalled-cycles-backend    #   30,31% backend  cycles idle     (33,63%)
+     3.996.022.104      instructions              #    1,13  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,88%)
+       946.396.620      branches                  #  968,085 M/sec                    (67,67%)
+         2.185.940      branch-misses             #    0,23% of all branches          (83,77%)
+
+       4,506086037 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        990,052580      task-clock (msec)         #    0,219 CPUs utilized          
+               639      context-switches          #    0,645 K/sec                  
+                13      cpu-migrations            #    0,013 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     3.567.098.029      cycles                    #    3,603 GHz                      (83,40%)
+       564.188.922      stalled-cycles-frontend   #   15,82% frontend cycles idle     (83,41%)
+     1.014.004.643      stalled-cycles-backend    #   28,43% backend  cycles idle     (33,54%)
+     3.981.482.391      instructions              #    1,12  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,87%)
+       941.211.421      branches                  #  950,668 M/sec                    (67,21%)
+         2.137.396      branch-misses             #    0,23% of all branches          (83,58%)
+
+       4,516158773 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+       1010,274068      task-clock (msec)         #    0,222 CPUs utilized          
+               632      context-switches          #    0,626 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             4.574      page-faults               #    0,005 M/sec                  
+     3.649.514.676      cycles                    #    3,612 GHz                      (83,50%)
+       585.471.372      stalled-cycles-frontend   #   16,04% frontend cycles idle     (83,57%)
+     1.107.099.940      stalled-cycles-backend    #   30,34% backend  cycles idle     (33,09%)
+     4.062.615.992      instructions              #    1,11  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,35%)
+       963.812.288      branches                  #  954,011 M/sec                    (66,96%)
+         2.289.633      branch-misses             #    0,24% of all branches          (83,52%)
+
+       4,541100497 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        979,667321      task-clock (msec)         #    0,217 CPUs utilized          
+               793      context-switches          #    0,809 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.542.764.576      cycles                    #    3,616 GHz                      (83,26%)
+       523.271.208      stalled-cycles-frontend   #   14,77% frontend cycles idle     (83,76%)
+     1.049.786.449      stalled-cycles-backend    #   29,63% backend  cycles idle     (33,28%)
+     3.995.567.246      instructions              #    1,13  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,28%)
+       946.649.136      branches                  #  966,297 M/sec                    (66,47%)
+         2.143.379      branch-misses             #    0,23% of all branches          (83,59%)
+
+       4,509239901 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        987,533621      task-clock (msec)         #    0,219 CPUs utilized          
+               668      context-switches          #    0,676 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             4.571      page-faults               #    0,005 M/sec                  
+     3.569.644.264      cycles                    #    3,615 GHz                      (82,99%)
+       561.040.570      stalled-cycles-frontend   #   15,72% frontend cycles idle     (83,55%)
+     1.015.574.546      stalled-cycles-backend    #   28,45% backend  cycles idle     (33,98%)
+     4.055.667.760      instructions              #    1,14  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,48%)
+       951.322.609      branches                  #  963,332 M/sec                    (66,86%)
+         2.244.222      branch-misses             #    0,24% of all branches          (83,27%)
+
+       4,517355542 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        989,547845      task-clock (msec)         #    0,219 CPUs utilized          
+               593      context-switches          #    0,599 K/sec                  
+                11      cpu-migrations            #    0,011 K/sec                  
+             4.573      page-faults               #    0,005 M/sec                  
+     3.586.094.392      cycles                    #    3,624 GHz                      (83,36%)
+       561.441.154      stalled-cycles-frontend   #   15,66% frontend cycles idle     (83,37%)
+     1.009.817.901      stalled-cycles-backend    #   28,16% backend  cycles idle     (34,02%)
+     4.019.373.299      instructions              #    1,12  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,78%)
+       949.641.139      branches                  #  959,672 M/sec                    (67,14%)
+         2.208.935      branch-misses             #    0,23% of all branches          (83,93%)
+
+       4,520478661 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        992,964685      task-clock (msec)         #    0,219 CPUs utilized          
+               605      context-switches          #    0,609 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             4.066      page-faults               #    0,004 M/sec                  
+     3.595.889.780      cycles                    #    3,621 GHz                      (83,62%)
+       569.153.589      stalled-cycles-frontend   #   15,83% frontend cycles idle     (83,26%)
+       995.662.967      stalled-cycles-backend    #   27,69% backend  cycles idle     (33,38%)
+     4.064.128.781      instructions              #    1,13  insns per cycle        
+                                                  #    0,24  stalled cycles per insn  (50,34%)
+       955.058.404      branches                  #  961,825 M/sec                    (67,07%)
+         2.248.911      branch-misses             #    0,24% of all branches          (83,26%)
+
+       4,524568088 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 256 ../sample_files/mercury.png':
+
+        985,582332      task-clock (msec)         #    0,218 CPUs utilized          
+               730      context-switches          #    0,741 K/sec                  
+                10      cpu-migrations            #    0,010 K/sec                  
+             4.067      page-faults               #    0,004 M/sec                  
+     3.558.671.687      cycles                    #    3,611 GHz                      (82,95%)
+       558.048.115      stalled-cycles-frontend   #   15,68% frontend cycles idle     (83,51%)
+     1.073.697.777      stalled-cycles-backend    #   30,17% backend  cycles idle     (33,78%)
+     3.963.369.290      instructions              #    1,11  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,94%)
+       939.013.940      branches                  #  952,750 M/sec                    (67,37%)
+         2.164.886      branch-misses             #    0,23% of all branches          (83,87%)
+
+       4,517932012 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        540,778470      task-clock (msec)         #    0,133 CPUs utilized          
+               779      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.065      page-faults               #    0,008 M/sec                  
+     1.893.250.891      cycles                    #    3,501 GHz                      (84,13%)
+       141.400.342      stalled-cycles-frontend   #    7,47% frontend cycles idle     (83,87%)
+       432.420.272      stalled-cycles-backend    #   22,84% backend  cycles idle     (32,16%)
+     2.779.674.169      instructions              #    1,47  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (51,40%)
+       675.740.832      branches                  # 1249,571 M/sec                    (68,49%)
+           697.089      branch-misses             #    0,10% of all branches          (84,53%)
+
+       4,070691715 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        566,390301      task-clock (msec)         #    0,138 CPUs utilized          
+               540      context-switches          #    0,953 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             4.065      page-faults               #    0,007 M/sec                  
+     1.980.805.654      cycles                    #    3,497 GHz                      (84,25%)
+       187.512.866      stalled-cycles-frontend   #    9,47% frontend cycles idle     (83,35%)
+       445.468.598      stalled-cycles-backend    #   22,49% backend  cycles idle     (32,60%)
+     2.773.922.973      instructions              #    1,40  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (50,90%)
+       675.405.318      branches                  # 1192,473 M/sec                    (68,01%)
+           583.237      branch-misses             #    0,09% of all branches          (84,15%)
+
+       4,095557988 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        569,512908      task-clock (msec)         #    0,139 CPUs utilized          
+               837      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,021 K/sec                  
+             4.574      page-faults               #    0,008 M/sec                  
+     1.979.023.666      cycles                    #    3,475 GHz                      (82,91%)
+       185.645.350      stalled-cycles-frontend   #    9,38% frontend cycles idle     (83,28%)
+       457.109.650      stalled-cycles-backend    #   23,10% backend  cycles idle     (33,99%)
+     2.873.981.321      instructions              #    1,45  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (50,38%)
+       694.058.971      branches                  # 1218,689 M/sec                    (65,92%)
+           645.307      branch-misses             #    0,09% of all branches          (83,04%)
+
+       4,096870074 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        562,735133      task-clock (msec)         #    0,138 CPUs utilized          
+               785      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.574      page-faults               #    0,008 M/sec                  
+     1.948.732.842      cycles                    #    3,463 GHz                      (83,51%)
+       183.623.265      stalled-cycles-frontend   #    9,42% frontend cycles idle     (84,08%)
+       412.685.903      stalled-cycles-backend    #   21,18% backend  cycles idle     (32,59%)
+     2.860.661.294      instructions              #    1,47  insns per cycle        
+                                                  #    0,14  stalled cycles per insn  (49,95%)
+       690.118.959      branches                  # 1226,366 M/sec                    (66,20%)
+           690.574      branch-misses             #    0,10% of all branches          (83,49%)
+
+       4,089980538 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        564,636585      task-clock (msec)         #    0,138 CPUs utilized          
+               573      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             4.065      page-faults               #    0,007 M/sec                  
+     1.949.512.495      cycles                    #    3,453 GHz                      (83,31%)
+       178.036.812      stalled-cycles-frontend   #    9,13% frontend cycles idle     (84,07%)
+       420.347.156      stalled-cycles-backend    #   21,56% backend  cycles idle     (33,61%)
+     2.834.373.551      instructions              #    1,45  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,64%)
+       680.896.238      branches                  # 1205,902 M/sec                    (67,66%)
+           689.249      branch-misses             #    0,10% of all branches          (83,47%)
+
+       4,097190512 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        558,290885      task-clock (msec)         #    0,137 CPUs utilized          
+               570      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             3.990      page-faults               #    0,007 M/sec                  
+     1.960.685.748      cycles                    #    3,512 GHz                      (81,76%)
+       184.580.935      stalled-cycles-frontend   #    9,41% frontend cycles idle     (83,56%)
+       435.593.719      stalled-cycles-backend    #   22,22% backend  cycles idle     (35,07%)
+     2.750.847.387      instructions              #    1,40  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (51,98%)
+       668.785.867      branches                  # 1197,917 M/sec                    (68,53%)
+           642.647      branch-misses             #    0,10% of all branches          (84,11%)
+
+       4,088748130 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        573,895026      task-clock (msec)         #    0,140 CPUs utilized          
+               896      context-switches          #    0,002 M/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             4.576      page-faults               #    0,008 M/sec                  
+     2.001.969.971      cycles                    #    3,488 GHz                      (83,11%)
+       162.525.432      stalled-cycles-frontend   #    8,12% frontend cycles idle     (83,87%)
+       543.173.873      stalled-cycles-backend    #   27,13% backend  cycles idle     (34,40%)
+     2.764.773.201      instructions              #    1,38  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (50,98%)
+       679.014.707      branches                  # 1183,169 M/sec                    (66,54%)
+           625.798      branch-misses             #    0,09% of all branches          (82,70%)
+
+       4,106260232 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        559,744261      task-clock (msec)         #    0,137 CPUs utilized          
+               568      context-switches          #    0,001 M/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             4.576      page-faults               #    0,008 M/sec                  
+     1.947.205.485      cycles                    #    3,479 GHz                      (83,65%)
+       192.090.517      stalled-cycles-frontend   #    9,86% frontend cycles idle     (83,04%)
+       442.307.262      stalled-cycles-backend    #   22,71% backend  cycles idle     (33,96%)
+     2.815.091.377      instructions              #    1,45  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (51,39%)
+       683.301.978      branches                  # 1220,740 M/sec                    (67,24%)
+           598.109      branch-misses             #    0,09% of all branches          (82,82%)
+
+       4,094253060 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        550,804278      task-clock (msec)         #    0,135 CPUs utilized          
+               577      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,022 K/sec                  
+             4.574      page-faults               #    0,008 M/sec                  
+     1.902.573.905      cycles                    #    3,454 GHz                      (84,02%)
+       181.613.768      stalled-cycles-frontend   #    9,55% frontend cycles idle     (83,36%)
+       410.090.362      stalled-cycles-backend    #   21,55% backend  cycles idle     (32,79%)
+     2.723.005.791      instructions              #    1,43  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (51,61%)
+       672.045.831      branches                  # 1220,117 M/sec                    (67,87%)
+           590.610      branch-misses             #    0,09% of all branches          (84,00%)
+
+       4,080519875 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 512 ../sample_files/mercury.png':
+
+        553,637590      task-clock (msec)         #    0,136 CPUs utilized          
+               594      context-switches          #    0,001 M/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             4.573      page-faults               #    0,008 M/sec                  
+     1.936.257.097      cycles                    #    3,497 GHz                      (83,44%)
+       184.276.623      stalled-cycles-frontend   #    9,52% frontend cycles idle     (83,52%)
+       439.429.794      stalled-cycles-backend    #   22,69% backend  cycles idle     (33,48%)
+     2.787.761.270      instructions              #    1,44  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (50,54%)
+       678.969.893      branches                  # 1226,380 M/sec                    (66,54%)
+           570.404      branch-misses             #    0,08% of all branches          (82,49%)
+
+       4,085252011 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        569,570649      task-clock (msec)         #    0,139 CPUs utilized          
+               674      context-switches          #    0,001 M/sec                  
+                16      cpu-migrations            #    0,028 K/sec                  
+             4.065      page-faults               #    0,007 M/sec                  
+     1.962.106.052      cycles                    #    3,445 GHz                      (82,85%)
+       182.819.829      stalled-cycles-frontend   #    9,32% frontend cycles idle     (82,62%)
+       440.151.159      stalled-cycles-backend    #   22,43% backend  cycles idle     (35,56%)
+     2.758.950.231      instructions              #    1,41  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (52,40%)
+       676.861.987      branches                  # 1188,372 M/sec                    (67,90%)
+           646.448      branch-misses             #    0,10% of all branches          (83,49%)
+
+       4,111715284 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        551,206032      task-clock (msec)         #    0,135 CPUs utilized          
+               597      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.578      page-faults               #    0,008 M/sec                  
+     1.911.859.075      cycles                    #    3,469 GHz                      (83,36%)
+       174.121.247      stalled-cycles-frontend   #    9,11% frontend cycles idle     (82,40%)
+       463.343.783      stalled-cycles-backend    #   24,24% backend  cycles idle     (35,31%)
+     2.795.179.659      instructions              #    1,46  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,41%)
+       676.800.996      branches                  # 1227,855 M/sec                    (67,70%)
+           623.400      branch-misses             #    0,09% of all branches          (83,74%)
+
+       4,083761038 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        559,120483      task-clock (msec)         #    0,137 CPUs utilized          
+               613      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.062      page-faults               #    0,007 M/sec                  
+     1.941.931.151      cycles                    #    3,473 GHz                      (83,56%)
+       182.701.138      stalled-cycles-frontend   #    9,41% frontend cycles idle     (83,65%)
+       399.723.898      stalled-cycles-backend    #   20,58% backend  cycles idle     (33,25%)
+     2.783.081.473      instructions              #    1,43  insns per cycle        
+                                                  #    0,14  stalled cycles per insn  (51,02%)
+       672.764.040      branches                  # 1203,254 M/sec                    (68,22%)
+           631.419      branch-misses             #    0,09% of all branches          (83,62%)
+
+       4,090033806 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        541,381597      task-clock (msec)         #    0,133 CPUs utilized          
+               567      context-switches          #    0,001 M/sec                  
+                 8      cpu-migrations            #    0,015 K/sec                  
+             4.065      page-faults               #    0,008 M/sec                  
+     1.882.475.838      cycles                    #    3,477 GHz                      (83,90%)
+       139.995.084      stalled-cycles-frontend   #    7,44% frontend cycles idle     (82,88%)
+       482.136.767      stalled-cycles-backend    #   25,61% backend  cycles idle     (33,36%)
+     2.887.382.557      instructions              #    1,53  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (49,85%)
+       694.554.128      branches                  # 1282,929 M/sec                    (65,99%)
+           639.815      branch-misses             #    0,09% of all branches          (82,77%)
+
+       4,072537437 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        554,221758      task-clock (msec)         #    0,135 CPUs utilized          
+               572      context-switches          #    0,001 M/sec                  
+                16      cpu-migrations            #    0,029 K/sec                  
+             4.067      page-faults               #    0,007 M/sec                  
+     1.901.281.626      cycles                    #    3,431 GHz                      (83,64%)
+       184.863.715      stalled-cycles-frontend   #    9,72% frontend cycles idle     (83,13%)
+       454.938.816      stalled-cycles-backend    #   23,93% backend  cycles idle     (33,60%)
+     2.769.796.013      instructions              #    1,46  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (51,14%)
+       671.631.570      branches                  # 1211,846 M/sec                    (67,92%)
+           642.180      branch-misses             #    0,10% of all branches          (83,71%)
+
+       4,091380704 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        571,630241      task-clock (msec)         #    0,139 CPUs utilized          
+               564      context-switches          #    0,987 K/sec                  
+                10      cpu-migrations            #    0,017 K/sec                  
+             4.065      page-faults               #    0,007 M/sec                  
+     1.972.407.125      cycles                    #    3,450 GHz                      (82,54%)
+       181.650.842      stalled-cycles-frontend   #    9,21% frontend cycles idle     (83,05%)
+       457.762.653      stalled-cycles-backend    #   23,21% backend  cycles idle     (34,76%)
+     2.749.293.331      instructions              #    1,39  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (52,04%)
+       674.493.116      branches                  # 1179,947 M/sec                    (68,21%)
+           713.987      branch-misses             #    0,11% of all branches          (84,42%)
+
+       4,115714570 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        557,246597      task-clock (msec)         #    0,136 CPUs utilized          
+               583      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.574      page-faults               #    0,008 M/sec                  
+     1.926.306.195      cycles                    #    3,457 GHz                      (82,94%)
+       182.390.426      stalled-cycles-frontend   #    9,47% frontend cycles idle     (82,26%)
+       453.375.027      stalled-cycles-backend    #   23,54% backend  cycles idle     (35,15%)
+     2.747.459.846      instructions              #    1,43  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,86%)
+       673.450.918      branches                  # 1208,533 M/sec                    (67,81%)
+           622.491      branch-misses             #    0,09% of all branches          (83,13%)
+
+       4,088026332 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        557,001581      task-clock (msec)         #    0,136 CPUs utilized          
+               644      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.575      page-faults               #    0,008 M/sec                  
+     1.910.369.265      cycles                    #    3,430 GHz                      (83,01%)
+       185.293.437      stalled-cycles-frontend   #    9,70% frontend cycles idle     (83,11%)
+       452.574.549      stalled-cycles-backend    #   23,69% backend  cycles idle     (34,31%)
+     2.764.974.758      instructions              #    1,45  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (51,14%)
+       678.932.738      branches                  # 1218,906 M/sec                    (67,10%)
+           622.572      branch-misses             #    0,09% of all branches          (83,03%)
+
+       4,087451961 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        556,549946      task-clock (msec)         #    0,136 CPUs utilized          
+               548      context-switches          #    0,985 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             4.578      page-faults               #    0,008 M/sec                  
+     1.921.045.444      cycles                    #    3,452 GHz                      (83,26%)
+       182.214.425      stalled-cycles-frontend   #    9,49% frontend cycles idle     (83,80%)
+       435.031.895      stalled-cycles-backend    #   22,65% backend  cycles idle     (33,55%)
+     2.808.470.165      instructions              #    1,46  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,45%)
+       679.079.744      branches                  # 1220,160 M/sec                    (67,23%)
+           608.267      branch-misses             #    0,09% of all branches          (83,50%)
+
+       4,085024104 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 1024 ../sample_files/mercury.png':
+
+        566,598973      task-clock (msec)         #    0,138 CPUs utilized          
+               548      context-switches          #    0,967 K/sec                  
+                14      cpu-migrations            #    0,025 K/sec                  
+             4.067      page-faults               #    0,007 M/sec                  
+     1.950.913.442      cycles                    #    3,443 GHz                      (82,80%)
+       183.101.844      stalled-cycles-frontend   #    9,39% frontend cycles idle     (82,22%)
+       463.593.207      stalled-cycles-backend    #   23,76% backend  cycles idle     (35,12%)
+     2.735.682.896      instructions              #    1,40  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,95%)
+       669.485.810      branches                  # 1181,587 M/sec                    (68,06%)
+           620.796      branch-misses             #    0,09% of all branches          (83,73%)
+
+       4,097655003 seconds time elapsed
+

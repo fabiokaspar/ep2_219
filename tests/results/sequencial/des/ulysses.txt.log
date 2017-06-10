@@ -1,0 +1,190 @@
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2324,268318      task-clock (msec)         #    0,891 CPUs utilized          
+               297      context-switches          #    0,128 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             1.724      page-faults               #    0,742 K/sec                  
+     8.564.600.773      cycles                    #    3,685 GHz                      (83,57%)
+        58.554.175      stalled-cycles-frontend   #    0,68% frontend cycles idle     (82,25%)
+     2.990.145.563      stalled-cycles-backend    #   34,91% backend  cycles idle     (34,50%)
+    19.465.540.210      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,83%)
+       507.305.501      branches                  #  218,265 M/sec                    (67,17%)
+         4.008.938      branch-misses             #    0,79% of all branches          (83,66%)
+
+       2,609046985 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2353,096472      task-clock (msec)         #    0,893 CPUs utilized          
+               234      context-switches          #    0,099 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.726      page-faults               #    0,734 K/sec                  
+     8.620.248.801      cycles                    #    3,663 GHz                      (83,32%)
+        74.858.388      stalled-cycles-frontend   #    0,87% frontend cycles idle     (83,34%)
+     2.986.041.996      stalled-cycles-backend    #   34,64% backend  cycles idle     (33,40%)
+    19.526.463.765      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,03%)
+       507.692.088      branches                  #  215,755 M/sec                    (66,69%)
+         5.717.718      branch-misses             #    1,13% of all branches          (83,33%)
+
+       2,635525933 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2355,122327      task-clock (msec)         #    0,893 CPUs utilized          
+               267      context-switches          #    0,113 K/sec                  
+                 3      cpu-migrations            #    0,001 K/sec                  
+             1.727      page-faults               #    0,733 K/sec                  
+     8.636.255.306      cycles                    #    3,667 GHz                      (83,34%)
+        76.602.166      stalled-cycles-frontend   #    0,89% frontend cycles idle     (83,36%)
+     2.981.120.091      stalled-cycles-backend    #   34,52% backend  cycles idle     (33,38%)
+    19.512.412.650      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,00%)
+       504.493.473      branches                  #  214,211 M/sec                    (66,64%)
+         5.723.764      branch-misses             #    1,13% of all branches          (83,26%)
+
+       2,637469056 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2352,325302      task-clock (msec)         #    0,891 CPUs utilized          
+               233      context-switches          #    0,099 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.726      page-faults               #    0,734 K/sec                  
+     8.624.204.573      cycles                    #    3,666 GHz                      (83,33%)
+        75.955.027      stalled-cycles-frontend   #    0,88% frontend cycles idle     (83,34%)
+     2.990.940.549      stalled-cycles-backend    #   34,68% backend  cycles idle     (33,33%)
+    19.496.836.197      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,19%)
+       502.825.695      branches                  #  213,757 M/sec                    (66,81%)
+         5.504.059      branch-misses             #    1,09% of all branches          (83,37%)
+
+       2,639240242 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2322,694752      task-clock (msec)         #    0,892 CPUs utilized          
+               244      context-switches          #    0,105 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.727      page-faults               #    0,744 K/sec                  
+     8.602.518.855      cycles                    #    3,704 GHz                      (83,30%)
+       105.500.423      stalled-cycles-frontend   #    1,23% frontend cycles idle     (83,28%)
+     2.988.847.744      stalled-cycles-backend    #   34,74% backend  cycles idle     (33,42%)
+    19.503.265.534      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,20%)
+       508.371.843      branches                  #  218,872 M/sec                    (66,82%)
+         2.691.894      branch-misses             #    0,53% of all branches          (83,38%)
+
+       2,603989542 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2345,529638      task-clock (msec)         #    0,893 CPUs utilized          
+               237      context-switches          #    0,101 K/sec                  
+                 4      cpu-migrations            #    0,002 K/sec                  
+             1.726      page-faults               #    0,736 K/sec                  
+     8.626.191.999      cycles                    #    3,678 GHz                      (83,28%)
+        74.735.803      stalled-cycles-frontend   #    0,87% frontend cycles idle     (83,20%)
+     3.008.881.783      stalled-cycles-backend    #   34,88% backend  cycles idle     (33,58%)
+    19.467.839.937      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,24%)
+       504.016.887      branches                  #  214,884 M/sec                    (66,78%)
+         4.411.281      branch-misses             #    0,88% of all branches          (83,31%)
+
+       2,627436406 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2341,274904      task-clock (msec)         #    0,892 CPUs utilized          
+               274      context-switches          #    0,117 K/sec                  
+                 4      cpu-migrations            #    0,002 K/sec                  
+             1.726      page-faults               #    0,737 K/sec                  
+     8.576.260.189      cycles                    #    3,663 GHz                      (83,26%)
+        58.779.003      stalled-cycles-frontend   #    0,69% frontend cycles idle     (83,18%)
+     2.992.381.239      stalled-cycles-backend    #   34,89% backend  cycles idle     (33,57%)
+    19.457.129.266      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,24%)
+       506.676.488      branches                  #  216,411 M/sec                    (66,81%)
+         3.847.295      branch-misses             #    0,76% of all branches          (83,35%)
+
+       2,624146745 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2361,360029      task-clock (msec)         #    0,891 CPUs utilized          
+               232      context-switches          #    0,098 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.729      page-faults               #    0,732 K/sec                  
+     8.644.652.472      cycles                    #    3,661 GHz                      (83,19%)
+        81.963.380      stalled-cycles-frontend   #    0,95% frontend cycles idle     (83,37%)
+     2.978.689.708      stalled-cycles-backend    #   34,46% backend  cycles idle     (33,60%)
+    19.449.058.364      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,18%)
+       509.660.784      branches                  #  215,834 M/sec                    (66,77%)
+         5.652.751      branch-misses             #    1,11% of all branches          (83,37%)
+
+       2,648971225 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2359,244983      task-clock (msec)         #    0,893 CPUs utilized          
+               240      context-switches          #    0,102 K/sec                  
+                 2      cpu-migrations            #    0,001 K/sec                  
+             1.729      page-faults               #    0,733 K/sec                  
+     8.617.681.713      cycles                    #    3,653 GHz                      (83,33%)
+        83.462.980      stalled-cycles-frontend   #    0,97% frontend cycles idle     (83,39%)
+     2.983.651.588      stalled-cycles-backend    #   34,62% backend  cycles idle     (33,55%)
+    19.474.277.451      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,14%)
+       507.803.826      branches                  #  215,240 M/sec                    (66,75%)
+         5.655.726      branch-misses             #    1,11% of all branches          (83,37%)
+
+       2,641004232 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/ulysses.txt':
+
+       2335,313229      task-clock (msec)         #    0,891 CPUs utilized          
+               235      context-switches          #    0,101 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.727      page-faults               #    0,740 K/sec                  
+     8.644.656.714      cycles                    #    3,702 GHz                      (83,24%)
+       110.486.558      stalled-cycles-frontend   #    1,28% frontend cycles idle     (83,40%)
+     2.983.225.875      stalled-cycles-backend    #   34,51% backend  cycles idle     (33,40%)
+    19.499.417.074      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+       507.981.216      branches                  #  217,522 M/sec                    (66,63%)
+         5.589.207      branch-misses             #    1,10% of all branches          (83,23%)
+
+       2,622176522 seconds time elapsed
+

@@ -1,0 +1,1440 @@
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26237,031924      task-clock (msec)         #    0,881 CPUs utilized          
+             3.050      context-switches          #    0,116 K/sec                  
+                 6      cpu-migrations            #    0,000 K/sec                  
+             4.349      page-faults               #    0,166 K/sec                  
+    98.150.104.940      cycles                    #    3,741 GHz                      (83,34%)
+    25.171.070.756      stalled-cycles-frontend   #   25,65% frontend cycles idle     (83,33%)
+    30.267.984.710      stalled-cycles-backend    #   30,84% backend  cycles idle     (33,34%)
+    82.544.075.917      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,00%)
+    18.393.562.519      branches                  #  701,053 M/sec                    (66,66%)
+       103.529.524      branch-misses             #    0,56% of all branches          (83,32%)
+
+      29,768374894 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26261,510896      task-clock (msec)         #    0,882 CPUs utilized          
+             2.846      context-switches          #    0,108 K/sec                  
+                10      cpu-migrations            #    0,000 K/sec                  
+             4.351      page-faults               #    0,166 K/sec                  
+    97.539.911.372      cycles                    #    3,714 GHz                      (83,31%)
+    24.778.628.444      stalled-cycles-frontend   #   25,40% frontend cycles idle     (83,35%)
+    29.456.745.804      stalled-cycles-backend    #   30,20% backend  cycles idle     (33,36%)
+    81.142.057.639      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,04%)
+    18.100.605.134      branches                  #  689,245 M/sec                    (66,69%)
+       105.969.079      branch-misses             #    0,59% of all branches          (83,34%)
+
+      29,787473284 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26240,495412      task-clock (msec)         #    0,882 CPUs utilized          
+             2.997      context-switches          #    0,114 K/sec                  
+                11      cpu-migrations            #    0,000 K/sec                  
+             3.840      page-faults               #    0,146 K/sec                  
+    97.287.327.128      cycles                    #    3,708 GHz                      (83,33%)
+    24.613.398.259      stalled-cycles-frontend   #   25,30% frontend cycles idle     (83,31%)
+    29.271.268.046      stalled-cycles-backend    #   30,09% backend  cycles idle     (33,37%)
+    80.918.833.184      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,06%)
+    18.055.668.102      branches                  #  688,084 M/sec                    (66,71%)
+       101.977.726      branch-misses             #    0,56% of all branches          (83,34%)
+
+      29,764608749 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26250,603465      task-clock (msec)         #    0,882 CPUs utilized          
+             2.996      context-switches          #    0,114 K/sec                  
+                10      cpu-migrations            #    0,000 K/sec                  
+             4.353      page-faults               #    0,166 K/sec                  
+    97.271.475.765      cycles                    #    3,705 GHz                      (83,37%)
+    24.312.503.629      stalled-cycles-frontend   #   24,99% frontend cycles idle     (83,33%)
+    33.020.071.102      stalled-cycles-backend    #   33,95% backend  cycles idle     (33,31%)
+    73.110.161.711      instructions              #    0,75  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (50,01%)
+    16.316.564.516      branches                  #  621,569 M/sec                    (66,68%)
+        96.101.447      branch-misses             #    0,59% of all branches          (83,35%)
+
+      29,777197245 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26221,150454      task-clock (msec)         #    0,881 CPUs utilized          
+             2.872      context-switches          #    0,110 K/sec                  
+                16      cpu-migrations            #    0,001 K/sec                  
+             3.840      page-faults               #    0,146 K/sec                  
+    96.968.114.476      cycles                    #    3,698 GHz                      (83,34%)
+    24.210.831.979      stalled-cycles-frontend   #   24,97% frontend cycles idle     (83,34%)
+    28.014.708.559      stalled-cycles-backend    #   28,89% backend  cycles idle     (33,33%)
+    82.725.755.990      instructions              #    0,85  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,03%)
+    18.458.319.766      branches                  #  703,948 M/sec                    (66,67%)
+       119.146.556      branch-misses             #    0,65% of all branches          (83,35%)
+
+      29,765606216 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26256,172185      task-clock (msec)         #    0,881 CPUs utilized          
+             3.049      context-switches          #    0,116 K/sec                  
+                10      cpu-migrations            #    0,000 K/sec                  
+             3.839      page-faults               #    0,146 K/sec                  
+    97.239.331.688      cycles                    #    3,703 GHz                      (83,33%)
+    25.412.494.266      stalled-cycles-frontend   #   26,13% frontend cycles idle     (83,35%)
+    29.981.412.690      stalled-cycles-backend    #   30,83% backend  cycles idle     (33,32%)
+    78.852.080.483      instructions              #    0,81  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,03%)
+    17.594.118.675      branches                  #  670,095 M/sec                    (66,67%)
+       107.430.295      branch-misses             #    0,61% of all branches          (83,33%)
+
+      29,786867834 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26229,163570      task-clock (msec)         #    0,881 CPUs utilized          
+             3.190      context-switches          #    0,122 K/sec                  
+                12      cpu-migrations            #    0,000 K/sec                  
+             3.843      page-faults               #    0,147 K/sec                  
+    97.104.690.973      cycles                    #    3,702 GHz                      (83,33%)
+    24.543.759.083      stalled-cycles-frontend   #   25,28% frontend cycles idle     (83,36%)
+    30.269.513.394      stalled-cycles-backend    #   31,17% backend  cycles idle     (33,33%)
+    81.436.288.779      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,05%)
+    18.162.915.581      branches                  #  692,470 M/sec                    (66,73%)
+       102.220.350      branch-misses             #    0,56% of all branches          (83,35%)
+
+      29,755459784 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26242,135248      task-clock (msec)         #    0,881 CPUs utilized          
+             2.828      context-switches          #    0,108 K/sec                  
+                12      cpu-migrations            #    0,000 K/sec                  
+             3.840      page-faults               #    0,146 K/sec                  
+    97.191.248.597      cycles                    #    3,704 GHz                      (83,34%)
+    23.617.378.474      stalled-cycles-frontend   #   24,30% frontend cycles idle     (83,32%)
+    29.607.286.612      stalled-cycles-backend    #   30,46% backend  cycles idle     (33,35%)
+    82.066.596.227      instructions              #    0,84  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,01%)
+    18.291.139.462      branches                  #  697,014 M/sec                    (66,67%)
+       103.735.133      branch-misses             #    0,57% of all branches          (83,32%)
+
+      29,776196159 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26229,120506      task-clock (msec)         #    0,881 CPUs utilized          
+             3.055      context-switches          #    0,116 K/sec                  
+                13      cpu-migrations            #    0,000 K/sec                  
+             3.839      page-faults               #    0,146 K/sec                  
+    97.058.651.504      cycles                    #    3,700 GHz                      (83,35%)
+    23.814.617.243      stalled-cycles-frontend   #   24,54% frontend cycles idle     (83,34%)
+    29.626.095.975      stalled-cycles-backend    #   30,52% backend  cycles idle     (33,31%)
+    82.080.405.009      instructions              #    0,85  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,03%)
+    18.304.661.432      branches                  #  697,876 M/sec                    (66,68%)
+       103.067.360      branch-misses             #    0,56% of all branches          (83,35%)
+
+      29,757497397 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/mercury.png':
+
+      26255,365823      task-clock (msec)         #    0,881 CPUs utilized          
+             3.074      context-switches          #    0,117 K/sec                  
+                14      cpu-migrations            #    0,001 K/sec                  
+             3.840      page-faults               #    0,146 K/sec                  
+    98.642.706.234      cycles                    #    3,757 GHz                      (83,32%)
+    25.944.948.586      stalled-cycles-frontend   #   26,30% frontend cycles idle     (83,37%)
+    22.144.088.556      stalled-cycles-backend    #   22,45% backend  cycles idle     (33,34%)
+    96.229.844.001      instructions              #    0,98  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (49,98%)
+    21.459.075.859      branches                  #  817,322 M/sec                    (66,63%)
+       126.410.848      branch-misses             #    0,59% of all branches          (83,30%)
+
+      29,789753150 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13698,845864      task-clock (msec)         #    0,795 CPUs utilized          
+             1.884      context-switches          #    0,138 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+             4.349      page-faults               #    0,317 K/sec                  
+    50.680.055.135      cycles                    #    3,700 GHz                      (83,35%)
+    12.389.517.915      stalled-cycles-frontend   #   24,45% frontend cycles idle     (83,29%)
+    15.319.821.093      stalled-cycles-backend    #   30,23% backend  cycles idle     (33,39%)
+    43.129.357.402      instructions              #    0,85  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,09%)
+     9.639.244.587      branches                  #  703,654 M/sec                    (66,73%)
+        53.695.793      branch-misses             #    0,56% of all branches          (83,37%)
+
+      17,226289310 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13709,092830      task-clock (msec)         #    0,795 CPUs utilized          
+             1.820      context-switches          #    0,133 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+             3.842      page-faults               #    0,280 K/sec                  
+    51.331.050.940      cycles                    #    3,744 GHz                      (83,37%)
+    12.955.553.278      stalled-cycles-frontend   #   25,24% frontend cycles idle     (83,27%)
+    13.655.335.748      stalled-cycles-backend    #   26,60% backend  cycles idle     (33,38%)
+    47.154.882.655      instructions              #    0,92  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,11%)
+    10.542.347.883      branches                  #  769,004 M/sec                    (66,72%)
+        59.878.193      branch-misses             #    0,57% of all branches          (83,34%)
+
+      17,238754358 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13693,825008      task-clock (msec)         #    0,795 CPUs utilized          
+             2.033      context-switches          #    0,148 K/sec                  
+                15      cpu-migrations            #    0,001 K/sec                  
+             3.838      page-faults               #    0,280 K/sec                  
+    51.160.204.324      cycles                    #    3,736 GHz                      (83,34%)
+    12.588.630.015      stalled-cycles-frontend   #   24,61% frontend cycles idle     (83,29%)
+    14.262.040.898      stalled-cycles-backend    #   27,88% backend  cycles idle     (33,37%)
+    46.354.926.076      instructions              #    0,91  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,05%)
+    10.364.167.110      branches                  #  756,850 M/sec                    (66,70%)
+        57.055.660      branch-misses             #    0,55% of all branches          (83,33%)
+
+      17,229668465 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13694,494438      task-clock (msec)         #    0,795 CPUs utilized          
+             1.800      context-switches          #    0,131 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.351      page-faults               #    0,318 K/sec                  
+    51.022.903.381      cycles                    #    3,726 GHz                      (83,24%)
+    12.670.783.500      stalled-cycles-frontend   #   24,83% frontend cycles idle     (83,36%)
+    13.851.983.393      stalled-cycles-backend    #   27,15% backend  cycles idle     (33,41%)
+    46.062.254.906      instructions              #    0,90  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,10%)
+    10.305.703.077      branches                  #  752,544 M/sec                    (66,72%)
+        57.808.154      branch-misses             #    0,56% of all branches          (83,35%)
+
+      17,222782779 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13704,079654      task-clock (msec)         #    0,795 CPUs utilized          
+             1.831      context-switches          #    0,134 K/sec                  
+                12      cpu-migrations            #    0,001 K/sec                  
+             4.350      page-faults               #    0,317 K/sec                  
+    51.476.459.844      cycles                    #    3,756 GHz                      (83,33%)
+    12.950.197.911      stalled-cycles-frontend   #   25,16% frontend cycles idle     (83,35%)
+    12.289.350.293      stalled-cycles-backend    #   23,87% backend  cycles idle     (33,32%)
+    49.831.701.841      instructions              #    0,97  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (49,95%)
+    11.133.463.716      branches                  #  812,420 M/sec                    (66,61%)
+        63.353.618      branch-misses             #    0,57% of all branches          (83,28%)
+
+      17,232516832 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13691,743343      task-clock (msec)         #    0,795 CPUs utilized          
+             1.891      context-switches          #    0,138 K/sec                  
+                13      cpu-migrations            #    0,001 K/sec                  
+             4.352      page-faults               #    0,318 K/sec                  
+    50.700.684.193      cycles                    #    3,703 GHz                      (83,33%)
+    12.708.053.613      stalled-cycles-frontend   #   25,06% frontend cycles idle     (83,35%)
+    15.228.621.674      stalled-cycles-backend    #   30,04% backend  cycles idle     (33,32%)
+    42.990.112.310      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,05%)
+     9.605.771.353      branches                  #  701,574 M/sec                    (66,76%)
+        54.213.898      branch-misses             #    0,56% of all branches          (83,41%)
+
+      17,219549549 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13688,195668      task-clock (msec)         #    0,795 CPUs utilized          
+             1.838      context-switches          #    0,134 K/sec                  
+                13      cpu-migrations            #    0,001 K/sec                  
+             3.841      page-faults               #    0,281 K/sec                  
+    51.105.926.224      cycles                    #    3,734 GHz                      (83,29%)
+    12.806.692.823      stalled-cycles-frontend   #   25,06% frontend cycles idle     (83,34%)
+    13.512.417.165      stalled-cycles-backend    #   26,44% backend  cycles idle     (33,40%)
+    46.874.676.864      instructions              #    0,92  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,05%)
+    10.484.677.049      branches                  #  765,965 M/sec                    (66,68%)
+        57.823.743      branch-misses             #    0,55% of all branches          (83,33%)
+
+      17,227015648 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13713,155581      task-clock (msec)         #    0,795 CPUs utilized          
+             1.836      context-switches          #    0,134 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+             3.839      page-faults               #    0,280 K/sec                  
+    50.783.717.244      cycles                    #    3,703 GHz                      (83,37%)
+    13.021.174.650      stalled-cycles-frontend   #   25,64% frontend cycles idle     (83,35%)
+    15.215.616.140      stalled-cycles-backend    #   29,96% backend  cycles idle     (33,28%)
+    43.273.622.657      instructions              #    0,85  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,05%)
+     9.682.487.868      branches                  #  706,073 M/sec                    (66,70%)
+        54.705.417      branch-misses             #    0,56% of all branches          (83,35%)
+
+      17,239508113 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13663,871903      task-clock (msec)         #    0,795 CPUs utilized          
+             1.839      context-switches          #    0,135 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             3.842      page-faults               #    0,281 K/sec                  
+    51.219.051.615      cycles                    #    3,749 GHz                      (83,33%)
+    13.204.681.022      stalled-cycles-frontend   #   25,78% frontend cycles idle     (83,36%)
+    14.106.487.639      stalled-cycles-backend    #   27,54% backend  cycles idle     (33,35%)
+    46.293.432.677      instructions              #    0,90  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,10%)
+    10.340.851.079      branches                  #  756,802 M/sec                    (66,72%)
+        57.521.518      branch-misses             #    0,56% of all branches          (83,32%)
+
+      17,193359105 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/mercury.png':
+
+      13694,965274      task-clock (msec)         #    0,795 CPUs utilized          
+             1.807      context-switches          #    0,132 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             3.839      page-faults               #    0,280 K/sec                  
+    50.704.207.552      cycles                    #    3,702 GHz                      (83,31%)
+    12.438.240.835      stalled-cycles-frontend   #   24,53% frontend cycles idle     (83,33%)
+    14.898.758.870      stalled-cycles-backend    #   29,38% backend  cycles idle     (33,38%)
+    43.797.351.723      instructions              #    0,86  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,11%)
+     9.799.153.327      branches                  #  715,530 M/sec                    (66,72%)
+        55.316.304      branch-misses             #    0,56% of all branches          (83,36%)
+
+      17,225305267 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8038,029420      task-clock (msec)         #    0,695 CPUs utilized          
+             1.393      context-switches          #    0,173 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             4.351      page-faults               #    0,541 K/sec                  
+    29.756.493.726      cycles                    #    3,702 GHz                      (83,34%)
+     7.201.053.971      stalled-cycles-frontend   #   24,20% frontend cycles idle     (83,33%)
+     8.829.091.322      stalled-cycles-backend    #   29,67% backend  cycles idle     (33,33%)
+    25.975.208.944      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,09%)
+     5.835.253.903      branches                  #  725,956 M/sec                    (66,76%)
+        30.748.922      branch-misses             #    0,53% of all branches          (83,40%)
+
+      11,569884595 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8014,045412      task-clock (msec)         #    0,694 CPUs utilized          
+             1.257      context-switches          #    0,157 K/sec                  
+                15      cpu-migrations            #    0,002 K/sec                  
+             3.837      page-faults               #    0,479 K/sec                  
+    29.668.848.226      cycles                    #    3,702 GHz                      (83,30%)
+     7.331.126.208      stalled-cycles-frontend   #   24,71% frontend cycles idle     (83,37%)
+     9.010.592.202      stalled-cycles-backend    #   30,37% backend  cycles idle     (33,38%)
+    25.871.639.368      instructions              #    0,87  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (49,99%)
+     5.809.686.786      branches                  #  724,938 M/sec                    (66,66%)
+        30.331.017      branch-misses             #    0,52% of all branches          (83,31%)
+
+      11,549459048 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8010,830524      task-clock (msec)         #    0,694 CPUs utilized          
+             1.437      context-switches          #    0,179 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+             4.352      page-faults               #    0,543 K/sec                  
+    29.817.242.735      cycles                    #    3,722 GHz                      (83,23%)
+     7.675.584.510      stalled-cycles-frontend   #   25,74% frontend cycles idle     (83,30%)
+     8.079.546.084      stalled-cycles-backend    #   27,10% backend  cycles idle     (33,51%)
+    26.958.008.722      instructions              #    0,90  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,14%)
+     6.052.038.670      branches                  #  755,482 M/sec                    (66,74%)
+        31.880.158      branch-misses             #    0,53% of all branches          (83,31%)
+
+      11,538527084 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8004,338884      task-clock (msec)         #    0,693 CPUs utilized          
+             1.298      context-switches          #    0,162 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             4.351      page-faults               #    0,544 K/sec                  
+    29.905.097.290      cycles                    #    3,736 GHz                      (83,38%)
+     7.284.897.539      stalled-cycles-frontend   #   24,36% frontend cycles idle     (83,28%)
+     9.262.145.229      stalled-cycles-backend    #   30,97% backend  cycles idle     (33,37%)
+    25.370.685.734      instructions              #    0,85  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,04%)
+     5.698.631.581      branches                  #  711,943 M/sec                    (66,66%)
+        30.414.125      branch-misses             #    0,53% of all branches          (83,29%)
+
+      11,542917316 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8028,070916      task-clock (msec)         #    0,694 CPUs utilized          
+             1.306      context-switches          #    0,163 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             3.838      page-faults               #    0,478 K/sec                  
+    30.015.488.901      cycles                    #    3,739 GHz                      (83,33%)
+     7.506.369.623      stalled-cycles-frontend   #   25,01% frontend cycles idle     (83,28%)
+     7.401.383.124      stalled-cycles-backend    #   24,66% backend  cycles idle     (33,40%)
+    28.948.407.628      instructions              #    0,96  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,14%)
+     6.497.002.913      branches                  #  809,286 M/sec                    (66,79%)
+        35.507.192      branch-misses             #    0,55% of all branches          (83,39%)
+
+      11,560356593 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8008,291340      task-clock (msec)         #    0,694 CPUs utilized          
+             1.280      context-switches          #    0,160 K/sec                  
+                12      cpu-migrations            #    0,001 K/sec                  
+             3.840      page-faults               #    0,480 K/sec                  
+    29.657.225.767      cycles                    #    3,703 GHz                      (83,30%)
+     7.053.721.248      stalled-cycles-frontend   #   23,78% frontend cycles idle     (83,32%)
+     9.296.076.638      stalled-cycles-backend    #   31,35% backend  cycles idle     (33,42%)
+    25.872.285.357      instructions              #    0,87  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,09%)
+     5.813.214.620      branches                  #  725,899 M/sec                    (66,70%)
+        30.429.831      branch-misses             #    0,52% of all branches          (83,33%)
+
+      11,540441658 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8044,514051      task-clock (msec)         #    0,695 CPUs utilized          
+             1.279      context-switches          #    0,159 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             3.838      page-faults               #    0,477 K/sec                  
+    29.802.258.154      cycles                    #    3,705 GHz                      (83,39%)
+     7.156.161.162      stalled-cycles-frontend   #   24,01% frontend cycles idle     (83,39%)
+     9.126.599.316      stalled-cycles-backend    #   30,62% backend  cycles idle     (33,22%)
+    25.766.788.551      instructions              #    0,86  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,05%)
+     5.784.342.411      branches                  #  719,042 M/sec                    (66,77%)
+        30.313.266      branch-misses             #    0,52% of all branches          (83,38%)
+
+      11,581304789 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8021,539629      task-clock (msec)         #    0,694 CPUs utilized          
+             1.298      context-switches          #    0,162 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.350      page-faults               #    0,542 K/sec                  
+    29.714.692.544      cycles                    #    3,704 GHz                      (83,29%)
+     7.124.062.899      stalled-cycles-frontend   #   23,97% frontend cycles idle     (83,27%)
+     9.051.359.316      stalled-cycles-backend    #   30,46% backend  cycles idle     (33,47%)
+    26.177.898.182      instructions              #    0,88  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,18%)
+     5.877.473.008      branches                  #  732,711 M/sec                    (66,77%)
+        30.906.994      branch-misses             #    0,53% of all branches          (83,39%)
+
+      11,556056236 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8032,911111      task-clock (msec)         #    0,694 CPUs utilized          
+             1.294      context-switches          #    0,161 K/sec                  
+                12      cpu-migrations            #    0,001 K/sec                  
+             3.841      page-faults               #    0,478 K/sec                  
+    29.866.014.362      cycles                    #    3,718 GHz                      (83,34%)
+     7.176.844.300      stalled-cycles-frontend   #   24,03% frontend cycles idle     (83,33%)
+     8.479.560.490      stalled-cycles-backend    #   28,39% backend  cycles idle     (33,37%)
+    26.487.249.838      instructions              #    0,89  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,16%)
+     5.944.609.676      branches                  #  740,032 M/sec                    (66,79%)
+        31.742.603      branch-misses             #    0,53% of all branches          (83,40%)
+
+      11,570861984 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/mercury.png':
+
+       8040,303514      task-clock (msec)         #    0,695 CPUs utilized          
+             1.321      context-switches          #    0,164 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.350      page-faults               #    0,541 K/sec                  
+    29.801.293.435      cycles                    #    3,706 GHz                      (83,26%)
+     7.156.991.364      stalled-cycles-frontend   #   24,02% frontend cycles idle     (83,32%)
+     9.004.479.065      stalled-cycles-backend    #   30,22% backend  cycles idle     (33,44%)
+    25.702.731.755      instructions              #    0,86  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,07%)
+     5.774.415.332      branches                  #  718,184 M/sec                    (66,68%)
+        30.198.135      branch-misses             #    0,52% of all branches          (83,30%)
+
+      11,571642422 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7256,880286      task-clock (msec)         #    0,672 CPUs utilized          
+             1.198      context-switches          #    0,165 K/sec                  
+                11      cpu-migrations            #    0,002 K/sec                  
+             4.348      page-faults               #    0,599 K/sec                  
+    27.138.494.836      cycles                    #    3,740 GHz                      (83,18%)
+     6.763.975.012      stalled-cycles-frontend   #   24,92% frontend cycles idle     (83,35%)
+     6.775.625.606      stalled-cycles-backend    #   24,97% backend  cycles idle     (33,53%)
+    26.055.964.495      instructions              #    0,96  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,13%)
+     5.854.409.599      branches                  #  806,739 M/sec                    (66,75%)
+        30.995.901      branch-misses             #    0,53% of all branches          (83,32%)
+
+      10,792703558 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7220,392776      task-clock (msec)         #    0,671 CPUs utilized          
+             1.096      context-switches          #    0,152 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.352      page-faults               #    0,603 K/sec                  
+    26.754.410.865      cycles                    #    3,705 GHz                      (83,32%)
+     6.672.068.100      stalled-cycles-frontend   #   24,94% frontend cycles idle     (83,39%)
+     7.675.533.540      stalled-cycles-backend    #   28,69% backend  cycles idle     (33,38%)
+    23.361.314.102      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,16%)
+     5.252.530.668      branches                  #  727,458 M/sec                    (66,76%)
+        27.212.428      branch-misses             #    0,52% of all branches          (83,37%)
+
+      10,752987316 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7274,591209      task-clock (msec)         #    0,673 CPUs utilized          
+             1.351      context-switches          #    0,186 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.840      page-faults               #    0,528 K/sec                  
+    27.244.405.686      cycles                    #    3,745 GHz                      (83,18%)
+     6.957.976.312      stalled-cycles-frontend   #   25,54% frontend cycles idle     (83,30%)
+     6.354.304.100      stalled-cycles-backend    #   23,32% backend  cycles idle     (33,55%)
+    26.721.285.569      instructions              #    0,98  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,12%)
+     5.999.895.929      branches                  #  824,774 M/sec                    (66,71%)
+        31.670.330      branch-misses             #    0,53% of all branches          (83,39%)
+
+      10,806913098 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7245,847950      task-clock (msec)         #    0,672 CPUs utilized          
+             1.198      context-switches          #    0,165 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.354      page-faults               #    0,601 K/sec                  
+    27.109.049.174      cycles                    #    3,741 GHz                      (83,36%)
+     6.702.770.160      stalled-cycles-frontend   #   24,73% frontend cycles idle     (83,33%)
+     6.507.367.710      stalled-cycles-backend    #   24,00% backend  cycles idle     (33,33%)
+    26.679.397.844      instructions              #    0,98  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,13%)
+     5.984.302.046      branches                  #  825,894 M/sec                    (66,75%)
+        31.648.094      branch-misses             #    0,53% of all branches          (83,41%)
+
+      10,781569848 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7266,386873      task-clock (msec)         #    0,673 CPUs utilized          
+             1.215      context-switches          #    0,167 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             4.354      page-faults               #    0,599 K/sec                  
+    26.898.242.301      cycles                    #    3,702 GHz                      (83,38%)
+     6.444.724.743      stalled-cycles-frontend   #   23,96% frontend cycles idle     (83,38%)
+     8.125.430.322      stalled-cycles-backend    #   30,21% backend  cycles idle     (33,29%)
+    23.450.901.938      instructions              #    0,87  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,02%)
+     5.270.838.707      branches                  #  725,373 M/sec                    (66,65%)
+        29.064.678      branch-misses             #    0,55% of all branches          (83,24%)
+
+      10,800567851 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7256,697571      task-clock (msec)         #    0,673 CPUs utilized          
+             1.236      context-switches          #    0,170 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.349      page-faults               #    0,599 K/sec                  
+    26.895.826.783      cycles                    #    3,706 GHz                      (83,29%)
+     6.650.767.151      stalled-cycles-frontend   #   24,73% frontend cycles idle     (83,38%)
+     7.781.800.705      stalled-cycles-backend    #   28,93% backend  cycles idle     (33,42%)
+    23.512.511.327      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,04%)
+     5.286.475.944      branches                  #  728,496 M/sec                    (66,64%)
+        27.373.308      branch-misses             #    0,52% of all branches          (83,31%)
+
+      10,787531977 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7239,858273      task-clock (msec)         #    0,672 CPUs utilized          
+             1.277      context-switches          #    0,176 K/sec                  
+                 8      cpu-migrations            #    0,001 K/sec                  
+             4.350      page-faults               #    0,601 K/sec                  
+    26.841.546.355      cycles                    #    3,707 GHz                      (83,42%)
+     6.769.879.987      stalled-cycles-frontend   #   25,22% frontend cycles idle     (83,34%)
+     7.910.886.645      stalled-cycles-backend    #   29,47% backend  cycles idle     (33,24%)
+    23.544.151.340      instructions              #    0,88  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,04%)
+     5.294.058.335      branches                  #  731,238 M/sec                    (66,72%)
+        27.468.677      branch-misses             #    0,52% of all branches          (83,32%)
+
+      10,772014288 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7260,382557      task-clock (msec)         #    0,673 CPUs utilized          
+             1.219      context-switches          #    0,168 K/sec                  
+                15      cpu-migrations            #    0,002 K/sec                  
+             4.352      page-faults               #    0,599 K/sec                  
+    26.917.093.101      cycles                    #    3,707 GHz                      (83,30%)
+     6.448.503.674      stalled-cycles-frontend   #   23,96% frontend cycles idle     (83,35%)
+     8.124.744.136      stalled-cycles-backend    #   30,18% backend  cycles idle     (33,36%)
+    23.709.570.467      instructions              #    0,88  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (49,95%)
+     5.328.032.864      branches                  #  733,850 M/sec                    (66,62%)
+        27.712.216      branch-misses             #    0,52% of all branches          (83,20%)
+
+      10,793117248 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7235,033174      task-clock (msec)         #    0,672 CPUs utilized          
+             1.090      context-switches          #    0,151 K/sec                  
+                 8      cpu-migrations            #    0,001 K/sec                  
+             4.353      page-faults               #    0,602 K/sec                  
+    26.849.380.267      cycles                    #    3,711 GHz                      (83,40%)
+     6.259.086.449      stalled-cycles-frontend   #   23,31% frontend cycles idle     (83,36%)
+     8.914.462.636      stalled-cycles-backend    #   33,20% backend  cycles idle     (33,24%)
+    22.001.835.970      instructions              #    0,82  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,15%)
+     4.955.223.529      branches                  #  684,893 M/sec                    (66,80%)
+        26.471.313      branch-misses             #    0,53% of all branches          (83,39%)
+
+      10,764362173 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/mercury.png':
+
+       7249,582960      task-clock (msec)         #    0,672 CPUs utilized          
+             1.404      context-switches          #    0,194 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.840      page-faults               #    0,530 K/sec                  
+    26.524.711.424      cycles                    #    3,659 GHz                      (83,37%)
+     6.451.660.734      stalled-cycles-frontend   #   24,32% frontend cycles idle     (83,35%)
+     8.248.824.454      stalled-cycles-backend    #   31,10% backend  cycles idle     (33,29%)
+    22.388.121.029      instructions              #    0,84  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,06%)
+     5.032.940.711      branches                  #  694,239 M/sec                    (66,75%)
+        26.837.202      branch-misses             #    0,53% of all branches          (83,36%)
+
+      10,783688178 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7296,865387      task-clock (msec)         #    0,674 CPUs utilized          
+             1.241      context-switches          #    0,170 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             4.351      page-faults               #    0,596 K/sec                  
+    27.168.252.689      cycles                    #    3,723 GHz                      (83,29%)
+     6.926.419.898      stalled-cycles-frontend   #   25,49% frontend cycles idle     (83,33%)
+     7.211.196.945      stalled-cycles-backend    #   26,54% backend  cycles idle     (33,47%)
+    24.696.611.469      instructions              #    0,91  insns per cycle        
+                                                  #    0,29  stalled cycles per insn  (50,15%)
+     5.548.569.261      branches                  #  760,404 M/sec                    (66,78%)
+        29.270.488      branch-misses             #    0,53% of all branches          (83,37%)
+
+      10,826442682 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7287,316949      task-clock (msec)         #    0,673 CPUs utilized          
+             1.242      context-switches          #    0,170 K/sec                  
+                 8      cpu-migrations            #    0,001 K/sec                  
+             3.838      page-faults               #    0,527 K/sec                  
+    27.158.140.490      cycles                    #    3,727 GHz                      (83,39%)
+     6.463.190.614      stalled-cycles-frontend   #   23,80% frontend cycles idle     (83,40%)
+     9.627.532.799      stalled-cycles-backend    #   35,45% backend  cycles idle     (33,22%)
+    21.266.242.488      instructions              #    0,78  insns per cycle        
+                                                  #    0,45  stalled cycles per insn  (50,05%)
+     4.783.467.595      branches                  #  656,410 M/sec                    (66,76%)
+        24.459.759      branch-misses             #    0,51% of all branches          (83,38%)
+
+      10,822047315 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7309,312593      task-clock (msec)         #    0,674 CPUs utilized          
+             1.270      context-switches          #    0,174 K/sec                  
+                15      cpu-migrations            #    0,002 K/sec                  
+             3.840      page-faults               #    0,525 K/sec                  
+    27.295.652.545      cycles                    #    3,734 GHz                      (83,15%)
+     6.909.184.997      stalled-cycles-frontend   #   25,31% frontend cycles idle     (83,32%)
+     7.249.562.109      stalled-cycles-backend    #   26,56% backend  cycles idle     (33,57%)
+    25.506.161.521      instructions              #    0,93  insns per cycle        
+                                                  #    0,28  stalled cycles per insn  (50,31%)
+     5.729.171.213      branches                  #  783,818 M/sec                    (66,91%)
+        30.017.728      branch-misses             #    0,52% of all branches          (83,44%)
+
+      10,838983020 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7297,597835      task-clock (msec)         #    0,674 CPUs utilized          
+             1.213      context-switches          #    0,166 K/sec                  
+                14      cpu-migrations            #    0,002 K/sec                  
+             3.839      page-faults               #    0,526 K/sec                  
+    27.293.566.789      cycles                    #    3,740 GHz                      (83,37%)
+     6.766.115.957      stalled-cycles-frontend   #   24,79% frontend cycles idle     (83,35%)
+     6.987.437.731      stalled-cycles-backend    #   25,60% backend  cycles idle     (33,35%)
+    25.790.181.989      instructions              #    0,94  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (49,99%)
+     5.792.926.435      branches                  #  793,813 M/sec                    (66,57%)
+        33.324.562      branch-misses             #    0,58% of all branches          (83,25%)
+
+      10,827538454 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7291,127179      task-clock (msec)         #    0,674 CPUs utilized          
+             1.184      context-switches          #    0,162 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             4.352      page-faults               #    0,597 K/sec                  
+    27.325.425.981      cycles                    #    3,748 GHz                      (83,25%)
+     7.141.485.889      stalled-cycles-frontend   #   26,13% frontend cycles idle     (83,32%)
+     6.499.307.894      stalled-cycles-backend    #   23,78% backend  cycles idle     (33,43%)
+    26.325.085.196      instructions              #    0,96  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,13%)
+     5.915.574.920      branches                  #  811,339 M/sec                    (66,73%)
+        31.576.555      branch-misses             #    0,53% of all branches          (83,36%)
+
+      10,823185364 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7300,772564      task-clock (msec)         #    0,674 CPUs utilized          
+             1.024      context-switches          #    0,140 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             4.346      page-faults               #    0,595 K/sec                  
+    27.101.790.284      cycles                    #    3,712 GHz                      (83,36%)
+     6.507.801.162      stalled-cycles-frontend   #   24,01% frontend cycles idle     (83,42%)
+     8.016.489.182      stalled-cycles-backend    #   29,58% backend  cycles idle     (33,26%)
+    23.662.720.836      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,05%)
+     5.318.345.043      branches                  #  728,463 M/sec                    (66,70%)
+        29.082.730      branch-misses             #    0,55% of all branches          (83,33%)
+
+      10,830321308 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7305,803487      task-clock (msec)         #    0,674 CPUs utilized          
+             1.256      context-switches          #    0,172 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+             3.842      page-faults               #    0,526 K/sec                  
+    27.084.218.757      cycles                    #    3,707 GHz                      (83,32%)
+     6.719.306.951      stalled-cycles-frontend   #   24,81% frontend cycles idle     (83,26%)
+     7.800.403.046      stalled-cycles-backend    #   28,80% backend  cycles idle     (33,46%)
+    23.698.806.451      instructions              #    0,88  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,11%)
+     5.326.060.733      branches                  #  729,018 M/sec                    (66,73%)
+        27.622.584      branch-misses             #    0,52% of all branches          (83,34%)
+
+      10,832205677 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7304,187105      task-clock (msec)         #    0,674 CPUs utilized          
+             1.239      context-switches          #    0,170 K/sec                  
+                11      cpu-migrations            #    0,002 K/sec                  
+             3.843      page-faults               #    0,526 K/sec                  
+    27.057.896.763      cycles                    #    3,704 GHz                      (83,34%)
+     6.542.946.593      stalled-cycles-frontend   #   24,18% frontend cycles idle     (83,32%)
+     8.338.948.188      stalled-cycles-backend    #   30,82% backend  cycles idle     (33,37%)
+    23.572.406.755      instructions              #    0,87  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,03%)
+     5.294.585.095      branches                  #  724,870 M/sec                    (66,62%)
+        27.492.574      branch-misses             #    0,52% of all branches          (83,24%)
+
+      10,837284182 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7291,241881      task-clock (msec)         #    0,674 CPUs utilized          
+             1.228      context-switches          #    0,168 K/sec                  
+                11      cpu-migrations            #    0,002 K/sec                  
+             4.351      page-faults               #    0,597 K/sec                  
+    27.048.130.329      cycles                    #    3,710 GHz                      (83,29%)
+     6.795.381.655      stalled-cycles-frontend   #   25,12% frontend cycles idle     (83,35%)
+     8.084.406.862      stalled-cycles-backend    #   29,89% backend  cycles idle     (33,37%)
+    23.616.571.180      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,15%)
+     5.313.133.466      branches                  #  728,701 M/sec                    (66,81%)
+        27.521.348      branch-misses             #    0,52% of all branches          (83,39%)
+
+      10,818116274 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/mercury.png':
+
+       7287,999257      task-clock (msec)         #    0,674 CPUs utilized          
+             1.215      context-switches          #    0,167 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.349      page-faults               #    0,597 K/sec                  
+    27.025.585.619      cycles                    #    3,708 GHz                      (83,32%)
+     6.426.349.697      stalled-cycles-frontend   #   23,78% frontend cycles idle     (83,40%)
+     8.128.062.371      stalled-cycles-backend    #   30,08% backend  cycles idle     (33,30%)
+    23.411.795.352      instructions              #    0,87  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,02%)
+     5.258.860.139      branches                  #  721,578 M/sec                    (66,67%)
+        31.100.320      branch-misses             #    0,59% of all branches          (83,25%)
+
+      10,818024478 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7311,934579      task-clock (msec)         #    0,674 CPUs utilized          
+             1.227      context-switches          #    0,168 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.841      page-faults               #    0,525 K/sec                  
+    27.122.089.671      cycles                    #    3,709 GHz                      (83,34%)
+     6.795.828.459      stalled-cycles-frontend   #   25,06% frontend cycles idle     (83,32%)
+     7.659.546.632      stalled-cycles-backend    #   28,24% backend  cycles idle     (33,37%)
+    23.926.934.554      instructions              #    0,88  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,09%)
+     5.377.136.791      branches                  #  735,392 M/sec                    (66,74%)
+        28.902.000      branch-misses             #    0,54% of all branches          (83,40%)
+
+      10,842004202 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7305,110223      task-clock (msec)         #    0,674 CPUs utilized          
+             1.032      context-switches          #    0,141 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             4.351      page-faults               #    0,596 K/sec                  
+    27.089.262.929      cycles                    #    3,708 GHz                      (83,36%)
+     6.510.742.907      stalled-cycles-frontend   #   24,03% frontend cycles idle     (83,31%)
+     8.023.775.348      stalled-cycles-backend    #   29,62% backend  cycles idle     (33,34%)
+    23.668.021.999      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,09%)
+     5.314.653.897      branches                  #  727,525 M/sec                    (66,73%)
+        27.686.552      branch-misses             #    0,52% of all branches          (83,36%)
+
+      10,832659472 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7310,302050      task-clock (msec)         #    0,674 CPUs utilized          
+             1.226      context-switches          #    0,168 K/sec                  
+                 8      cpu-migrations            #    0,001 K/sec                  
+             3.842      page-faults               #    0,526 K/sec                  
+    27.216.403.970      cycles                    #    3,723 GHz                      (83,38%)
+     6.929.109.886      stalled-cycles-frontend   #   25,46% frontend cycles idle     (83,37%)
+     7.378.853.870      stalled-cycles-backend    #   27,11% backend  cycles idle     (33,27%)
+    24.618.110.836      instructions              #    0,90  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (49,94%)
+     5.532.800.020      branches                  #  756,850 M/sec                    (66,58%)
+        29.155.267      branch-misses             #    0,53% of all branches          (83,27%)
+
+      10,842076231 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7305,456916      task-clock (msec)         #    0,674 CPUs utilized          
+             1.261      context-switches          #    0,173 K/sec                  
+                 9      cpu-migrations            #    0,001 K/sec                  
+             4.351      page-faults               #    0,596 K/sec                  
+    27.083.478.385      cycles                    #    3,707 GHz                      (83,37%)
+     6.697.859.176      stalled-cycles-frontend   #   24,73% frontend cycles idle     (83,38%)
+     7.936.963.310      stalled-cycles-backend    #   29,31% backend  cycles idle     (33,26%)
+    23.685.114.844      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,05%)
+     5.322.863.292      branches                  #  728,615 M/sec                    (66,73%)
+        27.804.661      branch-misses             #    0,52% of all branches          (83,44%)
+
+      10,839065644 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7302,061445      task-clock (msec)         #    0,674 CPUs utilized          
+             1.542      context-switches          #    0,211 K/sec                  
+                14      cpu-migrations            #    0,002 K/sec                  
+             3.842      page-faults               #    0,526 K/sec                  
+    27.015.574.581      cycles                    #    3,700 GHz                      (83,37%)
+     6.408.269.306      stalled-cycles-frontend   #   23,72% frontend cycles idle     (83,37%)
+     8.103.165.623      stalled-cycles-backend    #   29,99% backend  cycles idle     (33,28%)
+    23.839.168.184      instructions              #    0,88  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,02%)
+     5.349.924.709      branches                  #  732,660 M/sec                    (66,63%)
+        28.222.129      branch-misses             #    0,53% of all branches          (83,30%)
+
+      10,829542047 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7296,724289      task-clock (msec)         #    0,674 CPUs utilized          
+             1.258      context-switches          #    0,172 K/sec                  
+                11      cpu-migrations            #    0,002 K/sec                  
+             3.837      page-faults               #    0,526 K/sec                  
+    27.296.314.592      cycles                    #    3,741 GHz                      (83,25%)
+     6.774.685.290      stalled-cycles-frontend   #   24,82% frontend cycles idle     (83,44%)
+     6.724.605.051      stalled-cycles-backend    #   24,64% backend  cycles idle     (33,33%)
+    26.593.903.906      instructions              #    0,97  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (49,92%)
+     5.974.476.087      branches                  #  818,789 M/sec                    (66,54%)
+        31.583.208      branch-misses             #    0,53% of all branches          (83,21%)
+
+      10,826756766 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7311,091264      task-clock (msec)         #    0,674 CPUs utilized          
+             1.194      context-switches          #    0,163 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             4.349      page-faults               #    0,595 K/sec                  
+    27.104.524.004      cycles                    #    3,707 GHz                      (83,33%)
+     6.734.044.926      stalled-cycles-frontend   #   24,84% frontend cycles idle     (83,30%)
+     8.131.701.395      stalled-cycles-backend    #   30,00% backend  cycles idle     (33,40%)
+    23.559.313.278      instructions              #    0,87  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,14%)
+     5.289.619.611      branches                  #  723,506 M/sec                    (66,78%)
+        27.641.043      branch-misses             #    0,52% of all branches          (83,38%)
+
+      10,846225103 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7312,391042      task-clock (msec)         #    0,675 CPUs utilized          
+             1.063      context-switches          #    0,145 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.838      page-faults               #    0,525 K/sec                  
+    27.426.155.306      cycles                    #    3,751 GHz                      (83,29%)
+     6.913.601.956      stalled-cycles-frontend   #   25,21% frontend cycles idle     (83,40%)
+     6.225.796.938      stalled-cycles-backend    #   22,70% backend  cycles idle     (33,35%)
+    27.591.229.132      instructions              #    1,01  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,01%)
+     6.186.820.735      branches                  #  846,074 M/sec                    (66,70%)
+        32.969.364      branch-misses             #    0,53% of all branches          (83,34%)
+
+      10,839541655 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7314,225557      task-clock (msec)         #    0,675 CPUs utilized          
+             1.225      context-switches          #    0,167 K/sec                  
+                14      cpu-migrations            #    0,002 K/sec                  
+             3.839      page-faults               #    0,525 K/sec                  
+    27.096.374.991      cycles                    #    3,705 GHz                      (83,41%)
+     6.496.895.363      stalled-cycles-frontend   #   23,98% frontend cycles idle     (83,39%)
+     8.110.458.091      stalled-cycles-backend    #   29,93% backend  cycles idle     (33,22%)
+    23.676.324.826      instructions              #    0,87  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,08%)
+     5.321.963.905      branches                  #  727,618 M/sec                    (66,72%)
+        28.315.365      branch-misses             #    0,53% of all branches          (83,40%)
+
+      10,838952540 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 256 ../sample_files/mercury.png':
+
+       7313,356444      task-clock (msec)         #    0,674 CPUs utilized          
+             1.354      context-switches          #    0,185 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             3.842      page-faults               #    0,525 K/sec                  
+    27.124.882.001      cycles                    #    3,709 GHz                      (83,26%)
+     6.585.608.091      stalled-cycles-frontend   #   24,28% frontend cycles idle     (83,38%)
+     7.930.828.622      stalled-cycles-backend    #   29,24% backend  cycles idle     (33,38%)
+    24.113.106.491      instructions              #    0,89  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,11%)
+     5.416.664.279      branches                  #  740,654 M/sec                    (66,74%)
+        28.133.085      branch-misses             #    0,52% of all branches          (83,36%)
+
+      10,844469458 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7877,034116      task-clock (msec)         #    0,691 CPUs utilized          
+             1.289      context-switches          #    0,164 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             3.838      page-faults               #    0,487 K/sec                  
+    29.161.287.045      cycles                    #    3,702 GHz                      (83,31%)
+     7.255.075.451      stalled-cycles-frontend   #   24,88% frontend cycles idle     (83,38%)
+     8.471.515.396      stalled-cycles-backend    #   29,05% backend  cycles idle     (33,31%)
+    25.378.703.694      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,13%)
+     5.692.996.546      branches                  #  722,734 M/sec                    (66,76%)
+        31.134.718      branch-misses             #    0,55% of all branches          (83,33%)
+
+      11,407084857 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7852,468076      task-clock (msec)         #    0,690 CPUs utilized          
+             1.289      context-switches          #    0,164 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.352      page-faults               #    0,554 K/sec                  
+    29.156.692.542      cycles                    #    3,713 GHz                      (83,35%)
+     7.019.172.515      stalled-cycles-frontend   #   24,07% frontend cycles idle     (83,35%)
+     8.652.761.276      stalled-cycles-backend    #   29,68% backend  cycles idle     (33,32%)
+    25.747.403.550      instructions              #    0,88  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,13%)
+     5.785.321.078      branches                  #  736,752 M/sec                    (66,81%)
+        31.482.683      branch-misses             #    0,54% of all branches          (83,42%)
+
+      11,381811312 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7866,243768      task-clock (msec)         #    0,690 CPUs utilized          
+             1.251      context-switches          #    0,159 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             3.842      page-faults               #    0,488 K/sec                  
+    29.267.213.628      cycles                    #    3,721 GHz                      (83,38%)
+     7.317.060.054      stalled-cycles-frontend   #   25,00% frontend cycles idle     (83,37%)
+     8.217.424.194      stalled-cycles-backend    #   28,08% backend  cycles idle     (33,25%)
+    26.263.945.387      instructions              #    0,90  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,02%)
+     5.900.301.948      branches                  #  750,079 M/sec                    (66,66%)
+        31.731.228      branch-misses             #    0,54% of all branches          (83,25%)
+
+      11,402174218 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7866,189753      task-clock (msec)         #    0,690 CPUs utilized          
+             1.276      context-switches          #    0,162 K/sec                  
+                14      cpu-migrations            #    0,002 K/sec                  
+             3.839      page-faults               #    0,488 K/sec                  
+    29.148.028.695      cycles                    #    3,705 GHz                      (83,32%)
+     7.043.297.967      stalled-cycles-frontend   #   24,16% frontend cycles idle     (83,30%)
+     8.926.989.115      stalled-cycles-backend    #   30,63% backend  cycles idle     (33,40%)
+    25.472.687.037      instructions              #    0,87  insns per cycle        
+                                                  #    0,35  stalled cycles per insn  (50,14%)
+     5.718.701.475      branches                  #  726,998 M/sec                    (66,74%)
+        29.959.591      branch-misses             #    0,52% of all branches          (83,36%)
+
+      11,396628276 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7857,771776      task-clock (msec)         #    0,690 CPUs utilized          
+             1.404      context-switches          #    0,179 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             3.843      page-faults               #    0,489 K/sec                  
+    29.382.878.232      cycles                    #    3,739 GHz                      (83,32%)
+     7.698.050.178      stalled-cycles-frontend   #   26,20% frontend cycles idle     (83,31%)
+     7.033.321.565      stalled-cycles-backend    #   23,94% backend  cycles idle     (33,40%)
+    28.102.375.611      instructions              #    0,96  insns per cycle        
+                                                  #    0,27  stalled cycles per insn  (50,07%)
+     6.314.317.199      branches                  #  803,576 M/sec                    (66,69%)
+        34.051.953      branch-misses             #    0,54% of all branches          (83,32%)
+
+      11,391204924 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7868,556933      task-clock (msec)         #    0,690 CPUs utilized          
+             1.284      context-switches          #    0,163 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.839      page-faults               #    0,488 K/sec                  
+    29.152.322.795      cycles                    #    3,705 GHz                      (83,32%)
+     7.246.931.387      stalled-cycles-frontend   #   24,86% frontend cycles idle     (83,35%)
+     8.482.531.935      stalled-cycles-backend    #   29,10% backend  cycles idle     (33,37%)
+    25.354.407.299      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,12%)
+     5.698.351.608      branches                  #  724,193 M/sec                    (66,70%)
+        30.283.237      branch-misses             #    0,53% of all branches          (83,42%)
+
+      11,404632744 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7889,937127      task-clock (msec)         #    0,691 CPUs utilized          
+             1.351      context-switches          #    0,171 K/sec                  
+                17      cpu-migrations            #    0,002 K/sec                  
+             4.348      page-faults               #    0,551 K/sec                  
+    29.220.488.155      cycles                    #    3,704 GHz                      (83,40%)
+     7.130.091.166      stalled-cycles-frontend   #   24,40% frontend cycles idle     (83,38%)
+     8.631.025.628      stalled-cycles-backend    #   29,54% backend  cycles idle     (33,25%)
+    25.903.198.493      instructions              #    0,89  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,12%)
+     5.815.398.096      branches                  #  737,065 M/sec                    (66,77%)
+        30.453.752      branch-misses             #    0,52% of all branches          (83,36%)
+
+      11,421522245 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7862,226558      task-clock (msec)         #    0,690 CPUs utilized          
+             1.261      context-switches          #    0,160 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.350      page-faults               #    0,553 K/sec                  
+    29.126.441.000      cycles                    #    3,705 GHz                      (83,36%)
+     6.946.004.846      stalled-cycles-frontend   #   23,85% frontend cycles idle     (83,38%)
+     8.741.091.321      stalled-cycles-backend    #   30,01% backend  cycles idle     (33,33%)
+    25.526.596.200      instructions              #    0,88  insns per cycle        
+                                                  #    0,34  stalled cycles per insn  (50,04%)
+     5.731.169.409      branches                  #  728,950 M/sec                    (66,72%)
+        30.215.135      branch-misses             #    0,53% of all branches          (83,35%)
+
+      11,389949419 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7854,159962      task-clock (msec)         #    0,689 CPUs utilized          
+             1.329      context-switches          #    0,169 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             4.353      page-faults               #    0,554 K/sec                  
+    29.131.863.920      cycles                    #    3,709 GHz                      (83,37%)
+     7.366.068.302      stalled-cycles-frontend   #   25,29% frontend cycles idle     (83,38%)
+     8.159.082.452      stalled-cycles-backend    #   28,01% backend  cycles idle     (33,29%)
+    25.829.887.759      instructions              #    0,89  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,03%)
+     5.790.929.332      branches                  #  737,307 M/sec                    (66,63%)
+        30.890.057      branch-misses             #    0,53% of all branches          (83,26%)
+
+      11,391372352 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 512 ../sample_files/mercury.png':
+
+       7864,463627      task-clock (msec)         #    0,690 CPUs utilized          
+             1.354      context-switches          #    0,172 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             3.842      page-faults               #    0,489 K/sec                  
+    29.282.409.118      cycles                    #    3,723 GHz                      (83,39%)
+     7.668.593.629      stalled-cycles-frontend   #   26,19% frontend cycles idle     (83,24%)
+     7.500.342.085      stalled-cycles-backend    #   25,61% backend  cycles idle     (33,41%)
+    25.854.843.006      instructions              #    0,88  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,13%)
+     5.797.037.866      branches                  #  737,118 M/sec                    (66,75%)
+        59.440.795      branch-misses             #    1,03% of all branches          (83,34%)
+
+      11,399078299 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7889,325442      task-clock (msec)         #    0,691 CPUs utilized          
+             1.337      context-switches          #    0,169 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             3.841      page-faults               #    0,487 K/sec                  
+    29.271.799.643      cycles                    #    3,710 GHz                      (83,20%)
+     6.764.870.443      stalled-cycles-frontend   #   23,11% frontend cycles idle     (83,35%)
+     9.850.218.253      stalled-cycles-backend    #   33,65% backend  cycles idle     (33,48%)
+    23.575.019.190      instructions              #    0,81  insns per cycle        
+                                                  #    0,42  stalled cycles per insn  (50,22%)
+     5.300.391.889      branches                  #  671,843 M/sec                    (66,84%)
+        27.483.136      branch-misses             #    0,52% of all branches          (83,41%)
+
+      11,417120018 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7886,197881      task-clock (msec)         #    0,691 CPUs utilized          
+             1.327      context-switches          #    0,168 K/sec                  
+                16      cpu-migrations            #    0,002 K/sec                  
+             3.838      page-faults               #    0,487 K/sec                  
+    29.217.982.826      cycles                    #    3,705 GHz                      (83,22%)
+     7.214.273.434      stalled-cycles-frontend   #   24,69% frontend cycles idle     (83,33%)
+     8.490.268.717      stalled-cycles-backend    #   29,06% backend  cycles idle     (33,46%)
+    25.376.469.469      instructions              #    0,87  insns per cycle        
+                                                  #    0,33  stalled cycles per insn  (50,07%)
+     5.699.510.614      branches                  #  722,720 M/sec                    (66,69%)
+        31.023.407      branch-misses             #    0,54% of all branches          (83,32%)
+
+      11,419931263 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7868,182402      task-clock (msec)         #    0,690 CPUs utilized          
+             1.114      context-switches          #    0,142 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             4.353      page-faults               #    0,553 K/sec                  
+    29.501.298.207      cycles                    #    3,749 GHz                      (83,36%)
+     7.433.443.896      stalled-cycles-frontend   #   25,20% frontend cycles idle     (83,30%)
+     6.721.255.333      stalled-cycles-backend    #   22,78% backend  cycles idle     (33,41%)
+    29.188.435.177      instructions              #    0,99  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,12%)
+     6.541.478.955      branches                  #  831,384 M/sec                    (66,71%)
+        36.933.458      branch-misses             #    0,56% of all branches          (83,32%)
+
+      11,401268173 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7887,658316      task-clock (msec)         #    0,691 CPUs utilized          
+             1.364      context-switches          #    0,173 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             4.350      page-faults               #    0,551 K/sec                  
+    29.251.933.494      cycles                    #    3,709 GHz                      (83,28%)
+     6.718.094.436      stalled-cycles-frontend   #   22,97% frontend cycles idle     (83,40%)
+    10.073.129.444      stalled-cycles-backend    #   34,44% backend  cycles idle     (33,37%)
+    23.198.840.445      instructions              #    0,79  insns per cycle        
+                                                  #    0,43  stalled cycles per insn  (49,99%)
+     5.211.475.769      branches                  #  660,713 M/sec                    (66,64%)
+        26.888.936      branch-misses             #    0,52% of all branches          (83,29%)
+
+      11,418301609 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7903,079985      task-clock (msec)         #    0,691 CPUs utilized          
+             1.579      context-switches          #    0,200 K/sec                  
+                11      cpu-migrations            #    0,001 K/sec                  
+             4.351      page-faults               #    0,551 K/sec                  
+    29.276.453.299      cycles                    #    3,704 GHz                      (83,35%)
+     6.981.498.009      stalled-cycles-frontend   #   23,85% frontend cycles idle     (83,38%)
+     8.971.076.452      stalled-cycles-backend    #   30,64% backend  cycles idle     (33,30%)
+    25.054.293.489      instructions              #    0,86  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (49,97%)
+     5.622.795.856      branches                  #  711,469 M/sec                    (66,61%)
+        29.925.097      branch-misses             #    0,53% of all branches          (83,31%)
+
+      11,434331262 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7893,669372      task-clock (msec)         #    0,692 CPUs utilized          
+             1.373      context-switches          #    0,174 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             3.839      page-faults               #    0,486 K/sec                  
+    29.296.362.312      cycles                    #    3,711 GHz                      (83,36%)
+     7.383.813.081      stalled-cycles-frontend   #   25,20% frontend cycles idle     (83,37%)
+     8.249.059.754      stalled-cycles-backend    #   28,16% backend  cycles idle     (33,29%)
+    25.723.193.682      instructions              #    0,88  insns per cycle        
+                                                  #    0,32  stalled cycles per insn  (50,08%)
+     5.773.609.831      branches                  #  731,423 M/sec                    (66,72%)
+        30.503.857      branch-misses             #    0,53% of all branches          (83,33%)
+
+      11,414610092 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7886,263905      task-clock (msec)         #    0,690 CPUs utilized          
+             1.285      context-switches          #    0,163 K/sec                  
+                10      cpu-migrations            #    0,001 K/sec                  
+             3.844      page-faults               #    0,487 K/sec                  
+    29.368.155.945      cycles                    #    3,724 GHz                      (83,29%)
+     7.136.584.883      stalled-cycles-frontend   #   24,30% frontend cycles idle     (83,33%)
+     8.114.877.602      stalled-cycles-backend    #   27,63% backend  cycles idle     (33,42%)
+    26.931.629.771      instructions              #    0,92  insns per cycle        
+                                                  #    0,30  stalled cycles per insn  (50,04%)
+     6.047.015.926      branches                  #  766,778 M/sec                    (66,59%)
+        33.526.798      branch-misses             #    0,55% of all branches          (83,28%)
+
+      11,421631180 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7880,868870      task-clock (msec)         #    0,690 CPUs utilized          
+             1.607      context-switches          #    0,204 K/sec                  
+                13      cpu-migrations            #    0,002 K/sec                  
+             3.839      page-faults               #    0,487 K/sec                  
+    29.438.947.495      cycles                    #    3,735 GHz                      (83,27%)
+     7.404.133.729      stalled-cycles-frontend   #   25,15% frontend cycles idle     (83,27%)
+     8.295.299.175      stalled-cycles-backend    #   28,18% backend  cycles idle     (33,53%)
+    26.462.590.731      instructions              #    0,90  insns per cycle        
+                                                  #    0,31  stalled cycles per insn  (50,14%)
+     5.942.509.122      branches                  #  754,042 M/sec                    (66,75%)
+        31.188.667      branch-misses             #    0,52% of all branches          (83,39%)
+
+      11,415063692 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7893,680664      task-clock (msec)         #    0,691 CPUs utilized          
+             1.272      context-switches          #    0,161 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             3.841      page-faults               #    0,487 K/sec                  
+    29.523.387.693      cycles                    #    3,740 GHz                      (83,28%)
+     7.351.638.770      stalled-cycles-frontend   #   24,90% frontend cycles idle     (83,31%)
+     7.319.960.458      stalled-cycles-backend    #   24,79% backend  cycles idle     (33,48%)
+    28.263.218.253      instructions              #    0,96  insns per cycle        
+                                                  #    0,26  stalled cycles per insn  (50,09%)
+     6.334.295.667      branches                  #  802,451 M/sec                    (66,75%)
+        35.462.065      branch-misses             #    0,56% of all branches          (83,36%)
+
+      11,424947829 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 1024 ../sample_files/mercury.png':
+
+       7880,839466      task-clock (msec)         #    0,691 CPUs utilized          
+             1.335      context-switches          #    0,169 K/sec                  
+                12      cpu-migrations            #    0,002 K/sec                  
+             4.354      page-faults               #    0,552 K/sec                  
+    29.526.666.012      cycles                    #    3,747 GHz                      (83,34%)
+     7.310.371.623      stalled-cycles-frontend   #   24,76% frontend cycles idle     (83,32%)
+     6.750.339.956      stalled-cycles-backend    #   22,86% backend  cycles idle     (33,41%)
+    29.642.306.052      instructions              #    1,00  insns per cycle        
+                                                  #    0,25  stalled cycles per insn  (50,16%)
+     6.652.098.923      branches                  #  844,085 M/sec                    (66,77%)
+        36.597.588      branch-misses             #    0,55% of all branches          (83,38%)
+
+      11,410146647 seconds time elapsed
+

@@ -3,36 +3,188 @@ AES test 1: SUCCEEDED
 
  Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
 
-      11605,574215      task-clock (msec)         #    0,679 CPUs utilized          
-             1.632      context-switches          #    0,141 K/sec                  
-                 3      cpu-migrations            #    0,000 K/sec                  
-             2.240      page-faults               #    0,193 K/sec                  
-    42.278.974.452      cycles                    #    3,643 GHz                      (83,34%)
-       660.087.675      stalled-cycles-frontend   #    1,56% frontend cycles idle     (83,30%)
-    16.945.142.096      stalled-cycles-backend    #   40,08% backend  cycles idle     (33,36%)
-    87.278.778.440      instructions              #    2,06  insns per cycle        
-                                                  #    0,19  stalled cycles per insn  (50,05%)
-     1.711.227.169      branches                  #  147,449 M/sec                    (66,71%)
-           211.852      branch-misses             #    0,01% of all branches          (83,36%)
+      11644,125116      task-clock (msec)         #    0,680 CPUs utilized          
+             1.695      context-switches          #    0,146 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.241      page-faults               #    0,192 K/sec                  
+    42.132.848.794      cycles                    #    3,618 GHz                      (83,33%)
+       512.908.626      stalled-cycles-frontend   #    1,22% frontend cycles idle     (83,35%)
+    16.825.418.710      stalled-cycles-backend    #   39,93% backend  cycles idle     (33,36%)
+    87.382.961.866      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (49,99%)
+     1.714.090.265      branches                  #  147,206 M/sec                    (66,63%)
+           163.631      branch-misses             #    0,01% of all branches          (83,28%)
 
-      17,093796838 seconds time elapsed
+      17,132986689 seconds time elapsed
 
 AES test 1: SUCCEEDED
 
 
  Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
 
-      11460,138712      task-clock (msec)         #    0,676 CPUs utilized          
-             1.698      context-switches          #    0,148 K/sec                  
+      11664,270889      task-clock (msec)         #    0,680 CPUs utilized          
+             1.683      context-switches          #    0,144 K/sec                  
                  2      cpu-migrations            #    0,000 K/sec                  
-             2.242      page-faults               #    0,196 K/sec                  
-    42.292.263.267      cycles                    #    3,690 GHz                      (83,25%)
-       598.075.297      stalled-cycles-frontend   #    1,41% frontend cycles idle     (83,34%)
-    16.760.079.018      stalled-cycles-backend    #   39,63% backend  cycles idle     (33,42%)
-    87.280.473.158      instructions              #    2,06  insns per cycle        
-                                                  #    0,19  stalled cycles per insn  (50,06%)
-     1.709.582.965      branches                  #  149,176 M/sec                    (66,70%)
-           199.186      branch-misses             #    0,01% of all branches          (83,34%)
+             2.240      page-faults               #    0,192 K/sec                  
+    42.240.578.754      cycles                    #    3,621 GHz                      (83,30%)
+       581.439.431      stalled-cycles-frontend   #    1,38% frontend cycles idle     (83,35%)
+    16.817.225.824      stalled-cycles-backend    #   39,81% backend  cycles idle     (33,39%)
+    87.364.084.937      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,01%)
+     1.712.733.539      branches                  #  146,836 M/sec                    (66,61%)
+           197.754      branch-misses             #    0,01% of all branches          (83,31%)
 
-      16,950225632 seconds time elapsed
+      17,149334825 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11689,339809      task-clock (msec)         #    0,680 CPUs utilized          
+             1.671      context-switches          #    0,143 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             2.243      page-faults               #    0,192 K/sec                  
+    42.213.104.894      cycles                    #    3,611 GHz                      (83,32%)
+       597.227.820      stalled-cycles-frontend   #    1,41% frontend cycles idle     (83,37%)
+    16.859.929.916      stalled-cycles-backend    #   39,94% backend  cycles idle     (33,31%)
+    87.321.153.904      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,00%)
+     1.707.031.736      branches                  #  146,033 M/sec                    (66,68%)
+           264.297      branch-misses             #    0,02% of all branches          (83,32%)
+
+      17,184942532 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11522,497165      task-clock (msec)         #    0,677 CPUs utilized          
+             1.630      context-switches          #    0,141 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             2.243      page-faults               #    0,195 K/sec                  
+    42.068.719.823      cycles                    #    3,651 GHz                      (83,34%)
+       555.253.769      stalled-cycles-frontend   #    1,32% frontend cycles idle     (83,30%)
+    16.803.330.891      stalled-cycles-backend    #   39,94% backend  cycles idle     (33,36%)
+    87.305.681.892      instructions              #    2,08  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,08%)
+     1.724.089.395      branches                  #  149,628 M/sec                    (66,76%)
+           236.246      branch-misses             #    0,01% of all branches          (83,37%)
+
+      17,009101369 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11620,209844      task-clock (msec)         #    0,679 CPUs utilized          
+             1.982      context-switches          #    0,171 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             2.240      page-faults               #    0,193 K/sec                  
+    42.237.332.706      cycles                    #    3,635 GHz                      (83,31%)
+       598.373.131      stalled-cycles-frontend   #    1,42% frontend cycles idle     (83,30%)
+    16.811.813.823      stalled-cycles-backend    #   39,80% backend  cycles idle     (33,40%)
+    87.314.136.241      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,04%)
+     1.715.085.570      branches                  #  147,595 M/sec                    (66,69%)
+           183.364      branch-misses             #    0,01% of all branches          (83,33%)
+
+      17,109013887 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11548,693972      task-clock (msec)         #    0,678 CPUs utilized          
+             1.684      context-switches          #    0,146 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.240      page-faults               #    0,194 K/sec                  
+    42.197.552.797      cycles                    #    3,654 GHz                      (83,28%)
+       625.554.408      stalled-cycles-frontend   #    1,48% frontend cycles idle     (83,33%)
+    16.747.543.651      stalled-cycles-backend    #   39,69% backend  cycles idle     (33,38%)
+    87.259.083.992      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,06%)
+     1.716.813.992      branches                  #  148,659 M/sec                    (66,68%)
+           223.951      branch-misses             #    0,01% of all branches          (83,28%)
+
+      17,038627554 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11592,978581      task-clock (msec)         #    0,679 CPUs utilized          
+             1.615      context-switches          #    0,139 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.243      page-faults               #    0,193 K/sec                  
+    42.323.225.938      cycles                    #    3,651 GHz                      (83,36%)
+       625.994.617      stalled-cycles-frontend   #    1,48% frontend cycles idle     (83,34%)
+    16.935.102.499      stalled-cycles-backend    #   40,01% backend  cycles idle     (33,31%)
+    87.446.177.928      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (49,99%)
+     1.709.986.926      branches                  #  147,502 M/sec                    (66,65%)
+           250.570      branch-misses             #    0,01% of all branches          (83,30%)
+
+      17,085163375 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11533,058735      task-clock (msec)         #    0,678 CPUs utilized          
+             1.637      context-switches          #    0,142 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.194      page-faults               #    0,190 K/sec                  
+    42.092.176.985      cycles                    #    3,650 GHz                      (83,31%)
+       560.906.663      stalled-cycles-frontend   #    1,33% frontend cycles idle     (83,33%)
+    16.773.704.780      stalled-cycles-backend    #   39,85% backend  cycles idle     (33,37%)
+    87.300.076.265      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,04%)
+     1.705.977.050      branches                  #  147,921 M/sec                    (66,68%)
+           225.865      branch-misses             #    0,01% of all branches          (83,32%)
+
+      17,022639839 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11560,746021      task-clock (msec)         #    0,678 CPUs utilized          
+             1.588      context-switches          #    0,137 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.243      page-faults               #    0,194 K/sec                  
+    42.188.637.426      cycles                    #    3,649 GHz                      (83,34%)
+       629.947.355      stalled-cycles-frontend   #    1,49% frontend cycles idle     (83,28%)
+    16.821.721.742      stalled-cycles-backend    #   39,87% backend  cycles idle     (33,38%)
+    87.265.574.601      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,05%)
+     1.714.163.624      branches                  #  148,274 M/sec                    (66,73%)
+           227.693      branch-misses             #    0,01% of all branches          (83,35%)
+
+      17,048706403 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11548,119470      task-clock (msec)         #    0,678 CPUs utilized          
+             1.652      context-switches          #    0,143 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.240      page-faults               #    0,194 K/sec                  
+    42.150.863.672      cycles                    #    3,650 GHz                      (83,36%)
+       622.697.645      stalled-cycles-frontend   #    1,48% frontend cycles idle     (83,33%)
+    16.731.994.569      stalled-cycles-backend    #   39,70% backend  cycles idle     (33,31%)
+    87.237.445.835      instructions              #    2,07  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,07%)
+     1.716.427.928      branches                  #  148,633 M/sec                    (66,74%)
+           222.311      branch-misses             #    0,01% of all branches          (83,35%)
+
+      17,035738564 seconds time elapsed
 

@@ -1,0 +1,190 @@
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      15689,267210      task-clock (msec)         #    0,897 CPUs utilized          
+             1.733      context-switches          #    0,110 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             1.582      page-faults               #    0,101 K/sec                  
+    57.454.181.195      cycles                    #    3,662 GHz                      (83,32%)
+       385.397.175      stalled-cycles-frontend   #    0,67% frontend cycles idle     (83,33%)
+    20.186.099.601      stalled-cycles-backend    #   35,13% backend  cycles idle     (33,36%)
+   130.608.283.330      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+     3.391.208.900      branches                  #  216,148 M/sec                    (66,68%)
+        21.761.859      branch-misses             #    0,64% of all branches          (83,34%)
+
+      17,498379330 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      16352,875592      task-clock (msec)         #    0,900 CPUs utilized          
+             1.620      context-switches          #    0,099 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.526      page-faults               #    0,093 K/sec                  
+    57.322.587.160      cycles                    #    3,505 GHz                      (83,31%)
+       298.585.105      stalled-cycles-frontend   #    0,52% frontend cycles idle     (83,34%)
+    20.025.335.233      stalled-cycles-backend    #   34,93% backend  cycles idle     (33,35%)
+   130.558.183.076      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+     3.390.900.869      branches                  #  207,358 M/sec                    (66,69%)
+        23.539.623      branch-misses             #    0,69% of all branches          (83,36%)
+
+      18,173591865 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      15866,004147      task-clock (msec)         #    0,897 CPUs utilized          
+             1.559      context-switches          #    0,098 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             1.463      page-faults               #    0,092 K/sec                  
+    58.113.384.818      cycles                    #    3,663 GHz                      (83,30%)
+       665.522.746      stalled-cycles-frontend   #    1,15% frontend cycles idle     (83,33%)
+    19.991.948.570      stalled-cycles-backend    #   34,40% backend  cycles idle     (33,37%)
+   130.637.762.165      instructions              #    2,25  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,00%)
+     3.394.066.674      branches                  #  213,921 M/sec                    (66,67%)
+        51.649.877      branch-misses             #    1,52% of all branches          (83,32%)
+
+      17,679004356 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      16415,995507      task-clock (msec)         #    0,900 CPUs utilized          
+             1.597      context-switches          #    0,097 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.969      page-faults               #    0,120 K/sec                  
+    57.321.140.274      cycles                    #    3,492 GHz                      (83,32%)
+       281.490.534      stalled-cycles-frontend   #    0,49% frontend cycles idle     (83,34%)
+    20.044.923.320      stalled-cycles-backend    #   34,97% backend  cycles idle     (33,34%)
+   130.569.489.398      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+     3.388.389.209      branches                  #  206,408 M/sec                    (66,68%)
+        21.674.231      branch-misses             #    0,64% of all branches          (83,33%)
+
+      18,232501799 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      15665,593037      task-clock (msec)         #    0,896 CPUs utilized          
+             1.540      context-switches          #    0,098 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.973      page-faults               #    0,126 K/sec                  
+    57.387.543.139      cycles                    #    3,663 GHz                      (83,32%)
+       423.449.075      stalled-cycles-frontend   #    0,74% frontend cycles idle     (83,33%)
+    20.143.447.984      stalled-cycles-backend    #   35,10% backend  cycles idle     (33,35%)
+   130.538.983.408      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,05%)
+     3.388.943.106      branches                  #  216,330 M/sec                    (66,70%)
+        17.541.407      branch-misses             #    0,52% of all branches          (83,32%)
+
+      17,485603005 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      16483,779551      task-clock (msec)         #    0,901 CPUs utilized          
+             1.658      context-switches          #    0,101 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.973      page-faults               #    0,120 K/sec                  
+    57.473.795.930      cycles                    #    3,487 GHz                      (83,32%)
+       325.217.491      stalled-cycles-frontend   #    0,57% frontend cycles idle     (83,31%)
+    20.078.159.952      stalled-cycles-backend    #   34,93% backend  cycles idle     (33,37%)
+   130.579.024.825      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,05%)
+     3.387.807.624      branches                  #  205,524 M/sec                    (66,71%)
+        28.380.066      branch-misses             #    0,84% of all branches          (83,34%)
+
+      18,300732432 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      15705,461277      task-clock (msec)         #    0,896 CPUs utilized          
+             1.538      context-switches          #    0,098 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.969      page-faults               #    0,125 K/sec                  
+    57.537.006.219      cycles                    #    3,664 GHz                      (83,33%)
+       502.146.296      stalled-cycles-frontend   #    0,87% frontend cycles idle     (83,33%)
+    19.982.249.682      stalled-cycles-backend    #   34,73% backend  cycles idle     (33,34%)
+   130.479.923.774      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,04%)
+     3.386.999.829      branches                  #  215,657 M/sec                    (66,68%)
+        31.496.224      branch-misses             #    0,93% of all branches          (83,34%)
+
+      17,523894563 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      16491,202880      task-clock (msec)         #    0,901 CPUs utilized          
+             1.659      context-switches          #    0,101 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.971      page-faults               #    0,120 K/sec                  
+    57.609.237.438      cycles                    #    3,493 GHz                      (83,32%)
+       373.094.113      stalled-cycles-frontend   #    0,65% frontend cycles idle     (83,31%)
+    20.019.367.223      stalled-cycles-backend    #   34,75% backend  cycles idle     (33,37%)
+   130.529.518.579      instructions              #    2,27  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,03%)
+     3.385.704.864      branches                  #  205,304 M/sec                    (66,69%)
+        35.060.185      branch-misses             #    1,04% of all branches          (83,35%)
+
+      18,306747613 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      16446,166561      task-clock (msec)         #    0,901 CPUs utilized          
+             1.816      context-switches          #    0,110 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.971      page-faults               #    0,120 K/sec                  
+    57.319.148.055      cycles                    #    3,485 GHz                      (83,32%)
+       283.682.997      stalled-cycles-frontend   #    0,49% frontend cycles idle     (83,36%)
+    20.030.099.613      stalled-cycles-backend    #   34,94% backend  cycles idle     (33,32%)
+   130.619.107.706      instructions              #    2,28  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (49,98%)
+     3.384.384.136      branches                  #  205,786 M/sec                    (66,64%)
+        23.923.376      branch-misses             #    0,71% of all branches          (83,34%)
+
+      18,259626204 seconds time elapsed
+
+DES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/des ../sample_files/hubble_2.png':
+
+      15750,315160      task-clock (msec)         #    0,897 CPUs utilized          
+             1.555      context-switches          #    0,099 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.838      page-faults               #    0,117 K/sec                  
+    57.770.570.849      cycles                    #    3,668 GHz                      (83,32%)
+       530.122.321      stalled-cycles-frontend   #    0,92% frontend cycles idle     (83,31%)
+    20.005.785.544      stalled-cycles-backend    #   34,63% backend  cycles idle     (33,37%)
+   130.492.978.815      instructions              #    2,26  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,02%)
+     3.394.491.813      branches                  #  215,519 M/sec                    (66,67%)
+        38.515.697      branch-misses             #    1,13% of all branches          (83,33%)
+
+      17,565098629 seconds time elapsed
+

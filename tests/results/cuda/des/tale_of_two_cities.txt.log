@@ -1,0 +1,1440 @@
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        174,843462      task-clock (msec)         #    0,506 CPUs utilized          
+               130      context-switches          #    0,744 K/sec                  
+                 9      cpu-migrations            #    0,051 K/sec                  
+             3.072      page-faults               #    0,018 M/sec                  
+       549.596.739      cycles                    #    3,143 GHz                      (80,64%)
+       134.578.613      stalled-cycles-frontend   #   24,49% frontend cycles idle     (83,70%)
+       211.475.662      stalled-cycles-backend    #   38,48% backend  cycles idle     (35,88%)
+       355.275.345      instructions              #    0,65  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (55,01%)
+        84.067.807      branches                  #  480,818 M/sec                    (69,83%)
+           608.009      branch-misses             #    0,72% of all branches          (84,40%)
+
+       0,345382579 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        153,626934      task-clock (msec)         #    0,494 CPUs utilized          
+               123      context-switches          #    0,801 K/sec                  
+                11      cpu-migrations            #    0,072 K/sec                  
+             3.068      page-faults               #    0,020 M/sec                  
+       470.926.651      cycles                    #    3,065 GHz                      (84,56%)
+       118.223.954      stalled-cycles-frontend   #   25,10% frontend cycles idle     (84,28%)
+       195.185.960      stalled-cycles-backend    #   41,45% backend  cycles idle     (32,25%)
+       328.896.879      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (54,71%)
+        80.568.392      branches                  #  524,442 M/sec                    (69,72%)
+           547.427      branch-misses             #    0,68% of all branches          (84,72%)
+
+       0,311175996 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        152,768285      task-clock (msec)         #    0,492 CPUs utilized          
+               112      context-switches          #    0,733 K/sec                  
+                10      cpu-migrations            #    0,065 K/sec                  
+             3.073      page-faults               #    0,020 M/sec                  
+       481.500.634      cycles                    #    3,152 GHz                      (84,31%)
+       120.645.835      stalled-cycles-frontend   #   25,06% frontend cycles idle     (84,02%)
+       193.041.997      stalled-cycles-backend    #   40,09% backend  cycles idle     (32,78%)
+       306.321.455      instructions              #    0,64  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (55,32%)
+        77.661.503      branches                  #  508,361 M/sec                    (70,45%)
+           573.647      branch-misses             #    0,74% of all branches          (85,43%)
+
+       0,310464578 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        151,841924      task-clock (msec)         #    0,491 CPUs utilized          
+               114      context-switches          #    0,751 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.075      page-faults               #    0,020 M/sec                  
+       485.700.254      cycles                    #    3,199 GHz                      (85,15%)
+       120.550.891      stalled-cycles-frontend   #   24,82% frontend cycles idle     (84,15%)
+       202.709.011      stalled-cycles-backend    #   41,74% backend  cycles idle     (31,13%)
+       343.582.971      instructions              #    0,71  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (51,78%)
+        82.852.646      branches                  #  545,651 M/sec                    (70,67%)
+           565.556      branch-misses             #    0,68% of all branches          (88,35%)
+
+       0,309399256 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        151,057559      task-clock (msec)         #    0,488 CPUs utilized          
+               106      context-switches          #    0,702 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.072      page-faults               #    0,020 M/sec                  
+       484.215.210      cycles                    #    3,206 GHz                      (83,95%)
+       123.915.881      stalled-cycles-frontend   #   25,59% frontend cycles idle     (84,67%)
+       212.160.315      stalled-cycles-backend    #   43,82% backend  cycles idle     (33,55%)
+       317.637.165      instructions              #    0,66  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (52,31%)
+        75.799.941      branches                  #  501,795 M/sec                    (68,85%)
+           641.333      branch-misses             #    0,85% of all branches          (83,93%)
+
+       0,309832060 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        150,450846      task-clock (msec)         #    0,489 CPUs utilized          
+               101      context-switches          #    0,671 K/sec                  
+                 9      cpu-migrations            #    0,060 K/sec                  
+             3.070      page-faults               #    0,020 M/sec                  
+       490.965.569      cycles                    #    3,263 GHz                      (83,67%)
+       121.113.203      stalled-cycles-frontend   #   24,67% frontend cycles idle     (84,09%)
+       190.398.050      stalled-cycles-backend    #   38,78% backend  cycles idle     (32,72%)
+       319.211.102      instructions              #    0,65  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (53,67%)
+        81.188.183      branches                  #  539,633 M/sec                    (68,35%)
+           560.747      branch-misses             #    0,69% of all branches          (82,88%)
+
+       0,307782405 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        152,287882      task-clock (msec)         #    0,490 CPUs utilized          
+               108      context-switches          #    0,709 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.071      page-faults               #    0,020 M/sec                  
+       476.306.166      cycles                    #    3,128 GHz                      (84,35%)
+       120.366.343      stalled-cycles-frontend   #   25,27% frontend cycles idle     (84,29%)
+       201.763.379      stalled-cycles-backend    #   42,36% backend  cycles idle     (31,88%)
+       320.223.656      instructions              #    0,67  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (54,45%)
+        80.109.400      branches                  #  526,039 M/sec                    (71,96%)
+           602.566      branch-misses             #    0,75% of all branches          (86,14%)
+
+       0,310801529 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        149,712522      task-clock (msec)         #    0,486 CPUs utilized          
+               116      context-switches          #    0,775 K/sec                  
+                 9      cpu-migrations            #    0,060 K/sec                  
+             3.074      page-faults               #    0,021 M/sec                  
+       486.835.924      cycles                    #    3,252 GHz                      (84,16%)
+       124.002.771      stalled-cycles-frontend   #   25,47% frontend cycles idle     (84,10%)
+       203.883.140      stalled-cycles-backend    #   41,88% backend  cycles idle     (32,72%)
+       319.022.550      instructions              #    0,66  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (54,97%)
+        75.909.949      branches                  #  507,038 M/sec                    (67,78%)
+           510.616      branch-misses             #    0,67% of all branches          (83,82%)
+
+       0,308220950 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        152,959976      task-clock (msec)         #    0,486 CPUs utilized          
+               102      context-switches          #    0,667 K/sec                  
+                 9      cpu-migrations            #    0,059 K/sec                  
+             3.072      page-faults               #    0,020 M/sec                  
+       477.994.887      cycles                    #    3,125 GHz                      (84,40%)
+       117.449.120      stalled-cycles-frontend   #   24,57% frontend cycles idle     (79,96%)
+       194.629.352      stalled-cycles-backend    #   40,72% backend  cycles idle     (36,54%)
+       352.716.859      instructions              #    0,74  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (53,99%)
+        84.037.241      branches                  #  549,407 M/sec                    (68,27%)
+           625.781      branch-misses             #    0,74% of all branches          (85,58%)
+
+       0,314445328 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/tale_of_two_cities.txt':
+
+        152,142585      task-clock (msec)         #    0,491 CPUs utilized          
+               105      context-switches          #    0,690 K/sec                  
+                13      cpu-migrations            #    0,085 K/sec                  
+             3.072      page-faults               #    0,020 M/sec                  
+       473.569.799      cycles                    #    3,113 GHz                      (83,99%)
+       122.596.964      stalled-cycles-frontend   #   25,89% frontend cycles idle     (84,40%)
+       207.858.961      stalled-cycles-backend    #   43,89% backend  cycles idle     (33,56%)
+       325.899.861      instructions              #    0,69  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (52,18%)
+        78.704.387      branches                  #  517,307 M/sec                    (68,62%)
+           567.549      branch-misses             #    0,72% of all branches          (83,14%)
+
+       0,310136065 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        149,095828      task-clock (msec)         #    0,480 CPUs utilized          
+               110      context-switches          #    0,738 K/sec                  
+                10      cpu-migrations            #    0,067 K/sec                  
+             3.073      page-faults               #    0,021 M/sec                  
+       467.872.708      cycles                    #    3,138 GHz                      (84,50%)
+       116.272.463      stalled-cycles-frontend   #   24,85% frontend cycles idle     (84,00%)
+       183.263.939      stalled-cycles-backend    #   39,17% backend  cycles idle     (32,34%)
+       296.065.238      instructions              #    0,63  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (53,68%)
+        71.799.232      branches                  #  481,564 M/sec                    (70,64%)
+           533.043      branch-misses             #    0,74% of all branches          (85,09%)
+
+       0,310593705 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        152,803807      task-clock (msec)         #    0,488 CPUs utilized          
+               102      context-switches          #    0,668 K/sec                  
+                16      cpu-migrations            #    0,105 K/sec                  
+             3.072      page-faults               #    0,020 M/sec                  
+       461.955.673      cycles                    #    3,023 GHz                      (84,06%)
+       120.324.433      stalled-cycles-frontend   #   26,05% frontend cycles idle     (84,55%)
+       200.166.351      stalled-cycles-backend    #   43,33% backend  cycles idle     (33,64%)
+       304.731.940      instructions              #    0,66  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (52,29%)
+        72.896.794      branches                  #  477,061 M/sec                    (68,98%)
+           501.239      branch-misses             #    0,69% of all branches          (83,83%)
+
+       0,313268632 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        144,624429      task-clock (msec)         #    0,479 CPUs utilized          
+               106      context-switches          #    0,733 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.069      page-faults               #    0,021 M/sec                  
+       456.520.654      cycles                    #    3,157 GHz                      (84,86%)
+       111.971.969      stalled-cycles-frontend   #   24,53% frontend cycles idle     (84,26%)
+       184.092.231      stalled-cycles-backend    #   40,33% backend  cycles idle     (31,77%)
+       315.205.840      instructions              #    0,69  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (54,70%)
+        77.450.268      branches                  #  535,527 M/sec                    (70,15%)
+           517.151      branch-misses             #    0,67% of all branches          (84,86%)
+
+       0,301712340 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        143,808609      task-clock (msec)         #    0,473 CPUs utilized          
+                99      context-switches          #    0,688 K/sec                  
+                 8      cpu-migrations            #    0,056 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       476.717.390      cycles                    #    3,315 GHz                      (80,01%)
+       113.862.885      stalled-cycles-frontend   #   23,88% frontend cycles idle     (83,47%)
+       189.841.659      stalled-cycles-backend    #   39,82% backend  cycles idle     (36,84%)
+       334.519.608      instructions              #    0,70  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (54,60%)
+        80.643.159      branches                  #  560,767 M/sec                    (68,99%)
+           554.445      branch-misses             #    0,69% of all branches          (84,93%)
+
+       0,304169615 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        146,926585      task-clock (msec)         #    0,481 CPUs utilized          
+               112      context-switches          #    0,762 K/sec                  
+                10      cpu-migrations            #    0,068 K/sec                  
+             3.069      page-faults               #    0,021 M/sec                  
+       469.248.887      cycles                    #    3,194 GHz                      (83,43%)
+       120.742.253      stalled-cycles-frontend   #   25,73% frontend cycles idle     (84,06%)
+       181.206.372      stalled-cycles-backend    #   38,62% backend  cycles idle     (33,62%)
+       319.971.275      instructions              #    0,68  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (52,46%)
+        75.722.300      branches                  #  515,375 M/sec                    (70,11%)
+           519.600      branch-misses             #    0,69% of all branches          (84,65%)
+
+       0,305464302 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        150,994305      task-clock (msec)         #    0,483 CPUs utilized          
+               104      context-switches          #    0,689 K/sec                  
+                10      cpu-migrations            #    0,066 K/sec                  
+             3.072      page-faults               #    0,020 M/sec                  
+       452.280.060      cycles                    #    2,995 GHz                      (84,89%)
+       116.782.751      stalled-cycles-frontend   #   25,82% frontend cycles idle     (82,35%)
+       174.664.677      stalled-cycles-backend    #   38,62% backend  cycles idle     (33,46%)
+       331.239.996      instructions              #    0,73  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (54,60%)
+        76.814.761      branches                  #  508,726 M/sec                    (69,67%)
+           598.641      branch-misses             #    0,78% of all branches          (82,78%)
+
+       0,312660941 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        150,556226      task-clock (msec)         #    0,484 CPUs utilized          
+               106      context-switches          #    0,704 K/sec                  
+                13      cpu-migrations            #    0,086 K/sec                  
+             3.074      page-faults               #    0,020 M/sec                  
+       464.319.841      cycles                    #    3,084 GHz                      (84,19%)
+       116.907.033      stalled-cycles-frontend   #   25,18% frontend cycles idle     (84,59%)
+       204.304.934      stalled-cycles-backend    #   44,00% backend  cycles idle     (31,80%)
+       277.086.121      instructions              #    0,60  insns per cycle        
+                                                  #    0,74  stalled cycles per insn  (54,30%)
+        69.147.296      branches                  #  459,279 M/sec                    (68,82%)
+           505.151      branch-misses             #    0,73% of all branches          (85,32%)
+
+       0,311159541 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        145,806389      task-clock (msec)         #    0,475 CPUs utilized          
+               110      context-switches          #    0,754 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       461.002.985      cycles                    #    3,162 GHz                      (84,66%)
+       116.921.172      stalled-cycles-frontend   #   25,36% frontend cycles idle     (85,42%)
+       195.037.501      stalled-cycles-backend    #   42,31% backend  cycles idle     (30,98%)
+       301.677.591      instructions              #    0,65  insns per cycle        
+                                                  #    0,65  stalled cycles per insn  (51,55%)
+        72.602.284      branches                  #  497,936 M/sec                    (70,49%)
+           498.182      branch-misses             #    0,69% of all branches          (84,55%)
+
+       0,306734205 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        146,568825      task-clock (msec)         #    0,482 CPUs utilized          
+               101      context-switches          #    0,689 K/sec                  
+                10      cpu-migrations            #    0,068 K/sec                  
+             3.068      page-faults               #    0,021 M/sec                  
+       470.305.367      cycles                    #    3,209 GHz                      (83,65%)
+       112.905.410      stalled-cycles-frontend   #   24,01% frontend cycles idle     (83,57%)
+       178.269.321      stalled-cycles-backend    #   37,91% backend  cycles idle     (32,89%)
+       326.059.957      instructions              #    0,69  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (55,19%)
+        78.162.179      branches                  #  533,280 M/sec                    (70,37%)
+           584.554      branch-misses             #    0,75% of all branches          (83,80%)
+
+       0,303913189 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/tale_of_two_cities.txt':
+
+        143,871843      task-clock (msec)         #    0,473 CPUs utilized          
+               103      context-switches          #    0,716 K/sec                  
+                 9      cpu-migrations            #    0,063 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       473.778.659      cycles                    #    3,293 GHz                      (83,51%)
+       115.065.078      stalled-cycles-frontend   #   24,29% frontend cycles idle     (85,15%)
+       172.791.334      stalled-cycles-backend    #   36,47% backend  cycles idle     (37,12%)
+       325.916.625      instructions              #    0,69  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (53,72%)
+        78.707.008      branches                  #  547,063 M/sec                    (66,58%)
+           543.039      branch-misses             #    0,69% of all branches          (80,25%)
+
+       0,304243213 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        146,391029      task-clock (msec)         #    0,477 CPUs utilized          
+               108      context-switches          #    0,738 K/sec                  
+                14      cpu-migrations            #    0,096 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       457.665.680      cycles                    #    3,126 GHz                      (83,87%)
+       113.031.088      stalled-cycles-frontend   #   24,70% frontend cycles idle     (84,64%)
+       183.669.329      stalled-cycles-backend    #   40,13% backend  cycles idle     (31,80%)
+       320.811.873      instructions              #    0,70  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (55,41%)
+        79.994.649      branches                  #  546,445 M/sec                    (70,05%)
+           558.622      branch-misses             #    0,70% of all branches          (85,17%)
+
+       0,306977973 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        146,733707      task-clock (msec)         #    0,482 CPUs utilized          
+               114      context-switches          #    0,777 K/sec                  
+                10      cpu-migrations            #    0,068 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       450.437.969      cycles                    #    3,070 GHz                      (83,82%)
+       109.284.057      stalled-cycles-frontend   #   24,26% frontend cycles idle     (85,47%)
+       206.592.797      stalled-cycles-backend    #   45,86% backend  cycles idle     (31,51%)
+       302.676.958      instructions              #    0,67  insns per cycle        
+                                                  #    0,68  stalled cycles per insn  (50,52%)
+        70.844.557      branches                  #  482,810 M/sec                    (68,46%)
+           507.981      branch-misses             #    0,72% of all branches          (84,84%)
+
+       0,304475292 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        146,022041      task-clock (msec)         #    0,475 CPUs utilized          
+               106      context-switches          #    0,726 K/sec                  
+                10      cpu-migrations            #    0,068 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       459.412.429      cycles                    #    3,146 GHz                      (84,59%)
+       118.399.833      stalled-cycles-frontend   #   25,77% frontend cycles idle     (83,64%)
+       181.753.092      stalled-cycles-backend    #   39,56% backend  cycles idle     (33,29%)
+       319.199.332      instructions              #    0,69  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (51,25%)
+        75.326.199      branches                  #  515,855 M/sec                    (68,69%)
+           523.684      branch-misses             #    0,70% of all branches          (83,83%)
+
+       0,307314495 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        148,060793      task-clock (msec)         #    0,479 CPUs utilized          
+               105      context-switches          #    0,709 K/sec                  
+                13      cpu-migrations            #    0,088 K/sec                  
+             3.076      page-faults               #    0,021 M/sec                  
+       458.531.570      cycles                    #    3,097 GHz                      (85,71%)
+       112.403.661      stalled-cycles-frontend   #   24,51% frontend cycles idle     (83,07%)
+       180.191.532      stalled-cycles-backend    #   39,30% backend  cycles idle     (33,89%)
+       314.822.430      instructions              #    0,69  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (53,04%)
+        74.775.972      branches                  #  505,036 M/sec                    (71,86%)
+           529.671      branch-misses             #    0,71% of all branches          (85,65%)
+
+       0,309338409 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        143,644805      task-clock (msec)         #    0,478 CPUs utilized          
+               113      context-switches          #    0,787 K/sec                  
+                11      cpu-migrations            #    0,077 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       452.016.796      cycles                    #    3,147 GHz                      (83,51%)
+       114.756.338      stalled-cycles-frontend   #   25,39% frontend cycles idle     (82,99%)
+       195.911.651      stalled-cycles-backend    #   43,34% backend  cycles idle     (34,66%)
+       331.983.434      instructions              #    0,73  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (52,66%)
+        78.788.656      branches                  #  548,496 M/sec                    (67,07%)
+           534.207      branch-misses             #    0,68% of all branches          (83,77%)
+
+       0,300725481 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        144,480428      task-clock (msec)         #    0,473 CPUs utilized          
+               107      context-switches          #    0,741 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       460.621.805      cycles                    #    3,188 GHz                      (81,86%)
+       118.335.793      stalled-cycles-frontend   #   25,69% frontend cycles idle     (80,51%)
+       177.566.335      stalled-cycles-backend    #   38,55% backend  cycles idle     (38,21%)
+       320.563.812      instructions              #    0,70  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (55,39%)
+        76.502.100      branches                  #  529,498 M/sec                    (66,85%)
+           521.761      branch-misses             #    0,68% of all branches          (83,75%)
+
+       0,305482383 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        146,950999      task-clock (msec)         #    0,482 CPUs utilized          
+               102      context-switches          #    0,694 K/sec                  
+                14      cpu-migrations            #    0,095 K/sec                  
+             3.076      page-faults               #    0,021 M/sec                  
+       460.708.909      cycles                    #    3,135 GHz                      (83,71%)
+       113.574.675      stalled-cycles-frontend   #   24,65% frontend cycles idle     (83,69%)
+       196.822.605      stalled-cycles-backend    #   42,72% backend  cycles idle     (33,30%)
+       301.243.255      instructions              #    0,65  insns per cycle        
+                                                  #    0,65  stalled cycles per insn  (54,49%)
+        71.246.215      branches                  #  484,830 M/sec                    (71,42%)
+           514.316      branch-misses             #    0,72% of all branches          (86,02%)
+
+       0,304568585 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        139,109330      task-clock (msec)         #    0,470 CPUs utilized          
+               106      context-switches          #    0,762 K/sec                  
+                10      cpu-migrations            #    0,072 K/sec                  
+             3.072      page-faults               #    0,022 M/sec                  
+       465.196.534      cycles                    #    3,344 GHz                      (82,68%)
+       116.272.932      stalled-cycles-frontend   #   24,99% frontend cycles idle     (82,04%)
+       188.851.954      stalled-cycles-backend    #   40,60% backend  cycles idle     (35,90%)
+       313.230.197      instructions              #    0,67  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (53,57%)
+        74.884.817      branches                  #  538,316 M/sec                    (69,91%)
+           578.670      branch-misses             #    0,77% of all branches          (84,11%)
+
+       0,296216010 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        151,270927      task-clock (msec)         #    0,484 CPUs utilized          
+               110      context-switches          #    0,727 K/sec                  
+                14      cpu-migrations            #    0,093 K/sec                  
+             3.076      page-faults               #    0,020 M/sec                  
+       455.334.156      cycles                    #    3,010 GHz                      (84,09%)
+       115.803.583      stalled-cycles-frontend   #   25,43% frontend cycles idle     (84,30%)
+       198.938.990      stalled-cycles-backend    #   43,69% backend  cycles idle     (33,85%)
+       267.010.936      instructions              #    0,59  insns per cycle        
+                                                  #    0,75  stalled cycles per insn  (52,40%)
+        67.428.245      branches                  #  445,745 M/sec                    (69,27%)
+           510.882      branch-misses             #    0,76% of all branches          (85,41%)
+
+       0,312314181 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/tale_of_two_cities.txt':
+
+        144,305277      task-clock (msec)         #    0,471 CPUs utilized          
+               107      context-switches          #    0,741 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.070      page-faults               #    0,021 M/sec                  
+       466.899.501      cycles                    #    3,235 GHz                      (79,85%)
+       116.485.061      stalled-cycles-frontend   #   24,95% frontend cycles idle     (83,49%)
+       194.798.182      stalled-cycles-backend    #   41,72% backend  cycles idle     (37,00%)
+       303.643.736      instructions              #    0,65  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (57,12%)
+        72.429.758      branches                  #  501,920 M/sec                    (72,42%)
+           497.675      branch-misses             #    0,69% of all branches          (85,04%)
+
+       0,306487675 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        143,447303      task-clock (msec)         #    0,477 CPUs utilized          
+                94      context-switches          #    0,655 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.070      page-faults               #    0,021 M/sec                  
+       457.233.560      cycles                    #    3,187 GHz                      (82,97%)
+       114.772.890      stalled-cycles-frontend   #   25,10% frontend cycles idle     (83,25%)
+       187.986.870      stalled-cycles-backend    #   41,11% backend  cycles idle     (36,21%)
+       311.449.311      instructions              #    0,68  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (51,45%)
+        75.115.625      branches                  #  523,646 M/sec                    (67,07%)
+           492.207      branch-misses             #    0,66% of all branches          (82,79%)
+
+       0,300699983 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        145,622563      task-clock (msec)         #    0,479 CPUs utilized          
+               106      context-switches          #    0,728 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       464.494.057      cycles                    #    3,190 GHz                      (83,62%)
+       111.307.939      stalled-cycles-frontend   #   23,96% frontend cycles idle     (83,71%)
+       183.590.404      stalled-cycles-backend    #   39,52% backend  cycles idle     (33,56%)
+       327.533.588      instructions              #    0,71  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (54,51%)
+        79.216.371      branches                  #  543,984 M/sec                    (69,35%)
+           534.743      branch-misses             #    0,68% of all branches          (83,83%)
+
+       0,303901082 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        143,550463      task-clock (msec)         #    0,472 CPUs utilized          
+               104      context-switches          #    0,724 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       460.667.966      cycles                    #    3,209 GHz                      (84,28%)
+       117.113.603      stalled-cycles-frontend   #   25,42% frontend cycles idle     (83,68%)
+       191.779.578      stalled-cycles-backend    #   41,63% backend  cycles idle     (32,94%)
+       302.713.161      instructions              #    0,66  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (53,93%)
+        71.104.004      branches                  #  495,324 M/sec                    (70,68%)
+           497.362      branch-misses             #    0,70% of all branches          (84,91%)
+
+       0,304111175 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        147,557905      task-clock (msec)         #    0,478 CPUs utilized          
+               105      context-switches          #    0,712 K/sec                  
+                14      cpu-migrations            #    0,095 K/sec                  
+             3.076      page-faults               #    0,021 M/sec                  
+       455.049.825      cycles                    #    3,084 GHz                      (84,85%)
+       110.832.653      stalled-cycles-frontend   #   24,36% frontend cycles idle     (84,05%)
+       179.735.883      stalled-cycles-backend    #   39,50% backend  cycles idle     (31,88%)
+       339.464.892      instructions              #    0,75  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (54,19%)
+        80.209.682      branches                  #  543,581 M/sec                    (70,43%)
+           542.713      branch-misses             #    0,68% of all branches          (84,80%)
+
+       0,308722108 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        141,886196      task-clock (msec)         #    0,473 CPUs utilized          
+               102      context-switches          #    0,719 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.076      page-faults               #    0,022 M/sec                  
+       462.682.213      cycles                    #    3,261 GHz                      (80,62%)
+       117.405.822      stalled-cycles-frontend   #   25,38% frontend cycles idle     (82,83%)
+       181.583.429      stalled-cycles-backend    #   39,25% backend  cycles idle     (38,34%)
+       284.209.627      instructions              #    0,61  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (58,02%)
+        69.390.198      branches                  #  489,055 M/sec                    (71,91%)
+           498.594      branch-misses             #    0,72% of all branches          (85,28%)
+
+       0,299831665 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        140,648240      task-clock (msec)         #    0,470 CPUs utilized          
+               102      context-switches          #    0,725 K/sec                  
+                11      cpu-migrations            #    0,078 K/sec                  
+             3.070      page-faults               #    0,022 M/sec                  
+       442.734.977      cycles                    #    3,148 GHz                      (84,94%)
+       114.849.213      stalled-cycles-frontend   #   25,94% frontend cycles idle     (85,81%)
+       184.695.074      stalled-cycles-backend    #   41,72% backend  cycles idle     (35,10%)
+       327.664.592      instructions              #    0,74  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (52,32%)
+        78.818.173      branches                  #  560,392 M/sec                    (65,40%)
+           506.492      branch-misses             #    0,64% of all branches          (80,03%)
+
+       0,299084674 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        151,960003      task-clock (msec)         #    0,484 CPUs utilized          
+               106      context-switches          #    0,698 K/sec                  
+                14      cpu-migrations            #    0,092 K/sec                  
+             3.075      page-faults               #    0,020 M/sec                  
+       464.607.636      cycles                    #    3,057 GHz                      (83,96%)
+       116.805.760      stalled-cycles-frontend   #   25,14% frontend cycles idle     (83,20%)
+       186.172.651      stalled-cycles-backend    #   40,07% backend  cycles idle     (34,67%)
+       302.551.079      instructions              #    0,65  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (52,73%)
+        74.255.585      branches                  #  488,652 M/sec                    (68,97%)
+           510.838      branch-misses             #    0,69% of all branches          (82,59%)
+
+       0,314126488 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        141,721584      task-clock (msec)         #    0,474 CPUs utilized          
+               105      context-switches          #    0,741 K/sec                  
+                10      cpu-migrations            #    0,071 K/sec                  
+             3.067      page-faults               #    0,022 M/sec                  
+       446.147.011      cycles                    #    3,148 GHz                      (85,53%)
+       112.450.728      stalled-cycles-frontend   #   25,20% frontend cycles idle     (82,28%)
+       193.211.576      stalled-cycles-backend    #   43,31% backend  cycles idle     (35,27%)
+       314.885.983      instructions              #    0,71  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (51,19%)
+        80.633.226      branches                  #  568,955 M/sec                    (66,31%)
+           566.642      branch-misses             #    0,70% of all branches          (83,55%)
+
+       0,298739411 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        145,700632      task-clock (msec)         #    0,475 CPUs utilized          
+               102      context-switches          #    0,700 K/sec                  
+                14      cpu-migrations            #    0,096 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       459.681.758      cycles                    #    3,155 GHz                      (84,35%)
+       112.299.472      stalled-cycles-frontend   #   24,43% frontend cycles idle     (84,43%)
+       181.043.852      stalled-cycles-backend    #   39,38% backend  cycles idle     (32,02%)
+       325.328.435      instructions              #    0,71  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (55,22%)
+        80.973.937      branches                  #  555,756 M/sec                    (69,85%)
+           586.736      branch-misses             #    0,72% of all branches          (84,76%)
+
+       0,306523776 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/tale_of_two_cities.txt':
+
+        142,495799      task-clock (msec)         #    0,469 CPUs utilized          
+               102      context-switches          #    0,716 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.069      page-faults               #    0,022 M/sec                  
+       455.317.312      cycles                    #    3,195 GHz                      (83,45%)
+       118.040.512      stalled-cycles-frontend   #   25,92% frontend cycles idle     (81,77%)
+       190.535.821      stalled-cycles-backend    #   41,85% backend  cycles idle     (35,56%)
+       294.439.122      instructions              #    0,65  insns per cycle        
+                                                  #    0,65  stalled cycles per insn  (57,75%)
+        71.542.832      branches                  #  502,070 M/sec                    (72,21%)
+           529.054      branch-misses             #    0,74% of all branches          (85,05%)
+
+       0,303797072 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        140,110652      task-clock (msec)         #    0,470 CPUs utilized          
+               105      context-switches          #    0,749 K/sec                  
+                10      cpu-migrations            #    0,071 K/sec                  
+             3.074      page-faults               #    0,022 M/sec                  
+       466.600.078      cycles                    #    3,330 GHz                      (82,51%)
+       117.941.301      stalled-cycles-frontend   #   25,28% frontend cycles idle     (83,05%)
+       167.727.576      stalled-cycles-backend    #   35,95% backend  cycles idle     (36,34%)
+       322.594.593      instructions              #    0,69  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (56,37%)
+        79.427.783      branches                  #  566,893 M/sec                    (69,76%)
+           542.995      branch-misses             #    0,68% of all branches          (83,79%)
+
+       0,297995916 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        144,479074      task-clock (msec)         #    0,477 CPUs utilized          
+               109      context-switches          #    0,754 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       463.010.962      cycles                    #    3,205 GHz                      (85,63%)
+       113.339.370      stalled-cycles-frontend   #   24,48% frontend cycles idle     (84,10%)
+       178.471.045      stalled-cycles-backend    #   38,55% backend  cycles idle     (31,33%)
+       334.210.209      instructions              #    0,72  insns per cycle        
+                                                  #    0,53  stalled cycles per insn  (52,44%)
+        80.067.592      branches                  #  554,181 M/sec                    (67,85%)
+           532.661      branch-misses             #    0,67% of all branches          (84,22%)
+
+       0,303001675 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        149,226951      task-clock (msec)         #    0,479 CPUs utilized          
+               108      context-switches          #    0,724 K/sec                  
+                12      cpu-migrations            #    0,080 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       446.911.273      cycles                    #    2,995 GHz                      (83,81%)
+       116.857.340      stalled-cycles-frontend   #   26,15% frontend cycles idle     (83,08%)
+       191.850.487      stalled-cycles-backend    #   42,93% backend  cycles idle     (34,71%)
+       301.993.649      instructions              #    0,68  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (52,65%)
+        71.703.837      branches                  #  480,502 M/sec                    (67,06%)
+           497.096      branch-misses             #    0,69% of all branches          (84,30%)
+
+       0,311766288 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        149,935589      task-clock (msec)         #    0,488 CPUs utilized          
+               101      context-switches          #    0,674 K/sec                  
+                13      cpu-migrations            #    0,087 K/sec                  
+             3.069      page-faults               #    0,020 M/sec                  
+       455.557.155      cycles                    #    3,038 GHz                      (84,18%)
+       109.140.294      stalled-cycles-frontend   #   23,96% frontend cycles idle     (85,65%)
+       176.451.725      stalled-cycles-backend    #   38,73% backend  cycles idle     (30,64%)
+       324.884.201      instructions              #    0,71  insns per cycle        
+                                                  #    0,54  stalled cycles per insn  (51,12%)
+        78.504.267      branches                  #  523,587 M/sec                    (69,24%)
+           573.957      branch-misses             #    0,73% of all branches          (84,35%)
+
+       0,307352728 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        146,913558      task-clock (msec)         #    0,476 CPUs utilized          
+               112      context-switches          #    0,762 K/sec                  
+                14      cpu-migrations            #    0,095 K/sec                  
+             3.074      page-faults               #    0,021 M/sec                  
+       457.920.231      cycles                    #    3,117 GHz                      (83,74%)
+       112.158.772      stalled-cycles-frontend   #   24,49% frontend cycles idle     (84,94%)
+       187.715.182      stalled-cycles-backend    #   40,99% backend  cycles idle     (32,19%)
+       304.085.585      instructions              #    0,66  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (55,13%)
+        75.846.281      branches                  #  516,265 M/sec                    (70,73%)
+           509.196      branch-misses             #    0,67% of all branches          (85,05%)
+
+       0,308787112 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        145,185028      task-clock (msec)         #    0,478 CPUs utilized          
+               104      context-switches          #    0,716 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.069      page-faults               #    0,021 M/sec                  
+       461.852.981      cycles                    #    3,181 GHz                      (83,52%)
+       116.917.257      stalled-cycles-frontend   #   25,31% frontend cycles idle     (83,46%)
+       196.480.597      stalled-cycles-backend    #   42,54% backend  cycles idle     (33,21%)
+       316.355.285      instructions              #    0,68  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (52,76%)
+        75.314.394      branches                  #  518,748 M/sec                    (69,88%)
+           505.936      branch-misses             #    0,67% of all branches          (84,48%)
+
+       0,303612967 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        150,181640      task-clock (msec)         #    0,480 CPUs utilized          
+               116      context-switches          #    0,772 K/sec                  
+                13      cpu-migrations            #    0,087 K/sec                  
+             3.071      page-faults               #    0,020 M/sec                  
+       464.473.625      cycles                    #    3,093 GHz                      (84,26%)
+       113.133.513      stalled-cycles-frontend   #   24,36% frontend cycles idle     (82,90%)
+       183.669.451      stalled-cycles-backend    #   39,54% backend  cycles idle     (33,55%)
+       300.714.246      instructions              #    0,65  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (54,48%)
+        72.294.418      branches                  #  481,380 M/sec                    (68,16%)
+           595.022      branch-misses             #    0,82% of all branches          (82,48%)
+
+       0,312666200 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        144,475733      task-clock (msec)         #    0,475 CPUs utilized          
+               100      context-switches          #    0,692 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       455.925.385      cycles                    #    3,156 GHz                      (83,82%)
+       114.634.792      stalled-cycles-frontend   #   25,14% frontend cycles idle     (83,46%)
+       189.489.620      stalled-cycles-backend    #   41,56% backend  cycles idle     (33,02%)
+       319.050.047      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (54,45%)
+        76.572.003      branches                  #  529,999 M/sec                    (68,93%)
+           535.284      branch-misses             #    0,70% of all branches          (83,91%)
+
+       0,304064638 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        145,730397      task-clock (msec)         #    0,475 CPUs utilized          
+               100      context-switches          #    0,686 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.068      page-faults               #    0,021 M/sec                  
+       473.365.705      cycles                    #    3,248 GHz                      (83,64%)
+       120.842.494      stalled-cycles-frontend   #   25,53% frontend cycles idle     (82,57%)
+       190.864.690      stalled-cycles-backend    #   40,32% backend  cycles idle     (34,11%)
+       297.242.879      instructions              #    0,63  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (56,12%)
+        70.890.950      branches                  #  486,453 M/sec                    (72,26%)
+           478.028      branch-misses             #    0,67% of all branches          (84,99%)
+
+       0,306957876 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/tale_of_two_cities.txt':
+
+        143,902847      task-clock (msec)         #    0,476 CPUs utilized          
+               107      context-switches          #    0,744 K/sec                  
+                11      cpu-migrations            #    0,076 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       457.864.701      cycles                    #    3,182 GHz                      (83,38%)
+       115.552.689      stalled-cycles-frontend   #   25,24% frontend cycles idle     (84,79%)
+       194.071.531      stalled-cycles-backend    #   42,39% backend  cycles idle     (34,23%)
+       306.659.047      instructions              #    0,67  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (53,38%)
+        74.000.636      branches                  #  514,240 M/sec                    (71,46%)
+           510.625      branch-misses             #    0,69% of all branches          (85,32%)
+
+       0,302118745 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        142,685396      task-clock (msec)         #    0,475 CPUs utilized          
+               101      context-switches          #    0,708 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.069      page-faults               #    0,022 M/sec                  
+       459.250.542      cycles                    #    3,219 GHz                      (82,99%)
+       115.305.798      stalled-cycles-frontend   #   25,11% frontend cycles idle     (83,20%)
+       182.695.038      stalled-cycles-backend    #   39,78% backend  cycles idle     (34,94%)
+       273.836.097      instructions              #    0,60  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (56,63%)
+        68.209.631      branches                  #  478,042 M/sec                    (72,03%)
+           489.582      branch-misses             #    0,72% of all branches          (85,48%)
+
+       0,300565434 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        147,285177      task-clock (msec)         #    0,479 CPUs utilized          
+               108      context-switches          #    0,733 K/sec                  
+                14      cpu-migrations            #    0,095 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       464.724.028      cycles                    #    3,155 GHz                      (84,08%)
+       113.379.856      stalled-cycles-frontend   #   24,40% frontend cycles idle     (83,91%)
+       184.786.435      stalled-cycles-backend    #   39,76% backend  cycles idle     (32,40%)
+       316.521.898      instructions              #    0,68  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (53,61%)
+        76.329.926      branches                  #  518,246 M/sec                    (70,55%)
+           553.536      branch-misses             #    0,73% of all branches          (84,96%)
+
+       0,307206153 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        146,035674      task-clock (msec)         #    0,476 CPUs utilized          
+               104      context-switches          #    0,712 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       458.250.526      cycles                    #    3,138 GHz                      (83,40%)
+       121.314.268      stalled-cycles-frontend   #   26,47% frontend cycles idle     (84,32%)
+       201.463.366      stalled-cycles-backend    #   43,96% backend  cycles idle     (35,00%)
+       274.859.145      instructions              #    0,60  insns per cycle        
+                                                  #    0,73  stalled cycles per insn  (52,40%)
+        64.299.401      branches                  #  440,299 M/sec                    (67,98%)
+           511.862      branch-misses             #    0,80% of all branches          (84,39%)
+
+       0,306920510 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        150,205463      task-clock (msec)         #    0,489 CPUs utilized          
+                94      context-switches          #    0,626 K/sec                  
+                14      cpu-migrations            #    0,093 K/sec                  
+             3.071      page-faults               #    0,020 M/sec                  
+       460.068.836      cycles                    #    3,063 GHz                      (84,22%)
+       116.629.193      stalled-cycles-frontend   #   25,35% frontend cycles idle     (84,03%)
+       188.987.557      stalled-cycles-backend    #   41,08% backend  cycles idle     (32,64%)
+       306.622.612      instructions              #    0,67  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (52,98%)
+        71.602.702      branches                  #  476,698 M/sec                    (69,95%)
+           527.468      branch-misses             #    0,74% of all branches          (83,71%)
+
+       0,307085937 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        146,074410      task-clock (msec)         #    0,477 CPUs utilized          
+               103      context-switches          #    0,705 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.074      page-faults               #    0,021 M/sec                  
+       461.270.143      cycles                    #    3,158 GHz                      (83,80%)
+       115.378.168      stalled-cycles-frontend   #   25,01% frontend cycles idle     (84,43%)
+       203.749.449      stalled-cycles-backend    #   44,17% backend  cycles idle     (32,87%)
+       294.715.025      instructions              #    0,64  insns per cycle        
+                                                  #    0,69  stalled cycles per insn  (54,34%)
+        71.567.537      branches                  #  489,939 M/sec                    (69,69%)
+           616.205      branch-misses             #    0,86% of all branches          (84,88%)
+
+       0,306488932 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        144,952055      task-clock (msec)         #    0,473 CPUs utilized          
+               104      context-switches          #    0,717 K/sec                  
+                14      cpu-migrations            #    0,097 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       451.704.545      cycles                    #    3,116 GHz                      (82,33%)
+       112.106.689      stalled-cycles-frontend   #   24,82% frontend cycles idle     (83,42%)
+       186.371.698      stalled-cycles-backend    #   41,26% backend  cycles idle     (34,82%)
+       314.209.651      instructions              #    0,70  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (54,66%)
+        77.017.841      branches                  #  531,333 M/sec                    (69,01%)
+           556.129      branch-misses             #    0,72% of all branches          (82,72%)
+
+       0,306757700 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        144,590241      task-clock (msec)         #    0,478 CPUs utilized          
+                99      context-switches          #    0,685 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.073      page-faults               #    0,021 M/sec                  
+       473.908.984      cycles                    #    3,278 GHz                      (83,46%)
+       114.239.687      stalled-cycles-frontend   #   24,11% frontend cycles idle     (85,41%)
+       196.524.004      stalled-cycles-backend    #   41,47% backend  cycles idle     (36,37%)
+       291.722.855      instructions              #    0,62  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (53,14%)
+        73.021.649      branches                  #  505,025 M/sec                    (66,45%)
+           506.916      branch-misses             #    0,69% of all branches          (82,47%)
+
+       0,302321720 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        143,815402      task-clock (msec)         #    0,476 CPUs utilized          
+               104      context-switches          #    0,723 K/sec                  
+                10      cpu-migrations            #    0,070 K/sec                  
+             3.074      page-faults               #    0,021 M/sec                  
+       448.165.380      cycles                    #    3,116 GHz                      (83,59%)
+       112.337.277      stalled-cycles-frontend   #   25,07% frontend cycles idle     (83,42%)
+       197.901.261      stalled-cycles-backend    #   44,16% backend  cycles idle     (33,53%)
+       321.529.940      instructions              #    0,72  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (54,66%)
+        75.721.372      branches                  #  526,518 M/sec                    (71,46%)
+           554.932      branch-misses             #    0,73% of all branches          (85,94%)
+
+       0,302286799 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        144,265500      task-clock (msec)         #    0,473 CPUs utilized          
+                98      context-switches          #    0,679 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       472.993.174      cycles                    #    3,279 GHz                      (81,84%)
+       122.862.080      stalled-cycles-frontend   #   25,98% frontend cycles idle     (80,17%)
+       197.096.012      stalled-cycles-backend    #   41,67% backend  cycles idle     (38,25%)
+       292.894.835      instructions              #    0,62  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (53,97%)
+        69.668.493      branches                  #  482,919 M/sec                    (71,25%)
+           505.619      branch-misses             #    0,73% of all branches          (86,38%)
+
+       0,305293956 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/tale_of_two_cities.txt':
+
+        144,341608      task-clock (msec)         #    0,478 CPUs utilized          
+               110      context-switches          #    0,762 K/sec                  
+                14      cpu-migrations            #    0,097 K/sec                  
+             3.073      page-faults               #    0,021 M/sec                  
+       462.752.488      cycles                    #    3,206 GHz                      (83,20%)
+       117.069.835      stalled-cycles-frontend   #   25,30% frontend cycles idle     (83,60%)
+       190.448.921      stalled-cycles-backend    #   41,16% backend  cycles idle     (33,54%)
+       307.435.753      instructions              #    0,66  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (53,27%)
+        72.815.280      branches                  #  504,465 M/sec                    (71,35%)
+           528.635      branch-misses             #    0,73% of all branches          (85,63%)
+
+       0,301747180 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        145,908066      task-clock (msec)         #    0,481 CPUs utilized          
+                97      context-switches          #    0,665 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.068      page-faults               #    0,021 M/sec                  
+       460.953.627      cycles                    #    3,159 GHz                      (80,62%)
+       120.074.985      stalled-cycles-frontend   #   26,05% frontend cycles idle     (83,82%)
+       193.304.285      stalled-cycles-backend    #   41,94% backend  cycles idle     (36,14%)
+       289.545.165      instructions              #    0,63  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (55,71%)
+        69.141.968      branches                  #  473,874 M/sec                    (73,01%)
+           477.817      branch-misses             #    0,69% of all branches          (85,88%)
+
+       0,303556281 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        144,477047      task-clock (msec)         #    0,473 CPUs utilized          
+               104      context-switches          #    0,720 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.069      page-faults               #    0,021 M/sec                  
+       475.031.329      cycles                    #    3,288 GHz                      (83,82%)
+       119.720.253      stalled-cycles-frontend   #   25,20% frontend cycles idle     (83,46%)
+       196.130.048      stalled-cycles-backend    #   41,29% backend  cycles idle     (33,02%)
+       292.878.463      instructions              #    0,62  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (54,93%)
+        72.142.749      branches                  #  499,337 M/sec                    (72,48%)
+           505.251      branch-misses             #    0,70% of all branches          (87,02%)
+
+       0,305407294 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        143,937198      task-clock (msec)         #    0,451 CPUs utilized          
+               112      context-switches          #    0,778 K/sec                  
+                13      cpu-migrations            #    0,090 K/sec                  
+             3.075      page-faults               #    0,021 M/sec                  
+       458.342.581      cycles                    #    3,184 GHz                      (83,45%)
+       118.454.607      stalled-cycles-frontend   #   25,84% frontend cycles idle     (83,21%)
+       187.218.588      stalled-cycles-backend    #   40,85% backend  cycles idle     (33,76%)
+       282.705.786      instructions              #    0,62  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (56,16%)
+        67.468.875      branches                  #  468,738 M/sec                    (71,52%)
+           491.793      branch-misses             #    0,73% of all branches          (85,34%)
+
+       0,319431650 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        146,531020      task-clock (msec)         #    0,483 CPUs utilized          
+                88      context-switches          #    0,601 K/sec                  
+                13      cpu-migrations            #    0,089 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       470.182.565      cycles                    #    3,209 GHz                      (80,85%)
+       112.574.834      stalled-cycles-frontend   #   23,94% frontend cycles idle     (83,52%)
+       177.859.954      stalled-cycles-backend    #   37,83% backend  cycles idle     (37,28%)
+       315.385.810      instructions              #    0,67  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (56,78%)
+        76.253.864      branches                  #  520,394 M/sec                    (69,56%)
+           532.815      branch-misses             #    0,70% of all branches          (83,67%)
+
+       0,303371868 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        144,847460      task-clock (msec)         #    0,476 CPUs utilized          
+               110      context-switches          #    0,759 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.074      page-faults               #    0,021 M/sec                  
+       469.720.520      cycles                    #    3,243 GHz                      (83,66%)
+       116.527.939      stalled-cycles-frontend   #   24,81% frontend cycles idle     (84,40%)
+       185.709.963      stalled-cycles-backend    #   39,54% backend  cycles idle     (32,68%)
+       309.308.941      instructions              #    0,66  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (52,29%)
+        73.966.323      branches                  #  510,650 M/sec                    (70,65%)
+           533.177      branch-misses             #    0,72% of all branches          (85,16%)
+
+       0,304244050 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        152,531752      task-clock (msec)         #    0,491 CPUs utilized          
+               103      context-switches          #    0,675 K/sec                  
+                14      cpu-migrations            #    0,092 K/sec                  
+             3.069      page-faults               #    0,020 M/sec                  
+       451.736.578      cycles                    #    2,962 GHz                      (81,80%)
+       110.088.536      stalled-cycles-frontend   #   24,37% frontend cycles idle     (82,03%)
+       164.542.936      stalled-cycles-backend    #   36,42% backend  cycles idle     (37,23%)
+       287.591.970      instructions              #    0,64  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (58,16%)
+        70.859.282      branches                  #  464,554 M/sec                    (71,80%)
+           510.132      branch-misses             #    0,72% of all branches          (84,50%)
+
+       0,310875246 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        151,148767      task-clock (msec)         #    0,491 CPUs utilized          
+               105      context-switches          #    0,695 K/sec                  
+                14      cpu-migrations            #    0,093 K/sec                  
+             3.073      page-faults               #    0,020 M/sec                  
+       465.689.619      cycles                    #    3,081 GHz                      (83,86%)
+       111.274.247      stalled-cycles-frontend   #   23,89% frontend cycles idle     (84,21%)
+       188.759.452      stalled-cycles-backend    #   40,53% backend  cycles idle     (32,22%)
+       325.387.406      instructions              #    0,70  insns per cycle        
+                                                  #    0,58  stalled cycles per insn  (54,04%)
+        77.661.103      branches                  #  513,806 M/sec                    (70,64%)
+           534.560      branch-misses             #    0,69% of all branches          (84,62%)
+
+       0,308100511 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        146,616219      task-clock (msec)         #    0,482 CPUs utilized          
+                99      context-switches          #    0,675 K/sec                  
+                10      cpu-migrations            #    0,068 K/sec                  
+             3.073      page-faults               #    0,021 M/sec                  
+       459.890.301      cycles                    #    3,137 GHz                      (80,67%)
+       116.419.937      stalled-cycles-frontend   #   25,31% frontend cycles idle     (83,88%)
+       196.108.462      stalled-cycles-backend    #   42,64% backend  cycles idle     (36,31%)
+       316.135.897      instructions              #    0,69  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (54,52%)
+        74.714.702      branches                  #  509,594 M/sec                    (71,42%)
+           513.637      branch-misses             #    0,69% of all branches          (86,39%)
+
+       0,304304924 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        146,075986      task-clock (msec)         #    0,478 CPUs utilized          
+               114      context-switches          #    0,780 K/sec                  
+                 9      cpu-migrations            #    0,062 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       466.258.998      cycles                    #    3,192 GHz                      (83,37%)
+       115.685.758      stalled-cycles-frontend   #   24,81% frontend cycles idle     (84,65%)
+       185.528.323      stalled-cycles-backend    #   39,79% backend  cycles idle     (32,62%)
+       299.935.919      instructions              #    0,64  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (54,96%)
+        70.673.920      branches                  #  483,816 M/sec                    (70,98%)
+           587.514      branch-misses             #    0,83% of all branches          (84,79%)
+
+       0,305610096 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/tale_of_two_cities.txt':
+
+        145,770210      task-clock (msec)         #    0,480 CPUs utilized          
+               122      context-switches          #    0,837 K/sec                  
+                10      cpu-migrations            #    0,069 K/sec                  
+             3.072      page-faults               #    0,021 M/sec                  
+       471.856.587      cycles                    #    3,237 GHz                      (81,26%)
+       113.596.945      stalled-cycles-frontend   #   24,07% frontend cycles idle     (83,89%)
+       192.145.794      stalled-cycles-backend    #   40,72% backend  cycles idle     (35,64%)
+       326.496.719      instructions              #    0,69  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (52,16%)
+        78.517.089      branches                  #  538,636 M/sec                    (65,97%)
+           492.611      branch-misses             #    0,63% of all branches          (81,98%)
+
+       0,303635777 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        136,844005      task-clock (msec)         #    0,465 CPUs utilized          
+               106      context-switches          #    0,775 K/sec                  
+                10      cpu-migrations            #    0,073 K/sec                  
+             3.075      page-faults               #    0,022 M/sec                  
+       441.136.639      cycles                    #    3,224 GHz                      (84,83%)
+       113.091.096      stalled-cycles-frontend   #   25,64% frontend cycles idle     (82,74%)
+       167.638.530      stalled-cycles-backend    #   38,00% backend  cycles idle     (35,56%)
+       320.695.755      instructions              #    0,73  insns per cycle        
+                                                  #    0,52  stalled cycles per insn  (53,26%)
+        76.965.372      branches                  #  562,431 M/sec                    (69,03%)
+           546.354      branch-misses             #    0,71% of all branches          (84,94%)
+
+       0,294581624 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        138,725837      task-clock (msec)         #    0,467 CPUs utilized          
+               104      context-switches          #    0,750 K/sec                  
+                10      cpu-migrations            #    0,072 K/sec                  
+             3.073      page-faults               #    0,022 M/sec                  
+       460.928.101      cycles                    #    3,323 GHz                      (82,68%)
+       115.956.811      stalled-cycles-frontend   #   25,16% frontend cycles idle     (84,65%)
+       198.949.727      stalled-cycles-backend    #   43,16% backend  cycles idle     (33,58%)
+       289.950.786      instructions              #    0,63  insns per cycle        
+                                                  #    0,69  stalled cycles per insn  (52,75%)
+        68.452.800      branches                  #  493,439 M/sec                    (70,18%)
+           485.476      branch-misses             #    0,71% of all branches          (85,24%)
+
+       0,296743518 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        144,690412      task-clock (msec)         #    0,478 CPUs utilized          
+               104      context-switches          #    0,719 K/sec                  
+                14      cpu-migrations            #    0,097 K/sec                  
+             3.073      page-faults               #    0,021 M/sec                  
+       443.632.261      cycles                    #    3,066 GHz                      (83,85%)
+       109.771.336      stalled-cycles-frontend   #   24,74% frontend cycles idle     (83,12%)
+       179.086.717      stalled-cycles-backend    #   40,37% backend  cycles idle     (34,46%)
+       282.091.415      instructions              #    0,64  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (53,62%)
+        67.045.506      branches                  #  463,372 M/sec                    (68,31%)
+           492.566      branch-misses             #    0,73% of all branches          (85,11%)
+
+       0,302435068 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        142,893764      task-clock (msec)         #    0,475 CPUs utilized          
+               102      context-switches          #    0,714 K/sec                  
+                13      cpu-migrations            #    0,091 K/sec                  
+             3.066      page-faults               #    0,021 M/sec                  
+       438.761.433      cycles                    #    3,071 GHz                      (83,45%)
+       108.728.982      stalled-cycles-frontend   #   24,78% frontend cycles idle     (82,84%)
+       188.018.555      stalled-cycles-backend    #   42,85% backend  cycles idle     (34,25%)
+       320.652.775      instructions              #    0,73  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (53,60%)
+        75.960.263      branches                  #  531,586 M/sec                    (70,13%)
+           527.188      branch-misses             #    0,69% of all branches          (84,28%)
+
+       0,300591823 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        145,030290      task-clock (msec)         #    0,473 CPUs utilized          
+               101      context-switches          #    0,696 K/sec                  
+                13      cpu-migrations            #    0,090 K/sec                  
+             3.069      page-faults               #    0,021 M/sec                  
+       453.912.264      cycles                    #    3,130 GHz                      (83,55%)
+       114.906.249      stalled-cycles-frontend   #   25,31% frontend cycles idle     (84,16%)
+       185.720.731      stalled-cycles-backend    #   40,92% backend  cycles idle     (33,36%)
+       304.372.681      instructions              #    0,67  insns per cycle        
+                                                  #    0,61  stalled cycles per insn  (51,56%)
+        72.808.111      branches                  #  502,020 M/sec                    (68,14%)
+           512.571      branch-misses             #    0,70% of all branches          (83,25%)
+
+       0,306368740 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        144,163047      task-clock (msec)         #    0,477 CPUs utilized          
+               100      context-switches          #    0,694 K/sec                  
+                14      cpu-migrations            #    0,097 K/sec                  
+             3.071      page-faults               #    0,021 M/sec                  
+       443.964.767      cycles                    #    3,080 GHz                      (83,69%)
+       109.752.578      stalled-cycles-frontend   #   24,72% frontend cycles idle     (83,03%)
+       187.756.038      stalled-cycles-backend    #   42,29% backend  cycles idle     (33,74%)
+       284.465.921      instructions              #    0,64  insns per cycle        
+                                                  #    0,66  stalled cycles per insn  (54,50%)
+        67.428.733      branches                  #  467,725 M/sec                    (69,06%)
+           502.165      branch-misses             #    0,74% of all branches          (85,88%)
+
+       0,302169941 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        141,399596      task-clock (msec)         #    0,470 CPUs utilized          
+               104      context-switches          #    0,736 K/sec                  
+                13      cpu-migrations            #    0,092 K/sec                  
+             3.068      page-faults               #    0,022 M/sec                  
+       449.310.562      cycles                    #    3,178 GHz                      (80,53%)
+       105.573.974      stalled-cycles-frontend   #   23,50% frontend cycles idle     (85,37%)
+       186.706.023      stalled-cycles-backend    #   41,55% backend  cycles idle     (37,55%)
+       310.820.064      instructions              #    0,69  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (54,63%)
+        76.019.647      branches                  #  537,623 M/sec                    (66,31%)
+           523.152      branch-misses             #    0,69% of all branches          (83,59%)
+
+       0,300598253 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        141,206696      task-clock (msec)         #    0,472 CPUs utilized          
+                98      context-switches          #    0,694 K/sec                  
+                14      cpu-migrations            #    0,099 K/sec                  
+             3.073      page-faults               #    0,022 M/sec                  
+       450.697.116      cycles                    #    3,192 GHz                      (83,28%)
+       114.662.125      stalled-cycles-frontend   #   25,44% frontend cycles idle     (80,48%)
+       178.588.905      stalled-cycles-backend    #   39,63% backend  cycles idle     (38,09%)
+       282.124.642      instructions              #    0,63  insns per cycle        
+                                                  #    0,63  stalled cycles per insn  (58,24%)
+        69.039.720      branches                  #  488,927 M/sec                    (72,25%)
+           487.079      branch-misses             #    0,71% of all branches          (85,36%)
+
+       0,299393153 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        139,283752      task-clock (msec)         #    0,468 CPUs utilized          
+               110      context-switches          #    0,790 K/sec                  
+                 9      cpu-migrations            #    0,065 K/sec                  
+             3.069      page-faults               #    0,022 M/sec                  
+       441.044.656      cycles                    #    3,167 GHz                      (85,38%)
+       109.530.776      stalled-cycles-frontend   #   24,83% frontend cycles idle     (84,53%)
+       181.057.676      stalled-cycles-backend    #   41,05% backend  cycles idle     (32,66%)
+       305.554.381      instructions              #    0,69  insns per cycle        
+                                                  #    0,59  stalled cycles per insn  (54,45%)
+        73.812.025      branches                  #  529,940 M/sec                    (69,02%)
+           547.914      branch-misses             #    0,74% of all branches          (83,67%)
+
+       0,297533902 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/tale_of_two_cities.txt':
+
+        142,709561      task-clock (msec)         #    0,475 CPUs utilized          
+               102      context-switches          #    0,715 K/sec                  
+                13      cpu-migrations            #    0,091 K/sec                  
+             3.072      page-faults               #    0,022 M/sec                  
+       462.519.667      cycles                    #    3,241 GHz                      (83,17%)
+       112.628.567      stalled-cycles-frontend   #   24,35% frontend cycles idle     (83,06%)
+       199.620.935      stalled-cycles-backend    #   43,16% backend  cycles idle     (34,51%)
+       295.778.865      instructions              #    0,64  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (54,34%)
+        71.142.951      branches                  #  498,516 M/sec                    (71,05%)
+           514.332      branch-misses             #    0,72% of all branches          (85,55%)
+
+       0,300688974 seconds time elapsed
+

@@ -1,0 +1,190 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     552964,622866      task-clock (msec)         #    0,990 CPUs utilized          
+            46.873      context-switches          #    0,085 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+             1.745      page-faults               #    0,003 K/sec                  
+ 2.053.436.357.396      cycles                    #    3,714 GHz                      (83,32%)
+    19.939.479.565      stalled-cycles-frontend   #    0,97% frontend cycles idle     (83,35%)
+ 1.572.653.210.129      stalled-cycles-backend    #   76,59% backend  cycles idle     (33,33%)
+ 1.640.082.890.060      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.616.890.523      branches                  #   13,775 M/sec                    (66,67%)
+        41.062.065      branch-misses             #    0,54% of all branches          (83,33%)
+
+     558,310172942 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     553558,796091      task-clock (msec)         #    0,990 CPUs utilized          
+            47.005      context-switches          #    0,085 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             1.759      page-faults               #    0,003 K/sec                  
+ 2.054.938.632.145      cycles                    #    3,712 GHz                      (83,34%)
+    19.444.763.438      stalled-cycles-frontend   #    0,95% frontend cycles idle     (83,33%)
+ 1.574.936.421.910      stalled-cycles-backend    #   76,64% backend  cycles idle     (33,33%)
+ 1.639.438.829.961      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.654.282.028      branches                  #   13,827 M/sec                    (66,65%)
+        39.045.058      branch-misses             #    0,51% of all branches          (83,33%)
+
+     558,919778150 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     552932,156376      task-clock (msec)         #    0,990 CPUs utilized          
+            46.958      context-switches          #    0,085 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.713      page-faults               #    0,003 K/sec                  
+ 2.052.788.133.410      cycles                    #    3,713 GHz                      (83,34%)
+    19.560.464.998      stalled-cycles-frontend   #    0,95% frontend cycles idle     (83,33%)
+ 1.572.694.946.630      stalled-cycles-backend    #   76,61% backend  cycles idle     (33,33%)
+ 1.639.573.705.209      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.654.289.358      branches                  #   13,843 M/sec                    (66,65%)
+        40.552.743      branch-misses             #    0,53% of all branches          (83,33%)
+
+     558,291675791 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     557810,302542      task-clock (msec)         #    0,990 CPUs utilized          
+            47.539      context-switches          #    0,085 K/sec                  
+                 6      cpu-migrations            #    0,000 K/sec                  
+             1.343      page-faults               #    0,002 K/sec                  
+ 2.045.009.607.430      cycles                    #    3,666 GHz                      (83,34%)
+     9.611.527.785      stalled-cycles-frontend   #    0,47% frontend cycles idle     (83,33%)
+ 1.572.385.158.685      stalled-cycles-backend    #   76,89% backend  cycles idle     (33,33%)
+ 1.639.964.337.335      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.665.318.611      branches                  #   13,742 M/sec                    (66,65%)
+        40.389.866      branch-misses             #    0,53% of all branches          (83,32%)
+
+     563,174525728 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     551617,890018      task-clock (msec)         #    0,990 CPUs utilized          
+            47.193      context-switches          #    0,086 K/sec                  
+                 7      cpu-migrations            #    0,000 K/sec                  
+             1.746      page-faults               #    0,003 K/sec                  
+ 2.044.951.459.654      cycles                    #    3,707 GHz                      (83,32%)
+    15.062.731.416      stalled-cycles-frontend   #    0,74% frontend cycles idle     (83,35%)
+ 1.572.653.615.033      stalled-cycles-backend    #   76,90% backend  cycles idle     (33,33%)
+ 1.639.860.653.867      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.613.666.188      branches                  #   13,802 M/sec                    (66,67%)
+        38.269.931      branch-misses             #    0,50% of all branches          (83,33%)
+
+     556,959886483 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     551268,430013      task-clock (msec)         #    0,990 CPUs utilized          
+            46.781      context-switches          #    0,085 K/sec                  
+                 7      cpu-migrations            #    0,000 K/sec                  
+             2.150      page-faults               #    0,004 K/sec                  
+ 2.042.743.178.154      cycles                    #    3,706 GHz                      (83,32%)
+    14.299.327.609      stalled-cycles-frontend   #    0,70% frontend cycles idle     (83,33%)
+ 1.572.558.610.729      stalled-cycles-backend    #   76,98% backend  cycles idle     (33,35%)
+ 1.639.897.126.864      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.623.366.932      branches                  #   13,829 M/sec                    (66,67%)
+        36.963.274      branch-misses             #    0,48% of all branches          (83,34%)
+
+     556,610094942 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     558371,981153      task-clock (msec)         #    0,990 CPUs utilized          
+            48.049      context-switches          #    0,086 K/sec                  
+                 4      cpu-migrations            #    0,000 K/sec                  
+             2.323      page-faults               #    0,004 K/sec                  
+ 2.048.055.950.421      cycles                    #    3,668 GHz                      (83,34%)
+    11.449.633.583      stalled-cycles-frontend   #    0,56% frontend cycles idle     (83,33%)
+ 1.572.485.846.475      stalled-cycles-backend    #   76,78% backend  cycles idle     (33,33%)
+ 1.639.927.511.125      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     7.676.619.592      branches                  #   13,748 M/sec                    (66,65%)
+        40.073.695      branch-misses             #    0,52% of all branches          (83,33%)
+
+     563,739630579 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     557691,716796      task-clock (msec)         #    0,990 CPUs utilized          
+            48.236      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.142      page-faults               #    0,004 K/sec                  
+ 2.045.439.200.510      cycles                    #    3,668 GHz                      (83,32%)
+    10.196.925.621      stalled-cycles-frontend   #    0,50% frontend cycles idle     (83,35%)
+ 1.572.151.243.670      stalled-cycles-backend    #   76,86% backend  cycles idle     (33,33%)
+ 1.640.017.854.079      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.645.155.274      branches                  #   13,709 M/sec                    (66,68%)
+        40.274.975      branch-misses             #    0,53% of all branches          (83,33%)
+
+     563,048593838 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     558115,640083      task-clock (msec)         #    0,990 CPUs utilized          
+            47.714      context-switches          #    0,085 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.079      page-faults               #    0,004 K/sec                  
+ 2.048.290.502.343      cycles                    #    3,670 GHz                      (83,34%)
+    11.938.127.472      stalled-cycles-frontend   #    0,58% frontend cycles idle     (83,33%)
+ 1.572.437.739.646      stalled-cycles-backend    #   76,77% backend  cycles idle     (33,33%)
+ 1.639.961.050.157      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,01%)
+     7.668.495.249      branches                  #   13,740 M/sec                    (66,65%)
+        39.900.140      branch-misses             #    0,52% of all branches          (83,33%)
+
+     563,481166252 seconds time elapsed
+
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_3.tif':
+
+     551706,372993      task-clock (msec)         #    0,990 CPUs utilized          
+            46.747      context-switches          #    0,085 K/sec                  
+                 6      cpu-migrations            #    0,000 K/sec                  
+             1.746      page-faults               #    0,003 K/sec                  
+ 2.045.621.510.553      cycles                    #    3,708 GHz                      (83,32%)
+    15.814.634.081      stalled-cycles-frontend   #    0,77% frontend cycles idle     (83,33%)
+ 1.573.012.713.142      stalled-cycles-backend    #   76,90% backend  cycles idle     (33,35%)
+ 1.639.801.816.172      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.620.960.866      branches                  #   13,813 M/sec                    (66,67%)
+        39.656.768      branch-misses             #    0,52% of all branches          (83,34%)
+
+     557,042543916 seconds time elapsed
+

@@ -1,0 +1,1440 @@
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        865,393919      task-clock (msec)         #    0,197 CPUs utilized          
+               780      context-switches          #    0,901 K/sec                  
+                10      cpu-migrations            #    0,012 K/sec                  
+             4.323      page-faults               #    0,005 M/sec                  
+     3.088.782.305      cycles                    #    3,569 GHz                      (82,75%)
+       479.935.227      stalled-cycles-frontend   #   15,54% frontend cycles idle     (83,89%)
+       810.829.834      stalled-cycles-backend    #   26,25% backend  cycles idle     (33,62%)
+     3.747.051.596      instructions              #    1,21  insns per cycle        
+                                                  #    0,22  stalled cycles per insn  (50,31%)
+       886.176.141      branches                  # 1024,015 M/sec                    (66,97%)
+         1.824.018      branch-misses             #    0,21% of all branches          (83,57%)
+
+       4,399681173 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        836,890659      task-clock (msec)         #    0,192 CPUs utilized          
+               605      context-switches          #    0,723 K/sec                  
+                14      cpu-migrations            #    0,017 K/sec                  
+             3.813      page-faults               #    0,005 M/sec                  
+     2.968.682.504      cycles                    #    3,547 GHz                      (83,22%)
+       432.601.202      stalled-cycles-frontend   #   14,57% frontend cycles idle     (83,14%)
+       785.841.408      stalled-cycles-backend    #   26,47% backend  cycles idle     (33,70%)
+     3.706.140.407      instructions              #    1,25  insns per cycle        
+                                                  #    0,21  stalled cycles per insn  (50,58%)
+       883.816.442      branches                  # 1056,072 M/sec                    (67,06%)
+         1.769.556      branch-misses             #    0,20% of all branches          (83,58%)
+
+       4,367414551 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        822,047825      task-clock (msec)         #    0,189 CPUs utilized          
+               611      context-switches          #    0,743 K/sec                  
+                 9      cpu-migrations            #    0,011 K/sec                  
+             4.323      page-faults               #    0,005 M/sec                  
+     2.944.519.599      cycles                    #    3,582 GHz                      (82,83%)
+       440.596.622      stalled-cycles-frontend   #   14,96% frontend cycles idle     (82,73%)
+       734.964.158      stalled-cycles-backend    #   24,96% backend  cycles idle     (34,49%)
+     3.638.635.731      instructions              #    1,24  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (51,13%)
+       862.689.024      branches                  # 1049,439 M/sec                    (67,15%)
+         1.713.783      branch-misses             #    0,20% of all branches          (83,38%)
+
+       4,352100629 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        829,318645      task-clock (msec)         #    0,190 CPUs utilized          
+               702      context-switches          #    0,846 K/sec                  
+                14      cpu-migrations            #    0,017 K/sec                  
+             4.323      page-faults               #    0,005 M/sec                  
+     2.967.458.394      cycles                    #    3,578 GHz                      (82,05%)
+       435.408.676      stalled-cycles-frontend   #   14,67% frontend cycles idle     (83,65%)
+       723.132.288      stalled-cycles-backend    #   24,37% backend  cycles idle     (34,81%)
+     3.595.747.235      instructions              #    1,21  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (51,33%)
+       862.149.721      branches                  # 1039,588 M/sec                    (67,56%)
+         1.683.483      branch-misses             #    0,20% of all branches          (83,52%)
+
+       4,353629994 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        818,123069      task-clock (msec)         #    0,188 CPUs utilized          
+               607      context-switches          #    0,742 K/sec                  
+                12      cpu-migrations            #    0,015 K/sec                  
+             3.810      page-faults               #    0,005 M/sec                  
+     2.913.264.010      cycles                    #    3,561 GHz                      (82,89%)
+       402.996.381      stalled-cycles-frontend   #   13,83% frontend cycles idle     (83,46%)
+       745.057.047      stalled-cycles-backend    #   25,57% backend  cycles idle     (33,85%)
+     3.630.259.722      instructions              #    1,25  insns per cycle        
+                                                  #    0,21  stalled cycles per insn  (50,51%)
+       867.886.102      branches                  # 1060,826 M/sec                    (66,83%)
+         1.724.059      branch-misses             #    0,20% of all branches          (83,31%)
+
+       4,346255363 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        830,582322      task-clock (msec)         #    0,191 CPUs utilized          
+               954      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,014 K/sec                  
+             3.813      page-faults               #    0,005 M/sec                  
+     2.967.155.554      cycles                    #    3,572 GHz                      (83,62%)
+       421.444.014      stalled-cycles-frontend   #   14,20% frontend cycles idle     (83,82%)
+       715.307.655      stalled-cycles-backend    #   24,11% backend  cycles idle     (32,82%)
+     3.713.895.465      instructions              #    1,25  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,47%)
+       887.031.643      branches                  # 1067,964 M/sec                    (66,64%)
+         1.781.066      branch-misses             #    0,20% of all branches          (82,94%)
+
+       4,356886387 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        814,412084      task-clock (msec)         #    0,187 CPUs utilized          
+               607      context-switches          #    0,745 K/sec                  
+                10      cpu-migrations            #    0,012 K/sec                  
+             4.323      page-faults               #    0,005 M/sec                  
+     2.910.014.281      cycles                    #    3,573 GHz                      (83,12%)
+       378.451.479      stalled-cycles-frontend   #   13,01% frontend cycles idle     (83,49%)
+       770.332.146      stalled-cycles-backend    #   26,47% backend  cycles idle     (33,48%)
+     3.621.363.193      instructions              #    1,24  insns per cycle        
+                                                  #    0,21  stalled cycles per insn  (50,00%)
+       856.203.949      branches                  # 1051,315 M/sec                    (67,11%)
+         1.721.260      branch-misses             #    0,20% of all branches          (83,44%)
+
+       4,346380030 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        808,589381      task-clock (msec)         #    0,186 CPUs utilized          
+               602      context-switches          #    0,745 K/sec                  
+                13      cpu-migrations            #    0,016 K/sec                  
+             4.323      page-faults               #    0,005 M/sec                  
+     2.903.344.420      cycles                    #    3,591 GHz                      (83,03%)
+       433.411.377      stalled-cycles-frontend   #   14,93% frontend cycles idle     (83,43%)
+       757.403.278      stalled-cycles-backend    #   26,09% backend  cycles idle     (33,88%)
+     3.644.340.266      instructions              #    1,26  insns per cycle        
+                                                  #    0,21  stalled cycles per insn  (50,15%)
+       864.368.785      branches                  # 1068,984 M/sec                    (66,87%)
+         1.622.302      branch-misses             #    0,19% of all branches          (83,32%)
+
+       4,339252342 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        819,574316      task-clock (msec)         #    0,188 CPUs utilized          
+               601      context-switches          #    0,733 K/sec                  
+                13      cpu-migrations            #    0,016 K/sec                  
+             4.326      page-faults               #    0,005 M/sec                  
+     2.918.412.714      cycles                    #    3,561 GHz                      (82,96%)
+       454.418.260      stalled-cycles-frontend   #   15,57% frontend cycles idle     (83,23%)
+       723.753.111      stalled-cycles-backend    #   24,80% backend  cycles idle     (34,54%)
+     3.632.102.064      instructions              #    1,24  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (50,70%)
+       863.394.003      branches                  # 1053,466 M/sec                    (67,08%)
+         2.250.636      branch-misses             #    0,26% of all branches          (83,45%)
+
+       4,349485649 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/mercury.png':
+
+        816,849123      task-clock (msec)         #    0,188 CPUs utilized          
+               587      context-switches          #    0,719 K/sec                  
+                 8      cpu-migrations            #    0,010 K/sec                  
+             4.322      page-faults               #    0,005 M/sec                  
+     2.941.559.032      cycles                    #    3,601 GHz                      (82,98%)
+       437.950.460      stalled-cycles-frontend   #   14,89% frontend cycles idle     (83,01%)
+       735.586.387      stalled-cycles-backend    #   25,01% backend  cycles idle     (34,11%)
+     3.609.115.976      instructions              #    1,23  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (51,10%)
+       861.017.532      branches                  # 1054,072 M/sec                    (67,52%)
+         1.673.247      branch-misses             #    0,19% of all branches          (83,56%)
+
+       4,347685693 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        693,114320      task-clock (msec)         #    0,164 CPUs utilized          
+               598      context-switches          #    0,863 K/sec                  
+                13      cpu-migrations            #    0,019 K/sec                  
+             4.322      page-faults               #    0,006 M/sec                  
+     2.436.247.992      cycles                    #    3,515 GHz                      (83,43%)
+       308.363.109      stalled-cycles-frontend   #   12,66% frontend cycles idle     (83,54%)
+       599.855.687      stalled-cycles-backend    #   24,62% backend  cycles idle     (33,27%)
+     3.213.955.857      instructions              #    1,32  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,19%)
+       771.383.927      branches                  # 1112,925 M/sec                    (67,47%)
+         1.165.122      branch-misses             #    0,15% of all branches          (83,45%)
+
+       4,223432897 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        693,718966      task-clock (msec)         #    0,164 CPUs utilized          
+               610      context-switches          #    0,879 K/sec                  
+                10      cpu-migrations            #    0,014 K/sec                  
+             3.812      page-faults               #    0,005 M/sec                  
+     2.447.837.016      cycles                    #    3,529 GHz                      (83,86%)
+       311.632.371      stalled-cycles-frontend   #   12,73% frontend cycles idle     (84,05%)
+       562.480.387      stalled-cycles-backend    #   22,98% backend  cycles idle     (32,52%)
+     3.328.987.866      instructions              #    1,36  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (48,71%)
+       784.076.050      branches                  # 1130,250 M/sec                    (65,45%)
+         1.121.134      branch-misses             #    0,14% of all branches          (82,20%)
+
+       4,221682046 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        704,102012      task-clock (msec)         #    0,165 CPUs utilized          
+               612      context-switches          #    0,869 K/sec                  
+                15      cpu-migrations            #    0,021 K/sec                  
+             4.322      page-faults               #    0,006 M/sec                  
+     2.480.436.240      cycles                    #    3,523 GHz                      (83,12%)
+       338.853.412      stalled-cycles-frontend   #   13,66% frontend cycles idle     (82,52%)
+       580.318.407      stalled-cycles-backend    #   23,40% backend  cycles idle     (35,01%)
+     3.215.571.083      instructions              #    1,30  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,61%)
+       767.414.282      branches                  # 1089,919 M/sec                    (68,43%)
+         1.551.461      branch-misses             #    0,20% of all branches          (84,28%)
+
+       4,255024793 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        684,904941      task-clock (msec)         #    0,163 CPUs utilized          
+               605      context-switches          #    0,883 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             4.323      page-faults               #    0,006 M/sec                  
+     2.417.122.005      cycles                    #    3,529 GHz                      (83,63%)
+       303.477.509      stalled-cycles-frontend   #   12,56% frontend cycles idle     (83,54%)
+       588.584.385      stalled-cycles-backend    #   24,35% backend  cycles idle     (33,04%)
+     3.258.695.294      instructions              #    1,35  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (49,25%)
+       781.635.170      branches                  # 1141,232 M/sec                    (65,47%)
+         1.158.847      branch-misses             #    0,15% of all branches          (82,23%)
+
+       4,213855162 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        678,881648      task-clock (msec)         #    0,161 CPUs utilized          
+               385      context-switches          #    0,567 K/sec                  
+                11      cpu-migrations            #    0,016 K/sec                  
+             4.324      page-faults               #    0,006 M/sec                  
+     2.403.527.152      cycles                    #    3,540 GHz                      (83,75%)
+       301.655.757      stalled-cycles-frontend   #   12,55% frontend cycles idle     (82,91%)
+       567.303.344      stalled-cycles-backend    #   23,60% backend  cycles idle     (33,69%)
+     3.189.587.337      instructions              #    1,33  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (50,93%)
+       764.217.448      branches                  # 1125,701 M/sec                    (67,05%)
+         1.063.201      branch-misses             #    0,14% of all branches          (83,21%)
+
+       4,210636802 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        682,381342      task-clock (msec)         #    0,162 CPUs utilized          
+               577      context-switches          #    0,846 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.809      page-faults               #    0,006 M/sec                  
+     2.426.451.955      cycles                    #    3,556 GHz                      (82,65%)
+       301.310.874      stalled-cycles-frontend   #   12,42% frontend cycles idle     (84,21%)
+       613.147.670      stalled-cycles-backend    #   25,27% backend  cycles idle     (34,04%)
+     3.195.514.240      instructions              #    1,32  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,39%)
+       768.522.060      branches                  # 1126,235 M/sec                    (66,55%)
+         1.107.995      branch-misses             #    0,14% of all branches          (83,24%)
+
+       4,211392594 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        678,471048      task-clock (msec)         #    0,161 CPUs utilized          
+               681      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             4.323      page-faults               #    0,006 M/sec                  
+     2.405.519.011      cycles                    #    3,545 GHz                      (83,63%)
+       315.675.053      stalled-cycles-frontend   #   13,12% frontend cycles idle     (83,55%)
+       599.068.334      stalled-cycles-backend    #   24,90% backend  cycles idle     (32,97%)
+     3.223.286.508      instructions              #    1,34  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,77%)
+       777.037.452      branches                  # 1145,277 M/sec                    (67,08%)
+         1.150.914      branch-misses             #    0,15% of all branches          (83,70%)
+
+       4,207582255 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        684,228576      task-clock (msec)         #    0,162 CPUs utilized          
+               597      context-switches          #    0,873 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.437.246.747      cycles                    #    3,562 GHz                      (82,35%)
+       304.006.381      stalled-cycles-frontend   #   12,47% frontend cycles idle     (83,76%)
+       598.265.193      stalled-cycles-backend    #   24,55% backend  cycles idle     (34,53%)
+     3.218.477.574      instructions              #    1,32  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,71%)
+       774.503.537      branches                  # 1131,937 M/sec                    (66,43%)
+         1.106.328      branch-misses             #    0,14% of all branches          (82,65%)
+
+       4,215006733 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        693,060161      task-clock (msec)         #    0,163 CPUs utilized          
+               587      context-switches          #    0,847 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             4.323      page-faults               #    0,006 M/sec                  
+     2.458.503.673      cycles                    #    3,547 GHz                      (82,90%)
+       318.742.531      stalled-cycles-frontend   #   12,96% frontend cycles idle     (83,00%)
+       557.020.783      stalled-cycles-backend    #   22,66% backend  cycles idle     (34,50%)
+     3.156.937.296      instructions              #    1,28  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,60%)
+       757.869.882      branches                  # 1093,512 M/sec                    (68,32%)
+         1.136.268      branch-misses             #    0,15% of all branches          (84,04%)
+
+       4,239827552 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 16 ../sample_files/mercury.png':
+
+        693,115888      task-clock (msec)         #    0,164 CPUs utilized          
+               565      context-switches          #    0,815 K/sec                  
+                 9      cpu-migrations            #    0,013 K/sec                  
+             3.812      page-faults               #    0,005 M/sec                  
+     2.450.275.887      cycles                    #    3,535 GHz                      (83,71%)
+       308.361.022      stalled-cycles-frontend   #   12,58% frontend cycles idle     (82,84%)
+       573.439.236      stalled-cycles-backend    #   23,40% backend  cycles idle     (33,88%)
+     3.270.502.860      instructions              #    1,33  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (50,73%)
+       782.657.851      branches                  # 1129,188 M/sec                    (66,98%)
+         1.229.411      branch-misses             #    0,16% of all branches          (82,96%)
+
+       4,221985606 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        612,431152      task-clock (msec)         #    0,148 CPUs utilized          
+               587      context-switches          #    0,958 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.173.870.700      cycles                    #    3,550 GHz                      (83,12%)
+       244.532.760      stalled-cycles-frontend   #   11,25% frontend cycles idle     (83,85%)
+       527.136.532      stalled-cycles-backend    #   24,25% backend  cycles idle     (33,41%)
+     3.018.881.985      instructions              #    1,39  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,75%)
+       727.188.915      branches                  # 1187,381 M/sec                    (67,09%)
+           844.855      branch-misses             #    0,12% of all branches          (82,90%)
+
+       4,142301995 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        633,794870      task-clock (msec)         #    0,152 CPUs utilized          
+               613      context-switches          #    0,967 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.244.744.368      cycles                    #    3,542 GHz                      (83,28%)
+       252.777.927      stalled-cycles-frontend   #   11,26% frontend cycles idle     (82,93%)
+       532.050.338      stalled-cycles-backend    #   23,70% backend  cycles idle     (33,98%)
+     3.030.454.907      instructions              #    1,35  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,05%)
+       730.480.658      branches                  # 1152,551 M/sec                    (67,18%)
+           918.793      branch-misses             #    0,13% of all branches          (83,48%)
+
+       4,164680253 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        615,141008      task-clock (msec)         #    0,149 CPUs utilized          
+               720      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,020 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.188.731.901      cycles                    #    3,558 GHz                      (83,16%)
+       253.583.698      stalled-cycles-frontend   #   11,59% frontend cycles idle     (83,35%)
+       506.064.876      stalled-cycles-backend    #   23,12% backend  cycles idle     (33,50%)
+     3.047.673.594      instructions              #    1,39  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,01%)
+       728.852.444      branches                  # 1184,854 M/sec                    (66,43%)
+           902.361      branch-misses             #    0,12% of all branches          (82,63%)
+
+       4,140744269 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        628,083196      task-clock (msec)         #    0,151 CPUs utilized          
+               581      context-switches          #    0,925 K/sec                  
+                13      cpu-migrations            #    0,021 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.198.334.686      cycles                    #    3,500 GHz                      (82,83%)
+       254.761.249      stalled-cycles-frontend   #   11,59% frontend cycles idle     (83,64%)
+       569.615.555      stalled-cycles-backend    #   25,91% backend  cycles idle     (33,91%)
+     2.997.856.609      instructions              #    1,36  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,22%)
+       731.951.380      branches                  # 1165,373 M/sec                    (67,18%)
+           848.674      branch-misses             #    0,12% of all branches          (83,00%)
+
+       4,161816241 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        623,113673      task-clock (msec)         #    0,150 CPUs utilized          
+               607      context-switches          #    0,974 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             4.322      page-faults               #    0,007 M/sec                  
+     2.169.872.393      cycles                    #    3,482 GHz                      (83,30%)
+       216.830.898      stalled-cycles-frontend   #    9,99% frontend cycles idle     (83,75%)
+       547.890.574      stalled-cycles-backend    #   25,25% backend  cycles idle     (33,13%)
+     3.034.289.965      instructions              #    1,40  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,24%)
+       738.031.473      branches                  # 1184,425 M/sec                    (67,61%)
+           986.625      branch-misses             #    0,13% of all branches          (84,12%)
+
+       4,152303031 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        636,068285      task-clock (msec)         #    0,153 CPUs utilized          
+               589      context-switches          #    0,926 K/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             4.322      page-faults               #    0,007 M/sec                  
+     2.218.545.547      cycles                    #    3,488 GHz                      (83,04%)
+       258.051.527      stalled-cycles-frontend   #   11,63% frontend cycles idle     (83,32%)
+       547.171.264      stalled-cycles-backend    #   24,66% backend  cycles idle     (33,84%)
+     2.965.692.518      instructions              #    1,34  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,89%)
+       722.535.767      branches                  # 1135,941 M/sec                    (68,08%)
+           924.633      branch-misses             #    0,13% of all branches          (83,63%)
+
+       4,162734651 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        618,092426      task-clock (msec)         #    0,149 CPUs utilized          
+               595      context-switches          #    0,963 K/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.810      page-faults               #    0,006 M/sec                  
+     2.190.613.984      cycles                    #    3,544 GHz                      (83,16%)
+       210.592.353      stalled-cycles-frontend   #    9,61% frontend cycles idle     (82,52%)
+       523.197.991      stalled-cycles-backend    #   23,88% backend  cycles idle     (34,72%)
+     3.049.837.085      instructions              #    1,39  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,67%)
+       738.694.090      branches                  # 1195,119 M/sec                    (67,96%)
+           979.122      branch-misses             #    0,13% of all branches          (83,69%)
+
+       4,145898644 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        647,036720      task-clock (msec)         #    0,155 CPUs utilized          
+               559      context-switches          #    0,864 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.255.210.849      cycles                    #    3,485 GHz                      (83,22%)
+       250.073.645      stalled-cycles-frontend   #   11,09% frontend cycles idle     (83,67%)
+       540.295.877      stalled-cycles-backend    #   23,96% backend  cycles idle     (33,35%)
+     3.058.100.581      instructions              #    1,36  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,10%)
+       736.559.224      branches                  # 1138,358 M/sec                    (68,04%)
+           998.634      branch-misses             #    0,14% of all branches          (84,06%)
+
+       4,174437901 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        620,736633      task-clock (msec)         #    0,149 CPUs utilized          
+               591      context-switches          #    0,952 K/sec                  
+                14      cpu-migrations            #    0,023 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.173.457.904      cycles                    #    3,501 GHz                      (83,37%)
+       255.402.668      stalled-cycles-frontend   #   11,75% frontend cycles idle     (84,25%)
+       555.038.147      stalled-cycles-backend    #   25,54% backend  cycles idle     (33,46%)
+     3.099.084.762      instructions              #    1,43  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (49,40%)
+       745.777.998      branches                  # 1201,440 M/sec                    (65,98%)
+           879.871      branch-misses             #    0,12% of all branches          (82,57%)
+
+       4,153980202 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 32 ../sample_files/mercury.png':
+
+        624,619132      task-clock (msec)         #    0,150 CPUs utilized          
+               580      context-switches          #    0,929 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.213.773.074      cycles                    #    3,544 GHz                      (83,80%)
+       264.579.291      stalled-cycles-frontend   #   11,95% frontend cycles idle     (83,53%)
+       593.443.165      stalled-cycles-backend    #   26,81% backend  cycles idle     (32,90%)
+     3.014.462.518      instructions              #    1,36  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (50,52%)
+       739.445.486      branches                  # 1183,834 M/sec                    (65,98%)
+           867.636      branch-misses             #    0,12% of all branches          (83,00%)
+
+       4,155150855 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        613,390837      task-clock (msec)         #    0,148 CPUs utilized          
+               565      context-switches          #    0,921 K/sec                  
+                13      cpu-migrations            #    0,021 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.140.892.130      cycles                    #    3,490 GHz                      (83,68%)
+       257.765.559      stalled-cycles-frontend   #   12,04% frontend cycles idle     (82,72%)
+       555.700.844      stalled-cycles-backend    #   25,96% backend  cycles idle     (34,54%)
+     3.050.669.867      instructions              #    1,42  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,01%)
+       736.831.333      branches                  # 1201,243 M/sec                    (67,10%)
+           911.640      branch-misses             #    0,12% of all branches          (83,74%)
+
+       4,146806967 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        632,849256      task-clock (msec)         #    0,152 CPUs utilized          
+               887      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             4.321      page-faults               #    0,007 M/sec                  
+     2.233.028.052      cycles                    #    3,529 GHz                      (83,31%)
+       255.028.108      stalled-cycles-frontend   #   11,42% frontend cycles idle     (83,57%)
+       570.289.901      stalled-cycles-backend    #   25,54% backend  cycles idle     (33,49%)
+     3.014.315.009      instructions              #    1,35  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,63%)
+       731.817.634      branches                  # 1156,385 M/sec                    (66,79%)
+           951.569      branch-misses             #    0,13% of all branches          (83,12%)
+
+       4,157566044 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        642,027791      task-clock (msec)         #    0,154 CPUs utilized          
+               610      context-switches          #    0,950 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.809      page-faults               #    0,006 M/sec                  
+     2.276.347.942      cycles                    #    3,546 GHz                      (82,91%)
+       226.415.293      stalled-cycles-frontend   #    9,95% frontend cycles idle     (83,43%)
+       569.935.748      stalled-cycles-backend    #   25,04% backend  cycles idle     (34,10%)
+     3.050.583.816      instructions              #    1,34  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,41%)
+       735.477.570      branches                  # 1145,554 M/sec                    (67,51%)
+           967.572      branch-misses             #    0,13% of all branches          (83,94%)
+
+       4,173164759 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        626,900826      task-clock (msec)         #    0,151 CPUs utilized          
+               545      context-switches          #    0,869 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.808      page-faults               #    0,006 M/sec                  
+     2.221.590.089      cycles                    #    3,544 GHz                      (83,44%)
+       258.090.285      stalled-cycles-frontend   #   11,62% frontend cycles idle     (83,79%)
+       577.876.260      stalled-cycles-backend    #   26,01% backend  cycles idle     (32,94%)
+     3.032.533.851      instructions              #    1,37  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,24%)
+       735.286.479      branches                  # 1172,891 M/sec                    (67,62%)
+           898.195      branch-misses             #    0,12% of all branches          (83,66%)
+
+       4,155764627 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        648,779356      task-clock (msec)         #    0,155 CPUs utilized          
+               630      context-switches          #    0,971 K/sec                  
+                12      cpu-migrations            #    0,018 K/sec                  
+             4.324      page-faults               #    0,007 M/sec                  
+     2.275.198.846      cycles                    #    3,507 GHz                      (83,33%)
+       261.080.049      stalled-cycles-frontend   #   11,48% frontend cycles idle     (82,80%)
+       567.083.700      stalled-cycles-backend    #   24,92% backend  cycles idle     (34,28%)
+     3.052.748.717      instructions              #    1,34  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,59%)
+       738.121.903      branches                  # 1137,709 M/sec                    (67,60%)
+         1.017.324      branch-misses             #    0,14% of all branches          (84,19%)
+
+       4,179784464 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        657,306488      task-clock (msec)         #    0,157 CPUs utilized          
+               712      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.338.213.158      cycles                    #    3,557 GHz                      (81,50%)
+       263.774.280      stalled-cycles-frontend   #   11,28% frontend cycles idle     (84,12%)
+       703.507.551      stalled-cycles-backend    #   30,09% backend  cycles idle     (34,88%)
+     3.012.387.484      instructions              #    1,29  insns per cycle        
+                                                  #    0,23  stalled cycles per insn  (50,57%)
+       735.316.056      branches                  # 1118,681 M/sec                    (66,71%)
+           921.832      branch-misses             #    0,13% of all branches          (82,78%)
+
+       4,183309711 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        633,845346      task-clock (msec)         #    0,152 CPUs utilized          
+               624      context-switches          #    0,984 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             4.325      page-faults               #    0,007 M/sec                  
+     2.216.740.883      cycles                    #    3,497 GHz                      (84,08%)
+       259.458.742      stalled-cycles-frontend   #   11,70% frontend cycles idle     (82,82%)
+       566.737.766      stalled-cycles-backend    #   25,57% backend  cycles idle     (33,59%)
+     3.022.803.645      instructions              #    1,36  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (49,99%)
+       731.349.729      branches                  # 1153,830 M/sec                    (66,83%)
+           943.252      branch-misses             #    0,13% of all branches          (83,39%)
+
+       4,160253387 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        635,346580      task-clock (msec)         #    0,153 CPUs utilized          
+               659      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.235.139.072      cycles                    #    3,518 GHz                      (83,10%)
+       251.391.239      stalled-cycles-frontend   #   11,25% frontend cycles idle     (83,49%)
+       533.451.480      stalled-cycles-backend    #   23,87% backend  cycles idle     (34,10%)
+     3.039.746.238      instructions              #    1,36  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,49%)
+       729.436.247      branches                  # 1148,092 M/sec                    (67,47%)
+           970.220      branch-misses             #    0,13% of all branches          (83,13%)
+
+       4,163603123 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        631,794254      task-clock (msec)         #    0,152 CPUs utilized          
+               583      context-switches          #    0,923 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.205.615.331      cycles                    #    3,491 GHz                      (83,29%)
+       267.349.718      stalled-cycles-frontend   #   12,12% frontend cycles idle     (83,57%)
+       585.522.366      stalled-cycles-backend    #   26,55% backend  cycles idle     (33,30%)
+     3.026.676.489      instructions              #    1,37  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,19%)
+       731.526.753      branches                  # 1157,856 M/sec                    (66,85%)
+           932.052      branch-misses             #    0,13% of all branches          (83,31%)
+
+       4,162199154 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 64 ../sample_files/mercury.png':
+
+        644,684585      task-clock (msec)         #    0,154 CPUs utilized          
+               572      context-switches          #    0,887 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.809      page-faults               #    0,006 M/sec                  
+     2.290.565.723      cycles                    #    3,553 GHz                      (82,75%)
+       260.648.273      stalled-cycles-frontend   #   11,38% frontend cycles idle     (83,48%)
+       571.448.596      stalled-cycles-backend    #   24,95% backend  cycles idle     (33,88%)
+     3.025.512.915      instructions              #    1,32  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,57%)
+       727.123.804      branches                  # 1127,875 M/sec                    (68,46%)
+           965.938      branch-misses             #    0,13% of all branches          (84,29%)
+
+       4,175130786 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        627,071730      task-clock (msec)         #    0,151 CPUs utilized          
+               699      context-switches          #    0,001 M/sec                  
+                13      cpu-migrations            #    0,021 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.216.911.792      cycles                    #    3,535 GHz                      (82,55%)
+       266.133.309      stalled-cycles-frontend   #   12,00% frontend cycles idle     (83,15%)
+       577.791.694      stalled-cycles-backend    #   26,06% backend  cycles idle     (34,41%)
+     3.019.803.920      instructions              #    1,36  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,26%)
+       727.382.946      branches                  # 1159,968 M/sec                    (68,15%)
+           912.121      branch-misses             #    0,13% of all branches          (84,17%)
+
+       4,154562143 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        628,609425      task-clock (msec)         #    0,151 CPUs utilized          
+               600      context-switches          #    0,954 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.221.990.592      cycles                    #    3,535 GHz                      (82,82%)
+       258.817.559      stalled-cycles-frontend   #   11,65% frontend cycles idle     (83,18%)
+       567.551.280      stalled-cycles-backend    #   25,54% backend  cycles idle     (34,12%)
+     3.065.770.643      instructions              #    1,38  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,39%)
+       740.442.483      branches                  # 1177,905 M/sec                    (67,01%)
+           891.261      branch-misses             #    0,12% of all branches          (83,04%)
+
+       4,156964421 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        632,731488      task-clock (msec)         #    0,152 CPUs utilized          
+               592      context-switches          #    0,936 K/sec                  
+                14      cpu-migrations            #    0,022 K/sec                  
+             4.324      page-faults               #    0,007 M/sec                  
+     2.236.614.183      cycles                    #    3,535 GHz                      (83,41%)
+       259.625.120      stalled-cycles-frontend   #   11,61% frontend cycles idle     (83,50%)
+       527.479.681      stalled-cycles-backend    #   23,58% backend  cycles idle     (33,35%)
+     3.094.796.777      instructions              #    1,38  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (49,63%)
+       745.355.478      branches                  # 1177,996 M/sec                    (65,88%)
+           940.442      branch-misses             #    0,13% of all branches          (82,77%)
+
+       4,162268416 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        647,313878      task-clock (msec)         #    0,155 CPUs utilized          
+               607      context-switches          #    0,938 K/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             3.809      page-faults               #    0,006 M/sec                  
+     2.274.355.215      cycles                    #    3,514 GHz                      (83,64%)
+       256.262.972      stalled-cycles-frontend   #   11,27% frontend cycles idle     (83,49%)
+       681.887.026      stalled-cycles-backend    #   29,98% backend  cycles idle     (33,10%)
+     3.058.693.947      instructions              #    1,34  insns per cycle        
+                                                  #    0,22  stalled cycles per insn  (51,02%)
+       734.495.548      branches                  # 1134,682 M/sec                    (67,85%)
+         1.000.238      branch-misses             #    0,14% of all branches          (83,86%)
+
+       4,175810938 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        635,563967      task-clock (msec)         #    0,153 CPUs utilized          
+               606      context-switches          #    0,953 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.202.362.142      cycles                    #    3,465 GHz                      (83,55%)
+       250.544.607      stalled-cycles-frontend   #   11,38% frontend cycles idle     (83,52%)
+       542.390.061      stalled-cycles-backend    #   24,63% backend  cycles idle     (33,79%)
+     3.086.524.629      instructions              #    1,40  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (49,86%)
+       739.309.485      branches                  # 1163,234 M/sec                    (66,69%)
+           948.720      branch-misses             #    0,13% of all branches          (83,94%)
+
+       4,167307836 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        634,927612      task-clock (msec)         #    0,153 CPUs utilized          
+               627      context-switches          #    0,988 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.811      page-faults               #    0,006 M/sec                  
+     2.241.422.230      cycles                    #    3,530 GHz                      (83,05%)
+       252.986.633      stalled-cycles-frontend   #   11,29% frontend cycles idle     (83,80%)
+       511.993.234      stalled-cycles-backend    #   22,84% backend  cycles idle     (33,74%)
+     3.071.796.115      instructions              #    1,37  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,58%)
+       741.358.528      branches                  # 1167,627 M/sec                    (66,39%)
+           960.494      branch-misses             #    0,13% of all branches          (82,60%)
+
+       4,163342805 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        629,337753      task-clock (msec)         #    0,151 CPUs utilized          
+               511      context-switches          #    0,812 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.236.103.896      cycles                    #    3,553 GHz                      (82,76%)
+       258.216.025      stalled-cycles-frontend   #   11,55% frontend cycles idle     (82,92%)
+       537.316.740      stalled-cycles-backend    #   24,03% backend  cycles idle     (34,67%)
+     3.016.233.324      instructions              #    1,35  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (50,92%)
+       728.763.129      branches                  # 1157,984 M/sec                    (67,04%)
+           939.084      branch-misses             #    0,13% of all branches          (83,46%)
+
+       4,156092143 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        631,116249      task-clock (msec)         #    0,152 CPUs utilized          
+               613      context-switches          #    0,971 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             3.811      page-faults               #    0,006 M/sec                  
+     2.189.381.489      cycles                    #    3,469 GHz                      (83,61%)
+       259.090.416      stalled-cycles-frontend   #   11,83% frontend cycles idle     (83,75%)
+       547.507.630      stalled-cycles-backend    #   25,01% backend  cycles idle     (33,47%)
+     3.071.945.561      instructions              #    1,40  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (50,69%)
+       739.249.890      branches                  # 1171,337 M/sec                    (67,06%)
+           912.215      branch-misses             #    0,12% of all branches          (83,13%)
+
+       4,161599095 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        615,168559      task-clock (msec)         #    0,149 CPUs utilized          
+               592      context-switches          #    0,962 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             4.321      page-faults               #    0,007 M/sec                  
+     2.171.697.977      cycles                    #    3,530 GHz                      (83,42%)
+       227.297.554      stalled-cycles-frontend   #   10,47% frontend cycles idle     (83,68%)
+       542.228.262      stalled-cycles-backend    #   24,97% backend  cycles idle     (33,51%)
+     3.127.367.532      instructions              #    1,44  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,24%)
+       744.621.665      branches                  # 1210,435 M/sec                    (66,82%)
+         1.036.012      branch-misses             #    0,14% of all branches          (83,69%)
+
+       4,142525279 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 128 ../sample_files/mercury.png':
+
+        632,132440      task-clock (msec)         #    0,152 CPUs utilized          
+               638      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             4.322      page-faults               #    0,007 M/sec                  
+     2.218.414.673      cycles                    #    3,509 GHz                      (82,87%)
+       269.902.099      stalled-cycles-frontend   #   12,17% frontend cycles idle     (84,43%)
+       564.763.742      stalled-cycles-backend    #   25,46% backend  cycles idle     (33,71%)
+     3.033.487.184      instructions              #    1,37  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,31%)
+       728.261.410      branches                  # 1152,071 M/sec                    (66,97%)
+           909.977      branch-misses             #    0,12% of all branches          (82,95%)
+
+       4,163345063 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        646,123291      task-clock (msec)         #    0,155 CPUs utilized          
+               613      context-switches          #    0,949 K/sec                  
+                13      cpu-migrations            #    0,020 K/sec                  
+             3.811      page-faults               #    0,006 M/sec                  
+     2.273.170.908      cycles                    #    3,518 GHz                      (82,48%)
+       266.322.862      stalled-cycles-frontend   #   11,72% frontend cycles idle     (83,39%)
+       512.949.600      stalled-cycles-backend    #   22,57% backend  cycles idle     (34,39%)
+     3.095.929.402      instructions              #    1,36  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,47%)
+       742.106.105      branches                  # 1148,552 M/sec                    (66,85%)
+           950.353      branch-misses             #    0,13% of all branches          (83,32%)
+
+       4,179864956 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        647,153169      task-clock (msec)         #    0,155 CPUs utilized          
+               569      context-switches          #    0,879 K/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.276.450.511      cycles                    #    3,518 GHz                      (83,25%)
+       257.696.276      stalled-cycles-frontend   #   11,32% frontend cycles idle     (83,21%)
+       527.109.387      stalled-cycles-backend    #   23,15% backend  cycles idle     (34,17%)
+     3.058.448.895      instructions              #    1,34  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,77%)
+       740.311.937      branches                  # 1143,952 M/sec                    (67,26%)
+         1.054.147      branch-misses             #    0,14% of all branches          (83,30%)
+
+       4,179997606 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        625,190666      task-clock (msec)         #    0,150 CPUs utilized          
+               677      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,018 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.210.956.233      cycles                    #    3,536 GHz                      (84,04%)
+       224.926.162      stalled-cycles-frontend   #   10,17% frontend cycles idle     (83,12%)
+       553.105.798      stalled-cycles-backend    #   25,02% backend  cycles idle     (33,05%)
+     3.046.900.464      instructions              #    1,38  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,13%)
+       734.346.754      branches                  # 1174,596 M/sec                    (67,37%)
+           922.006      branch-misses             #    0,13% of all branches          (83,33%)
+
+       4,161377986 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        636,103738      task-clock (msec)         #    0,153 CPUs utilized          
+               591      context-switches          #    0,929 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.216.618.213      cycles                    #    3,485 GHz                      (83,78%)
+       261.751.885      stalled-cycles-frontend   #   11,81% frontend cycles idle     (83,91%)
+       531.436.118      stalled-cycles-backend    #   23,98% backend  cycles idle     (33,12%)
+     3.069.224.435      instructions              #    1,38  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,34%)
+       733.521.211      branches                  # 1153,147 M/sec                    (67,04%)
+           934.963      branch-misses             #    0,13% of all branches          (83,44%)
+
+       4,165834124 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        637,341314      task-clock (msec)         #    0,153 CPUs utilized          
+               750      context-switches          #    0,001 M/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             4.321      page-faults               #    0,007 M/sec                  
+     2.241.729.372      cycles                    #    3,517 GHz                      (83,28%)
+       265.575.446      stalled-cycles-frontend   #   11,85% frontend cycles idle     (83,62%)
+       557.949.186      stalled-cycles-backend    #   24,89% backend  cycles idle     (33,24%)
+     3.086.452.082      instructions              #    1,38  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (50,22%)
+       735.718.949      branches                  # 1154,356 M/sec                    (67,70%)
+         1.004.271      branch-misses             #    0,14% of all branches          (83,74%)
+
+       4,169049629 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        640,638636      task-clock (msec)         #    0,154 CPUs utilized          
+               609      context-switches          #    0,951 K/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             4.321      page-faults               #    0,007 M/sec                  
+     2.268.526.002      cycles                    #    3,541 GHz                      (83,01%)
+       266.085.990      stalled-cycles-frontend   #   11,73% frontend cycles idle     (83,36%)
+       566.357.932      stalled-cycles-backend    #   24,97% backend  cycles idle     (33,88%)
+     3.004.484.509      instructions              #    1,32  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,92%)
+       727.453.405      branches                  # 1135,513 M/sec                    (67,81%)
+           936.863      branch-misses             #    0,13% of all branches          (83,76%)
+
+       4,168824672 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        640,805126      task-clock (msec)         #    0,154 CPUs utilized          
+               724      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.283.578.675      cycles                    #    3,564 GHz                      (82,37%)
+       257.260.719      stalled-cycles-frontend   #   11,27% frontend cycles idle     (82,76%)
+       527.155.284      stalled-cycles-backend    #   23,08% backend  cycles idle     (35,12%)
+     3.047.351.312      instructions              #    1,33  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,04%)
+       740.216.068      branches                  # 1155,134 M/sec                    (66,83%)
+           938.165      branch-misses             #    0,13% of all branches          (82,45%)
+
+       4,166494620 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        635,907368      task-clock (msec)         #    0,153 CPUs utilized          
+               612      context-switches          #    0,962 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             3.811      page-faults               #    0,006 M/sec                  
+     2.248.924.675      cycles                    #    3,537 GHz                      (83,23%)
+       271.031.361      stalled-cycles-frontend   #   12,05% frontend cycles idle     (84,00%)
+       607.659.898      stalled-cycles-backend    #   27,02% backend  cycles idle     (32,84%)
+     3.063.971.804      instructions              #    1,36  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (50,03%)
+       744.334.579      branches                  # 1170,508 M/sec                    (65,66%)
+           906.656      branch-misses             #    0,12% of all branches          (83,17%)
+
+       4,165185354 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        635,841644      task-clock (msec)         #    0,153 CPUs utilized          
+               582      context-switches          #    0,915 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.226.168.670      cycles                    #    3,501 GHz                      (83,39%)
+       249.184.342      stalled-cycles-frontend   #   11,19% frontend cycles idle     (82,73%)
+       573.813.938      stalled-cycles-backend    #   25,78% backend  cycles idle     (33,99%)
+     3.022.602.137      instructions              #    1,36  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (51,38%)
+       735.952.868      branches                  # 1157,447 M/sec                    (67,28%)
+           963.300      branch-misses             #    0,13% of all branches          (83,55%)
+
+       4,168246359 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 256 ../sample_files/mercury.png':
+
+        643,222722      task-clock (msec)         #    0,154 CPUs utilized          
+               577      context-switches          #    0,897 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.231.398.316      cycles                    #    3,469 GHz                      (83,40%)
+       263.821.438      stalled-cycles-frontend   #   11,82% frontend cycles idle     (82,89%)
+       536.510.566      stalled-cycles-backend    #   24,04% backend  cycles idle     (34,28%)
+     3.047.373.088      instructions              #    1,37  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (50,85%)
+       737.305.259      branches                  # 1146,267 M/sec                    (66,81%)
+           917.862      branch-misses             #    0,12% of all branches          (83,01%)
+
+       4,174414979 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        652,998407      task-clock (msec)         #    0,156 CPUs utilized          
+               635      context-switches          #    0,972 K/sec                  
+                12      cpu-migrations            #    0,018 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.315.995.201      cycles                    #    3,547 GHz                      (82,82%)
+       279.744.055      stalled-cycles-frontend   #   12,08% frontend cycles idle     (83,05%)
+       559.160.902      stalled-cycles-backend    #   24,14% backend  cycles idle     (34,86%)
+     3.118.608.792      instructions              #    1,35  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,19%)
+       744.651.153      branches                  # 1140,357 M/sec                    (67,68%)
+         1.008.509      branch-misses             #    0,14% of all branches          (83,82%)
+
+       4,182572176 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        656,110743      task-clock (msec)         #    0,157 CPUs utilized          
+               565      context-switches          #    0,861 K/sec                  
+                10      cpu-migrations            #    0,015 K/sec                  
+             4.319      page-faults               #    0,007 M/sec                  
+     2.338.684.196      cycles                    #    3,564 GHz                      (82,78%)
+       274.729.175      stalled-cycles-frontend   #   11,75% frontend cycles idle     (83,49%)
+       558.182.754      stalled-cycles-backend    #   23,87% backend  cycles idle     (33,95%)
+     3.089.164.363      instructions              #    1,32  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,72%)
+       741.936.770      branches                  # 1130,810 M/sec                    (67,88%)
+         1.026.348      branch-misses             #    0,14% of all branches          (84,04%)
+
+       4,189927899 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        652,814043      task-clock (msec)         #    0,156 CPUs utilized          
+               632      context-switches          #    0,968 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             4.320      page-faults               #    0,007 M/sec                  
+     2.307.467.214      cycles                    #    3,535 GHz                      (82,94%)
+       276.709.363      stalled-cycles-frontend   #   11,99% frontend cycles idle     (83,69%)
+       537.246.958      stalled-cycles-backend    #   23,28% backend  cycles idle     (34,71%)
+     3.099.648.273      instructions              #    1,34  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,17%)
+       748.564.565      branches                  # 1146,674 M/sec                    (67,14%)
+         1.065.495      branch-misses             #    0,14% of all branches          (83,75%)
+
+       4,188542689 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        644,545009      task-clock (msec)         #    0,154 CPUs utilized          
+               569      context-switches          #    0,883 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.282.180.835      cycles                    #    3,541 GHz                      (83,91%)
+       277.862.652      stalled-cycles-frontend   #   12,18% frontend cycles idle     (84,05%)
+       565.436.734      stalled-cycles-backend    #   24,78% backend  cycles idle     (32,30%)
+     3.129.754.898      instructions              #    1,37  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (49,74%)
+       751.021.580      branches                  # 1165,196 M/sec                    (66,82%)
+           998.646      branch-misses             #    0,13% of all branches          (83,36%)
+
+       4,176925502 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        651,518245      task-clock (msec)         #    0,156 CPUs utilized          
+               589      context-switches          #    0,904 K/sec                  
+                11      cpu-migrations            #    0,017 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.283.637.914      cycles                    #    3,505 GHz                      (83,44%)
+       278.495.797      stalled-cycles-frontend   #   12,20% frontend cycles idle     (83,71%)
+       595.522.780      stalled-cycles-backend    #   26,08% backend  cycles idle     (33,37%)
+     3.126.264.163      instructions              #    1,37  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (49,24%)
+       748.812.658      branches                  # 1149,335 M/sec                    (66,07%)
+           985.350      branch-misses             #    0,13% of all branches          (83,46%)
+
+       4,180421571 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        657,589487      task-clock (msec)         #    0,157 CPUs utilized          
+               603      context-switches          #    0,917 K/sec                  
+                 9      cpu-migrations            #    0,014 K/sec                  
+             3.812      page-faults               #    0,006 M/sec                  
+     2.337.024.520      cycles                    #    3,554 GHz                      (82,25%)
+       254.856.141      stalled-cycles-frontend   #   10,91% frontend cycles idle     (84,01%)
+       530.384.554      stalled-cycles-backend    #   22,69% backend  cycles idle     (34,11%)
+     3.152.999.827      instructions              #    1,35  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,20%)
+       753.806.984      branches                  # 1146,318 M/sec                    (66,86%)
+           980.486      branch-misses             #    0,13% of all branches          (82,65%)
+
+       4,190791249 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        633,566944      task-clock (msec)         #    0,152 CPUs utilized          
+               576      context-switches          #    0,909 K/sec                  
+                14      cpu-migrations            #    0,022 K/sec                  
+             4.323      page-faults               #    0,007 M/sec                  
+     2.227.913.817      cycles                    #    3,516 GHz                      (83,27%)
+       244.994.486      stalled-cycles-frontend   #   11,00% frontend cycles idle     (83,48%)
+       615.122.493      stalled-cycles-backend    #   27,61% backend  cycles idle     (33,48%)
+     3.067.651.827      instructions              #    1,38  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (50,95%)
+       739.682.676      branches                  # 1167,489 M/sec                    (67,98%)
+         1.039.009      branch-misses             #    0,14% of all branches          (84,18%)
+
+       4,159393968 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        620,743942      task-clock (msec)         #    0,150 CPUs utilized          
+               585      context-switches          #    0,942 K/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             3.813      page-faults               #    0,006 M/sec                  
+     2.202.311.626      cycles                    #    3,548 GHz                      (82,92%)
+       232.589.657      stalled-cycles-frontend   #   10,56% frontend cycles idle     (82,96%)
+       536.019.446      stalled-cycles-backend    #   24,34% backend  cycles idle     (34,63%)
+     3.041.323.671      instructions              #    1,38  insns per cycle        
+                                                  #    0,18  stalled cycles per insn  (51,10%)
+       745.038.873      branches                  # 1200,235 M/sec                    (66,83%)
+           991.551      branch-misses             #    0,13% of all branches          (83,36%)
+
+       4,149345654 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        647,775024      task-clock (msec)         #    0,155 CPUs utilized          
+               801      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,019 K/sec                  
+             3.807      page-faults               #    0,006 M/sec                  
+     2.281.201.944      cycles                    #    3,522 GHz                      (83,97%)
+       267.740.199      stalled-cycles-frontend   #   11,74% frontend cycles idle     (83,49%)
+       507.316.943      stalled-cycles-backend    #   22,24% backend  cycles idle     (32,97%)
+     3.138.012.345      instructions              #    1,38  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (49,89%)
+       750.015.934      branches                  # 1157,834 M/sec                    (66,32%)
+           988.374      branch-misses             #    0,13% of all branches          (83,46%)
+
+       4,177433862 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 512 ../sample_files/mercury.png':
+
+        621,521037      task-clock (msec)         #    0,150 CPUs utilized          
+               616      context-switches          #    0,991 K/sec                  
+                10      cpu-migrations            #    0,016 K/sec                  
+             4.324      page-faults               #    0,007 M/sec                  
+     2.198.315.439      cycles                    #    3,537 GHz                      (83,17%)
+       237.701.494      stalled-cycles-frontend   #   10,81% frontend cycles idle     (83,23%)
+       539.411.048      stalled-cycles-backend    #   24,54% backend  cycles idle     (34,20%)
+     3.091.344.213      instructions              #    1,41  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,18%)
+       736.862.456      branches                  # 1185,579 M/sec                    (67,47%)
+         1.147.345      branch-misses             #    0,16% of all branches          (83,47%)
+
+       4,152299065 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        545,581649      task-clock (msec)         #    0,134 CPUs utilized          
+               477      context-switches          #    0,874 K/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.813      page-faults               #    0,007 M/sec                  
+     1.892.659.148      cycles                    #    3,469 GHz                      (83,92%)
+       179.932.591      stalled-cycles-frontend   #    9,51% frontend cycles idle     (82,09%)
+       471.973.820      stalled-cycles-backend    #   24,94% backend  cycles idle     (34,17%)
+     2.699.149.248      instructions              #    1,43  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (51,93%)
+       671.041.923      branches                  # 1229,957 M/sec                    (67,32%)
+           583.346      branch-misses             #    0,09% of all branches          (83,26%)
+
+       4,072415830 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        539,078698      task-clock (msec)         #    0,132 CPUs utilized          
+               616      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,019 K/sec                  
+             4.323      page-faults               #    0,008 M/sec                  
+     1.877.062.165      cycles                    #    3,482 GHz                      (84,12%)
+       151.540.331      stalled-cycles-frontend   #    8,07% frontend cycles idle     (82,02%)
+       455.924.682      stalled-cycles-backend    #   24,29% backend  cycles idle     (34,44%)
+     2.803.977.363      instructions              #    1,49  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (50,87%)
+       686.589.194      branches                  # 1273,634 M/sec                    (66,74%)
+           652.427      branch-misses             #    0,10% of all branches          (83,53%)
+
+       4,069573811 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        550,466987      task-clock (msec)         #    0,135 CPUs utilized          
+               559      context-switches          #    0,001 M/sec                  
+                 9      cpu-migrations            #    0,016 K/sec                  
+             4.322      page-faults               #    0,008 M/sec                  
+     1.931.288.117      cycles                    #    3,508 GHz                      (83,43%)
+       186.497.063      stalled-cycles-frontend   #    9,66% frontend cycles idle     (83,07%)
+       414.505.780      stalled-cycles-backend    #   21,46% backend  cycles idle     (33,61%)
+     2.805.112.860      instructions              #    1,45  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,97%)
+       676.913.363      branches                  # 1229,707 M/sec                    (67,32%)
+           643.245      branch-misses             #    0,10% of all branches          (83,79%)
+
+       4,084334488 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        550,296499      task-clock (msec)         #    0,134 CPUs utilized          
+               606      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             4.325      page-faults               #    0,008 M/sec                  
+     1.912.689.344      cycles                    #    3,476 GHz                      (83,36%)
+       191.609.206      stalled-cycles-frontend   #   10,02% frontend cycles idle     (83,43%)
+       438.852.155      stalled-cycles-backend    #   22,94% backend  cycles idle     (33,28%)
+     2.768.567.910      instructions              #    1,45  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (51,14%)
+       678.934.521      branches                  # 1233,761 M/sec                    (67,21%)
+           599.529      branch-misses             #    0,09% of all branches          (83,43%)
+
+       4,101924086 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        536,478680      task-clock (msec)         #    0,132 CPUs utilized          
+               583      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,021 K/sec                  
+             4.324      page-faults               #    0,008 M/sec                  
+     1.899.195.580      cycles                    #    3,540 GHz                      (82,97%)
+       181.697.966      stalled-cycles-frontend   #    9,57% frontend cycles idle     (83,82%)
+       458.947.465      stalled-cycles-backend    #   24,17% backend  cycles idle     (33,55%)
+     2.822.610.192      instructions              #    1,49  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (49,92%)
+       684.301.245      branches                  # 1275,542 M/sec                    (67,19%)
+           660.388      branch-misses             #    0,10% of all branches          (83,83%)
+
+       4,069336140 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        549,543474      task-clock (msec)         #    0,135 CPUs utilized          
+               564      context-switches          #    0,001 M/sec                  
+                12      cpu-migrations            #    0,022 K/sec                  
+             4.322      page-faults               #    0,008 M/sec                  
+     1.929.206.399      cycles                    #    3,511 GHz                      (81,97%)
+       178.255.744      stalled-cycles-frontend   #    9,24% frontend cycles idle     (83,90%)
+       438.892.723      stalled-cycles-backend    #   22,75% backend  cycles idle     (34,83%)
+     2.794.113.704      instructions              #    1,45  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (50,82%)
+       670.658.595      branches                  # 1220,392 M/sec                    (67,89%)
+           581.324      branch-misses             #    0,09% of all branches          (83,74%)
+
+       4,078092632 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        531,507209      task-clock (msec)         #    0,131 CPUs utilized          
+               561      context-switches          #    0,001 M/sec                  
+                 9      cpu-migrations            #    0,017 K/sec                  
+             3.813      page-faults               #    0,007 M/sec                  
+     1.846.521.167      cycles                    #    3,474 GHz                      (83,26%)
+       138.643.923      stalled-cycles-frontend   #    7,51% frontend cycles idle     (83,94%)
+       452.664.348      stalled-cycles-backend    #   24,51% backend  cycles idle     (33,46%)
+     2.788.707.655      instructions              #    1,51  insns per cycle        
+                                                  #    0,16  stalled cycles per insn  (50,63%)
+       670.482.134      branches                  # 1261,473 M/sec                    (67,41%)
+           603.196      branch-misses             #    0,09% of all branches          (83,26%)
+
+       4,062997650 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        541,173677      task-clock (msec)         #    0,133 CPUs utilized          
+               572      context-switches          #    0,001 M/sec                  
+                11      cpu-migrations            #    0,020 K/sec                  
+             3.814      page-faults               #    0,007 M/sec                  
+     1.892.086.436      cycles                    #    3,496 GHz                      (83,25%)
+       185.106.068      stalled-cycles-frontend   #    9,78% frontend cycles idle     (83,84%)
+       466.972.505      stalled-cycles-backend    #   24,68% backend  cycles idle     (33,10%)
+     2.777.352.835      instructions              #    1,47  insns per cycle        
+                                                  #    0,17  stalled cycles per insn  (50,78%)
+       673.774.684      branches                  # 1245,025 M/sec                    (67,92%)
+           568.116      branch-misses             #    0,08% of all branches          (84,01%)
+
+       4,069444993 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        560,777208      task-clock (msec)         #    0,137 CPUs utilized          
+               753      context-switches          #    0,001 M/sec                  
+                13      cpu-migrations            #    0,023 K/sec                  
+             4.320      page-faults               #    0,008 M/sec                  
+     1.936.728.062      cycles                    #    3,454 GHz                      (83,42%)
+       193.112.498      stalled-cycles-frontend   #    9,97% frontend cycles idle     (84,12%)
+       399.581.146      stalled-cycles-backend    #   20,63% backend  cycles idle     (32,90%)
+     2.880.513.384      instructions              #    1,49  insns per cycle        
+                                                  #    0,14  stalled cycles per insn  (49,04%)
+       687.594.225      branches                  # 1226,145 M/sec                    (65,77%)
+           595.624      branch-misses             #    0,09% of all branches          (81,67%)
+
+       4,104465746 seconds time elapsed
+
+DES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/des 1024 ../sample_files/mercury.png':
+
+        556,218627      task-clock (msec)         #    0,136 CPUs utilized          
+               616      context-switches          #    0,001 M/sec                  
+                10      cpu-migrations            #    0,018 K/sec                  
+             3.813      page-faults               #    0,007 M/sec                  
+     1.936.222.387      cycles                    #    3,481 GHz                      (84,06%)
+       185.582.611      stalled-cycles-frontend   #    9,58% frontend cycles idle     (84,15%)
+       422.020.859      stalled-cycles-backend    #   21,80% backend  cycles idle     (31,89%)
+     2.851.303.370      instructions              #    1,47  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (49,46%)
+       677.825.491      branches                  # 1218,631 M/sec                    (66,61%)
+           610.255      branch-misses             #    0,09% of all branches          (83,01%)
+
+       4,085232033 seconds time elapsed
+
