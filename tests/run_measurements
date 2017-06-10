@@ -1,0 +1,66 @@
+#! /bin/bash
+
+set -o xtrace
+
+MEASUREMENTS=10
+
+
+FILES=("hubble_1.tif"
+       "hubble_2.png"
+       "hubble_3.tif"
+       "king_james_bible.txt"
+       "mercury.png"
+       "moby_dick.txt"
+       "tale_of_two_cities.txt"
+       "ulysses.txt")
+
+PROGS=("des" "aes" "blowfish" "rot-13")
+
+MODO=('sequencial' 'cuda')
+
+NT_MAX=256
+
+mkdir results
+mkdir results/${MODO[0]}
+mkdir results/${MODO[1]}
+
+for ((i=0; i < ${#FILES[@]}; i++))  
+do
+
+    for modo in ${MODO[@]}
+    do
+
+        for PROG in ${PROGS[@]}
+        do
+
+            mkdir results/$modo/$PROG;
+            PROG="../$modo/$PROG"
+            
+            if [ $modo = "cuda" ]
+            then    
+
+                for ((nt = 8; $nt < $NT_MAX; nt=$(($nt * 2)) ))
+                do
+
+                    for ((j = 1; j <= MEASUREMENTS; j++))
+                    do
+                        perf stat ./$PROG $nt "../sample_files/${FILES[$i]}" >> "results/$modo/$PROG/${FILES[$i]}.log" 2>&1
+                    done
+
+                done
+            else
+
+                for ((j = 1; j <= MEASUREMENTS; j++))
+                do
+                    perf stat ./$PROG "../sample_files/${FILES[$i]}" >> "results/$modo/$PROG/${FILES[$i]}.log" 2>&1
+                done
+
+            fi
+        done
+
+    done    
+
+done
+
+
+
