@@ -1,4 +1,3 @@
-ROT13=rot-13
 DES=des
 BLOWFISH=blowfish
 AES=aes
@@ -40,10 +39,6 @@ $(AES)_device.o: $(AES)_device.cu
 $(AES).o: $(AES).cu
 	$(CC) --gpu-architecture=sm_32 --device-c $(AES).cu
 
-
-
-$(ROT13): $(ROT13)_device.cu
-	$(CC) --gpu-architecture=sm_32 -o $(ROT13) $(ROT13)_device.cu
 
 
 .PHONY: clean
