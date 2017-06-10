@@ -1,0 +1,18 @@
+./../sequencial/rot-13: Interrupção
+
+ Performance counter stats for './../sequencial/rot-13 ../sample_files/hubble_1.tif':
+
+        789,132190      task-clock (msec)         #    0,125 CPUs utilized          
+               736      context-switches          #    0,933 K/sec                  
+                 2      cpu-migrations            #    0,003 K/sec                  
+               821      page-faults               #    0,001 M/sec                  
+     2.872.456.813      cycles                    #    3,640 GHz                      (83,06%)
+       313.651.742      stalled-cycles-frontend   #   10,92% frontend cycles idle     (83,44%)
+       454.070.335      stalled-cycles-backend    #   15,81% backend  cycles idle     (33,50%)
+     3.103.651.924      instructions              #    1,08  insns per cycle        
+                                                  #    0,15  stalled cycles per insn  (50,65%)
+       583.393.567      branches                  #  739,285 M/sec                    (67,00%)
+        30.627.288      branch-misses             #    5,25% of all branches          (82,99%)
+
+       6,293600940 seconds time elapsed
+

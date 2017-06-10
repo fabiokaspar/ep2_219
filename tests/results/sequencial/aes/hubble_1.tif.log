@@ -1,0 +1,38 @@
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11605,574215      task-clock (msec)         #    0,679 CPUs utilized          
+             1.632      context-switches          #    0,141 K/sec                  
+                 3      cpu-migrations            #    0,000 K/sec                  
+             2.240      page-faults               #    0,193 K/sec                  
+    42.278.974.452      cycles                    #    3,643 GHz                      (83,34%)
+       660.087.675      stalled-cycles-frontend   #    1,56% frontend cycles idle     (83,30%)
+    16.945.142.096      stalled-cycles-backend    #   40,08% backend  cycles idle     (33,36%)
+    87.278.778.440      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,05%)
+     1.711.227.169      branches                  #  147,449 M/sec                    (66,71%)
+           211.852      branch-misses             #    0,01% of all branches          (83,36%)
+
+      17,093796838 seconds time elapsed
+
+AES test 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/aes ../sample_files/hubble_1.tif':
+
+      11460,138712      task-clock (msec)         #    0,676 CPUs utilized          
+             1.698      context-switches          #    0,148 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             2.242      page-faults               #    0,196 K/sec                  
+    42.292.263.267      cycles                    #    3,690 GHz                      (83,25%)
+       598.075.297      stalled-cycles-frontend   #    1,41% frontend cycles idle     (83,34%)
+    16.760.079.018      stalled-cycles-backend    #   39,63% backend  cycles idle     (33,42%)
+    87.280.473.158      instructions              #    2,06  insns per cycle        
+                                                  #    0,19  stalled cycles per insn  (50,06%)
+     1.709.582.965      branches                  #  149,176 M/sec                    (66,70%)
+           199.186      branch-misses             #    0,01% of all branches          (83,34%)
+
+      16,950225632 seconds time elapsed
+

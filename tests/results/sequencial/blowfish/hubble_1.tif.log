@@ -1,0 +1,37 @@
+Blowfish tests 1: SUCCEEDED
+
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_1.tif':
+
+     589105,304397      task-clock (msec)         #    0,990 CPUs utilized          
+            50.116      context-switches          #    0,085 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.506      page-faults               #    0,003 K/sec                  
+ 2.187.920.508.920      cycles                    #    3,714 GHz                      (83,32%)
+    21.574.363.945      stalled-cycles-frontend   #    0,99% frontend cycles idle     (83,35%)
+ 1.675.404.081.906      stalled-cycles-backend    #   76,58% backend  cycles idle     (33,33%)
+ 1.747.755.105.282      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     8.127.685.658      branches                  #   13,797 M/sec                    (66,67%)
+        44.416.079      branch-misses             #    0,55% of all branches          (83,33%)
+
+     594,804570477 seconds time elapsed
+
+./../sequencial/blowfish: Interrupção
+
+ Performance counter stats for './../sequencial/blowfish ../sample_files/hubble_1.tif':
+
+     504176,976582      task-clock (msec)         #    1,000 CPUs utilized          
+            43.597      context-switches          #    0,086 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+             1.363      page-faults               #    0,003 K/sec                  
+ 1.848.496.850.021      cycles                    #    3,666 GHz                      (83,32%)
+     9.161.320.321      stalled-cycles-frontend   #    0,50% frontend cycles idle     (83,34%)
+ 1.420.650.687.832      stalled-cycles-backend    #   76,85% backend  cycles idle     (33,34%)
+ 1.482.263.394.817      instructions              #    0,80  insns per cycle        
+                                                  #    0,96  stalled cycles per insn  (50,00%)
+     7.034.578.352      branches                  #   13,953 M/sec                    (66,67%)
+        35.860.986      branch-misses             #    0,51% of all branches          (83,33%)
+
+     504,382055848 seconds time elapsed
+

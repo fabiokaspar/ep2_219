@@ -1,0 +1,180 @@
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/hubble_2.png':
+
+      14061,572550      task-clock (msec)         #    0,882 CPUs utilized          
+             1.614      context-switches          #    0,115 K/sec                  
+                22      cpu-migrations            #    0,002 K/sec                  
+             3.841      page-faults               #    0,273 K/sec                  
+    52.381.465.358      cycles                    #    3,725 GHz                      (83,33%)
+    13.180.961.571      stalled-cycles-frontend   #   25,16% frontend cycles idle     (83,35%)
+    15.749.925.393      stalled-cycles-backend    #   30,07% backend  cycles idle     (33,32%)
+    43.538.775.793      instructions              #    0,83  insns per cycle        
+                                                  #    0,36  stalled cycles per insn  (50,03%)
+     9.723.318.460      branches                  #  691,482 M/sec                    (66,68%)
+        56.001.222      branch-misses             #    0,58% of all branches          (83,35%)
+
+      15,934330986 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 8 ../sample_files/hubble_2.png':
+
+      14056,880699      task-clock (msec)         #    0,882 CPUs utilized          
+             1.633      context-switches          #    0,116 K/sec                  
+                21      cpu-migrations            #    0,001 K/sec                  
+             3.839      page-faults               #    0,273 K/sec                  
+    51.881.574.143      cycles                    #    3,691 GHz                      (83,34%)
+    12.712.129.367      stalled-cycles-frontend   #   24,50% frontend cycles idle     (83,37%)
+    18.770.922.140      stalled-cycles-backend    #   36,18% backend  cycles idle     (33,31%)
+    37.570.698.537      instructions              #    0,72  insns per cycle        
+                                                  #    0,50  stalled cycles per insn  (50,01%)
+     8.376.136.709      branches                  #  595,874 M/sec                    (66,64%)
+        47.641.475      branch-misses             #    0,57% of all branches          (83,31%)
+
+      15,934252399 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/hubble_2.png':
+
+       7638,603224      task-clock (msec)         #    0,803 CPUs utilized          
+             1.015      context-switches          #    0,133 K/sec                  
+                18      cpu-migrations            #    0,002 K/sec                  
+             3.328      page-faults               #    0,436 K/sec                  
+    28.016.740.889      cycles                    #    3,668 GHz                      (83,39%)
+     6.924.259.003      stalled-cycles-frontend   #   24,71% frontend cycles idle     (83,31%)
+     8.891.489.948      stalled-cycles-backend    #   31,74% backend  cycles idle     (33,31%)
+    23.272.733.552      instructions              #    0,83  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,10%)
+     5.196.657.834      branches                  #  680,315 M/sec                    (66,74%)
+        29.873.894      branch-misses             #    0,57% of all branches          (83,36%)
+
+       9,517325229 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 16 ../sample_files/hubble_2.png':
+
+       7630,673854      task-clock (msec)         #    0,803 CPUs utilized          
+             1.086      context-switches          #    0,142 K/sec                  
+                22      cpu-migrations            #    0,003 K/sec                  
+             3.839      page-faults               #    0,503 K/sec                  
+    28.001.345.344      cycles                    #    3,670 GHz                      (83,38%)
+     6.939.633.877      stalled-cycles-frontend   #   24,78% frontend cycles idle     (83,34%)
+     8.584.032.755      stalled-cycles-backend    #   30,66% backend  cycles idle     (33,29%)
+    23.273.531.112      instructions              #    0,83  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (50,07%)
+     5.208.204.779      branches                  #  682,535 M/sec                    (66,71%)
+        29.301.063      branch-misses             #    0,56% of all branches          (83,31%)
+
+       9,501172109 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/hubble_2.png':
+
+       4719,415145      task-clock (msec)         #    0,717 CPUs utilized          
+               927      context-switches          #    0,196 K/sec                  
+                18      cpu-migrations            #    0,004 K/sec                  
+             3.840      page-faults               #    0,814 K/sec                  
+    16.954.089.341      cycles                    #    3,592 GHz                      (83,41%)
+     4.189.415.575      stalled-cycles-frontend   #   24,71% frontend cycles idle     (83,41%)
+     5.316.480.696      stalled-cycles-backend    #   31,36% backend  cycles idle     (33,22%)
+    14.006.927.379      instructions              #    0,83  insns per cycle        
+                                                  #    0,38  stalled cycles per insn  (50,00%)
+     3.138.457.350      branches                  #  665,010 M/sec                    (66,80%)
+        17.287.959      branch-misses             #    0,55% of all branches          (83,35%)
+
+       6,584758712 seconds time elapsed
+
+BLOWFISH device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/blowfish 32 ../sample_files/hubble_2.png':
+
+       4717,116479      task-clock (msec)         #    0,716 CPUs utilized          
+               835      context-switches          #    0,177 K/sec                  
+                15      cpu-migrations            #    0,003 K/sec                  
+             3.839      page-faults               #    0,814 K/sec                  
+    17.154.445.103      cycles                    #    3,637 GHz                      (83,39%)
+     4.084.035.584      stalled-cycles-frontend   #   23,81% frontend cycles idle     (83,40%)
+     5.338.706.501      stalled-cycles-backend    #   31,12% backend  cycles idle     (33,24%)
+    14.502.939.635      instructions              #    0,85  insns per cycle        
+                                                  #    0,37  stalled cycles per insn  (49,95%)
+     3.258.063.033      branches                  #  690,690 M/sec                    (66,53%)
+        17.849.537      branch-misses             #    0,55% of all branches          (83,21%)
+
+       6,587163117 seconds time elapsed
+
+./../cuda/blowfish: Interrupção
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/hubble_2.png':
+
+       4321,892689      task-clock (msec)         #    0,699 CPUs utilized          
+               743      context-switches          #    0,172 K/sec                  
+                17      cpu-migrations            #    0,004 K/sec                  
+             3.839      page-faults               #    0,888 K/sec                  
+    15.790.220.099      cycles                    #    3,654 GHz                      (83,31%)
+     3.811.051.274      stalled-cycles-frontend   #   24,14% frontend cycles idle     (83,39%)
+     5.221.342.337      stalled-cycles-backend    #   33,07% backend  cycles idle     (33,30%)
+    12.648.851.060      instructions              #    0,80  insns per cycle        
+                                                  #    0,41  stalled cycles per insn  (50,05%)
+     2.837.928.030      branches                  #  656,640 M/sec                    (66,84%)
+        16.610.252      branch-misses             #    0,59% of all branches          (83,37%)
+
+       6,185641905 seconds time elapsed
+
+./../cuda/blowfish: Interrupção
+
+ Performance counter stats for './../cuda/blowfish 64 ../sample_files/hubble_2.png':
+
+         83,966161      task-clock (msec)         #    0,989 CPUs utilized          
+                 8      context-switches          #    0,095 K/sec                  
+                 1      cpu-migrations            #    0,012 K/sec                  
+               377      page-faults               #    0,004 M/sec                  
+       288.191.766      cycles                    #    3,432 GHz                      (81,05%)
+        13.758.521      stalled-cycles-frontend   #    4,77% frontend cycles idle     (80,98%)
+        11.021.823      stalled-cycles-backend    #    3,82% backend  cycles idle     (38,19%)
+       552.575.375      instructions              #    1,92  insns per cycle        
+                                                  #    0,02  stalled cycles per insn  (52,84%)
+       135.735.690      branches                  # 1616,552 M/sec                    (67,12%)
+             3.575      branch-misses             #    0,00% of all branches          (81,43%)
+
+       0,084936992 seconds time elapsed
+
+./../cuda/blowfish: Interrupção
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/hubble_2.png':
+
+        766,685985      task-clock (msec)         #    0,995 CPUs utilized          
+                55      context-switches          #    0,072 K/sec                  
+                10      cpu-migrations            #    0,013 K/sec                  
+             1.162      page-faults               #    0,002 M/sec                  
+     2.469.165.842      cycles                    #    3,221 GHz                      (83,33%)
+       425.210.056      stalled-cycles-frontend   #   17,22% frontend cycles idle     (83,32%)
+     1.076.855.749      stalled-cycles-backend    #   43,61% backend  cycles idle     (33,35%)
+     1.894.344.010      instructions              #    0,77  insns per cycle        
+                                                  #    0,57  stalled cycles per insn  (50,35%)
+       448.205.192      branches                  #  584,601 M/sec                    (67,19%)
+         1.009.043      branch-misses             #    0,23% of all branches          (83,38%)
+
+       0,770489026 seconds time elapsed
+
+./../cuda/blowfish: Interrupção
+
+ Performance counter stats for './../cuda/blowfish 128 ../sample_files/hubble_2.png':
+
+        145,532639      task-clock (msec)         #    0,994 CPUs utilized          
+                14      context-switches          #    0,096 K/sec                  
+                 1      cpu-migrations            #    0,007 K/sec                  
+               500      page-faults               #    0,003 M/sec                  
+       524.460.055      cycles                    #    3,604 GHz                      (83,55%)
+        23.545.373      stalled-cycles-frontend   #    4,49% frontend cycles idle     (83,54%)
+        22.475.374      stalled-cycles-backend    #    4,29% backend  cycles idle     (33,58%)
+       969.022.808      instructions              #    1,85  insns per cycle        
+                                                  #    0,02  stalled cycles per insn  (53,38%)
+       246.175.943      branches                  # 1691,551 M/sec                    (69,10%)
+             3.816      branch-misses             #    0,00% of all branches          (83,97%)
+
+       0,146454497 seconds time elapsed
+

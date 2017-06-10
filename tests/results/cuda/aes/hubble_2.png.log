@@ -1,0 +1,180 @@
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/hubble_2.png':
+
+       1213,377684      task-clock (msec)         #    0,393 CPUs utilized          
+               396      context-switches          #    0,326 K/sec                  
+                18      cpu-migrations            #    0,015 K/sec                  
+             3.552      page-faults               #    0,003 M/sec                  
+     4.079.149.546      cycles                    #    3,362 GHz                      (83,11%)
+       814.234.476      stalled-cycles-frontend   #   19,96% frontend cycles idle     (83,40%)
+     1.841.497.501      stalled-cycles-backend    #   45,14% backend  cycles idle     (33,57%)
+     2.880.490.933      instructions              #    0,71  insns per cycle        
+                                                  #    0,64  stalled cycles per insn  (50,54%)
+       673.413.745      branches                  #  554,991 M/sec                    (67,16%)
+         2.807.803      branch-misses             #    0,42% of all branches          (83,63%)
+
+       3,084205243 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 8 ../sample_files/hubble_2.png':
+
+       1225,611731      task-clock (msec)         #    0,395 CPUs utilized          
+               260      context-switches          #    0,212 K/sec                  
+                16      cpu-migrations            #    0,013 K/sec                  
+             4.068      page-faults               #    0,003 M/sec                  
+     4.119.574.229      cycles                    #    3,361 GHz                      (83,59%)
+       843.084.496      stalled-cycles-frontend   #   20,47% frontend cycles idle     (83,23%)
+     1.754.508.762      stalled-cycles-backend    #   42,59% backend  cycles idle     (33,27%)
+     2.841.056.190      instructions              #    0,69  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (50,40%)
+       662.441.696      branches                  #  540,499 M/sec                    (66,80%)
+         2.711.519      branch-misses             #    0,41% of all branches          (83,28%)
+
+       3,101595272 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/hubble_2.png':
+
+       1139,675341      task-clock (msec)         #    0,379 CPUs utilized          
+               390      context-switches          #    0,342 K/sec                  
+                23      cpu-migrations            #    0,020 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.861.920.218      cycles                    #    3,389 GHz                      (83,29%)
+       774.691.122      stalled-cycles-frontend   #   20,06% frontend cycles idle     (83,45%)
+     1.781.632.471      stalled-cycles-backend    #   46,13% backend  cycles idle     (33,41%)
+     2.648.758.092      instructions              #    0,69  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (50,74%)
+       630.798.665      branches                  #  553,490 M/sec                    (67,28%)
+         2.613.299      branch-misses             #    0,41% of all branches          (83,84%)
+
+       3,005843173 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 16 ../sample_files/hubble_2.png':
+
+       1148,110229      task-clock (msec)         #    0,381 CPUs utilized          
+               379      context-switches          #    0,330 K/sec                  
+                16      cpu-migrations            #    0,014 K/sec                  
+             4.064      page-faults               #    0,004 M/sec                  
+     3.917.886.506      cycles                    #    3,412 GHz                      (83,22%)
+       795.153.886      stalled-cycles-frontend   #   20,30% frontend cycles idle     (83,05%)
+     1.797.317.195      stalled-cycles-backend    #   45,87% backend  cycles idle     (34,03%)
+     2.671.270.851      instructions              #    0,68  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (50,55%)
+       625.340.779      branches                  #  544,670 M/sec                    (67,25%)
+         2.534.754      branch-misses             #    0,41% of all branches          (83,67%)
+
+       3,015845582 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/hubble_2.png':
+
+       1100,456325      task-clock (msec)         #    0,371 CPUs utilized          
+               376      context-switches          #    0,342 K/sec                  
+                18      cpu-migrations            #    0,016 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.466.741.484      cycles                    #    3,150 GHz                      (83,14%)
+       588.175.699      stalled-cycles-frontend   #   16,97% frontend cycles idle     (83,45%)
+     1.551.360.423      stalled-cycles-backend    #   44,75% backend  cycles idle     (33,53%)
+     2.512.153.628      instructions              #    0,72  insns per cycle        
+                                                  #    0,62  stalled cycles per insn  (50,35%)
+       593.027.038      branches                  #  538,892 M/sec                    (66,55%)
+         2.360.172      branch-misses             #    0,40% of all branches          (83,33%)
+
+       2,968484324 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 32 ../sample_files/hubble_2.png':
+
+       1101,348145      task-clock (msec)         #    0,371 CPUs utilized          
+               354      context-switches          #    0,321 K/sec                  
+                22      cpu-migrations            #    0,020 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.435.633.964      cycles                    #    3,119 GHz                      (83,30%)
+       742.686.703      stalled-cycles-frontend   #   21,62% frontend cycles idle     (83,81%)
+     1.382.490.729      stalled-cycles-backend    #   40,24% backend  cycles idle     (32,96%)
+     2.529.641.187      instructions              #    0,74  insns per cycle        
+                                                  #    0,55  stalled cycles per insn  (50,15%)
+       592.875.358      branches                  #  538,318 M/sec                    (67,05%)
+         2.420.067      branch-misses             #    0,41% of all branches          (83,46%)
+
+       2,968693002 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/hubble_2.png':
+
+       1119,537325      task-clock (msec)         #    0,375 CPUs utilized          
+               369      context-switches          #    0,330 K/sec                  
+                23      cpu-migrations            #    0,021 K/sec                  
+             3.555      page-faults               #    0,003 M/sec                  
+     3.702.739.501      cycles                    #    3,307 GHz                      (83,31%)
+       761.926.695      stalled-cycles-frontend   #   20,58% frontend cycles idle     (83,57%)
+     1.662.591.561      stalled-cycles-backend    #   44,90% backend  cycles idle     (33,34%)
+     2.538.560.699      instructions              #    0,69  insns per cycle        
+                                                  #    0,65  stalled cycles per insn  (50,03%)
+       595.824.105      branches                  #  532,206 M/sec                    (66,39%)
+         2.462.018      branch-misses             #    0,41% of all branches          (83,25%)
+
+       2,986957026 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 64 ../sample_files/hubble_2.png':
+
+       1120,549006      task-clock (msec)         #    0,375 CPUs utilized          
+               395      context-switches          #    0,353 K/sec                  
+                20      cpu-migrations            #    0,018 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     3.384.846.521      cycles                    #    3,021 GHz                      (83,55%)
+       698.572.931      stalled-cycles-frontend   #   20,64% frontend cycles idle     (83,58%)
+     1.416.648.464      stalled-cycles-backend    #   41,85% backend  cycles idle     (33,16%)
+     2.547.968.172      instructions              #    0,75  insns per cycle        
+                                                  #    0,56  stalled cycles per insn  (50,42%)
+       603.271.429      branches                  #  538,371 M/sec                    (66,94%)
+         2.417.783      branch-misses             #    0,40% of all branches          (83,55%)
+
+       2,988256138 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/hubble_2.png':
+
+       1099,853655      task-clock (msec)         #    0,371 CPUs utilized          
+               395      context-switches          #    0,359 K/sec                  
+                19      cpu-migrations            #    0,017 K/sec                  
+             4.065      page-faults               #    0,004 M/sec                  
+     3.508.373.056      cycles                    #    3,190 GHz                      (83,52%)
+       748.281.725      stalled-cycles-frontend   #   21,33% frontend cycles idle     (83,78%)
+     1.511.101.429      stalled-cycles-backend    #   43,07% backend  cycles idle     (32,93%)
+     2.537.793.323      instructions              #    0,72  insns per cycle        
+                                                  #    0,60  stalled cycles per insn  (49,30%)
+       588.543.572      branches                  #  535,111 M/sec                    (66,83%)
+         2.369.433      branch-misses             #    0,40% of all branches          (83,15%)
+
+       2,968444668 seconds time elapsed
+
+AES device test step 1: SUCCEEDED
+
+ Performance counter stats for './../cuda/aes 128 ../sample_files/hubble_2.png':
+
+       1084,311263      task-clock (msec)         #    0,367 CPUs utilized          
+               380      context-switches          #    0,350 K/sec                  
+                21      cpu-migrations            #    0,019 K/sec                  
+             4.063      page-faults               #    0,004 M/sec                  
+     3.721.126.714      cycles                    #    3,432 GHz                      (83,39%)
+       766.117.373      stalled-cycles-frontend   #   20,59% frontend cycles idle     (83,13%)
+     1.686.388.692      stalled-cycles-backend    #   45,32% backend  cycles idle     (33,92%)
+     2.509.079.285      instructions              #    0,67  insns per cycle        
+                                                  #    0,67  stalled cycles per insn  (51,05%)
+       589.735.062      branches                  #  543,880 M/sec                    (67,32%)
+         3.099.721      branch-misses             #    0,53% of all branches          (83,64%)
+
+       2,952481371 seconds time elapsed
+

@@ -1,0 +1,18 @@
+./../cuda/des: Interrupção
+
+ Performance counter stats for './../cuda/des 8 ../sample_files/hubble_3.tif':
+
+         25,826203      task-clock (msec)         #    0,139 CPUs utilized          
+                15      context-switches          #    0,581 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               627      page-faults               #    0,024 M/sec                  
+        72.221.091      cycles                    #    2,796 GHz                      (80,78%)
+         2.915.898      stalled-cycles-frontend   #    4,04% frontend cycles idle     (84,66%)
+        13.345.984      stalled-cycles-backend    #   18,48% backend  cycles idle     (35,04%)
+        67.210.959      instructions              #    0,93  insns per cycle        
+                                                  #    0,20  stalled cycles per insn  (89,24%)
+        21.519.846      branches                  #  833,256 M/sec                    (91,57%)
+            12.082      branch-misses             #    0,06% of all branches          (93,06%)
+
+       0,186092942 seconds time elapsed
+
