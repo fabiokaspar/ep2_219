@@ -27,11 +27,15 @@ ntreads_max = ""
 
 ###################### parser dos tempos de cada arquivo #############################
 
+
+
 for modo in lista_modos:
 	for alg in lista_algs:
 		lista_arqs = os.listdir("results/"+modo+"/"+alg)
 
 		for filename in lista_arqs:
+			tamArquivo = os.path.getsize ("../sample_files/"+filename[0:-4])
+	
 			arq = open("results/"+modo+"/"+alg+"/"+filename, 'r')
 			fcontent = arq.read()
 			tempos = re.findall(r"\d+[,.]\d+ seconds time elapsed", fcontent)
@@ -61,6 +65,7 @@ for modo in lista_modos:
 
 			title += ('algoritmo: '+alg)
 			title += (';  entrada: '+filename[0:-4])
+			title += (';  size file: '+str(tamArquivo/1000)+' kB')
 
 
 			data_to_plot = []
