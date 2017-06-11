@@ -20,7 +20,23 @@ MODO=('sequencial' 'cuda')
 
 NT_MAX=1024
 
-rm -rf results
+#rm -rf "results"
+#rm -rf "graphics"
+
+mkdir "graphics"
+
+mkdir "graphics/cuda"
+mkdir "graphics/sequencial"
+
+mkdir "graphics/cuda/aes"
+mkdir "graphics/cuda/des"
+mkdir "graphics/cuda/blowfish"
+
+mkdir "graphics/sequencial/aes"
+mkdir "graphics/sequencial/des"
+mkdir "graphics/sequencial/blowfish"
+
+
 mkdir results
 mkdir results/${MODO[0]}
 mkdir results/${MODO[1]}
